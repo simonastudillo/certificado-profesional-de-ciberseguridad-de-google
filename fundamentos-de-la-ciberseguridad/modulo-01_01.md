@@ -67,3 +67,7 @@
 - Construye tu identidad profesional
 - Conéctate con otros estudiantes
 - Actualiza tu perfil
+
+---
+
+## Encuesta de entrada de participantes en el Certificado de Ciberseguridad de Google
