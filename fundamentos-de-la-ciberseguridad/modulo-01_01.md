@@ -55,3 +55,15 @@
 - Más adelante, abordaremos ocho dominios de seguridad
 - A continuación, abordaremos los marcos y controles de seguridad comunes
 - Por último, finalizaremos ​el curso con un análisis de las herramientas ​y los lenguajes de programación más comunes que ​pueden utilizar los analistas de seguridad principiantes
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
