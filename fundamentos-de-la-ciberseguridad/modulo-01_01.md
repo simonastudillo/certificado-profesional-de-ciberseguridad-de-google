@@ -43,3 +43,15 @@
       - Aprenderás sobre los marcos y controles de seguridad que se utilizan para mitigar el riesgo organizativo. Abordarás los principios de la tríada CIA y diversos marcos del Instituto Nacional de Estándares y Tecnología (NIST). Además, explorarás la ética de la seguridad.
    - Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
       - Descubrirás las herramientas más habituales que utilizan los analistas de ciberseguridad para identificar y eliminar riesgos. Aprenderás sobre las herramientas de gestión de información y eventos de seguridad (SIEM), los analizadores de protocolos de red y los lenguajes de programación como Python y SQL.
+
+---
+
+## Bienvenido al módulo 1
+- Este curso le presentará ​el mundo de la seguridad y cómo se usa ​para proteger las operaciones comerciales, los usuarios y los dispositivos, de modo que ​pueda contribuir a la creación ​de una Internet más segura para todos
+- En primer lugar, definiremos la seguridad.
+- ​A continuación, analizaremos las ​responsabilidades laborales comunes de los analistas de seguridad.
+- ​Basándonos en eso, abordaremos ​las habilidades básicas que puede tener un analista de seguridad. 
+- ​Por último, analizaremos el valor de la ​seguridad para proteger a las organizaciones y a las personas.
+- Más adelante, abordaremos ocho dominios de seguridad
+- A continuación, abordaremos los marcos y controles de seguridad comunes
+- Por último, finalizaremos ​el curso con un análisis de las herramientas ​y los lenguajes de programación más comunes que ​pueden utilizar los analistas de seguridad principiantes
