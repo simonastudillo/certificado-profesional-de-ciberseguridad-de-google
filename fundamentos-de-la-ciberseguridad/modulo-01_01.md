@@ -27,3 +27,19 @@
    - Cada día se amplía el acceso global a Internet, introduciendo más dispositivos, más aplicaciones y una cantidad aún mayor de datos en la World Wide Web
    - Como resultado, las amenazas, los riesgos y las vulnerabilidades se están expandiendo y están causando un daño significativo a las organizaciones y a las personas
    - A lo largo del programa, tendrás múltiples oportunidades para desarrollar tus conocimientos y habilidades en ciberseguridad.
+
+---
+
+## Resumen del curso 1
+- En este curso, aprenderás cuáles son las principales responsabilidades laborales y las competencias CORE de quienes trabajan en el ámbito de la ciberseguridad
+- Explorarás los ocho ámbitos de seguridad del Certificado Profesional en Seguridad de Sistemas de Información (CISSP), diversos marcos y controles de seguridad, así como un modelo de seguridad fundamental denominado la tríada de confidencialidad, integridad y disponibilidad (CIA)
+- También te familiarizarás con algunas herramientas habituales que utilizan los analistas de seguridad y que ayudan a proteger tanto a las organizaciones como a las personas.
+- Contenido del curso 1
+   - Módulo 1: Bienvenido al apasionante mundo de la ciberseguridad
+      - ¡Comienza tu andadura en la ciberseguridad! Explorarás el campo de la ciberseguridad y aprenderás cuáles son las responsabilidades laborales de los profesionales de la ciberseguridad.
+   - Módulo 2: La evolución de la ciberseguridad
+      - Explorarás cómo han surgido y evolucionado las amenazas a la ciberseguridad a la par que se ha ido generalizando el uso de los ordenadores. También comprenderás cómo los ciberataques pasados y presentes han influido en el desarrollo del ámbito de la seguridad. Además, obtendrás una visión general de los ocho ámbitos de seguridad.
+   - Módulo 3: Protección frente a amenazas, riesgos y vulnerabilidades
+      - Aprenderás sobre los marcos y controles de seguridad que se utilizan para mitigar el riesgo organizativo. Abordarás los principios de la tríada CIA y diversos marcos del Instituto Nacional de Estándares y Tecnología (NIST). Además, explorarás la ética de la seguridad.
+   - Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
+      - Descubrirás las herramientas más habituales que utilizan los analistas de ciberseguridad para identificar y eliminar riesgos. Aprenderás sobre las herramientas de gestión de información y eventos de seguridad (SIEM), los analizadores de protocolos de red y los lenguajes de programación como Python y SQL.
