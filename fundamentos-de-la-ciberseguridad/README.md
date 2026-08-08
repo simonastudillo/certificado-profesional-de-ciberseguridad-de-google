@@ -1,5 +1,10 @@
 # Fundamentos de la ciberseguridad
 
+- Módulo 1: Bienvenido al apasionante mundo de la ciberseguridad
+- Módulo 2: La evolución de la ciberseguridad
+- Módulo 3: Proteger contra amenazas, Riesgos y vulnerabilidades
+- Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
+
 ## Descripción del curso
 ---
 Este es el primer curso del Certificado en Ciberseguridad de Google. En este curso, los alumnos se familiarizarán con la profesión de la ciberseguridad, incluidas las principales responsabilidades laborales y las habilidades básicas de los analistas de nivel básico; los acontecimientos significativos que condujeron al desarrollo del campo de la ciberseguridad; y la importancia continua de la seguridad para las operaciones de las organizaciones.
