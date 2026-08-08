@@ -17,3 +17,13 @@
 - Aprenderá sobre temas como: conceptos básicos de seguridad; ​dominios de seguridad; seguridad de red; conceptos ​básicos de computación, incluidos Linux y SQL; ​además de comprender los activos ​, las amenazas y las vulnerabilidades
 - Aprenderá sobre la detección y la ​respuesta a incidentes, así como sobre cómo usar ​lenguajes de programación, como Python, ​para realizar tareas de Seguridad comunes
 - No necesita experiencia o conocimientos previos en ​el campo de la Seguridad porque ​este programa de certificación comenzará con lo básico
+
+---
+
+## Visión general del certificado de ciberseguridad de Google
+- aprenderá cómo la ciberseguridad es crucial para las organizaciones y las personas a las que sirven, y desarrollar habilidades relevantes para una futura carrera en el campo
+- Entra en un campo en crecimiento
+   - ¿Por qué hay tanta demanda de habilidades en ciberseguridad? El mundo está experimentando una transformación digital
+   - Cada día se amplía el acceso global a Internet, introduciendo más dispositivos, más aplicaciones y una cantidad aún mayor de datos en la World Wide Web
+   - Como resultado, las amenazas, los riesgos y las vulnerabilidades se están expandiendo y están causando un daño significativo a las organizaciones y a las personas
+   - A lo largo del programa, tendrás múltiples oportunidades para desarrollar tus conocimientos y habilidades en ciberseguridad.
