@@ -155,3 +155,16 @@ Hola Sarah, Alguien acaba de acceder a tu cuenta desde una nueva ubicación. Par
       - A menudo trabajarán con equipos de desarrollo para ​apoyar la seguridad de los productos estableciendo ​procesos y sistemas adecuados para ​satisfacer las necesidades de protección de datos de la organización
    - realizar auditorías de seguridad periódicas
       - Una auditoría de seguridad es ​una revisión de los registros de seguridad de una organización, ​actividades y otros documentos relacionados
+
+---
+
+## Nikki: Un día en la vida de un ingeniero de Seguridad
+- mi función se ​centra más en detectar amenazas internas o actividades sospechosas internas dentro de la empresa
+- ​La razón principal por la que elegí seguir una carrera en ciberseguridad es ​la flexibilidad de la ruta de acceso profesional.
+- ​Una vez que estés en Seguridad, hay muchos campos diferentes en los que puedes sumergirte
+- ¿ ​Un día en la vida como profesional de Seguridad de nivel inicial? ​Puede cambiar día a día, pero tiene dos partes básicas
+   - ​Está el lado de las operaciones, que responde a las detecciones y ​realiza investigaciones
+   - Y luego está la parte del proyecto, en la que trabajas con otros equipos para crear ​nuevas detecciones o mejorar las detecciones actuales
+- el analista ​se centra más en las operaciones y el ingeniero, ​si bien puede realizar operaciones, también crea las detecciones y realiza un trabajo ​más centrado en el proyecto
+- Una de las formas más importantes en las que he tenido un impacto como ​profesional de ciberseguridad principiante es trabajando en los manuales que utiliza nuestro equipo.
+- Un manual de estrategias es una lista de cómo realizar una detección determinada y de ​lo que el analista debe analizar para investigar esos incidentes.
