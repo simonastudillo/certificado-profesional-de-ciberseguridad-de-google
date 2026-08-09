@@ -140,3 +140,18 @@ Hola Sarah, Alguien acaba de acceder a tu cuenta desde una nueva ubicación. Par
 - Por lo tanto, tienes que trabajar bien con tus compañeros de equipo ​para poder construir esa base de conocimientos
 - ​Mi consejo sería que mantuvieras la curiosidad y siguieras aprendiendo, ​especialmente centrándote en tus habilidades técnicas ​y desarrollándolas a lo largo de tu carrera
 - ​Es muy fácil contraer el ​síndrome del impostor en la ciberseguridad porque es muy ​amplio y el dominio de ​todas estas áreas diferentes es el trabajo de toda una vida. 
+
+---
+
+## Responsabilidades de un analista de ciberseguridad de nivel inicial
+- ​La tecnología está cambiando rápidamente y ​también lo hacen las tácticas y técnicas que utilizan los atacantes
+- ​A medida que evoluciona la infraestructura digital, ​se espera que los profesionales de la seguridad aumenten continuamente ​sus habilidades para ​proteger y asegurar la información sensible
+- Los analistas de seguridad son responsables de ​vigilar y proteger la información y los sistemas
+   - proteger los sistemas informáticos y de redes
+      - Si se detecta una amenaza, entonces ​un analista suele ser el primero en responder
+      - ​Los analistas también suelen participar en ejercicios para ​buscar debilidades en los propios sistemas de una organizació
+      - Por ejemplo, un analista de seguridad puede ​contribuir a las pruebas de penetración o al hacking ético
+   - instalar ​software de prevención con el fin de ​identificar riesgos y vulnerabilidades
+      - A menudo trabajarán con equipos de desarrollo para ​apoyar la seguridad de los productos estableciendo ​procesos y sistemas adecuados para ​satisfacer las necesidades de protección de datos de la organización
+   - realizar auditorías de seguridad periódicas
+      - Una auditoría de seguridad es ​una revisión de los registros de seguridad de una organización, ​actividades y otros documentos relacionados
