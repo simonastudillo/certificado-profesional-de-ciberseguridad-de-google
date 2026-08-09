@@ -14,3 +14,12 @@
    - Saber cómo usar las herramientas ​de administración de información y eventos de seguridad, o SIEM. Los profesionales de la seguridad utilizan las herramientas de SIEM para identificar y analizar ​las amenazas, los riesgos y las vulnerabilidades de seguridad
    - Informática forense. ​Al igual que un investigador y ​un científico forense que trabajan en ​el sistema de justicia penal, ​los investigadores forenses digitales ​intentarán identificar, analizar ​y preservar la evidencia criminal dentro de redes ​, computadoras y dispositivos electrónicos
 
+---
+
+## Verónica Mi ruta de acceso para trabajar en ciberseguridad
+- La parte más importante es un trabajo satisfactorio
+- Antes de entrar en mi campo actual, ​no tenía ni idea de lo que era la ciberseguridad
+- ​Alguien sin formación técnica ​puede tener éxito al 100% en ciberseguridad
+- Aprendí muchas habilidades de pensamiento analítico, ​trabajando en una mesa de ayuda, solucionando problemas y depurando errores
+- Se necesitó un montón de mentores para traerme hasta aquí, ​así que no dudes en pedir ayuda
+- Echando la vista atrás en mi carrera, ​ojalá hubiera ​sabido que no tengo que marcar todas las casillas, ​que no tengo que ser un experto en ​la materia para hacer mi tiro, ​y también desearía haber sabido que ​el perfeccionismo puede obstaculizar ​lo que quieres lograr. 
