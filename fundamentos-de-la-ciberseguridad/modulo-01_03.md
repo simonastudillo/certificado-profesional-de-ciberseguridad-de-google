@@ -45,3 +45,20 @@
    - Además de adquirir habilidades que le ayudarán a tener éxito como profesional de la Ciberseguridad, el Certificado de Ciberseguridad de Google le ayuda a prepararse para el [examen CompTIA Security+](https://www.comptia.org/certifications/security), la certificación líder del sector para funciones de Ciberseguridad
    - Obtendrá una doble credencial cuando complete ambos, que podrá compartir con posibles empleadores
    - Después de completar los ocho cursos del Certificado de Ciberseguridad de Google, desbloqueará un descuento del 30% para el examen CompTIA Security+ y materiales de práctica adicionales.
+
+---
+
+## La importancia de la ciberseguridad
+- Las organizaciones y ​entidades gubernamentales desean estas habilidades porque es necesario gestionar el riesgo.
+- ​La seguridad es esencial para garantizar la continuidad empresarial y la ​posición ética de una organización
+- El ​mantenimiento de la Seguridad de una organización tiene implicaciones legales y consideraciones morales
+- Una violación de datos, por ejemplo, ​afecta a todos los miembros de la organización. ​Esto se debe a que las pérdidas o filtraciones de datos pueden afectar a la reputación de una organización ​, así como a la vida y la reputación de sus usuarios y clientes. 
+- Mantener y proteger los ​datos de los usuarios, clientes y proveedores es una parte importante de la prevención de incidentes que puedan ​exponer la información de identificación personal de las personas
+- ​La información de identificación personal, conocida como PII, es cualquier ​información que se utiliza para deducir la identidad de una persona
+- La ​PII incluye el nombre completo, la fecha de nacimiento, la ​dirección física, el número de teléfono, la dirección de correo electrónico, el ​protocolo de Internet o la dirección IP de una persona e información similar.
+- La ​información de identificación personal confidencial, conocida ​como SPII, es un tipo específico de PII que se rige por pautas de manejo más estrictas y ​puede incluir números de Seguridad Social, información médica o ​financiera y datos biométricos, como el reconocimiento facial. 
+- ​Si se roba la PII, esto tiene el potencial de ser significativamente ​más perjudicial para una persona que si se roba la PII
+- ​Los datos de PII y SPII son activos clave que un actor de amenazas buscará ​si una organización sufre una violació
+- ​Cuando la información identificable de una persona se ve comprometida, filtrada ​o robada, el robo de identidad es la principal preocupación
+- El ​robo de identidad es el acto de robar información personal para cometer fraude ​mientras se hace pasar por una víctima
+- ​Y el objetivo principal del robo de identidad es obtener ganancias financieras
