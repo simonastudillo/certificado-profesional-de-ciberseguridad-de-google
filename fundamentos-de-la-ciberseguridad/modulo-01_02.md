@@ -128,3 +128,15 @@ Hola Sarah, Alguien acaba de acceder a tu cuenta desde una nueva ubicación. Par
 > https://socialmedia.com/alerts/login_alerts 
 > https://social-media.com/login
 > http://socialmedia.com/account/verify 
+
+---
+
+## Toni: Mi ruta de acceso a la ciberseguridad
+- Nuestros equipos protegen a Google y ​a sus usuarios de amenazas graves.
+- ​Por lo general, atacantes respaldados por el gobierno, ​operaciones de influencia coordinadas y actores de amenazas ​graves de ciberdelincuencia
+- ​Una de las cosas que tuve que averiguar desde muy temprano en ​este viaje es qué tipo de aprendiz era. ​Trabajo mejor con un estilo de aprendizaje estructurado. 
+- ​Así que recurrir a muchos de ​estos cursos y recursos en línea que tomaban ​este material y lo ​estructuraban desde los primeros principios hasta la aplicación me pareció muy bien. 
+- ​La mayor parte del trabajo de ciberseguridad se aprenderá en ​el trabajo en el ​entorno específico que estás protegiendo.
+- Por lo tanto, tienes que trabajar bien con tus compañeros de equipo ​para poder construir esa base de conocimientos
+- ​Mi consejo sería que mantuvieras la curiosidad y siguieras aprendiendo, ​especialmente centrándote en tus habilidades técnicas ​y desarrollándolas a lo largo de tu carrera
+- ​Es muy fácil contraer el ​síndrome del impostor en la ciberseguridad porque es muy ​amplio y el dominio de ​todas estas áreas diferentes es el trabajo de toda una vida. 
