@@ -74,3 +74,30 @@
 4. Communication: As an analyst prevents and encounters threats, risks, or vulnerabilities, they document and report findings. A report might detail attempts to secure systems, test weak points, or offer solutions for system improvement. When reporting findings, strong communication skills are important.
 5. Understanding programming languages: Analysts may sometimes work with software development teams to analyze and support security, install software, and set up appropriate processes. When involved with software development projects, it can be helpful for an analyst to understand programming languages.
 6. Using SIEM tools: When security analysts need to review vulnerabilities, they conduct a periodic security audit. This is a review of an organization’s records, activities, and related documents. During audits, Security Information and Event Management (SIEM) tools help analysts better understand security threats, risks, and vulnerabilities.
+
+---
+
+## Ponga a prueba sus Conocimientos: Competencias básicas para los profesionales de la ciberseguridad
+1. ¿Cuáles de las siguientes competencias son transferibles, susceptibles de ser aplicadas en casi cualquier campo? Seleccione tres respuestas
+> análisis (Correcta)
+> Resolución de problemas (Correcta)
+> Comunicación escrita y verbal (Correcta)
+> Programación
+
+2. ¿Cuáles de las siguientes competencias son habilidades técnicas necesarias para convertirse en un analista de Seguridad de nivel básico? Seleccione dos respuestas
+> Colaboración
+> Redacción de Regulaciones
+> Programación (Correcta)
+> Análisis de datos (Correcta)
+
+3. Rellene el espacio en blanco: _____ identificar, analizar y preservar las pruebas delictivas dentro de las redes, las computadoras y los dispositivos electrónicos
+> Investigadores forenses digitales (Correcta)
+> Hackers éticos
+> Profesionales de la Inteligencia empresarial
+> analistas del Centro de operaciones de seguridad
+
+4. ¿Qué ejemplos de información de identificación personal sensible (SPII) deben proteger los profesionales de la ciberseguridad? Seleccione dos respuestas
+> Direcciones de correo electrónico
+> Registros A (Correcta)
+> Números de cuenta bancaria (Correcta)
+> Apellidos
