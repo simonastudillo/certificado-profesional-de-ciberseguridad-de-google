@@ -22,3 +22,109 @@
    - analista o especialista en ​ciberseguridad
    - analista de ​centro de operaciones de seguridad o SOC 
    - analista de seguridad de la información.
+
+---
+
+## Descubra el pez
+- Entender el phishing
+   - Antes de comenzar este desafío, es esencial distinguir entre una táctica de phishing (el truco psicológico utilizado) y un indicador técnico (el fallo verificable e infalsificable).
+      - Tácticas de phishing (ingeniería social): Se trata de trucos psicológicos diseñados para manipularle.
+         - Incluyen la creación de un sentido de urgencia ("¡Actúe ahora!"), la creación de miedo ("¡Su cuenta está bloqueada!") o el aprovechamiento de la autoridad (hacerse pasar por un directivo).
+      - Indicadores de phishing (banderas rojas): Son las señales verificables de que el mensaje es malicioso.
+         - Indicadores técnicos: Las banderas más definitivas. Incluyen dominios de correo electrónico del remitente incorrectos (por ejemplo, bank-support.co en lugar de bank.com) o direcciones de enlaces maliciosos que apuntan a un sitio web distinto del indicado (por ejemplo, el texto visible dice bank.com, pero el enlace apunta a scam.net).
+         - Indicadores de contenido: Menos definitivos, pero altamente sospechosos. Incluyen mala gramática, faltas de ortografía, saludos genéricos o solicitudes inusuales (como la compra de tarjetas regalo).
+- Instrucciones para la actividad:
+   - Para las siguientes cuatro preguntas, examinarás un escenario de correo electrónico sospechoso
+   - Su objetivo es encontrar el indicador técnico más sospechoso y definitivo de un intento de phishing, aunque haya otras señales de alarma menos graves.
+   - Proceso previsto:
+      1. Lea el escenario del correo electrónico.
+      2. Evalúe las opciones, centrándose en el  elemento técnico (dominio, enlace).
+      3. Envía tu respuesta para obtener una calificación instantánea y retroalimentación.
+- Escenario
+   - Los correos electrónicos de phishing suelen contener varias "banderas rojas", es decir, señales inusuales que los hacen parecer sospechosos
+   - Algunas banderas rojas son sutiles (como un saludo genérico), mientras que otras son indicadores técnicos definitivos que demuestran que el correo electrónico es malicioso (como un nombre de dominio incorrecto).
+   - En cada una de las preguntas siguientes, el objetivo es encontrar el indicador técnico más sospechoso y definitivo de un intento de phishing.
+
+1. Recibes este correo electrónico que dice ser de tu banco. ¿Qué elemento es el indicador más sospechoso de que se trata de un intento de phishing?
+```text
+Asunto del correo electrónico: ALERTA: Se ha detectado un inicio de sesión no autorizado en su cuenta bancaria 
+
+FROM: 'Bank Security' security@yourbank-support.co 
+
+Date: 13 de agosto de 2025 
+
+Cuerpo: 
+
+Estimado cliente,
+
+Hemos detectado un intento sospechoso de acceso a su cuenta desde un dispositivo no reconocido. Por su seguridad, hemos bloqueado temporalmente su cuenta.
+
+Haga clic en el siguiente enlace para verificar su identidad y desbloquear su cuenta.
+
+DESBLOQUEAR MI CUENTA
+
+Muchas gracias,
+
+Su equipo de seguridad bancaria
+```
+> El texto del enlace "DESBLOQUEAR MI CUENTA" (Incorrecto)
+> La frase "bloqueó temporalmente su cuenta"  (Incorrecto)
+> La dirección de correo electrónico del remitente: 'security@yourbank-support.co' (Correcto)
+> El saludo "Estimado cliente" (Incorrecto)
+
+2. Recibes un correo electrónico de tu operador de telefonía móvil sobre una "actualización gratuita del teléfono". El mensaje contiene varios errores ortográficos y gramaticales. ¿Cuál de las siguientes opciones describe mejor las señales de alarma que indican que se trata de un intento de phishing?
+```text
+Asunto del correo electrónico: ¡Noticias emocionantes! ¡Su actualización gratuita a un nuevo teléfono! 
+
+De: 'Cellular Service' no-reply@cellularservice.pro 
+
+Date: 13 de Agosto de 2025 
+
+Cuerpo: 
+
+Felicidades, apreciado cliente Usted ha sido elegido para una actualización gratuita a nuestra nueva línea de teléfonos. Para recibir su nuevo teléfono, sólo tiene que rellenar el formulario haciendo clic en el enlace de abajo. RECLAME SU ACTUALIZACIÓN AHORA (http://freeprhone-upgrade.com)
+```
+> Le pide que haga clic en un enlace para reclamar su recompensa. (Incorrecto)
+> Un saludo genérico como "apreciado cliente" (Incorrecto)
+> Errores tipográficos, ortográficos y gramaticales. (Correcto)
+> Una sensación de urgencia (date prisa para conseguir tu teléfono gratis). (Incorrecto)
+
+3. Recibe un correo electrónico de un compañero de trabajo pidiéndole ayuda. El mensaje parece extraño. ¿Cuál es la táctica de phishing más probable?
+```text
+Asunto del correo electrónico: Necesito tu ayuda con un pago rápido
+
+FROM: 'Your Manager' <manager.name@gmail.com>
+
+Date: 13 de agosto de 2025
+
+Cuerpo:
+
+Hola equipo,
+
+Estoy en una reunión ahora mismo y necesito urgentemente que compréis unas tarjetas regalo para un cliente. ¿Podríais enviarme los detalles lo antes posible? Os lo reembolsaré más tarde.
+
+Muchas gracias,
+
+Nombre del gerente
+```
+> El correo electrónico es demasiado corto e informal.
+> El nombre del remitente es "Su jefe" (Incorrecto)
+> La solicitud de un pago rápido e inusual con tarjetas regalo. (Correcto)
+> Asunto: "Necesito tu ayuda"
+
+4. Recibes una alerta de seguridad de una red social. Pasa el ratón por encima del enlace "Verifique su cuenta". ¿Cuál de estas direcciones de enlace es un signo definitivo de un intento de phishing?
+```text
+Asunto del correo electrónico: Alerta de seguridad: Hemos detectado un inicio de sesión inusual 
+
+FROM: 'Redes sociales' noreply@socialmedia.com 
+
+Date: 13 de agosto de 2025 
+
+Cuerpo: 
+
+Hola Sarah, Alguien acaba de acceder a tu cuenta desde una nueva ubicación. Para proteger tu cuenta, haz clic inmediatamente en el siguiente enlace. [Verificar su cuenta]
+```
+> http://login-security.net/socialmedia/verify (Correcto)
+> https://socialmedia.com/alerts/login_alerts 
+> https://social-media.com/login
+> http://socialmedia.com/account/verify 
