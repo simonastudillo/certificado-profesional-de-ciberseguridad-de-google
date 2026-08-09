@@ -62,3 +62,15 @@
 - ​Cuando la información identificable de una persona se ve comprometida, filtrada ​o robada, el robo de identidad es la principal preocupación
 - El ​robo de identidad es el acto de robar información personal para cometer fraude ​mientras se hace pasar por una víctima
 - ​Y el objetivo principal del robo de identidad es obtener ganancias financieras
+
+---
+
+## Explore: Mantener la seguridad de las organizaciones
+- Explore how entry-level security analysts use a range of skills to help keep organizations secure.
+- Select the label in each infographic to learn about the skills a security analyst may use on the job to help keep an organization secure.
+1. Analytical thinking: Security analysts often use analytical thinking, which means to think carefully and thoroughly. Analysts use this skill when monitoring and securing computer and network systems, responding to potential threats, defining system privileges, and determining ways to mitigate risk.
+2. Collaboration: Collaboration means working with stakeholders and other team members. Security analysts often use this skill when responding to an active threat. They'll work with others when blocking unauthorized access and ensuring any compromised systems are restored.
+3. Malware prevention: When a specific threat or vulnerability is identified, an analyst might install prevention software, which is software that works to proactively prevent a threat from occurring. Because malware is designed to harm devices or networks, malware prevention is essential.
+4. Communication: As an analyst prevents and encounters threats, risks, or vulnerabilities, they document and report findings. A report might detail attempts to secure systems, test weak points, or offer solutions for system improvement. When reporting findings, strong communication skills are important.
+5. Understanding programming languages: Analysts may sometimes work with software development teams to analyze and support security, install software, and set up appropriate processes. When involved with software development projects, it can be helpful for an analyst to understand programming languages.
+6. Using SIEM tools: When security analysts need to review vulnerabilities, they conduct a periodic security audit. This is a review of an organization’s records, activities, and related documents. During audits, Security Information and Event Management (SIEM) tools help analysts better understand security threats, risks, and vulnerabilities.
