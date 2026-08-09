@@ -191,3 +191,30 @@ Hola Sarah, Alguien acaba de acceder a tu cuenta desde una nueva ubicación. Par
    - Automatización de tareas repetitivas (por ejemplo, buscar en una Lista de dominios maliciosos)
    - Revisión del tráfico web
    - Alerta de actividades sospechosas
+
+---
+
+## Ponga a prueba sus Conocimientos: Introducción a la ciberseguridad
+1. Rellene el espacio en blanco: La ciberseguridad es la práctica de garantizar _____ protegiendo las redes, los dispositivos, las personas y los datos de accesos no autorizados o de explotaciones delictivas.
+> cumplimiento normativo, instrucciones y exactitud
+> confianza de los clientes, aumento de los Ingresos y progreso
+> confidencialidad, integridad y disponibilidad de la Información (Correcto)
+> continuidad, infraestructura y consecución de los objetivos empresariales
+
+2. ¿Cuáles son las principales responsabilidades de un analista de Seguridad de nivel básico? Seleccione tres respuestas.
+> Crear leyes de cumplimiento normativo
+> Monitorear sistemas (Correcto)
+> Proteger la Información (Correcto)
+> Búsqueda de debilidades (Correcto)
+
+3. Rellene el espacio en blanco: La realización de _____ permite a los profesionales de la Seguridad revisar los Registros de Seguridad de una organización, sus actividades y los documentos relacionados.
+> desarrollo de software
+> pruebas de penetración
+> piratería ética
+> auditorías de seguridad (Correcto)
+
+4. ¿De qué manera aportan valor los equipos de Seguridad a una organización? Seleccione dos respuestas.
+> Proteger contra las amenazas externas e internas (Correcto)
+> Lograr el cumplimiento normativo (Correcto)
+> Aumento de los gastos operativos
+> Reducción de la productividad del negocio (Business-to-Business)
