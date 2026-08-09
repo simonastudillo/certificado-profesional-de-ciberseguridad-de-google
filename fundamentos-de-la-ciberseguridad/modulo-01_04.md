@@ -114,3 +114,14 @@
 > Un ejemplo de PII es la fecha de nacimiento de una persona. (Correcta)
 > Tanto la PII como la SPII son vulnerables al robo de identidad. (Correcta)
 > Un ejemplo de SPII es la información financiera de alguien. (Correcta)
+
+---
+
+## Consigue tu Certificado de Ciberseguridad de Google
+- Los expertos de Google han creado este programa ​para ayudarte a desarrollar las habilidades que te prepararán para el mundo laboral
+- Esto incluye una credencial de Google reconocida en el sector ​que podrás añadir a tu currículum ​y a tus perfiles profesionales, como LinkedIn.
+- ​Además, recibirás un descuento ​para obtener la certificación CompTIA Security+, ​lo que demuestra aún más tus habilidades en ciberseguridad ​y te ayuda a destacar ante los empleadores. 
+- Identificarás tus habilidades transferibles, ​actualizarás tu currículum para distintas funciones, ​y practicarás entrevistas, ​todo ello con la ayuda de la IA
+- En primer lugar, mantente al día con los plazos, ​especialmente en estas primeras semanas. ​Los alumnos que lo hacen tienen casi el doble de probabilidades ​de completar su certificado
+- En segundo lugar, únete a la comunidad de alumnos desde el primer momento
+- Y, por último, no te desanimes si te enfrentas a dificultades. ​Son cosas que pasan. 
