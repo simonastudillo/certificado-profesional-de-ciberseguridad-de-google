@@ -34,3 +34,34 @@
 - El programa, sin embargo, no supo ​llevar la cuenta de las computadoras que ya había ​comprometido y continuó reinstalándose ​hasta que las computadoras se quedaron sin memoria y se bloquearon
 - Este ataque costó millones de dólares en daños debido a ​las interrupciones del negocio y a los esfuerzos ​requeridos para eliminar el gusano
 - Los Equipos de Respuesta a Emergencias Informáticas, ​conocidos como CERTs®, se ​establecieron para responder a incidentes de seguridad informática
+
+---
+
+## Ataques en la era digital
+- ​Dado que el software malicioso podía propagarse a través de Internet, ​los actores de amenazas ya no necesitaban utilizar discos físicos para propagar virus
+- Para comprender mejor los ataques en la era digital, ​hablaremos de dos ataques notables que se basaron en Internet: ​el ataque LoveLetter y la brecha de Equifax
+- En el año 2000, Onel De Guzman creó el software malicioso LoveLetter ​para robar credenciales de inicio de sesión en Internet
+- Este ataque se propagó rápidamente y se aprovechó de personas que no ​habían desarrollado una sana desconfianza hacia los correos electrónicos no solicitados
+- Los usuarios recibían un correo electrónico con el asunto "Te quiero". ​Cada correo electrónico contenía un archivo adjunto con la etiqueta "Love Letter For You." 
+- ​Cuando se abría el archivo adjunto, el software malicioso escaneaba la libreta de direcciones del usuario. ​A continuación, se enviaba automáticamente a cada persona de la lista e ​instalaba un programa para recopilar información del usuario y contraseñas.
+- La LoveLetter acabó infectando 45 millones de computadoras en todo el mundo ​y se cree que causó más de 10.000 millones de dólares en daños
+- El ataque a la LoveLetter es el primer ejemplo de ingeniería social.
+- ​La ingeniería social es una técnica de manipulación que explota ​el error humano para obtener información privada, acceso u objetos de valor.
+- ​Después de la LoveLetter, ​los atacantes comprendieron el poder de la ingeniería social. 
+- Mucha gente prioriza ahora la comodidad sobre la privacidad
+- La contrapartida de este cambio evolutivo es que estas herramientas pueden conducir a ​un aumento de la vulnerabilidad, si la gente no las utiliza adecuadament
+- Como profesional de la Seguridad, su función es identificar y ​gestionar el uso inadecuado de la tecnología que pueda poner en peligro a su organización y ​a todas las personas asociadas a ella
+- Una forma de salvaguardar su organización es llevar a cabo entrenamientos internos regulares, ​que a usted, como futuro analista de Seguridad, se le puede pedir que dirija o en los que participe.
+- Hoy en día, es habitual que los ​empleados reciban formación sobre cómo identificar los ataques de ingeniería social, ​específicamente, el phishing a través de los correos electrónicos que reciben
+- El phishing es el uso de las comunicaciones digitales para engañar a las personas para que ​revelen datos sensibles o implementen software malicioso. 
+- ​En 2017, ​los atacantes se infiltraron con éxito en la agencia de información crediticia, Equifax
+- Esto dio lugar a una de las mayores filtraciones de datos conocidas de información confidencial
+- Se robaron más de 143 millones de registros de clientes, y ​la filtración afectó aproximadamente al 40% de todos los estadounidenses
+- Los registros incluían información de identificación personal, como ​números de la seguridad social, fechas de nacimiento, números de carné de conducir, ​direcciones particulares y números de tarjetas de crédito
+- ​Desde el punto de vista de la seguridad, ​la filtración se produjo debido a múltiples fallos por parte de Equifax
+- No fue sólo una vulnerabilidad la que aprovecharon los atacantes, ​fueron varias. 
+- ​La empresa no tomó las medidas necesarias para solucionar las múltiples ​vulnerabilidades conocidas en los meses previos a la filtración de datos.
+- Al final, Equifax llegó a un acuerdo con el gobierno de EE.UU. y ​pagó más de 575 millones de dólares para resolver las quejas de los clientes y cubrir las multas exigidas.
+- Como futuro profesional de la Seguridad, adaptarse y educarse ​constantemente sobre las tácticas y técnicas de los agentes de amenazas formará parte de su trabajo. 
+- ​Al observar tendencias, patrones y metodologías similares, ​podrá identificar una posible brecha y limitar los daños futuros
+- Por último, comprender cómo afecta la seguridad a la vida de las personas es ​un buen recordatorio de por qué el trabajo que va a realizar es tan importante 
