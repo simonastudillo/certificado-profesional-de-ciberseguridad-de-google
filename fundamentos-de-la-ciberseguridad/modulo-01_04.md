@@ -5,3 +5,8 @@
 - hablamos de diferentes responsabilidades laborales, ​como gestionar las amenazas ​e instalar software de prevención
 - ​También introdujimos algunas habilidades básicas importantes, ​como la colaboración y la informática forense
 - Terminamos hablando del valor de la Seguridad ​y de cómo respalda las funciones críticas de la empresa
+
+---
+
+## Glosario de términos del módulo 1
+- El glosario completo se encuentra [aquí](./README.md#glosario)
