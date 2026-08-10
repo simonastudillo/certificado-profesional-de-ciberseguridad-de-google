@@ -48,6 +48,23 @@
 ---
 
 ## Diseño seguro
-<img src="image-2.png" alt="CID" width="400"/>
 - La tríada CID de la CIA es un ​modelo fundamental que ayuda a informar cómo ​las organizaciones consideran el riesgo al establecer sistemas y políticas de Seguridad
-- 
+
+<img src="image-2.png" alt="CID" width="400"/>
+
+- CID es sinónimo de confidencialidad ​, integridad y disponibilidad
+- La confidencialidad significa que solo los usuarios autorizados ​pueden acceder a activos o datos específicos. 
+   - ​Por ejemplo, se deben ​establecer controles de acceso estrictos que definan quién debe y quién no debe tener acceso a los datos para garantizar que ​los datos confidenciales permanezcan seguros
+- La integridad significa que los datos son ​correctos, auténticos y confiables
+   - Para mantener la integridad, ​los profesionales de Seguridad pueden usar una forma de ​protección de datos, como la ​encriptación, para evitar que los datos sean manipulados
+- ​Disponibilidad significa que los datos son ​accesibles para quienes están autorizados a acceder a ellos
+- Definamos un término que surgió durante ​nuestra discusión sobre la tríada CID de la CIA: ​recurso.
+   - ​Un recurso es un elemento que se percibe como valioso para una organización. ​Y el valor está determinado por el costo ​asociado con el recurso en cuestión. 
+   - ​Por ejemplo, una aplicación que almacena datos confidenciales, ​como números de Seguridad Social o cuentas bancarias, ​es un recurso valioso para una organización. 
+   - Conlleva más riesgos y, por lo tanto, requiere ​controles de Seguridad más estrictos en ​comparación con un sitio web que comparte contenido de noticias disponible públicamente
+- Marco específico desarrollado por ​el ​Instituto Nacional de Estándares y Tecnología, con sede en EE. UU.: ​el Marco de Ciberseguridad, también ​conocido como NIST CSF
+   - ​El marco de ciberseguridad del NIST es ​un marco voluntario que consiste en estándares ​, directrices y mejores prácticas ​para gestionar el riesgo de ciberseguridad
+   - Es importante familiarizarse con este framework ​porque los equipos de Seguridad lo utilizan como ​base para gestionar los riesgos a corto y largo plazo. 
+- Es ​importante comprender los diferentes motivos que puede tener un actor de amenazas, además de identificar los activos más valiosos de su organización
+- Algunos de los actores de amenazas más peligrosos ​a tener en cuenta son los empleados descontentos. ​Son los más peligrosos porque a menudo tienen ​acceso a información confidencial ​y saben dónde encontrarla
+- Para reducir este tipo de riesgo, los ​profesionales de Seguridad utilizarían ​el principio de disponibilidad, ​así como las directrices organizativas ​basadas en marcos para garantizar que ​los miembros del personal solo puedan acceder a ​los datos que necesitan para realizar su trabajo
