@@ -149,3 +149,33 @@
 - ​Las normativas y leyes que rigen el tratamiento de la PII son muy complejas, ​en todo el mundo, países, estados, ​condados la están regulando a diferentes niveles
 - Es importante entender y ser consciente de que estas leyes existen.
 - Sin embargo, si necesita hacer una pregunta sobre una ley específica, ​es importante buscar el consejo de un asesor legal para esa jurisdicción en particular
+
+---
+
+## Ponga a prueba sus Conocimientos: Marcos y controles
+
+1. Rellene el espacio en blanco: Un documento de seguridad _____ es un conjunto de directrices que se utilizan para elaborar planes que ayuden a mitigar los riesgos y las amenazas para los datos y la privacidad
+- [ ] control
+- [ ] reglamento
+- [ ] ciclo de vida
+- [x] framework
+> Los marcos de seguridad son directrices que se utilizan para elaborar planes que ayuden a mitigar los riesgos y las amenazas para los datos y la privacidad.
+
+2. Una organización requiere que sus empleados completen cada año un nuevo programa de Entrenamiento en Privacidad de los Datos para reducir el riesgo de una violación de datos. ¿De qué es un ejemplo este requisito de Entrenamiento?
+- [x] Controles de seguridad
+- [ ] Marco de Ciberseguridad (CSF)
+- [ ] Confidencialidad de los datos
+- [ ] Información de identificación personal (PII)
+> Controles de seguridad son salvaguardas diseñadas para reducir riesgos de Seguridad específicos.
+
+3. ¿Cuál es un Modelo fundacional que informa sobre cómo las organizaciones tienen en cuenta el Riesgo a la hora de establecer sistemas y políticas de Seguridad?
+- [ ] Ley del Reglamento General de Protección de Datos (GDPR)
+- [x] Tríada de confidencialidad, integridad y disponibilidad (CID)
+- [ ] Información de identificación personal sensible (SPII)
+- [ ] Marco de Ciberseguridad (CSF)
+> La tríada CID es un Modelo fundacional que ayuda a informar sobre cómo las organizaciones consideran el riesgo cuando establecen sistemas y políticas de Seguridad.
+
+4. Los Equipos de Seguridad utilizan el Marco de Ciberseguridad (CSF) del NIST como base para gestionar los riesgos a corto y largo plazo.
+- [x] Verdadero
+- [ ] Falso
+> Los Equipos de Seguridad utilizan el NIST CSF como referencia para gestionar los riesgos a corto y largo plazo. El CSF es un framework voluntario que consiste en estándares, directrices y mejores prácticas para gestionar el riesgo de la ciberseguridad.
