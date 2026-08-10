@@ -28,4 +28,40 @@
       - En lugar de guardar los archivos en un área designada, ​los archivos se dejan en el escritorio del miembro del personal, sin supervisión
       - Cuando el empleado regresa, faltan los archivos
       - El miembro del personal acaba de infringir varias normas de cumplimiento y ​sus acciones fueron poco éticas e ilegales, ya que su negligencia probablemente haya provocado ​la pérdida de datos privados de pacientes y hospitales
-   - los profesionales de Seguridad deben seguir pensando críticamente sobre ​cómo responder a los ataques
+- los profesionales de Seguridad deben seguir pensando críticamente sobre ​cómo responder a los ataques
+
+---
+
+## Conceptos éticos que guían las decisiones sobre ciberseguridad
+- La Ética de la seguridad son directrices para tomar decisiones adecuadas como profesional de la Seguridad
+- Ser ético requiere que los profesionales de la seguridad permanezcan imparciales y mantengan la seguridad y confidencialidad de los datos privados
+- Tener un fuerte sentido de la ética puede ayudarle a orientar sus decisiones como profesional de la ciberseguridad para que sea capaz de mitigar las amenazas planteadas por las tácticas y técnicas en constante evolución de los agentes de amenaza
+- Preocupaciones éticas y leyes relacionadas con los contraataques
+   - Punto de vista de Estados Unidos sobre los contraataques
+      - En Estados Unidos, la implementación de un contraataque contra un Agente de amenaza es ilegal debido a leyes como la Ley de Fraude y Abuso Informático de 1986 y la Ley de Intercambio de Información sobre Ciberseguridad de 2015, entre otras
+      - Sólo se puede defender
+      - El acto de contraatacar en EE.UU. se percibe como un acto de vigilantismo
+      - Un vigilante de es una persona que no pertenece a las fuerzas del orden y que decide detener un delito por su cuenta
+      - Y dado que los actores de la amenaza son delincuentes, los contraataques pueden conducir a una mayor escalada del ataque, lo que puede causar aún más daños y perjuicios.
+      - Un hacktivista es una persona que utiliza la piratería informática para lograr un objetivo político.
+      - El objetivo político puede ser promover el cambio social o la desobediencia civil.
+   - Punto de vista internacional sobre los contraataques
+      - La Corte Internacional de Justicia (CIJ), que actualiza sus orientaciones con regularidad, afirma que una persona o un grupo puede contraatacar si:
+         - El contraataque sólo afectará a la parte que atacó primero.
+         - El contraataque es una comunicación directa en la que se pide al atacante inicial que se detenga.
+         - El contraataque no agrava la situación.
+         - Los efectos del contraataque pueden invertirse.
+      - Las organizaciones no suelen contraatacar porque los escenarios y parámetros anteriores son difíciles de medir. 
+      - Hay mucha incertidumbre sobre lo que es lícito y lo que no, y a veces los resultados negativos son muy difíciles de controlar
+      - Las acciones de contraataque suelen conducir a un resultado peor, sobre todo cuando no se es un profesional experimentado sobre el terreno.
+   - Principios éticos y metodologías
+      - Debido a que los contraataques son generalmente desaprobados o ilegales, el ámbito de la seguridad ha creado marcos y controles - como la tríada Confidencialidad, Integridad y Disponibilidad (CID) y otros discutidos anteriormente en el programa - para abordar las cuestiones de confidencialidad, protección de la privacidad y las leyes
+      - Para comprender mejor la relación entre estas cuestiones y las obligaciones éticas de los profesionales de la Ciberseguridad, revise los siguientes conceptos clave en su relación con el uso de la ética para proteger a las organizaciones y a las personas a las que sirven. 
+         - Confidencialidad significa que sólo los usuarios autorizados pueden acceder a recursos o Datos específicos. La confidencialidad en su relación con la ética profesional significa que debe haber un alto nivel de respeto a la privacidad para salvaguardar los activos y datos privados.
+         - Protección de la privacidad significa salvaguardar la información personal de usos no autorizados. Información de identificación personal (PII) e información de identificación personal sensible (SPII) son tipos de datos personales que pueden causar daños a las personas si son robados. Datos PII es cualquier información utilizada para inferir la identidad de un individuo, como su nombre y número de teléfono. Datos SPII es un tipo específico de PII que cae bajo directrices de manejo más estrictas, incluyendo números de seguridad social y números de tarjetas de crédito. 
+         - Las leyes son normas reconocidas por una comunidad y aplicadas por una entidad gobernante. Como profesional de la seguridad, tendrá la obligación ética de proteger a su organización, su infraestructura interna y a las personas relacionadas con ella. Para ello:
+            - Debe permanecer imparcial y realizar su trabajo de forma honesta, responsable y con el máximo respeto a la ley.
+            - Sea transparente y justo, y confíe en las pruebas.
+            - Asegúrese de que se implica de forma coherente en el trabajo que realiza, para poder abordar de forma adecuada y ética los problemas que surjan.
+            - Manténgase informado y esfuércese por mejorar sus conocimientos, de modo que pueda contribuir a mejorar el panorama cibernético. 
+- como ejemplo, considere la Ley de Transferencia y Responsabilidad de los Seguros Médicos (HIPAA), que es una ley federal estadounidense establecida para proteger la información sanitaria de los pacientes, también conocida como PHI, o información sanitaria protegida. Esta ley prohíbe que la información de los pacientes se comparta sin su consentimiento. Por lo tanto, como profesional de la seguridad, podría ayudar a garantizar que la organización para la que trabaja cumple con su obligación tanto legal como ética de informar a los pacientes de una infracción si sus datos sanitarios quedan expuestos.
