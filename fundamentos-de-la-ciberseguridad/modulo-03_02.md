@@ -86,3 +86,16 @@
 4. You work as an entry-level analyst for a pharmaceutical company. You receive SIEM tool alerts about unusual employee activity. You check their account activity and observe them copying confidential files to an external folder linked to an unknown destination.
 - [x] Follow provided procedures to address the issue
 > The ethical response is to follow the organization's procedures to address the issue and maintain confidentiality
+
+---
+
+## Holly: La importancia de la Ética como profesional de la ciberseguridad
+- La ética es realmente el quid de la ciberseguridad, ​necesitas ser capaz de ser ético en todas ​tus acciones para ser un profesional de la ciberseguridad. 
+- ​Ejemplos de comportamiento poco ético son ​por lo general, honestamente, sólo una ligera pereza, ​la gente que toma atajos y no ​piensa realmente en las consecuencias de sus acciones
+- Así que, ciertamente, cuando la gente comparte contraseñas de ​sistemas o da información privada, ​o busca en los sistemas para ​su propia información personal ​o propósitos sobre gente que conoce o sobre celebridades
+- Una de las situaciones más difíciles a las que me he enfrentado en ​mi carrera tecnológica relacionada ​con la Ética fue poco después del 11-S, ​el jefe del jefe de mi jefe vino a verme ​con un montón de palabras clave que estaban claramente ​relacionadas con el ataque en ​Nueva York y me pidió que consultara la base de datos que yo ​administraba y que tenía los mensajes de texto de todo el mundo de ​toda la empresa de telecomunicaciones ​sin nada por escrito y sin una orden judicial
+- Estaba en una posición muy incómoda para decirle ​a alguien con tanto más rango que yo ​que no me sentía cómodo haciendo eso
+- Le sugerí que me trajera algo por escrito para ​hacerlo y ​encontró a otra persona que lo hizo por él
+- Cuando te enfrentas a una de estas decisiones difíciles, ​es bueno pensar en cuáles serían ​las consecuencias de tu decisión
+- Mi aliento a aquellos de ustedes que están tomando ​este Programa es que las recompensas que ​obtienen por ayudar a proteger a su empresa o a sus usuarios o ​a su organización de los ciberdelincuentes es realmente grande. 
+- ​Logramos ser los buenos y ayudar ​a proteger a nuestra industria y ​a nuestros clientes de los ciberataques ​y de los ciberdelincuentes. Eso es gratificante. 
