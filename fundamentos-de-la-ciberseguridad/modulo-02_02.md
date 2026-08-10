@@ -113,3 +113,45 @@
    - Los ataques criptográficos pertenecen al **dominio de la Comunicación y la Seguridad de redes.**
 
 >[!TIP] Si no puede encontrar un término en el glosario del NIST, introduzca el término de búsqueda apropiado (por ejemplo, "ataque de cumpleaños a la ciberseguridad") en su motor de búsqueda preferido para localizar la definición en otra fuente fiable, como un sitio .edu o .gov.
+
+---
+
+## Comprender a los atacantes
+- Como recordatorio, un actor de amenaza es cualquier persona o grupo que presenta un riesgo para la Seguridad.
+- En esta lectura, aprenderá sobre los diferentes tipos de actores de amenazas
+- También aprenderá sobre sus motivaciones, intenciones y cómo han influido en la industria de la Seguridad.
+- Tipos de agentes de amenaza
+1. Amenaza persistente avanzada
+   - Las amenazas persistentes avanzadas (APT) tienen una gran experiencia en acceder a la red de una organización sin autorización
+   - Las APT tienden a investigar sus objetivos (por ejemplo, grandes empresas o entidades gubernamentales) con antelación y pueden permanecer sin ser detectadas durante un largo periodo de tiempo
+   - Sus intenciones y motivaciones pueden incluir:
+      - Dañar infraestructuras críticas, como la red eléctrica y los Recursos naturales
+      - Obtener acceso a la propiedad intelectual, como secretos comerciales o patentes
+2. Amenazas internas
+   - Las amenazas internas abusan de su acceso autorizado para obtener Datos que pueden perjudicar a una organización
+   - Sus intenciones y motivaciones pueden incluir
+      - Sabotaje
+      - Corrupción
+      - Espionaje
+      - Acceso no autorizado o filtración de Datos
+3. Hacktivistas
+   - Los Hacktivistas son Agentes de amenaza impulsados por una agenda política
+   - Abusan de la tecnología digital para lograr sus objetivos, que pueden incluir:
+      - Manifestaciones
+      - Propaganda
+      - Campañas de cambio social
+      - Fama
+- Tipos de hacker
+   - Un hacker es cualquier persona que utiliza ordenadores para acceder a sistemas informáticos, redes o datos. 
+   - Existen tres categorías principales de hackers:
+      - Los hackers autorizados también se denominan hackers éticos. Siguen un Código Ético y se adhieren a la ley para llevar a cabo evaluaciones de riesgos organizativos. Están motivados para salvaguardar a las personas y a las organizaciones de los agentes de amenaza maliciosos.
+      - Los hackers semiautorizados se consideran investigadores. Buscan vulnerabilidades pero no se aprovechan de las que encuentran.
+      - Los hackers no autorizados también se denominan hackers no éticos. Son Agentes de amenaza maliciosos que no siguen ni respetan la ley. Su objetivo es recopilar y vender Datos confidenciales para obtener beneficios económicos.
+   - Los Agentes de amenaza nuevos y no cualificados tienen varios objetivos, entre ellos:
+      - Aprender y mejorar sus habilidades de pirateo
+      - Buscar venganza
+      - Explotar las debilidades de Seguridad mediante el uso de software malicioso, secuencias de comandos de programación y otras tácticas.
+   - Otros tipos de hackers no están motivados por ninguna agenda en particular aparte de completar el trabajo para el que fueron contratados
+   - Estos tipos de hackers pueden considerarse hackers no éticos o éticos
+   - Se sabe que trabajan en tareas tanto ilegales como legales a cambio de una remuneración.
+   - También hay hackers que se consideran vigilantes. Su principal objetivo es proteger al mundo de los hackers poco éticos.
