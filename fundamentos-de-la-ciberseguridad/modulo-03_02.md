@@ -65,3 +65,24 @@
             - Asegúrese de que se implica de forma coherente en el trabajo que realiza, para poder abordar de forma adecuada y ética los problemas que surjan.
             - Manténgase informado y esfuércese por mejorar sus conocimientos, de modo que pueda contribuir a mejorar el panorama cibernético. 
 - como ejemplo, considere la Ley de Transferencia y Responsabilidad de los Seguros Médicos (HIPAA), que es una ley federal estadounidense establecida para proteger la información sanitaria de los pacientes, también conocida como PHI, o información sanitaria protegida. Esta ley prohíbe que la información de los pacientes se comparta sin su consentimiento. Por lo tanto, como profesional de la seguridad, podría ayudar a garantizar que la organización para la que trabaja cumple con su obligación tanto legal como ética de informar a los pacientes de una infracción si sus datos sanitarios quedan expuestos.
+
+---
+
+## Práctica: Ética para profesionales de la ciberseguridad
+- Explore a number of scenarios that you might encounter as a security analyst, and consider how you would respond to security incidents based on your understanding of security ethics.
+- Explore security ethics: Review the scenario and identify the best response by selecting an answer from the list.
+1. You work for a hospital as a security analyst. One day, you log into your work computer and see a ransom note displayed on your screen. Access to files and applications is locked. You realize this is a ransomware attack.
+- [x] Inmediatly report to the supervisor
+> Ethical principles dictate that you follow the law as well as the standards and procedures established by your organization.
+
+2. A doctor you work with claims to have laptop performance issues, so you try to identify the problem. As you’re working, you notice the doctor’s laptop has unsecured patient files visible on-screen instead of within the medical practice’s secure software.
+- [x] Inmediatly secure the patient files
+> Unsecured patient files violate compliance standards, legal security ethics, and HIPAA regulations.
+
+3. You work for a medical device company as an entry-level security analyst. Your supervisor has asked you to securely dispose of old developer laptops, and tells you they may contain PII (personally identifiable information).
+- [x] Remove the laptop hard drives and irreversibly erase all data
+> 
+
+4. You work as an entry-level analyst for a pharmaceutical company. You receive SIEM tool alerts about unusual employee activity. You check their account activity and observe them copying confidential files to an external folder linked to an unknown destination.
+- [x] Follow provided procedures to address the issue
+> The ethical response is to follow the organization's procedures to address the issue and maintain confidentiality
