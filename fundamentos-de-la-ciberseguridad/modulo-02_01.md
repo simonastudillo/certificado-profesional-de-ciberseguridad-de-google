@@ -126,3 +126,16 @@
 - Watering hole attack: An attack in which a threat actor compromises a website frequently visited by a specific group of users
 - Physical social engineering: An attack in which a threat actor impersonates an employee, customer, or vendor to obtain unauthorized access to a physical location
 - USB baiting: An attack in which a threat actor strategically leaves a malware USB stick for an employee to find and unknowingly infect a network
+
+---
+
+## Sean: Mantenga la calma durante una filtración de datos
+- Durante su primera violación de datos, lo ​más importante que puede ​hacer es mantener la calma
+- Todos a nuestro alrededor se van a volver locos.
+- Si estás en ​el equipo de Seguridad y estás gestionando el incidente, ​tienes que ser legítimamente el tipo guay de la sala. 
+- Sé esa persona que tiene la pausa en la conversación. 
+- Lo primero que va a ​hacer es contener la brecha
+- Si todavía tiene hemorragias de datos, ​siga sus progresiones ​para detener la hemorragia de datos
+- Así que si eso significa cerrar un servidor, ​cerrar un centro de datos, cerrar las comunicaciones, ​lo que sea, detener la pérdida de datos ​es su prioridad número uno
+- Su trabajo como administrador de incidentes o como alguien que se ocupa de ​una infracción es detener ​la infracción y, a continuación, investigar la infracción
+- Por lo tanto, ejecutar ​la gestión de incidentes según un plan es lo más importante que ​una persona de nivel principiante puede tener en cuenta. 
