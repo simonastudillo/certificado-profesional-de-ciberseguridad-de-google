@@ -60,3 +60,56 @@
    - Este dominio se centra en el uso de prácticas de programación seguras, ​que son un conjunto de directrices recomendadas que se utilizan ​para crear aplicaciones y servicios seguros. 
    - ​Un analista de seguridad puede trabajar con ​los equipos de desarrollo de software para garantizar que ​las prácticas de seguridad se ​incorporen al ciclo de vida del desarrollo de software
    - Si, por ejemplo, ​uno de sus equipos asociados está creando una nueva aplicación para dispositivos móviles: aplicación para dispositivos móviles, es ​posible que se le pida que informe ​sobre las políticas de contraseñas o que ​se asegure de que los datos de los usuarios ​estén protegidos y gestionados correctamente
+
+---
+
+## Determine el tipo de ataque
+- Los dominios pueden ayudarle a comprender mejor cómo pueden organizarse en categorías las tareas de un analista de Seguridad
+- Además, los dominios pueden ayudar a establecer una comprensión de cómo gestionar el riesgo
+![Ocho dominios](image.png)
+
+- Tipos de ataque
+1. Ataque de descifrado de contraseña
+   - Un ataque de descifrado de contraseña es un intento de acceder a dispositivos, sistemas, redes o datos protegidos por contraseña
+   - Algunas formas de ataque de contraseña que conocerá más adelante en el programa de certificación son:
+      - Fuerza bruta: Un ataque de fuerza bruta es un intento de descifrar una contraseña probando todas las combinaciones posibles hasta encontrar la correcta
+      - Tabla rainbow: Una tabla rainbow es una lista de contraseñas precomputadas y sus valores hash correspondientes. Los atacantes pueden usar estas tablas para descifrar contraseñas más rápidamente que con un ataque de fuerza bruta
+   - Los ataques de descifrado de contraseña entran dentro del **dominio de la Comunicación y la Seguridad de redes**.
+2. Ataque de ingeniería social
+   - La ingeniería social es una técnica de manipulación que explota el error humano para obtener información privada, accesibilidad u objetos de valor
+   - Algunas formas de ataques de ingeniería social que seguirá conociendo a lo largo del Programa son: 
+      - Phishing
+      - Smishing
+      - Vishing
+      - Phishing dirigido
+      - Whaling
+      - Phishing en redes sociales
+      - Compromiso de correo electrónico empresarial (BEC)
+      - Ataque de "agujero de agua"
+      - Cebo USB (bus universal en serie)
+      - Ingeniería social física
+   - Los ataques de ingeniería social están relacionados con el **dominio de la Seguridad y la Gestión de riesgos**.
+3. Ataque físico
+   - Un ataque físico es un incidente de Seguridad que afecta no sólo a los entornos digitales, sino también a los físicos donde se implementa
+   - Algunas formas de ataques físicos son:
+      - Cable USB malicioso
+      - Unidad flash maliciosa
+      - Clonación y robo de tarjetas
+   - Los ataques físicos entran dentro del **dominio de la Seguridad de los recursos**.
+4. Inteligencia artificial antagónica
+   - La inteligencia artificial adversaria es una técnica que manipula la inteligencia artificial y la tecnología de aprendizaje automático para realizar ataques de forma más eficaz
+   - La inteligencia artificial antagonista se encuadra tanto en el **dominio de la Seguridad de redes y comunicaciones** como en el **dominio de la Gestión de identidad y acceso**.
+5. Ataque a la cadena de suministro
+   - Ataque a la cadena de suministro dirigido a sistemas, aplicaciones, hardware y/o software para localizar una vulnerabilidad en la que se pueda implementar software malicioso
+   - Dado que cada artículo vendido se somete a un proceso que implica a terceros, esto significa que la violación de la Seguridad puede producirse en cualquier punto de la cadena de suministro
+   - Estos ataques son costosos porque pueden afectar a múltiples organizaciones y a las personas que trabajan para ellas
+   - Los ataques a la Cadena de suministro pueden corresponder a varios dominios, incluidos, entre otros, los **dominios de Seguridad y Gestión de riesgos**, **Arquitectura de seguridad e ingeniería** y **Operaciones de seguridad**.
+6. Ataque criptográfico
+   - Ataque criptográfico que afecta a formas seguras de Comunicación entre un remitente y un destinatario.
+   - Algunas formas de ataques criptográficos son:
+      - Cumpleaños: ataque que busca encontrar dos mensajes diferentes que produzcan el mismo hash.
+      - Colisión: ataque que encuentra dos entradas diferentes que generan el mismo valor hash.
+      - Degradación: ataque que fuerza a un sistema a utilizar un nivel de seguridad más bajo.
+   - Los ataques criptográficos pertenecen al **dominio de la Comunicación y la Seguridad de redes.**
+
+>[!TIP] Si no puede encontrar un término en el glosario del NIST, introduzca el término de búsqueda apropiado (por ejemplo, "ataque de cumpleaños a la ciberseguridad") en su motor de búsqueda preferido para localizar la definición en otra fuente fiable, como un sitio .edu o .gov.
