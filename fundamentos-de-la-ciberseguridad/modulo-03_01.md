@@ -24,7 +24,7 @@
    - ​administrar los riesgos organizacionales
    - alinear la seguridad con los objetivos comerciales
 
-<img src="image-1.png" alt="Four Cores" width="600"/>
+<img src="image-1.png" alt="Four Cores" width="400"/>
 
 - Los marcos tienen cuatro componentes principales y ​comprenderlos le permitirá ​gestionar mejor los riesgos potenciales.
 - ​El primer componente principal es ​identificar y documentar los objetivos de Seguridad. 
@@ -44,3 +44,10 @@
    - Como analista de Seguridad, ​puede utilizar una herramienta de software para ​asignar automáticamente y hacer un seguimiento de ​los empleados que han completado esta formación
    - Los ​Marcos de seguridad y los controles son ​vitales para administrar la seguridad de todos los tipos de ​organizaciones y garantizar que todos ​hagan su parte para mantener un nivel de riesgo bajo
    - Comprender su propósito y cómo ​se utilizan permite a los analistas ​respaldar los objetivos de Seguridad de una organización ​y proteger a las personas a las que sirve
+
+---
+
+## Diseño seguro
+<img src="image-2.png" alt="CID" width="400"/>
+- La tríada CID de la CIA es un ​modelo fundamental que ayuda a informar cómo ​las organizaciones consideran el riesgo al establecer sistemas y políticas de Seguridad
+- 
