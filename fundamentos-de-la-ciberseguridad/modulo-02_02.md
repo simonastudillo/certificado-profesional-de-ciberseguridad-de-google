@@ -32,3 +32,31 @@
    - El ​mantenimiento de la seguridad de una organización es un esfuerzo de equipo y ​hay muchas partes móviles. 
 - Como analista principiante, continuará desarrollando sus habilidades ​aprendiendo a mitigar los riesgos para mantener la seguridad de las personas y los datos
 - No es necesario ser un experto en todos los dominios. Sin embargo, tener un conocimiento básico ​de ellos le ayudará en su viaje como profesional de Seguridad
+
+---
+
+## Introducción a los ocho dominios de Seguridad CISSP, Parte 2
+- Los dominios describen y organizan la ​forma en que un equipo de profesionales de Seguridad trabaja en conjunto
+- ​Según la organización, las ​funciones de los analistas pueden situarse en la intersección de ​varios dominios o centrarse en un dominio específico
+- Saber dónde ​encaja un rol en particular dentro del panorama de la seguridad ​lo ayudará a prepararse para las entrevistas de trabajo ​y a trabajar como parte de un equipo de seguridad completo. 
+- Los cuatro dominios restantes son los siguientes:
+   - Administración de identidades y accesos
+   - Evaluación y pruebas de seguridad
+   - Operaciones de seguridad
+   - Seguridad del desarrollo de software
+- Administración de identidades y accesos
+   - Se centra en mantener los datos seguros, ​garantizando que los usuarios sigan las políticas establecidas ​para controlar y administrar los activos físicos, ​como los espacios de oficina, y ​los activos lógicos, como las redes y las aplicaciones
+   - La validación de las identidades de ​los empleados y la documentación de las funciones de acceso ​son esenciales para mantener ​la Seguridad física y digital de la organización
+   - Por ejemplo, como analista de Seguridad, es ​posible que se te asigne la tarea de configurar el acceso de ​los empleados a los edificios con tarjeta de acceso
+- Evaluación y pruebas de seguridad
+   - ​Este dominio se centra en la ​realización de pruebas de control de seguridad, la ​recopilación y el análisis de datos y la realización de ​auditorías de seguridad para supervisar ​los riesgos, las amenazas y las vulnerabilidades
+   - Los analistas de seguridad pueden realizar auditorías periódicas de ​los permisos de los usuarios para asegurarse de que ​los usuarios tengan el nivel de acceso correcto. 
+   - ​Por ejemplo, el acceso a la ​información de nómina suele estar ​limitado a ciertos empleados, por lo que es ​posible que se pida a los analistas que auditen periódicamente los permisos para ​garantizar que ninguna persona no autorizada ​pueda ver los salarios de los empleados
+- Operaciones de seguridad
+   - Este dominio se centra en la realización de ​investigaciones y la implementación de medidas preventivas. 
+   - Imagine que usted, como analista de Seguridad, ​recibe una alerta de que ​un dispositivo desconocido se ha ​conectado a su red interna
+   - ​Deberá seguir las políticas ​y los procedimientos de la organización para detener rápidamente la posible amenaza
+- Seguridad del desarrollo de software
+   - Este dominio se centra en el uso de prácticas de programación seguras, ​que son un conjunto de directrices recomendadas que se utilizan ​para crear aplicaciones y servicios seguros. 
+   - ​Un analista de seguridad puede trabajar con ​los equipos de desarrollo de software para garantizar que ​las prácticas de seguridad se ​incorporen al ciclo de vida del desarrollo de software
+   - Si, por ejemplo, ​uno de sus equipos asociados está creando una nueva aplicación para dispositivos móviles: aplicación para dispositivos móviles, es ​posible que se le pida que informe ​sobre las políticas de contraseñas o que ​se asegure de que los datos de los usuarios ​estén protegidos y gestionados correctamente
