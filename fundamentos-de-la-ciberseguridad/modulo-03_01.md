@@ -133,3 +133,19 @@
          - Se utilizan para evaluar el cumplimiento financiero y los niveles de riesgo de una organización
          - También abarcan la confidencialidad, privacidad, integridad, disponibilidad, seguridad y protección general de los datos.
          - Los fallos de control en estas áreas pueden conducir al fraude.
+
+---
+
+## Brezo: Proteger los Datos sensibles y la Información
+- La PII ha sido un tema importante en Internet ​desde el principio de Internet
+- Cuando pensamos en recopilar PII en nombre de otra persona, ​deberíamos asegurarnos de que somos muy deliberados sobre cómo se maneja y ​dónde se almacena, y que entendemos dónde se almacena todo el tiempo
+- Dependiendo del tipo de función que desempeñe, ​puede que también necesite proteger esos datos para cumplir con la regulación o la ley
+- Si una organización no cumple con sus obligaciones, ​pueden ocurrir varias cosas. 
+   - ​En primer lugar, es posible que un regulador gubernamental se interese más por ​entender las prácticas en torno a la forma en que una empresa maneja los datos
+   - En segundo lugar, es posible que los consumidores, clientes y empresas empiecen a ​preguntar directamente a la empresa cómo maneja los datos
+   - ​Y en tercer lugar, la última consecuencia son las acciones legales. Y no es raro que ahora veamos a víctimas de incidentes de ​ciberseguridad demandando a empresas por manejar mal sus datos
+- ​Puede mantenerse al día sobre el cumplimiento, la regulación y las leyes en torno a la PII ​consultando el sitio web pertinente en la jurisdicción para la que tenga una duda.
+- Muchos sitios web gubernamentales publican ahora las leyes, regulaciones y ​requisitos de cumplimiento para los datos que se manejan. 
+- ​Las normativas y leyes que rigen el tratamiento de la PII son muy complejas, ​en todo el mundo, países, estados, ​condados la están regulando a diferentes niveles
+- Es importante entender y ser consciente de que estas leyes existen.
+- Sin embargo, si necesita hacer una pregunta sobre una ley específica, ​es importante buscar el consejo de un asesor legal para esa jurisdicción en particular
