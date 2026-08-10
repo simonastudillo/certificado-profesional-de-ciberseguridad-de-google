@@ -155,3 +155,36 @@
    - Estos tipos de hackers pueden considerarse hackers no éticos o éticos
    - Se sabe que trabajan en tareas tanto ilegales como legales a cambio de una remuneración.
    - También hay hackers que se consideran vigilantes. Su principal objetivo es proteger al mundo de los hackers poco éticos.
+
+---
+
+## Ponga a prueba sus Conocimientos: Los ocho dominios de Seguridad CISSP
+
+1. Rellena el espacio en blanco: Ejemplos de _____ de seguridad incluyen la gestión de seguridad y riesgos, y la arquitectura y la ingeniería de seguridad.
+- [x] dominios (Correcto)
+- [ ] redes
+- [ ] datos
+- [ ] activos
+> Algunos ejemplos de dominios de Seguridad son la Gestión de riesgos y seguridad y la Arquitectura e ingeniería de seguridad.
+
+2. A un profesional de la seguridad se le pide que destruya y se deshaga de viejos discos duros que incluyen información confidencial de clientes. ¿Con qué dominio de Seguridad está relacionada esta tarea?
+- [ ] Seguridad en el desarrollo de software
+- [ ] Seguridad y Gestión de riesgos
+- [x] Seguridad de los recursos (Correcto)
+- [ ] Comunicación y Seguridad de redes
+> Esta tarea está relacionada con el dominio de la Seguridad de los activos. Este dominio se centra en la gestión y la seguridad de los recursos digitales y físicos, así como en el almacenamiento, el mantenimiento, la retención y la destrucción de los datos.
+
+3. Su supervisor le pide que audite los permisos de usuario para los datos de la nómina para asegurarse de que ningún empleado no autorizado tiene acceso a ellos. ¿Con qué dominio de Seguridad está relacionada esta auditoría?
+- [x] Evaluación y pruebas de seguridad (Correcto)
+- [ ] Operaciones de Seguridad
+- [ ] Seguridad en el desarrollo de software
+- [ ] Seguridad de los recursos
+> Esto está relacionado con la evaluación y las pruebas de seguridad, que a menudo implican auditorías periódicas de los permisos de los usuarios para asegurarse de que los empleados y los equipos tienen el nivel de acceso correcto. 
+
+4. Se le pide que investigue una alerta relacionada con un dispositivo desconocido que está conectado a la red interna de la empresa. Después de completar su investigación, usted sigue las políticas y Procedimientos de la empresa para Implementar medidas preventivas que detendrán la amenaza potencial planteada por el dispositivo. ¿Con qué dominio de Seguridad está relacionado este escenario?
+- [ ] Seguridad en el desarrollo de software
+- [ ] Seguridad de los recursos
+- [x] Operaciones de Seguridad (Correcto)
+- [ ] Arquitectura de seguridad e ingeniería
+> (Opción equivocada) - La Arquitectura de seguridad y la ingeniería se centran en optimizar la seguridad de los datos garantizando la existencia de herramientas, sistemas y procesos eficaces.
+> Esto está relacionado con el dominio de las operaciones de Seguridad, que se centra en realizar investigaciones e implementar medidas preventivas. En este escenario, seguir las políticas y procedimientos de la empresa para detener la amenaza potencial es un ejemplo de adopción de medidas preventivas.
