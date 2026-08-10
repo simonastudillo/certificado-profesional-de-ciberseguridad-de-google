@@ -143,3 +143,7 @@
 ---
 
 ## Obtén ayuda con tus estudios gracias a Google AI Pro de forma gratuita
+
+---
+
+## Canjea tu prueba de Google AI Pro
