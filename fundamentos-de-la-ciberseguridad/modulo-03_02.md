@@ -99,3 +99,35 @@
 - Cuando te enfrentas a una de estas decisiones difíciles, ​es bueno pensar en cuáles serían ​las consecuencias de tu decisión
 - Mi aliento a aquellos de ustedes que están tomando ​este Programa es que las recompensas que ​obtienen por ayudar a proteger a su empresa o a sus usuarios o ​a su organización de los ciberdelincuentes es realmente grande. 
 - ​Logramos ser los buenos y ayudar ​a proteger a nuestra industria y ​a nuestros clientes de los ciberataques ​y de los ciberdelincuentes. Eso es gratificante. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Ética en la ciberseguridad
+
+1. Un empleado formado para manejar PII y SPII deja información confidencial de pacientes sin cerrar en una zona pública. ¿Qué principios Éticos viola esto? Seleccione todos los que correspondan
+- [ ] Permanecer imparcial
+- [x] Confidencialidad
+- [x] Protección de la privacidad
+- [x] Leyes
+> Esto viola las leyes, la confidencialidad y la protección de la privacidad. 
+
+2. Rellene el espacio en blanco: Protección de la privacidad significa salvaguardar _____ de un uso no autorizado
+- [ ] redes empresariales
+- [ ] procesos de cumplimiento normativo
+- [x] información personal 
+- [ ] documentación
+> Protección de la privacidad significa salvaguardar la información personal de un uso no autorizado. Asegurarse de que los permisos de los usuarios son correctos ayuda a evitar que las personas accedan a información protegida a la que no están autorizadas a acceder.
+
+3. Recibe un mensaje de texto en su dispositivo personal de su jefe en el que le informa de que no puede acceder a la base de datos segura en línea de la empresa. Están actualizando el Cronograma mensual de fiestas de la empresa y necesitan la fecha de nacimiento de otro empleado de inmediato. Las políticas y procedimientos de su organización establecen que nunca se debe acceder a la información de los empleados ni compartirla a través de canales de comunicación personales. ¿Qué debe hacer?
+- [ ] Pida a su gestor que le proporcione pruebas de su incapacidad para acceder a la base de datos. 
+- [x] Rechace respetuosamente y recuerde a su jefe las directrices de la organización.
+- [ ] Solicite la identificación de su gestor para asegurarse de que el mensaje de texto es auténtico; a continuación, facilite la fecha de nacimiento.
+- [ ] Dé a su jefe la fecha de nacimiento del empleado; una fiesta es un gesto amistoso.
+> Debería negarse respetuosamente y recordar a su jefe las directrices de la organización. Su Función como analista de Seguridad es seguir las políticas y Procedimientos de su empresa.
+
+4. Usted trabaja para una empresa de servicios públicos con sede en Estados Unidos que sufre una violación de datos. Varios grupos de hacktivistas reivindican la autoría del ataque. Sin embargo, no hay pruebas para verificar sus afirmaciones. ¿Cuál es la forma más ética de responder a este incidente?
+- [ ] Realice ciberataques contra cada grupo Hacktivista que se atribuya la responsabilidad.
+- [ ] Diríjase a un grupo específico de Hacktivistas como advertencia para los demás.
+- [x] Mejore las defensas de la empresa para evitar futuros ataques.
+- [ ] Escale la situación implicando a otras organizaciones que hayan sido blanco de los ataques.
+> Defenderse contra futuros ataques es la forma más ética de abordar esta situación. Los contraataques son ilegales en EE.UU. salvo por parte de empleados aprobados del gobierno federal o personal militar
