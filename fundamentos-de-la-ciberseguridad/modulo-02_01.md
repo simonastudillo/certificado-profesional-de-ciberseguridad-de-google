@@ -107,3 +107,22 @@
       - Familiaridad: Agentes de amenaza establecen una falsa conexión emocional con los usuarios que puede ser explotada.
       - Confianza: Los agentes de amenaza establecen una relación emocional con los usuarios que puede ser explotada a lo largo del tiempo. Utilizan esta relación para desarrollar la confianza y obtener información personal.
       - Urgencia: Un agente de amenaza persuade a los demás para que respondan rápidamente y sin hacer preguntas.
+
+---
+
+## Identificar: Métodos de ataque
+- Malware: A software designed to harm devices or networks
+- Virus: A malware program that modifies other computer programs by inserting its own code to damage and/or destroy data
+- Worm: Malware that self-replicates, spreading across the network and infecting computers
+- Ransomware: A malicious attack during which threat actors encrypt an organization's data and demand payment to restore access
+- Spyware: Malicious software installed on a user’s computer without their permission, which is used to spy on and steal user data
+- Phishing: The use of digital communications to trick people into revealing sensitive data or deploying malicious software
+- Spear phishing: A malicious email attack targeting a specific user or group of users that appears to originate from a trusted source
+- Whaling: A form of spear phishing during which threat actors target executives in order to gain access to sensitive data
+- Business email compromise (BEC): An attack in which a threat actor impersonates a known source to obtain a financial advantage
+- Vishing: The exploitation of electronic voice communication to obtain sensitive information or to impersonate a known source
+- Social engineering: A manipulation technique that exploits human error to gain unauthorized access to sensitive, private, and/or valuable data
+- Social media phishing: An attack in which a threat actor collects detailed information about their target on social media sites before initiating an attack
+- Watering hole attack: An attack in which a threat actor compromises a website frequently visited by a specific group of users
+- Physical social engineering: An attack in which a threat actor impersonates an employee, customer, or vendor to obtain unauthorized access to a physical location
+- USB baiting: An attack in which a threat actor strategically leaves a malware USB stick for an employee to find and unknowingly infect a network
