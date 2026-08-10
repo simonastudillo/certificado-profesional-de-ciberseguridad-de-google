@@ -147,3 +147,28 @@
 ---
 
 ## Canjea tu prueba de Google AI Pro
+
+---
+
+## Ponga a prueba sus Conocimientos: Historia de la ciberseguridad
+1. Rellene el espacio en blanco: Un virus informático es un _____ malicioso que interfiere en el funcionamiento de la computadora y causa daños
+> formato
+> secuenciación
+> hardware
+> código (Correcta)
+
+2. ¿De qué manera contribuyó el gusano Morris a dar forma a la industria de la Seguridad?
+> Condujo al desarrollo de equipos de respuesta informática. (Correcta)
+> Hizo que las organizaciones fueran más conscientes del importante impacto financiero de los incidentes de Seguridad.
+> Inspiró a los agentes de amenazas a desarrollar nuevos tipos de ataques de ingeniería social.
+> Impidió el desarrollo de copias ilegales de software.
+
+3. ¿Cuáles fueron los impactos clave de la brecha de Equifax? Seleccione dos respuestas
+> Las importantes consecuencias financieras de una infracción se hicieron más evidentes. (Correcta)
+> Los desarrolladores pudieron rastrear las copias ilegales de software y evitar las licencias piratas.
+> Se robaron millones de PII de clientes. (Correcta)
+> El Phishing se convirtió en ilegal debido a una importante protesta pública.
+
+4. La ingeniería social, como el Phishing, es una técnica de manipulación que se basa en errores informáticos para obtener información privada, accesibilidad u objetos de valor
+> Verdadero
+> Falso (Correcta)
