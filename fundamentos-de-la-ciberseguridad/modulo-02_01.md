@@ -139,3 +139,7 @@
 - Así que si eso significa cerrar un servidor, ​cerrar un centro de datos, cerrar las comunicaciones, ​lo que sea, detener la pérdida de datos ​es su prioridad número uno
 - Su trabajo como administrador de incidentes o como alguien que se ocupa de ​una infracción es detener ​la infracción y, a continuación, investigar la infracción
 - Por lo tanto, ejecutar ​la gestión de incidentes según un plan es lo más importante que ​una persona de nivel principiante puede tener en cuenta. 
+
+---
+
+## Obtén ayuda con tus estudios gracias a Google AI Pro de forma gratuita
