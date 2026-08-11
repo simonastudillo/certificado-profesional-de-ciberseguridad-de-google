@@ -51,3 +51,6 @@
       - La codificación criptográfica consiste en convertir el texto plano en texto cifrado seguro
       - El texto plano es la información no cifrada y el texto cifrado seguro es el resultado de la encriptación.
       - La codificación y la encriptación tienen propósitos diferentes. La codificación utiliza un algoritmo de conversión público para permitir que los sistemas que utilizan diferentes representaciones de datos compartan información.
+   - Pruebas de penetración
+      - Las pruebas de penetración, también denominadas pen testing, son el acto de participar en un ataque simulado que ayuda a identificar vulnerabilidades en sistemas, redes, sitios web, aplicaciones y procesos
+      - Es una evaluación de riesgos exhaustiva que puede evaluar e identificar las amenazas externas e internas, así como los puntos débiles.
