@@ -84,3 +84,43 @@
 - [ ] Verdadero
 - [x] Falso
 > Un playbook es un manual que proporciona detalles sobre cualquier acción operativa, incluida la respuesta ante incidentes, las revisiones de seguridad o de conformidad, la gestión del acceso y muchas otras tareas organizativas que requieren un proceso documentado de principio a fin. 
+
+---
+
+## Crear una cartera de ciberseguridad
+- A lo largo de este Programa de certificación, tendrá múltiples oportunidades de desarrollar un Portfolio profesional de Ciberseguridad para mostrar sus habilidades y conocimientos en materia de Seguridad.
+- ¿Qué es un Portfolio y por qué es necesario?
+   - Los profesionales de la Ciberseguridad utilizan los Portfolio para demostrar su formación, habilidades y conocimientos en materia de Seguridad
+   - Los profesionales suelen utilizar los portafolios cuando solicitan un empleo para demostrar a los posibles empleadores que les apasiona su trabajo y que pueden hacer el trabajo que solicitan
+- Opciones para crear su Portfolio
+   - Carpeta de documentación
+      - Descripción: Una carpeta de documentos es una carpeta creada y guardada en el disco duro de su computadora. Usted gestiona la carpeta, las subcarpetas, los documentos y las imágenes que contiene
+      - Por ejemplo, puede crear una carpeta principal titulada algo así como "Documentos profesionales" Luego, dentro de su carpeta principal, podría crear subcarpetas con títulos como:
+         - Currículum
+         - Educación
+         - Documentos de Portfolio
+         - Herramientas de ciberseguridad
+         - Programación
+   - Google Drive o Dropbox
+      - Google Drive y Dropbox ofrecen funciones similares que le permiten almacenar su documentación profesional en una plataforma en la nube
+      - Ambas opciones también cuentan con funciones para compartir archivos, por lo que podrá compartir fácilmente los documentos de su Portfolio con posibles empleadores
+   - Sitios de Google
+      - Google Sites y otras opciones similares de alojamiento de sitios web disponen de una gran variedad de funciones fáciles de usar que le ayudarán a presentar sus artículos de portfolio, como diseños personalizables, páginas web con capacidad de respuesta, funciones de contenido integrado y publicación web.
+      - Las páginas web con capacidad de respuesta ajustan automáticamente su contenido para adaptarse a una variedad de dispositivos y tamaños de pantalla
+      - Cuando esté listo, puede publicar su sitio web y recibir una URL Única
+      - Puede añadir este enlace a su currículum para que los responsables de contratación puedan acceder fácilmente a su trabajo.
+   - Repositorio Git
+      - Un repositorio Git es una carpeta dentro de un proyecto. En este caso, el proyecto es su Portfolio, y puede utilizar su repositorio para almacenar los documentos, laboratorios y capturas de pantalla que complete durante cada curso del programa de certificación
+      - Cada repositorio Git le permite mostrar sus habilidades y conocimientos en un espacio personalizable
+- Proyectos Portfolio
+   - usted tendrá múltiples oportunidades a lo largo del programa de certificación para desarrollar elementos para incluir en su Portfolio. Estas oportunidades incluyen:
+      - Redacción de una declaración profesional
+      - Realización de una Auditoría de Seguridad
+      - Analizar la estructura y la seguridad de las redes
+      - Utilizar los comandos de Linux para gestionar los permisos de archivo
+      - Aplicación de filtros a las consultas SQL
+      - Identificar vulnerabilidades para un pequeño negocio (Business-to-Business)
+      - Documentación de incidentes con un Diario del gestor de incidentes
+      - Importación y análisis sintáctico de un archivo de texto en un escenario relacionado con la Seguridad
+      - Creación o revisión de un Currículum Vitae
+   - No incluya en su Portfolio ningún documento privado, con copyright o con derechos de propiedad. Además, si utiliza uno de los sitios descritos en esta lectura, manténgalo en "privado" hasta que esté finalizado.
