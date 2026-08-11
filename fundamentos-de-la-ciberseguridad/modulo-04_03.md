@@ -14,3 +14,12 @@
    - Articulaste la importancia de la vigilancia constante y la detección temprana como elementos clave del rol proactivo del analista.
 - Áreas de mejora:
    - Podrías explorar más a fondo cómo las diferentes herramientas de ciberseguridad (como IDS, sistemas operativos, pruebas de penetración) se integran en las responsabilidades diarias del analista para una protección más robusta.
+
+---
+
+## Resumen
+   - hemos tratado las herramientas SIEM como Splunk y Chronicle
+   - También hemos hablado de cómo los analistas de seguridad utilizan las herramientas SIEM para llevar a cabo ​diferentes tareas
+   - A continuación, hemos hablado de otras herramientas como los playbooks y los ​analizadores de protocolos de redes, también llamados sniffers de paquetes
+   - Por último, presentamos el sistema operativo Linux y los lenguajes de programación ​SQL y Python
+   - Recuerde, las herramientas de las que hablamos requieren tiempo para comprenderlas completamente
