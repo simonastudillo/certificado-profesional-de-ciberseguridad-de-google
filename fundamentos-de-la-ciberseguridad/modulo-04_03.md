@@ -23,3 +23,8 @@
    - A continuación, hemos hablado de otras herramientas como los playbooks y los ​analizadores de protocolos de redes, también llamados sniffers de paquetes
    - Por último, presentamos el sistema operativo Linux y los lenguajes de programación ​SQL y Python
    - Recuerde, las herramientas de las que hablamos requieren tiempo para comprenderlas completamente
+
+---
+
+## Glosario de términos del módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
