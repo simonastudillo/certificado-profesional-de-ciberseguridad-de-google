@@ -182,3 +182,10 @@
 5. Su declaración profesional está libre de errores gramaticales, ortográficos y de puntuación
 - [x] Sí
 - [ ] No
+
+---
+
+## Ejemplar de actividad del Portfolio: Redactar una declaración profesional
+- [ejemplo de declaración profesional](https://docs.google.com/document/d/1QrlsTDXNHu1T_o2dYvG6AKljCNew4AHGJrYTrsYp2M4/template/preview?usp=sharing)
+- Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar. ¿Qué ha hecho bien? ¿En qué puede mejorar? Utilice sus respuestas a estas preguntas para revisar su proyecto según sea necesario y guiarle a medida que siga avanzando en el programa de certificación.
+- El ejemplar representa una forma posible de completar la actividad. Es probable que la suya difiera en ciertos aspectos. Lo importante es que su actividad explique sus puntos fuertes, sus valores y su interés por la profesión de la ciberseguridad.
