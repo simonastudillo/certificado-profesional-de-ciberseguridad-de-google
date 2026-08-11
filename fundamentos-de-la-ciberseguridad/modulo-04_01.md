@@ -83,3 +83,13 @@
                - Cuando las pruebas se gestionan de forma inadecuada durante una investigación, ya no pueden utilizarse
                - Por esta razón, la primera prioridad en cualquier investigación es preservar adecuadamente los datos.
                - Puede preservar los Datos haciendo copias y llevando a cabo su investigación utilizando esas copias.
+
+---
+
+## Explore: Herramientas y sus propósitos
+- In this matching exercise, you will review different security tools and identify what each tool is used for.
+
+- Log => A record of events that occur within an organization’s systems
+- SIEM tool => Application that collects and analyzes log data to monitor an organization’s critical activities
+- Playbook => A manual that provides details about what actions to take
+- Dashboard => A tool used to visually communicate information or data
