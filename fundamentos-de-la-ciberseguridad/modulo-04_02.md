@@ -124,3 +124,61 @@
       - Importación y análisis sintáctico de un archivo de texto en un escenario relacionado con la Seguridad
       - Creación o revisión de un Currículum Vitae
    - No incluya en su Portfolio ningún documento privado, con copyright o con derechos de propiedad. Además, si utiliza uno de los sitios descritos en esta lectura, manténgalo en "privado" hasta que esté finalizado.
+
+---
+
+## Actividad del Portfolio: Redactar una declaración profesional
+- En esta actividad, revisarás el esquema de declaración profesional para crear una declaración profesional que puedas incluir como parte de la documentación de tu portafolio de ciberseguridad
+- Una declaración profesional es una presentación a los empleadores que describe brevemente quién eres y qué te interesa
+- Te permite mostrar tu interés por la ciberseguridad, experiencia laboral, conocimientos, habilidades y logros
+- A medida que continúes aprendiendo más y perfeccionando tu comprensión de los conceptos clave de la ciberseguridad, puedes volver a esta declaración profesional y revisarla según sea necesario.
+
+- Escenario
+   - Te entusiasma la idea de entrar en el campo de la ciberseguridad
+   - Cuando empieza a considerar los tipos de trabajos a los que podría optar, decide crear un borrador de declaración profesional que pueda seguir perfeccionando a medida que evolucionen sus conocimientos y habilidades a lo largo del programa de certificación
+   - Tu objetivo es tener una declaración profesional que puedas compartir con posibles empleadores, cuando estés listo para comenzar tu búsqueda de empleo.
+   - Crear una declaración profesional única y auténtica ayuda a establecer la percepción de la gente sobre quién eres y qué te importa.
+
+- Paso 1: Accede a los materiales de apoyo
+   - Enlace a los materiales de apoyo: [Esquema de la declaración profesional](https://docs.google.com/document/d/12fvZXSrCHs2cE9GUNkc0ypfCb77QdKVFnofQ4aBuxFU/template/preview)
+- Paso 2: Redacta tu declaración profesional
+   - Tu declaración profesional es tu oportunidad para mostrar a los posibles empleadores quién eres como persona y posible empleado, y les permite comprender el valor que puedes aportar a la organización.
+   - Utiliza estas directrices para desarrollar tu borrador de declaración profesional:
+      - Utiliza tu propio dispositivo para abrir un documento o aplicación de procesamiento de textos (o utiliza una hoja de papel en blanco).
+      - Consulta las notas del primer paso y piensa en lo siguiente
+         - ¿Cuáles son tus puntos fuertes (los que tienes actualmente o los que piensas desarrollar)?
+         - ¿Cuáles son tus valores?
+         - ¿Qué es lo que más te interesa de una carrera en ciberseguridad?
+         - ¿Cómo pueden tus puntos fuertes, tus valores y tu interés por la ciberseguridad apoyar los objetivos de seguridad de diversas organizaciones?
+      - Redacta una declaración profesional de dos a tres frases que incluya detalles sobre tus puntos fuertes, valores e interés en la ciberseguridad, así como la forma en que pueden apoyar los objetivos de seguridad de diversas organizaciones.
+   - Ejemplo A: Soy un analista de ciberseguridad muy motivado y detallista. Trabajo activamente para identificar y analizar posibles riesgos, amenazas y vulnerabilidades para la seguridad y garantizar la Confidencialidad, integridad y disponibilidad de los activos, para ayudar a salvaguardar tanto a las organizaciones como a las personas.
+   - Ejemplo B: Me entusiasma la seguridad de la información y disfruto encontrando soluciones que puedan repercutir positivamente en una organización y en las personas a las que sirve. Valoro mucho mantener una postura de seguridad sólida para ayudar a proteger la información sensible y mitigar los riesgos.
+- Paso 3: Perfeccione su declaración profesional
+   - Revise el documento usando la guía de [Refinamiento de la declaración profesional](https://docs.google.com/document/d/1uodGPtGAS247wACdtJ7ITe3BcwFL993sQy5P9_pAj48/template/preview)
+   - Qué incluir en su respuesta
+      - Sé consciente de cómo quieres que te perciban los posibles empleadores.
+      - Incluye tus puntos fuertes y tus valores, y sé sincero sobre por qué quieres dedicarte a la ciberseguridad.
+      - Actualiza regularmente tu declaración para reflejar tus crecientes habilidades y conocimientos profesionales. 
+
+- Paso 4: Evalúe su actividad
+   - Utilizará estas autoevaluaciones para revisar su propio trabajo. El proceso de autoevaluación es una parte importante de la experiencia de aprendizaje porque le permite evaluar objetivamente su declaración profesional.
+   
+1. Su declaración profesional incluye los puntos fuertes.
+- [x] Sí
+- [ ] No
+
+2. Su declaración profesional incluye valores.
+- [x] Sí
+- [ ] No
+
+3. Su declaración profesional explica su interés por la profesión de la ciberseguridad
+- [x] Sí
+- [ ] No
+
+4. Su declaración profesional explica cómo sus puntos fuertes, valores e Interés en el Campo de la Ciberseguridad pueden satisfacer los objetivos de Seguridad de una organización
+- [x] Sí
+- [ ] No
+
+5. Su declaración profesional está libre de errores gramaticales, ortográficos y de puntuación
+- [x] Sí
+- [ ] No
