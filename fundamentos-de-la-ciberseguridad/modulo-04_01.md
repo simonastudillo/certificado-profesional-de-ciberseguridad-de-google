@@ -93,3 +93,35 @@
 - SIEM tool => Application that collects and analyzes log data to monitor an organization’s critical activities
 - Playbook => A manual that provides details about what actions to take
 - Dashboard => A tool used to visually communicate information or data
+
+---
+
+## Ponga a prueba sus Conocimientos: Herramientas importantes de ciberseguridad
+
+1. ¿Qué herramienta está diseñada para capturar y analizar el tráfico de datos dentro de una red?
+- [ ] administración de información y eventos de seguridad (SIEM)
+- [ ] manual de estrategias (Playbook)
+- [ ] Lenguaje de Consulta Estructurado (SQL)
+- [x] analizador de protocolos de red (packet sniffer)
+> Un rastreador de paquetes, también conocido como analizador de protocolos de red, es una herramienta diseñada para capturar y analizar el tráfico de datos dentro de una red
+
+2. ¿Qué tipo de herramienta utiliza cuadros de mando para organizar los datos en categorías y permite a los analistas identificar posibles incidentes de seguridad a medida que se producen?
+- [x] SIEM
+- [ ] Python
+- [ ] Linux
+- [ ] analizadores de protocolos de red (rastreadores de paquetes)
+> Las herramientas SIEM utilizan cuadros de mando para organizar los datos en categorías y permitir a los analistas identificar posibles incidentes de seguridad, como violaciones, a medida que se producen.
+
+3. ¿Para qué pueden utilizar los registros los profesionales de la ciberseguridad?
+- [ ] Investigar y optimizar las capacidades de proceso dentro de una red
+- [ ] Seleccionar qué Miembros del equipo de Seguridad responderán a un Incidente
+- [ ] Para analizar el tráfico de datos dentro de una red 
+- [x] Identificar vulnerabilidades y posibles fallos de Seguridad
+> Los profesionales de la Ciberseguridad pueden utilizar los registros para identificar vulnerabilidades y posibles violaciones de la Seguridad, así como otros posibles incidentes de Seguridad
+
+4. Rellene el espacio en blanco: Un _____ es un manual que proporciona detalles sobre las acciones operativas
+- [ ] directorio
+- [ ] historia del caso
+- [x] manual de estrategias
+- [ ] lista de comprobación
+> Un manual de estrategias es un manual que proporciona detalles sobre las acciones operativas. Los manuales de estrategias proporcionan orientación a la hora de gestionar un incidente de Seguridad antes, durante y después de que se haya producido.
