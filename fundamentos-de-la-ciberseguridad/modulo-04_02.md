@@ -54,3 +54,33 @@
    - Pruebas de penetración
       - Las pruebas de penetración, también denominadas pen testing, son el acto de participar en un ataque simulado que ayuda a identificar vulnerabilidades en sistemas, redes, sitios web, aplicaciones y procesos
       - Es una evaluación de riesgos exhaustiva que puede evaluar e identificar las amenazas externas e internas, así como los puntos débiles.
+
+---
+
+## Ponga a prueba sus Conocimientos: Conocimientos y habilidades básicos de ciberseguridad
+
+1. ¿Qué utilizan los profesionales de la seguridad para interactuar con una base de datos y solicitarle información?
+- [ ] Linux
+- [ ] Python
+- [x] Lenguaje de Consulta Estructurada (SQL)
+- [ ] Tríada de confidencialidad, integridad y disponibilidad (CID)
+> Los profesionales de la Seguridad utilizan el Lenguaje de Consulta Estructurado (SQL) para interactuar con una base de datos y solicitarle información.
+
+2. ¿Para qué se utiliza normalmente la programación? Seleccione dos respuestas
+- [x] Completar tareas y procesos repetitivos
+- [x] Crear un conjunto específico de instrucciones para que una computadora ejecute tareas
+- [ ] Registro A de los Eventos que se producen en los sistemas de una organización
+- [ ] Habilitar las operaciones de código abierto
+> La programación se utiliza normalmente para completar tareas y procesos repetitivos y crear un conjunto específico de instrucciones para que una computadora ejecute las tareas.
+
+3. Rellene el espacio en blanco: Linux es un Código abierto _____ que puede utilizarse para examinar registros
+- [ ] algoritmo
+- [x] sistema operativo
+- [ ] base de datos
+- [ ] lenguaje de programación
+> Linux es un sistema operativo de código abierto que puede utilizarse para examinar los registros
+
+4. Un Manual de estrategias es un manual que sólo proporciona detalles sobre cómo responder a un Incidente
+- [ ] Verdadero
+- [x] Falso
+> Un playbook es un manual que proporciona detalles sobre cualquier acción operativa, incluida la respuesta ante incidentes, las revisiones de seguridad o de conformidad, la gestión del acceso y muchas otras tareas organizativas que requieren un proceso documentado de principio a fin. 
