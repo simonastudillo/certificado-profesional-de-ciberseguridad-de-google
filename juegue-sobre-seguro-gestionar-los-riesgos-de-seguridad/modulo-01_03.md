@@ -99,3 +99,70 @@
    - Monitorear significa estar al tanto de cómo funcionan los sistemas. La ​evaluación y el mantenimiento de las operaciones técnicas ​son tareas que los analistas realizan a diario. 
    - ​Parte de mantener un nivel bajo de ​riesgo para una organización es ​saber cómo los sistemas actuales respaldan ​los objetivos de Seguridad de la organización
    -  ​Si los sistemas existentes no cumplen con esos objetivos, es ​posible que se necesiten cambios
+
+---
+
+## Gestionar las amenazas, los riesgos y las vulnerabilidades comunes
+- Comprender el panorama actual de las amenazas proporciona a las organizaciones la capacidad de crear políticas y procesos diseñados para ayudar a prevenir y mitigar este tipo de problemas de Seguridad
+- Gestión de riesgos
+   - Un objetivo primordial de las organizaciones es proteger los recursos.
+   - Un recurso es un artículo que se percibe que tiene valor para una organización
+   - Algunos ejemplos de recursos digitales son la información personal de empleados, clientes o Proveedores, como:
+      - Números de la Seguridad Social (SSN), o números únicos de identificación nacional asignados a las personas
+      - Fechas de nacimiento
+      - Números de cuentas bancarias
+      - Direcciones postales
+   - Entre los ejemplos de recursos físicos se incluyen:
+      - Quioscos de pago
+      - Servidores
+      - Computadoras de escritorio
+      - Espacios de oficina
+   - Algunas estrategias comunes utilizadas para gestionar los riesgos incluyen:
+      - Aceptación: Aceptar un riesgo para evitar que se interrumpa la continuidad del negocio
+      - Evitación: Creación de un plan para evitar el riesgo por completo
+      - Transferencia: Transferencia del riesgo a un tercero para que lo gestione
+      - Mitigación: Disminuir el impacto de un Riesgo conocido
+- Amenazas, riesgos y vulnerabilidades más comunes en la actualidad
+   - Una Amenaza es cualquier circunstancia o Evento que pueda impactar negativamente en los recursos
+   - Como analista de Seguridad de nivel básico, su trabajo consiste en ayudar a defender los recursos de la organización de las amenazas internas y externas
+   - Por lo tanto, comprender los tipos comunes de amenazas es importante para el trabajo diario de un analista. A modo de recordatorio, las amenazas comunes incluyen:
+      - Amenazas internas: Miembros del personal o proveedores abusan de su acceso autorizado para obtener datos que pueden perjudicar a una organización.
+      - Amenazas persistentes avanzadas (APT): Un agente de amenaza mantiene el acceso no autorizado a un sistema durante un largo periodo de tiempo.
+   - Riesgos
+      - Un Riesgo es todo aquello que puede afectar a la confidencialidad, integridad y disponibilidad de un recurso
+      - Una fórmula básica para determinar el nivel de riesgo es que éste es igual a la probabilidad de una amenaza
+      - Una forma de pensar en esto es que un riesgo es llegar tarde al trabajo y las amenazas son el tráfico, un accidente, un pinchazo, etc.
+      - Hay diferentes factores que pueden afectar a la probabilidad de un riesgo para los recursos de una organización, entre ellos:
+         - Riesgo externo: Cualquier cosa fuera de la organización que tenga el potencial de dañar los recursos de la organización, como los agentes de amenaza que intentan acceder a información privada
+         - Riesgo interno: Un empleado actual o anterior, un proveedor o un socio de confianza que suponga un riesgo para la Seguridad
+         - Sistemas heredados: Sistemas antiguos que podrían no estar contabilizados o actualizados, pero que aún pueden tener un impacto en los recursos, como las estaciones de trabajo o los antiguos sistemas Mainframe. Por ejemplo, una organización puede tener una vieja máquina expendedora que acepta pagos con tarjeta de crédito o una estación de trabajo que sigue conectada al sistema de contabilización heredado.
+         - Riesgo multiparte: Externalizar el trabajo a proveedores externos puede darles acceso a la propiedad intelectual, como secretos comerciales, diseños de software e invenciones.
+         - Cumplimiento normativo/licencias de software: Software que no está actualizado o en conformidad, o parches que no se instalan a tiempo
+- Nota: La lista de tipos de ataques comunes del OWASP contiene tres nuevos riesgos para los años 2017 a 2021: diseño inseguro, fallos en la integridad del software y los datos, y falsificación de peticiones del lado del servidor. Esta actualización subraya el hecho de que la Seguridad es un Campo en constante evolución. También demuestra la importancia de mantenerse al día sobre las tácticas y técnicas actuales de los Agentes de amenaza, de modo que pueda estar mejor preparado para gestionar este tipo de riesgos.
+
+<img src="image.png" alt="alt text" width="500" />
+
+- Vulnerabilidades
+   - Una vulnerabilidad es una debilidad que puede ser explotada por una amenaza
+   - Por lo tanto, las organizaciones necesitan inspeccionar regularmente las vulnerabilidades de sus sistemas. Algunas vulnerabilidades incluyen:
+      - ProxyLogon
+         - Una vulnerabilidad de autenticación previa que afecta al servidor Microsoft Exchange.
+         - Esto significa que un Agente de amenaza puede completar un proceso de autenticación de usuario para implementar código malicioso desde una ubicación remota.
+      - ZeroLogon
+         - Una vulnerabilidad en el protocolo de autenticación Netlogon de Microsoft.
+         - Un protocolo de autenticación es una forma de verificar la identidad de una persona.
+         - Netlogon es un servicio que garantiza la identidad de un usuario antes de permitirle el acceso a la ubicación de un sitio web.
+      - Log4Shell
+         - Permite a los atacantes ejecutar código Java en la computadora de otra persona o filtrar información confidencial.
+         - Para ello, permite a un atacante remoto tomar el control de dispositivos conectados a Internet y ejecutar código malicioso.
+      - PetitPotam
+         - Afecta al gestor de redes de área local (LAN) de nueva tecnología de Windows (NTLM).
+         - Se trata de una técnica de robo que permite a un atacante basado en LAN iniciar una solicitud de autenticación.
+      - Fallos en el registro y el Monitoreo de Seguridad
+         - Capacidades insuficientes de registro y monitorización que dan lugar a que los atacantes exploten vulnerabilidades sin que la organización lo sepa
+      - Falsificación de peticiones del lado del servidor
+         - Permite a los atacantes manipular una aplicación del lado del servidor para que acceda y actualice los recursos del backend.
+         - También puede permitir a los agentes de amenaza robar Datos.
+- Como analista de seguridad de nivel básico, podría trabajar en la Gestión de vulnerabilidades, que consiste en Monitorear un sistema para identificar y mitigar las vulnerabilidades
+- Aunque existan parches y actualizaciones, si no se aplican pueden producirse intrusiones
+- Por esta razón, es importante un monitoreo constante. Cuanto antes identifique una organización una vulnerabilidad y la aborde aplicando parches o actualizando sus sistemas, antes se podrá mitigar, reduciendo la exposición de la organización a la vulnerabilidad.  
