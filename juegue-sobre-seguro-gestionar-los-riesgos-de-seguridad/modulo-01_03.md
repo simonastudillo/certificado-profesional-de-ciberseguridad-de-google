@@ -65,3 +65,37 @@
 - No estábamos realmente seguros de cómo hacerlo porque no era ​una situación con la que nos hayamos topado antes. ​Por lo tanto, aún está en curso, pero ​estamos trabajando con los equipos de socios para desarrollar una solución para eso
 - ​Creo que otra cosa que hemos visto son los sistemas anticuados, ​las máquinas que necesitan ser reparadas. ​Parece un problema de TI, pero también es definitivamente un problema de ciberseguridad. 
 - Para poder hacer realmente cualquier cosa, necesitas comunicarte no solo con el equipo del ​que formas parte, sino también con otros equipos
+
+---
+
+## Marco de gestión de riesgos del NIST
+- el Instituto Nacional de Estándares y Tecnología ( ​NIST) proporciona muchos marcos que utilizan los ​profesionales de la Seguridad para gestionar ​los riesgos, las amenazas y las vulnerabilidades
+- Como analista principiante, ​es posible que no participe en todos estos pasos, ​pero es importante que se familiarice con este framework
+- Tener una sólida comprensión básica ​de cómo mitigar y gestionar los riesgos puede ​diferenciarse de otros candidatos al ​iniciar su búsqueda de empleo en el campo de la Seguridad
+- Hay siete pasos en la RMF:
+1. Preparar:
+   - Preparar se refiere a las actividades que son necesarias para gestionar ​los riesgos de Seguridad y privacidad antes de que se produzca una violación. 
+   - Como analista principiante, ​es probable que utilice este paso para supervisar los riesgos e ​identificar los controles que se pueden utilizar para reducir esos riesgos
+2. Clasificar:
+   -  se utiliza para desarrollar ​procesos y tareas de gestión de riesgos
+   - Luego, los profesionales de seguridad utilizan esos procesos y ​desarrollan tareas pensando en cómo el ​riesgo puede afectar la confidencialidad, la integridad y la disponibilidad de los sistemas y la información
+   - Como analista principiante, ​necesitará saber cómo ​seguir los procesos establecidos ​por su organización para reducir los riesgos para los ​activos críticos, como la información privada de los cliente
+3. Seleccionar:
+   - Seleccionar medios para elegir, personalizar ​y capturar la documentación de ​los controles que protegen a una organización
+   - Un ejemplo del paso de selección sería mantener ​un manual de estrategias actualizado o ayudar a ​administrar otra documentación que les permita a usted y ​a su equipo abordar los problemas de manera más eficiente.
+4. Implementar:
+   - implementar ​planes de Seguridad y privacidad para la organización
+   - Disponer de buenos planes es esencial para ​minimizar el impacto de los riesgos de Seguridad actuales
+   - Por ejemplo, si observas un patrón en el que los ​empleados necesitan restablecer constantemente las contraseñas, ​implementar un cambio en ​los requisitos de contraseñas puede ayudar a resolver este problema
+5. Evaluar:
+   - Evaluar significa determinar si ​los controles establecidos se implementan correctamente
+   - Una organización siempre quiere ​operar de la manera más eficiente posible.
+   - Por lo tanto, es esencial tomarse el tiempo para ​analizar si los protocolos ​, procedimientos y controles implementados que están en ​vigor satisfacen las necesidades de la organización. 
+   - los analistas identifican ​las posibles debilidades y determinan ​si las herramientas, ​los procedimientos, los controles ​y los protocolos de la organización deben ​cambiarse para gestionar mejor los riesgos potenciales
+6. Autorizar:
+   - Autorizar significa ser responsable de ​los riesgos de Seguridad y privacidad que ​puedan existir en una organización
+   - Como analista, ​el paso de autorización podría implicar la generación de informes, el ​desarrollo de planes de acción ​y el establecimiento de hitos del proyecto que estén ​alineados con los objetivos de Seguridad de su organización
+7. Monitorear:
+   - Monitorear significa estar al tanto de cómo funcionan los sistemas. La ​evaluación y el mantenimiento de las operaciones técnicas ​son tareas que los analistas realizan a diario. 
+   - ​Parte de mantener un nivel bajo de ​riesgo para una organización es ​saber cómo los sistemas actuales respaldan ​los objetivos de Seguridad de la organización
+   -  ​Si los sistemas existentes no cumplen con esos objetivos, es ​posible que se necesiten cambios
