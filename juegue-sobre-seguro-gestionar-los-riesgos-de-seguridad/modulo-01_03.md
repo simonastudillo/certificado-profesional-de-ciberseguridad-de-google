@@ -166,3 +166,35 @@
 - Como analista de seguridad de nivel básico, podría trabajar en la Gestión de vulnerabilidades, que consiste en Monitorear un sistema para identificar y mitigar las vulnerabilidades
 - Aunque existan parches y actualizaciones, si no se aplican pueden producirse intrusiones
 - Por esta razón, es importante un monitoreo constante. Cuanto antes identifique una organización una vulnerabilidad y la aborde aplicando parches o actualizando sus sistemas, antes se podrá mitigar, reduciendo la exposición de la organización a la vulnerabilidad.  
+
+---
+
+## Ponga a prueba sus Conocimientos: Navegue por las amenazas, los riesgos y las vulnerabilidades
+
+1. ¿Qué es una vulnerabilidad?
+- [ ] Cualquier cosa que pueda afectar a la confidencialidad, integridad y disponibilidad de un recurso
+- [ ] Cualquier circunstancia o Evento que pueda impactar negativamente en los recursos
+- [ ] La capacidad de una organización para gestionar su defensa de activos y datos críticos y reaccionar ante los cambios
+- [x] Una debilidad que puede ser explotada por una amenaza
+> Una vulnerabilidad es una debilidad que puede ser explotada por una amenaza. 
+
+2. Rellene el espacio en blanco: La Información protegida por Regulaciones o leyes es un _____. Si se ve comprometida, es probable que se produzca un grave impacto negativo en las finanzas, las operaciones o la reputación de una organización
+- [ ] recurso de bajo Riesgo
+- [x] recurso de alto Riesgo
+- [ ] recurso de nuevo riesgo
+- [ ] recurso de riesgo medio
+> La Información protegida por Regulaciones o leyes es un recurso de alto Riesgo. Si se ve comprometida, es probable que se produzca un grave impacto negativo en las finanzas, las operaciones o la reputación de una organización. 
+
+3. ¿Cuáles son los impactos clave de las amenazas, los riesgos y las vulnerabilidades? Seleccione tres respuestas
+- [x] Daños a la Reputación
+- [x] Robo de identidad
+- [ ] Retención de empleados
+- [x] Daños financieros
+> Los impactos clave de las amenazas, riesgos y vulnerabilidades son los daños financieros, el robo de identidad y el daño a la reputación. 
+
+4. Rellene el espacio en blanco: Los pasos del Marco de Gestión de Riesgos (RMF) son Preparar, _____, Seleccionar, Implementar, Evaluar, Autorizar y Monitorear
+- [ ] comunicar
+- [ ] producir
+- [ ] reflejar
+- [x] categorizar
+> Los pasos del RMF son Preparar, Categorizar, Seleccionar, Implementar, Evaluar, Autorizar y Monitorear. En el paso de categorizar, los profesionales de la Seguridad desarrollan procesos y tareas de gestión de riesgos.
