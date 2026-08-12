@@ -1,4 +1,4 @@
-# CComience con el programa de certificados
+# Comience con el programa de certificados
 
 ## Bienvenido al Certificado de Ciberseguridad de Google
 - La ciberseguridad puede parecer desalentadora al principio, ​pero te sorprenderán ​los diferentes antecedentes que tenemos muchos de nosotros
