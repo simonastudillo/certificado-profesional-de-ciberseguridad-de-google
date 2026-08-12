@@ -26,3 +26,30 @@
 - ​Ya sea un cliente, un proveedor externo o un empleado, el ​mantenimiento de la Seguridad debe ser un esfuerzo conjunto. 
 - Las organizaciones deben mejorar continuamente sus esfuerzos a la hora de ​identificar y mitigar las vulnerabilidades para minimizar las amenazas y los riesgos
 - Los analistas principiantes pueden respaldar este objetivo alentando a los empleados a ​denunciar actividades sospechosas y supervisando y ​documentando activamente el acceso de los empleados a los activos críticos
+
+---
+
+## Impactos clave de las amenazas, Riesgos y vulnerabilidades
+- El ransomware es un ataque malicioso en el que los actores de la amenaza encriptan ​los datos de una organización y luego exigen un pago para restaurar el acceso
+   - Una vez que el ransomware es implementado por un atacante, ​puede congelar los sistemas de red, dejar los dispositivos inutilizables y ​encriptar o bloquear los datos confidenciales, haciendo que los dispositivos sean inaccesibles
+   - El agente de amenaza exige entonces un rescate antes de proporcionar una clave de desencriptación ​que permita a las organizaciones volver a sus operaciones comerciales normales
+   - Piense en una clave de desencriptación como una contraseña proporcionada para recuperar el acceso a sus datos
+   - Tenga en cuenta que cuando se producen negociaciones de rescate o los datos son filtrados por agentes de amenaza, ​estos eventos pueden ocurrir a través de la red oscura. 
+   - Aunque mucha gente utiliza los motores de búsqueda para navegar a sus cuentas de redes sociales o ​para comprar en línea, esto es sólo una pequeña parte de lo que realmente es la web
+- La web es en realidad una red interconectada de contenidos en línea que está ​compuesta por tres capas: la web de superficie, la web profunda y la web oscura
+   - La web de superficie es la capa que utiliza la mayoría de la gente. ​Contiene contenidos a los que se puede acceder utilizando un navegador web
+   - La web profunda generalmente requiere autorización para acceder a ella. ​La intranet de una organización es un ejemplo de la web profunda, ​ya que sólo pueden acceder a ella los empleados u otras personas a las que se les haya concedido acceso
+   - la web oscura utilizando un software especial. La web oscura suele tener una connotación negativa ya que es la capa web preferida ​por los delincuentes debido al secretismo que proporciona
+- tres impactos clave de las amenazas, los riesgos y las vulnerabilidades
+   -  El primer impacto que discutiremos es el impacto financiero
+      - Cuando los recursos de una organización se ven comprometidos por un ataque, como el uso ​de software malicioso, las consecuencias financieras pueden ser significativas por una variedad de razones
+      - Estas pueden incluir la interrupción de la Producción y los servicios, ​el coste de corregir el problema, y multas si los recursos se ven comprometidos ​debido al incumplimiento de las leyes y Regulaciones
+   - ​El segundo impacto es el robo de identidad
+      -  ​Las organizaciones deben decidir si almacenan datos privados de clientes, ​empleados y proveedores externos, y durante cuánto tiempo.
+      - ​Almacenar cualquier tipo de datos sensibles supone un riesgo para la organización
+      - Los datos sensibles pueden incluir información de identificación personal, o ​PII, que puede venderse o filtrarse a través de la web oscura
+   - El último impacto del que hablaremos es el daño a la reputación de una organización
+      - Una base sólida de clientes respalda la misión, ​la visión y los objetivos financieros de una organización
+      - Una vulnerabilidad explotada puede llevar a los clientes a buscar nuevas ​relaciones comerciales con la competencia o ​crear mala prensa que cause un daño permanente a la reputación de una organización
+      - La pérdida de datos de clientes no sólo afecta a la reputación y ​finanzas de una organización, también puede dar lugar a sanciones legales y multas. 
+- ​Se recomienda encarecidamente a las organizaciones que tomen las medidas de seguridad adecuadas y ​sigan ciertos protocolos para prevenir el impacto significativo de amenazas, ​riesgos y vulnerabilidades
