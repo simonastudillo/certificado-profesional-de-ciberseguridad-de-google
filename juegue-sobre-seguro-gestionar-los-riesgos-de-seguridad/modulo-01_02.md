@@ -37,3 +37,42 @@
    - ​Las redes seguras mantienen a salvo los datos y las comunicaciones de una organización ​ya sea in situ, en la nube o cuando se conecta a servicios de forma remota
    - Por ejemplo, los empleados que trabajan a distancia en espacios públicos necesitan estar ​protegidos frente a las vulnerabilidades que pueden producirse cuando utilizan ​conexiones bluetooth inseguras o puntos de acceso wifi públicos
    - Al hacer que los miembros del Equipo de Seguridad eliminen el acceso a esos tipos de canales de comunicación ​a nivel organizativo, se puede disuadir a los empleados de ​practicar comportamientos inseguros que podrían ser explotados por agentes de amenaza
+
+---
+
+## Explore los dominios de Seguridad CISSP, Parte 2
+- ​El quinto dominio es la Gestión de identidad y acceso, o IAM
+   - Y se centra en el acceso y la autorización para mantener los datos seguros ​asegurándose de que los usuarios siguen las políticas establecidas para controlar y gestionar los activos
+   - ​Como analista de nivel básico, es esencial mantener los sistemas y datos de una organización ​tan seguros como sea posible asegurándose de que el acceso de los usuarios se limita a lo que los empleados necesitan. 
+   - Básicamente, el objetivo de la IAM es reducir el riesgo global para los sistemas y los datos
+   - ​Por ejemplo, si todo el mundo en una empresa utiliza el mismo inicio de sesión de administrador, ​no hay forma de rastrear quién tiene acceso a qué datos
+   - En caso de infracción, ​separar la actividad de un usuario válido del agente de amenaza sería imposible. 
+   - ​Hay cuatro componentes principales en la IAM
+      - La identificación es cuando un usuario verifica quién es proporcionando un nombre de usuario, ​una tarjeta de acceso o datos biométricos como una huella dactilar
+      - La autenticación es el proceso de verificación para probar la ​identidad de una persona, como introducir una contraseña o un PIN
+      - La autorización tiene lugar una vez que se ha confirmado la identidad de un usuario y ​se relaciona con su nivel de acceso, que depende de la función que desempeñe en la organización
+      - La responsabilidad se refiere a la supervisión y el registro de las acciones de los usuarios, ​como los intentos de inicio de sesión, para demostrar que los sistemas y los datos se utilizan correctamente
+- El sexto ámbito de la seguridad es la evaluación y las pruebas de seguridad
+   - Este ámbito se centra en la realización de pruebas de control de la seguridad, ​la recopilación y el análisis de datos y la realización de auditorías de seguridad para supervisar ​los riesgos, las amenazas y las vulnerabilidades. 
+   - ​Las pruebas de controles de seguridad pueden ayudar a una organización a identificar nuevas y ​mejores formas de mitigar las amenazas, los riesgos y las vulnerabilidades
+   - Esto implica examinar las metas y objetivos de la organización y ​evaluar si los controles que se están utilizando realmente logran esas metas. 
+   - Recopilar y analizar datos de seguridad regularmente también ayuda a prevenir amenazas y ​riesgos para la organización.
+   - Los analistas pueden utilizar las evaluaciones de las pruebas de controles de seguridad y los informes de ​evaluación de la seguridad para mejorar los controles existentes o implementar nuevos controles
+   - Un ejemplo de implementación de un nuevo control podría ser exigir el uso de la autenticación de múltiples factores ​para proteger mejor a la organización de amenazas y riesgos potenciales
+- operaciones de seguridad
+   - El ámbito de las operaciones de seguridad se centra en realizar investigaciones e ​implementar medidas preventivas. 
+   - Las investigaciones comienzan una vez que se ha identificado un incidente de seguridad
+   - Este proceso requiere un mayor sentido de la urgencia para minimizar ​los riesgos potenciales para la organización
+   - Si hay un ataque activo, mitigar el ataque y ​evitar que siga escalando es esencial para ​garantizar que la información privada está protegida de los agentes de amenaza
+   - Una vez neutralizada la amenaza, comenzará la recopilación de pruebas ​digitales y físicas para llevar a cabo una investigación forense
+   - Debe llevarse a cabo una investigación forense digital para identificar ​cuándo, cómo y por qué se produjo la brecha
+   - Esto ayuda a los equipos de seguridad a determinar áreas de mejora y ​medidas preventivas que pueden tomarse para mitigar futuros ataques
+- El octavo y último dominio de seguridad es la seguridad en el desarrollo de software. 
+   - ​Este dominio se centra en el uso de prácticas de programación seguras
+   - Como recordará, las prácticas de codificación segura son directrices recomendadas ​que se utilizan para crear aplicaciones y servicios seguros
+   - El ciclo de vida de desarrollo de software es un proceso eficiente utilizado por los equipos para ​crear rápidamente productos y funciones de software
+   - En este proceso, la seguridad es un paso adicional
+   - ​Al garantizar que cada fase del ciclo de vida de desarrollo de software se somete a ​revisiones de seguridad, la seguridad puede integrarse completamente en el producto de software
+   - Por ejemplo, realizar una revisión del diseño seguro durante la fase de diseño, ​revisiones del código seguro durante las fases de desarrollo y pruebas, ​y pruebas de penetración durante la fase de despliegue e implementación ​garantiza que la seguridad está integrada en el producto de software en cada paso
+   - ​Esto mantiene el software seguro y los datos sensibles protegidos, y ​mitiga riesgos innecesarios para una organización. 
+- ​Estar familiarizado con estos dominios puede ayudarle a comprender mejor cómo se ​utilizan para mejorar la seguridad general de una organización y ​el papel fundamental que desempeñan los Equipos de Seguridad
