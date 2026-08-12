@@ -13,3 +13,8 @@
 - Luego, pasamos a ocho dominios de seguridad, ​que incluyen la gestión de riesgos y seguridad, la ​seguridad de los recursos y las operaciones de seguridad
 - A continuación, destacamos los marcos y controles de Seguridad. ​En concreto, el ​modelo de tríada CID de la CIA y el marco de ciberseguridad del NIST
 - Por último, exploramos las herramientas y los ​lenguajes de programación comunes que utilizan los ​analistas de Seguridad, como los SIEM, ​los playbooks, SQL y Python
+
+---
+
+## Glosario del curso 1
+- El glosario completo se encuentra [aquí](./README.md#glosario)
