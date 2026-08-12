@@ -21,6 +21,55 @@
 
 ## Habilidades y conceptos a aprender
 
+### Habilidades técnicas (hard skills)
+- **Cybersecurity** (Ciberseguridad)
+- **Information Security** (Seguridad de la información)
+- **Network Security** (Seguridad de redes)
+- **Cloud Security** (Seguridad en la nube)
+- **Incident Response** (Respuesta ante incidentes)
+- **Security Operations** (Operaciones de seguridad)
+- **Vulnerability Assessment** (Evaluación de vulnerabilidades)
+- **Penetration Testing** (Pruebas de penetración)
+- **Security Information and Event Management (SIEM)**
+- **Intrusion Detection Systems (IDS)**
+- **Antivirus/Antimalware**
+- **Encryption**
+- **Security Auditing** (Auditorías de seguridad)
+- **Digital Forensics** (Informática forense)
+- **Chain of Custody** (Cadena de custodia)
+- **Identity and Access Management (IAM)**
+- **Linux**
+- **SQL**
+- **Python**
+- **Log Analysis** (Análisis de registros)
+- **Risk Management** (Gestión de riesgos)
+- **Compliance** (Cumplimiento normativo)
+- **Security Frameworks** (Marcos de seguridad)
+- **Security Controls** (Controles de seguridad)
+
+### Conceptos clave
+- **CIA Triad** (Tríada de confidencialidad, integridad y disponibilidad)
+- **NIST Cybersecurity Framework (CSF)**
+- **NIST Risk Management Framework (RMF)**
+- **CISSP Security Domains** (Los ocho dominios de seguridad CISSP)
+- **Cumplimiento normativo**: HIPAA, GDPR, PCI DSS, ISO, SOC 1/2, FedRAMP, FERC-NERC, CIS
+- **Threat Actor** (Actor de amenaza) y **Threat Landscape** (panorama de amenazas)
+- **Malware** (virus, gusanos, ransomware, spyware)
+- **Social Engineering** y **Phishing** (incluidos spear phishing, whaling, vishing, smishing, BEC)
+- **PII / SPII** (información de identificación personal y sensible)
+- **Security Ethics** (Ética de la seguridad)
+- **Order of Volatility** (Orden de volatilidad)
+- **Playbooks** (Manuales de estrategias) y **Packet Sniffers** (analizadores de protocolos de red)
+- **Postura de seguridad** (Security Posture)
+- **Business Continuity** (Continuidad del negocio)
+
+### Habilidades transferibles (soft skills)
+- **Communication** (Comunicación)
+- **Collaboration** (Colaboración)
+- **Problem Solving** (Resolución de problemas)
+- **Analytical Thinking** (Pensamiento analítico)
+- **Time Management** (Gestión del tiempo)
+- **Growth Mindset** (Mentalidad de crecimiento)
 
 ## Descripción del curso
 ---
@@ -249,9 +298,34 @@ Registrarse para obtener una nueva cuenta de GitHub. Comenzar.
 ---
 
 ### Módulo 1: Bienvenido al apasionante mundo de la ciberseguridad
+- **Definición**: la ciberseguridad garantiza la confidencialidad, integridad y disponibilidad de la información protegiendo redes, dispositivos, personas y datos de accesos no autorizados o explotación delictiva.
+- **Roles de nivel inicial**: analista/specialista de seguridad, analista de ciberseguridad, analista de centro de operaciones de seguridad (SOC) y analista de seguridad de la información.
+- **Responsabilidades del analista**: monitorear y proteger los sistemas y las redes, instalar software de prevención, realizar auditorías de seguridad periódicas y buscar debilidades (incluido el hacking ético).
+- **Habilidades transferibles**: comunicación, colaboración, resolución de problemas, gestión del tiempo y mentalidad de crecimiento.
+- **Habilidades técnicas**: lenguajes de programación, herramientas SIEM, sistemas de detección de intrusiones (IDS), conocimiento del panorama de amenazas y respuesta ante incidentes.
+- **Importancia de la seguridad**: protege la continuidad del negocio, garantiza el cumplimiento normativo y salvaguarda la PII y la SPII (robo de identidad como principal riesgo).
+- **Phishing**: distinguir tácticas de ingeniería social de los indicadores técnicos definitorios (dominios y enlaces maliciosos).
 
 ### Módulo 2: La evolución de la ciberseguridad
+- **Ataques históricos**: virus Brain (1986), gusano Morris (1988, dio origen a los CERTs), ataque LoveLetter o "Te quiero" (2000, primer ejemplo de ingeniería social, 45 millones de equipos infectados) y la filtración de datos de Equifax (2017, más de 143 millones de registros de PII).
+- **Tipos de ataques comunes**: phishing (BEC, spear phishing, whaling, vishing, smishing), software malicioso (virus, gusanos, ransomware, spyware) e ingeniería social.
+- **Principios de la ingeniería social**: autoridad, intimidación, consenso/prueba social, escasez, familiaridad, confianza y urgencia.
+- **Ocho dominios de seguridad CISSP**: gestión de seguridad y riesgos, seguridad de los activos, arquitectura e ingeniería de seguridad, seguridad de redes y comunicaciones, gestión de identidades y accesos, evaluación y pruebas de seguridad, operaciones de seguridad y seguridad en el desarrollo de software.
+- **Tipos de ataque según el dominio**: descifrado de contraseñas, ingeniería social, ataques físicos, inteligencia artificial antagónica, ataques a la cadena de suministro y ataques criptográficos.
+- **Actores de amenaza**: amenazas persistentes avanzadas (APT), amenazas internas y hacktivistas; categorías de hackers (autorizados, semiautorizados y no autorizados).
 
 ### Módulo 3: Proteger contra amenazas, Riesgos y vulnerabilidades
+- **Marcos de seguridad**: directrices para crear planes que mitiguen riesgos y amenazas; están compuestos por cuatro componentes: identificar y documentar objetivos, establecer directrices, implementar procesos de seguridad sólidos y monitorear/comunicar los resultados.
+- **Controles de seguridad**: salvaguardas diseñadas para reducir riesgos específicos.
+- **Tríada CID**: confidencialidad, integridad y disponibilidad, modelo fundamental para gestionar el riesgo.
+- **Marcos y normativas clave**: NIST CSF y RMF, FERC-NERC, FedRAMP, CIS, RGPD, PCI DSS, HIPAA (y HITRUST), ISO y SOC 1/2.
+- **Ética de la seguridad**: principios de confidencialidad, protección de la privacidad y cumplimiento de las leyes; los contraataques son ilegales en EE.UU. y generalmente desaconsejados a nivel internacional.
 
 ### Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
+- **Registros (logs)**: registran los eventos de los sistemas y permiten identificar vulnerabilidades y posibles infracciones.
+- **SIEM**: aplicaciones que recopilan y analizan los datos de los logs (ejemplos: Splunk y Chronicle) y generan alertas para riesgos y amenazas específicos.
+- **Playbooks (manuales de estrategias)**: guían la respuesta ante incidentes, incluyendo la cadena de custodia y la protección/preservación de evidencias (orden de volatilidad).
+- **Analizadores de protocolos de red (packet sniffers)**: capturan y analizan el tráfico de la red (ejemplos: tcpdump y Wireshark).
+- **Sistemas operativos y lenguajes**: Linux (sistema operativo de código abierto basado en línea de comandos), SQL (interactuar con bases de datos) y Python (automatizar tareas repetitivas y precisas).
+- **Otras herramientas**: sistemas de detección de intrusiones (IDS), software antivirus, encriptación y pruebas de penetración.
+- **Portfolio de ciberseguridad**: desarrollo de una declaración profesional y evidencias prácticas (auditorías, comandos Linux, consultas SQL, identificación de vulnerabilidades) para presentar a posibles empleadores.
