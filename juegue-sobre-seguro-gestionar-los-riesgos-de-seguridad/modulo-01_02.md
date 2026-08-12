@@ -168,3 +168,54 @@
 - Algunas de las habilidades las aprendí trabajando en el comercio minorista, ​tratando con clientes difíciles, ​aprendiendo a hablar con la gente o a disipar ​una situación si la gente está molesta por cosas, ​simplemente aprendiendo a hablar con la gente. ​En TI lo necesitamos. 
 - Tienes que tener buenas habilidades de análisis ​y, ​repito, ni siquiera tiene que ser un análisis técnico
 - Para muchos de nosotros, existe como un miedo a las matemáticas, la ​programación es un gran obstáculo, ​pero trabajamos con personas, ​trabajamos con procesos ​y no es necesario tener ​conocimientos de programación para entender a las personas o los procesos
+
+---
+
+## Identificar: Los ocho dominios de Seguridad del CISSP
+1. Securing assets; storage, maintenance, retention, and destruction of data
+- [ ] Security and risk management
+- [x] Asset security
+- [ ] Security architecture and engineering
+- [ ] Communication and network security
+
+2. Managing and securing physical networks and wireless communications
+- [ ] Security and risk management
+- [ ] Asset security
+- [ ] Security architecture and engineering
+- [x] Communication and network security
+
+3. Security goals and objectives, risk mitigation, compliance, business continuity, and the law
+- [x] Security and risk management
+- [ ] Asset security
+- [ ] Security architecture and engineering
+- [ ] Communication and network security
+
+4. Optimizing data security by using effective tools, systems, and processes
+- [ ] Security and risk management
+- [ ] Asset security
+- [x] Security architecture and engineering
+- [ ] Communication and network security
+
+5. Conducting security control testing and audits, collecting and analyzing data
+- [ ] Identity and access management
+- [x] Security assessment and testing
+- [ ] Security operations
+- [ ] Software development security
+
+6. Using secure coding practices to create secure applications and service
+- [ ] Identity and access management
+- [ ] Security assessment and testing
+- [ ] Security operations
+- [x] Software development security
+
+7. Using access, authorization, and established policies to secure data and manage assets
+- [x] Identity and access management
+- [ ] Security assessment and testing
+- [ ] Security operations
+- [ ] Software development security
+
+8. Conducting investigations and implementing preventative measures
+- [ ] Identity and access management
+- [ ] Security assessment and testing
+- [x] Security operations
+- [ ] Software development security
