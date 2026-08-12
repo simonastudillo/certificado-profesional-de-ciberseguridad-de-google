@@ -30,3 +30,15 @@
 - Módulo 4:
    - Aprenderás cuáles son los objetivos y los usos habituales de los manuales de respuesta.
    - También explorarás cómo los profesionales de la ciberseguridad utilizan estos manuales para responder a las amenazas, riesgos y vulnerabilidades identificados.
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
