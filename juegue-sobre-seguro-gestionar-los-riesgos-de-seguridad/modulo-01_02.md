@@ -219,3 +219,35 @@
 - [ ] Security assessment and testing
 - [x] Security operations
 - [ ] Software development security
+
+---
+
+## Ponga a prueba sus Conocimientos: Más información sobre los dominios de Seguridad CISSP
+
+1. Rellene el espacio en blanco: El dominio _____ se centra en el acceso y la autorización para mantener la seguridad de los Datos asegurándose de que los usuarios siguen las políticas establecidas para controlar y gestionar los recursos
+- [ ] operaciones de Seguridad
+- [x] gestión de identidad y acceso
+- [ ] seguridad de los recursos
+- [ ] comunicación y Seguridad de redes
+> El dominio de Gestión de identidad y acceso se centra en el acceso y autorización para mantener los datos seguros asegurándose de que los usuarios siguen las políticas establecidas para controlar y gestionar los recursos
+
+2. ¿En qué se centra el dominio de la Seguridad y la Gestión de riesgos?
+- [ ] Optimizar la Seguridad de los datos garantizando la existencia de procesos eficaces
+- [ ] Redes físicas seguras y comunicaciones inalámbricas
+- [x] Definir metas y objetivos de Seguridad, mitigación de riesgos, Cumplimiento, Continuidad del negocio y Regulaciones
+- [ ] Gestionar y asegurar las comunicaciones inalámbricas
+> El dominio de la Seguridad y la Gestión de Riesgos se centra en la definición de las metas y objetivos de Seguridad, la mitigación de riesgos, el Cumplimiento, la Continuidad del Negocio y las Regulaciones
+
+3. ¿En qué dominio realizaría un profesional de la seguridad pruebas de control de la seguridad; recopilaría y analizaría datos; y llevaría a cabo auditorías de seguridad para monitorizar riesgos, amenazas y vulnerabilidades?
+- [x] Evaluación y pruebas de seguridad
+- [ ] Comunicación e ingeniería de redes
+- [ ] Gestión de identidad y acceso
+- [ ] Arquitectura de seguridad e ingeniería
+> En el ámbito de la evaluación y las pruebas de seguridad, un profesional de la seguridad lleva a cabo pruebas de controles de seguridad; recopila y analiza datos; y realiza auditorías de seguridad para vigilar los riesgos, las amenazas y las vulnerabilidades
+
+4. Rellene el espacio en blanco: El dominio _____ se refiere a la realización de investigaciones y a la Implementación de medidas preventivas
+- [ ] seguridad de los recursos
+- [x] operaciones de Seguridad
+- [ ] seguridad en el desarrollo de software
+- [ ] ingeniería de comunicaciones y redes
+> El dominio de las operaciones de Seguridad se refiere a la realización de investigaciones y a la implementación de medidas preventivas
