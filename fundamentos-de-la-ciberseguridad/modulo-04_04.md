@@ -18,3 +18,8 @@
 
 ## Glosario del curso 1
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- Haz completado el curso 1 "Fundamentos de la ciberseguridad": explora la profesión de la ciberseguridad, incluidos los acontecimientos significativos que llevaron al desarrollo de este campo y su importancia continua para las operaciones de las organizaciones. Descubre cuáles son las funciones y responsabilidades de los puestos de ciberseguridad de nivel inicial
