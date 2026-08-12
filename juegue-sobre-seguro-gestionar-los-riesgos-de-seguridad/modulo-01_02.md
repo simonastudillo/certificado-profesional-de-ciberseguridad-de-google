@@ -160,3 +160,11 @@
    - Es necesario disponer de un sistema para probar las convenciones de programación, los ejecutables de software y las medidas de seguridad integradas en el software
    - Contar con profesionales de la garantía de calidad y de las pruebas de penetración que garanticen que el software cumple las normas de seguridad y rendimiento es también una parte esencial del proceso de desarrollo del software
    - Por ejemplo, a un analista principiante que trabaje para una empresa farmacéutica se le puede pedir que se asegure de que la encriptación está correctamente configurada para un nuevo dispositivo médico que almacenará datos privados de los pacientes
+
+---
+
+## Ashley: Mi ruta de acceso a la ciberseguridad
+- Si eres nuevo y acabas de llegar, ​tienes que saber cómo trabajar en equipo
+- Algunas de las habilidades las aprendí trabajando en el comercio minorista, ​tratando con clientes difíciles, ​aprendiendo a hablar con la gente o a disipar ​una situación si la gente está molesta por cosas, ​simplemente aprendiendo a hablar con la gente. ​En TI lo necesitamos. 
+- Tienes que tener buenas habilidades de análisis ​y, ​repito, ni siquiera tiene que ser un análisis técnico
+- Para muchos de nosotros, existe como un miedo a las matemáticas, la ​programación es un gran obstáculo, ​pero trabajamos con personas, ​trabajamos con procesos ​y no es necesario tener ​conocimientos de programación para entender a las personas o los procesos
