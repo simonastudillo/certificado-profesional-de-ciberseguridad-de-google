@@ -53,3 +53,15 @@
       - Una vulnerabilidad explotada puede llevar a los clientes a buscar nuevas ​relaciones comerciales con la competencia o ​crear mala prensa que cause un daño permanente a la reputación de una organización
       - La pérdida de datos de clientes no sólo afecta a la reputación y ​finanzas de una organización, también puede dar lugar a sanciones legales y multas. 
 - ​Se recomienda encarecidamente a las organizaciones que tomen las medidas de seguridad adecuadas y ​sigan ciertos protocolos para prevenir el impacto significativo de amenazas, ​riesgos y vulnerabilidades
+
+---
+
+## Amenaza: Gestionar las amenazas, los riesgos y las vulnerabilidades
+- Una tarea típica de ​los analistas de ciberseguridad suele ser algo así como las solicitudes de excepciones
+- Analizar si alguien necesita tener acceso especial a un dispositivo o documento ​en función del rol que desempeña la persona o del proyecto en el que está trabajando. 
+- ​Una de las amenazas más comunes con las que nos encontramos es la mala configuración o la ​solicitud de acceso para algo que realmente no se necesita
+- Por ejemplo, hace poco tuve un caso en el que un proveedor ​con el que trabajábamos había cambiado sus solicitudes de ámbito de OAuth
+- Básicamente, eso significa que estaban solicitando más permisos para usar ​los servicios de Google que antes
+- No estábamos realmente seguros de cómo hacerlo porque no era ​una situación con la que nos hayamos topado antes. ​Por lo tanto, aún está en curso, pero ​estamos trabajando con los equipos de socios para desarrollar una solución para eso
+- ​Creo que otra cosa que hemos visto son los sistemas anticuados, ​las máquinas que necesitan ser reparadas. ​Parece un problema de TI, pero también es definitivamente un problema de ciberseguridad. 
+- Para poder hacer realmente cualquier cosa, necesitas comunicarte no solo con el equipo del ​que formas parte, sino también con otros equipos
