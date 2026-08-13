@@ -30,3 +30,33 @@
 - Proporciona un marco unificado para proteger ​la seguridad de los sistemas de información ​dentro del gobierno federal, ​incluidos los sistemas proporcionados por ​empresas privadas para uso del gobierno federal
 - Los controles de seguridad proporcionados por ​este marco se utilizan para mantener ​la tríada CID de los sistemas utilizados por el gobierno.
 - Como son elementos fundamentales de la profesión de seguridad, ​el NIST CSF ​es un marco útil con el ​que la mayoría de los profesionales de la seguridad están familiarizados ​, y conocer el NIST, ​SP 800-53, es ​crucial si está interesado ​en trabajar para el gobierno federal de los EE. UU. 
+
+---
+
+## Explore las seis funciones del Marco de Ciberseguridad del NIST
+- El ​CSF del NIST se centra en cinco funciones principales:
+   - Identificar:
+      - está relacionada con la gestión del ​riesgo de ciberseguridad y su efecto en ​las personas y los activos de una organización
+      - Por ejemplo, como analista de seguridad, es ​posible que se le pida que supervise los sistemas y dispositivos de la ​red interna de su organización para identificar ​posibles problemas de seguridad
+   - Proteger:
+      - es la estrategia ​utilizada para proteger a una organización ​mediante la implementación de políticas, ​procedimientos, capacitación ​y herramientas que ayudan a mitigar las amenazas de ciberseguridad
+      - Por ejemplo, como analista de seguridad, ​usted y su equipo pueden encontrarse con ​amenazas y ataques nuevos y desconocidos. 
+      - ​Por esta razón, ​es esencial estudiar los datos históricos y realizar mejoras en las políticas y los procedimientos
+   - Detectar:
+      - significa identificar posibles incidentes de seguridad ​y mejorar las capacidades de monitoreo para ​aumentar la velocidad y la eficiencia de las detecciones
+      - Por ejemplo, como analista, es ​posible que se le pida que revise la ​configuración de una nueva herramienta de seguridad para asegurarse de que marca un ​riesgo bajo, medio o alto ​y, a continuación, que avise al equipo de seguridad sobre ​cualquier posible amenaza o incidente
+   - Responder:
+      - significa ​asegurarse de que se utilizan los procedimientos adecuados para contener, ​neutralizar ​y analizar los incidentes de seguridad e ​implementar mejoras en el proceso de seguridad
+      - ​Como analista, podrías ​trabajar con un equipo para recopilar y ​organizar datos para documentar un incidente y sugerir ​mejoras en los procesos para ​evitar que el incidente vuelva a ocurrir
+   - Recuperar:
+      - es el proceso de ​devolver los sistemas afectados a su funcionamiento normal
+      - Por ejemplo, como analista de seguridad de nivel básico, ​puede trabajar con su equipo de seguridad ​para restaurar los sistemas, los ​datos y los activos, como los ​archivos financieros o legales, que ​se han visto afectados por un incidente, como una infracción. 
+- Estas funciones principales ayudan a ​las organizaciones a gestionar los riesgos de ciberseguridad, ​implementar estrategias de gestión de riesgos ​y aprender de los errores anteriores
+- Básicamente, cuando se trata de operaciones de seguridad, las ​funciones del CSF del NIST ​son clave para garantizar que una organización ​esté protegida contra posibles amenazas ​, riesgos y vulnerabilidades
+- Los incidentes de seguridad van a ocurrir, ​pero una organización debe tener ​la capacidad de recuperarse rápidamente de ​cualquier daño causado por un incidente ​para minimizar su nivel de riesgo. 
+
+>[!INFO] Actualización: Función de Gobierno
+> Una actualización significativa en la última versión del Marco de Ciberseguridad del NIST es la inclusión de una nueva función básica: Gobernar.
+> Esta función hace hincapié en la importancia de una sólida gobernanza de la ciberseguridad en todos los niveles de la organización.
+> Se trata de establecer y mantener las estructuras y procesos necesarios para gestionar eficazmente los riesgos de ciberseguridad.
+> Esto incluye cosas como establecer objetivos claros de ciberseguridad, garantizar el compromiso de la dirección, desarrollar y aplicar una estrategia global de gestión de riesgos y mejorar continuamente el rendimiento de la ciberseguridad.
