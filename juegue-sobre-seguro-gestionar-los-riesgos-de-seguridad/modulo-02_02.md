@@ -48,3 +48,22 @@
    - En el lugar de trabajo, esto podría significar que la organización permite a los empleados remotos acceder a su red interna para realizar su trabajo.
    - Cabe señalar que el acceso a los datos de la red interna sigue estando limitado, dependiendo del tipo de acceso que necesiten los empleados para realizar su trabajo.
    - Si, por ejemplo, un empleado trabaja en el departamento de contabilización de la organización, podría necesitar acceso a las cuentas corporativas pero no a los datos relacionados con los proyectos de desarrollo en curso.
+
+---
+
+## Practique: Utilice la tríada CID en situaciones laborales
+- In this matching exercise, you will review the three components of the CIA triad and explore examples of each.
+1. You must use two-factor authentication before signing into an employee portal.
+- [x] Confidentiality
+- [ ] Integrity
+- [ ] Availability
+
+2. You frequently sign into your bank account to check your balances
+- [ ] Confidentiality
+- [ ] Integrity
+- [x] Availability
+
+3. You recently shopped at Store Y and verify you were charged correctly
+- [ ] Confidentiality
+- [x] Integrity
+- [ ] Availability
