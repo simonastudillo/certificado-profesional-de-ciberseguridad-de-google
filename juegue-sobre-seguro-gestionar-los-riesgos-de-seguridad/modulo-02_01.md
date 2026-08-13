@@ -95,3 +95,32 @@
       - Separación de funciones
       - Autorización
       - Clasificación de activos
+
+---
+
+## Ponga a prueba sus Conocimientos: Más sobre marcos y controles
+
+1. ¿Cómo permiten los marcos de seguridad que los profesionales de la seguridad ayuden a mitigar los riesgos?
+- [ ] Se utilizan para perfeccionar elementos de un Modelo de Seguridad básico conocido como la tríada CID.
+- [x] Se utilizan para establecer directrices para la elaboración de planes de Seguridad.
+- [ ] Se utilizan para crear características físicas únicas para verificar la identidad de una persona. 
+- [ ] Se utilizan para establecer leyes que reduzcan un Riesgo de Seguridad específico.
+> Los marcos de seguridad se utilizan para establecer directrices para la elaboración de planes de seguridad que permitan a los profesionales de la seguridad ayudar a mitigar los riesgos.
+
+2. Las organizaciones de la competencia son la mayor amenaza para la Seguridad de una empresa.
+- [ ] Verdadero
+- [x] Falso
+> Las personas son la mayor Amenaza para la Seguridad de una empresa. Por eso, educar a los empleados sobre los retos de Seguridad es esencial para minimizar la posibilidad de una brecha. 
+
+3. Rellene el espacio en blanco: Controles de seguridad son salvaguardas diseñadas para reducir los Riesgos de Seguridad de _____.
+- [ ] público
+- [ ] a gran escala
+- [ ] general
+- [x] específico
+> Controles de seguridad son salvaguardas diseñadas para reducir riesgos específicos.
+
+4. Un analista de Seguridad trabaja en un proyecto diseñado para reducir el riesgo de vishing. Desarrollan un plan para proteger a su organización de los atacantes que podrían explotar los datos biométricos. ¿Qué tipo de Control de Seguridad describe este escenario?
+- [x] Autenticación
+- [ ] Clasificación
+- [ ] Encriptación
+- [ ] Texto cifrado
