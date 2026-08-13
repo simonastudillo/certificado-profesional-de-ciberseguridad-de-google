@@ -124,3 +124,4 @@
 - [ ] Clasificación
 - [ ] Encriptación
 - [ ] Texto cifrado
+> Describe la autenticación, que es el proceso de implementar controles para verificar quién es alguien o algo antes de conceder el acceso a recursos específicos dentro de un sistema.
