@@ -67,3 +67,31 @@
 - [ ] Confidentiality
 - [x] Integrity
 - [ ] Availability
+
+---
+
+## Ponga a prueba sus Conocimientos: La tríada CID
+
+1. ¿Qué es la tríada CID?
+- [ ] Conjunto de controles de seguridad utilizados para actualizar los sistemas y redes
+- [ ] Un marco de Seguridad Obligatorio que implica la selección de los controles apropiados
+- [ ] Procesos de Validez en curso que implican a todos los empleados de una organización
+- [x] Modelo fundacional de Seguridad utilizado para establecer políticas y sistemas de Seguridad
+
+2. ¿Qué elemento de la tríada CID especifica que sólo los usuarios autorizados pueden acceder a una información concreta?
+- [ ] Accesibilidad
+- [x] Confidencialidad
+- [ ] Confirmación
+- [ ] Integridad
+
+3. Un analista de seguridad descubre que ciertos datos son inaccesibles para los usuarios autorizados, lo que impide que estos empleados realicen su trabajo con eficacia. El analista trabaja para arreglar la aplicación implicada con el fin de permitir un acceso oportuno y fiable. ¿Qué elemento de la tríada CID describe este escenario?
+- [x] Disponibilidad
+- [ ] Aplicabilidad
+- [ ] Capacidad
+- [ ] Integridad
+
+4. Rellene el espacio en blanco: Según la tríada CID, _____ se refiere a garantizar que los datos de una organización son verificablemente correctos, auténticos y fiables
+- [x] Integridad
+- [ ] Disponibilidad
+- [ ] Credibilidad
+- [ ] Precisión
