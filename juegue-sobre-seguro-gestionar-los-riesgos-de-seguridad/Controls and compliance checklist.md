@@ -13,7 +13,7 @@
 | ⚫ | ✅ | Intrusion detection system (IDS) | Se recomienda la instalación de un sistema de detección de intrusiones para monitorear y alertar sobre actividades sospechosas. |
 | ⚫ | ✅ | Backups | Punto ya abordado anteriormente |
 | ✅ | ⚫ | Antivirus software | |
-| ⚫ | ✅ | Manual monitoring, maintenance, and intervention for legacy systems | No existe claridad de los procedimientos a realizar |
+| ✅ | ⚫ | Manual monitoring, maintenance, and intervention for legacy systems | No existe claridad de los procedimientos a realizar |
 | ⚫ | ✅ | Encryption | Se recomienda encriptar la información sensible tanto en tránsito como en reposo. |
 | ⚫ | ✅ | Password management system | Se recomienda uso de sistema informático para gestionar de manera segura las contraseñas. |
 | ✅ | ⚫ | Locks (offices, storefront, warehouse) | |
@@ -40,7 +40,7 @@
 | ⚫ | ✅ | E.U. customers’ data is kept private/secured. | Se recomienda eliminar privilegios de lectura de datos sensibles solo a personal mínimo necesario |
 | ✅ | ⚫ | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. | |
 | ⚫ | ✅ | Ensure data is properly classified and inventoried | Se recomienda mantener datos históricos correctamente clasificados e inventariados en base de datos aparte. |
-| ⚫ | ✅ | Enforce privacy policies, procedures, and processes to properly document and maintain data | Se recomienda revisar y actualizar regularmente las políticas de privacidad para asegurar el cumplimiento. |
+| ✅ | ⚫ | Enforce privacy policies, procedures, and processes to properly document and maintain data | Se recomienda revisar y actualizar regularmente las políticas de privacidad para asegurar el cumplimiento. |
 
 
 
