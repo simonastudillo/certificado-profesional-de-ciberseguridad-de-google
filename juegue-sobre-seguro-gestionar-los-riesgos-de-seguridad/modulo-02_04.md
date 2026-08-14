@@ -208,3 +208,127 @@
 - [x] Una recomendación sobre cómo mejorar la postura de seguridad de la organización
 - [x] Resumen del alcance y los objetivos de la auditoría
 > Al comunicar los resultados de una auditoría interna a las partes interesadas, la comunicación debe incluir un resumen del alcance y los objetivos de la auditoría; una lista de los riesgos y los requisitos de cumplimiento que deben abordarse; y una recomendación sobre cómo mejorar la postura de seguridad de la organización.
+
+---
+
+## Actividad de Portfolio: Realización de una Auditoría de Seguridad
+- Resumen de la actividad
+- En la primera parte de esta actividad, realizarás una auditoría de seguridad interna, que puedes incluir en tu portafolio de ciberseguridad
+- Como recordatorio, las auditorías ayudan a garantizar que se realizan comprobaciones de seguridad, para controlar las amenazas, riesgos o vulnerabilidades que pueden afectar a la continuidad del negocio y a los activos críticos de una organización.
+- Asegúrate de completar esta actividad y responder a las preguntas que siguen antes de continuar
+- El siguiente punto del curso le proporcionará un ejemplo completado para que lo compare con su propio trabajo.  
+- Escenario
+- Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+
+- Este escenario se basa en una empresa ficticia:
+- Botium Toys es una pequeña empresa estadounidense que desarrolla y vende juguetes
+- La empresa tiene una única ubicación física, que sirve como oficina principal, escaparate y almacén para sus productos
+- Sin embargo, la presencia en línea de Botium Toy ha crecido, atrayendo a clientes en los EE.UU. y en el extranjero
+- Como resultado, su departamento de tecnología de la información (TI) está bajo una presión cada vez mayor para apoyar su mercado en línea en todo el mundo.
+- La directora del departamento de TI ha decidido que es necesario realizar una auditoría interna de TI
+- Le preocupa mantener el cumplimiento y las operaciones comerciales a medida que la empresa crece sin un plan claro
+- Ella cree que una auditoría interna puede ayudar a proteger mejor la infraestructura de la empresa y ayudarles a identificar y mitigar los posibles riesgos, amenazas o vulnerabilidades de los activos críticos
+- El directivo también está interesado en asegurarse de que cumplen la normativa relacionada con el procesamiento interno y la aceptación de pagos en línea y la realización de negocios en la Unión Europea (UE)
+- El responsable de TI comienza aplicando el Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología (NIST CSF), estableciendo un ámbito y unos objetivos de auditoría, enumerando los activos gestionados actualmente por el departamento de TI y completando una evaluación de riesgos
+- El objetivo de la auditoría es proporcionar una visión general de los riesgos y/o multas que la empresa podría experimentar debido al estado actual de su postura de seguridad
+- Su tarea consiste en revisar el alcance, los objetivos y el informe de evaluación de riesgos del responsable de TI
+- A continuación, realice una auditoría interna completando una lista de comprobación de controles y cumplimiento.
+
+- Instrucciones paso a paso
+
+1. Acceso a los materiales de apoyo
+- Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Mantenga los materiales abiertos mientras avanza a los siguientes pasos.
+- [Botium Toys: Scope, goals, and risk assessment report](./audit-scope_goals_risk-assessment-report.docx)
+- [Control categories](./control_categories.docx)
+- [Controls and compliance checklist](./controls_and_compliance_checklist.docx)
+
+2. Realización de la auditoría: Lista de control y conformidad
+- Realice la auditoría de seguridad cumplimentando la lista de comprobación de controles y conformidad.
+- Para completar la lista de comprobación, abra los materiales de apoyo proporcionados en el Paso 1. A continuación:
+   1. Revise Botium Toys: Alcance, objetivos e informe de evaluación de riesgos, centrándose en:
+      - Los activos gestionados actualmente por el departamento de TI
+      - Las viñetas bajo "Comentarios adicionales" en la sección Evaluación de riesgos
+   2. Considere la información proporcionada en el informe mediante el documento Categorías de controles.
+   3. A continuación, revise la lista de comprobación de controles y cumplimiento y seleccione "sí" o "no" para responder a la pregunta de cada sección (nota: la sección de recomendaciones es opcional)*
+- Qué incluir en su respuesta
+- Asegúrese de abordar los siguientes elementos en su actividad completada:
+   - Lista de comprobación de controles y cumplimiento
+      - se selecciona "Sí" o "No" para responder a la pregunta relacionada con cada control enumerado
+      - se selecciona "Sí" o "No" para responder a la pregunta relacionada con cada una de las mejores prácticas de cumplimiento
+      - Se proporciona una recomendación para el responsable de TI (opcional)
+
+### Controls and compliance checklist
+- Controls assessment checklist
+- select “yes” or “no” to answer the question: Does Botium Toys currently have this control in place?
+
+| Yes | No | Control | Notes |
+| --- | --- | --- | --- |
+| ⚫ | ✅ | Least Privilege | Se recomienda modificar la configuración por defecto de los usuarios para que por defecto tengan los mínimos privilegios necesarios. |
+| ⚫ | ✅ | Disaster recovery plans | Se recomienda urgentemente generar plan de backups de datos críticos, con verificación semanal de la integridad del respaldo |
+| ⚫ | ✅ | Password policies | Existe un política pero no cumple con estándares mínimos |
+| ⚫ | ✅ | Separation of duties | Se recomienda separar las funciones críticas entre diferentes personas para reducir el riesgo de fraude o error. |
+| ✅ | ⚫ | Firewall | |
+| ⚫ | ✅ | Intrusion detection system (IDS) | Se recomienda la instalación de un sistema de detección de intrusiones para monitorear y alertar sobre actividades sospechosas. |
+| ⚫ | ✅ | Backups | Punto ya abordado anteriormente |
+| ✅ | ⚫ | Antivirus software | |
+| ⚫ | ✅ | Manual monitoring, maintenance, and intervention for legacy systems | No existe claridad de los procedimientos a realizar |
+| ⚫ | ✅ | Encryption | Se recomienda encriptar la información sensible tanto en tránsito como en reposo. |
+| ⚫ | ✅ | Password management system | Se recomienda uso de sistema informático para gestionar de manera segura las contraseñas. |
+| ✅ | ⚫ | Locks (offices, storefront, warehouse) | |
+| ✅ | ⚫ | Closed-circuit television (CCTV) surveillance | |
+| ✅ | ⚫ | Fire detection/prevention (fire alarm, sprinkler system, etc.) | |
+
+- Compliance checklist
+- select “yes” or “no” to answer the question: Does Botium Toys currently adhere to this compliance best practice? 
+
+- Payment Card Industry Data Security Standard (PCI DSS)
+
+| Yes | No | Best practice | Notes |
+| --- | --- | --- | --- |
+| ⚫ | ✅ | Only authorized users have access to customers’ credit card information | Se recomienda minimizar los permisos para que solo los usuarios autorizados tengan acceso. |
+| ⚫ | ✅ | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment | Se recomienda manejar fuera de la base de datos de uso general. |
+| ⚫ | ✅ | Implement data encryption procedures to better secure credit card transaction touchpoints and data | Los datos no están encriptados, esto no permite mantener la confidencialidad. |
+| ⚫ | ✅ | Adopt secure password management policies. | Las políticas de contraseñas no cumplen estándares, se recomienda reforzar su implementación. |
+
+
+- General Data Protection Regulation (GDPR)
+
+| Yes | No | Best practice | Notes |
+| --- | --- | --- | --- |
+| ⚫ | ✅ | E.U. customers’ data is kept private/secured. | Se recomienda eliminar privilegios de lectura de datos sensibles solo a personal mínimo necesario |
+| ✅ | ⚫ | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. | |
+| ⚫ | ✅ | Ensure data is properly classified and inventoried | Se recomienda mantener datos históricos correctamente clasificados e inventariados en base de datos aparte. |
+| ⚫ | ✅ | Enforce privacy policies, procedures, and processes to properly document and maintain data | Se recomienda revisar y actualizar regularmente las políticas de privacidad para asegurar el cumplimiento. |
+
+
+
+- System and Organizations Controls (SOC type 1, SOC type 2)
+
+| Yes | No | Best practice | Notes |
+| --- | --- | --- | --- |
+| ⚫ | ✅ | User access policies are established | Se recomienda revisar regularmente las políticas de acceso de los usuarios, actualizar políticas actuales para cumplir con las regulaciones correspondientes. |
+| ⚫ | ✅ | Sensitive data (PII/SPII) is confidential/private | Punto ya abordado, se recomienda manejar privilegios mínimos necesarios. |
+| ✅ | ⚫ | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | |
+| ✅ | ⚫ | Data is available to individuals authorized to access it | |
+
+3. Evalúe su actividad
+
+1. Ha revisado el Alcance, los Objetivos y el Informe de Evaluación de Riesgos.
+- [x] Sí
+- [ ] No
+
+2. Ha considerado los riesgos para los Clientes, empleados y/o recursos de Botium Toys, basándose en los controles y las mejores prácticas de cumplimiento que están o no implementadas actualmente
+- [x] Sí
+- [ ] No
+
+3. Ha revisado el documento de categorías de control
+- [x] Sí
+- [ ] No
+
+4. Ha seleccionado "sí" o "no" para cada Control de la Lista
+- [x] Sí
+- [ ] No
+
+5. Ha seleccionado "sí" o "no" para cada una de las mejores prácticas de Cumplimiento normativo
+- [x] Sí
+- [ ] No
