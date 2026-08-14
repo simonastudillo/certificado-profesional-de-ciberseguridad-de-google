@@ -28,3 +28,20 @@
 - Como las herramientas SIEM ​indexan y minimizan la cantidad de registros que un profesional de Seguridad debe revisar y analizar manualmente, aumentan la eficiencia y ahorran tiempo
 - Sin embargo, las herramientas de SIEM deben configurarse y personalizarse para ​satisfacer las necesidades de Seguridad únicas de cada organización
 - ​A medida que surgen nuevas amenazas y vulnerabilidades, ​las organizaciones deben personalizar continuamente ​sus herramientas de SIEM para garantizar que ​las amenazas se detecten y aborden rápidamente
+
+---
+
+## Paneles SIEM
+- Las herramientas SIEM también se pueden usar para crear paneles
+- Por ejemplo, ​las aplicaciones meteorológicas muestran datos como la temperatura, las ​precipitaciones ​, la velocidad del viento y el pronóstico mediante tablas ​, gráficos y otros elementos visuales
+- Este formato facilita la ​identificación rápida de los patrones y tendencias meteorológicas, ​para que puedas estar preparado y planificar tu día en consecuencia. 
+- Al igual que las aplicaciones meteorológicas ayudan a las personas a ​tomar decisiones rápidas e informadas basadas en datos, los ​paneles de SIEM ayudan a los analistas de seguridad a ​acceder rápida y fácilmente a la ​información de seguridad de su organización en forma de ​tablas, gráficos o tablas
+- Por ejemplo, un analista de Seguridad ​recibe una alerta sobre un intento de inicio de sesión sospechoso
+- El analista accede a su ​panel de SIEM para recopilar información sobre esta alerta
+- Mediante el panel de control, ​el analista descubre que se han realizado ​500 intentos de inicio de sesión en la ​cuenta de Ymara en un lapso de cinco minutos
+- También descubren que los intentos de inicio de sesión se realizaron desde ​ubicaciones geográficas fuera de la ​ubicación habitual de Ymara y fuera de su horario de trabajo habitual
+- Al usar un panel, ​el analista de Seguridad pudo revisar rápidamente las ​representaciones visuales de la cronología ​de los intentos de inicio de sesión, ​la ubicación y la hora exacta de la actividad, y ​luego determinar si la actividad era sospechosa
+- Además de proporcionar ​un resumen completo de los datos relacionados con la seguridad, los paneles de ​SIEM también proporcionan a la ​parte interesada diferentes métricas. 
+- ​Las métricas son atributos técnicos clave, ​como el tiempo de respuesta, la ​disponibilidad y la tasa de fallos, ​que se utilizan para evaluar ​el rendimiento de una aplicación de software. 
+- Los paneles de SIEM se pueden ​personalizar para mostrar métricas específicas ​u otros datos que sean relevantes ​para los diferentes miembros de una organización
+- Por ejemplo, un analista de Seguridad puede crear un panel ​que muestre las métricas para ​supervisar las operaciones empresariales diarias, ​como el volumen del tráfico de red entrante y saliente
