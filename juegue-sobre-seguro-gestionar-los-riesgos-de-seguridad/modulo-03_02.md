@@ -55,3 +55,18 @@
       - Suricata fue desarrollado por la Open Information Security Foundation (OISF)
       - La OISF se dedica a mantener el uso de código abierto del proyecto Suricata para garantizar que sea gratuito y esté a disposición del público
       - Suricata se utiliza ampliamente en los sectores público y privado, y se integra con muchas herramientas SIEM y otras herramientas de seguridad
+
+---
+
+## Talya Mitos sobre el Campo de la Ciberseguridad
+- hay muchos mitos en el espacio de la ciberseguridad
+- Una de las más importantes es ​que debes saber programar, ​o debes saber cómo hackear, ​o debes ser un genio de las matemáticas
+- Gran parte de mi fortaleza reside realmente ​en mi capacidad para construir relaciones, ​aprender rápidamente en el trabajo, ​hacer, realizar investigaciones y hacer todas las preguntas correctas.
+- Otro gran mito es ​que se requiere tener un título en ciberseguridad
+- Otra importante es que trabajas de ​forma aislada en el ámbito de la ciberseguridad
+- ​Realmente depende de la ruta de acceso que elija. 
+- Mi mayor consejo para cualquiera ​que esté interesado en la ciberseguridad es que esté de ​acuerdo con la creación de su propia ruta de acceso
+- La ruta de acceso es diferente para cada persona.
+- ​Si tuvieras que hablar con cinco personas diferentes, ​sus viajes serían todos diferentes. 
+- Así que sé dueño de tu viaje ​e identifica a las personas que pueden apoyarte.
+- ​Hágales saber que está buscando el certificado ​y averigüe qué tipo de apoyo puede ​obtener al comenzar su viaje. 
