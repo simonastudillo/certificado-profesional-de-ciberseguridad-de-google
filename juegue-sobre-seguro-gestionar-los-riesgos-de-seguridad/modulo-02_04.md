@@ -176,3 +176,35 @@
       - Un plan de mitigación es una estrategia establecida para reducir el nivel de riesgo y los posibles costes, sanciones u otros problemas que puedan afectar negativamente a la postura de seguridad de la organización.
    - Comunicar los resultados a las partes interesadas
       - El resultado final de este proceso es la presentación de un informe detallado de los resultados, las mejoras sugeridas necesarias para reducir el nivel de riesgo de la organización y las Regulaciones y Estándares a los que la organización debe adherirse. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Principios OWASP y Auditorías de Seguridad
+
+1. Un analista de Seguridad desactiva ciertas características del software para reducir las vulnerabilidades potenciales que un atacante podría explotar en su organización. ¿Qué principio de Seguridad OWASP describe este escenario?
+- [ ] Defensa en profundidad
+- [ ] Solucionar correctamente los problemas de Seguridad
+- [ ] Separación de funciones
+- [x] Minimizar la superficie de ataque
+> Este escenario describe la minimización de la superficie de ataque. 
+
+2. Rellene el espacio en blanco: Un _____ de seguridad es una revisión de los controles, políticas y procedimientos de seguridad de una organización comparándolos con un conjunto de expectativas.
+- [ ] clasificación
+- [ ] examen
+- [ ] encuesta
+- [x] auditoría
+> Una Auditoría de seguridad es una revisión de los Controles de seguridad, políticas y Procedimientos de una organización contra un conjunto de expectativas.
+
+3. Un profesional de la seguridad examina de cerca la red de su organización y, a continuación, evalúa los riesgos potenciales para la red. Su objetivo es garantizar que las salvaguardas y los procesos internos son eficaces. ¿Qué concepto de Seguridad describe este escenario?
+- [ ] Comunicación de resultados
+- [x] Evaluación de los controles
+- [ ] Recomendaciones de seguridad
+- [ ] Cumplimiento normativo
+> Este escenario describe una evaluación de controles. Una evaluación de los controles implica revisar detenidamente los recursos existentes de una organización y, a continuación, evaluar los riesgos potenciales para dichos recursos con el fin de garantizar que los controles y procesos internos son eficaces. 
+
+4. Se pide a un profesional de la seguridad que comunique los resultados de una auditoría interna de Seguridad a las partes interesadas. ¿Qué debe incluirse en esa comunicación? Seleccione tres respuestas
+- [x] Lista de Riesgos y Requisitos de Cumplimiento normativo que deben abordarse
+- [ ] Lista de preguntas para que respondan las partes interesadas
+- [x] Una recomendación sobre cómo mejorar la postura de seguridad de la organización
+- [x] Resumen del alcance y los objetivos de la auditoría
+> Al comunicar los resultados de una auditoría interna a las partes interesadas, la comunicación debe incluir un resumen del alcance y los objetivos de la auditoría; una lista de los riesgos y los requisitos de cumplimiento que deben abordarse; y una recomendación sobre cómo mejorar la postura de seguridad de la organización.
