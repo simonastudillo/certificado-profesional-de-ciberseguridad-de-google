@@ -94,3 +94,35 @@
 - En concreto, hay una falta de gestión adecuada de los ​activos físicos y digitales, ​incluido el equipo de los empleados
 - El equipo utilizado para ​almacenar datos no está debidamente protegido
 - Y es ​probable que el acceso a la información privada almacenada en la red interna de la organización necesite controles más sólidos
+
+---
+
+## Completar una auditoría de seguridad
+- Como recordatorio, los elementos de planificación de las auditorías de Seguridad Interna incluyen ​establecer el alcance y los objetivos, y luego realizar una evaluación de riesgos
+- Los elementos restantes son completar una evaluación de los controles, ​evaluar el cumplimiento y comunicar los resultados
+- Antes de completar estos tres últimos elementos, tendrá que revisar el alcance y los objetivos, ​así como la evaluación de riesgos, y hacerse algunas preguntas. ​Por ejemplo: 
+   - ¿Qué se pretende lograr con la auditoría?
+   - ¿Qué activos están en mayor riesgo? 
+   - ¿Son suficientes los controles actuales para proteger esos activos?
+   - ​Si no es así, ¿qué controles y normas de cumplimiento deben implementarse?
+- Tener en cuenta preguntas como estas puede mejorar su capacidad ​para completar el siguiente elemento: una evaluación de controles
+- Una evaluación de controles implica revisar minuciosamente ​los activos existentes de una organización y, a continuación, evaluar los riesgos potenciales para esos activos, ​a fin de garantizar que los controles y procesos internos sean efectivos
+- Para ello, a los analistas principiantes se les podría encomendar la tarea de ​clasificar los controles en las siguientes categorías: controles administrativos, controles ​técnicos y controles físicos
+- Los controles administrativos están relacionados con el componente humano de la ciberseguridad.
+- Incluyen políticas y procedimientos que definen la forma en que una organización ​administra los datos, como la implementación de políticas de contraseñas. 
+- Los controles técnicos son soluciones de hardware y software que se utilizan para proteger los activos, ​como el uso de sistemas de detección de intrusos (IDS) y la encriptación
+- Los controles físicos se refieren a las medidas implementadas para impedir el ​acceso físico a los activos protegidos, como las cámaras de vigilancia y las cerraduras
+- El siguiente elemento es determinar si ​la organización cumple o no con las normas de cumplimiento necesarias
+- Como recordatorio, las regulaciones de cumplimiento son leyes que las ​organizaciones deben seguir para garantizar que los datos privados permanezcan seguros
+- En este ejemplo, la organización realiza negocios en la Unión Europea y ​acepta pagos con tarjeta de crédito.
+- ​Por lo tanto, deben cumplir con el GDPR y el ​Estándar de seguridad de datos para la industria de tarjetas de pago, o PCI DSS.
+- ​El último elemento común de una auditoría de Seguridad Interna es la comunicación.
+- Una vez finalizada la auditoría de Seguridad Interna, los resultados y ​las recomendaciones deben comunicarse a la parte interesada
+- En general, este tipo de comunicación resume el alcance y los ​objetivos de la auditoría
+- Luego, enumera los riesgos existentes y señala la rapidez con la que deben abordarse esos riesgos
+- Además, identifica las normas de cumplimiento que ​la organización debe cumplir y proporciona recomendaciones para ​mejorar la postura de Seguridad de la organización
+- ​Las auditorías internas son una excelente manera de identificar las brechas dentro de una organización. 
+- Cuando trabajaba en una empresa anterior, mi equipo y yo realizamos una ​auditoría interna de contraseñas y descubrimos que muchas de las contraseñas no eran seguras.
+- ​Una vez que identificamos este problema, el equipo de cumplimiento tomó la iniciativa y ​comenzó a aplicar políticas de contraseñas más estrictas.
+- Las auditorías son una oportunidad para determinar qué medidas de seguridad ​tiene implementadas una organización y qué áreas deben mejorarse para ​lograr la postura de seguridad deseada por la organización
+- Las auditorías de seguridad son muy complicadas, pero tienen un valor extremo para las organizaciones
