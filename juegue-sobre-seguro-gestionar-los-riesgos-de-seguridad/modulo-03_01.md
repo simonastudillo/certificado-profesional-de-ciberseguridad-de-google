@@ -89,3 +89,36 @@
 - Encontrar personas que puedan ser mentores, tener el coraje de hacer preguntas y ​reconocer que rara vez eres la única persona con esa pregunta
 - ​Y simplemente perseverando, a veces los momentos difíciles pueden ​conducir a avances y también a aumentar la confianza
 - En lugar de centrarme en la diferencia entre lo que era y lo que era ​la norma en la sala, debería sentirme muy orgullosa de lo que me hizo única y de ​las habilidades y perspectivas únicas que aporté. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Cuadros de mando de la administración de información y eventos de seguridad (SIEM)
+
+1. ¿Qué fuente de registro registra los eventos relacionados con sitios web, correos electrónicos y archivos compartidos, así como las solicitudes de contraseñas y nombres de usuario?
+- [ ] Red
+- [ ] Firewall
+- [x] Servidor
+- [ ] Recepción
+> Los registros del servidor registran eventos relacionados con sitios web, correos electrónicos y archivos compartidos. Incluyen acciones como solicitudes de inicio de sesión, de contraseña y de nombre de usuario, así como el uso continuado de estos servicios.
+
+2. Rellene el espacio en blanco: Una herramienta de gestión de la información de seguridad y _____ (SIEM) es una aplicación que recopila y analiza los datos de registro para monitorizar las actividades críticas de una organización
+- [ ] evento
+- [x] evento
+- [ ] emergencia
+- [ ] empleado
+- [ ] eficacia
+> Una herramienta de administración de información y eventos de seguridad (SIEM) es una aplicación que recopila y analiza los datos de registro para monitorizar las actividades críticas de una organización. Las herramientas SIEM indexan y minimizan el alcance de los registros que un profesional de la Seguridad debe revisar y analizar manualmente.
+
+3. Un profesional de la Seguridad evalúa una aplicación de software revisando los atributos técnicos clave, como el tiempo de respuesta, la disponibilidad y la tasa de fallos. ¿Qué utilizan para evaluar el rendimiento?
+- [ ] Modelos
+- [ ] Estándares de Indexación
+- [x] Métricas
+- [ ] Herramientas en la Nube
+> Utilizan Métricas. Las Métricas son atributos técnicos clave que incluyen el tiempo de respuesta, la disponibilidad y la tasa de fallos, que se utilizan para evaluar el rendimiento de una aplicación de software. Los paneles SIEM pueden personalizarse para mostrar las Métricas relevantes
+
+4. Rellene el espacio en blanco: Las herramientas SIEM deben configurarse y _____ para satisfacer las necesidades de Seguridad únicas de cada organización
+- [x] a medida
+- [ ] centralizado
+- [ ] revisado
+- [ ] indexado
+> Las herramientas SIEM deben configurarse y personalizarse para satisfacer las necesidades de Seguridad únicas de cada organización.
