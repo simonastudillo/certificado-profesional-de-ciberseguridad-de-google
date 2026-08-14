@@ -9,3 +9,8 @@
 - Los profesionales de la seguridad utilizan los conceptos que analizamos ​para ayudar a proteger los activos, los ​datos, los sistemas y las personas de las organizaciones.
 - A ​medida que avance en ​su camino hacia la profesión de Seguridad, ​muchos de estos conceptos surgirán repetidamente
 - Lo que estamos haciendo ahora es brindarle ​una comprensión básica de ​las prácticas y los temas de Seguridad ​que lo ayudarán en el camino
+
+---
+
+## Glosario de términos del módulo 2
+- El glosario completo se encuentra [aquí](./README.md#glosario)
