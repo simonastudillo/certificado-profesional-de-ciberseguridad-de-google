@@ -51,4 +51,4 @@
 | ⚫ | ✅ | User access policies are established | Se recomienda revisar regularmente las políticas de acceso de los usuarios, actualizar políticas actuales para cumplir con las regulaciones correspondientes. |
 | ⚫ | ✅ | Sensitive data (PII/SPII) is confidential/private | Punto ya abordado, se recomienda manejar privilegios mínimos necesarios. |
 | ✅ | ⚫ | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | |
-| ✅ | ⚫ | Data is available to individuals authorized to access it | |
+| ⚫ | ✅ | Data is available to individuals authorized to access it | Si bien la información está disponible para los individuos autorizados, tambien está disponible para todos, se recomienda ajustar privilegios de todos los usuarios y permitir solo a los mínimo necesarios |

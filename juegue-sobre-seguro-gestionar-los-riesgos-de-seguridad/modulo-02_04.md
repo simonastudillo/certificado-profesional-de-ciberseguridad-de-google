@@ -309,7 +309,7 @@
 | ⚫ | ✅ | User access policies are established | Se recomienda revisar regularmente las políticas de acceso de los usuarios, actualizar políticas actuales para cumplir con las regulaciones correspondientes. |
 | ⚫ | ✅ | Sensitive data (PII/SPII) is confidential/private | Punto ya abordado, se recomienda manejar privilegios mínimos necesarios. |
 | ✅ | ⚫ | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | |
-| ✅ | ⚫ | Data is available to individuals authorized to access it | |
+| ⚫ | ✅ | Data is available to individuals authorized to access it | |
 
 3. Evalúe su actividad
 
@@ -332,3 +332,12 @@
 5. Ha seleccionado "sí" o "no" para cada una de las mejores prácticas de Cumplimiento normativo
 - [x] Sí
 - [ ] No
+
+---
+
+## Portfolio Activity Exemplar: Realización de una Auditoría de Seguridad
+- [Aquí](./Controls%20and%20compliance%20checklist%20exemplar.docx) tiene el ejemplar completado junto con una explicación de cómo cada elemento del ejemplar cumple las expectativas de la actividad.
+- Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar. ¿Qué ha hecho bien? ¿En qué puede mejorar?
+- Utilice sus respuestas para revisar su proyecto según sea necesario y guiarle a medida que siga avanzando en el programa de certificación.
+
+>[!NOTE] El ejemplar representa una forma posible de completar la actividad. Es probable que la suya difiera en ciertos aspectos. Lo importante es que su actividad demuestre su capacidad para seleccionar los controles que Botium Toys necesita o no implementar y las mejores prácticas de cumplimiento a las que la empresa debe adherirse para mitigar riesgos y evitar multas.
