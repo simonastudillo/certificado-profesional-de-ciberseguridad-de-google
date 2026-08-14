@@ -82,7 +82,7 @@
 - El alcance exige que las organizaciones identifiquen a las personas, los activos ​, las políticas, los procedimientos ​y las tecnologías que podrían ​afectar a la postura de Seguridad de una organización
 - ​Las metas son un resumen de ​los objetivos de seguridad de la organización ​o lo que quieren lograr ​para mejorar su postura de seguridad. 
 - ​Si bien los miembros del equipo de Seguridad de más alto ​nivel y otra parte interesada suelen establecer el alcance y los objetivos de la auditoría, es posible que se ​pida a los analistas principiantes que revisen y comprendan ​el alcance y los objetivos para ​completar otros elementos de la auditoría
-- [Ejemplo](./example_1.txt)
+- [Ejemplo](./resources/example_1.txt)
 - Usando el ejemplo anterior
 - el alcance de ​esta auditoría implica la evaluación de los permisos de los usuarios; la ​identificación de los controles, políticas ​y procedimientos existentes; y la contabilización de ​la tecnología que utiliza actualmente la organización
 - Los objetivos descritos incluyen la ​implementación de las funciones principales de los marcos, ​como el CSF del NIST; el ​establecimiento de políticas y procedimientos para ​garantizar el cumplimiento; y el fortalecimiento de los controles del sistema
@@ -158,7 +158,7 @@
    - Marcos como el Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología (NIST CSF) y la serie de normas internacionales para la seguridad de la información (ISO 27000) están diseñados para ayudar a las organizaciones a prepararse para las auditorías de seguridad de cumplimiento normativo
    - Al adherirse a estos y otros marcos relevantes, las organizaciones pueden ahorrar tiempo a la hora de realizar auditorías externas e internas
    - Además, los marcos, cuando se utilizan junto con los controles, pueden apoyar la capacidad de las organizaciones para alinearse con los Requisitos y Estándares de cumplimiento normativo
-   - Existen tres categorías principales de controles a revisar durante una auditoría, que son los controles administrativos y/o de gestión, técnicos y físicos. Para obtener más información sobre los controles específicos relacionados con cada categoría, [revise la plantilla](./plantilla_control_categories.docx).
+   - Existen tres categorías principales de controles a revisar durante una auditoría, que son los controles administrativos y/o de gestión, técnicos y físicos. Para obtener más información sobre los controles específicos relacionados con cada categoría, [revise la plantilla](./resources/plantilla_control_categories.docx).
 - Lista de control de auditoría
    - Es necesario crear una lista de comprobación de la auditoría antes de llevarla a cabo
    - Por lo general, una lista de comprobación se compone de las siguientes áreas de atención:
@@ -238,9 +238,9 @@
 
 1. Acceso a los materiales de apoyo
 - Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Mantenga los materiales abiertos mientras avanza a los siguientes pasos.
-- [Botium Toys: Scope, goals, and risk assessment report](./audit-scope_goals_risk-assessment-report.docx)
-- [Control categories](./control_categories.docx)
-- [Controls and compliance checklist](./controls_and_compliance_checklist.docx)
+- [Botium Toys: Scope, goals, and risk assessment report](./resources/audit-scope_goals_risk-assessment-report.docx)
+- [Control categories](./resources/control_categories.docx)
+- [Controls and compliance checklist](./resources/controls_and_compliance_checklist.docx)
 
 2. Realización de la auditoría: Lista de control y conformidad
 - Realice la auditoría de seguridad cumplimentando la lista de comprobación de controles y conformidad.
@@ -336,7 +336,7 @@
 ---
 
 ## Portfolio Activity Exemplar: Realización de una Auditoría de Seguridad
-- [Aquí](./Controls%20and%20compliance%20checklist%20exemplar.docx) tiene el ejemplar completado junto con una explicación de cómo cada elemento del ejemplar cumple las expectativas de la actividad.
+- [Aquí](./resources/Controls%20and%20compliance%20checklist%20exemplar.docx) tiene el ejemplar completado junto con una explicación de cómo cada elemento del ejemplar cumple las expectativas de la actividad.
 - Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar. ¿Qué ha hecho bien? ¿En qué puede mejorar?
 - Utilice sus respuestas para revisar su proyecto según sea necesario y guiarle a medida que siga avanzando en el programa de certificación.
 

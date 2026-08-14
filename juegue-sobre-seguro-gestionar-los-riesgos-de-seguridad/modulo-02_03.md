@@ -14,7 +14,7 @@
 - El CSF consta ahora de seis importantes funciones básicas: Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar..
 - El CSF v2.0 también hace mayor hincapié en la gestión de riesgos de la cadena de suministro.
 
-<img src="image-1.png" alt="alt text">
+<img src="./resources/image-1.png" alt="alt text">
 
 - nos centraremos en ​cómo el CSF beneficia a las organizaciones ​y cómo puede usarse para protegerse contra las amenazas, ​los riesgos y las vulnerabilidades, ​proporcionando un ejemplo en el lugar de trabajo
 - Imagine que una mañana recibe ​una notificación de alto riesgo de que ​una estación de trabajo se ha visto comprometida

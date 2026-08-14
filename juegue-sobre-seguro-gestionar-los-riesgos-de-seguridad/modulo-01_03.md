@@ -140,7 +140,7 @@
          - Cumplimiento normativo/licencias de software: Software que no está actualizado o en conformidad, o parches que no se instalan a tiempo
 - Nota: La lista de tipos de ataques comunes del OWASP contiene tres nuevos riesgos para los años 2017 a 2021: diseño inseguro, fallos en la integridad del software y los datos, y falsificación de peticiones del lado del servidor. Esta actualización subraya el hecho de que la Seguridad es un Campo en constante evolución. También demuestra la importancia de mantenerse al día sobre las tácticas y técnicas actuales de los Agentes de amenaza, de modo que pueda estar mejor preparado para gestionar este tipo de riesgos.
 
-<img src="image.png" alt="alt text" width="500" />
+<img src="./resources/image.png" alt="alt text" width="500" />
 
 - Vulnerabilidades
    - Una vulnerabilidad es una debilidad que puede ser explotada por una amenaza
