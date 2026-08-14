@@ -73,3 +73,19 @@
    - Esencialmente, esto significa que se espera que la gestión de los incidentes comunes relacionados con la Seguridad mediante el uso de herramientas SIEM se convierta en un proceso más ágil que requiera menos intervención manual
    - Esto libera a los analistas de Seguridad para gestionar incidentes más complejos y poco comunes que, en consecuencia, no pueden automatizarse con un SOAR
    - No obstante, se espera que las plataformas relacionadas con la ciberseguridad se comuniquen e interactúen entre sí
+
+---
+
+## Parisa: Los paralelismos de la accesibilidad y la Seguridad
+- Creo que la accesibilidad es importante para todos los aspectos de la tecnología, y ​cuando pensamos en su relevancia para la ​ciberseguridad, ya sabes, en última instancia queremos mantener a todos a salvo
+- Considero que la accesibilidad hace que la información, las actividades o ​incluso los entornos sean significativos, sensatos y utilizables para la mayor cantidad de personas posible
+- Y cuando hablamos de esto desde el punto de vista tecnológico, por lo general se trata de ​poner la información o los servicios a disposición de las personas con discapacidades
+- Las decisiones que tomamos en función de nuestras propias capacidades para mejorar la Seguridad ​en realidad pueden ser ineficaces.
+- ​Por ejemplo, a veces verás el color rojo que se usa para ​indicar una advertencia. 
+- ​Bueno, para alguien daltónico, eso no va a ser efectivo.
+- ​Por eso, pensar realmente en la accesibilidad cuando intentamos mantener a las personas seguras es ​muy importante para que sean eficaces
+- Para las personas que son nuevas en el campo de la ciberseguridad, es muy importante ​recordar que hay una variedad de habilidades a las que desean prestar servicio. 
+- ​Es muy importante contar con la investigación y los comentarios de los usuarios, así como una variedad de capacidades ​para probar la eficacia de las mitigaciones de Seguridad
+- Encontrar personas que puedan ser mentores, tener el coraje de hacer preguntas y ​reconocer que rara vez eres la única persona con esa pregunta
+- ​Y simplemente perseverando, a veces los momentos difíciles pueden ​conducir a avances y también a aumentar la confianza
+- En lugar de centrarme en la diferencia entre lo que era y lo que era ​la norma en la sala, debería sentirme muy orgullosa de lo que me hizo única y de ​las habilidades y perspectivas únicas que aporté. 
