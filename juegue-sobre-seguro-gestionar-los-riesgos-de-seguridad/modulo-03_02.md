@@ -130,3 +130,33 @@
          - El cuadro de mandos general del inicio de sesión de los usuarios proporciona información sobre el comportamiento de acceso de los usuarios en toda la organización.
          - Los analistas de Seguridad pueden utilizar este panel para acceder a una Lista de todos los eventos de inicio de sesión de los usuarios para identificar actividades inusuales de los usuarios, como el inicio de sesión de un usuario desde varias ubicaciones al mismo tiempo.
          - A continuación, esta información se utiliza para ayudar a mitigar las amenazas, los riesgos y las vulnerabilidades de las cuentas de usuario y las aplicaciones de la organización.
+
+---
+
+## Ponga a prueba sus Conocimientos: Identificar amenazas y vulnerabilidades con herramientas SIEM
+
+1. Un Equipo de Seguridad quiere que algunos de sus servicios se alojen en Internet en lugar de en dispositivos locales. Sin embargo, también necesitan mantener el control físico sobre ciertos Datos confidenciales. ¿Qué tipo de solución SIEM deberían seleccionar?
+- [ ] Autoalojado
+- [ ] Alojado en la Nube
+- [ ] Remoto
+- [x] Híbrido
+> Deberían seleccionar una solución híbrida. Las soluciones híbridas utilizan una combinación de herramientas SIEM propias y alojadas en la nube para aprovechar las ventajas de la nube y mantener al mismo tiempo el control físico sobre los datos confidenciales.
+
+2. Las herramientas de administración de información y eventos de seguridad (SIEM) proporcionan cuadros de mando que ayudan a los profesionales de la Ciberseguridad a organizar y centrar sus esfuerzos de seguridad
+- [x] Verdadero
+- [ ] Falso
+> Las herramientas SIEM proporcionan cuadros de mando que ayudan a los profesionales de la Ciberseguridad a organizar y centrar sus esfuerzos en materia de Seguridad. Esto permite a los analistas reducir el riesgo identificando, analizando y remediando los elementos de mayor prioridad de forma oportuna.
+
+3. Rellene el espacio en blanco: Una herramienta SIEM de _____ está diseñada específicamente para aprovechar las capacidades de la computación en la nube, incluidas la disponibilidad, la flexibilidad y la escalabilidad
+- [ ] hardware en la nube
+- [ ] infraestructura en la nube
+- [ ] nube-local
+- [x] nube nativa
+> Una herramienta SIEM nativa de la nube, como Chronicle, está diseñada específicamente para aprovechar las capacidades de la computación en la nube, incluidas la disponibilidad, la flexibilidad y la escalabilidad. 
+
+4. ¿Cuáles son los diferentes tipos de herramientas SIEM? Seleccione tres respuestas.
+- [x] Autoalojado
+- [x] Alojado en la Nube
+- [x] Híbrido
+- [ ] Físico
+> Comentarios: Los tres tipos diferentes de herramientas SIEM son las autoalojadas, las alojadas en la nube y las híbridas. 
