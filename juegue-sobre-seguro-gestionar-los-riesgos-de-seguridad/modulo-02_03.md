@@ -60,3 +60,35 @@
 > Esta función hace hincapié en la importancia de una sólida gobernanza de la ciberseguridad en todos los niveles de la organización.
 > Se trata de establecer y mantener las estructuras y procesos necesarios para gestionar eficazmente los riesgos de ciberseguridad.
 > Esto incluye cosas como establecer objetivos claros de ciberseguridad, garantizar el compromiso de la dirección, desarrollar y aplicar una estrategia global de gestión de riesgos y mejorar continuamente el rendimiento de la ciberseguridad.
+
+---
+
+## Ponga a prueba sus Conocimientos: Marcos del NIST
+
+1. ¿Qué es el Marco de Ciberseguridad (CSF) del Instituto Nacional de Estándares y Tecnología (NIST)?
+- [x] Estándares, directrices y mejores prácticas que las organizaciones siguen voluntariamente para gestionar el riesgo de ciberseguridad
+- [ ] Un conjunto de Controles de seguridad que ayudan a los analistas a determinar qué hacer si se produce una violación de los datos
+- [ ] Una colección de principios de Seguridad centrados en el mantenimiento de la confidencialidad, integridad y disponibilidad
+- [ ] Un framework empresarial necesario para garantizar el éxito de las actualizaciones y reparaciones de Seguridad
+> El NIST CSF es un framework voluntario que consta de estándares, directrices y mejores prácticas para gestionar los riesgos de la ciberseguridad.
+
+2. Rellene el espacio en blanco: Las seis funciones básicas que componen el LCR son: gobernar, identificar, proteger, detectar, _____ y recuperar
+- [ ] reevaluar 
+- [ ] regular
+- [x] responder
+- [ ] reflejar
+> Las seis funciones básicas que componen el LCR son: gobernar, identificar, proteger, detectar, responder y recuperar.
+
+3. Rellene el espacio en blanco: La función de CSF _____ implica la comprensión de los activos, riesgos y políticas de una organización para establecer una base sólida para la gestión de las amenazas de ciberseguridad
+- [ ] responder
+- [ ] recuperar
+- [ ] proteger
+- [x] identificar
+> La función de identificación del LCR implica comprender los activos, los riesgos y las políticas de una organización para establecer una base sólida para gestionar las amenazas a la ciberseguridad.
+
+4. ¿En qué consiste el trabajo de un analista de Seguridad durante la Función Recuperar del LCR?
+- [x] Restablecimiento del funcionamiento normal de los sistemas afectados
+- [ ] Contener, neutralizar y analizar los incidentes de Seguridad
+- [ ] Proteger una organización implementando el Entrenamiento de los empleados
+- [ ] Localice las amenazas y mejore la capacidad de monitorización 
+> Durante la función de Recuperar, el trabajo de un analista de Seguridad consiste en devolver los sistemas afectados a su funcionamiento normal.
