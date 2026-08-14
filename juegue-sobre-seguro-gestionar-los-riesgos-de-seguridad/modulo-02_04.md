@@ -58,3 +58,12 @@
       - La seguridad de los sistemas clave no debe basarse en mantener ocultos los detalles. Considere el siguiente ejemplo FROM OWASP (2016)
 - La seguridad de una aplicación no debería basarse en mantener en secreto el código fuente.
 - Su seguridad debe basarse en muchos otros factores, incluidas políticas de contraseñas razonables, defensa en profundidad, límites de transacciones comerciales, arquitectura de red sólida y controles de fraude y auditoría.
+
+---
+
+## Wajih Manténgase al día sobre las últimas amenazas a la ciberseguridad
+- Algunas de las estrategias que he utilizado para mantenerme al día sobre las últimas ​tendencias de ciberseguridad son las de recurrir a foros en línea como Medium para ​investigar diferentes tendencias y temas de seguridad
+- Personalmente, uso mucho Medium, ya que podría filtrar por la etiqueta de ​«me gusta», «quiero encontrar artículos relacionados con la ciberseguridad» ​o «quiero encontrar artículos relacionados con la seguridad en la nube»
+- Si lo que estás deseando es más bien una red de redes, te ​recomiendo encarecidamente que asistas a esas, como conferencias
+- Mi consejo para las personas que desean dedicarse a la ciberseguridad es que no se sientan abrumadas ​al tratar de entender cada una de las especializaciones dentro de la ciberseguridad
+- Están sucediendo muchas cosas en el campo de la ciberseguridad en términos de tendencias y ​es bueno estar al día con todas ellas, pero a ​veces es necesario dar un paso atrás y priorizar los temas de ​ciberseguridad en los que te mantienes más actualizado
