@@ -28,3 +28,24 @@
    - ​A partir de ahí, es importante corregir ​cualquier vulnerabilidad identificada y ​realizar pruebas para garantizar que las reparaciones tienen éxito
    - Un ejemplo de problema es una contraseña débil para ​acceder al wifi de una organización ​porque podría dar lugar a una brecha
    - ​Para solucionar este tipo de Problema de Seguridad, ​se podrían establecer políticas de contraseñas más estrictas. 
+
+---
+
+## Más información sobre los principios de Seguridad OWASP
+- Principios de seguridad
+   - En el lugar de trabajo, los principios de seguridad están integrados en las tareas diarias
+   - Ya sea analizando registros, supervisando un panel de administración de información y eventos de seguridad (SIEM) o utilizando un escáner de vulnerabilidades, utilizará estos principios de alguna manera.
+- principios de seguridad OWASP:
+   - Minimizar la superficie de ataque: La superficie de ataque se refiere a todas las vulnerabilidades potenciales que un Agente de amenaza podría explotar.
+   - Principio de privilegio mínimo: Los usuarios tienen la menor cantidad de acceso necesario para realizar sus tareas cotidianas.
+   - Defensa en profundidad: Las organizaciones deben disponer de diversos controles de seguridad que mitiguen los riesgos y amenazas.
+   - Separación de funciones: Las acciones críticas deben depender de varias personas, cada una de las cuales debe seguir el principio de privilegio mínimo.
+   - Seguridad sencilla: Evite las soluciones innecesariamente complicadas. La complejidad dificulta la seguridad.
+   - Solucione correctamente los problemas de seguridad: Cuando se produzcan incidentes de seguridad, identifique la causa raíz, contenga el impacto, identifique las vulnerabilidades y lleve a cabo pruebas para garantizar que la corrección se realiza correctamente.
+- Principios de seguridad OWASP adicionales
+   - cuatro principios de seguridad OWASP adicionales que los analistas de ciberseguridad y sus equipos utilizan para mantener las operaciones de la organización y las personas a salvo.
+   - Establecer valores predeterminados seguros
+      - Este principio significa que el estado de seguridad óptimo de una aplicación es también su estado por defecto para los usuarios; debería costar un trabajo extra hacer que la aplicación sea insegura.
+   - Fallar con seguridad
+      - Fallar de forma segura significa que cuando un control falla o se detiene, debe hacerlo pasando por defecto a su opción más segura
+      - Por ejemplo, cuando un cortafuegos falla, debería simplemente cerrar todas las conexiones y bloquear todas las nuevas, en lugar de empezar a aceptarlo todo.
