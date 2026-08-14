@@ -67,3 +67,30 @@
 - Si lo que estás deseando es más bien una red de redes, te ​recomiendo encarecidamente que asistas a esas, como conferencias
 - Mi consejo para las personas que desean dedicarse a la ciberseguridad es que no se sientan abrumadas ​al tratar de entender cada una de las especializaciones dentro de la ciberseguridad
 - Están sucediendo muchas cosas en el campo de la ciberseguridad en términos de tendencias y ​es bueno estar al día con todas ellas, pero a ​veces es necesario dar un paso atrás y priorizar los temas de ​ciberseguridad en los que te mantienes más actualizado
+
+---
+
+## Planificación de una Auditoría de Seguridad
+- Una auditoría de seguridad es una revisión de los ​controles ​, políticas y procedimientos de seguridad de una organización en comparación con un conjunto de expectativas
+- Hay dos tipos principales de ​auditorías de Seguridad: externas e internas
+- Por lo general, una auditoría de seguridad interna la lleva a cabo un equipo de ​personas que puede incluir al ​oficial de cumplimiento, al ​gerente de seguridad y a otros miembros del equipo de seguridad de la organización
+- ​Las auditorías de seguridad internas se utilizan para ayudar a mejorar la ​postura de seguridad de una organización y ayudar a las organizaciones a ​evitar multas de ​las agencias gubernamentales debido a la falta de cumplimiento. 
+- Las auditorías de seguridad internas ayudan a ​los equipos de seguridad a identificar el riesgo organizacional ​, evaluar los controles y corregir los problemas de cumplimiento
+- Ahora que hemos analizado los propósitos de las auditorías internas, ​abordemos algunos elementos comunes de las auditorías internas
+- Estos incluyen establecer el alcance ​y los objetivos de la auditoría, ​realizar una evaluación ​de riesgos de los activos de la organización, ​completar una evaluación de controles, ​evaluar el cumplimiento ​y comunicar los resultados a la parte interesada
+- El ​alcance se refiere a los criterios específicos ​de una auditoría de Seguridad interna
+- El alcance exige que las organizaciones identifiquen a las personas, los activos ​, las políticas, los procedimientos ​y las tecnologías que podrían ​afectar a la postura de Seguridad de una organización
+- ​Las metas son un resumen de ​los objetivos de seguridad de la organización ​o lo que quieren lograr ​para mejorar su postura de seguridad. 
+- ​Si bien los miembros del equipo de Seguridad de más alto ​nivel y otra parte interesada suelen establecer el alcance y los objetivos de la auditoría, es posible que se ​pida a los analistas principiantes que revisen y comprendan ​el alcance y los objetivos para ​completar otros elementos de la auditoría
+- [Ejemplo](./example_1.txt)
+- Usando el ejemplo anterior
+- el alcance de ​esta auditoría implica la evaluación de los permisos de los usuarios; la ​identificación de los controles, políticas ​y procedimientos existentes; y la contabilización de ​la tecnología que utiliza actualmente la organización
+- Los objetivos descritos incluyen la ​implementación de las funciones principales de los marcos, ​como el CSF del NIST; el ​establecimiento de políticas y procedimientos para ​garantizar el cumplimiento; y el fortalecimiento de los controles del sistema
+- El siguiente elemento es realizar una evaluación de riesgos, ​que se centra en identificar ​posibles amenazas, riesgos y vulnerabilidades
+- Esto ayuda a las organizaciones a considerar ​qué medidas de seguridad deben ​implementarse y supervisarse ​para garantizar la seguridad de los activos
+- Al igual que para establecer el alcance y los objetivos, los ​gerentes u otra parte interesada suelen completar una evaluación de riesgos
+- Sin embargo, es posible que se le pida que analice ​los detalles proporcionados en la evaluación de riesgos ​para considerar qué tipos de ​controles y normas de cumplimiento ​deben existir para ayudar a ​mejorar la postura de Seguridad de la organización. 
+- ​Por ejemplo, esta evaluación de riesgos ​destaca que existen controles ​, procesos y procedimientos ​inadecuados para proteger los activos de la organización
+- En concreto, hay una falta de gestión adecuada de los ​activos físicos y digitales, ​incluido el equipo de los empleados
+- El equipo utilizado para ​almacenar datos no está debidamente protegido
+- Y es ​probable que el acceso a la información privada almacenada en la red interna de la organización necesite controles más sólidos
