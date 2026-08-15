@@ -14,3 +14,8 @@
 - También analizamos las herramientas de Seguridad básicas, como los paneles SIEM, y ​cómo se utilizan para proteger las operaciones empresariales. 
 - ​Y, por último, explicamos cómo proteger los activos y los datos mediante el uso de guías.
 - Como analista de Seguridad, es posible que esté trabajando en varias tareas a la vez. ​Comprender las herramientas que tiene a su disposición y ​cómo usarlas elevará sus conocimientos en el campo y lo ayudará a ​realizar con éxito sus tareas diarias
+
+---
+
+## Glosario del curso 2
+- El glosario completo se encuentra [aquí](./README.md#glosario)
