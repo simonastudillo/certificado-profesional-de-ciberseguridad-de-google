@@ -81,3 +81,33 @@
 - [x] Communicate the incident to stakeholders
 - [ ] Restore affected data using a clean backup
 > After the incident is resolved, you should perform post-incident and coordination efforts.
+
+---
+
+## Ponga a prueba sus Conocimientos: Utilice un Manual de estrategias para responder a un Incidente
+
+1. Los Manuales de estrategias son documentos permanentes y de buenas prácticas, por lo que un Equipo de Seguridad no debería introducir cambios en ellos
+- [ ] Verdadero
+- [x] Falso
+> Los Manuales de estrategias son documentos vivos, por lo que un Equipo de Seguridad realizará frecuentes cambios, actualizaciones y mejoras para hacer frente a las nuevas amenazas y vulnerabilidades.
+
+2. Una empresa ha sufrido recientemente una brecha de Seguridad. Los profesionales de seguridad están restaurando actualmente los datos afectados utilizando una copia de seguridad limpia que se creó antes del incidente. ¿Qué fase del Manual de estrategias describe este escenario?
+- [x] Erradicación y Recuperación
+- [ ] Actividad posterior al incidente
+- [ ] Contención
+- [ ] Detección y Análisis
+> Este escenario describe la Erradicación y la Recuperación. Esta fase implica la eliminación de los artefactos del incidente y la restauración del entorno afectado a un estado seguro.
+
+3. Rellene el espacio en blanco: Una vez resuelto un incidente de seguridad, los analistas de seguridad realizan diversas actividades posteriores al incidente y _____ esfuerzos con el Equipo de Seguridad
+- [ ] erradicación
+- [x] coordinación
+- [ ] detección
+- [ ] preparación
+> Una vez resuelto un incidente de Seguridad, los analistas de Seguridad realizan diversas actividades posteriores al incidente y esfuerzos de coordinación con el Equipo de Seguridad. La coordinación implica la notificación de incidentes y el intercambio de información sobre la base de los estándares establecidos.
+
+4. ¿Qué acción puede llevar a cabo un analista de Seguridad cuando está evaluando una alerta SIEM?
+- [x] Analizar los datos de registro y las Métricas relacionadas
+- [ ] Aislar un sistema de red infectado
+- [ ] Restaure los Datos afectados con una copia de seguridad limpia
+- [ ] Crear un Informe final
+> Una acción que puede llevar a cabo un analista de seguridad cuando está evaluando una alerta SIEM es analizar los datos de registro y las Métricas relacionadas. Esto ayuda a identificar por qué la alerta fue generada por la herramienta SIEM y a determinar si la alerta es válida.
