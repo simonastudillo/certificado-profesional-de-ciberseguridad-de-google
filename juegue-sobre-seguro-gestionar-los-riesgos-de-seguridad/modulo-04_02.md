@@ -22,3 +22,21 @@
 - Además, las organizaciones aprenden de ​los incidentes de seguridad del pasado para ​mejorar su postura de seguridad, ​perfeccionar las políticas y los procedimientos ​y reducir la probabilidad y el impacto de futuros incidentes
 - Luego, actualizan sus libros de jugadas en consecuencia
 - Como analista de Seguridad de nivel básico, ​es posible que deba usar guías con frecuencia, ​especialmente al monitorear las redes ​y responder a los incidente
+
+---
+
+## Erin: La importancia de la diversidad de perspectivas en un Equipo de Seguridad
+- Pienso en los usuarios incluso antes de que toquen el producto, ​asegurándome de que cuando lo utilicen, ​tendrán algún tipo de confianza en el compromiso con ese producto
+- Así como saber que estamos protegiendo su privacidad, ​las cosas que no quieren compartir o difundir, y ​asegurarme de que están informados incluso antes de que toquen el producto. 
+- ​Yo siempre hablo de que las habilidades interpersonales son lo más importante por encima de las habilidades ​técnicas
+- Porque podemos enseñarte cualquier cosa pero no podemos enseñarte a relacionarte con la gente
+- Eso es algo que tú aportas
+- La diversidad de pensamiento y la diversidad de perspectivas son muy útiles para ​entender el mundo en el que existimos
+- Porque si estamos diseñando productos para la gente corriente, ​necesitamos que la gente corriente nos ayude básicamente a entender esas perspectivas.
+- Porque yo puedo ver algo de una manera, pero ​mi colega puede verlo de otra basándose en sus propias experiencias.
+- ​Y así, cuando trabajáis juntos y venís de entornos diferentes, en realidad ​aportáis más equidad y más profundidad a las cosas que estáis viendo. 
+- Y la perspectiva que aportan es la voz esencial que se ​requiere para hacer un producto mejor. 
+- Todas las experiencias que has tenido desde que naciste hasta ahora, ​han sido tu experiencia
+- Y tienes que pensar en eso en términos de hacia dónde vamos con la tecnología. 
+- Cuando estamos desarrollando para una amplia gama de personas, ​tu experiencia puede ser la experiencia de otra persona
+- Involúcrate en STEM porque la equidad a través de la Seguridad del producto, ​la privacidad, lo que sea, ya sea ingeniería de software, ​todo requiere una voz diferente
