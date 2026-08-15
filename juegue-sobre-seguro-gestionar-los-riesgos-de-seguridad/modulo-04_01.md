@@ -106,3 +106,21 @@
    - Document the incident, inform organizational leadership, and apply lessons learned.
 6. Coordination
    - Report incidents and share information throughout the response process, based on established standards.
+
+---
+
+## Zack: Respuesta ante incidentes y el valor de los libros de jugadas
+- Los ​procesos y los manuales de estrategias son ​documentación que ​utilizan los ingenieros de software y otras personas de Google para determinar cómo podemos ​responder a las cosas que suceden.
+- ​Ya sea que se trate de un incidente de seguridad o privacidad o ​de un ataque activo, ​tenemos conjuntos de pautas o ​algoritmos que utilizamos para determinar ​el mejor curso de acción para asegurarnos de que administramos ​bien los datos y la seguridad de las personas
+- He sido ingeniero de software aquí durante aproximadamente dos años ​y no tengo los conocimientos suficientes ​para poder responder a ​todo lo que se ​me presente cuando estoy de ​guardia o cuando ayudo a resolver una vulnerabilidad
+- Los manuales son muy importantes ​para personas como yo y para otras personas que se están ​uniendo a la industria por primera vez porque permiten resolver ​el problema con la experiencia ​de una persona mucho más experimentada, ​básicamente décadas de experiencia en ​su propia resolución, porque pueden ​confiar en este manual de estrategias y en los consejos de otras personas
+- El tipo de estrategias que utilizamos para nuestros ataques abiertos, ​incidentes de privacidad, filtraciones de datos, ​ataques de denegación de servicio ​, alertas de servicio y otros
+- Cuando empecé en Google, ​mi primera tarea en el equipo de Seguridad ​era corregir una vulnerabilidad denunciada externamente
+- Eso significa que algún investigador ​de Seguridad andaba jugando con ​nuestra aplicación y encontró algo que ​podría filtrar los datos de nuestros usuarios. 
+- Cuando lo recibí, ​fue mi primera tarea en el equipo. ​Mirando hacia atrás, es ​algo relativamente fácil de resolver, ​pero en ese momento me pareció realmente abrumador. 
+- Sin embargo, cuando recibimos un informe de vulnerabilidad, ​viene con una guía de reparación
+- Había pasos en el error que ​me enviaron diciendo que estas ​son las cosas que creemos que debes hacer
+- Lo que le diría a ​alguien que esté interesado en iniciarse en la ​ciberseguridad es que hable con ​tantas personas de la industria como pueda. 
+- Aprenderás cómo es el trabajo. ​Aprenderás sobre las habilidades que ​necesitas para lograrlo. 
+- ​Si eso es algo que le interesa, ​aprenderá sobre los puestos y puestos vacantes y ​cómo es trabajar en diferentes empresas
+- Algunos equipos entran y pasan de moda, ​pero la Seguridad está siempre presente. 
