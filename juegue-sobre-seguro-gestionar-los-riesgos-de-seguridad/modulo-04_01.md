@@ -124,3 +124,35 @@
 - Aprenderás cómo es el trabajo. ​Aprenderás sobre las habilidades que ​necesitas para lograrlo. 
 - ​Si eso es algo que le interesa, ​aprenderá sobre los puestos y puestos vacantes y ​cómo es trabajar en diferentes empresas
 - Algunos equipos entran y pasan de moda, ​pero la Seguridad está siempre presente. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Respuesta ante incidentes
+
+1. En caso de un incidente de Seguridad, ¿cuándo sería apropiado consultar un Manual de estrategias de respuesta ante incidentes?
+- [ ] Al menos un mes después de que haya terminado el Incidente
+- [x] A lo largo de todo el Incidente
+- [ ] Sólo cuando se produce el primer Incidente
+- [ ] Sólo antes de que se produzca el Incidente
+> En caso de que se produzca un incidente de Seguridad, es conveniente remitirse a un libro de jugadas de respuesta a incidentes a lo largo de todo el incidente. Un manual de respuesta a incidentes es una guía con seis fases que se utiliza para ayudar a mitigar y gestionar los incidentes de Seguridad desde el principio hasta el final.
+
+2. Rellene el espacio en blanco: Durante la fase _____, los profesionales de la Seguridad utilizan herramientas y estrategias para determinar si se ha producido una violación y evaluar su magnitud potencial
+- [ ] preparación
+- [x] detección y Análisis
+- [ ] coordinación
+- [ ] contención
+> Durante la fase de Detección y Análisis, los profesionales de la Seguridad utilizan herramientas y estrategias para determinar si se ha producido una brecha y evaluar su magnitud potencial.
+
+3. ¿En qué fase del Manual de estrategias de respuesta ante incidentes documentaría un Equipo de Seguridad un incidente para asegurarse de que su organización está mejor preparada para gestionar futuros eventos de Seguridad?
+- [ ] Erradicación y Recuperación
+- [ ] Contención
+- [ ] Coordinación
+- [x] Actividad posterior al incidente
+> En la fase de Actividad posterior al incidente, un Equipo de Seguridad documenta un incidente para asegurarse de que su organización está mejor preparada para gestionar futuros incidentes.
+
+4. ¿Cuál es la relación entre las herramientas SIEM y los manuales de estrategias?
+- [ ] Los Manuales de estrategias detectan las amenazas y generan alertas y, a continuación, las herramientas SIEM proporcionan al Equipo de Seguridad una estrategia probada.
+- [ ] Los manuales de estrategias recopilan y analizan los Datos y, a continuación, las herramientas SIEM guían el proceso de respuesta.
+- [ ] Trabajan juntos para predecir futuras amenazas y eliminar la necesidad de intervención humana.
+- [x] Trabajan juntos para proporcionar una forma estructurada y eficaz de responder a los incidentes de Seguridad.
+> Las herramientas SIEM y los manuales de estrategias trabajan conjuntamente para proporcionar una forma estructurada y eficaz de responder a los incidentes de Seguridad. 
