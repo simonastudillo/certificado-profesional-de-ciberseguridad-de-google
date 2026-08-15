@@ -1,17 +1,83 @@
 # Juegue sobre seguro: Gestionar los riesgos de seguridad
 
 - Módulo 1: Dominios de Seguridad
+   - [Comenzar el curso](modulo-01_01.md)
+   - [Más información sobre los dominios de seguridad CISSP](modulo-01_02.md)
+   - [Navegar por las amenazas, los riesgos y las vulnerabilidades](modulo-01_03.md)
+   - [Revisión: Dominios de seguridad](modulo-01_04.md)
 - Módulo 2: Marcos de seguridad y controles
+   - [Más información sobre marcos y controles](modulo-02_01.md)
+   - [La tríada CID: Confidentialidad, Integridad y Disponibilidad](modulo-02_02.md)
+   - [Marcos del NIST](modulo-02_03.md)
+   - [Principios OWASP y auditorías de seguridad](modulo-02_04.md)
+   - [Revisión: Marcos de seguridad y controles](modulo-02_05.md)
 - Módulo 3: Introducción a las herramientas de ciberseguridad
+   - [Cuadros de mando de administración de información y eventos de seguridad (SIEM)](modulo-03_01.md)
+   - [Explore las herramientas de administración de información y eventos de seguridad (SIEM)](modulo-03_02.md)
+   - [Repaso: Introducción a las herramientas de ciberseguridad](modulo-03_03.md)
 - Módulo 4: Utilice manuales de estrategias para responder a incidentes
+   - [Fases de los manuales de respuesta ante incidentes](modulo-04_01.md)
+   - [Explorar la respuesta ante incidentes](modulo-04_02.md)
+   - [Repase: Utilizar manuales de estrategias para responder a incidentes](modulo-04_03.md)
+   - [¡Enhorabuena por haber completado el Curso 2!](modulo-04_04.md)
 
 ## Habilidades y conceptos a aprender
 
 ### Habilidades técnicas (hard skills)
 
+- Gestión de riesgos de seguridad (Risk Management)
+- Auditoría de seguridad interna (Security Auditing)
+- Evaluación de controles de seguridad (administrativos, técnicos y físicos)
+- Evaluación de cumplimiento normativo: GDPR, PCI DSS, HIPAA, SOC 2
+- Monitoreo y análisis con herramientas SIEM
+- Splunk (Enterprise y Cloud)
+- Google Chronicle (Google SecOps)
+- Análisis e interpretación de registros (logs): firewall, red y servidor
+- Análisis de paneles y métricas de seguridad (Security Posture, Incident Review, Risk Analysis)
+- Detección de indicadores de compromiso (IOCs)
+- Respuesta ante incidentes (Incident Response)
+- Uso de manuales de estrategias (Playbooks) para contener, erradicar y recuperar
+- Gestión de vulnerabilidades (Vulnerability Management)
+- Fundamentos de Linux y línea de comandos (CLI)
+- Herramientas de código abierto: Suricata (IDS/análisis de red)
+
 ### Conceptos clave
 
+- Los 8 dominios de seguridad de CISSP
+- Tríada CID (Confidencialidad, Integridad y Disponibilidad)
+- NIST Risk Management Framework (RMF) — 7 pasos
+- NIST Cybersecurity Framework (CSF) v2.0 — 6 funciones: Gobernar, Identificar, Proteger, Detectar, Responder, Recuperar
+- NIST SP 800-53
+- Principios de seguridad de OWASP (10 principios)
+- ISO/IEC 27001 (SGSI/ISMS)
+- Cyber Threat Framework (CTF)
+- Amenazas, riesgos y vulnerabilidades (Threats, Risks, Vulnerabilities)
+- Estrategias de gestión de riesgos: aceptación, evitación, transferencia y mitigación
+- Ingeniería social (Social Engineering), phishing, vishing y ransomware
+- Amenazas persistentes avanzadas (APT) y amenazas internas
+- Autenticación multifactor (MFA) y biometría
+- Principio de privilegio mínimo (Least Privilege) y separación de funciones
+- Defensa en profundidad (Defense in Depth) y confianza cero (Zero Trust)
+- Cifrado y criptografía (Encryption)
+- Gestión de identidad y acceso (IAM)
+- Ciclo de vida de desarrollo de software seguro (SDLC)
+- Continuidad del negocio y recuperación ante desastres (Business Continuity / Disaster Recovery)
+- SIEM (Security Information and Event Management)
+- SOAR (Security Orchestration, Automation and Response)
+- Postura de seguridad (Security Posture)
+
 ### Habilidades transferibles (soft skills)
+
+- Comunicación con partes interesadas (stakeholders)
+- Documentación e informes de auditoría e incidentes
+- Pensamiento crítico y análisis de riesgos
+- Análisis de causa raíz (Root Cause Analysis)
+- Trabajo en equipo y colaboración interdepartamental
+- Atención al detalle y seguimiento de procesos estructurados
+- Toma de decisiones bajo presión y sentido de urgencia
+- Aprendizaje continuo y mantenerse actualizado en ciberamenazas
+- Networking y construcción de marca profesional
+- Diversidad de perspectivas, accesibilidad e inclusión en seguridad
 
 ## Descripción del curso
 ---
@@ -145,3 +211,38 @@ Este curso profundiza en los conceptos introducidos en el primer curso, haciendo
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Dominios de Seguridad
+
+- **Los 8 dominios de seguridad de CISSP**: seguridad y gestión de riesgos, seguridad de los activos, arquitectura de seguridad e ingeniería, comunicación y seguridad de redes, gestión de identidad y acceso (IAM), evaluación y pruebas de seguridad, operaciones de seguridad, y seguridad en el desarrollo de software.
+- **Amenazas, riesgos y vulnerabilidades**: una amenaza es cualquier circunstancia que puede impactar negativamente los activos (ej. ransomware, ingeniería social); un riesgo es la probabilidad de impacto (niveles bajo, medio, alto); una vulnerabilidad es una debilidad explotable por una amenaza.
+- **Estrategias de gestión de riesgos**: aceptación, evitación, transferencia y mitigación. Los tipos de riesgo incluyen externos, internos, sistemas heredados (legacy), de terceros y de cumplimiento normativo.
+- **NIST Risk Management Framework (RMF)**: proceso de 7 pasos para gestionar riesgos — Preparar, Clasificar, Seleccionar, Implementar, Evaluar, Autorizar y Monitorear.
+- **Amenazas comunes**: amenazas internas, amenazas persistentes avanzadas (APT), ransomware y vulnerabilidades conocidas como ProxyLogon, ZeroLogon, Log4Shell y PetitPotam.
+- **Capas de la web**: surface web, deep web y dark web, con impactos potenciales como pérdidas financieras, robo de identidad y daño reputacional.
+
+### Módulo 2: Marcos de seguridad y controles
+
+- **Marcos y controles de seguridad**: los marcos son directrices para construir planes de mitigación de riesgos; los controles son salvaguardas contra riesgos específicos, clasificados en físicos (cerraduras, CCTV), técnicos (firewalls, MFA, encriptación) y administrativos (separación de funciones, políticas).
+- **Tríada CID**: Confidencialidad (solo usuarios autorizados acceden a los datos, privilegio mínimo), Integridad (los datos son correctos, auténticos y confiables, mediante criptografía) y Disponibilidad (los datos son accesibles para quienes están autorizados).
+- **NIST Cybersecurity Framework (CSF) v2.0**: marco voluntario compuesto por 6 funciones — Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar — con énfasis en gobernanza y riesgo de la cadena de suministro. También se cubre NIST SP 800-53 para sistemas federales.
+- **Otros marcos y estándares**: ISO/IEC 27001 (sistema de gestión de seguridad de la información), Cyber Threat Framework (CTF) y regulaciones como GDPR, PCI DSS, HIPAA y SOC 2.
+- **Los 10 principios de seguridad de OWASP**: minimizar la superficie de ataque, privilegio mínimo, defensa en profundidad, separación de funciones, seguridad sencilla, solucionar correctamente los problemas, valores predeterminados seguros, fallar con seguridad, no confiar en servicios de terceros y evitar la seguridad por oscuridad.
+- **Auditorías de seguridad**: revisión de controles, políticas y procedimientos de una organización. Elementos clave: establecer alcance y objetivos, evaluar riesgos, evaluar controles, verificar cumplimiento y comunicar resultados a las partes interesadas. Actividad práctica de portafolio: auditoría interna de Botium Toys con checklist de controles y cumplimiento.
+
+### Módulo 3: Introducción a las herramientas de ciberseguridad
+
+- **Registros (logs)**: registros de eventos en los sistemas de una organización; los tipos principales son registros de firewall (tráfico entrante/saliente), de red (dispositivos y flujos) y de servidor (servicios como web, email e inicios de sesión).
+- **SIEM (Security Information and Event Management)**: aplicación que recopila y analiza datos de registro para monitorear actividades críticas; ofrece visibilidad en tiempo real, alertas automatizadas, almacenamiento centralizado e indexación de datos.
+- **Paneles y métricas SIEM**: los dashboards visualizan eventos mediante tablas y gráficos (ej. 500 intentos de inicio de sesión en 5 minutos desde una ubicación inusual); las métricas clave incluyen tiempo de respuesta, disponibilidad y tasa de fallos.
+- **Herramientas SIEM del sector**: Splunk Enterprise (autoalojado) y Splunk Cloud (alojado en la nube) con paneles como Security Posture e Incident Review; Google Chronicle (nativo de la nube) con paneles como Enterprise Insights, IOC Matches y Rule Detections.
+- **Tipos de despliegue**: autoalojado (la organización mantiene la infraestructura), alojado en la nube (el proveedor lo gestiona) e híbrido. También se exploran herramientas de código abierto como Linux y Suricata, y conceptos como indicadores de compromiso (IOCs).
+- **SOAR (Security Orchestration, Automation and Response)**: conjunto de aplicaciones y flujos de trabajo que usan automatización para responder a eventos de seguridad, complementando al SIEM.
+
+### Módulo 4: Utilice manuales de estrategias para responder a incidentes
+
+- **Playbooks (manuales de estrategias)**: manuales que detallan acciones operativas ante incidentes; son documentos vivos que garantizan respuestas urgentes, eficientes, precisas y consistentes. Existen playbooks para ransomware, phishing/vishing, compromiso del correo empresarial (BEC) y vulnerabilidades.
+- **Las 6 fases de la respuesta ante incidentes**: 1) Preparación (documentar procedimientos y educar usuarios), 2) Detección y análisis (evaluar la magnitud del incidente), 3) Contención (prevenir daños mayores), 4) Erradicación y recuperación (eliminar artefactos maliciosos y restaurar sistemas), 5) Actividad posterior al incidente (documentar, informar y aplicar lecciones aprendidas) y 6) Coordinación (reportar y compartir información según estándares y cumplimiento).
+- **Flujo práctico ante una alerta SIEM**: evaluar la alerta analizando registros y métricas, contener aislando el sistema infectado, erradicar y restaurar con copias de seguridad limpias, y realizar actividades post-incidente como el informe final y la notificación a las autoridades correspondientes.
+- **Relación SIEM, SOAR y playbooks**: las alertas del SIEM activan los playbooks, mientras que SOAR automatiza tareas repetitivas (ej. bloquear una cuenta tras múltiples intentos fallidos de inicio de sesión), permitiendo respuestas más rápidas.
+- **Análisis de causa raíz y lecciones aprendidas**: la fase post-incidente alimenta la mejora continua de los procesos de seguridad y del propio playbook.
