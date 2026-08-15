@@ -7,3 +7,8 @@
 - Proporcionan un enfoque estructurado y coherente para gestionar los incidentes de seguridad ​y pueden ayudarle a responder a los incidentes de seguridad rápidamente
 - Saber cómo y cuándo utilizar un libro de jugadas, le permitirá tomar decisiones ​informadas sobre cómo responder a un incidente de seguridad cuando se produzca ​y le ayudará a minimizar el impacto y los ​daños que pueda causar a su organización y a las personas a las que sirve
 - ​Seguir los pasos del libro de jugadas y comunicarse adecuadamente con su equipo, ​garantizará su eficacia como profesional de la seguridad. 
+
+---
+
+## Glosario de términos del módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
