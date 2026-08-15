@@ -89,3 +89,20 @@
       - Erradicación
       - Recuperación de un incidente
    - Los pasos adicionales incluyen la realización de actividades posteriores al incidente y una coordinación de esfuerzos a lo largo de la investigación y las fases de respuesta al incidente y a la vulnerabilidad.
+
+---
+
+## Identificar: Fases de un manual de estrategias de respuesta ante incidentes
+- Review the flashcards to learn about six core phases of an incident response playbook. (Note: The flashcards are in English and are not ordered.)
+1. Preparation
+   - Before incidents occur, mitigate potential impacts on the organization by documenting, establishing staffing plans, and educating users.
+2. Detection and analysis
+   - Detect and analyze events by implementing defined processes and appropriate technology.
+3. Containment
+   - Prevent further damage and reduce immediate impact of incidents.
+4. Eradication and recovery
+   - Completely remove artifacts of the incident so that an organization can return to normal operations.
+5. Post-incident activity
+   - Document the incident, inform organizational leadership, and apply lessons learned.
+6. Coordination
+   - Report incidents and share information throughout the response process, based on established standards.
