@@ -58,3 +58,26 @@
    - SOAR es una pieza de software utilizada para automatizar tareas repetitivas generadas por herramientas como un SIEM o una detección y respuesta gestionadas (MDR)
    - Por ejemplo, si un usuario intenta iniciar sesión en su computadora demasiadas veces con una contraseña incorrecta, un SOAR bloquearía automáticamente su cuenta para detener una posible intrusión
    - A continuación, los analistas consultarían un Manual de estrategias para dar los pasos necesarios para resolver el Problema
+
+---
+
+## Práctica: Responder a una alerta SIEM
+- Choose the appropriate playbook response to address a SIEM alert.
+
+1. You’re monitoring a SIEM dashboard and receive an alert about a suspicious file download. What’s the first thing you should do?
+- [ ] Use a tool to contain the incident
+- [x] Assess the alert by gathering more information
+- [ ] Report the alert to cyber crime agencies
+> The first thing you should do is assess the alert to determine if it’s valid.
+
+2. You determine that the suspicious file download alert is valid, so you follow the steps in your organization’s playbook to contain and eliminate traces of the incident. What should you do next?
+- [ ] Isolate the infected network System
+- [x] Restore affected systems
+- [ ] Analyze log data
+> After containing and eliminating traces of the incident, you should restore affected systems.
+
+3. After you’ve taken all the necessary steps outlined in your organization’s playbook to resolve the incident, what should you do?
+- [ ] Investigate the suspicious file download
+- [x] Communicate the incident to stakeholders
+- [ ] Restore affected data using a clean backup
+> After the incident is resolved, you should perform post-incident and coordination efforts.
