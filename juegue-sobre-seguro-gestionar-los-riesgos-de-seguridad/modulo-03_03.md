@@ -15,3 +15,12 @@
    - Proporcionaste explicaciones perspicaces sobre cómo las funcionalidades de SIEM, como la gestión centralizada de logs, las alertas automatizadas y la visualización, contribuyen a la defensa proactiva y la respuesta efectiva a incidentes.
 - Áreas de mejora:
    - Podrías profundizar en cómo los SIEM no solo detectan, sino que también ayudan en la contención y erradicación de las amenazas, y en la recuperación de las operaciones, más allá de la detección inicial.
+
+---
+
+## Resumen
+- Empezamos por analizar la importancia de los registros y la ciberseguridad, ​y exploramos diferentes tipos de registros, como los registros del firewall, de la red y del servidor
+- A continuación, analizamos los paneles de SIEM y ​cómo utilizan las representaciones visuales para proporcionar a los equipos de seguridad ​información rápida y clara sobre la postura de seguridad de una organización
+- Por último, presentamos las herramientas SIEM más comunes que se utilizan en la ​industria de la ciberseguridad, como Splunk y Chronicle
+- Exploraremos aún más herramientas de Seguridad más adelante en el programa y ​tendrás la oportunidad de practicar su uso
+- Próximamente, analizaremos las estrategias y cómo ayudan a los profesionales de Seguridad a ​responder adecuadamente para identificar las amenazas, los riesgos y las vulnerabilidades.
