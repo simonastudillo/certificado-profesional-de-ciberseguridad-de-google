@@ -24,3 +24,8 @@
 - Por último, presentamos las herramientas SIEM más comunes que se utilizan en la ​industria de la ciberseguridad, como Splunk y Chronicle
 - Exploraremos aún más herramientas de Seguridad más adelante en el programa y ​tendrás la oportunidad de practicar su uso
 - Próximamente, analizaremos las estrategias y cómo ayudan a los profesionales de Seguridad a ​responder adecuadamente para identificar las amenazas, los riesgos y las vulnerabilidades.
+
+---
+
+## Glosario de términos del módulo 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
