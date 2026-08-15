@@ -19,3 +19,11 @@
 
 ## Glosario del curso 2
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- Haz completado el curso 2 "Juegue sobre seguro: gestionar los riesgos de seguridad": 
+   - has aprendido cuáles son los nueve ámbitos de seguridad del Certificado Profesional en Seguridad de Sistemas de Información (CISSP)
+   - También has profundizado en las amenazas, los riesgos y las vulnerabilidades, así como en los controles y marcos de seguridad más habituales
+   - Además, has explorado cómo utilizar el Marco de Gestión de Riesgos del Instituto Nacional de Estándares y Tecnología (NIST RMF), la tecnología de gestión de información y eventos de seguridad (SIEM) y los manuales de procedimientos para identificar y ayudar a prevenir problemas de seguridad que puedan perjudicar a las organizaciones y a las personas a las que prestan servicio
