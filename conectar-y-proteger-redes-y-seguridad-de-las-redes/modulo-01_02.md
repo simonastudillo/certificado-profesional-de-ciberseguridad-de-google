@@ -280,3 +280,23 @@
       - Esto significa que las empresas sólo pagan por lo que necesitan cuando lo necesitan.
 - Los cambios pueden realizarse rápidamente a través de los CSP, las API o la consola web, mucho más rápido que si los técnicos de red tuvieran que comprar su propio hardware y configurarlo.
 - Por ejemplo, si una empresa necesita protegerse contra una amenaza a su red, los cortafuegos de aplicaciones web (WAF), los sistemas de detección/protección de intrusiones (IDS/IPS) o los cortafuegos L3/L4 pueden configurarse rápidamente siempre que sea necesario, lo que mejora el rendimiento y la seguridad de la red.
+
+---
+
+## Identificar: Funciones de las herramientas de red
+- In this matching exercise, you will review the functions of different network tools to better understand how to keep a network secure.
+
+1. A device that sends and receives data between devices on a network.
+> Switch
+
+2. A network device that broadcasts information to every device on the network.
+> Hub
+
+3. A network security device that monitors traffic to or from your network
+> Firewall
+
+4. A network device that connects multiple networks together.
+> Router
+
+5. Connects a router to the internet and enables LAN internet access.
+> Modem
