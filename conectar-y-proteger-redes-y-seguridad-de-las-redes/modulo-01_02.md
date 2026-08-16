@@ -40,3 +40,14 @@
 - ​Una red de área extensa o WAN abarca un área geográfica grande como una ciudad, un estado, ​o un país
    - Puede pensar en Internet como una gran WAN
    - Un empleado de una empresa en San Francisco puede comunicarse y ​compartir recursos con otro empleado en Dublín, Irlanda, a través de la WAN
+
+---
+
+## Tina: Trabajar en la Seguridad de redes
+- La seguridad de red es importante porque ​queremos asegurarnos de que nuestros sistemas de red sean ​seguros y resistentes ​para poder defendernos de los piratas informáticos malintencionados, ​y de que tenemos la capacidad de proteger los datos de nuestros usuarios
+- Trabajar con la seguridad de ​la red permite ver una visión general de los sistemas de red de toda la empresa, ​lo cual es genial
+- Mi parte favorita de mi trabajo es el impacto que puedo ​tener en la comunidad a la que sirvo en Google
+- Diría que la mayor parte del día me dedico a programar, diseñar, ​hablar con los equipos de Seguridad y los equipos de red sobre ​sus prioridades ​y sus obstáculos y poder encontrar una solución
+- ​Un consejo que le daría ​a alguien que quiera emprender el ​viaje de la ciberseguridad es que ​siempre pueda seguir aprendiendo y ​sentir curiosidad por saber cómo funcionan las cosas
+- ​Debido a que la seguridad es un campo en constante cambio, la ​ciberseguridad es definitivamente un deporte de equipo
+- Todo el mundo tiene algo que aportar ​y, especialmente en lo que respecta a los problemas ​de ciberseguridad, puede haber ​muchas posibilidades y muchas soluciones diferentes para un problema
