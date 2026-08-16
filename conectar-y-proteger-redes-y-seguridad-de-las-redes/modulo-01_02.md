@@ -69,3 +69,28 @@
 - Una habilidad que no ha dejado de ​crecer en mi puesto actual ​ha sido ​comunicarme eficazmente con los equipos de productos ​y los ingenieros, identificar un problema que influya o ​afecte a la empresa y ​comunicarme con esos equipos de forma eficaz para solucionarl
 - Ser capaz de asumir todas estas funciones ​y explicar las cosas con el enfoque empresarial adecuado ​para garantizar que los problemas ​que encuentro en mi trabajo se ​identifiquen, pero también se solucionen
 - ​Mi consejo para ​las personas que están cursando este certificado es que se deshagan, se sientan incómodas, ​aprendan y crezcan y encuentren ​oportunidades para aprender y comprender cómo ​funcionan las cosas, y ese conjunto de habilidades ​les beneficiará durante el resto de su viaje. 
+
+---
+
+## Herramientas de red
+- Hub (Concentrador)
+   - Es un dispositivo de red que ​emite información a todos los dispositivos de la red
+   - Piense en un Hub como en una torre de radio que emite ​una señal a cualquier radio sintonizada en la frecuencia correcta 
+- Switch (Conmutador)
+   - Un Switch establece conexiones entre ​dispositivos específicos de una red enviando ​y recibiendo datos entre ellos
+   - Un Switch es más inteligente que un Hub.
+   - ​Sólo transmite datos al destino previsto
+   - Esto hace que los Switch sean más seguros que los Hub, ​y les permite controlar el flujo de tráfico ​y mejorar el rendimiento de la red
+- Router (Enrutador)
+   - Un router es un dispositivo de red que ​conecta varias redes entre sí. 
+   - Por ejemplo, si una computadora de una red ​desea enviar información a una tableta de otra red, ​entonces la información se transferirá de la siguiente manera: ​Primero, la información viaja ​desde la computadora hasta el router
+   - A continuación, el router lee la dirección de destino, ​y reenvía los datos al router de la red de destino. ​Por último, el router receptor ​dirige esa información a la tableta. 
+- Modem (Módem)
+   - Un módem es un dispositivo que conecta ​el router a Internet, ​y lleva el acceso a Internet a la LAN. 
+   - Por ejemplo, si una computadora de una red quiere enviar ​información a un dispositivo de una red ​en una ubicación geográfica diferente, ​se transferiría de la siguiente manera: ​La computadora enviaría la información al router, ​y el router transferiría entonces ​la información a través del módem a Internet
+   - El Módem del destinatario recibe la información, ​y la transfiere al router.
+   - Finalmente, el router del destinatario reenvía ​esa información al dispositivo de destino
+- muchas funciones realizadas por ​estos dispositivos físicos pueden ser ​completadas por herramientas de virtualización. 
+- ​Las herramientas de virtualización son piezas de ​software que realizan operaciones de red. 
+- Las herramientas de virtualización llevan a cabo operaciones ​que normalmente realizaría un hub, un switch, ​un router o un módem, ​y que ofrecen los proveedores de servicios en la Nube
+- Estas herramientas ofrecen oportunidades de ​ahorro de costes y escalabilidad
