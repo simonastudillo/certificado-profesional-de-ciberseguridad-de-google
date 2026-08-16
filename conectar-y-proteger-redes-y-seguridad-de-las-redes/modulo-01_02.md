@@ -187,3 +187,16 @@
    - Mediante el estudio de los diagramas de red, los analistas de seguridad desarrollan y perfeccionan sus estrategias para proteger las arquitecturas de red.
 
 <img src="./resources/image-4.png" alt="diagrama-red" width="600">
+
+---
+
+## Práctica: Diseñar una red de área local
+- Complete a network diagram to create a secure Local Area Network.
+
+1. Review the network diagram and identify what’s missing by selecting the appropriate option from the list.
+- A router connects the internet, firewall, and server to the rest of the network.
+- A switch connects the network to devices like phones, tablets, workstations, and desktops.
+- A wireless access point can connect other devices behind a firewall.
+- A device connects to the network via a switch.
+
+<img src="./resources/image-5.png" alt="diagrama-red" height="600">
