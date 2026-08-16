@@ -51,3 +51,21 @@
 - ​Un consejo que le daría ​a alguien que quiera emprender el ​viaje de la ciberseguridad es que ​siempre pueda seguir aprendiendo y ​sentir curiosidad por saber cómo funcionan las cosas
 - ​Debido a que la seguridad es un campo en constante cambio, la ​ciberseguridad es definitivamente un deporte de equipo
 - Todo el mundo tiene algo que aportar ​y, especialmente en lo que respecta a los problemas ​de ciberseguridad, puede haber ​muchas posibilidades y muchas soluciones diferentes para un problema
+
+---
+
+## Red: Habilidades útiles para la Seguridad de redes
+- En lo que respecta a la ​seguridad ofensiva, ​mi trabajo consiste en simular a los adversarios y las amenazas ​que se dirigen a varias empresas y me dedico ​a defender la forma en ​que podemos proteger la infraestructura de Google
+- Hago que sea más difícil hackear ​Google hackeando Google
+- Las habilidades técnicas que utilizo son mucha programación, ​además de aprender sobre la ​seguridad operativa y de la plataforma
+- ​Saber cómo funcionan estas computadoras, ​qué hay debajo del capó ​y comprender los componentes ​que crean esta infraestructura.
+- ​Un analista de ciberseguridad ​principiante estudiaría el uso de líneas de comando, análisis de registros y ​análisis de tráfico de red en su ámbito de trabajo diario
+- La línea de comandos le permite interactuar ​con varios niveles de su sistema operativo, ​ya sean los de bajo nivel, ​como la memoria y el kernel, ​o los de alto nivel, como ​las aplicaciones y los programas ​que ejecuta en su computadora. 
+- Con el análisis de registros, habrá ​ocasiones en las que necesitará ​averiguar y depurar lo que está sucediendo en su programa o ​aplicación, y estos registros están ​ahí para ayudarlo y ayudarlo a ​encontrar el problema raíz y luego resolverlo desde allí
+- Con este análisis del tráfico de red, ​puede haber ocasiones en las que necesite ​averiguar por qué mi Internet va lento
+- ¿Por qué el tráfico no ​se dirige al destino apropiado? ​¿Qué puedo hacer para ​asegurarme de que mi red esté en funcionamiento?
+- El análisis del tráfico de red consiste en analizar la ​red en varias capas de red ​y aplicaciones y ver qué hace ​ese tráfico, cómo podemos ​protegerlo e identificar cualquier vulnerabilidad o problema
+- En mi caso, por motivos de Seguridad, ​analizo: ¿se ​filtran contraseñas en el tráfico que ​se envía a través de la red? ​¿Se protegen las infraestructuras? ¿Los firewalls se ​configuran fácilmente y de forma segura?
+- Una habilidad que no ha dejado de ​crecer en mi puesto actual ​ha sido ​comunicarme eficazmente con los equipos de productos ​y los ingenieros, identificar un problema que influya o ​afecte a la empresa y ​comunicarme con esos equipos de forma eficaz para solucionarl
+- Ser capaz de asumir todas estas funciones ​y explicar las cosas con el enfoque empresarial adecuado ​para garantizar que los problemas ​que encuentro en mi trabajo se ​identifiquen, pero también se solucionen
+- ​Mi consejo para ​las personas que están cursando este certificado es que se deshagan, se sientan incómodas, ​aprendan y crezcan y encuentren ​oportunidades para aprender y comprender cómo ​funcionan las cosas, y ese conjunto de habilidades ​les beneficiará durante el resto de su viaje. 
