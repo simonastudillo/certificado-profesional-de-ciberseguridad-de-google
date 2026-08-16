@@ -94,3 +94,96 @@
 - ​Las herramientas de virtualización son piezas de ​software que realizan operaciones de red. 
 - Las herramientas de virtualización llevan a cabo operaciones ​que normalmente realizaría un hub, un switch, ​un router o un módem, ​y que ofrecen los proveedores de servicios en la Nube
 - Estas herramientas ofrecen oportunidades de ​ahorro de costes y escalabilidad
+
+---
+
+## Componentes, dispositivos y diagramas de red
+- Una comprensión básica de la arquitectura de red, a veces denominada diseño de red, le ayudará a conocer las vulnerabilidades de seguridad inherentes a todas las redes y cómo los actores maliciosos intentan explotarlas.
+- Dispositivos de red
+   - Los dispositivos de red mantienen información y servicios para los usuarios de una red
+   - Estos dispositivos se conectan a través de conexiones cableadas e inalámbricas
+   - Tras establecer una conexión con la red, los dispositivos envían paquetes de datos
+   - Los paquetes de datos proporcionan información sobre el origen y el destino de los datos
+   - Así es como se envía y recibe la información a través de los distintos dispositivos de una red.
+   - La red es la infraestructura general que permite a los dispositivos comunicarse entre sí
+   - Los dispositivos de red son vehículos especializados, como enrutadores y conmutadores, que gestionan lo que se envía y recibe a través de la red
+   - Además, dispositivos como ordenadores y teléfonos se conectan a la red a través de dispositivos de red. 
+
+<img src="./resources/image.png" alt="Diagrama de red que muestra cómo los dispositivos de red se conectan a la red y cómo los dispositivos finales se conectan a los dispositivos de red." width="600">
+
+- En este diagrama, un router se conecta a Internet a través de un módem, que le proporciona su proveedor de servicios de Internet (ISP)
+- El cortafuegos es un dispositivo de seguridad que supervisa el tráfico entrante y saliente de la red
+- A continuación, el router dirige el tráfico a los dispositivos de tu red doméstica, que pueden incluir ordenadores, portátiles, smartphones, tabletas, impresoras y otros aparatos
+- Aquí puedes imaginar que el servidor es un servidor de archivos
+- Todos los dispositivos de esta red pueden acceder a los archivos de este servidor
+- Este diagrama también incluye un switch, que es un dispositivo opcional que se puede utilizar para conectar más dispositivos a la red proporcionando puertos adicionales y conexiones Ethernet
+- Además, hay 2 routers conectados al switch para equilibrar la carga y mejorar el rendimiento de la red.
+
+- Dispositivos y ordenadores de sobremesa
+   - Cada dispositivo y ordenador de sobremesa tiene una dirección MAC y una dirección IP únicas, que lo identifican en la red
+   - También tienen una interfaz de red que envía y recibe paquetes de datos.
+   - Estos dispositivos pueden conectarse a la red mediante un cable fijo o una conexión inalámbrica.
+- Cortafuegos (Firewall)
+   - Un cortafuegos es un dispositivo de seguridad de red que supervisa el tráfico hacia o desde su red
+   - Es como la primera línea de defensa
+   - Los cortafuegos también pueden restringir el tráfico de red específico entrante y saliente.
+   - La organización configura las reglas de seguridad del cortafuegos.
+   - Los cortafuegos suelen situarse entre la red interna segura y controlada y los recursos de red no fiables fuera de la organización, como Internet
+   - Recuerda, sin embargo, que los cortafuegos son sólo una línea de defensa en el panorama de la ciberseguridad.
+- Servidores
+   - Los servidores proporcionan información y servicios para dispositivos como ordenadores, dispositivos domésticos inteligentes y teléfonos inteligentes en la red
+   - Los dispositivos que se conectan a un servidor se denominan clientes. 
+   - El siguiente gráfico esboza este modelo, que se denomina modelo cliente-servidor
+   - En este modelo, los clientes envían peticiones de información y servicios al servidor.
+   - El servidor realiza las peticiones para los clientes
+   - Algunos ejemplos comunes son los servidores DNS, que realizan búsquedas de nombres de dominio para sitios de Internet, los servidores de archivos, que almacenan y recuperan archivos de una base de datos, y los servidores de correo corporativo, que organizan el correo de una empresa.
+
+<img src="./resources/image-1.png" alt="modelo cliente-servidor" width="600">
+
+- Hub
+   - Junto a los switches dirigen el tráfico de una red local
+   - Un hub es un dispositivo que proporciona un punto común de conexión para todos los dispositivos conectados directamente a él
+   - Además, repiten toda la información a todos los puertos
+   - Desde el punto de vista de la seguridad, esto hace que los hub sean vulnerables a las escuchas
+   - Por este motivo, los hubs no se utilizan con tanta frecuencia en las redes modernas; la mayoría de las organizaciones utilizan switches en su lugar.
+   - Los hubs suelen utilizarse en redes limitadas, como las oficinas domésticas.
+- Switch
+   - son la opción preferida en la mayoría de las redes
+   - reenvía paquetes entre dispositivos conectados directamente a él
+   - Analizan la dirección de destino de cada paquete de datos y lo envían al dispositivo previsto
+   - mantienen una tabla de direcciones MAC que coteja las direcciones MAC de los dispositivos de la red con los números de puerto del conmutador y reenvía los paquetes de datos entrantes según la dirección MAC de destino
+   - forman parte de la capa de vínculo de datos en el Modelo TCP/IP
+   - mejoran el rendimiento y la seguridad
+- Routers
+   - conectan redes y dirigen el tráfico, basándose en la dirección IP de la red de destino
+   - Los routers permiten que los dispositivos de diferentes redes se comuniquen entre sí
+   - En el Modelo TCP/IP, los routers forman parte de la capa de red
+   - La dirección IP de la red de destino está contenida en la cabecera IP
+   - El router lee la información de la cabecera IP y reenvía el paquete al siguiente router en la ruta hacia el destino
+   - Esto continúa hasta que el paquete llega a la red de destino
+   - Los routers también pueden incluir una función de cortafuegos que permite o bloquea el tráfico entrante basándose en la información de la transmisión
+   - Esto impide que el tráfico malicioso entre en la red privada y dañe la red de área local.
+- Módems y puntos de acceso inalámbricos
+   - Los módems suelen conectar su casa u oficina con un proveedor de servicios de Internet (ISP)
+   - Los ISP proporcionan conexión a Internet a través de líneas telefónicas, cables coaxiales o cables de fibra óptica
+   - Los módems reciben transmisiones o señales digitales de Internet y las convierten en un formato digital compatible con la conexión física que le proporciona su ISP
+   - Normalmente, los módems se conectan a un router que toma las transmisiones descodificadas y las envía a la red local.
+   - las redes empresariales que utilizan las grandes organizaciones para conectar a sus usuarios y dispositivos suelen emplear otras tecnologías de banda ancha para gestionar el tráfico de gran volumen, en lugar de utilizar un módem.
+   
+<img src="./resources/image-2.png" alt="internet-modem-router" width="600">
+
+- Punto de acceso inalámbrico
+   - Un punto de acceso inalámbrico envía y recibe señales digitales a través de ondas de radio creando una red inalámbrica
+   - Los dispositivos con adaptadores inalámbricos se conectan al punto de acceso mediante Wi-Fi
+   - Wi-Fi hace referencia a un conjunto de estándares que utilizan los dispositivos de red para comunicarse de forma inalámbrica
+   - Los puntos de acceso inalámbricos y los dispositivos conectados a ellos utilizan protocolos Wi-Fi para enviar datos a través de ondas de radio, donde se envían a enrutadores y conmutadores y se dirigen a lo largo de la ruta hasta su destino final.
+   
+<img src="./resources/image-3.png" alt="diagrama-wireless-access-point" width="600">
+
+- Uso de diagramas de red como analista de seguridad
+   - Los diagramas de red permiten a los administradores de red y al personal de seguridad imaginar la arquitectura y el diseño de la red privada de su organización.
+   - Los diagramas de red son mapas que muestran los dispositivos de la red y cómo se conectan
+   - Los diagramas de red utilizan pequeños gráficos representativos para representar cada dispositivo de la red y líneas de puntos para mostrar cómo se conecta cada dispositivo entre sí
+   - Mediante el estudio de los diagramas de red, los analistas de seguridad desarrollan y perfeccionan sus estrategias para proteger las arquitecturas de red.
+
+<img src="./resources/image-4.png" alt="diagrama-red" width="600">
