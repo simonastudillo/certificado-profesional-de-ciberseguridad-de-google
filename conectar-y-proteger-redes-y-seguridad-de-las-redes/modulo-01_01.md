@@ -26,3 +26,15 @@
    - Se familiarizará con las prácticas de endurecimiento de la red que refuerzan los sistemas de red.
    - Aprenderá cómo el Endurecimiento de seguridad ayuda a defenderse contra actores maliciosos y métodos de intrusión.
    - También aprenderá a utilizar el endurecimiento de seguridad para abordar los desafíos de seguridad únicos que plantean las infraestructuras en la nube.
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
