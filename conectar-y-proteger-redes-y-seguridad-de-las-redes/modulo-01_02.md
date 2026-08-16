@@ -200,3 +200,26 @@
 - A device connects to the network via a switch.
 
 <img src="./resources/image-5.png" alt="diagrama-red" height="600">
+
+---
+
+## Redes en la nube
+- Tradicionalmente, las empresas han sido propietarias de sus dispositivos de red y ​los han mantenido en sus propios edificios de oficinas
+- Pero ahora, muchas empresas recurren a proveedores externos para gestionar sus redes
+- ¿Por qué? ​Bueno, este Modelo ayuda a las empresas a ahorrar dinero a la vez que les da acceso a más recursos ​de red
+- El crecimiento de la computación en la nube está ayudando a muchas empresas a reducir costes y ​adaptar sus operaciones de red
+- La computación en la nube es la práctica de utilizar servidores, aplicaciones y servicios de red ​remotos que se alojan en Internet en lugar de en dispositivos físicos locales
+- Hoy en día, el número de empresas que utilizan la computación en la nube aumenta cada año, ​por lo que es importante entender cómo funcionan las redes en la nube y cómo asegurarlas. 
+- ​Los proveedores de servicios en la nube ofrecen una alternativa a las redes tradicionales locales y ​permiten a las organizaciones tener los beneficios de la red tradicional sin almacenar ​los dispositivos y gestionar la red por su cuenta
+- Una red en la nube es un conjunto de servidores u ordenadores que almacenan recursos y ​datos en un centro de datos remoto al que se puede acceder a través de Internet
+- Debido a que las empresas no alojan los servidores en su ubicación física, ​se dice que estos servidores están "en la nube"
+- Las redes tradicionales alojan los servidores web de una empresa en su ubicación física
+- Sin embargo, las redes en la nube se diferencian de las redes tradicionales porque utilizan servidores remotos, ​que permiten utilizar servicios en línea y aplicaciones web ​desde cualquier ubicación geográfica
+- La seguridad en la nube será cada vez más relevante para muchos profesionales de la seguridad a medida que ​más organizaciones migren a los servicios en la nube
+- Los proveedores de servicios en la nube ofrecen computación en la nube para mantener las aplicaciones. 
+- Por ejemplo, proporcionan almacenamiento a la carta y ​potencia de procesamiento que sus clientes sólo pagan cuando lo necesitan. 
+- También proporcionan análisis empresariales y ​web que las organizaciones pueden utilizar para supervisar su tráfico web y sus ventas. 
+- Con la transición a las redes en la nube, he sido testigo de una superposición de la seguridad basada en la identidad ​sobre las soluciones más tradicionales basadas en la red
+- Esto significaba que mi atención debía centrarse en verificar tanto de dónde procede el tráfico ​como la identidad que lo acompaña. 
+- Cada vez son más las organizaciones que trasladan sus servicios de red a la nube para ahorrar dinero y simplificar ​sus operaciones
+- A medida que esta tendencia ha ido creciendo, ​la seguridad en la nube se ha convertido en un aspecto importante de la seguridad de las redes. 
