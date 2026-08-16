@@ -300,3 +300,33 @@
 
 5. Connects a router to the internet and enables LAN internet access.
 > Modem
+
+---
+
+## Ponga a prueba sus Conocimientos: Introducción a las redes
+
+1. Para conectar toda una ciudad, el tipo de red más eficaz sería una red de área local (LAN)
+- [ ] Verdadero
+- [x] Falso 
+> Para conectar toda una ciudad, el tipo de red adecuado sería una WAN. Una LAN es una red que abarca un área pequeña; una red de área extensa (WAN) abarca una zona geográfica grande
+
+2. Un profesional de la seguridad quiere asegurarse de que la información se difunde a todas las computadoras de la red de su organización. ¿Qué dispositivo deben investigar?
+- [ ] Módem
+- [ ] Router
+- [ ] Internet 
+- [x] Concentrador (hub)
+> Utilizarían un concentrador. Un concentrador es un dispositivo de red que emite información como una torre de radio.
+
+3. ¿Cuáles son algunos de los Beneficios de los Switch? Seleccione todas las que corresponda
+- [x] Controlan el Flujo del Tráfico.
+- [x] Pueden mejorar el rendimiento de la red.
+- [x] Sólo transmiten datos al destino previsto.
+- [ ] Instalan automáticamente un software de protección de dispositivos.
+> Algunas de las ventajas de los Switch son las siguientes: Controlan el flujo de tráfico, pueden mejorar el rendimiento de la red y pasan los datos al destino previsto. 
+
+4. Rellene el espacio en blanco: La práctica de utilizar servidores, aplicaciones y servicios de red alojados en Internet se denomina informática _____.
+- [ ] cargue
+- [ ] página web
+- [x] nube
+- [ ] conectado
+> La práctica de utilizar servidores, aplicaciones y servicios de red alojados en Internet se denomina computación en la nube. 
