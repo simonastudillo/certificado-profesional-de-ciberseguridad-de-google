@@ -87,3 +87,35 @@
    - IPv6 ofrece un enrutamiento más eficaz y elimina las colisiones de direcciones privadas que pueden producirse en IPv4 cuando dos dispositivos de la misma red intentan utilizar la misma dirección.
 
 <img src="./resources/image-12.png" alt="detalle IPv4 vs IPv6" height="600">
+
+---
+
+## Ponga a prueba sus Conocimientos: Comunicación en red local y amplia
+
+1. Rellene el espacio en blanco: Una Dirección de Protocolo de Internet (IP) es una Cadena Única de Caracteres que identifica el _____ de un dispositivo en Internet
+- [ ] tamaño
+- [ ] velocidad
+- [ ] sistema operativo
+- [x] ubicación
+> Una dirección IP es una cadena única de caracteres que identifica la ubicación de un dispositivo en Internet.
+
+2. ¿Cuál de los siguientes es un ejemplo de dirección IPv4?
+- [ ] 00-B1-D0-63-C2-26
+- [x] 172.16.254.1
+- [ ] 25, 443, 20
+- [ ] 2001:0db8:85a3:0000:0000:8a2e:0370:7336
+> Un ejemplo de dirección IPv4 es 172.16.254.1. Las direcciones IPv4 se escriben como cuatro números de 1 a 3 dígitos separados por puntos decimales. Cada una puede contener los valores 0-255.
+
+3. ¿Qué tipo de dirección asigna un proveedor de servicios de Internet y está conectada a una ubicación geográfica?
+- [ ] Dirección IP privada
+- [x] Dirección IP pública
+- [ ] dirección MAC
+- [ ] Dirección WAN
+> Una dirección IP pública es asignada por un proveedor de servicios de Internet y compartida por todos los dispositivos de una red de área local. Está relacionada con la ubicación geográfica. Todas las comunicaciones procedentes de dispositivos de la misma área local tienen la misma dirección pública debido a la traducción de direcciones de red o a un proxy de reenvío.
+
+4. Rellene el espacio en blanco: Un Switch utiliza una MAC _____ para dirigir los paquetes de datos al dispositivo correcto
+- [x] tabla de direcciones
+- [ ] localización geográfica
+- [ ] red doméstica
+- [ ] dirección pública
+> Un Switch utiliza una tabla de direcciones MAC para dirigir los paquetes de datos al dispositivo correcto.
