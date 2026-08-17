@@ -262,3 +262,40 @@
       - Aunque IPSec y WireGuard son ambos protocolos VPN, IPSec es más antiguo y más complejo que WireGuard.
       - Algunos clientes pueden preferir IPSec debido a su larga historia de uso, sus exhaustivas pruebas de seguridad y su amplia Adopción.
       - Sin embargo, otros pueden preferir WireGuard por su potencial de mejor rendimiento y configuración más sencilla.
+
+---
+
+## Ponga a prueba sus conocimientos: Identificación de sistemas
+
+1. ¿Qué monitoriza y filtra el tráfico que entra y sale de una red?
+- [ ] Servidor proxy de reenvío
+- [ ] Sistema de nombres de dominio (DNS)
+- [x] Zona no controlada
+- [ ] Firewall
+> Un firewall supervisa y filtra el tráfico que entra y sale de una red. Permite o deniega el Tráfico basándose en un conjunto definido de reglas de Seguridad.
+
+2. Sin estado es una clase de firewall que realiza un seguimiento de la información que pasa a través de él y filtra proactivamente las amenazas
+- [ ] Verdadero
+- [x] Falso
+> Con estado es una clase de firewall que mantiene un registro de la información que pasa a través de él y filtra proactivamente las amenazas. Sin estado funciona basándose en reglas predefinidas y no realiza un seguimiento de la información de los paquetes de datos.
+
+3. Rellene el espacio en blanco: La Encapsulación puede ser realizada por un _____ para ayudar a proteger la información envolviendo los datos sensibles en otros paquetes de datos
+- [ ] zona de seguridad
+- [ ] firewall
+- [x] Servicio VPN
+- [ ] servidor proxy
+> Un servicio VPN puede realizar la encapsulación para ayudar a proteger la información envolviendo los datos sensibles en otros paquetes de datos. Las VPN cambian una dirección IP pública y ocultan una ubicación virtual para mantener la privacidad de los Datos cuando se utiliza una red pública.
+
+4. ¿Qué zona de seguridad se utiliza para garantizar la confidencialidad de la información y sólo es accesible a los empleados con determinados privilegios?
+- [x] Zona restringida
+- [ ] Zona desmilitarizada (DMZ)
+- [ ] Zona de gestión
+- [ ] Zona no controlada
+> La zona restringida protege la información altamente confidencial a la que sólo pueden acceder personas con determinados privilegios. Suele tener un firewall independiente.
+
+5.Rellene el espacio en blanco: Un analista de Seguridad utiliza un _____ para regular y restringir el acceso a un servidor interno desde Internet. Esta herramienta funciona aceptando Tráfico de partes externas, aprobándolo y reenviándolo a servidores internos
+- [ ] filtro de puertos
+- [ ] zona controlada
+- [ ] servidor proxy de reenvío
+- [x] servidor proxy inverso
+> Un analista de seguridad utiliza un servidor proxy inverso para regular y restringir el acceso a un servidor interno desde Internet. Esta herramienta funciona aceptando Tráfico de partes externas, aprobándolo y reenviándolo a servidores internos. 
