@@ -1,0 +1,38 @@
+# Identificación del sistema
+
+## Cortafuegos y medidas de seguridad de la red
+- En este vídeo, ​aprenderá sobre los diferentes tipos de cortafuegos.
+- ​Entre ellos se incluyen los cortafuegos basados en hardware, ​software y en la nube
+- También aprenderá la diferencia entre ​un cortafuegos con estado y sin estado y ​cubrirá algunas de las operaciones básicas ​que realiza un cortafuegos
+- ​Por último, explorará cómo ​se utilizan los servidores proxy para ​añadir una capa de seguridad a la red.
+- ​Un firewall es un dispositivo de seguridad de red que ​monitorea el tráfico hacia y desde su red.
+- ​Permite el tráfico o lo bloquea ​basándose en un conjunto definido de reglas de seguridad.
+- ​Un firewall puede utilizar el filtrado de puertos, ​que bloquea o permite ​ciertos números de puerto para limitar la comunicación no deseada. 
+- ​Por ejemplo, podría tener una regla ​que sólo permitiera las comunicaciones en el puerto ​443 para HTTPS o el puerto ​25 para correo electrónico y bloqueara todo lo demás.
+- ​Estas configuraciones del cortafuegos vendrán determinadas por ​la política de seguridad de la organización.
+- ​Un cortafuegos de hardware se considera la forma más ​básica de defenderse contra las amenazas a una red.
+- ​Un cortafuegos por hardware inspecciona ​cada paquete de datos antes de que ​se le permita entrar en la red.
+- ​Un cortafuegos por software realiza ​las mismas funciones que un cortafuegos por hardware, ​pero no es un dispositivo físico.
+- ​En su lugar, es un programa de software ​instalado en una computadora o en un servidor. 
+- Si el software firewall se instala en una computadora, ​analizará todo el Tráfico ​recibido por esa computadora.
+- ​Si el software firewall se instala en un servidor, ​protegerá todos los dispositivos conectados al servidor.
+- ​Un firewall por software suele costar ​menos que adquirir un dispositivo físico independiente, ​y no ocupa espacio adicional.
+- ​Pero al tratarse de un programa de software, ​añadirá cierta carga de proceso ​a los dispositivos individuales.
+- ​Las organizaciones pueden optar por utilizar un cortafuegos basado en la nube.
+- ​Los proveedores de servicios en la nube ofrecen cortafuegos como ​servicio, o FaaS, para las organizaciones.
+- ​Los cortafuegos basados en la nube son cortafuegos de software ​alojados por un proveedor de servicios en la nube. 
+- ​Las organizaciones pueden configurar las reglas del firewall ​en la interfaz del proveedor de servicios en la nube, ​y el firewall realizará operaciones de seguridad en ​todo el tráfico entrante antes de ​que llegue a la red in situ de la organización.
+- ​Los firewalls basados en la nube también protegen cualquier recurso o ​proceso que una organización ​pueda estar utilizando en la nube.
+- ​Todos los cortafuegos de los que hemos hablado pueden ser ​con estado o sin estado.
+- Los términos "con estado" y "sin estado" ​se refieren a cómo funciona el cortafuegos.
+- ​Con estado se refiere a una clase ​de cortafuegos que realiza un seguimiento de ​la información que pasa a través de él ​y filtra proactivamente las amenazas.
+- ​Un cortafuegos con estado analiza ​el tráfico de red en busca de características y ​comportamientos que parezcan sospechosos ​e impide que entren en la red.
+- ​Sin estado se refiere a una clase ​de cortafuegos que funciona basándose en ​reglas predefinidas y no ​lleva un registro de la información de los paquetes de datos. 
+- ​Un cortafuegos sin estado sólo actúa según ​reglas preconfiguradas establecidas por el administrador del cortafuegos.
+- ​Las reglas programadas por el administrador del cortafuegos le dicen ​al dispositivo qué aceptar y qué rechazar.
+- ​Un cortafuegos sin estado no almacena información analizada.
+- ​Tampoco descubre ​tendencias sospechosas como hace un cortafuegos con estado.
+- ​Por esta razón, los cortafuegos sin estado se consideran ​menos seguros que los cortafuegos con estado.
+- ​Un cortafuegos de nueva generación, o NGFW, ​proporciona incluso más seguridad que un cortafuegos con estado.
+- ​Un NGFW no sólo proporciona ​inspección con estado del tráfico entrante y saliente, ​sino que también realiza más ​funciones de seguridad en profundidad como ​inspección profunda de paquetes y protección contra intrusiones. 
+- ​Algunos NGFW se conectan a ​servicios de inteligencia sobre amenazas basados en la nube ​, de modo que pueden actualizarse rápidamente para ​protegerse frente a las ciberamenazas emergentes. 
