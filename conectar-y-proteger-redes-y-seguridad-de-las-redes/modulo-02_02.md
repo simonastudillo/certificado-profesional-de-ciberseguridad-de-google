@@ -36,3 +36,27 @@
 - ​Un cortafuegos de nueva generación, o NGFW, ​proporciona incluso más seguridad que un cortafuegos con estado.
 - ​Un NGFW no sólo proporciona ​inspección con estado del tráfico entrante y saliente, ​sino que también realiza más ​funciones de seguridad en profundidad como ​inspección profunda de paquetes y protección contra intrusiones. 
 - ​Algunos NGFW se conectan a ​servicios de inteligencia sobre amenazas basados en la nube ​, de modo que pueden actualizarse rápidamente para ​protegerse frente a las ciberamenazas emergentes. 
+
+---
+
+## Redes privadas virtuales (VPN)
+- Las redes privadas virtuales, ​o VPN, añaden Seguridad a su red.
+- ​Cuando se conecta a Internet, ​su proveedor de servicios de Internet recibe ​las solicitudes de la red y las ​reenvía al servidor de destino correcto.
+- ​Sin embargo, sus solicitudes de Internet ​incluyen su información privada.
+- ​Esto significa que si el tráfico es interceptado, ​alguien podría conectar tu actividad en Internet ​con tu ubicación física ​y tu información personal.
+- ​Esto incluye cierta información ​que deseas mantener en privado, ​como cuentas bancarias y números de tarjetas de crédito.
+- ​Una red privada virtual, ​también conocida como VPN, ​es un servicio de Seguridad de red que cambia ​tu dirección IP pública y oculta ​tu ubicación virtual para que puedas mantener la ​privacidad de tus datos cuando utilices una ​red pública como Internet.
+- ​Las VPN también cifran tus datos mientras ​viajan por Internet para preservar la confidencialidad. 
+- ​Un servicio de VPN realiza ​la encapsulación de los datos en tránsito.
+- La ​encapsulación es un proceso realizado ​por un servicio de VPN que protege ​sus datos empaquetando los datos ​confidenciales en otros paquetes de datos.
+- ​Anteriormente, aprendió cómo la dirección MAC y la dirección IP ​del dispositivo de destino están contenidas ​en el encabezado y el pie de página de un paquete de datos.
+- ​Esta es una amenaza de Seguridad porque muestra ​la IP y la ubicación virtual de su red privada.
+- ​Puede proteger un paquete de datos ​cifrándolo para asegurarse de que su información no se pueda descifrar, ​pero los enrutadores de red no podrán leer la ​dirección IP y MAC para saber a dónde enviarlo.
+- ​Esto significa que no podrás conectarte ​al sitio de Internet o al servicio que deseas.
+- ​La encapsulación resuelve este problema ​sin dejar de mantener su privacidad.
+- ​Los servicios de VPN cifran sus paquetes de datos y ​los encapsulan en otros paquetes de datos ​que los enrutadores pueden leer.
+- ​Esto permite que tus solicitudes de red ​lleguen a su destino, ​pero aun así encripta tus datos personales para que ​no se puedan leer mientras están en tránsito.
+- ​Una VPN también utiliza un túnel cifrado ​entre el dispositivo y el servidor VPN.
+- ​La encriptación no se puede hackear sin una clave criptográfica ​, por lo que nadie puede acceder a sus datos.
+- ​Los servicios de VPN son sencillos y ofrecen ​una protección significativa mientras estás en Internet.
+- ​Con una VPN, ​tiene la seguridad adicional de que sus datos están cifrados y que los ​actores malintencionados no pueden leer su dirección IP y su ubicación virtual.
