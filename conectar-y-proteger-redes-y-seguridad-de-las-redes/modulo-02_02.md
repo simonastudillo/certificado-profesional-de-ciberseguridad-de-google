@@ -101,3 +101,33 @@
 - ​Las zonas de seguridad son ​una parte importante de la protección de las redes, ​especialmente en las grandes organizaciones.
 
 ----
+
+## Subredes y CIDR
+- Una red privada puede segmentarse para proteger partes de la red de Internet, que es una red global no segura.
+- La creación de zonas de seguridad es un ejemplo de una estrategia de red denominada división en subredes.
+- Visión general de la creación de subredes
+   - La división en subredes es el proceso de tomar una red grande y dividirla en varios grupos más pequeños y organizados llamados subredes.
+   - Piénselo así: Si la red de su empresa es una gran ciudad, cada subred es un barrio distinto dentro de esa ciudad.
+   - La división en subredes divide un rango de direcciones de red en subredes más pequeñas dentro de la red.
+   - Estas subredes organizadas se definen por la combinación única de la dirección IP y la máscara de red asignada a cada dispositivo, creando de hecho una "red dentro de una red" La creación de subredes permite que una red de dispositivos funcione como su propia red.
+   - Esto hace que la red sea más eficiente y también puede utilizarse para crear zonas de seguridad.
+   - Si los dispositivos de una misma subred se comunican entre sí, el conmutador cambia las transmisiones para que permanezcan en la misma subred, lo que mejora la velocidad y la eficacia de las comunicaciones.
+- Notación Classless Inter-Domain Routing para la creación de subredes
+   - Classless Inter-Domain Routing (CIDR) es un método de asignación de máscaras de subred a direcciones IP para crear una subred.
+   - El direccionamiento sin clase sustituye al direccionamiento con clase.
+   - El direccionamiento por clases se utilizó en los años 80 como sistema de agrupación de direcciones IP en clases (de la Clase A a la Clase E).
+   - Cada clase incluía un número limitado de direcciones IP, que se fueron agotando a medida que el número de dispositivos que se conectaban a Internet superaba el rango classful en la década de 1990.
+   - El direccionamiento CIDR sin clases amplió el número de direcciones IPv4 disponibles.
+   - CIDR permite a los profesionales de la ciberseguridad segmentar las redes classful en trozos más pequeños.
+   - Las direcciones IP CIDR tienen el mismo formato que las direcciones IPv4, pero incluyen una barra oblicua ("/") seguida de un número al final de la dirección.
+   - Este número adicional se denomina prefijo de red IP.
+   - Por ejemplo, una dirección IPv4 normal utiliza el formato 198.51.100.0, mientras que una dirección IP CIDR incluiría el prefijo de red IP al final de la dirección, 198.51.100.0/24.
+   - Esta dirección CIDR engloba todas las direcciones IPv4 entre 198.51.100.0 y 198.51.100.255.
+   - El sistema de direccionamiento CIDR reduce el número de entradas en las tablas de enrutamiento y proporciona más direcciones IP disponibles dentro de las redes.
+   - Puedes intentar convertir direcciones CIDR a IPv4 y viceversa a través de una herramienta de conversión online, como IPAddressGuide, para practicar y entender mejor este concepto.
+   - Por ahora, céntrate en entender el concepto de CIDR como un método de direccionamiento flexible utilizado para el subnetting moderno.
+   - Una inmersión más profunda en la matemática técnica de CIDR es una habilidad valiosa que puede desarrollar en futuros cursos de formación si es necesario.
+- Ventajas de seguridad de la subred
+   - La subred permite a los profesionales y analistas de redes crear una red dentro de su propia red sin solicitar otra dirección IP de red a su proveedor de servicios de Internet.
+   - Este proceso utiliza el ancho de banda de la red de forma más eficiente y mejora el rendimiento de la misma.
+   - La creación de subredes es uno de los componentes de la creación de subredes aisladas mediante aislamiento físico, configuración de enrutamiento y cortafuegos.
