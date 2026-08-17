@@ -206,3 +206,13 @@
 - ​Hay ciertos protocolos, ​hay ciertos algoritmos que han sido probados ​, analizados y se han considerado seguros para su uso en la seguridad de la red
 - El tiempo que dediques a reinventar la rueda no te va a dar ​los beneficios que necesitas.
 - ​Por lo tanto, siempre es bueno pensar en los desafíos sin resolver en lugar de ​intentar resolver el mismo problema de una manera diferente
+
+---
+
+## Protocolos inalámbricos
+- IEEE802.11, conocido comúnmente como Wi-Fi, ​es un conjunto de estándares que definen ​las comunicaciones para las LAN inalámbricas.
+- ​IEEE son las siglas de ​Instituto de Ingenieros Eléctricos y Electrónicos, ​que es una organización que mantiene los estándares Wi-Fi, ​y 802.11 es un conjunto de ​protocolos utilizados en las comunicaciones inalámbricas.
+- ​Los protocolos Wi-Fi se han adaptado ​a lo largo de los años para ser más seguros y fiables ​para ofrecer el mismo nivel de ​seguridad que una conexión por cable. 
+- En 2004, ​se introdujo un protocolo de seguridad llamado Acceso Wi-Fi Protegido, ​o WPA. ​WPA es un protocolo de seguridad inalámbrico ​para que los dispositivos se conecten a Internet. 
+- ​Desde entonces, WPA ha evolucionado ​hacia versiones más recientes, como WPA2 y WPA3, ​que incluyen más mejoras de seguridad, ​como una encriptación más avanzada.
+- ​Como analista de seguridad, ​puede que sea responsable de asegurarse de que ​las conexiones inalámbricas de su organización son seguras.
