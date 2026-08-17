@@ -218,3 +218,42 @@
 - Los concentradores, los módems y los cables y el cableado que los conectan se consideran parte de la capa física.
 - Para viajar a través de un cable ethernet o coaxial, un paquete de datos necesita ser traducido a un flujo de 0s y 1s.
 - El flujo de 0s y 1s se envía a través del cableado físico y los cables, se recibe y, a continuación, pasa a niveles superiores del Modelo OSI.
+
+---
+
+## Ponga a prueba sus Conocimientos: Comunicación en red
+
+1. ¿Qué tipo de información contiene el encabezado de un paquete IP?
+- [ ] Una cadena de datos que indica que la transmisión de datos está completa
+- [x] La dirección IP del remitente, la dirección MAC de destino y el protocolo a utilizar   
+- [ ] Una explicación de cómo el número de puerto será procesado por el dispositivo receptor
+- [ ] El mensaje que debe transmitirse al dispositivo receptor
+> La dirección IP del remitente, la dirección MAC de destino y el protocolo a utilizar
+
+2. ¿Qué características comparten los modelos TCP/IP y OSI? Seleccione todas las que correspondan
+- [x] Ambos Modelos ilustran los procesos y protocolos de red para la transmisión de datos entre dos o más sistemas. 
+- [x] Ambos Modelos definen los Estándares para las redes y dividen el proceso de comunicación de la red en diferentes capas.
+- [ ] Ambos Modelos tienen 7 capas.
+- [x] Ambos Modelos incluyen una capa de aplicación y otra de transporte.
+> Tanto el modelo TCP/IP como el OSI ilustran los procesos y protocolos de red para la transmisión de datos entre dos o más sistemas
+
+3. ¿Qué es el Protocolo de control de transmisión (TCP)?
+- [ ] Dirección Única que se asigna a cada dispositivo de una red
+- [ ] Directrices para el correcto funcionamiento de la red
+- [ ] Una aplicación de software que organiza datos
+- [x] Una convención sobre Comunicación en Internet
+> El TCP es una convención, o protocolo, de comunicación en Internet. Permite que dos dispositivos formen una conexión y transmitan Datos
+
+4. Rellene el espacio en blanco: Un _____ es un lugar basado en software que organiza el envío y la recepción de datos entre los dispositivos de una red
+- [ ] canal
+- [ ] paquete
+- [x] puerto
+- [ ] segmento
+> Un puerto es un lugar basado en software que organiza el envío y la recepción de datos entre los dispositivos de una red
+
+5. ¿Qué capa del Modelo TCP/IP tiene protocolos que organizan las transferencias de archivos y los servicios de correo electrónico?
+- [ ] Capa de acceso a la red
+- [ ] Capa de transporte
+- [ ] Capa de Internet
+- [x] Capa de aplicación
+> La capa de aplicación dispone de protocolos que organizan las transferencias de archivos y los servicios de correo electrónico. Para ello, determina cómo interactuarán los paquetes de datos con los dispositivos receptores. La capa de aplicación es la cuarta capa del Modelo TCP/IP
