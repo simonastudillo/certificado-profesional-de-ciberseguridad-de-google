@@ -67,4 +67,37 @@
 
 ---
 
-## 
+## Zonas de seguridad
+- ​En esta sección, analizaremos un tipo de ​función de seguridad de red denominada zona de seguridad.
+- ​Las zonas de seguridad son un segmento de una red ​que protege la red interna de Internet.
+- ​Forman parte de una técnica de Seguridad ​denominada segmentación de ​red que divide la red en segmentos.
+- ​Cada segmento de red tiene ​sus propios permisos de acceso y reglas de Seguridad.
+- ​Las zonas de seguridad controlan quién puede ​acceder a los diferentes segmentos de una red.
+- ​Las zonas de seguridad actúan como una barrera para las redes internas, ​mantienen la privacidad dentro de los grupos corporativos ​y evitan que los problemas se propaguen a toda la red.
+- ​Un ejemplo de segmentación de red ​es un hotel que ofrece Wi-Fi público gratuito. 
+- ​La red no segura para huéspedes se mantiene separada de ​otra red cifrada utilizada por el personal del hotel.
+- ​Además, la ​red de una organización se puede dividir en ​subredes o subredes ​para mantener la privacidad de cada departamento de la organización.
+- Por ejemplo, en una universidad, ​puede haber una subred de profesores ​y una subred de estudiantes independientes.
+- ​Si hay contaminación en la subred del estudiante, ​los administradores de red pueden aislarla y ​mantener el resto de la red libre de contaminación.
+- ​La red de una organización se clasifica en ​dos tipos de zonas de Seguridad.
+- En primer ​lugar, está la zona descontrolada, ​que es cualquier red fuera ​del control de la organización, como Internet.
+- ​Luego está la zona controlada, ​que es una subred que protege ​la red interna de la zona no controlada.
+- ​Hay varios tipos de ​redes dentro de la zona controlada.
+- ​En la capa exterior se encuentra la zona desmilitarizada, o ​DMZ, que contiene ​servicios públicos que pueden acceder a Internet.
+- ​Esto incluye servidores web, ​servidores proxy que alojan sitios web para el público ​y servidores DNS que proporcionan ​direcciones IP a los usuarios de Internet.
+- ​También incluye ​servidores de correo electrónico y archivos que gestionan las comunicaciones externas.
+- ​La DMZ actúa como ​un perímetro de red para la red interna. 
+- La red interna contiene servidores privados y ​datos que la organización necesita proteger.
+- ​Dentro de la red interna hay ​otra zona llamada zona restringida.
+- ​La zona restringida protege la ​información altamente confidencial a la que solo ​pueden acceder los empleados con ciertos privilegios.
+- ​Lo ideal es que la DMZ esté situada entre ​dos firewalls.
+- Uno de ellos ​filtra el tráfico fuera de la DMZ ​y el otro filtra el tráfico que ​ingresa a la red interna.
+- ​Esto protege la red interna ​con varias líneas de defensa.
+- ​Si hay una zona restringida, ​también estaría protegida con ​otro firewall.
+- De esta forma, ​los ataques que penetran en ​la red DMZ no pueden propagarse a la red interna ​y los ataques que penetran en ​la red interna no pueden acceder a la zona restringida.
+- ​Como analista de seguridad, ​es posible que sea responsable de regular ​las políticas de control de acceso en estos firewalls.
+- ​Los equipos de seguridad pueden controlar el tráfico que llega a ​la DMZ y a la red interna ​restringiendo las IP y los puertos.
+- Por ejemplo, un analista puede asegurarse de que ​solo el tráfico HTTPS pueda ​acceder a los servidores web de la DMZ.
+- ​Las zonas de seguridad son ​una parte importante de la protección de las redes, ​especialmente en las grandes organizaciones.
+
+----
