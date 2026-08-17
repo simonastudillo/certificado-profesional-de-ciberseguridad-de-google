@@ -279,3 +279,33 @@
       - WPA3 utiliza la Autenticación Simultánea de Iguales (SAE), un acuerdo de autenticación de contraseñas y uso compartido de claves de cifrado.
       - Esto impide que los atacantes descarguen datos de las conexiones de redes inalámbricas a sus sistemas para intentar descodificarlos.
       - WPA3 ha aumentado la encriptación para que las contraseñas sean más seguras utilizando una encriptación de 128 bits, y el modo WPA3-Enterprise ofrece una encriptación opcional de 192 bits.
+
+---
+
+## Pon a prueba tus conocimientos: Reconocer los distintos protocolos de red
+
+1. Rellene el espacio en blanco: Los protocolos de red son reglas utilizadas por dos o más dispositivos de una red para describir la _____ y la estructura de los datos
+- [x] orden de entrega
+- [ ] tamaño máximo
+- [ ] nivel de accesibilidad
+- [ ] velocidad óptima
+> Los protocolos de red son reglas utilizadas por dos o más dispositivos de una red para describir el orden de entrega y la estructura de los datos.
+
+2. ¿Qué protocolo de redes proporciona un método seguro de comunicación entre clientes y servidores web?
+- [ ] DNS
+- [x] HTTPS
+- [ ] ARP
+- [ ] TCP
+> El Protocolo seguro de transferencia de hipertexto (HTTPS) proporciona un Método seguro de comunicación entre clientes y servidores web. HTTPS utiliza certificados digitales para realizar la autenticación y puede funcionar a través de los puertos TCP 443 y 80.
+
+3. Para mantener la información a salvo de agentes maliciosos, ¿qué protocolo de seguridad puede utilizarse?
+- [ ] Sistema de nombres de dominio (DNS)
+- [x] Capa de sockets seguros y seguridad de la capa de transporte (SSL/TLS)
+- [ ] Protocolo de resolución de direcciones (ARP)
+- [ ] Protocolo de control de transmisión (TCP)
+> Para mantener la Información a salvo de actores maliciosos, se puede utilizar SSL/TLS. Asegura las transacciones del protocolo de transferencia de hipertexto (HTTP), lo que se conoce como Protocolo seguro de transferencia de hipertexto (HTTPS).
+
+4. IEEE 802.11, también conocido como Wi-Fi, es un conjunto de Estándares que definen la Comunicación para LAN inalámbricas
+- [x] Verdadero
+- [ ] Falso
+> IEEE 802.11, también conocido como Wi-Fi, es un conjunto de Estándares que definen la Comunicación para LAN inalámbricas.
