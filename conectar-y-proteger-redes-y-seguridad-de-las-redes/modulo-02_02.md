@@ -270,8 +270,8 @@
 1. ¿Qué monitoriza y filtra el tráfico que entra y sale de una red?
 - [ ] Servidor proxy de reenvío
 - [ ] Sistema de nombres de dominio (DNS)
-- [x] Zona no controlada
-- [ ] Firewall
+- [ ] Zona no controlada
+- [x] Firewall
 > Un firewall supervisa y filtra el tráfico que entra y sale de una red. Permite o deniega el Tráfico basándose en un conjunto definido de reglas de Seguridad.
 
 2. Sin estado es una clase de firewall que realiza un seguimiento de la información que pasa a través de él y filtra proactivamente las amenazas
