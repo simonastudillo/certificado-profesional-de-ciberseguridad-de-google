@@ -60,3 +60,11 @@
 - ​La encriptación no se puede hackear sin una clave criptográfica ​, por lo que nadie puede acceder a sus datos.
 - ​Los servicios de VPN son sencillos y ofrecen ​una protección significativa mientras estás en Internet.
 - ​Con una VPN, ​tiene la seguridad adicional de que sus datos están cifrados y que los ​actores malintencionados no pueden leer su dirección IP y su ubicación virtual.
+- Tenga en cuenta que hoy en día la mayoría de los sitios web utilizan HTTPS.
+- Esto encripta los datos que se transfieren entre su dispositivo y el sitio web.
+- Esto hace que sea más difícil interceptar la información personal aunque se pueda ver el tráfico de Internet.
+- Una VPN encripta todo su Tráfico de Internet lo que ayuda a proteger su privacidad. 
+
+---
+
+## 
