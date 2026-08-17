@@ -131,3 +131,36 @@
    - La subred permite a los profesionales y analistas de redes crear una red dentro de su propia red sin solicitar otra dirección IP de red a su proveedor de servicios de Internet.
    - Este proceso utiliza el ancho de banda de la red de forma más eficiente y mejora el rendimiento de la misma.
    - La creación de subredes es uno de los componentes de la creación de subredes aisladas mediante aislamiento físico, configuración de enrutamiento y cortafuegos.
+
+---
+
+## Servidores proxy
+- Los servidores proxy son otro sistema que ayuda a proteger las redes.
+- ​La definición de servidor proxy es un servidor que cumple con la solicitud de ​un cliente reenviándola a otros servidores. 
+- El servidor proxy es un servidor dedicado que se encuentra entre Internet y ​el resto de la red.
+- ​Cuando llega una solicitud de conexión a la red desde Internet, ​el servidor proxy determinará si la solicitud de conexión es segura.
+- ​El servidor proxy es una dirección IP pública que es diferente del resto ​de la red privada. 
+- ​Esto oculta la dirección IP de la red privada de los actores malintencionados en Internet y ​añade una capa de Seguridad.
+- Examinemos cómo funcionará esto con un ejemplo.
+- ​Cuando un cliente recibe una respuesta HTTPS, notará una dirección IP distorsionada o ​ninguna dirección IP en lugar de la dirección IP real del servidor web de la organización.
+- También se puede usar un servidor proxy para bloquear sitios web no seguros ​a los que los usuarios no pueden acceder en la red de una organización.
+- ​Un servidor proxy usa memoria temporal para almacenar los datos que ​solicitan regularmente los servidores externos.
+- ​De esta forma, no tiene que buscar datos de los ​servidores internos de una organización en todo momento.
+- ​Esto mejora la Seguridad al reducir el contacto con el servidor interno. 
+- ​Hay diferentes tipos de servidores proxy que admiten la seguridad de la red.
+- ​Esto es importante para los analistas de Seguridad que supervisan el ​tráfico de varios servidores proxy y es posible que necesiten saber para qué sirven.
+- Exploremos algunos tipos diferentes de servidores proxy.
+- ​Un servidor proxy directo regula y ​restringe el acceso de una persona a Internet.
+- ​El objetivo es ocultar la dirección IP del usuario y aprobar todas las solicitudes salientes. ​En el contexto de una organización, ​un servidor proxy de reenvío recibe el tráfico saliente de un empleado, lo aprueba y, a ​continuación, lo reenvía al destino en Internet.
+- ​Un servidor proxy inverso regula y ​restringe el acceso a Internet a un servidor interno.
+- ​El objetivo es aceptar el tráfico de terceros, aprobarlo y ​reenviarlo a los servidores internos.
+- ​Esta configuración es útil para proteger los servidores web internos que contienen ​datos confidenciales para que no expongan su dirección IP a terceros.
+- ​Un servidor proxy de correo electrónico es otra valiosa herramienta de Seguridad.
+- ​Filtra el correo no deseado verificando si la dirección del remitente fue falsificada.
+- Esto reduce el riesgo de ataques de suplantación de identidad en los que se hacen pasar por personas conocidas por ​la organización.
+- ​Hablemos de un ejemplo real de un proxy de correo electrónico.
+- Hace varios años, cuando trabajaba en un importante ISP de banda ancha de EE. UU., ​utilizamos un servidor proxy para implementar varios niveles de filtrado antispam ​antes de que se permitiera la entrega de un mensaje.
+- Terminó etiquetando alrededor del 95% de los mensajes como spam.
+- ​Los servidores proxy nos habrían permitido filtrar y ​luego escalar esos filtros sin afectar a la plataforma de correo electrónico subyacente.
+- ​Los servidores proxy desempeñan un papel importante en la seguridad de la red al filtrar el ​tráfico entrante y saliente y mantenerse alerta ante los ataques a la red.
+- ​Estos dispositivos añaden una capa de protección contra la red pública no segura que denominamos ​Internet. 
