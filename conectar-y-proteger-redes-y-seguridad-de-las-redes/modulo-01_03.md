@@ -43,3 +43,24 @@
 - Estas instrucciones vienen en forma de número de puerto
 - Los números de puerto permiten a las computadoras ​dividir el Tráfico de red y ​priorizar las operaciones que ​realizarán con los datos. 
 - Algunos números de puerto comunes son: ​el puerto 25, que se utiliza para el correo electrónico, ​el puerto 443, que se ​utiliza para la comunicación segura en Internet, ​y el puerto 20, para las transferencias de archivos de gran tamaño
+
+---
+
+## Las cuatro capas del Modelo TCP/IP
+- El modelo TCP/IP es un marco que se utiliza para ​visualizar cómo se ​organizan y transmiten los datos a través de la red
+- El modelo TCP/IP tiene cuatro capas
+   - La capa de acceso a la red
+      - La capa de acceso a la red se ocupa de la creación de ​paquetes de datos y su transmisión a través de una red
+      - Esto incluye los dispositivos de hardware conectados a ​cables físicos y conmutadores ​que dirigen los datos a su destino
+   - La capa de Internet
+      - La capa de Internet es donde se adjuntan las direcciones IP a los ​paquetes de datos para indicar ​la ubicación del emisor y el receptor
+      - La capa de Internet también se centra ​en cómo se conectan las redes entre sí
+      - Por ejemplo, los paquetes de datos ​contienen información que determina si ​se quedarán en la LAN o se enviarán ​a una red remota, como Internet
+   - La capa de transporte
+      - La capa de transporte incluye protocolos para ​controlar el flujo de tráfico a través de una red. 
+      - ​Estos protocolos permiten o deniegan la comunicación con ​otros dispositivos e incluyen ​información sobre el estado de la conexión
+      - Las actividades de esta capa incluyen el control de errores, ​que garantiza que los datos fluyen ​sin problemas por la red
+   - La capa de aplicación
+      - los protocolos determinan cómo los paquetes de datos ​interactuarán con los dispositivos receptores
+      - Las funciones que se organizan en la capa de aplicación ​incluyen la transferencia de archivos y los servicios de correo electrónico
+- Saber cómo organiza el modelo TCP/IP la actividad de la red ​permite a los profesionales de la seguridad ​vigilar y protegerse contra los riesgos
