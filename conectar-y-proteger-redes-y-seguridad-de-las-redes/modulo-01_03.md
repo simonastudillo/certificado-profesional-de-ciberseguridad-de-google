@@ -23,3 +23,23 @@
 - El personal de seguridad está interesado en el ancho de banda y la Velocidad de la red ​porque si cualquiera de ellos es irregular, podría ser un indicio de un ataque. 
 - ​El sniffing de paquetes es la práctica de capturar e ​inspeccionar paquetes de datos a través de la red
 - La comunicación en la red es importante para compartir recursos y ​datos porque permite que las organizaciones funcionen con eficacia
+
+---
+
+## Modelo TCP/IP
+- ​TCP/IP son las siglas de ​Protocolo de control de transmisión y Protocolo de Internet
+- TCP/IP es el modelo estándar ​utilizado para la comunicación en red
+- En primer lugar, TCP, o Protocolo de Control de Transmisión, ​es un protocolo de comunicación de Internet que permite ​a dos dispositivos formar una conexión y transmitir datos
+- El protocolo incluye un conjunto de instrucciones para ​organizar los datos, de forma que puedan enviarse a través de una red. 
+- ​También establece una conexión entre dos dispositivos ​y se asegura de que los paquetes ​lleguen a su destino apropiado
+- El IP en TCP/IP significa Protocolo de Internet.
+- IP tiene un conjunto de Estándares utilizados para enrutar y direccionar ​paquetes de datos a medida que viajan ​entre dispositivos en una red
+- Incluida en el Protocolo de Internet (IP) está la dirección IP ​que funciona como una dirección para cada red privada
+- Cuando se envían y reciben paquetes de datos a través de una red, ​se les asigna un puerto. 
+- Dentro del sistema operativo de un dispositivo de red, ​un puerto es una ubicación basada en software que organiza ​el envío y recepción de datos ​entre dispositivos de una red. 
+- ​Los puertos dividen el Tráfico de red en segmentos ​basados en el servicio que realizarán ​entre dos dispositivos
+- Las computadoras que envían y ​reciben estos segmentos de datos saben cómo ​priorizar y procesar estos segmentos ​basándose en su número de puerto
+- Los paquetes de datos incluyen instrucciones que indican ​al dispositivo receptor qué hacer con la información
+- Estas instrucciones vienen en forma de número de puerto
+- Los números de puerto permiten a las computadoras ​dividir el Tráfico de red y ​priorizar las operaciones que ​realizarán con los datos. 
+- Algunos números de puerto comunes son: ​el puerto 25, que se utiliza para el correo electrónico, ​el puerto 443, que se ​utiliza para la comunicación segura en Internet, ​y el puerto 20, para las transferencias de archivos de gran tamaño
