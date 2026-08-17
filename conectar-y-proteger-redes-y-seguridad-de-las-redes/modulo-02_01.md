@@ -186,3 +186,23 @@
    - También aprenderá sobre nuevos protocolos en el trabajo en un puesto de Seguridad.
 
 <img src="./resources/image-13.png" alt="Protocolos y puertos" width="700">
+
+---
+
+## Antara: Trabajar en seguridad de redes
+- Un día normal en la vida de un ingeniero de Seguridad de redes de nivel básico ​comenzaría con la solución de un problema. 
+- ​Tal vez esté intentando depurar, ¿por qué este punto final en particular está inundado de ​tanto tráfico? ​¿O por qué se está ralentizando realmente este punto final?
+- Permítanme capturar parte del tráfico en el punto final y ​ver qué tipo de tráfico entra y sale por este punto final
+- Por lo general, volvía y pensaba en el problema durante el almuerzo.
+- ​A veces las cosas encajaban.
+- ​Cuando piense que tal vez no haya pensado en un problema desde una ​perspectiva diferente, es posible que desee ver realmente cómo se ve. 
+- Así que quizás harías una recreación en un laboratorio
+- ​Permítanme conectar estos puntos finales e intentar reproducir el problema
+- Es posible que veas recrear algunas cosas en el laboratorio en las que quizás no hayas ​pensado
+- Y es posible que necesite consultar con expertos de diferentes dominios que ​puedan conocer mejor esta área
+- Obtenga su opinión sobre cuál es el problema, analice y ​muéstreles todo lo que ha hecho.
+- ​Puedes encontrar tu solución simplemente hablando con la gente.
+- Algunas de las mejores prácticas de Seguridad de red que he aprendido son: ​no intentes siempre reinventar la rueda.
+- ​Hay ciertos protocolos, ​hay ciertos algoritmos que han sido probados ​, analizados y se han considerado seguros para su uso en la seguridad de la red
+- El tiempo que dediques a reinventar la rueda no te va a dar ​los beneficios que necesitas.
+- ​Por lo tanto, siempre es bueno pensar en los desafíos sin resolver en lugar de ​intentar resolver el mismo problema de una manera diferente
