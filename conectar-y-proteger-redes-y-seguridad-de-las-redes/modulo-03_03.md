@@ -100,3 +100,15 @@
    - Los atacantes siguen enviando paquetes IP que contienen direcciones IP falsas hasta que el servidor de red se bloquea.
 
 >[!NOTE] Recuerde el principio de defensa en profundidad. No existe una estrategia perfecta para detener cada tipo de ataque. Puede estratificar su defensa utilizando múltiples estrategias. En este caso, el uso de la encriptación estándar del sector reforzará su Seguridad y le ayudará a defenderse de los ataques DoS en más de un nivel.
+
+----
+
+## Identificar: Ataques a la red
+- Review the flashcards to familiarize yourself with common types of network attacks and how these attacks can impact an organization’s network.
+
+1. Denial of service attack (DoS): A network attack that targets a network or server and floods it with network traffic
+2. Distributed denial of service attack (DDoS): A type of denial or service attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic
+3. SYN flood attack: A type of DoS attack that simulates a TCP/IP connection and floods a server with SYN packets
+4. Packet sniffing: The practice of capturing and inspecting data packets across a network
+5. IP spoofing: A network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network
+6. On-path attack: An attack where a malicious actor places themselves in the middle of an authorized connection and intercepts or alters the data in transit
