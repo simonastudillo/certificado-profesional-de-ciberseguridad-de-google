@@ -190,3 +190,19 @@
 
 2. Explique su análisis de los datos y proporcione al menos una causa del incidente.
 > El incidente se reportó cerca de las 13:20 horas, cuando varios clientes informaron que no podían acceder al sitio web yummyrecipesforme.com y recibieron el error "puerto de destino inalcanzable". A las 13:24 horas, se realizó un análisis con tcpdump que mostró que las solicitudes DNS enviadas al servidor no recibieron respuesta (puerto 53 inalcanzable). Esto indica que el servidor DNS no estaba disponible o que el puerto estaba bloqueado por el firewall. Los siguientes pasos serían verificar la configuración y estado del servidor DNS, así como revisar las reglas del firewall para asegurarse de que el puerto 53 esté abierto y accesible.
+
+---
+
+## Ejemplar de actividad: Analizar la comunicación en la capa de red
+- Aquí tiene un ejemplar completado junto con una explicación de cómo el ejemplar cumple las expectativas de la actividad.
+- [Ejemplar de Informe de Incidente de Ciberseguridad](./resources/Cybersecurity-incident-report-exemplar-network-traffic-analysis.docx)
+- [Ejemplar de Informe de Incidente de Ciberseguridad explicado](./resources/Cybersecurity-Incident-Report_-Network-Traffic-Analysis-.docx)
+
+- Evaluación del ejemplar
+   - Compare el ejemplar con su actividad finalizada. 
+   - Revise su trabajo utilizando cada uno de los criterios del ejemplar. 
+   - ¿Qué ha hecho bien? ¿En qué puede mejorar? Utilice sus respuestas a estas preguntas como guía a medida que siga avanzando en el curso.
+- El ejemplar ofrece un posible enfoque para investigar y analizar un posible Evento de Seguridad. En su función de analista de seguridad, usted y su Equipo harían la mejor conjetura sobre lo ocurrido y luego investigarían más a fondo para solucionar el Problema y reforzar la seguridad general de su red.
+- Redactar un Informe de análisis de ciberseguridad eficaz puede ayudarle a solucionar problemas y vulnerabilidades de la red con mayor rapidez y eficacia. Cuanta más práctica tenga analizando el Tráfico de red en busca de tendencias y actividades sospechosas, más eficaces serán usted y su Equipo a la hora de gestionar y responder a los riesgos presentes en su red.
+
+> La gran diferencia entre el reporte propio y el ejemplo es la cantidad de detalle, ambos explican y usan los datos importantes, pero el ejemplo tiene más información sobre la información de logs que entregó tcpdump.
