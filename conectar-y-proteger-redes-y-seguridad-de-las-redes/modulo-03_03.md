@@ -1,0 +1,37 @@
+# Tácticas de ataque y defensa de redes
+
+## Sniffing de paquetes malicioso
+- Analizaremos el ​sniffing de paquetes, centrándonos ​en cómo los actores de amenazas pueden utilizar esta ​técnica para obtener acceso no autorizado a la información.
+- ​Los paquetes incluyen un encabezado que contiene ​las direcciones IP del remitente y del receptor.
+- ​Los paquetes también contienen un cuerpo, que ​puede contener información valiosa como nombres, ​fechas de nacimiento, mensajes personales ​, información financiera y números de tarjetas de crédito.
+- La ​detección de paquetes es la práctica de utilizar ​herramientas de software para observar ​los datos a medida que se mueven por una red.
+- ​Como analista de Seguridad, ​puede usar el sniffing de paquetes para analizar ​y capturar paquetes al investigar ​incidentes en curso o al depurar problemas de red.
+- Sin embargo, los actores malintencionados también pueden usar el ​sniffing de paquetes para ​analizar los datos que no se les han enviado.
+- Es un poco como abrir el correo de otra persona.
+- ​Es importante que conozca cómo los ​actores de amenazas utilizan el sniffing ​de paquetes con intenciones dañinas para que ​pueda estar preparado para protegerse contra estos actos maliciosos.
+- ​Los actores malintencionados pueden meterse en medio de ​una conexión autorizada entre dos dispositivos.
+- ​Luego, pueden usar el sniffing de paquetes para ​espiar cada paquete de datos a medida que llega a su dispositivo.
+- ​El objetivo es encontrar información valiosa en ​los paquetes de datos que ​luego puedan utilizar en su beneficio.
+- ​Los atacantes pueden usar aplicaciones de software ​o un dispositivo de hardware para examinar los paquetes de datos.
+- ​Los actores malintencionados pueden acceder a un paquete de red con ​un rastreador de paquetes y realizar cambios en los datos.
+- ​Pueden cambiar la información ​del cuerpo del paquete, ​como modificar el número de cuenta bancaria del destinatario.
+- La ​detección de paquetes puede ser pasiva o activa.
+- ​El Rastreo pasivo de paquetes es un tipo de ​ataque en el que los paquetes de datos se leen en tránsito.
+- ​Como todo el tráfico de una red ​es visible para cualquier host del concentrador​, los actores malintencionados pueden ​ver toda la información que ​entra y sale del dispositivo al que se dirigen. 
+- Pensando en el ejemplo de la entrega de una carta, ​podemos comparar un ​ataque pasivo de sniffing de paquetes con el de un ​repartidor postal que lee maliciosamente el correo de alguien.
+- ​El empleado postal, o ​rastreador de paquetes, tiene derecho a entregar el correo, ​pero no a leer la información que contiene.
+- ​El Rastreo activo de paquetes es un tipo de ​ataque en el que los paquetes de datos se manipulan en tránsito.
+- ​Esto puede incluir inyectar ​protocolos de Internet para redirigir los paquetes a ​un puerto no deseado o ​cambiar la información que contiene el paquete.
+- Un ​ataque de Rastreo activo de paquetes ​sería como si un vecino le dijera al ​repartidor: «Te entregaré el correo», y luego lee el ​correo o cambia la carta antes de ponerla en tu buzón.
+- ​A pesar de que su vecino lo conoce ​y aunque lo entregue en la casa correcta, ​está haciendo todo lo posible por ​participar en un comportamiento malintencionado.
+- ​La buena noticia es que se puede prevenir el ​sniffing de paquetes malintencionado.
+- ​Veamos algunas maneras en las que ​el profesional de Seguridad de redes ​puede prevenir estos ataques.
+- ​Una forma de protegerse contra el ​sniffing de paquetes malintencionados es ​usar una VPN para cifrar ​y proteger los datos a medida que viajan por la red. 
+- Cuando usas una VPN, ​los piratas informáticos pueden interferir con tu tráfico, ​pero no podrán decodificarlo ​para leerlo y leer tu información privada.
+- ​Otra forma de agregar una capa de ​protección contra el sniffing de paquetes es ​asegurarse de que los sitios web que tiene ​usen HTTPS al principio de la dirección de dominio.
+- ​Anteriormente, analizamos cómo HTTPS usa SSL/TLS para ​cifrar los datos y evitar las escuchas clandestinas cuando actores malintencionados espían las transmisiones de la red.
+- Una última forma de protegerse contra el ​sniffing de paquetes malintencionados ​es evitar el uso de redes WiFi sin protección.
+- ​Por lo general, encontrarás WiFi sin protección en ​lugares públicos como cafeterías ​, restaurantes o aeropuertos.
+- ​Estas redes no usan encriptación.
+- Esto significa que cualquier usuario de la red puede acceder a ​todos los datos que viajan hacia y desde tu dispositivo.
+- ​Una precaución que puedes tomar es evitar las redes ​WiFi públicas gratuitas, a menos que ​ya tengas un servicio de VPN instalado en tu dispositivo.
