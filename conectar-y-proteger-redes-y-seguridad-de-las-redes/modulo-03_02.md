@@ -206,3 +206,35 @@
 - Redactar un Informe de análisis de ciberseguridad eficaz puede ayudarle a solucionar problemas y vulnerabilidades de la red con mayor rapidez y eficacia. Cuanta más práctica tenga analizando el Tráfico de red en busca de tendencias y actividades sospechosas, más eficaces serán usted y su Equipo a la hora de gestionar y responder a los riesgos presentes en su red.
 
 > La gran diferencia entre el reporte propio y el ejemplo es la cantidad de detalle, ambos explican y usan los datos importantes, pero el ejemplo tiene más información sobre la información de logs que entregó tcpdump.
+
+---
+
+## Ponga a prueba sus Conocimientos: Redes seguras contra ataques de denegación de servicio (DoS)
+
+1. ¿Qué tipo de ataque utiliza varios dispositivos o servidores en diferentes ubicaciones para inundar la red objetivo con tráfico no deseado?
+- [x] Ataque de denegación de servicio distribuido (DDoS)
+- [ ] Ataque de phishing
+- [ ] Ataque tailgating
+- [ ] Ataque de denegación de servicio (DoS)
+> Un ataque DDoS utiliza múltiples dispositivos o servidores en diferentes ubicaciones para inundar la red objetivo con tráfico no deseado.
+
+2. ¿Qué tipo de ataque se hace pasar por una conexión TCP e inunda un servidor con paquetes que simulan el primer paso del protocolo de enlace TCP?
+- [ ] Ataque de SYN-ACK flood
+- [ ] Inundación ICMP
+- [x] Ataque de SYN flood
+- [ ] Ataque en ruta
+> Un ataque de SYN flood se hace pasar por una conexión TCP e inunda un servidor con paquetes que simulan el primer paso del protocolo de enlace TCP. Esto abruma al servidor, haciéndolo incapaz de funcionar.
+
+3. Rellene el espacio en blanco: El Ataque de denegación de servicio (DoS) _____ se produce cuando un hacker envía a un sistema un paquete ICMP de más de 64 KB
+- [ ] Inundación ICMP
+- [ ] Ataque en ruta
+- [x] Ping de la muerte
+- [ ] SYN flood
+> El ataque DoS Ping de la muerte se produce cuando un hacker envía a un sistema un paquete ICMP de más de 64 KB.
+
+4. ¿Qué tipos de ataques se aprovechan de los protocolos de Comunicación enviando un número abrumador de peticiones a un servidor? Seleccione todas las que correspondan
+- [ ] Ataque a la conexión TCP
+- [x] Ataque de Inundación ICMP
+- [ ] Ataque tailgating
+- [x] Ataque de SYN flood
+> Los ataques de Inundación ICMP y SYN flood se aprovechan de los protocolos de Comunicación enviando un número abrumador de peticiones a un servidor. 
