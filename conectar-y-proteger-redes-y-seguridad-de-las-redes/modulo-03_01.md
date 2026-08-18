@@ -62,3 +62,28 @@
       - Si se produce un ataque a una red gubernamental, esto puede afectar potencialmente a la seguridad y el bienestar de los ciudadanos de un país.
       - En los últimos años, las agencias de defensa de todo el mundo están invirtiendo mucho en la lucha contra las tácticas de guerra cibernética.
       - Si un actor malicioso consiguiera acceder a una red eléctrica, a un sistema público de agua o incluso a un sistema de comunicaciones de defensa militar, el público podría sufrir daños físicos debido a un ataque de intrusión en la red.
+
+---
+
+## Matt: Un profesional para hacer frente a los ataques
+- ​Dedico gran parte de mi ​tiempo a planificar cómo solucionar cualquier cosa que pudiera ir mal y, ​cuando ocurre, a formar un equipo para solucionarlo lo antes posible.
+- ​¿A qué tipo de ataques nos hemos enfrentado en Google?
+- ​Es una pregunta difícil de responder, ​porque nos enfrentamos a todos los tipos de ataques a los que se enfrentan la mayoría de las demás empresas.
+- ​La gente busca el ransomware, la gente busca los secretos industriales, ​otros países buscan información de inteligencia.
+- ​Hubo un ataque muy interesante que ocurrió hace poco.
+- ​Estaban interesados en obtener mucha información de las empresas técnicas, ​específicamente sobre las vulnerabilidades del software.
+- ​Y pusieron en marcha una campaña de larga duración para crear personalidad en ​las redes sociales como si fueran investigadores de seguridad legítimos, y ​luego se pusieron en contacto con otros investigadores de seguridad de nuestro campo, ​forjaron relaciones y, en el momento adecuado, introdujeron software malicioso a escondidas.
+- ​Estar siendo atacado por un adversario que ha hecho algún progreso es increíblemente ​estresante.
+- ​Lo primero que piensas y ​sientes es un poco de pánico. ​Oh, no, va a ser un mal día. 
+- ¿Cuánto tiempo voy a estar despierto trabajando en esto? ​¿Qué han hecho? ¿Qué voy a hacer?
+- Y para mí, el mantra que me repito es que, como socorrista de incidentes, ​estoy aquí para ayudar.
+- ​Las cosas que son más importantes para tener un buen resultado ​en un incidente son lo que llamamos las 3C:
+   - Comando
+   - Control
+   - ​Comunicaciones.
+- Lo que significa que alguien debe estar a cargo de ello, liderando afirmativamente.
+- ​Alguien debe ejercer el control sobre todos los involucrados para ​que todos estén alineados y centrados en la misión y en la ​más importante de todas: una comunicación adecuada.
+- ​Si tienes algo que ofrecer al incidente, ​no te limites a hacerlo, comunícaselo a alguien.
+- Creo que podría hacer esto para ayudarnos a progresar. 
+​- Creo que si miramos aquí, encontraremos más datos.
+- ​El consejo que le daría a alguien que quiera dedicarse a la ciberseguridad es que si ​lo quieres, probablemente pertenezcas aquí. 
