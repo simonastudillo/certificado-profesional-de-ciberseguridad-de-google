@@ -35,3 +35,24 @@
 - ​Estas redes no usan encriptación.
 - Esto significa que cualquier usuario de la red puede acceder a ​todos los datos que viajan hacia y desde tu dispositivo.
 - ​Una precaución que puedes tomar es evitar las redes ​WiFi públicas gratuitas, a menos que ​ya tengas un servicio de VPN instalado en tu dispositivo.
+
+---
+
+## Suplantación de IP
+- ​La suplantación de IP es un ​ataque de red que se realiza cuando un atacante cambia la ​IP de origen de un paquete de datos ​para hacerse pasar por un sistema autorizado y obtener acceso a una red.
+- ​En este tipo de ataque, ​el hacker se hace pasar por alguien que ​no es para poder comunicarse a través de ​la red con la computadora objetivo y ​superar las reglas del firewall que pueden impedir el tráfico externo.
+- ​Algunos ataques de suplantación de IP más comunes son los ataques en ruta​, los ataques de repetición y los ataques de smurf.
+   - ​Un ataque en ruta es ​un ataque en el que el actor malintencionado se coloca en ​medio de una conexión autorizada ​e intercepta o altera los datos en tránsito.
+      - ​Los atacantes en ruta obtienen acceso a ​la red y se interponen entre dos dispositivos, ​como un navegador web y un servidor web.
+      - ​Luego, rastrean la ​información del paquete para conocer las ​direcciones IP y MAC de los dispositivos ​que se comunican entre sí.
+      - ​Una vez que tengan esta información, ​pueden fingir ser cualquiera de estos dispositivos. 
+   - ​Un ataque de reproducción es ​un ataque de red que se realiza cuando ​un actor malintencionado intercepta ​un paquete de datos en tránsito y ​lo retrasa o lo repite en otro momento.
+      - ​Un paquete retrasado puede provocar ​problemas de conexión entre los equipos de destino, ​o un actor malintencionado puede tomar ​una transmisión de red enviada por ​un usuario autorizado y repetirla ​más adelante para hacerse pasar por el usuario autorizado.
+   - ​Un ataque de smurf es una combinación de un ataque ​DDoS y un ataque de suplantación de IP.
+      - ​El atacante olfatea la dirección IP de un usuario autorizado ​y la inunda de paquetes.
+      - ​Esto abruma al equipo de destino y puede ​provocar la caída de un servidor o de toda la red.
+- ​Como aprendió anteriormente, el ​cifrado siempre debe implementarse para que los datos de las ​transferencias de red no puedan ​ser leídos por actores malintencionados.
+- ​Los firewalls se pueden configurar ​para protegerlos contra la suplantación de IP.
+- ​La suplantación de IP hace que ​parezca que el actor malintencionado es un ​usuario autorizado al cambiar la ​dirección del remitente del paquete de datos para que coincida con la dirección de la red de destino.
+- ​Por lo tanto, si un firewall recibe un paquete de datos de Internet ​en el que la dirección IP del remitente ​es la misma que la de la red privada, ​el firewall denegará la transmisión, ​ya que todos los dispositivos con esa dirección IP ​ya deberían estar en la red local.
+- ​Puede asegurarse de que sus firewalls se ​configuren correctamente creando una regla para ​rechazar todo el tráfico entrante que tenga ​la misma dirección IP que la red local.
