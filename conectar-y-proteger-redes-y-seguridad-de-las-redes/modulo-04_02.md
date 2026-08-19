@@ -205,3 +205,25 @@ Para prevenir futuros ataques de fuerza bruta, se recomiendan las siguientes med
    - Implementar el bloqueo de cuentas después de un número determinado de intentos fallidos de inicio de sesión en un período de tiempo específico. Esto dificultará que los atacantes puedan adivinar las credenciales de acceso mediante ataques de fuerza bruta.
    - Implemtentar la caducación de contraseñas para usuarios administradores, de modo que se vean obligados a cambiar sus contraseñas periódicamente. Esto reducirá la probabilidad de que un atacante pueda adivinar una contraseña a través de ataques de fuerza bruta.
    - Implementar la autenticación de dos factores (2FA) para todos los usuarios, especialmente para los administradores. Esto añade una capa adicional de seguridad, ya que incluso si un atacante logra adivinar la contraseña, necesitará un segundo factor (como un código enviado al teléfono del usuario) para acceder a la cuenta.
+
+---
+
+## Actividad Ejemplar: Aplicar técnicas de endurecimiento del OS
+- Aquí tiene un ejemplar completado junto con una explicación de cómo el ejemplar cumple las expectativas de la actividad.
+- [Ejemplar de Informe de Incidentes de Seguridad](./resources/Security-incident-report-exemplar.docx)
+- [El ejemplar explicado: Informe de incidentes de Seguridad](./resources/The-Exemplar-Explained_-Security-incident-report-exemplar.docx)
+
+- Evaluación del ejemplar
+   - Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar. ¿Qué hizo bien? ¿En qué puede mejorar? Utilice sus respuestas a estas preguntas como guía para seguir avanzando en el curso.
+   - Nota: El ejemplar representa una posible explicación de los problemas a los que se enfrentan los usuarios finales. Es probable que la suya difiera en ciertos aspectos. Lo importante es que usted identificó los protocolos de red implicados y creó un Informe. En su función de analista de seguridad, usted y su Equipo documentarían cualquier Problema que se produzca en la red y propondrían soluciones para ayudar a evitar que se produzcan los mismos problemas en el futuro. Una documentación de buena calidad puede ahorrarle tiempo a usted y a su organización y, potencialmente, gestionar el ataque desde el principio.
+- En primer lugar, analice el registro de tráfico DNS y HTTP para identificar un protocolo de red.
+- A continuación, documente el incidente de ciberseguridad.
+- Por último, recomiende una medida de Seguridad que su organización podría implementar para prevenir ataques de fuerza bruta en el futuro.
+- La creación de este proceso ayudará, a su vez, a mejorar la postura de Seguridad de la organización.
+- Acompañe la actividad con un ejemplo de documentación profesional que incluya lo siguiente:
+   - Un protocolo de red identificado durante la investigación.
+   - Documentación del Incidente
+   - Una medida de Seguridad recomendada
+
+- Diferencias encontradas
+Comparado con el ejemplar, mi actividad no hace referencia a los pasos previos a la revisión del log: No se indica que se recibió errores de los clientes, no se menciona el uso del sandbox para hacer las pruebas, ni que se revisó el código fuente del sitio web. Además, no se hace referencia a la contraseña por defecto que permitió el ataque de fuerza bruta. En cuanto a la recomendación de medidas de seguridad, diría que mi actividad es más completa, ya que se mencionan varias medidas de seguridad para prevenir ataques de fuerza bruta, sin embargo, el ejemplar hace incapie en la implementación de no poder usar contraseñas anteriores, lo cual no se menciona en mi actividad.
