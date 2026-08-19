@@ -193,3 +193,33 @@ El servidor estaba recibiendo correctamente paquetes SYN, retornaba SYN-ACK (ack
 - Todos los patrones que observe en los registros y datos son fundamentales para determinar el origen y el tipo de ataque a la red.
 - Cuanta más práctica tenga en la identificación de estos patrones, más fácil le resultará detectar los ataques a la red en el momento en que se producen.
 - Esto le permitirá responder a los incidentes con mayor rapidez y eficacia.
+
+---
+
+## Ponga a prueba sus Conocimientos: Tácticas de ataque de interceptación de redes
+
+1. El Rastreo pasivo de paquetes implica la manipulación de paquetes de datos mientras están en tránsito, lo que puede incluir la inyección de protocolos de Internet para redirigir los paquetes a puertos no previstos o cambiar la información que contiene el paquete
+- [ ] Verdadero
+- [x] Falso
+> El sniffing activo de paquetes es un tipo de ataque que implica la manipulación de paquetes de datos mientras están en tránsito. Esto puede incluir la inyección de protocolos de Internet para redirigir los paquetes a puertos no deseados o cambiar la información que contiene el paquete. El Rastreo pasivo de paquetes es un tipo de ataque en el que los paquetes de datos se leen en tránsito.
+
+2. Rellene el espacio en blanco: Un analista de seguridad puede protegerse contra el sniffing de paquetes maliciosos mediante _____ para encriptar los datos mientras viajan a través de una red
+- [ ] utilizando un concentrador de red
+- [ ] utilizando Wi-Fi público gratuito
+- [ ] utilizando sólo sitios web con HTTP al principio de sus direcciones de dominio
+- [x] utilizando una VPN
+> Un analista de seguridad puede protegerse contra el sniffing de paquetes maliciosos utilizando una VPN para encriptar los datos mientras viajan a través de una red. Una VPN es un servicio de seguridad de red que cambia una dirección IP pública y oculta una ubicación virtual para mantener los datos privados cuando se utiliza una red pública. 
+
+3. ¿Qué tipo de ataque implica que un atacante cambie la IP de origen de un paquete de datos para hacerse pasar por un sistema autorizado y obtener acceso a la red?
+- [x] Suplantación de IP
+- [ ] Ataque en ruta
+- [ ] Ping de la muerte
+- [ ] Ataque de repetición
+> La suplantación de IP implica que un atacante cambie la IP de origen de un paquete de datos para hacerse pasar por un sistema autorizado y obtener acceso a la red.
+
+4. ¿Cuál de las siguientes afirmaciones describe con exactitud un ataque pitufo?
+- [ ] Un ataque DoS que se produce cuando un hacker hace ping a un sistema enviándole un paquete ICMP sobredimensionado que supera el tamaño máximo 
+- [x] Un ataque a la red que se realiza cuando un atacante olfatea la dirección IP de un usuario autorizado y la inunda de paquetes
+- [ ] Un ataque DoS realizado por un atacante que envía repetidamente paquetes ICMP a un servidor de red
+- [ ] Ataque a la red realizado cuando un atacante intercepta un paquete de datos en tránsito y lo retrasa o repite en otro momento
+> Un Ataque Smurf es un ataque a la red que se realiza cuando un atacante olfatea la dirección IP de un usuario autorizado y lo inunda de paquetes. Es una combinación de un ataque DDoS y un ataque de Suplantación de IP.
