@@ -174,3 +174,22 @@ La tercera acción a tomar es implementar la autenticación multifactor (MFA) en
 La eliminación de contraseñas por defecto y la implementación de contraseñas fuertes y únicas reduce significativamente el riesgo de acceso no autorizado a los sistemas. Las contraseñas por defecto son conocidas y fácilmente explotables por actores maliciosos, mientras que las contraseñas fuertes y únicas dificultan el acceso no autorizado.
 La implemetanción del firewall con reglas de filtrado de tráfico y bloqueo de puertos no utilizados ayuda a proteger la red contra ataques externos, limitando el acceso solo a los servicios necesarios y reduciendo la superficie de ataque.
 La implementación de la autenticación multifactor (MFA) añade una capa adicional de seguridad, ya que incluso si un actor malicioso obtiene la contraseña de un usuario, no podrá acceder a la cuenta sin el segundo factor de autenticación. Esto es especialmente importante para proteger los sistemas críticos y los servicios en la nube, donde la información sensible puede estar almacenada.
+
+---
+
+## Ejemplo de actividad: Análisis del endurecimiento de la red
+- Aquí está un ejemplar completado junto a una explicación de cómo el ejemplar cumple las expectativas de la actividad.
+- [Ejemplar de Informe de evaluación de riesgos para la Seguridad](./resources/Security-risk-assessment-report-exemplar.docx)
+- Evaluación del ejemplar
+   - Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar. 
+   - ¿Qué ha hecho bien? ¿En qué puede mejorar?
+- Nota: El ejemplar representa una posible explicación de los problemas a los que se enfrenta la organización de redes sociales. Existen múltiples herramientas y métodos correctos de Endurecimiento de seguridad que puede utilizar. Lo importante es que haya identificado las medidas de endurecimiento de la red más eficaces para gestionar las vulnerabilidades seleccionadas. En su Función de analista de seguridad, usted y su Equipo explicarían a continuación sus decisiones y argumentarían por qué esas medidas serán eficaces para proteger la red.
+
+- El ejemplo se centra en la vulnerabilidad de un software obsoleto para una base de datos local.
+- Se identifica una posible solución a la vulnerabilidad y se incluye en el Informe para los supervisores directos.
+- En el Informe se explica cómo la empresa podría verse comprometida en el futuro si la base de datos no se parchea y si los empleados siguen compartiendo contraseñas. 
+- En la sección sobre la política de seguridad de la información de la organización, el Informe incluye información sobre la adición de prácticas generales de refuerzo de la seguridad, una recomendación sobre la frecuencia con la que deben realizarse las prácticas de refuerzo y una explicación de cuáles son las posibles consecuencias si no se sigue la política.
+- Este es un ejemplo de cómo puede analizarse un informe de evaluación de riesgos para la seguridad y cómo podría redactarse una política de seguridad de la información. 
+
+- Diferencias entre ejemplar y actividad propia
+Ambas usan las 3 recomendaciones de endurecimiento de la red: Cambio de contraseñas por defecto, implementación de firewall y autenticación multifactor (MFA). La diferencia es que el ejemplar da mucho más detalle de cómo beneficia a la organización la implementación de estas medidas, mientras que la actividad propia es más concisa y directa. 
