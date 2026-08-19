@@ -171,3 +171,25 @@ Según lo revisado en el registro log TCP/HTTP de Wireshark, se reciben múltipl
 
 2. Explain how the attack is causing the website to malfunction:
 El servidor estaba recibiendo correctamente paquetes SYN, retornaba SYN-ACK (acknowledgment) luego retornaba la web solicitada con el método GET. Luego se detecta un aumento incremental de solicitudes SYN provenientes de la dirección IP 203.0.113.0, lo que indica un ataque de inundación SYN. Este aumento de solicitudes provoca que el servidor se sature y no pueda procesar las solicitudes legítimas de los usuarios, resultando en tiempos de espera altos al punto de fallar en responder a las solicitudes de los usuarios. 
+
+---
+
+## Ejemplo de actividad: Analizar los ataques a la red
+- Aquí tiene un ejemplar completado junto con una explicación de cómo el ejemplar cumple las expectativas de la actividad.
+- [Ejemplar de Informe de Incidente de Ciberseguridad](./resources/Cybersecurity-incident-report-exemplar.docx)
+- Evaluación del Ejemplar
+   - Compare el ejemplar con su actividad finalizada. Revise su trabajo utilizando cada uno de los criterios del ejemplar.
+   - ¿Qué ha hecho bien? ¿En qué puede mejorar? Utilice sus respuestas a estas preguntas como guía para seguir avanzando en el curso.
+- El ejemplar representa una posible explicación de los problemas a los que se enfrenta el usuario. Es probable que la suya difiera en ciertos aspectos. Lo importante es que ha identificado los protocolos de red implicados y ha creado un Informe. En su función de analista de seguridad, usted y su Equipo harían la mejor conjetura sobre lo ocurrido y luego investigarían más a fondo para solucionar el Problema y reforzar la seguridad general de su red.
+- El ejemplo identifica que el mensaje de tiempo de espera de la conexión es el resultado de un ataque DoS.
+- En esta Instancia, el ataque DoS específico es un Ataque de SYN flood.
+- Para determinarlo, analice los datos presentados en el extracto del archivo de registro adjunto a esta actividad.
+- A continuación, reflexione sobre su conocimiento actual de los ataques de red para identificar qué tipo de ataque se está produciendo en función de los datos disponibles.
+- Tras identificar un posible tipo de ataque a la red, proceda a explicar cómo llegó a identificar el ataque.
+- A continuación, documente cómo este tipo específico de ataque pudo afectar a la red e incluya una descripción general de cómo el atacante explotó la vulnerabilidad de la red.
+- Por último, describa cómo este ataque provocó que la página web mostrara el error de tiempo de espera de la conexión.
+- El ejemplo sólo ofrece un ejemplo de explicación del suceso.
+- Describir un Evento normalmente requiere presentar sus pruebas y explicar cómo llegó a su decisión.
+- Todos los patrones que observe en los registros y datos son fundamentales para determinar el origen y el tipo de ataque a la red.
+- Cuanta más práctica tenga en la identificación de estos patrones, más fácil le resultará detectar los ataques a la red en el momento en que se producen.
+- Esto le permitirá responder a los incidentes con mayor rapidez y eficacia.
