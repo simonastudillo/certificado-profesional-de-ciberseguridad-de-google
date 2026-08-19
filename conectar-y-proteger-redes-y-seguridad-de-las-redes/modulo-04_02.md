@@ -227,3 +227,33 @@ Para prevenir futuros ataques de fuerza bruta, se recomiendan las siguientes med
 
 - Diferencias encontradas
 Comparado con el ejemplar, mi actividad no hace referencia a los pasos previos a la revisión del log: No se indica que se recibió errores de los clientes, no se menciona el uso del sandbox para hacer las pruebas, ni que se revisó el código fuente del sitio web. Además, no se hace referencia a la contraseña por defecto que permitió el ataque de fuerza bruta. En cuanto a la recomendación de medidas de seguridad, diría que mi actividad es más completa, ya que se mencionan varias medidas de seguridad para prevenir ataques de fuerza bruta, sin embargo, el ejemplar hace incapie en la implementación de no poder usar contraseñas anteriores, lo cual no se menciona en mi actividad.
+
+---
+
+## Ponga a prueba sus Conocimientos: Endurecimiento del OS
+
+1. Rellene el espacio en blanco: El _____ actúa como intermediario entre las aplicaciones de software y el hardware de la computadora
+- [ ] sistema de accesibilidad
+- [x] sistema operativo
+- [ ] usuario autorizado
+- [ ] línea de base
+> El sistema operativo actúa como intermediario entre las aplicaciones de software y el hardware del ordenador.
+
+2. ¿Cuáles de las siguientes actividades son tareas de Endurecimiento de seguridad? Seleccione todas las que correspondan
+- [x] Realización de actualizaciones de parche
+- [ ] Explotar una superficie de ataque
+- [x] Aplicación de las políticas de contraseñas
+- [x] Eliminación adecuada del hardware y software
+> Actualizar los parches, eliminar correctamente el hardware y el software y aplicar las políticas de contraseñas son tareas de Endurecimiento de seguridad. Endurecimiento de seguridad es el proceso de reforzar un sistema para reducir su vulnerabilidad y superficie de ataque. 
+
+3. La autenticación multifactor (MFA) es una medida de seguridad que requiere que un usuario verifique su identidad de al menos dos formas antes de poder acceder a un sistema o red
+- [x] Verdadero
+- [ ] Falso
+> MFA es una medida de seguridad que requiere que un usuario verifique su identidad de al menos dos formas antes de poder acceder a un sistema o red.
+
+4. ¿Cuáles son ejemplos de Endurecimiento de seguridad física? Seleccione todos los que corresponda
+- [x] Instalación de cámaras de Seguridad
+- [x] Contratación de vigilantes de Seguridad
+- [ ] Eliminar o desactivar aplicaciones no utilizadas
+- [ ] Reducción de los permisos de acceso en todos los dispositivos
+> La seguridad física también forma parte del Endurecimiento de seguridad y puede incluir la protección de un espacio físico con cámaras de seguridad y guardias de seguridad. 
