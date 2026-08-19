@@ -193,3 +193,33 @@ La implementación de la autenticación multifactor (MFA) añade una capa adicio
 
 - Diferencias entre ejemplar y actividad propia
 Ambas usan las 3 recomendaciones de endurecimiento de la red: Cambio de contraseñas por defecto, implementación de firewall y autenticación multifactor (MFA). La diferencia es que el ejemplar da mucho más detalle de cómo beneficia a la organización la implementación de estas medidas, mientras que la actividad propia es más concisa y directa. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Endurecimiento de la red
+
+1. Rellene el espacio en blanco: Los equipos de Seguridad pueden utilizar _____ para examinar los registros de red e identificar los eventos de interés
+- [ ] filtrado de puertos
+- [ ] línea base de configuración
+- [ ] segmentación de red
+- [x] herramientas de administración de información y eventos de seguridad (SIEM)
+> Los Equipos de Seguridad pueden utilizar herramientas de administración de información y eventos de seguridad (SIEM) para examinar los registros de red e identificar los eventos de interés. Las herramientas SIEM recopilan y analizan los datos de registro para monitorizar las actividades críticas de una organización.
+
+2. ¿Cuál es el principio básico del Filtrado de puertos?
+- [ ] Deshabilite los puertos utilizados por las operaciones normales de la red.
+- [ ] Permitir a los usuarios el acceso sólo a las áreas de la red necesarias para su función.
+- [ ] Bloquee todos los puertos de una red.
+- [x] Permitir puertos utilizados por las operaciones normales de la red.
+> Un principio básico del filtrado de puertos es permitir los puertos que son utilizados por las operaciones normales de la red. Cualquier puerto que no esté siendo utilizado por las operaciones normales de la red debe ser desautorizado para protegerlo contra vulnerabilidades.
+
+3. Un profesional de la Seguridad crea diferentes subredes para los distintos departamentos de su empresa, asegurándose de que los usuarios tengan un acceso adecuado a sus funciones particulares. ¿Qué describe este escenario?
+- [x] Segmentación de red
+- [ ] Mantenimiento del firewall
+- [ ] Análisis de registros de red
+- [ ] Actualización de parches
+> Este escenario describe la segmentación de red, que implica la creación de subredes aisladas para diferentes departamentos de una organización. 
+
+4. Los Datos en zonas restringidas deben tener los mismos Estándares de encriptación que los datos en otras zonas
+- [ ] Verdadero
+- [x] Falso
+> Las zonas restringidas de una red, que contienen Datos altamente clasificados o confidenciales, deben tener unos Estándares de encriptación mucho más altos que los datos de otras zonas para dificultar su acceso.
