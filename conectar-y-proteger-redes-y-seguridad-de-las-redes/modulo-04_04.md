@@ -177,3 +177,33 @@
    - Una ventaja clave del Modelo de responsabilidad compartida es que el cliente no es totalmente responsable del mantenimiento de la infraestructura criptográfica.
    - Las organizaciones pueden evaluar y supervisar el riesgo que implica permitir que el CSP gestione la infraestructura revisando la auditoría y los Controles de seguridad de un CSP.
    - Para los contratistas federales, FEDRAMP proporciona una Lista de CSP verificados.
+
+---
+
+## Ponga a prueba sus Conocimientos: Endurecimiento de las Nubes
+
+1. Rellene el espacio en blanco: Una distinción clave entre el endurecimiento de la red en la nube y el tradicional es el uso de una imagen de línea base del servidor, que permite a los analistas de seguridad prevenir _____ comparando los datos de los servidores en la nube con la imagen de línea base
+- [x] cambios no verificados
+- [ ] almacenamiento inadecuado de recursos
+- [ ] velocidades lentas
+- [ ] datos dañados
+> Una distinción clave entre el endurecimiento de la red en la nube y el tradicional es el uso de una imagen de línea base del servidor, que permite a los analistas de seguridad evitar cambios no verificados comparando los datos de los servidores en la nube con la imagen de línea base. 
+
+2. No es necesario separar los datos y las aplicaciones en las redes en nube en función de su categoría de servicio, como su antigüedad o su funcionalidad interna.
+- [ ] Verdadero
+- [x] Falso
+> De forma similar al endurecimiento del OS, los datos y las aplicaciones de una red en la nube deben mantenerse separados en función de su categoría de servicio. Por ejemplo, las aplicaciones más antiguas deben mantenerse separadas de las nuevas aplicaciones. Y el software que se ocupa de las funciones internas debe mantenerse separado de las aplicaciones front-end que ven los usuarios.
+
+3. ¿Quién es el responsable de garantizar la seguridad de las redes en la nube? Seleccione todo lo que corresponda
+- [x] usuarios individuales
+- [x] Proveedor de servicios en la nube
+- [ ] Departamento de investigación
+- [x] Equipo de Seguridad
+> Correcto
+
+4. Rellene el espacio en blanco: _____ los servicios en la nube son una fuente común de problemas de Seguridad de la nube
+- [x] Mal configurado
+- [ ] Sin autorización
+- [ ] Compartido
+- [ ] Gestionado
+> Los servicios en la nube mal configurados son una fuente habitual de problemas de Seguridad de la nube.
