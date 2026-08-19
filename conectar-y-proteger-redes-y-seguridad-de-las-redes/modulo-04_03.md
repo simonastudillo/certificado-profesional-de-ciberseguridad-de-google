@@ -116,3 +116,61 @@
 - La compra, instalación y mantenimiento de cada uno de estos dispositivos o herramientas cuesta dinero.
 - Una organización puede necesitar contratar personal adicional para supervisar las herramientas de seguridad, como en el caso de un SIEM.
 - Los responsables de la toma de decisiones tienen la tarea de seleccionar el nivel apropiado de seguridad basándose en el coste y el riesgo para la organización.
+
+---
+
+## Actividad: Análisis del endurecimiento de la red
+- Resumen de la actividad
+   - En esta actividad, se le presentará un escenario sobre una organización de medios sociales que recientemente experimentó una importante violación de datos causada por vulnerabilidades no detectadas.
+   - Para hacer frente a la violación, identificará algunas herramientas comunes de refuerzo de la red que se pueden implementar para proteger la seguridad general de la organización.
+   - A continuación, seleccionará una vulnerabilidad específica que tenga la empresa y propondrá diferentes métodos de endurecimiento de la red.
+   - Por último, explicará cómo los métodos y herramientas que haya elegido serán eficaces para gestionar la vulnerabilidad y cómo evitarán posibles brechas en el futuro.
+   - Ha aprendido prácticas de endurecimiento de la red y prácticas de endurecimiento relacionadas con la seguridad de la red, como el filtrado de puertos, los privilegios de acceso a la red y el cifrado en las redes.
+   - Las prácticas de endurecimiento de la red ayudan a las organizaciones a controlar las posibles amenazas y ataques a su red y a evitar que se produzcan algunos ataques.
+   - Algunas prácticas de endurecimiento se aplican todos los días, mientras que otras se ejecutan de vez en cuando, como cada dos semanas o una vez al mes.
+   - Comprender cómo utilizar las herramientas y los métodos de endurecimiento de la red le ayudará a supervisar mejor la actividad de la red y a proteger la red de su organización contra diversos ataques.
+   
+- Escenario
+   - Usted es un analista de seguridad que trabaja para una organización de medios sociales.
+   - La organización ha sufrido recientemente una importante violación de datos, que ha puesto en peligro la seguridad de la información personal de sus clientes, como nombres y direcciones.
+   - Su organización quiere implantar prácticas sólidas de endurecimiento de la red que puedan llevarse a cabo de forma coherente para evitar ataques y violaciones en el futuro.
+   - Tras inspeccionar la red de la organización, usted descubre cuatro vulnerabilidades importantes. Las cuatro vulnerabilidades son las siguientes
+      - Los empleados de la organización comparten contraseñas.
+      - La contraseña de administrador de la base de datos está configurada por defecto.
+      - Los cortafuegos no tienen reglas establecidas para filtrar el tráfico que entra y sale de la red.
+      - No se utiliza la autenticación multifactor (MFA).
+      - Si no se toman medidas para solucionar estas vulnerabilidades, la organización corre el riesgo de sufrir otra violación de datos u otros ataques en el futuro.
+   - En esta actividad, redactará una evaluación de riesgos de seguridad para analizar el incidente y explicar qué métodos se pueden utilizar para proteger aún más la red.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Informe de evaluación de riesgos de seguridad](./resources/Security-risk-assessment-report.docx)
+
+2. Acceso a los materios de apoyo
+- Los siguientes materiales de apoyo le ayudarán a completar esta actividad
+- [Herramientas de endurecimiento de la red](./resources/Network-hardening-tools.xlsx)
+
+3. Seleccionar hasta tres herramientas y métodos de endurecimiento para implementar
+- Piense en todas las herramientas y métodos de endurecimiento de la red que ha conocido en este curso y que pueden proteger la red de la organización de futuros ataques.
+- ¿Qué tareas de endurecimiento serían la forma más eficaz de responder a esta situación?
+- Escriba su respuesta en la primera parte de la hoja de trabajo.
+
+4. Proporcionar y explicar 1-2 recomendaciones
+- Ha recomendado una o dos prácticas de Endurecimiento de seguridad para ayudar a evitar que esto vuelva a ocurrir en el futuro.
+- Explique por qué la herramienta o método de endurecimiento de seguridad seleccionado es eficaz para abordar la vulnerabilidad.
+- Aquí tiene un par de preguntas para empezar:
+   - ¿Por qué es eficaz la técnica de Endurecimiento de seguridad recomendada?
+   - ¿Con qué frecuencia debe implementarse la técnica de endurecimiento?
+- Escriba su respuesta en la segunda parte de la hoja de trabajo.
+
+- Security risk assessment report
+1. Select up to three hardening tools and methods to implement
+El primer acción a tomar es eliminar las contraseñas por defectos de los servidores, servicios y sistemas, es crítico que estas sean reemplazadas por contraseñas fuertes y únicas, adicionalmente deben ser reemplazadas con una peridiocidad de 3 a 6 meses.
+La segunda acción a tomar es tener un firewall activo, configurado y actualizado, este debe tener reglas de filtrado de tráfico entrante y saliente, adicionalmente se recomienda el bloqueo de puertos no utilizados, permitiendo el mínimo dispensable para el funcionamiento de la red, esto debe ser revisado y actualizado cada 3 meses.
+La tercera acción a tomar es implementar la autenticación multifactor (MFA) en todos los sistemas críticos y servicios en la nube, esto debe ser revisado y actualizado cada 6 meses. Todos los usuarios deben ser entrenados en el uso de MFA y en la importancia de mantener sus credenciales seguras.
+
+2. Explain your recommendation
+La eliminación de contraseñas por defecto y la implementación de contraseñas fuertes y únicas reduce significativamente el riesgo de acceso no autorizado a los sistemas. Las contraseñas por defecto son conocidas y fácilmente explotables por actores maliciosos, mientras que las contraseñas fuertes y únicas dificultan el acceso no autorizado.
+La implemetanción del firewall con reglas de filtrado de tráfico y bloqueo de puertos no utilizados ayuda a proteger la red contra ataques externos, limitando el acceso solo a los servicios necesarios y reduciendo la superficie de ataque.
+La implementación de la autenticación multifactor (MFA) añade una capa adicional de seguridad, ya que incluso si un actor malicioso obtiene la contraseña de un usuario, no podrá acceder a la cuenta sin el segundo factor de autenticación. Esto es especialmente importante para proteger los sistemas críticos y los servicios en la nube, donde la información sensible puede estar almacenada.
