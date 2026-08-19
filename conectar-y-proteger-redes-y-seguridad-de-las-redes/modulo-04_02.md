@@ -1,0 +1,38 @@
+# Endurecimiento del OS
+
+## Prácticas de endurecimiento del OS
+- ​El sistema operativo es ​la interfaz entre el hardware de la computadora y el usuario.
+- ​El OS es el primer programa ​que se carga cuando se enciende una computadora.
+- ​El OS actúa como intermediario ​entre las aplicaciones de software y el hardware del ordenador.
+- ​Es importante asegurar el OS en cada sistema ​porque un OS inseguro puede ​llevar a que toda una red se vea comprometida.
+- ​Hay muchos tipos de sistemas operativos, y todos ellos ​comparten prácticas de endurecimiento de seguridad similares.
+- ​Hablemos de algunas de ​esas prácticas de endurecimiento de seguridad que ​se recomiendan para asegurar un OS.
+- ​Algunas tareas de endurecimiento de OS ​se realizan a intervalos regulares, ​como actualizaciones, copias de seguridad y mantener ​una Lista actualizada de dispositivos y usuarios autorizados.
+- ​Otras tareas se realizan sólo ​una vez como parte de las medidas de seguridad preliminares.
+- ​Un ejemplo sería configurar ​un dispositivo para que se ajuste a un estándar de encriptación segura.
+- ​Comencemos con las tareas de endurecimiento de OS ​que se realizan a intervalos regulares, ​como la instalación de parches, ​también conocidas como actualizaciones de parches.
+- ​Una actualización de parche es una actualización de software y sistema operativo, o ​OS, que aborda ​vulnerabilidades de seguridad dentro de un programa o producto.
+- ​Ahora hablaremos de las actualizaciones de parches que proporciona ​a la empresa el proveedor de software del OS.
+- ​Con las actualizaciones de parches, el OS debe ​actualizarse a su última versión de software.
+- ​A veces se publican parches ​para solucionar una vulnerabilidad de seguridad en el software.
+- ​Tan pronto como los Proveedores de SO publican ​un parche y la corrección de la vulnerabilidad, ​los actores maliciosos saben exactamente dónde ​se encuentra la vulnerabilidad en los sistemas ​que ejecutan el SO desactualizado.
+- ​Por eso es importante que las organizaciones ejecuten ​las actualizaciones de parches tan pronto como se publiquen.
+- ​Por ejemplo, mi Equipo ​tuvo que realizar un parche de emergencia para ​abordar una reciente vulnerabilidad ​encontrada en una biblioteca de programación de uso común.
+- ​La biblioteca se utiliza en casi todas partes, ​así que tuvimos que parchear rápidamente la mayoría de nuestros servidores y ​aplicaciones para solucionar la vulnerabilidad.
+- ​El OS recién actualizado debería ​añadirse a la configuración de línea base, ​también llamada imagen de línea base.
+- ​Una configuración de línea base es un conjunto documentado de ​especificaciones dentro de un sistema ​que se utiliza como base para futuras construcciones, ​lanzamientos y actualizaciones.
+- ​Por ejemplo, una línea de base puede contener ​una regla de firewall con una lista de ​puertos de red permitidos y no permitidos.
+- ​Si un Equipo de seguridad sospecha de ​actividad inusual que afecta al OS, ​puede comparar la configuración actual con ​la línea de base y asegurarse de que no se ha cambiado nada.
+- ​Otra tarea de endurecimiento que se realiza con regularidad es la ​eliminación de hardware y software.
+- ​Esto garantiza que todo el hardware antiguo ​se limpie y elimine adecuadamente.
+- ​También es una buena idea eliminar ​cualquier aplicación de software que no se utilice ya que ​algunos lenguajes de programación populares ​tienen vulnerabilidades conocidas.
+- ​El hecho de eliminar el software que no se utiliza garantiza que no existen ​vulnerabilidades innecesarias relacionadas ​con los programas que utiliza el software.
+- ​La última técnica de refuerzo del OS que vamos a ​analizar es la implementación de una política de contraseñas segura.
+- ​Las políticas de contraseñas seguras requieren ​que las contraseñas sigan unas reglas específicas.
+- ​Por ejemplo, una organización puede establecer ​una política de contraseñas que requiera ​un mínimo de ocho caracteres, ​una letra mayúscula, un número y un símbolo.
+- ​Para disuadir a los malintencionados, ​una política de contraseñas suele ​establecer que un usuario perderá el acceso a ​la red tras introducir ​una contraseña incorrecta un determinado número de veces seguidas.
+- ​Algunos sistemas también requieren ​una autenticación de múltiples factores, o MFA.
+- ​La MFA es una medida de seguridad ​que requiere que un usuario verifique su identidad de ​dos o más formas para acceder a un sistema o red.
+- ​Las formas de identificarse incluyen ​algo que sabe, como una contraseña, ​algo que tiene, como una tarjeta de identificación, ​o algo único sobre usted, como su huella dactilar.
+- ​Para repasar, el endurecimiento del OS es un conjunto de procedimientos que ​mantiene la seguridad del OS y la mejora.
+- ​Medidas de seguridad como ​los privilegios de acceso y las políticas de contraseñas ​se someten con frecuencia a comprobaciones periódicas de seguridad ​como parte del endurecimiento del OS.
