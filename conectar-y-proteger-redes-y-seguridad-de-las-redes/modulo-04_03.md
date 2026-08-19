@@ -1,0 +1,31 @@
+# Endurecimiento de la red
+
+## Prácticas de endurecimiento de la red
+- El endurecimiento de la red se centra ​en el endurecimiento de la seguridad relacionada con la red, ​como el filtrado de puertos, los privilegios de acceso a la red, ​y la encriptación a través de redes.
+- ​Ciertas tareas de endurecimiento de la red se realizan regularmente, ​mientras que otras se realizan ​una vez y luego se actualizan según sea necesario.
+- ​Algunas tareas que se ​realizan regularmente son el mantenimiento de las reglas del firewall, ​el análisis de registros de red, las actualizaciones de parches y las copias de seguridad de servidores. 
+- Antes, aprendió que un registro es un registro de ​eventos que ocurren dentro de los sistemas de una organización.
+- ​El análisis de registros de red es el proceso de ​examinar los registros de red para identificar eventos de interés.
+- ​Los equipos de seguridad utilizan una herramienta de análisis de registros ​o una herramienta de gestión de eventos e información de seguridad, ​también conocida como SIEM, ​para llevar a cabo el análisis de registros de red.
+- ​Una herramienta SIEM es una aplicación que recopila y analiza ​datos de registro para supervisar ​actividades críticas en una organización.
+- ​Reúne datos de seguridad de una red y ​presenta esos datos en un único cuadro de mandos.
+- ​La interfaz del cuadro de mandos se denomina a veces ​un único panel de cristal.
+- ​Un SIEM ayuda a los analistas a inspeccionar, analizar, ​y reaccionar ante eventos de seguridad ​en toda la red en función de su prioridad.
+- ​Los informes del SIEM proporcionan una lista de ​vulnerabilidades de red nuevas o en curso ​y las enumeran en una escala ​de prioridad de alta a ​baja, en la que las vulnerabilidades de alta prioridad ​tienen un plazo mucho más corto para su mitigación.
+- ​Ahora que hemos cubierto las tareas ​que se realizan con regularidad, ​examinemos las tareas que se realizan una vez.
+- ​Estas tareas incluyen el filtrado de puertos en cortafuegos, ​los privilegios de acceso a la red y ​la encriptación para la comunicación, entre otras muchas cosas.
+- ​Comencemos con el filtrado de puertos.
+   - ​El filtrado de puertos puede formarse a través de la Red.
+   - ​El filtrado de puertos es una función del cortafuegos que bloquea o ​permite ciertos números de puerto ​para limitar la comunicación no deseada.
+   - ​Un principio básico es que ​los únicos puertos que son ​necesarios son los que están permitidos.
+   - ​Cualquier puerto que no esté siendo utilizado por ​las operaciones normales de la red debe ser desautorizado.
+   - ​Esto protege contra las vulnerabilidades de los puertos.
+- ​Las redes deberían configurarse con ​los protocolos inalámbricos más actualizados ​disponibles y ​los protocolos inalámbricos más antiguos deberían desactivarse.
+- ​Los analistas de seguridad también utilizan ​la segmentación de red para crear ​subredes aisladas para ​diferentes departamentos de una organización.
+- ​Por ejemplo, podrían hacer una para ​el departamento de marketing y ​una para el departamento financiero.
+- ​Esto se hace para que los problemas de ​cada subred no se extiendan por toda la empresa y ​sólo los usuarios especificados tengan acceso a ​la parte de la red que necesitan para su función.
+- ​La segmentación de red también puede utilizarse ​para separar diferentes zonas de seguridad.
+- ​Cualquier zona restringida de una red que contenga ​datos altamente clasificados o confidenciales ​debería estar separada del resto de la red.
+- ​Por último, todas las comunicaciones de red deberían ​cifrarse utilizando los últimos estándares de cifrado.
+- ​Los Estándares de encriptación son reglas o métodos utilizados para ​ocultar los datos salientes y ​descubrir o desencriptar los datos entrantes.
+- ​Los datos en zonas restringidas deben ​tener unos Estándares de encriptación mucho más altos, ​lo que hace que sea más difícil acceder a ellos.
