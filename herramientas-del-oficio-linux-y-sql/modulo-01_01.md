@@ -13,3 +13,26 @@
 - ​A continuación, explorará ​el sistema operativo Linux con más detalle.
 - ​Después, utilizará la línea de comandos de Linux ​dentro de un contexto de seguridad.
 - ​Por último, hablaremos de cómo puede utilizar SQL para consultar ​bases de datos mientras trabaja como analista de seguridad.
+
+---
+
+## Resumen del curso 4
+- bienvenidos a Herramientas del oficio: Linux y SQL, el cuarto curso del Certificado de Ciberseguridad de Google
+- Al final de este curso, desarrollarás una mayor comprensión de los fundamentos de la informática que apoyarán tu trabajo como analista de seguridad.
+- Aprenderás conceptos fundamentales relacionados con la comprensión de los sistemas operativos, la comunicación con el sistema operativo Linux a través de comandos, y la consulta de bases de datos con Lenguaje de Consulta Estructurada (SQL).
+- Estos son conceptos clave en el campo de la ciberseguridad y su comprensión le ayudará a mantener las organizaciones seguras.
+- Módulo 1: Introducción a los sistemas operativos
+   - Aprenderás la relación entre los sistemas operativos, el hardware y el software, y te familiarizarás con las funciones principales de un sistema operativo.
+   - Reconocerá los sistemas operativos comunes que se utilizan hoy en día y comprenderá cómo la interfaz gráfica de usuario (GUI) y la interfaz de línea de comandos (CLI) permiten a los usuarios interactuar con el sistema operativo.
+- Módulo 2: El sistema operativo Linux
+   - Conocerá el sistema operativo Linux y aprenderá cómo se utiliza habitualmente en ciberseguridad.
+   - También aprenderá sobre la arquitectura de Linux y las distribuciones comunes de Linux.
+   - Además, se le presentará el shell de Linux y aprenderá cómo le permite comunicarse con el sistema operativo.
+- Módulo 3: Comandos Linux en el shell Bash
+   - Serás introducido a los comandos de Linux introducidos a través del shell Bash.
+   - Usarás el shell Bash para navegar y administrar el sistema de archivos y para autorizar y autenticar usuarios.
+   - También aprenderás dónde buscar ayuda cuando trabajes con nuevos comandos de Linux.
+- Módulo 4: Bases de datos y SQL
+   - Practicarás el uso de SQL para comunicarte con bases de datos.
+   - Aprenderás cómo consultar una base de datos y filtrar los resultados.
+   - También aprenderás cómo SQL puede unir múltiples tablas en una consulta.
