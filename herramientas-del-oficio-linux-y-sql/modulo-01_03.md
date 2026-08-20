@@ -108,3 +108,17 @@
       - El OS envía la solicitud de descarga del archivo al hardware adecuado para su proceso.
       - El hardware comienza a descargar el archivo y el OS envía esta información a la aplicación del navegador de Internet.
       - A continuación, el navegador de Internet informa al usuario de que el archivo se ha descargado.
+
+---
+
+## Práctica: Orden de las operaciones en el OS
+- First, order the steps involved in booting a computer. Then, order the steps involved in saving a file
+
+1. Step 1: The user powers on the computer.
+2. Step 2: BIOS or UEFI loads the bootloader.
+3. Step 3: The bootloader program loads the OS.
+
+1. User opens a word processing application and types a document.
+2. When the user saves the document, the application communicates with the OS
+3. OS saves the file to a hardware component, called the hard drive.
+4. Hard drive confirms file was saved, communicates this to OS. OS indicates this within the application
