@@ -20,3 +20,8 @@
 - El endurecimiento de la seguridad puede realizarse a nivel de hardware, a nivel de software o ​a nivel de red.
 - ​Asegurar las redes es una parte esencial de las tareas de un analista de seguridad.
 - ​El conocimiento de una red y de sus operaciones y prácticas de seguridad le garantizará ​el éxito en su carrera como analista de seguridad.
+
+---
+
+## Glosario del curso 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
