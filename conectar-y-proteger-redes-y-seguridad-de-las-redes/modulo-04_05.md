@@ -73,3 +73,8 @@
 - ​A continuación, abordamos la importancia del fortalecimiento del sistema operativo, ​incluidas las actualizaciones de parches, las configuraciones básicas y la ​eliminación del hardware y el software.
 - ​Luego exploramos las prácticas de endurecimiento de la red, ​como el análisis de registros de red y el mantenimiento de reglas de firewall.
 - ​Por último, examinamos el ​endurecimiento de la red en la nube y las responsabilidades ​tanto de las organizaciones como de los ​proveedores de servicios en la nube en el mantenimiento de la Seguridad. 
+
+---
+
+## Términos del glosario del Módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
