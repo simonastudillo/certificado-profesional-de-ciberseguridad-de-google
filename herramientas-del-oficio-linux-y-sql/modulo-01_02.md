@@ -109,3 +109,33 @@
       - [Boletín de Seguridad de Google Nube](https://cloud.google.com/support/bulletins): Una lista de vulnerabilidades conocidas que afectan a los productos y servicios de Google Nube
 - Mantener un sistema operativo actualizado es una forma clave de ayudar a que el sistema permanezca seguro.
 - Dado que puede resultar difícil mantener todos los sistemas actualizados en todo momento, es importante que los analistas de seguridad conozcan los sistemas operativos heredados y los riesgos que pueden generar.
+
+---
+
+## Ponga a prueba sus Conocimientos: El maravilloso mundo de los sistemas operativos
+
+1. ¿Qué es un sistema operativo?
+- [ ] Una computadora, un teléfono inteligente o una tableta
+- [ ] Los componentes físicos de una computadora
+- [ ] Un programa para enviar correo electrónico
+- [x] La interfaz entre el hardware de la computadora y el usuario
+> Un sistema operativo es la interfaz entre el hardware de la computadora y el usuario.
+
+2. ¿Cuáles de los siguientes son sistemas operativos? Seleccione todos los que correspondan.
+- [x] Android
+- [x] Linux
+- [ ] Teléfonos inteligentes
+- [x] Windows
+> Android, Linux y Windows son sistemas operativos. Los sistemas operativos son interfaces entre el hardware de la computadora y el usuario. 
+
+3. ¿Cuál de las siguientes afirmaciones describe correctamente los sistemas operativos? Seleccione todas las que correspondan
+- [ ] Los sistemas operativos son los componentes físicos de una computadora.
+- [x] Las computadoras funcionan eficazmente gracias a los sistemas operativos.
+- [x] Los sistemas operativos ayudan a las personas a interactuar con las computadoras.
+- [x] Los sistemas operativos son capaces de ejecutar muchas aplicaciones a la vez.
+> Los sistemas operativos ayudan a las personas a interactuar con las computadoras, y las computadoras funcionan eficazmente gracias a los sistemas operativos. Los sistemas operativos son capaces de ejecutar muchas aplicaciones a la vez.
+ 
+4. Las computadoras se comunican en un lenguaje llamado binario, que consiste en 0s y 1s
+- [x] Verdadero
+- [ ] Falso
+> Las computadoras se comunican en un lenguaje llamado binario, que consiste en 0s y 1s.
