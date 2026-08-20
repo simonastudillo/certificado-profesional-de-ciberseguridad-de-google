@@ -1,0 +1,35 @@
+# El sistema operativo en funcionamiento
+
+## Dentro del sistema operativo
+- Aprenderá lo que ocurre con ​un sistema operativo, o OS, ​cuando alguien utiliza una computadora para realizar una tarea.
+- ​Piense en cuando alguien conduce un coche. ​Pisa el acelerador y el coche avanza.
+- No necesita prestar atención a ​todos los mecanismos que permiten que el coche se mueva.
+- ​Al igual que un coche no puede funcionar sin su motor, ​un ordenador no puede funcionar sin su sistema operativo.
+- ​El trabajo de un OS es ayudar a que ​otros programas de ordenador funcionen de forma eficiente.
+- ​El OS hace esto ocupándose de ​todos los detalles engorrosos relacionados con el control, ​del hardware de la computadora, para que usted no tenga que hacerlo.
+- ​Cuando presiona el botón de encendido, ​está interactuando con el hardware.
+- ​Esto arranca el ordenador e ​instala el sistema operativo.
+- Arrancar el ordenador significa que ​se activa un microchip especial llamado BIOS.
+- ​En muchos ordenadores fabricados después de 2007, ​el chip fue sustituido por la UEFI.
+- ​Tanto la BIOS como la UEFI contienen instrucciones de arranque que son ​responsables de cargar un programa especial ​llamado cargador de arranque.
+- ​A continuación, el cargador de arranque es ​responsable de iniciar el sistema operativo.
+- ​Así de sencillo, su computadora está encendida.
+- ​Como analista de seguridad, ​comprender estos procesos puede serle útil.
+- ​Las vulnerabilidades pueden ocurrir en ​algo como un proceso de arranque.
+- ​A menudo, la BIOS no es ​explorada por el software antivirus, ​por lo que puede ser vulnerable a la infección por software malicioso.
+- Pasos de una tarea
+   - El proceso comienza con usted, el usuario.
+   - ​Y para completar tareas, usted utiliza aplicaciones en su computadora.
+   - ​Una aplicación es un programa ​que realiza una tarea específica. 
+   - Cuando usted hace esto, la aplicación ​envía su solicitud al sistema operativo.
+   - ​Desde allí, el sistema operativo interpreta esta solicitud ​y la dirige al componente apropiado ​del hardware de la computadora.
+   - ​El hardware también enviará ​información de vuelta al sistema operativo.
+   - ​Y ésta, a su vez, se envía de vuelta a la aplicación. 
+- Visión general de cómo funciona ​cuando desea utilizar la calculadora en su computadora.
+   - ​Utiliza el ratón para hacer clic en ​la aplicación de calculadora de su ordenador.
+   - ​Cuando escribe el número que desea calcular, ​la aplicación se comunica con el sistema operativo.
+   - ​A continuación, su sistema operativo envía ​un cálculo a un componente del hardware, ​la unidad central de procesamiento o CPU.
+   - ​Una vez que el hardware realiza el trabajo ​de determinar el número final, ​envía la respuesta de vuelta a su sistema operativo.
+   - ​Entonces, puede mostrarse en su aplicación de calculadora.
+- ​Comprender este proceso es ​útil a la hora de investigar eventos de seguridad.
+- ​Los analistas de seguridad deben ser capaces de ​rastrear este flujo de procesos ​para analizar dónde podría haberse producido un evento de seguridad.
