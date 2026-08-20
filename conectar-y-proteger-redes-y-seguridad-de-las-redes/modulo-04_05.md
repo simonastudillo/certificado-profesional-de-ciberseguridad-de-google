@@ -78,3 +78,77 @@
 
 ## Términos del glosario del Módulo 4
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Desafío del módulo 4
+
+1. ¿Cuáles son los propósitos de realizar una Actualización de parche para el Endurecimiento de seguridad? Seleccione todo lo que corresponda
+- [ ] Impedir que los actores maliciosos inunden una red.
+- [ ] Exigir a un usuario que verifique su identidad para acceder a un sistema o red.
+- [x] Solución de vulnerabilidades de seguridad conocidas en una red o en los servicios.
+- [x] Actualización de un sistema operativo a la última versión de software.
+> Correcto
+
+2. ¿Cómo se denominan todas las vulnerabilidades potenciales del sistema que podría explotar un agente de amenaza?
+- [x] Superficie de ataque
+- [ ] Arquitectura de seguridad
+- [ ] Riesgo
+- [ ] Desafío para la seguridad
+> Correcto
+
+3. Rellene el espacio en blanco: La instalación de cámaras de seguridad es un ejemplo de una práctica de Endurecimiento de seguridad _____
+- [ ] centrado en las redes
+- [ ] virtual
+- [ ] basado en software
+- [x] físico
+> Correcto
+
+4. Para ayudar a mejorar la Seguridad de una empresa, se aprueba que su Equipo interno de Seguridad simule un ataque que identificará vulnerabilidades en los procesos empresariales. ¿Qué describe este escenario?
+- [x] Pruebas de penetración
+- [ ] Ataque de denegación de servicio distribuido (DDoS)
+- [ ] Sniffing de paquetes
+- [ ] El Ping de la muerte
+> Correcto
+
+5. ¿Cuáles de las siguientes son tareas de endurecimiento del OS? Seleccione tres respuestas
+- [x] Instalación regular de actualizaciones
+- [ ] Instalación de cámaras de Seguridad
+- [x] implementar la autenticación multifactor 
+- [x] Uso de Estándares de encriptación segura
+> Correcto
+
+6. Rellene el espacio en blanco: Una _____ es un conjunto documentado de especificaciones dentro de un sistema que se utiliza como base para futuras construcciones, versiones y actualizaciones
+- [ ] actualización del protocolo de mensajes de control de Internet
+- [ ] segmento de red
+- [ ] instalación de la red privada virtual
+- [x] línea base de configuración
+> Correcto
+
+7. Rellene el espacio en blanco: La medida de seguridad _____ requiere que un usuario verifique su identidad de dos o más formas para acceder a un sistema o red
+- [ ] política de contraseñas
+- [ ] análisis de registros de red
+- [ ] línea base de configuración
+- [x] autenticación multifactor (MFA)
+> Correcto
+
+8. ¿Cuál de las siguientes afirmaciones describe con exactitud el Filtrado de puertos?
+- [x] Función de firewall que bloquea o permite determinados números de puerto para limitar el tráfico de red no deseado
+- [ ] Técnica de seguridad que divide una red en segmentos
+- [ ] Proceso realizado por un servicio VPN que protege los datos envolviéndolos en otros paquetes de datos
+- [ ] Un protocolo de Seguridad que proporciona un túnel encriptado para emitir comandos desde un servidor remoto
+> Correcto
+
+9. Un Equipo de seguridad considera la mejor manera de manejar las diferentes zonas de seguridad dentro de su red. Dan prioridad a proteger la zona restringida separándola del resto de la red y asegurándose de que cuenta con unos Estándares de encriptación mucho más elevados. ¿Qué describe este escenario?
+- [x] Segmentación de red
+- [ ] Pruebas de penetración
+- [ ] Endurecimiento de las nubes
+- [ ] Actualización de parches
+> Correcto
+
+10. ¿Cómo puede un profesional de la seguridad confirmar que no se han producido cambios no verificados en un servidor en la nube?
+- [ ] Realice una prueba de penetración
+- [ ] Utilice el Filtrado de puertos para bloquear o permitir determinadas actualizaciones
+- [x] Compare la imagen de línea base del servidor con los Datos de los servidores en la Nube
+- [ ] Establezca la autenticación multifactor (MFA)
+> Correcto
