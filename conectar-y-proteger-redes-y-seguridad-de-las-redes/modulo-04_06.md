@@ -25,3 +25,13 @@
 
 ## Glosario del curso 3
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- ¡Enhorabuena por haber completado el Curso 3 del Certificado de Ciberseguridad de Google: «Conectar y proteger: redes y seguridad de redes»
+   - has aprendido sobre la estructura de las redes y cómo identificar sus vulnerabilidades.
+   - También has explorado el funcionamiento de las redes y cómo este afecta a la comunicación de datos.
+   - A continuación, has descubierto algunos tipos comunes de ataques a redes, sus consecuencias para una organización y formas de proteger las redes frente a los ataques.
+   - Por último, has aprendido a reducir la superficie de ataque de una red aplicando diversas medidas de protección en la misma.
+- Ahora que has completado este curso, estás listo para pasar al siguiente: «Herramientas del oficio: Linux y SQL».
