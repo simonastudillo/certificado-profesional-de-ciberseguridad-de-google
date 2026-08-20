@@ -64,3 +64,12 @@
    - Aplicaste eficazmente los conceptos en escenarios, conectando las técnicas con su impacto en la prevención y mitigación de ataques.
 - Áreas de mejora:
    - Podrías profundizar un poco más en la aplicación de conceptos específicos de la nube, como los Grupos de Seguridad, para asegurar una comprensión completa de sus matices en este entorno.
+
+---
+
+## Resumen
+- Aprendió sobre el fortalecimiento de la Seguridad y ​su importancia para la infraestructura de una organización.
+- ​En primer lugar, analizamos cómo el ​fortalecimiento de la Seguridad fortalece los sistemas y ​las redes para reducir la probabilidad de un ataque.
+- ​A continuación, abordamos la importancia del fortalecimiento del sistema operativo, ​incluidas las actualizaciones de parches, las configuraciones básicas y la ​eliminación del hardware y el software.
+- ​Luego exploramos las prácticas de endurecimiento de la red, ​como el análisis de registros de red y el mantenimiento de reglas de firewall.
+- ​Por último, examinamos el ​endurecimiento de la red en la nube y las responsabilidades ​tanto de las organizaciones como de los ​proveedores de servicios en la nube en el mantenimiento de la Seguridad. 
