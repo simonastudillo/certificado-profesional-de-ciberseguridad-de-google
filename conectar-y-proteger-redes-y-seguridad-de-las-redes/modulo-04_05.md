@@ -272,3 +272,22 @@
 6. Su Informe de Incidente enumera los Procedimientos para Recuperarse de un Evento de Seguridad similar
 - [x] Sí
 - [ ] No
+
+---
+
+## Ejemplar de actividad del Portfolio: Utilizar el marco de Ciberseguridad del NIST para responder a un Incidente de Seguridad
+- Aquí tiene un ejemplar completado junto con una explicación de cómo el ejemplar cumple las expectativas de la actividad.
+- [Análisis del Informe de Incidente](./resources/Incident-report-analysis-exemplar.docx)
+- Compare el ejemplar con su análisis del informe de incidentes y su informe de incidentes completados.
+- Revise su trabajo utilizando cada uno de los criterios del ejemplar.
+   - ¿Qué hizo bien? ¿En qué puede mejorar? 
+- Nota: El ejemplar representa un ejemplo de cómo completar la actividad. El suyo puede diferir en ciertos aspectos. Lo importante es que tenga una idea de cómo debería ser su análisis de incidentes.
+- El ejemplar va acompañado de la actividad, y presenta un análisis completo del informe del incidente para establecer:
+   - Qué tipo de ataque se produjo, el Alcance del Incidente y su Impacto para la organización
+   - Posibles vulnerabilidades de la red y medidas de protección
+   - Herramientas de Detección para supervisar y proteger la red
+   - Cómo responder a incidentes de ciberseguridad en el futuro
+   - Planes de recuperación para restablecer la normalidad de las operaciones
+
+- Comparación
+Mi informe de incidentes y el ejemplar completado tienen similitudes y diferencias. Ambos informes identifican correctamente el tipo de ataque (DoS mediante paquetes ICMP) y los sistemas afectados (servicios de red internos). Ambos informes proponen medidas de protección similares, tanto inmediatas como a largo plazo, incluyendo la configuración del firewall y la implementación de un IDS/IPS. En cuanto a la detección, ambos informes sugieren la supervisión continua del tráfico de red y el análisis de patrones sospechosos, sin embargo, el ejemplar proporciona más detalles sobre las herramientas específicas cómo el leer logs y la correlación de eventos
