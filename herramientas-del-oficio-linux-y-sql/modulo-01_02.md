@@ -25,3 +25,33 @@
 - ​Y antes de eso, todas mis experiencias ​fueron trabajar en restaurantes ​o en marketing, o simplemente algo que ​parecía no estar relacionado con la tecnología.
 - ​Pero todo eso me ayudó y me motivó a ​dedicarme más a la tecnología ​y, finalmente, a la Seguridad.
 - ​Y antes de darme cuenta, ​esa duda sobre mí misma fue ​reemplazada por un mayor apoyo ​de mis compañeros y el ​respeto de otras personas con las que he trabajado. 
+
+---
+
+## Introducción a los sistemas operativos
+- ​Dispositivos como computadoras, teléfonos inteligentes y tabletas, todos tienen sistemas operativos. 
+- Si ha utilizado una computadora de escritorio o portátil, ​puede que haya utilizado los sistemas operativos Windows o MacOs.
+- Los smartphones y las ​tabletas funcionan con sistemas operativos móviles como Android e iOS.
+- ​Otro sistema operativo popular es Linux.
+- ​Linux se utiliza en el sector de la seguridad, ​y como profesional de la seguridad, es probable que interactúe con el SO Linux.
+- ​Entonces, ¿qué es exactamente un sistema operativo? ​Es la interfaz entre el hardware de la computadora y el usuario.
+   - El sistema operativo, o el OS como se le llama comúnmente, es responsable de ​hacer que el ordenador funcione de la forma más eficiente posible a la vez que lo hace fácil de usar.
+- ​El hardware puede ser otro término nuevo.
+   - ​El hardware se refiere a los componentes físicos de un ordenador.
+- ​La interfaz del OS en la que ahora confiamos todos los días es algo que los primeros ​ordenadores no tenían.
+- ​En los años 50 el mayor reto con los primeros ordenadores era la cantidad de tiempo ​que se tardaba en ejecutar un programa de ordenador.
+- En aquella época, las computadoras no podían ejecutar varios ​programas simultáneamente.
+- ​En su lugar, la gente tenía que esperar a que un programa terminara de ejecutarse, ​restablecer la computadora y cargar el nuevo programa.
+- ​Desde entonces, los sistemas operativos han evolucionado, y ​ya no tenemos que preocuparnos por perder el tiempo de esta manera.
+- ​Gracias a los sistemas operativos y a su evolución, ​las computadoras de hoy en día funcionan de manera eficiente.
+- ​Ejecutan múltiples aplicaciones a la vez, y ​también acceden a dispositivos externos como impresoras, teclados y ratones.
+- ​Otra razón por la que los sistemas operativos son importantes es que ayudan a los humanos y ​a las computadoras a comunicarse entre sí.
+- ​Las computadoras se comunican en un lenguaje llamado binario, que consiste en 0s y 1s.
+- ​El OS proporciona una interfaz para salvar esta brecha de comunicación entre el usuario ​y la computadora, permitiéndole interactuar con la computadora de maneras complejas.
+- ​Los sistemas operativos son críticos para el uso de las computadoras.
+- Del mismo modo, ​la seguridad del SO también es crítica para la seguridad de un ordenador.
+- ​Esto implica asegurar los archivos, el acceso a los datos y la autenticación de los usuarios para ​ayudar a proteger y prevenir contra amenazas como virus, gusanos y malware.
+- ​Conocer cómo funcionan los sistemas operativos es esencial para ​realizar diferentes tareas relacionadas con la seguridad.
+- ​Por ejemplo, como analista de seguridad, puede ser responsable de configurar y ​mantener la seguridad de un sistema gestionando el acceso.
+- ​También puede ser responsable de gestionar y configurar cortafuegos, ​establecer políticas de seguridad, activar la protección contra virus y ​realizar auditorías, contabilizaciones y registros para detectar comportamientos inusuales.
+- ​Todas estas tareas requieren un profundo conocimiento de los sistemas operativos.
