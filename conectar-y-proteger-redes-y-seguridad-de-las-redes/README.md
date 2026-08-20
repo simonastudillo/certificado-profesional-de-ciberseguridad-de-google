@@ -1,18 +1,87 @@
 # Conectar y proteger: Redes y seguridad de las redes
 ---
 - Módulo 1: Arquitectura de red
+   - [Empezar el curso](modulo-01_01.md)
+   - [Introducción a las redes](modulo-01_02.md)
+   - [Comunicación en red](modulo-01_03.md)
+   - [Comunicación en red local y amplia](modulo-01_04.md)
+   - [Revisión: Arquitectura de red](modulo-01_05.md)
 - Módulo 2: Operaciones de red
+   - [Introducción a los protocolos de redes](modulo-02_01.md)
+   - [Identificación del sistema](modulo-02_02.md)
+   - [Revisión: Operaciones de red](modulo-02_03.md)
 - Módulo 3: Seguridad contra intrusiones en la red
+   - [Introducción a las tácticas de intrusión en redes](modulo-03_01.md)
+   - [Redes seguras contra ataques de denegación de servicio (DoS)](modulo-03_02.md)
+   - [Tácticas de ataque y defensa de redes](modulo-03_03.md)
+   - [Revisión: Seguridad contra la intrusión en la red](modulo-03_04.md)
 - Módulo 4: Endurecimiento de seguridad
+   - [Introducción al Endurecimiento de seguridad](modulo-04_01.md)
+   - [Endurecimiento del OS](modulo-04_02.md)
+   - [Endurecimiento de la red](modulo-04_03.md)
+   - [Endurecimiento de las nubes](modulo-04_04.md)
+   - [Revisión: Endurecimiento de seguridad](modulo-04_05.md)
+   - [¡Enhorabuena por haber completado el Curso 3!](modulo-04_06.md)
 
 ## Habilidades y conceptos a aprender
 ---
 
 ### Habilidades técnicas (hard skills)
+- Análisis de tráfico de red (Network Traffic Analysis)
+- Análisis de registros de red (Network Log Analysis)
+- Captura y análisis de paquetes con tcpdump y Wireshark
+- Uso de la línea de comandos (Command-Line Interface)
+- Configuración de cortafuegos (Firewall Configuration)
+- Filtrado de puertos (Port Filtering)
+- Configuración de subredes y CIDR (Subnetting)
+- Configuración de VPN (WireGuard, IPSec)
+- Análisis de protocolos de red (Network Protocol Analysis)
+- Endurecimiento de sistemas operativos (OS Hardening)
+- Endurecimiento de redes (Network Hardening)
+- Endurecimiento de la nube (Cloud Hardening)
+- Gestión de parches y actualizaciones (Patch Management)
+- Aplicación del Marco de Ciberseguridad del NIST (NIST CSF)
+- Análisis y respuesta a incidentes de seguridad (Incident Response)
+- Detección de tráfico malicioso y patrones anómalos
+- Herramientas SIEM (Security Information and Event Management)
+- Sistemas IDS/IPS (Intrusion Detection/Prevention Systems)
+- Diseño de redes de área local (LAN Design)
+- Lectura de diagramas de red (Network Diagrams)
+- Creación de informes de incidentes de seguridad
 
 ### Conceptos clave
+- Arquitectura de red (Network Architecture)
+- Modelo TCP/IP (capas: acceso a la red, internet, transporte, aplicación)
+- Modelo OSI (Open Systems Interconnection)
+- Paquetes de datos (Data Packets) y encapsulación
+- Direcciones IP: IPv4 e IPv6
+- Protocolos de red comunes: TCP, UDP, HTTP, HTTPS, DNS, ARP, FTP, SFTP, SSH, ICMP, SNMP
+- Protocolos inalámbricos y seguridad Wi-Fi: IEEE 802.11, WPA, WPA2, WPA3
+- Dispositivos de red: hub, switch, router, módem
+- Computación en la nube y redes definidas por software (SDN)
+- Redes privadas virtuales (VPN)
+- Zonas de seguridad de red (Security Zones)
+- Servidores proxy: forward y reverse
+- Ataques de denegación de servicio: DoS, DDoS, SYN flood, ICMP flood, Ping of Death
+- Sniffing de paquetes: pasivo y activo
+- Suplantación de IP (IP Spoofing)
+- Ataques de interceptación: On-path attack, Replay attack
+- Ataques de fuerza bruta (Brute Force Attacks)
+- Gestión de identidades y accesos (IAM)
+- Autenticación multifactor (MFA)
+- Criptografía y seguridad en la nube
+- Superficie de ataque y vulnerabilidades (Attack Surface)
+- Configuración de línea base (Baseline Configuration)
 
 ### Habilidades transferibles (soft skills)
+- Comunicación efectiva con equipos técnicos y partes interesadas
+- Documentación de incidentes de seguridad
+- Pensamiento crítico y resolución de problemas
+- Investigación y análisis de causas raíz
+- Trabajo en equipo con áreas de producto e ingeniería
+- Enfoque empresarial en la comunicación de riesgos de seguridad
+- Aprendizaje continuo y adaptabilidad
+- Colaboración con la comunidad de ciberseguridad
 
 ## Descripción del curso
 ---
@@ -230,3 +299,56 @@ Este curso ofrece una breve introducción a la arquitectura de redes, las operac
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Arquitectura de red
+- **Fundamentos de redes**: una red es un grupo de dispositivos conectados; se clasifican en LAN (área local) y WAN (área extensa). Los datos viajan en paquetes que contienen direcciones IP de origen/destino y el contenido del mensaje.
+- **Dispositivos de red**: el hub difunde datos a todos los dispositivos (inseguro); el switch dirige paquetes solo al destinatario usando tablas de direcciones MAC; el router conecta redes distintas mediante direcciones IP; el módem conecta la red al ISP; los puntos de acceso inalámbrico habilitan conexiones Wi-Fi.
+- **Modelo cliente-servidor**: los clientes solicitan servicios y los servidores (DNS, archivos, correo) los proveen.
+- **Modelo TCP/IP** (4 capas): acceso a la red (hardware, ARP), Internet (IP, ICMP), transporte (TCP orientado a conexión vs. UDP sin conexión) y aplicación (HTTP, DNS, FTP, SMTP, SSH).
+- **Modelo OSI** (7 capas): aplicación, presentación, sesión, transporte, red, enlace de datos y física; ofrece una visión más detallada que TCP/IP para diagnosticar en qué capa ocurre un problema o ataque.
+- **Direccionamiento IP**: IPv4 (4 números de 0-255, ~4.300 millones de direcciones) frente a IPv6 (8 grupos hexadecimales, 340 undecillones de direcciones, desarrollado por el agotamiento de IPv4). Direcciones públicas (asignadas por el ISP) vs. privadas (solo visibles en la red local); la dirección MAC es un identificador físico único y permanente.
+- **Encabezado IPv4**: 13 campos clave, incluidos TTL (evita reenvío infinito), protocolo, suma de comprobación y direcciones de origen/destino.
+- **Computación en la nube**: servicios SaaS, IaaS y PaaS ofrecidos por CSP; entornos híbridos y multi-nube; redes definidas por software (SDN) que virtualizan switches, routers y firewalls. Beneficios: confiabilidad, reducción de costes y escalabilidad.
+- **Diagramas de red**: mapas visuales de dispositivos y conexiones que los analistas usan para planificar estrategias de protección.
+
+### Módulo 2: Operaciones de red
+- **Protocolos de red**: conjunto de reglas que describen el orden de entrega y la estructura de los datos. Se dividen en tres categorías: comunicación (TCP, UDP, HTTP, DNS), gestión (SNMP, ICMP) y seguridad (HTTPS, SFTP).
+- **Protocolo de enlace TCP de tres vías**: SYN → SYN/ACK → ACK para establecer conexiones autenticadas.
+- **Puertos comunes**: HTTP (80), HTTPS (443), DNS (53), SSH (22), SMTP (25/587), POP3 (110/995), IMAP (143/993), Telnet (23, inseguro), DHCP (67/68).
+- **Protocolos adicionales**: NAT (traduce IP privadas a públicas), DHCP (asigna IP automáticamente), ARP (mapea IP a direcciones MAC), SSH (reemplazo seguro de Telnet).
+- **Seguridad inalámbrica**: evolución WEP (obsoleto, de alto riesgo) → WPA (TKIP) → WPA2 (AES, CCMP, estándar actual, vulnerable a KRACK) → WPA3 (SAE, encriptación de 128/192 bits). Modos personal (hogares) y empresarial (control centralizado).
+- **Cortafuegos**: hardware, software y basados en la nube (FaaS); con estado (stateful, rastrean conexiones) vs. sin estado (stateless, solo reglas predefinidas); los NGFW añaden inspección profunda de paquetes y prevención de intrusiones.
+- **Zonas de seguridad y segmentación**: zona no controlada (Internet), zona controlada con DMZ (servicios públicos entre dos firewalls), red interna y zona restringida (datos confidenciales).
+- **Subredes y CIDR**: la división en subredes crea "redes dentro de una red" para mejorar eficiencia y seguridad; la notación CIDR (ej. 198.51.100.0/24) sustituyó al direccionamiento por clases.
+- **Servidores proxy**: proxy directo (regula el acceso saliente de usuarios), proxy inverso (protege servidores internos del exterior) y proxy de correo (filtra spam y suplantación).
+- **VPN**: cifran datos en tránsito y ocultan la IP pública mediante encapsulación y túneles cifrados. Tipos: acceso remoto (usuarios) y sitio a sitio (empresas). Protocolos: WireGuard (rápido, moderno, código abierto) e IPSec (probado, ampliamente compatible). SD-WAN conecta usuarios con aplicaciones en múltiples ubicaciones.
+
+### Módulo 3: Seguridad contra intrusiones en la red
+- **Tácticas de intrusión**: ataques de interceptación (captura/alteración de tráfico), puertas traseras (acceso que elude controles normales) e impactos organizacionales: financieros, reputacionales y de seguridad pública.
+- **Ataques DoS/DDoS**: buscan saturar una red o servidor para interrumpir operaciones. Tipos comunes:
+   - **SYN flood**: inunda el servidor con paquetes SYN incompletos del protocolo de enlace TCP.
+   - **Inundación ICMP**: bombardeo de paquetes ICMP que consume el ancho de banda.
+   - **Ping of Death**: paquete ICMP sobredimensionado (>64 KB) que bloquea el sistema.
+   - **DDoS**: usa múltiples dispositivos (botnet) desde distintas ubicaciones, como el ataque Mirai a Dyn (2016).
+- **Análisis de tráfico con tcpdump**: analizador de protocolos de línea de comandos que captura paquetes mostrando marca de tiempo, IP/puerto de origen y destino. Usos: establecer líneas de base, detectar tráfico malicioso y crear alertas. Otras herramientas: Wireshark, SolarWinds, Azure Network Watcher.
+- **Sniffing de paquetes**: una NIC en modo promiscuo acepta todo el tráfico de la red; los atacantes la usan para robar información confidencial (pasivo) o manipular datos en tránsito (activo).
+- **Suplantación de IP (IP spoofing)**: el atacante falsifica la IP de origen para hacerse pasar por un sistema autorizado. Variantes:
+   - **Ataque en ruta (on-path)**: se interpone entre dos partes de confianza para interceptar o alterar datos; defensa principal: encriptación TLS.
+   - **Ataque de repetición (replay)**: intercepta y retransmite paquetes legítimos para suplantar usuarios.
+   - **Ataque Smurf**: combina suplantación de IP con DDoS mediante broadcast ICMP.
+- **Defensas clave**: configurar firewalls para rechazar tráfico entrante con IP de la red local, usar NGFW para detectar anomalías, y aplicar el principio de **defensa en profundidad** (múltiples capas de seguridad).
+
+### Módulo 4: Endurecimiento de seguridad
+- **Endurecimiento de seguridad (security hardening)**: proceso de reforzar sistemas para reducir vulnerabilidades y la superficie de ataque. Incluye actualizaciones, cambios de configuración, eliminación de software/servicios/puertos no utilizados y pruebas de penetración periódicas.
+- **Endurecimiento del OS**: actualizaciones de parches inmediatas (los atacantes explotan vulnerabilidades conocidas en sistemas sin parchear), configuraciones de línea base (baseline) para detectar cambios no autorizados, eliminación segura de hardware/software y políticas de contraseñas seguras con MFA.
+- **Ataques de fuerza bruta**: simples (ensayo y error) y de diccionario (listas de contraseñas comunes o robadas). Prevención: hash con salting, MFA/2FA, CAPTCHA y políticas de contraseñas.
+- **Evaluación de vulnerabilidades**: uso de máquinas virtuales (VM) y entornos aislados (sandbox) para probar software sospechoso y simular ataques sin riesgo para la red.
+- **Endurecimiento de la red**: mantenimiento de reglas de firewall, análisis de registros con SIEM ("panel único de cristal"), filtrado de puertos (solo los necesarios permitidos), desactivación de protocolos inalámbricos obsoletos, segmentación de red y encriptación de todas las comunicaciones.
+- **Herramientas de defensa en profundidad**:
+   - **Firewall**: permite/bloquea tráfico según reglas.
+   - **IDS**: detecta y alerta sobre intrusiones (firmas y anomalías), pero no las detiene.
+   - **IPS**: detecta y detiene activamente las intrusiones, aunque un fallo puede interrumpir la conexión.
+   - **SIEM**: (Splunk, Chronicle) agrega y correlaciona registros de toda la red en tiempo real.
+- **Endurecimiento de la nube**: gestión de identidades y accesos (IAM), imágenes de línea base de servidores, hipervisores (tipo 1 y 2, riesgo de VM escape), criptografía para datos en reposo y en tránsito, borrado criptográfico y gestión de claves (TPM, CloudHSM).
+- **Modelo de responsabilidad compartida**: el CSP protege la infraestructura de la nube; la organización es responsable de la configuración correcta de sus servicios y datos.
+- **Marco de Ciberseguridad del NIST (NIST CSF)**: aplicado a la respuesta de incidentes mediante cinco funciones: Identificar, Proteger, Detectar, Responder y Recuperar; usado para crear informes de incidentes y planes de mejora de la seguridad de red.
