@@ -36,3 +36,15 @@
    - Practicarás el uso de SQL para comunicarte con bases de datos.
    - Aprenderás cómo consultar una base de datos y filtrar los resultados.
    - También aprenderás cómo SQL puede unir múltiples tablas en una consulta.
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
