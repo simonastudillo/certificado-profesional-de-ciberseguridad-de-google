@@ -58,3 +58,40 @@
 - ​La mayoría de las veces aprendes lo suficiente como para ​ser lo suficientemente valioso en la parte inicial del proceso, y ​luego aprendes sobre la marcha.
 - ​Empieza escribiendo unas líneas de ​código simple o mirando el ​código de otra persona e intentando ​entender lo que hace y luego cámbialo un ​poco y trabaja gradualmente en ello.
 - ​Construya esa base de conocimiento ​que le dé la capacidad de aprender otras cosas, ​y creo que las cosas se derivarán de eso. 
+
+---
+
+## Arquitectura Linux
+- ​Al igual que los edificios, los sistemas operativos también tienen ​una arquitectura y se componen de ​componentes discretos que trabajan juntos para formar un todo. 
+- ​Los componentes de Linux incluyen el usuario, las aplicaciones, ​el shell, el Estándar de jerarquía del sistema de archivos, ​el kernel y el hardware.
+- ​No se preocupe, analizaremos ​estos componentes uno por uno.
+- ​En primer lugar, usted es el usuario.
+   - ​El usuario es la persona que interactúa con la computadora.
+   - ​En Linux, usted es el primer elemento ​de la arquitectura del sistema operativo.
+   - ​Estás iniciando las tareas o ​los comandos que va a ejecutar el sistema operativo.
+   - ​Linux es un sistema multiusuario.
+   - Esto significa que más de un usuario puede ​usar los recursos del sistema al mismo tiempo.
+- ​El segundo elemento de la arquitectura ​son las aplicaciones dentro de un sistema.
+   - ​Una aplicación es un programa ​que realiza una tarea específica, ​como un procesador de textos o una calculadora.
+   - ​Es posible que escuche que las palabras «aplicaciones» ​y «programas» se usan indistintamente.
+   - ​Como ejemplo, ​una aplicación popular de Linux ​sobre la que aprenderemos más adelante es Nano.
+   - ​Nano es un editor de texto. ​Esta sencilla aplicación ​te ayuda a mantener las notas en la pantalla.
+   - Las aplicaciones de Linux se ​distribuyen normalmente a través de administradores de paquetes.
+- ​El siguiente componente de la arquitectura ​de Linux es el shell.
+   - ​Este es un elemento importante porque ​es la forma en que se comunicará con el sistema.
+   - ​El shell es un intérprete de línea de comandos. ​Procesa los comandos y genera los resultados.
+   - ​Puede que esto te suene familiar.
+- ​Otro elemento de la arquitectura de ​Linux es el Estándar de jerarquía del sistema de archivos, ​o FHS.
+   - Es ​el componente del sistema operativo Linux que organiza los datos.
+   - ​Una manera fácil de pensar en ​el FHS es considerarlo como un archivador de datos.
+   - ​El FHS es la forma en que se almacenan los datos en un sistema.
+   - ​Es una forma de organizar los datos para poder ​encontrarlos cuando el sistema acceda a ellos.
+- Esto nos lleva al kernel.
+   - ​El kernel es un componente ​del sistema operativo Linux que administra los procesos y la memoria.
+   - ​El kernel se comunica con el hardware ​para ejecutar los comandos enviados por el shell.
+   - ​El kernel usa controladores para permitir que ​las aplicaciones ejecuten tareas.
+   - ​El kernel de Linux ayuda a garantizar que el sistema ​asigna los recursos de manera más eficiente ​y hace que el sistema funcione más rápido.
+- ​Por último, el último componente de ​la arquitectura es el hardware.
+   - El ​hardware se refiere a los componentes físicos de una computadora.
+   - ​Puede compararlo con las aplicaciones de software ​que se pueden descargar en un sistema.
+   - ​El hardware de su computadora son cosas ​como la CPU, el mouse y el teclado.
