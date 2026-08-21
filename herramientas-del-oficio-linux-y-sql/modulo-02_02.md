@@ -216,3 +216,8 @@ apt list --installed | grep tcpdump.
 sudo apt install suricata
 apt list --installed | grep -E 'suricata|tcpdump'
 ```
+
+---
+
+## Ejemplo opcional: Instalar software en una distribución Linux
+- Mismo laboratorio que el anterior.
