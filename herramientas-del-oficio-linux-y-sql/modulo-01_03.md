@@ -122,3 +122,29 @@
 2. When the user saves the document, the application communicates with the OS
 3. OS saves the file to a hardware component, called the hard drive.
 4. Hard drive confirms file was saved, communicates this to OS. OS indicates this within the application
+
+---
+
+## Asignación de Recursos a través del OS
+- ​No sólo el OS ​interactúa con otras partes de su computadora, ​sino que también es responsable de ​gestionar los recursos del sistema.
+- ​Esta es una gran tarea que requiere mucho equilibrio para ​asegurarse de que todos los recursos de ​la computadora se utilizan de manera eficiente.
+- ​Piense en esto como en el concepto de energía.
+- ​Una persona necesita energía para completar diferentes tareas.
+- ​Algunas tareas necesitan más energía, ​mientras que otras requieren menos. 
+- Por ejemplo, salir a correr ​requiere más energía que ver la televisión.
+- ​El OS de una computadora también necesita asegurarse de que ​tiene suficiente energía para ​funcionar correctamente en determinadas tareas.
+- ​Ejecutar un antivirus en su computadora consumirá ​más energía que utilizar la aplicación de la calculadora.
+- ​Imagínese que su computadora es una orquesta.
+- ​Muchos instrumentos diferentes como violines, ​batería y trompetas forman parte de la orquesta.
+- ​Una orquesta también tiene ​un director para dirigir el flujo de la música. 
+- En una computadora, el OS es el director.
+- ​El OS se encarga de la administración de los recursos y la memoria para garantizar ​que la capacidad limitada del ​sistema informático se utilice donde más se necesita.
+- ​Una variedad de programas, tareas, ​y procesos compiten constantemente por ​los recursos de la unidad central de procesamiento, o CPU.
+- ​Todos ellos tienen sus propias razones por las que necesitan memoria, ​almacenamiento y ancho de banda de entrada/salida.
+- ​El OS se encarga de garantizar que ​cada programa asigne y desasigne recursos.
+- ​Todo esto ocurre en su computadora al ​mismo tiempo para que su sistema funcione eficientemente.
+- ​Mucho de esto está oculto para usted como usuario.
+- ​Pero su gestor de tareas ​le mostrará una lista de todas ​las tareas que se están procesando, ​junto con su uso de memoria y CPU.
+- ​Como analista, es útil saber ​dónde se utilizan los recursos de un sistema.
+- ​Comprender el uso de los recursos puede ayudarle a responder ​a un incidente y a solucionar ​problemas de aplicaciones en el sistema.
+- ​Por ejemplo, si una computadora funciona con lentitud, ​un analista podría descubrir ​que está asignando recursos a software malicioso.
