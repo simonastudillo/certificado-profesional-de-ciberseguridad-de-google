@@ -34,3 +34,37 @@
 - ​Como puede ver, hay ​diferencias muy grandes en ​estos dos tipos de interfaces de usuario.
 - ​Como analista de seguridad, ​parte de su trabajo puede incluir la interfaz de línea de comandos.
 - ​Al analizar los registros o ​autenticar y autorizar a los usuarios, los ​analistas de Seguridad suelen utilizar una ​CLI en su trabajo diario.
+
+---
+
+## La línea de comandos en uso
+- CLI frente a GUI
+   - Una interfaz gráfica de usuario (GUI) es una interfaz de usuario que utiliza iconos en la pantalla para gestionar diferentes tareas en la computadora.
+   - Una interfaz de línea de comandos (CLI ) es una interfaz de usuario basada en texto que utiliza comandos para interactuar con el ordenador.
+- Pantalla
+   - Una diferencia notable entre estas dos interfaces es cómo aparecen en la pantalla.
+   - Una GUI tiene gráficos e iconos, como los iconos del escritorio o de la barra de tareas para lanzar programas.
+   - Por el contrario, una CLI sólo tiene texto.
+   - Su aspecto es similar al de líneas de código.
+- Función
+   - Estas dos interfaces también difieren en su función.
+   - Una GUI es una interfaz que sólo le permite realizar una petición a la vez.
+   - Sin embargo, una CLI le permite realizar varias peticiones a la vez.
+
+- Ventajas de una CLI en ciberseguridad
+   - La elección entre utilizar una GUI o una CLI se basa en parte en las preferencias personales, pero los analistas de Seguridad deberían ser capaces de utilizar ambas interfaces.
+   - El uso de una CLI puede proporcionar ciertas ventajas.
+- Eficacia
+   - Algunos prefieren la CLI porque se puede utilizar más rápidamente cuando se sabe cómo gestionar esta interfaz.
+   - Para un nuevo usuario, una GUI puede ser más eficiente porque son más fáciles de navegar para los principiantes. 
+   - Debido a que una CLI puede aceptar múltiples peticiones a la vez, es más potente cuando necesita realizar múltiples tareas de forma eficiente.
+   - Por ejemplo, si tuviera que crear múltiples archivos nuevos en su sistema, podría realizar esta tarea rápidamente en una CLI.
+   - Si utilizara una GUI, esto podría llevarle mucho más tiempo, porque tendría que repetir los mismos pasos para cada nuevo archivo.
+- Archivo de Historia
+   - Para los analistas de Seguridad, el uso de la CLI de Linux es útil porque registra un archivo de historia de todos los comandos y acciones en la CLI.
+   - Si estuviera utilizando una GUI, sus acciones no se guardan necesariamente en un archivo de Historia.
+   - Por ejemplo, podría encontrarse en una situación en la que está respondiendo a un Incidente utilizando un Manual de estrategias.
+   - Las instrucciones del libro de jugadas requieren que ejecute una serie de comandos diferentes.
+   - Si utilizara una CLI, podría volver al historial y asegurarse de que todos los comandos se utilizaron correctamente.
+   - Esto podría ser útil si tuviera problemas al utilizar el Manual de estrategias y tuviera que revisar los pasos que realizó en la línea de comandos.
+   - Además, si sospecha que un atacante ha comprometido su sistema, podría ser capaz de rastrear sus acciones utilizando el archivo del historial.
