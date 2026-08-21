@@ -236,3 +236,35 @@ apt list --installed | grep -E 'suricata|tcpdump'
    - Como analista de seguridad, es probable que necesite saber cómo instalar y administrar aplicaciones en un sistema operativo Linux.
    - En esta actividad de laboratorio, aprenderás cómo hacer exactamente eso.
    - Este ejemplo es un recorrido de la actividad previa de Qwiklab, incluyendo instrucciones detalladas y soluciones.
+
+---
+
+## Ponga a prueba sus Conocimientos: Distribuciones Linux
+
+1. Rellene el espacio en blanco: Dado que _____ es de código abierto, cualquiera puede modificarlo para crear nuevas distribuciones de Linux
+- [ ] aplicación
+- [x] kernel
+- [ ] shell
+- [ ] hardware
+> Dado que el kernel es de código abierto, cualquiera puede modificarlo para crear nuevas distribuciones de Linux. El kernel es el componente del OS Linux que gestiona los procesos y la memoria.
+
+2. ¿Qué es KALI LINUX?
+- [ ] Una distribución de Linux por suscripción creada para uso empresarial
+- [ ] Una herramienta utilizada para adivinar contraseñas
+- [x] Una distribución de Linux de código abierto derivada de Debian y diseñada para tareas de Seguridad
+- [ ] Una herramienta con una interfaz gráfica de usuario que puede utilizarse para analizar el tráfico de red en directo y capturado
+> KALI LINUX es una distribución de Linux de código abierto derivada de Debian y diseñada para tareas de Seguridad, como pruebas de penetración y análisis forense digital.
+
+3. ¿Qué es una distribución de código abierto y fácil de usar derivada de Debian que se utiliza ampliamente en seguridad y otras industrias?
+- [ ] tcpdump
+- [ ] Red Hat
+- [x] Ubuntu
+- [ ] Autopsia
+> Ubuntu es una distribución de código abierto y fácil de usar derivada de Debian que se utiliza ampliamente en el sector de la Seguridad y otros sectores. Debido a su amplio uso, Ubuntu cuenta con un gran número de recursos comunitarios de apoyo a los usuarios.
+
+4. ¿Cuáles de las siguientes son distribuciones de Linux? Seleccione todas las que correspondan
+- [ ] Prueba de penetración
+- [x] Red Hat
+- [x] CentOS
+- [x] Parrot
+> Red Hat, CentOS y Parrot son distribuciones de Linux.
