@@ -201,7 +201,7 @@
 
 5. Reinstala la aplicación Suricata
 - Para reinstalar Suricata, ejecuta el comando sudo apt install suricata.
-- Ahora verificamos su intalación ejecuta apt list --installed | grep suricata.
+- Ahora verificamos su instalación ejecuta apt list --installed | grep suricata.
 - Para verificar ambas aplicaciones, ejecuta apt list --installed | grep -E 'suricata|tcpdump'
 
 - Listado de comandos utilizados en este laboratorio
@@ -221,3 +221,18 @@ apt list --installed | grep -E 'suricata|tcpdump'
 
 ## Ejemplo opcional: Instalar software en una distribución Linux
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Instalar software en una distribución Linux
+- Resumen de la actividad
+   - En esta actividad de laboratorio, usted utilizó la Herramienta de Paquetes Avanzada (APT) y sudo para instalar y desinstalar aplicaciones en un shell Bash de Linux.
+   - Si bien la instalación de aplicaciones Linux puede ser una tarea compleja, el administrador de paquetes APT maneja la mayor parte de esta complejidad por usted y le permite administrar las aplicaciones en un entorno Linux de manera rápida y confiable.
+   - Ha utilizado Suricata y tcpdump como ejemplo.
+   - Se trata de aplicaciones de Seguridad de red que pueden utilizarse para capturar y analizar el tráfico de red.
+   - La máquina virtual a la que accedió en este laboratorio tiene una distribución de Linux basada en Debian en ejecución, y que funciona con el administrador de paquetes APT.
+   - El uso de una máquina virtual evita daños a un sistema en caso de que sus herramientas se utilicen incorrectamente.
+   - También le da la posibilidad de volver a un estado anterior.
+   - Como analista de seguridad, es probable que necesite saber cómo instalar y administrar aplicaciones en un sistema operativo Linux.
+   - En esta actividad de laboratorio, aprenderás cómo hacer exactamente eso.
+   - Este ejemplo es un recorrido de la actividad previa de Qwiklab, incluyendo instrucciones detalladas y soluciones.
