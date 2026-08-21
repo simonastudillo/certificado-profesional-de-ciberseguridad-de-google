@@ -158,3 +158,13 @@
          - Es donde se almacenan los programas y archivos para que la computadora pueda acceder a ellos más tarde.
          - Se puede acceder a la Información del disco duro incluso después de apagar y volver a encender la computadora.
          - Una computadora puede tener varios discos duros.
+
+---
+
+## Explore: Componentes del OS Linux
+- User: The user decides to create a new file.
+- Application: The user opens the application for communicating with the shell
+- Shell: The user enters commands in the shell to indicate they want to create a new file.
+- Filesystem Hierarchy Standard (FHS): The shell creates the new file in the FHS.
+- Kernel: The contents and location of the new file are passed to the kernel.
+- Hardware: The kernel tells the hardware how and where to save this new file.
