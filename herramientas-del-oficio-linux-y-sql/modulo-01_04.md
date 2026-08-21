@@ -68,3 +68,21 @@
    - Si utilizara una CLI, podría volver al historial y asegurarse de que todos los comandos se utilizaron correctamente.
    - Esto podría ser útil si tuviera problemas al utilizar el Manual de estrategias y tuviera que revisar los pasos que realizó en la línea de comandos.
    - Además, si sospecha que un atacante ha comprometido su sistema, podría ser capaz de rastrear sus acciones utilizando el archivo del historial.
+
+---
+
+## Actividad: Seleccionar la interfaz de usuario
+- En este ejercicio, revisará varios escenarios y decidirá si sería más eficaz una interfaz gráfica de usuario (GUI) o una interfaz de línea de comandos (CLI)
+- También deberá explicar su razonamiento
+- Después de enviar su reflexión, podrá comparar sus respuestas con los comentarios proporcionados.
+
+1. Usted es un profesional de la Seguridad que está entrenando a todos los empleados de su empresa en la creación de una contraseña segura. Usted les explica diferentes estrategias que pueden utilizar para hacer que las contraseñas sean seguras. También demuestra cómo cambiar las contraseñas. Sus compañeros de equipo tienen una amplia gama de conocimientos técnicos
+- En este escenario, ¿debería utilizar una GUI o una CLI para demostrar cómo cambiar las contraseñas? Explique su razonamiento en 2-3 frases.
+> Para este caso, recomendaría utilizar una GUI para demostrar cómo cambiar las contraseñas. La GUI podrá manejar y validar correctamente que se cumplan los requisitos de seguridad de la contraseña, y los empleados con menos conocimientos técnicos podrán seguir fácilmente el proceso visualmente, lo que facilita la comprensión y la retención de la información.
+2. Está revisando los archivos de registro de un departamento de su empresa. Se supone que los nombres de los archivos de registro deben incluir el nombre del departamento. Después de revisar varios archivos de registro, se da cuenta de que los nombres de los archivos no incluyen el nombre del departamento. Decide cambiar el nombre de todos los archivos de registro de este departamento. Hay cientos de archivos de registro.
+- En este escenario, ¿debería utilizar una GUI o una CLI para renombrar los archivos de registro? Explique su razonamiento en 2-3 frases.
+> En este caso, sería más eficaz utilizar la CLI para renombrar los archivos de registro. Se puede realizar mediante el uso de un comando que permita renombrar múltiples archivos a la vez, lo que ahorra tiempo y esfuerzo en comparación con la GUI, donde tendría que renombrar cada archivo individualmente.
+
+3. Está instalando varias aplicaciones. Le conviene mantener un historial de comandos mientras instala las aplicaciones. Esto le permitirá comprobar más tarde que ha instalado todas las aplicaciones necesarias y que lo ha hecho correctamente
+- En este escenario, ¿debería utilizar una GUI o una CLI para instalar las aplicaciones? Explique su razonamiento en 2-3 frases.
+> En este caso, sería más eficaz utilizar la CLI para instalar las aplicaciones. La CLI permite mantener un historial de comandos, lo que facilita la verificación posterior de que todas las aplicaciones se han instalado correctamente y en el orden adecuado, algo que no se puede hacer fácilmente con una GUI.
