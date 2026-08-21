@@ -168,3 +168,33 @@
 - Filesystem Hierarchy Standard (FHS): The shell creates the new file in the FHS.
 - Kernel: The contents and location of the new file are passed to the kernel.
 - Hardware: The kernel tells the hardware how and where to save this new file.
+
+---
+
+## Ponga a prueba sus Conocimientos: Todo sobre Linux
+
+1. Como analista de Seguridad, podría utilizar Linux para revisar los registros cuando investigue un Problema
+- [x] Verdadero
+- [ ] Falso
+> Como analista de Seguridad, podría utilizar Linux para revisar los registros cuando investigue un Problema. Otra razón por la que podría utilizar Linux es para verificar el acceso y la autorización
+
+2. ¿Cuáles de los siguientes son componentes de la arquitectura Linux? Seleccione todo lo que corresponda
+- [x] El kernel
+- [ ] El sistema operativo
+- [x] Aplicaciones
+- [x] El shell
+> Los componentes de la arquitectura Linux incluyen las aplicaciones, el shell y el kernel. El usuario, el Estándar de jerarquía del sistema de archivos (FHS) y el hardware también son componentes de la arquitectura Linux.
+
+3. Rellene el espacio en blanco: El Estándar de jerarquía del sistema de archivos (FHS) es el componente de la arquitectura Linux que _____.
+- [ ] consiste en los componentes físicos de una computadora
+- [ ] gestiona los procesos y la memoria
+- [ ] permite a las personas comunicarse con el sistema
+- [x] organiza los datos
+> El Estándar de jerarquía del sistema de archivos (FHS) es el componente del OS Linux que organiza los datos.
+
+4. ¿Cuáles de los siguientes componentes de hardware son dispositivos periféricos? Seleccione todos los que correspondan
+- [ ] una CPU
+- [x] una impresora
+- [x] un monitor
+- [ ] RAM
+> Los monitores y las impresoras son dispositivos periféricos. Los dispositivos periféricos son componentes de hardware que están conectados y controlados por el sistema de la computadora. La CPU y la RAM son hardware interno. Hardware interno son los componentes necesarios para hacer funcionar la computadora.
