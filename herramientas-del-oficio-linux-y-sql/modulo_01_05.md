@@ -11,3 +11,8 @@
 - ​Comprender la interfaz de línea de comandos será muy importante para su trabajo.
 - ​Disfruté explorando el mundo de los sistemas operativos con usted.
 - ​Conocer cómo funcionan los sistemas operativos es un paso importante en la preparación para ​un puesto como analista de seguridad. 
+
+---
+
+## Términos del glosario del Módulo 1
+- El glosario completo se encuentra [aquí](./README.md#glosario)
