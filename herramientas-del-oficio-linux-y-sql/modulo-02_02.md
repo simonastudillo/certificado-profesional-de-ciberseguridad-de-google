@@ -49,3 +49,22 @@
 - ​Tiene una interfaz gráfica de usuario que puede utilizarse para analizar en directo y ​capturar tráfico de red.
 - ​Y como último ejemplo, ​Autopsy es una herramienta forense utilizada para analizar discos duros y smartphones.
 - ​Esta distribución cuenta con muchas herramientas utilizadas para llevar a cabo pruebas de penetración y análisis forenses digitales.
+
+---
+
+## Más distribuciones de Linux
+- KALI LINUX
+   - KALI LINUX es una distribución de código abierto de Linux que se utiliza ampliamente en la industria de la seguridad.
+   - Esto se debe a KALI LINUX, que está basado en Debian, está preinstalado con muchas herramientas útiles para pruebas de penetración y Análisis forense digital.
+   - Una prueba de penetración es un ataque simulado que ayuda a identificar vulnerabilidades en sistemas, redes, sitios web, aplicaciones y procesos.
+   - Análisis forense digital es la práctica de recopilar y analizar datos para determinar qué ha ocurrido tras un ataque.
+   - Se trata de actividades clave en el sector de la seguridad.
+
+- Ubuntu
+   - Ubuntu es una distribución de código abierto y fácil de usar que se utiliza ampliamente en la seguridad y otras industrias.
+   - Tiene tanto una interfaz de línea de comandos (CLI) y una interfaz gráfica de usuario (GUI).
+   - Ubuntu también deriva de Debian e incluye aplicaciones comunes por defecto.
+   - Los usuarios también pueden descargar muchas más aplicaciones desde un administrador de paquetes, incluidas herramientas centradas en la seguridad.
+   - Debido a su amplio uso, Ubuntu cuenta con un número especialmente elevado de recursos comunitarios de apoyo a los usuarios.
+   - Ubuntu también se utiliza mucho para la computación en la nube.
+   - A medida que las organizaciones migran a servidores en la nube, el trabajo de ciberseguridad puede implicar más regularmente a los derivados de Ubuntu.
