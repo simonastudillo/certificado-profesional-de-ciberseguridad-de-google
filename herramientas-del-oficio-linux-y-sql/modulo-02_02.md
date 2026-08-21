@@ -136,3 +136,10 @@
 - El temporizador
 - Botón Abrir Consola Linux
 - Comprobar el progreso
+
+---
+
+## Consejos de laboratorio y pasos para la solución de problemas
+- Requisito de edad de 18+ para utilizar la plataforma
+- Compatibilidad del navegador: última versión de Google Chrome, Firefox o Microsoft Edge
+- Conexión a Internet
