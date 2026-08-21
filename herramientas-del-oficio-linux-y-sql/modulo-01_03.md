@@ -203,3 +203,33 @@
    - Algunas de estas tecnologías de virtualización no utilizan sistemas operativos.
    - Por ejemplo, se pueden crear varios servidores virtuales a partir de un único servidor físico. 
    - También pueden crearse redes virtuales para utilizar de forma más eficiente el hardware de una red física.
+
+---
+
+## Ponga a prueba sus Conocimientos: El sistema operativo en el trabajo
+
+1. ¿Cuál es la función del sistema operativo de una computadora?
+- [ ] Cargar el Cargador de arranque
+- [ ] Permitir a los usuarios especificar tareas
+- [x] Ayude a que otros programas de ordenador funcionen con eficacia
+- [ ] Encienda la computadora
+> El trabajo de un sistema operativo de computadora es ayudar a que otros programas de computadora funcionen eficientemente. Para ello, gestiona los detalles relacionados con el control del hardware de la computadora.
+
+2. Rellene el espacio en blanco: Para realizar tareas en una computadora, los usuarios interactúan directamente con _____
+- [ ] la BIOS
+- [ ] gestores de tareas
+- [ ] la CPU
+- [x] aplicaciones
+> Los usuarios interactúan con las aplicaciones para realizar tareas en una computadora. Las aplicaciones son programas que realizan una tarea específica.
+
+3. La gestión de los Recursos y la memoria de una computadora corre a cargo de una aplicación.
+- [ ] Verdadero
+- [x] Falso
+> La gestión de los Recursos y la memoria de una computadora corre a cargo de su sistema operativo. El sistema operativo garantiza que la capacidad limitada del sistema informático se utilice donde más se necesita. 
+
+4. ¿Cuál de los siguientes procesos forma parte del inicio de un sistema operativo? Seleccione todos los que correspondan
+- [x] El Cargador de arranque inicia el sistema operativo.
+- [x] El microchip BIOS o UEFI carga el Cargador de arranque.
+- [x] El microchip BIOS o UEFI se activa cuando un usuario enciende una computadora.
+- [ ] El Cargador de arranque se lanza inmediatamente cuando un usuario enciende un ordenador.
+> El microchip de la BIOS o de la UEFI se activa cuando un usuario enciende una computadora. El microchip de la BIOS o de la UEFI carga el cargador de arranque y éste inicia el sistema operativo.
