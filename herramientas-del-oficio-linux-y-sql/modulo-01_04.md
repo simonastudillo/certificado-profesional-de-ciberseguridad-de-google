@@ -103,3 +103,33 @@
 - Puede parecer que sólo alguien con un título en informática podría ​entender las cosas, pero estos conceptos, ​estas tecnologías son comprensibles por cualquiera.
 - ​Así que no deje nunca que el hecho de no tener una formación técnica se ​interponga en su camino, simplemente elija un área que le interese y empiece a sumergirse en ella.
 - ​Y siempre que tenga curiosidad, y siempre que le resulte interesante, ​aprenderá la tecnología. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Interfaz de usuario
+
+1. ¿Qué es una GUI?
+- [ ] Una interfaz de usuario que permite a las personas interactuar con una computadora a través de comandos
+- [x] Interfaz de usuario que permite gestionar tareas en una computadora mediante iconos
+- [ ] Una interfaz de usuario que sólo funciona en sistemas operativos Linux
+- [ ] Una interfaz de usuario que sólo funciona en dispositivos móviles
+> Una GUI, o interfaz gráfica de usuario, es una interfaz de usuario que permite a las personas gestionar tareas en una computadora utilizando iconos. La mayoría de los sistemas operativos pueden utilizarse con una GUI.
+
+2. ¿Cuáles de los siguientes pueden ser componentes de una GUI? Seleccione todo lo que corresponda
+- [x] Menú de inicio
+- [ ] Hardware
+- [x] Iconos y accesos directos del escritorio
+- [x] Barra de tareas
+> Un menú de inicio es un componente común de una GUI. Los iconos del escritorio y los accesos directos son componentes habituales de una GUI. Una barra de tareas es un componente común de una GUI.
+
+3. Rellene el espacio en blanco: Un profesional de la Seguridad utiliza a(n) _____ para interactuar con una computadora mediante instrucciones basadas en texto.
+- [ ] GUI
+- [ ] Sistema operativo
+- [ ] Sistema de texto
+- [x] CLI
+> Un profesional de la Seguridad utiliza una CLI, o interfaz de línea de comandos, para interactuar con una computadora mediante instrucciones basadas en texto.
+
+4. Una Característica útil de una CLI es que registra un archivo de Historia de comandos y acciones.
+- [x] Verdadero
+- [ ] Falso
+> Una Característica útil de una CLI es que registra un archivo de historia de comandos y acciones. Esto puede ayudar a los analistas de Seguridad a confirmar que utilizaron los comandos correctos de un Manual de estrategias. También puede ayudarles a rastrear las acciones de un atacante.
