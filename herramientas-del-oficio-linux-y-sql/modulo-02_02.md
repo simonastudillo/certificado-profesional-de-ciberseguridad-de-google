@@ -135,3 +135,4 @@
 - Botón Start Lab
 - El temporizador
 - Botón Abrir Consola Linux
+- Comprobar el progreso
