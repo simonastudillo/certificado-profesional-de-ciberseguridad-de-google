@@ -127,3 +127,11 @@
    - YUM es una herramienta utilizada con las distribuciones derivadas de Red Hat.
    - Se ejecuta desde la interfaz de línea de comandos para gestionar, buscar e instalar paquetes.
    - YUM trabaja con archivos .rpm.
+
+---
+
+## Recursos para completar los laboratorios de Linux
+- Iniciar Qwiklabs
+- Botón Start Lab
+- El temporizador
+- Botón Abrir Consola Linux
