@@ -143,3 +143,76 @@
 - Requisito de edad de 18+ para utilizar la plataforma
 - Compatibilidad del navegador: última versión de Google Chrome, Firefox o Microsoft Edge
 - Conexión a Internet
+
+---
+
+## Actividad: Instalar software en una distribución Linux
+- Introducción
+   - En este laboratorio, aprenderá a instalar y desinstalar aplicaciones en Linux.
+   - Utilizará comandos de Linux en el shell Bash para completar este laboratorio.
+   - También utilizará el administrador de paquetes Advanced Package Tool (APT) para instalar y desinstalar las aplicaciones Suricata y tcpdump.
+
+- Lo que hará
+   - Confirmar que APT está instalado en Bash
+   - Instalar Suricata con APT
+   - Desinstalar Suricata con APT
+   - Instalar tcpdump con APT
+   - Reinstalar Suricata con APT
+
+- Resumen de la actividad
+   - En este lab, usarás la Advanced Package Tool (APT) y sudo para instalar y desinstalar aplicaciones en una shell Bash de Linux.
+   - Si bien instalar aplicaciones de Linux puede ser una tarea compleja, el administrador de paquetes APT se encarga de la mayor parte, y te permite gestionar de forma rápida y confiable las aplicaciones en un entorno de Linux.
+   - Usarás Suricata y tcpdump como ejemplo.
+   - Se trata de aplicaciones destinadas a la seguridad de red que se pueden utilizar para capturar y analizar tráfico de red.
+   - La máquina virtual a la que accedes en este lab tiene una distribución de Linux basada en Debian y funciona con el administrador de paquetes APT.
+   - Usar una máquina virtual evita que el sistema se dañe en caso de que sus herramientas se utilicen de forma inadecuada.
+   - Además, te da la capacidad de revertir el sistema a un estado anterior.
+   - Como analista de seguridad, es probable que debas saber cómo instalar y administrar aplicaciones en el sistema operativo Linux.
+   - Eso es exactamente lo que aprenderás en este lab.
+
+- Situación
+   - Tu rol como analista de seguridad requiere que instales en tu sistema las aplicaciones Suricata y tcpdump para la seguridad de red.
+   - En este caso, debes instalar, desinstalar y reinstalar estas aplicaciones en tu shell Bash de Linux.
+   - También debes confirmar que las instalaste correctamente.
+   - Estos son los pasos que seguirás:
+      1. Confirmarás que la aplicación APT está instalada en tu shell Bash de Linux.
+      2. Usarás APT para instalar la aplicación Suricata y confirmarás esta acción.
+      3. Desinstalarás la aplicación Suricata y también confirmarás esta acción.
+      4. Instalarás la aplicación tcpdump y generarás una lista de todas las aplicaciones actualmente instaladas.
+      5. Reinstalarás la aplicación Suricata y confirmarás que ambas aplicaciones están instaladas.
+
+- Comienza el lab
+
+1. Asegúrate de que la aplicación APT esté instalada
+- Para verificar que APT está instalado, ejecuta el comando apt en la ventana de línea de comandos.
+- Si APT está instalado, verás un mensaje que indica que APT es una herramienta de gestión de paquetes.
+
+2. Instala y desinstala la aplicación Suricata
+- Instalamos Suricata con el comando sudo apt install suricata.
+- Podemos verificar que está instalada ejecutando el comando suricata.
+- Para desinstalar Suricata, ejecuta el comando sudo apt remove suricata
+
+3. Instala la aplicación tcpdump
+- Para instalar tcpdump, ejecuta el comando sudo apt install tcpdump.
+
+4. Genera una lista de las aplicaciones instaladas
+- Para ver la lista de aplicaciones instaladas, ejecuta el comando apt list --installed.
+- Para filtrar la lista y ver solo tcpdump, ejecuta el comando apt list --installed | grep tcpdump.
+
+5. Reinstala la aplicación Suricata
+- Para reinstalar Suricata, ejecuta el comando sudo apt install suricata.
+- Ahora verificamos su intalación ejecuta apt list --installed | grep suricata.
+- Para verificar ambas aplicaciones, ejecuta apt list --installed | grep -E 'suricata|tcpdump'
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+apt
+sudo apt install suricata
+suricata 
+sudo apt remove suricata
+suricata # -bash: /usr/bin/suricata: No such file or directory
+sudo apt install tcpdump
+apt list --installed | grep tcpdump.
+sudo apt install suricata
+apt list --installed | grep -E 'suricata|tcpdump'
+```
