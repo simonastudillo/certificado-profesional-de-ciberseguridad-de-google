@@ -12,7 +12,7 @@
 
 ---
 
-## Introducción a LinuxEstado
+## Introducción a Linux
 -  ​Linux es un sistema operativo de código abierto.
 - ​Se creó en dos partes.
 - ​A principios de la década de 1990, dos personas diferentes trabajaban por separado en proyectos para ​mejorar la ingeniería informática.
@@ -41,3 +41,20 @@
 - ​Por último, como analista, podría encontrarse trabajando ​con distribuciones específicas diseñadas para una tarea concreta.
 - ​Por ejemplo, podría utilizar una distribución que tenga una herramienta forense digital ​para investigar lo ocurrido en una alerta de evento.
 - ​También podría utilizar una distribución que sea para ​pruebas de penetración en seguridad ofensiva para buscar vulnerabilidades en el sistema.
+
+---
+
+## Phil: Aprender y crecer en el campo de la ciberseguridad
+-  ​Cuando te adentras por primera vez en la ciberseguridad, ​es importante que no te sientas abrumado.
+- ​Es un espacio muy grande.
+- ​Y todos empezamos donde estás hoy. ​Y tuvimos que aprender a hacerlo.
+- ​En un momento dado, no conocía Linux, ​no sabía programar.
+- ​No conocía varias partes de otros sistemas operativos.
+- ​Y tuve que aprender paso a paso ​cómo funcionaba todo eso y ​acumular gradualmente ese conocimiento con el tiempo.
+- E incluso ahora todavía tengo que ​buscar cosas de vez en cuando porque ​no guardo todo en mi cabeza de ​una vez y eso está totalmente bien.
+- ​Cuando te acercas a una nueva situación, ​siempre tendrás cierto grado de ansiedad ​por saber si vas ​a poder aprenderla con la suficiente rapidez.
+- ​Y, en general, con suficiente experiencia, poco a ​poco te sientes cómodo de que lo harás.
+- ​Pero, una vez más, es importante recordar que no es ​necesario que aprendas todo sobre todo de una sola vez.
+- ​La mayoría de las veces aprendes lo suficiente como para ​ser lo suficientemente valioso en la parte inicial del proceso, y ​luego aprendes sobre la marcha.
+- ​Empieza escribiendo unas líneas de ​código simple o mirando el ​código de otra persona e intentando ​entender lo que hace y luego cámbialo un ​poco y trabaja gradualmente en ello.
+- ​Construya esa base de conocimiento ​que le dé la capacidad de aprender otras cosas, ​y creo que las cosas se derivarán de eso. 
