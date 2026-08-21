@@ -86,3 +86,20 @@
 3. Está instalando varias aplicaciones. Le conviene mantener un historial de comandos mientras instala las aplicaciones. Esto le permitirá comprobar más tarde que ha instalado todas las aplicaciones necesarias y que lo ha hecho correctamente
 - En este escenario, ¿debería utilizar una GUI o una CLI para instalar las aplicaciones? Explique su razonamiento en 2-3 frases.
 > En este caso, sería más eficaz utilizar la CLI para instalar las aplicaciones. La CLI permite mantener un historial de comandos, lo que facilita la verificación posterior de que todas las aplicaciones se han instalado correctamente y en el orden adecuado, algo que no se puede hacer fácilmente con una GUI.
+
+---
+
+## Ellen Mi ruta de acceso a la ciberseguridad
+- ​Una de las especialidades que acabé teniendo fue el diseño de API o ​el diseño de la interfaz por la que un desarrollador se comunica con la máquina.
+- ​Como parte de eso, me metí en un trabajo en el que estaba diseñando una versión en miniatura de ​un sistema operativo para tecnología de seguridad y ​empecé a aprender seguridad desde allí. 
+- La mayoría de la gente que conozco de la Seguridad cibernética, especialmente en los primeros tiempos, ​no tienen ningún título.
+- ​O si lo tienen, tienen un título como yo en algo como filosofía o poesía.
+- ​Casi todo el mundo aprendió por su cuenta experimentando, ​hablando con la gente, leyendo.
+- ​Así que yo diría que no es necesaria ninguna formación técnica. 
+- Y de hecho, tener una formación en la que estés acostumbrado a estar en el mundo real ​puede a veces hacer que la Ciberseguridad tenga más sentido y ​ayudarte a tomar decisiones más equilibradas
+- En casi todas las áreas, hay una comunidad de seguridad que puedes encontrar. 
+- ​He descubierto que la mayoría de la gente si se acerca a ellos y les dice, oye, eres muy bueno en ​esta cosa, ¿te importaría si te invito a un café y me enseñas cómo hacerlo? ​Siempre dirán que sí.
+- ​El consejo que doy a la gente que no tiene formación técnica, el primero es, ​yo no tendría miedo de la tecnología. 
+- Puede parecer que sólo alguien con un título en informática podría ​entender las cosas, pero estos conceptos, ​estas tecnologías son comprensibles por cualquiera.
+- ​Así que no deje nunca que el hecho de no tener una formación técnica se ​interponga en su camino, simplemente elija un área que le interese y empiece a sumergirse en ella.
+- ​Y siempre que tenga curiosidad, y siempre que le resulte interesante, ​aprenderá la tecnología. 
