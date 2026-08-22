@@ -156,3 +156,8 @@ clear
 # comandos opcionales
 expr 100 / 4
 ```
+
+---
+
+## Ejemplo opcional: Examinar la entrada y la salida en el shell
+- Mismo laboratorio que el anterior.
