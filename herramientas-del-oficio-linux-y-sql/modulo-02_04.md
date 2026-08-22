@@ -6,3 +6,8 @@
 - ​En nuestra exploración de ​las diferentes distribuciones de Linux, ​discutimos algunas de las distribuciones más ​ampliamente utilizadas en Seguridad.
 - ​Le presentamos las distribuciones KALI LINUX™, Ubuntu, ​Parrot, Red Hat y CentOS.
 - ​Por último, aprendió sobre el shell y ​su función como intérprete ​entre el usuario y el sistema operativo.
+
+---
+
+## Términos del glosario del Módulo 2Estado
+- El glosario completo se encuentra [aquí](./README.md#glosario)
