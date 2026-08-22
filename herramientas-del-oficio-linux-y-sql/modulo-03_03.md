@@ -76,3 +76,48 @@
 - Luego viene el nombre del grupo; ​en nuestro caso, el grupo de Seguridad.
 - ​Ahora utilicemos `ls -a` ​La salida incluye dos archivos más-archivos ocultos ​con los nombres: .hidden1.txt ​y .hidden2.txt
 - ​Por último, también podemos utilizar `​ls -la` para mostrar los permisos de todos los archivos, ​incluidos estos archivos ocultos.
+
+---
+
+## Cambiar permisos
+- ​​Cuando se trabaja como analista de seguridad, ​puede haber muchas razones para ​cambiar los permisos de un usuario.
+- ​Un usuario puede haber cambiado de departamento ​o haber sido asignado a un grupo de trabajo diferente.
+- ​Un usuario puede simplemente dejar de trabajar en ​un proyecto que requiere ciertos permisos.
+- ​Estos cambios son necesarios para proteger ​los archivos del sistema de ser ​accidental o deliberadamente alterados o borrados.
+- ​Exploremos un comando relacionado ​que ayuda a controlar este acceso.
+- ​chmod cambia los permisos en archivos y directorios.
+- ​El comando chmod significa modo de cambio.
+- ​Hay dos modos para cambiar los permisos, ​pero nos centraremos en el simbólico.
+- La mejor manera de ​aprender cómo funciona chmod es a través de un ejemplo.
+- ​Sé que esto tiene muchos detalles, ​pero lo desglosaremos.
+- ​Tenga en cuenta también que, como muchos comandos de Linux, ​no tiene que memorizar ​la información y siempre puede encontrar una referencia.
+- ​Con chmod, necesita identificar para qué ​archivo o directorio desea ajustar los permisos.
+- ​Este es el argumento final, ​en este caso, un archivo llamado: access.txt.
+- ​El primer argumento, añadido directamente después de ​el comando chmod, indica cómo cambiar los permisos.
+- ​Ahora mismo, esto puede parecer difícil de interpretar, ​pero pronto entenderemos por qué ​esto se llama modo simbólico.
+- ​Previamente, aprendimos sobre los tres tipos ​de propietarios: usuario, grupo y otro.
+- ​Para identificarlos con chmod, ​usamos u para representar al usuario, ​g para representar al grupo, ​y o para representar a otro.
+- ​En este ejemplo concreto, ​`g` indica que haremos ​algunos cambios en los permisos de grupo, ​y `o` en los permisos para otros.
+- Estos tipos de propietarios están separados ​por una coma en este argumento.
+- ​¿Pero queremos añadir o quitar permisos?
+- Pues bien, para ello, utilizamos operadores matemáticos.
+- ​Así, el signo más después de `g` ​significa que queremos añadir permisos para grupo.
+- ​El signo menos después de `o` ​significa que queremos quitárselos a otros.
+- ​Y la última pregunta es: ¿qué tipo de cambios?
+- ​Ya hemos aprendido que `r` representa permisos de lectura, ​`w` representa permisos de escritura, ​y `x` representa permisos de ejecución.
+- Así que en este caso, la `w` indica ​que estamos añadiendo permisos de escritura al grupo, ​y la `r` indica que estamos quitando ​permisos de lectura a otros.
+- ​Pero ahora que lo hemos desglosado, ​quizá ya no parezca ​tanto un idioma extranjero.
+- ​​Empezaremos en el subdirectorio logs.
+- ​Si utilizamos el comando `ls -l`, ​nos mostrará los permisos del archivo.
+- ​Muestra los permisos del único archivo ​de este directorio: access.txt.
+- ​Los caracteres segundo a cuarto ​indican que el usuario tiene permisos de lectura y escritura.
+- ​Los caracteres quinto a séptimo ​muestran que el grupo sólo tiene permisos de lectura.
+- ​Y los caracteres octavo a décimo muestran ​que otros sólo tienen permisos de lectura.
+- ​Necesitamos ajustar estos permisos.
+- ​Queremos asegurarnos de que los analistas en ​el grupo de seguridad tienen permiso de escritura, ​pero quitamos los permisos de lectura del propietario-tipo otro, ​así que añadimos permisos de escritura para ​el grupo y quitamos los permisos de lectura para otro.
+- ​Volvamos a ejecutar `ls -l`.
+- ​Esto muestra un cambio en los permisos para access.txt.
+- ​Note cómo en el segmento medio ​de los permisos para el grupo, ​`w` se ha añadido para dar permisos de escritura.
+- ​Y otro cambio es que ​se ha eliminado la `r` en el último segmento, ​indicando que se han eliminado los permisos de lectura ​para `other`.
+- ​Como se mencionó anteriormente, estos guiones ​indican una falta de permisos.
+- Ahora, `other` carece de todos los permisos.
