@@ -298,3 +298,8 @@ ls -la projects/.project_x.txt
 chmod g-x drafts/
 ls -la projects/drafts/
 ```
+
+---
+
+## Ejemplo opcional: Gestionar la autorización
+- Mismo laboratorio que el anterior.
