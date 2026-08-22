@@ -481,3 +481,20 @@ clear
 - Mismo laboratorio que el anterior.
 
 ---
+
+## Ejemplo: Gestionar archivos con comandos Linux
+- Resumen de la actividad
+   - En esta actividad de laboratorio, utilizarás comandos de Linux para modificar una estructura de directorios y los archivos que contiene.
+   - También utilizarás el editor de texto nano para agregar texto a un archivo.
+   - Anteriormente aprendiste que los directorios te ayudan a organizar subdirectorios y archivos en Linux.
+   - Como analista de seguridad, crear, remover y editar directorios y archivos son tareas centrales que necesitarás realizar para ayudarte a administrar datos.
+   - Cuando los datos están bien organizados, puedes detectar más fácilmente los problemas y mantener los datos seguros.
+   - Con esto en mente, ahora estás listo para practicar lo que has aprendido.
+   - Este ejemplo es un recorrido de la actividad anterior de Qwiklab, incluyendo instrucciones detalladas y soluciones.
+   - Puede utilizar este ejemplo si no pudo completar el laboratorio y/o si necesita una guía adicional para realizar las tareas del laboratorio.
+   - También puede consultar este ejemplo para prepararse para el cuestionario calificado de este módulo.
+- Conclusión
+   - Ahora tienes experiencia práctica en el uso de comandos básicos del shell Bash de Linux para
+   - crear y eliminar directorios,
+   - copiar, mover y eliminar archivos, y
+   - editar archivos con el editor de texto nano.
