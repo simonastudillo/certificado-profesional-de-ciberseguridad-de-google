@@ -498,3 +498,35 @@ clear
    - crear y eliminar directorios,
    - copiar, mover y eliminar archivos, y
    - editar archivos con el editor de texto nano.
+
+---
+
+## Ponga a prueba sus Conocimientos: Gestionar el contenido de los archivos en Bash
+
+1. ¿Qué dos argumentos suelen seguir al comando grep?
+- [ ] El archivo en el que escribir y la Cadena que añadirle
+- [x] La Cadena a buscar y el archivo en el que buscar
+- [ ] El archivo a mover y la nueva ubicación del archivo
+- [ ] El nombre del archivo a buscar y el Directorio en el que buscar
+> El comando grep suele ir seguido de la cadena que se desea buscar y del archivo en el que se desea buscar. Se utiliza para buscar en los archivos las cadenas especificadas.
+
+2. En Linux, ¿qué hace el comando piping (|)?
+- [ ] Busca en un archivo especificado y devuelve todas las líneas del archivo que contengan una cadena especificada.
+- [x] Envía la salida estándar de un comando como entrada estándar a otro comando para su posterior proceso.
+- [ ] Envía la entrada estándar de un comando como salida estándar a otro comando para su posterior proceso.
+- [ ] Mueve un archivo o directorio a una nueva ubicación.
+> El comando de canalización (|) envía la salida estándar de un comando como entrada estándar a otro comando para su posterior proceso.
+
+3. Un profesional de la Seguridad introduce cp vulnerabilities.txt /home/analyst/projects en la línea de comandos. ¿Qué quieren que haga el sistema operativo?
+- [ ] Elimine el archivo vulnerabilities.txt del directorio projects 
+- [ ] Cree un nuevo archivo llamado vulnerabilities.txt en el directorio projects 
+- [ ] Buscar la cadena vulnerabilities.txt en el directorio projects 
+- [x] Copie el archivo vulnerabilities.txt en el directorio projects 
+> Quieren que el sistema operativo copie el archivo vulnerabilities.txt en el directorio projects.  La versión original del archivo o directorio también permanecerá en su ubicación original.
+
+4. ¿Qué Comando crea un nuevo archivo llamado failed_logins.txt?
+- [ ] find failed_logins.txt
+- [ ] rm failed_logins.txt
+- [ ] mkdir failed_logins.txt
+- [x] touch failed_logins.txt
+> El Comando touch failed_logins.txt crea un nuevo archivo llamado failed_logins.txt. El comando touch se utiliza para crear un nuevo archivo.
