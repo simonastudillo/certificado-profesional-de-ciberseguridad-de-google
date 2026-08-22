@@ -275,3 +275,8 @@ ls -l
 head server_logs.txt
 head server_logs.txt | grep warning
 ```
+
+---
+
+## Ejemplar opcional: Encontrar archivos con los comandos de Linux
+- Mismo laboratorio que el anterior.
