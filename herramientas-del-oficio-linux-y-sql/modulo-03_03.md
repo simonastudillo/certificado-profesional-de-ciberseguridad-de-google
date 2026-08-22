@@ -303,3 +303,38 @@ ls -la projects/drafts/
 
 ## Ejemplo opcional: Gestionar la autorización
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Gestionar la autorización
+- Resumen de la actividad
+En esta actividad de laboratorio, utilizarás comandos de Linux para configurar la autorización.
+
+La autorización es el concepto de otorgar acceso a recursos específicos en un sistema. Es importante porque sin autorización cualquier usuario podría acceder y modificar todos los archivos pertenecientes a otros usuarios o archivos del sistema. Esto sería sin duda un riesgo para la seguridad.
+
+En Linux, los permisos de archivo y directorio se utilizan para especificar quién tiene acceso a archivos y directorios específicos. Explorarás los permisos de archivos y directorios y cambiarás la propiedad de un archivo y un directorio para limitar quién puede acceder a ellos.
+
+Como analista de seguridad, establecer permisos de acceso apropiados es crítico para proteger información sensible y mantener la seguridad general de un sistema.
+
+Este ejemplo es un recorrido de la actividad anterior de Qwiklab, incluyendo instrucciones detalladas y soluciones. Puedes usar este ejemplo si no pudiste completar el laboratorio y/o necesitas una guía extra para completar las tareas del laboratorio. También puede consultar este ejemplo para preparar la prueba calificada de este módulo.
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+cd projects
+ls -l
+ls -la
+ls -l
+chmod o-w project_k.txt
+ls -l
+chmod g-r project_m.txt
+ls -la
+chmod u-w,g-w,g+r .project_x.txt
+ls -l 
+chmod g-x drafts
+```
+
+- Conclusión
+   - Ahora tienes experiencia práctica en el uso de comandos básicos del shell Bash de Linux para
+      - examinar permisos de archivo y directorio,
+      - cambiar permisos de archivos, y
+      - cambiar permisos en directorios.
