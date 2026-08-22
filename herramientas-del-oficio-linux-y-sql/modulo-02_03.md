@@ -161,3 +161,12 @@ expr 100 / 4
 
 ## Ejemplo opcional: Examinar la entrada y la salida en el shell
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Examinar la entrada y la salida en el shell
+- Resumen de la actividad
+   - En esta actividad de laboratorio, utilizarás el comando echo para examinar cómo se recibe la entrada y cómo se devuelve la salida en el shell.
+   - Luego, utilizarás el comando expr para explorar más a fondo la entrada y la salida mientras realizas algunos cálculos básicos en el shell.
+   - Esta actividad construirá las bases para entender cómo te comunicas con el sistema operativo Linux a través del shell.
+   - Cómo analista de seguridad, necesitarás introducir comandos en el shell y reconocer cuando el shell devuelve una salida o un mensaje de error.
