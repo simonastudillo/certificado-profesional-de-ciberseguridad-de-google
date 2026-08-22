@@ -200,3 +200,82 @@ cat Q4_added_users.txt | grep "Human Resources"
    - En esta actividad de laboratorio, utilizarás el comandogrep y tuberías para buscar archivos y devolver información específica de archivos.
    - Como analista de seguridad, es clave saber cómo encontrar la información que necesitas.
    - La capacidad de buscar cadenas específicas puede ayudarlo a localizar lo que necesita de manera más eficiente.
+
+---
+
+## Crear y modificar directorios y archivos
+- Pensemos de nuevo en ​el sistema de directorios de archivos como un árbol.
+- ​Los subdirectorios son las ramas del árbol.
+- ​Todos están conectados desde la misma raíz​, pero pueden crecer hasta formar un árbol complejo.
+- ​Cuando se trata de trabajar con datos en ​Seguridad, la organización es clave.
+- ​Si sabemos dónde se encuentra la información, ​es más fácil detectar ​problemas y mantener la información segura.
+- ​Es posible que esté familiarizado con el concepto ​de carpetas para organizar la información.
+- ​En Linux, tenemos directorios.
+- ​Los directorios ayudan a organizar los archivos y subdirectorios.
+- ​Por ejemplo, dentro de un directorio de informes, ​un analista puede necesitar crear dos subdirectorios:
+   - ​uno para los borradores
+   - otro para los informes finales.
+- Ahora que sabemos por qué necesitamos directorios, ​echemos un vistazo a ​algunos comandos esenciales de Linux para ​administrar directorios y archivos.
+- ​En primer lugar, tomemos nota de ​los comandos para crear y eliminar directorios.
+   - mkdir
+      - crea un directorio nuevo. ​
+   - rmdir
+      - elimina o borra un directorio.
+- ​Una característica útil de este comando es ​su advertencia integrada que le permite ​saber que un directorio no está vacío.
+- ​Esto evita la eliminación accidental de archivos.
+- ​Ahora, echemos un vistazo a algunos comandos para manejar archivos.
+   - touch
+      - crea un archivo nuevo
+   - rm
+      - elimina o borra un archivo.
+   - mv
+      - mueve un archivo o directorio a una nueva ubicación
+   - cp
+      - copia un archivo o directorio a una nueva ubicación.
+- ​En primer lugar, usemos el comando pwd ​y, a continuación, mostremos los nombres de los archivos y ​directorios del directorio de analistas con el comando ls.
+- ​Imagina que ya no necesitamos ​el directorio oldreports que ​aparece entre el contenido del archivo.
+- ​Veamos cómo eliminarlo.
+- Ingresamos el comando rmdir y lo seguimos con ​el nombre del directorio que queremos eliminar: oldreports.
+- Podemos usar el comando ls para confirmar que ​los informes antiguos se han eliminado ​y ya no aparecen en el contenido.
+- ​Ahora, hagamos otro cambio.
+- ​Queremos un nuevo directorio para los borradores de informes.
+- ​Necesitamos usar el comando: mkdir ​y especificar un nombre para este directorio: drafts
+- ​Si volvemos a introducir ls, ​veremos que los borradores del nuevo directorio ​están incluidos en el contenido del directorio de analistas.
+- ​Cambiemos a este nuevo directorio ​ingresando: cd drafts. 
+- ​Si ejecutamos ls, ​no devuelve ningún resultado, ​lo que indica que este directorio está vacío actualmente.
+- ​Pero a continuación, le añadiremos algunos archivos.
+- ​Supongamos que queremos elaborar nuevos informes sobre los ​parches del sistema operativo y el correo electrónico instalados recientemente.
+- Para crear estos archivos, ​ingresamos: touch email_patches.txt ​y luego: touch OS_patches.txt.
+- La ​ejecución de ls indica que ​estos archivos están ahora en el directorio de borradores.
+- ​¿Qué pasa si nos damos cuenta de que solo necesitamos un nuevo informe sobre los ​parches del sistema operativo y queremos ​eliminar el informe de parches de correo electrónico?
+- ​Para hacer esto, ingresamos el comando rm y especificamos el archivo ​a eliminar como: email_patches.txt.
+- ​Al ejecutar ls, se confirma que se ha eliminado.
+- ​Ahora, centrémonos en nuestros comandos para mover y copiar.
+- ​Nos dimos cuenta de que tenemos un archivo llamado ​política de correo electrónico en la carpeta de informes ​que actualmente está en formato de borrador.
+- ​Queremos moverlo a la carpeta de borradores recién creada.
+- ​Para hacer esto, necesitamos cambiar ​al directorio que actualmente tiene ese archivo.
+- La ​ejecución de ls en ese directorio indica que contiene ​varios archivos, incluido email_policy.txt.
+- ​Luego, para mover ese archivo, ​ingresaremos el comando mv seguido de dos argumentos.
+- ​El primer argumento ​después de mv identifica el archivo que se va a mover.
+- ​El segundo argumento indica dónde moverlo.
+- Si cambiamos los directorios por ​borradores y, a continuación, mostramos su contenido, ​notaremos que el archivo de política de correo electrónico ​se ha movido a este directorio.
+- ​Volveremos a convertirnos en informes.
+- Al mostrar el contenido del archivo, se confirma que ​email_policy ya no existe.
+- vulnerabilities.txt es ​un archivo que queremos mantener en el directorio de informes.
+- ​Pero dado que afecta a un proyecto próximo, ​también queremos copiarlo en el directorio del proyecto.
+- ​Como ya estamos en el directorio que contiene este archivo, ​usaremos el comando cp para ​copiarlo en el directorio de proyectos.
+- ​Observe que el primer argumento ​indica qué archivo se va a copiar ​y el segundo argumento proporciona ​la ruta de acceso al directorio en el que se copiará.
+- ​Cuando presionamos Entrar, ​se copia el archivo de vulnerabilidades en ​el directorio de proyectos y, al mismo tiempo, se ​deja el original en los informes.
+- ​¿No es genial lo que podemos hacer con estos comandos? 
+- Ahora, centrémonos en ​un concepto más relacionado con la modificación de archivos. 
+- ​Como analista de seguridad, ​los editores de archivos suelen ser necesarios para ​sus tareas diarias, como escribir o editar informes.
+- ​Un editor de archivos popular es nano.
+- ​Es bueno para los principiantes.
+- ​Puede acceder a esta herramienta mediante el comando nano.
+- ​Familiaricémonos juntos con el nano.
+- ​Añadiremos un título a ​nuestro nuevo borrador de informe: OS_patches.txt.
+- Primero, cambiamos ​al directorio que contiene ese archivo, ​luego ingresamos nano ​seguido del nombre del archivo que ​queremos editar: OS_patches.txt.
+- ​Esto abre el editor de archivos nano con ese archivo abierto.
+- Por ahora, solo escribiremos ​el título OS Patches escribiéndolo en el editor.
+- ​Necesitamos guardar esto antes de ​volver a la línea de comandos, y para hacerlo, ​presionamos Ctrl+O ​y luego ingresamos para guardarlo con el nombre del archivo actual.
+- ​Luego, para salir, presionamos Ctrl+X. 
