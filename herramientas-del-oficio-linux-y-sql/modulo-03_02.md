@@ -190,3 +190,13 @@ cat Q4_added_users.txt | grep "Human Resources"
 
 ## Ejemplar opcional: Filtrado con grep
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplar: Filtrado con grep
+- Resumen de actividades
+   - Anteriormente, aprendiste acerca de las herramientas que puedes usar para filtrar información en Linux.
+   - También estás familiarizado con los comandos básicos para navegar por el sistema de archivos de Linux.
+   - En esta actividad de laboratorio, utilizarás el comandogrep y tuberías para buscar archivos y devolver información específica de archivos.
+   - Como analista de seguridad, es clave saber cómo encontrar la información que necesitas.
+   - La capacidad de buscar cadenas específicas puede ayudarlo a localizar lo que necesita de manera más eficiente.
