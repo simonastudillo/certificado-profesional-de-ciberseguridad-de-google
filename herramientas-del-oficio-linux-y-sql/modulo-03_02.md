@@ -474,3 +474,10 @@ nano notes/tasks.txt
 cat notes/tasks.txt
 clear
 ```
+
+---
+
+## Ejemplar opcional: Gestionar archivos con comandos de Linux
+- Mismo laboratorio que el anterior.
+
+---
