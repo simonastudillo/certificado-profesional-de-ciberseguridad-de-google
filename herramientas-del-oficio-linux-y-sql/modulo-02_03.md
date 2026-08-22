@@ -76,3 +76,83 @@
 - ​Cuando pulsamos intro, ​aparece un mensaje de error.
 - ​Para terminar, hemos cubierto ​los aspectos básicos de la comunicación con el shell.
 - ​La comunicación con el intérprete de comandos sólo puede realizarse de una de ​tres maneras: el sistema ​recibe un comando, esto es, una entrada; ​el sistema responde al comando y produce una salida; ​y, por último, el sistema no sabe cómo responder, ​lo que produce un error.
+
+---
+
+## Actividad: Examinar la entrada y salida en el shell
+- Introducción
+   - En este laboratorio, utilizará el comando echo para examinar cómo se recibe la entrada y cómo se devuelve la salida en el shell.
+   - También utilizará otros comandos de Linux en el shell Bash para explorar más sobre la entrada y la salida y otras funciones básicas del shell.
+
+- Lo que hará
+   - Generar salida en el shell el comando echo 
+   - Realizar cálculos básicos el comando expr 
+   - Limpiar la ventana del shell el comando clear 
+   - Explorar más a fondo los comandos
+
+- Resumen de la actividad
+   - Anteriormente, vimos cómo la shell Bash sirve para comunicarse con el sistema operativo de una computadora.
+   - Cuando te comunicas mediante la shell, los comandos de esta reciben las entradas de comandos y muestran resultados o mensajes de error.
+   - En esta actividad de lab, usarás el comando echo para examinar cómo se reciben las entradas y se transforman en resultados en la shell.
+   - Luego, usarás el comando expr para explorar aún más las entradas y resultados mientras realizas algunos cálculos básicos en la shell.
+   - En esta actividad, sentaremos las bases para comprender cómo comunicarse con el sistema operativo Linux mediante la shell.
+   - Como analista de seguridad, deberás poder ingresar comandos en la shell y reconocer cuándo se generan resultados o un mensaje de error.
+
+- Situación
+   - Como profesional de la seguridad, es importante comprender el concepto de comunicación con tu computadora mediante la shell.
+   - En este contexto, ingresarás una cadena de texto específica que quieras que la shell genere como resultado.
+   - También deberás ingresar algunos cálculos matemáticos, de modo que el SO (sistema operativo) pueda generar el resultado.
+   - Estos son los pasos que seguirás:
+      1. Usarás el comando echo para generar algunos resultados en la shell.
+      2. Usarás el comando expr para realizar algunos cálculos matemáticos básicos.
+      3. Usarás el comando clear para despejar la ventana de la shell Bash.
+      4. Explorarás los comandos echo y expr en mayor profundidad.
+
+- Comienza el lab
+
+1. Genera resultados con el comando echo
+- Ejecutamos el comando echo hello
+   - echo hello es la entrada (stdin) que le damos al sistema operativo.
+   - hello es la salida (stdout) que el sistema operativo nos devuelve.
+- Ejecutamos el comando echo "<name>" donde <name> es tu nombre.
+   - echo "<name>" es la entrada (stdin) que le damos al sistema operativo.
+   - <name> es la salida (stdout) que el sistema operativo nos devuelve.
+- Con echo podemos usar comillas dobles o simples para generar resultados.
+
+2. Genera resultados con el comando expr
+- Ejecutamos el comando expr 32 - 8
+   - expr 32 - 8 es la entrada (stdin) que le damos al sistema operativo.
+   - 24 es la salida (stdout) que el sistema operativo nos devuelve.
+   - expr es la aplicación que realiza la operación matemática en la shell.
+- Ejecutamos el comando expr 3500 * 12
+   - expr 3500 * 12 es la entrada (stdin) que le damos al sistema operativo.
+   - 42000 es la salida (stdout) que el sistema operativo nos devuelve.
+- El comando expr requiere que los términos y operadores de una expresión matemática estén separados por espacios.
+
+3. Despeja la shell Bash
+- Ejecutaremos el comando clear para despejar la ventana de la shell Bash.
+   - clear es la entrada (stdin) que le damos al sistema operativo.
+   - La salida (stdout) que el sistema operativo nos devuelve es una ventana de shell limpia.
+
+4. Tarea opcional: Realiza más cálculos con el comando expr
+- Ejecuta el comando expr 100 / 4
+   - expr 100 / 4 es la entrada (stdin) que le damos al sistema operativo.
+   - 25 es la salida (stdout) que el sistema operativo nos devuelve.
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+# Comando echo
+echo hello
+echo "hello"
+echo "simon"
+
+# Comando expr
+expr 32 - 8
+expr 3500 * 12
+
+# comando clear
+clear
+
+# comandos opcionales
+expr 100 / 4
+```
