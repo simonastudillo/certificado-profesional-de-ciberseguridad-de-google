@@ -109,3 +109,79 @@
          - Por ejemplo, al introducir find /home/analyst/projects -mtime -3 se obtienen todos los archivos y directorios del directorio projects que se han modificado en los últimos tres días.
          - La búsqueda de la opción -mtime se basa en días, por lo que al introducir -mtime +1 se indican todos los archivos o directorios modificados por última vez hace más de un día, y al introducir -mtime -1 se indican todos los archivos o directorios modificados por última vez hace menos de un día.
          - Puede utilizarse la opción -mmin en lugar de -mtime si se desea basar la búsqueda en minutos en lugar de días.
+
+---
+
+## Actividad: Filtrado con grep
+- Introducción
+   - En este laboratorio, aprenderá a utilizar el comando grep y las tuberías para buscar archivos y devolver información específica.
+   - Obtendrá información de diferentes archivos, incluidos los archivos de registro del servidor y los archivos de datos del usuario.
+   - Utilizará comandos de Linux en el shell Bash para completar estos pasos.
+
+- Lo que hará
+   - Buscar mensajes de error en un archivo
+   - Buscar archivos que contengan una cadena específica
+   - Buscar información en archivos de usuario
+
+- Resumen de la actividad
+   - Anteriormente, aprendiste sobre herramientas que puedes usar para filtrar información en Linux.
+   - También conoces los comandos básicos para navegar por el sistema de archivos de Linux.
+   - En este lab, usarás el comando grep y la canalización para buscar archivos y obtener información específica en ellos.
+   - Como analista de seguridad, es fundamental saber cómo encontrar la información que necesitas.
+   - La habilidad de buscar cadenas específicas puede ayudarte a encontrar lo que necesitas de forma más eficiente.
+
+- Situación
+   - En esta situación, debes obtener información que se encuentra en el registro del servidor y los archivos de datos del usuario.
+   - También debes encontrar archivos con nombres específicos.
+   - Estos son los pasos que seguirás:
+      1. Navegarás hasta el directorio logs y obtendrás los mensajes de error del archivo server_logs.txt.
+      2. Navegarás hasta el directorio users y buscarás archivos cuyos nombres contengan una cadena específica.
+      3. Buscarás información en archivos de usuarios.
+
+- Comienza el lab
+
+1. Busca mensajes de error en un archivo de registro
+- Navega hasta el directorio /home/analyst/logs.
+- Usa grep para filtrar el archivo server_logs.txt y obtener todas las líneas que contienen la cadena de texto error.
+- ¿Cuántas líneas de error hay en el archivo server_logs.txt?
+   - [ ] 8
+   - [ ] 2
+   - [ ] 4
+   - [x] 6
+
+2. Encuentra archivos que contengan cadenas específicas
+- Navega hasta el directorio /home/analyst/reports/users.
+- Usa el carácter de barra vertical (|), canaliza el resultado del comando ls al comando grep para enumerar únicamente los archivos que contengan la cadena Q1 en su nombre.
+- ¿Cuántos archivos del subdirectorio /home/analyst/reports/users incluyen “Q1” en el nombre?
+   - [ ] 2
+   - [ ] 1
+   - [ ] 5
+   - [x] 3
+- Enumera los archivos que contienen la palabra access en su nombre.
+- ¿Cuántos archivos del directorio /home/analyst/reports/users incluyen “access” en el nombre?
+   - [ ] 5
+   - [ ] 3
+   - [x] 4
+   - [ ] Ninguno
+
+3. Busca más contenido en archivos
+- Muestra los archivos en el directorio /home/analyst/reports/users.
+- Busca el nombre de usuario jhill en el archivo Q2_deleted_users.txt.
+- Realiza una búsqueda en el archivo Q4_added_users.txt para enumerar todos los usuarios que se agregaron al departamento de Human Resources.
+- ¿Cuántos usuarios se agregaron al departamento de Human Resources en el cuarto trimestre?
+   - [ ] 5
+   - [ ] 1
+   - [x] 2
+   - [ ] 3
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+pwd
+cd logs
+cat server_logs.txt | grep error
+cd ~/reports/users
+ls -l | grep Q1
+ls -l | grep access
+cat Q2_deleted_users.txt | grep jhill
+cat Q4_added_users.txt | grep "Human Resources"
+```
