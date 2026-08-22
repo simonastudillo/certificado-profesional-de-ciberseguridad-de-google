@@ -298,3 +298,42 @@ head server_logs.txt | grep warning
       - listar el contenido de un directorio con el comandols, y
       - mostrar el contenido de archivos con los comandoscat yhead.
    - Navegar por directorios y leer el contenido de archivos son habilidades fundamentales que utilizarás a menudo cuando te comuniques a través del shell.
+
+---
+
+## Ponga a prueba sus Conocimientos: Navegue por el sistema de archivos de Linux en Bash
+
+1. ¿Qué es un Comando?
+- [ ] Un shell común en muchas distribuciones de Linux
+- [ ] El Directorio de más alto nivel en Linux
+- [ ] Un componente de la arquitectura Linux
+- [x] Una instrucción que le dice a una computadora que haga algo
+> Un Comando es una instrucción que le dice a una computadora que haga algo.
+
+2. ¿Cuál de los siguientes comandos imprime el Directorio de trabajo en la pantalla?
+- [x] pwd
+- [ ] ls
+- [ ] head
+- [ ] cat
+> El comando pwd imprime en pantalla el directorio de trabajo.
+
+3. ¿Qué hace el Comando cd?
+- [ ] Da salida a una cadena de texto especificada
+- [x] Navega entre directorios
+- [ ] Imprime el directorio de trabajo en la pantalla
+- [ ] Muestra los nombres de los archivos del Directorio actual
+> El comando cd navega entre directorios.
+
+4. Un profesional de la Seguridad introduce head access.txt en un shell. ¿Qué le están diciendo al sistema operativo que haga?
+- [x] Mostrar las 10 primeras líneas de access.txt
+- [ ] Elimine las 5 primeras líneas de access.txt
+- [ ] Añada un Encabezado al archivo llamado access.txt
+- [ ] Devuelva el contenido de access.txt página a página
+> Le están diciendo al sistema operativo que muestre las 10 primeras líneas de access.txt. El comando head muestra sólo el principio de un archivo, por defecto 10 líneas.
+
+5. ¿Cuál es la diferencia entre una ruta de acceso absoluta y una ruta de acceso relativa?
+- [ ] Una ruta de archivo absoluta comienza desde el directorio actual, y una ruta de archivo relativa comienza desde la raíz.
+- [ ] Una ruta de archivo absoluta termina con una barra oblicua (/), y una ruta de archivo relativa termina con una barra invertida (\).
+- [x] Una ruta de archivo absoluta comienza desde la raíz, y una ruta de archivo relativa comienza desde el directorio actual.
+- [ ] Una ruta de archivo absoluta termina con una barra invertida (\), y una ruta de archivo relativa termina con una barra inclinada (/).
+> Una ruta de archivo absoluta es la ruta de archivo completa que parte de la raíz, y una ruta de archivo relativa es una ruta de archivo más corta que parte del directorio actual.
