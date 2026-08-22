@@ -9,5 +9,5 @@
 
 ---
 
-## Términos del glosario del Módulo 2Estado
+## Términos del glosario del Módulo 2
 - El glosario completo se encuentra [aquí](./README.md#glosario)
