@@ -346,3 +346,14 @@ cat Q4_added_users.txt | grep "Human Resources"
    - Cuando se encuentre dentro del directorio que contiene el archivo permissions.txt, al introducir echo "last updated date" >> permissions.txt se añade la cadena "última fecha de actualización" al contenido del archivo.
    - Si introduce echo "time" > permissions.txt después de este comando, se sobrescribirá todo el contenido del archivo permissions.txt con la cadena "hora".
    - Tanto el operador > como el >> crearán un nuevo archivo si no existe ya uno con el nombre especificado.
+
+---
+
+## Gestionar directorios y archivos
+- Use the flashcards to review common Linux commands.
+- mkdir: Creates a new directory
+- rmdir: Removes, or deletes, a directory
+- rm: Removes, or deletes, a file
+- touch: Creates a new file
+- mv: Moves a file or directory to a new location
+- cp: Copies a file or directory to a new location
