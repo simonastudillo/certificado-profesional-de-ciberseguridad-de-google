@@ -357,3 +357,120 @@ cat Q4_added_users.txt | grep "Human Resources"
 - touch: Creates a new file
 - mv: Moves a file or directory to a new location
 - cp: Copies a file or directory to a new location
+
+---
+
+## Actividad: Gestionar archivos con comandos de Linux
+- Introducción
+   - En este laboratorio, aprenderá a gestionar y modificar archivos en una estructura de archivos de Linux.
+   - Utilizará comandos de Linux en el shell Bash para completar estos pasos.
+   - También utilizará el editor de texto nano para añadir texto a un archivo.
+
+- Lo que hará
+   - Crear un nuevo Directorio
+   - Eliminar un directorio
+   - Mover un archivo y eliminar un archivo
+   - Crear un archivo y añadir texto utilizando nano
+
+- Resumen de la actividad
+   - En este lab, usarás comandos de Linux para modificar la estructura de un directorio y los archivos que contiene.
+   - También usarás el editor de texto nano para agregar texto a un archivo.
+   - Anteriormente, aprendiste que los directorios sirven para organizar subdirectorios y archivos en Linux.
+   - Como analista de seguridad, crear, quitar y editar directorios y archivos son tareas principales que debes realizar para administrar datos.
+   - Cuando los datos están bien organizados, puedes detectar problemas y mantener la seguridad de los datos con mayor facilidad.
+   - Con esto en mente, está todo listo para practicar lo que aprendiste.
+
+- Situación
+   - En esta situación, debes asegurarte de que el directorio /home/analyst esté organizado de forma adecuada.
+   - Debes hacer algunos cambios en el directorio /home/analyst y los archivos que contiene.
+   - También debes editar un archivo para registrar los cambios o actualizaciones que haces en el directorio.
+   - Cuando comiences el lab, verás que ya accediste a una shell Bash con tu cuenta de usuario, que se llama analyst.
+   - Esto significa que puedes comenzar con las tareas en cuanto hagas clic en el botón Start lab.
+   - Cuando comiences, verás que el directorio /home/analyst contiene los siguientes subdirectorios y archivos:
+
+```plaintext
+home
+└── analyst
+    ├── notes
+    │   ├── Q3patches.txt
+    │   └── tempnotes.txt
+    ├── reports
+    │   ├── Q1patches.txt
+    │   └── Q2patches.txt
+    └── temp
+``` 
+
+- Debes modificar el directorio /home/analyst y reemplazarlo por el siguiente directorio y la correspondiente estructura de archivos:
+
+```plaintext
+home
+└── analyst
+    ├── logs
+    ├── notes
+    │   └── tasks.txt    
+    └── reports
+        ├── Q1patches.txt
+        ├── Q2patches.txt
+        └── Q3patches.txt
+```
+
+- Estos son los pasos que seguirás:
+   1. Crearás un nuevo subdirectorio llamado logs en el directorio /home/analyst.
+   2. Quitarás el subdirectorio temp.
+   3. Moverás el archivo Q3patches.txt al subdirectorio reports y borrarás el archivo tempnotes.txt.
+   4. Crearás un nuevo archivo .txt llamado tasks en el subdirectorio notes y agregarás una nota en el archivo para describir las tareas que hayas realizado.
+
+- Comienza el lab
+
+1. Crea un directorio nuevo
+- Crea un nuevo subdirectorio llamado logs en el directorio /home/analyst.
+- Muestra el contenido del directorio /home/analyst para confirmar que creaste el nuevo subdirectorio logs de forma correcta.
+
+2. Quita un directorio
+- Quita el directorio /home/analyst/temp.
+- Muestra el contenido del directorio /home/analyst para confirmar que quitaste el subdirectorio temp.
+
+3. Mueve un archivo
+- Navega hasta el directorio /home/analyst/notes.
+- Mueve el archivo Q3patches.txt del directorio /home/analyst/notes al directorio /home/analyst/reports.
+- Muestra el contenido del directorio /home/analyst/reports para confirmar que moviste el archivo de forma correcta.
+
+4. Quita un archivo
+- Quita el archivo tempnotes.txt del directorio /home/analyst/notes.
+- Muestra el contenido del directorio /home/analyst/notes para confirmar que quitaste el archivo de forma correcta.
+
+5. Crea un archivo nuevo
+- Usa el comando touch para crear un archivo vacío llamado tasks.txt en el directorio /home/analyst/notes.
+- Muestra el contenido del directorio /home/analyst/notes para confirmar que creaste un nuevo archivo.
+
+6. Edita un archivo
+- Con el editor de texto nano, abre el archivo tasks.txt que se encuentra en el directorio /home/analyst/notes.
+- Copia y pega el siguiente texto en el área de entrada de texto del editor nano:
+```plaintext
+  Completed tasks
+  1. Managed file structure in /home/analyst
+```
+- Presiona Ctrl + X para salir del editor de texto nano.
+- Presiona Y para confirmar que deseas guardar los nuevos datos en tu archivo. (Si respondes "no", se descartarán los cambios).
+- Presiona Intro para confirmar que el campo File Name to Write corresponde a tasks.txt.
+- Usa el comando clear para despejar la ventana de la shell Bash y quitar registros del área de entrada de texto nano.
+- Muestra el contenido del archivo tasks.txt para confirmar que contiene los detalles actualizados de la tarea.
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+pwd
+mkdir logs
+ls -l
+rmdir temp
+ls -l
+ls -l notes/
+mv notes/Q3patches.txt reports/Q3patches.txt
+ls -l reports/
+rm notes/tempnotes.txt
+ls -l notes/
+touch notes/tasks.txt
+ls -l notes/
+nano notes/tasks.txt
+cat notes/tasks.txt
+clear
+```
