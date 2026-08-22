@@ -185,3 +185,8 @@ ls -l | grep access
 cat Q2_deleted_users.txt | grep jhill
 cat Q4_added_users.txt | grep "Human Resources"
 ```
+
+---
+
+## Ejemplar opcional: Filtrado con grep
+- Mismo laboratorio que el anterior.
