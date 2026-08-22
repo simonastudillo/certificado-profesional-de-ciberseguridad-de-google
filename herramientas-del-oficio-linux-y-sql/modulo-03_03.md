@@ -204,3 +204,97 @@
 - El tipo de propietario del grupo tiene permisos de lectura y escritura que no se ajustan al principio de privilegio mínimo.
 - Para remediar la situación, usted introduce `chmod g-rw bonuses.txt`.
 - Ahora, sólo el usuario que necesita acceder a este archivo para llevar a cabo sus responsabilidades laborales puede acceder a este archivo.
+
+---
+
+## Actividad: Gestionar la autorización
+- Introducción
+   - En este laboratorio, aprenderá a examinar y gestionar los permisos de archivos.
+   - Estas habilidades pueden utilizarse al configurar la autorización de usuarios.
+   - Utilizará comandos Linux en el Shell Bash para completar este laboratorio.
+   - Mientras completa este laboratorio por favor tome capturas de pantalla o anote los comandos que utiliza en el Shell Bash.
+- Lo que hará
+   - Comprobar los permisos de los archivos de un directorio
+   - Comprobar si hay permisos de archivos incorrectos y cambiar los permisos según sea necesario
+   - Eliminar el acceso no autorizado a un directorio
+- Resumen de la actividad
+   - En este lab, usarás comandos de Linux para configurar autorizaciones.
+   - La autorización implica dar acceso a recursos específicos de un sistema.
+   - Es un concepto importante porque, sin la autorización, cualquier usuario podría acceder a todos los archivos que pertenecen a otros usuarios o a archivos del sistema y modificarlos.
+   - Sin dudas, se correrían riesgos de seguridad.
+   - En Linux, se usan permisos de archivos y de directorios para especificar quién tiene acceso a archivos y directorios específicos.
+   - Explorarás los permisos de archivos y de directorios, y cambiarás la propiedad de un archivo y un directorio para limitar quién puede acceder a ellos.
+   - Como analista de seguridad, configurar permisos de acceso adecuados es fundamental para proteger información sensible y mantener la seguridad general de un sistema.
+- Situación
+   - En este caso, debes examinar y administrar los permisos de los archivos del directorio /home/researcher2/projects para el usuario researcher2.
+   - El usuario researcher2 es parte del grupo research_team.
+   - Debes verificar los permisos para todos los archivos del directorio, incluidos los archivos ocultos, para asegurarte de que coincidan con el grado de autorización que debería otorgarse.
+   - De no ser así, debes cambiar los permisos.
+   - Estos son los pasos que seguirás:
+      1. Verificarás los permisos del usuario y el grupo para todos los archivos del directorio projects.
+      2. Verificarás si algún archivo tiene permisos incorrectos y los modificarás según sea necesario.
+      3. Verificarás los permisos del directorio /home/researcher2/drafts y los modificarás para quitar los accesos no autorizados.
+
+- Comienza el lab
+
+1. Verifica los detalles de archivos y directorios
+- Navega hasta el directorio projects
+- Obtén una lista del contenido y los permisos del directorio projects
+- ¿Cómo se llama el grupo propietario de los archivos en el directorio projects?
+   - [ ] other_users
+   - [ ] security_team
+   - [x] research_team
+   - [ ] researcher2
+- Verifica si existen archivos ocultos en el directorio projects
+- ¿Cuál de estos archivos está oculto en el directorio projects?
+   - [x] .project_x.txt
+   - [ ] .project_r.txt
+   - [ ] No hay archivos ocultos
+   - [ ] .project_m.txt
+
+2. Cambia los permisos de archivos
+- Verifica si algún archivo del directorio projects tiene permisos de escritura para el tipo de propietario 'otro'
+- ¿Qué archivo les otorga permisos de escritura a otros usuarios?
+   - [ ] project_t.txt
+   - [ ] project_m.txt
+   - [x] project_k.txt
+- Cambia los permisos del archivo que hayas identificado en el paso anterior, de modo que otros usuarios no tengan permisos de escritura.
+- El archivo project_m.txt es restringido y nadie debería poder leerlo ni escribirlo, ni siquiera el grupo.
+- Obtén una lista del contenido y los permisos del directorio actual y verifica si el grupo tiene permisos de lectura o escritura
+- ¿Cuáles son los permisos grupales del archivo project_m.txt?
+   - [ ] Lectura, escritura y ejecución
+   - [ ] Lectura y escritura
+   - [x] Solo lectura
+- Usa el comando chmod para cambiar los permisos del archivo project_m.txt, de modo que el grupo no tenga permisos de escritura ni de lectura
+
+3. Cambia los permisos de un archivo oculto
+- Verifica los permisos del archivo oculto .project_x.txt y responde la siguiente pregunta
+- ¿Qué tipo de propietario tiene permisos de escritura incorrectos?
+   - [x] El usuario y el grupo
+   - [ ] Solo el grupo
+   - [ ] Solo el usuario
+- Cambia los permisos del archivo .project_x.txt, de modo que tanto el usuario como el grupo puedan leerlo, pero no escribirlo
+
+4. Cambia los permisos de un directorio
+- Verifica los permisos del directorio drafts y responde la siguiente pregunta
+- ¿El grupo tiene acceso al directorio drafts?
+   - [x] Sí
+   - [ ] No
+- Quita el permiso de ejecución del grupo correspondiente al directorio drafts
+
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+pwd
+ls -la projects/
+chmod o-w projects/project_k.txt
+ls -la projects/
+ls -la projects/project_m.txt
+chmod g-r projects/project_m.txt
+ls -la projects/.project_x.txt
+chmod u-w,g-w projects/.project_x.txt
+chmod u+r,g+r projects/.project_x.txt
+ls -la projects/.project_x.txt
+chmod g-x drafts/
+ls -la projects/drafts/
+```
