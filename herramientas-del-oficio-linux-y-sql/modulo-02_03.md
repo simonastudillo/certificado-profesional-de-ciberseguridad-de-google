@@ -42,3 +42,37 @@
    - Se considera un shell fácil de usar.
    - Puede utilizar Bash para los comandos básicos de Linux, así como para proyectos más grandes.
    - Bash es también el shell más popular en la profesión de la ciberseguridad.
+
+---
+
+## Entrada y salida en el shell
+- Comunicarse con una computadora es ​como tener una conversación con un amigo.
+- ​Una persona hace una pregunta ​y la otra responde con una respuesta.
+- ​Si no sabe la respuesta, ​puede simplemente decir que no sabe la respuesta.
+- ​Cuando se comunica con el shell, ​los comandos del shell pueden tomar entrada, ​dar salida o dar mensajes de error.
+- ​Exploremos la entrada estándar, ​la salida estándar y los mensajes de error con más detalle.
+- La entrada estándar (stdin) consiste en información ​recibida por el OS a través de la línea de comandos.
+- ​Es como si le hiciera una pregunta a su amigo ​durante una conversación.
+- ​La información se introduce desde su teclado al shell.
+- ​Si el shell puede interpretar su petición, ​pide al kernel los recursos que ​necesita para ejecutar la tarea relacionada.
+- Veamos esto a través de echo, ​un comando de Linux que da salida a una cadena de texto especificada.
+- ​Datos de cadena son datos que consisten ​en una secuencia ordenada de caracteres.
+- ​En nuestro ejemplo, sólo haremos que ​emita la cadena de texto: hola.
+- ​Así que, como entrada, escribiremos: echo hola en el shell.
+- Más tarde, cuando pulsemos intro, obtendremos la salida
+- ​Pero antes de hacer eso, ​discutiremos primero el concepto de salida con más detalle.
+- La salida estándar (stdout) es la información ​devolvida por el OS a través del shell.
+- ​De la misma forma que su amigo ​le da una respuesta a su pregunta, ​la salida es la respuesta de una computadora a la orden que usted introduce.
+- ​La salida es lo que usted recibe.
+- ​Retomemos donde lo dejamos en nuestro ejemplo y enviemos ​la entrada de: echo hola al OS pulsando enter.
+- ​Inmediatamente, la shell devuelve la salida de: hola.
+- ​Por último, el error estándar (stderr) contiene ​mensajes de error devueltos por el OS a través del shell.
+- ​Al igual que su amigo podría ​indicar que no puede responder a una pregunta, ​el sistema responde con ​un mensaje de error si no puede responder a su comando.
+- ​A veces esto puede ocurrir cuando escribimos mal ​un comando o el sistema ​no conoce la respuesta al comando.
+- Otras veces, puede ocurrir porque no tenemos ​los permisos adecuados para ejecutar una orden.
+- ​Vamos a explorar otro ejemplo ​que demuestra el error estándar.
+- ​Introduzcamos: eco hola en el shell.
+- Note que intencionadamente he escrito mal eco como e-c-o.
+- ​Cuando pulsamos intro, ​aparece un mensaje de error.
+- ​Para terminar, hemos cubierto ​los aspectos básicos de la comunicación con el shell.
+- ​La comunicación con el intérprete de comandos sólo puede realizarse de una de ​tres maneras: el sistema ​recibe un comando, esto es, una entrada; ​el sistema responde al comando y produce una salida; ​y, por último, el sistema no sabe cómo responder, ​lo que produce un error.
