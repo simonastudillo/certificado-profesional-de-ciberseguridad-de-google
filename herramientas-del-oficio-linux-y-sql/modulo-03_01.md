@@ -280,3 +280,21 @@ head server_logs.txt | grep warning
 
 ## Ejemplar opcional: Encontrar archivos con los comandos de Linux
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Buscar archivos con comandos Linux
+- Resumen de la actividad
+   - Anteriormente, aprendiste sobre Linux y cómo comunicarte con el OS a través del shell.
+   - También aprendiste a utilizar algunos de los comandos principales para navegar por el sistema de archivos de Linux y leer el contenido de los archivos que contiene.
+   - Estas son habilidades esenciales. Por ejemplo, al investigar un acceso no autorizado, podrías navegar y luego leer un reporte de acceso de usuario.
+   - En esta actividad de laboratorio, navegarás por una estructura de archivos Linux, localizarás archivos y leerás el contenido de los archivos.
+   - También tendrás que responder algunas preguntas de opción múltiple basadas en la información contenida en estos archivos.
+   - Como analista de seguridad, es clave que sepas cómo navegar, administrar y analizar archivos de forma remota a través de un shell de Linux sin una interfaz gráfica de usuario.
+- Conclusión
+   - Ahora tienes experiencia práctica en el uso de comandos básicos del shell Bash de Linux para
+      - navegar por estructuras de directorios con el comandocd,
+      - mostrar el directorio de trabajo actual con el comandopwd,
+      - listar el contenido de un directorio con el comandols, y
+      - mostrar el contenido de archivos con los comandoscat yhead.
+   - Navegar por directorios y leer el contenido de archivos son habilidades fundamentales que utilizarás a menudo cuando te comuniques a través del shell.
