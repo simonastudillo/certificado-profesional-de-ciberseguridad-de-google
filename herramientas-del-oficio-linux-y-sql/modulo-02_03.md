@@ -170,3 +170,36 @@ expr 100 / 4
    - Luego, utilizarás el comando expr para explorar más a fondo la entrada y la salida mientras realizas algunos cálculos básicos en el shell.
    - Esta actividad construirá las bases para entender cómo te comunicas con el sistema operativo Linux a través del shell.
    - Cómo analista de seguridad, necesitarás introducir comandos en el shell y reconocer cuando el shell devuelve una salida o un mensaje de error.
+
+
+---
+
+## Ponga a prueba sus Conocimientos: El shell
+
+1. ¿Qué es el shell?
+- [x] El intérprete de la línea de comandos
+- [ ] Información recibida por el sistema operativo (OS) a través de la línea de comandos
+- [ ] Datos consistentes en una secuencia ordenada de caracteres
+- [ ] Una instrucción que le dice a la computadora que haga algo
+> El shell es el intérprete de la línea de comandos. Procesa los comandos y emite los resultados.
+
+2. Después de que un usuario introduzca un comando en el shell, ¿qué puede devolver el shell al usuario? Seleccione dos respuestas
+- [x] Un mensaje de error
+- [ ] Una solicitud de aprobación del usuario
+- [ ] Una solicitud de más información por parte del usuario
+- [x] Salida
+> Después de que un usuario introduzca un comando en el shell, éste puede devolver la salida o un mensaje de error al usuario. La salida es la respuesta de la computadora a la entrada del usuario. Un mensaje de error se produce cuando el shell no puede interpretar la entrada.
+
+3. ¿Qué es el error estándar en Linux?
+- [ ] Información devuelta por el sistema operativo a través del shell
+- [ ] Comando de Linux que da salida a una cadena de texto especificada
+- [ ] Información recibida por el sistema operativo a través de la línea de comandos
+- [x] Mensajes de error devueltos por el sistema operativo a través del shell
+> El error estándar contiene mensajes de error devueltos por el OS a través del shell.
+
+4. ¿Cuál es la diferencia entre entrada estándar y salida estándar?
+- [ ] La entrada estándar se envía al Estándar de jerarquía del sistema de archivos (FHS). La salida estándar se envía desde el FHS.
+- [ ] La entrada estándar se envía desde el Estándar de jerarquía del sistema de archivos (FHS). La salida estándar se envía al FHS.
+- [ ] La entrada estándar se envía desde el sistema operativo. La salida estándar se envía al sistema operativo.
+- [x] La entrada estándar se envía al sistema operativo. La salida estándar se envía desde el sistema operativo.
+> La entrada estándar se envía al sistema operativo. La salida estándar se envía desde el sistema operativo.
