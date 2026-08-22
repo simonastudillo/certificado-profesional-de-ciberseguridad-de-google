@@ -1,0 +1,78 @@
+# Autenticación y autorización de usuarios
+
+## Permisos de archivo y responsabilidad
+- ​Aprenderemos cómo Linux representa los permisos ​y cómo puede comprobar los permisos ​asociados a archivos y directorios.
+- ​Los permisos son el tipo de ​acceso concedido para un archivo o directorio.
+- Los permisos están relacionados con la autorización.
+- ​La autorización es el concepto de conceder ​acceso a recursos específicos en un sistema.
+- ​La autorización le permite limitar ​el acceso a archivos o directorios especificados.
+- ​Una buena regla a seguir es que ​el acceso a los datos es en la medida en que sea necesario.
+- ​Puede imaginarse el riesgo que supondría para la seguridad ​que cualquiera ​pudiera acceder o modificar ​todo lo que quisiera en un sistema.
+- ​En ​Linux existen tres tipos de permisos que puede tener un usuario autorizado.
+- ​El primer tipo de permiso es el de lectura.
+   - ​En un archivo, los permisos de lectura ​significan que se puede leer el contenido del archivo.
+   - En un directorio, ​este permiso significa que se pueden leer ​todos los archivos de ese directorio.
+- ​Los siguientes son los permisos de escritura.
+   - ​Los permisos de escritura en un archivo permiten ​modificar el contenido del archivo.
+   - ​En un directorio, los permisos de escritura indican que ​se pueden crear nuevos archivos en ese directorio.
+- ​Por último, también existen los permisos de ejecución.
+   - ​Los permisos de ejecución sobre archivos significan que ​el archivo puede ejecutarse si se trata de un archivo ejecutable.
+   - ​Los permisos de ejecución sobre directorios permiten a los usuarios ​entrar en un directorio y acceder a sus archivos.
+- ​Se conceden permisos para ​tres tipos diferentes de propietarios.
+   - ​El primer tipo es el usuario.
+      - ​El usuario es el propietario del archivo.
+      - ​Cuando crea un archivo, ​se convierte en el propietario del archivo, ​pero la propiedad puede cambiarse.
+   - ​El grupo es el siguiente tipo.
+      - ​Cada usuario forma parte de un determinado grupo.
+      - ​Un grupo está formado por varios usuarios, ​y ésta es una forma de gestionar un entorno multiusuario.
+   - ​Por último, está other.
+      - ​Other puede considerarse todos los demás usuarios del sistema.
+      - ​Básicamente, cualquier otra persona con acceso ​al sistema pertenece a este grupo.
+      - ​En Linux, los permisos de archivo se ​representan con una cadena de 10 caracteres.
+- ​Para un directorio con permisos completos para el grupo de usuarios, ​esta cadena sería: drwxrwxrwx.
+- ​Examinemos lo que esto significa más detenidamente.
+   - ​El primer carácter indica el tipo de archivo.
+      - ​Como se muestra en este ejemplo, `​d` se utiliza para indicar que se trata de un directorio.
+      - ​Si este carácter contuviera un guión `-` en su lugar, ​se trataría de un archivo normal.
+   - ​El segundo, tercer y ​cuarto carácter indican los permisos del usuario.
+      - ​En este ejemplo, `r` ​indica que el usuario tiene permisos de lectura, `​w` indica que el usuario tiene permisos de escritura, ​y `x` indica que el usuario tiene permisos de ejecución.
+      - ​Si faltara uno de estos permisos, ​habría un guión en lugar de la letra.
+      - ​Del mismo modo, los caracteres quinto, sexto, ​y séptimo indican ​permisos para el siguiente grupo tipo propietario.
+      - ​Como se muestra aquí, ​el grupo tipo también tiene permisos de lectura, ​escritura y ejecución.
+      - ​No hay guiones para indicar que ​no se ha concedido alguno de estos permisos.
+   - ​Por último, los caracteres octavo a décimo ​indican permisos para el último tipo de propietario: otro.
+      - ​También tienen permisos de lectura, escritura, ​y ejecución en este ejemplo.
+      - ​Asegurarse de que los archivos y directorios están configurados ​con sus permisos de acceso adecuados es ​crítico para proteger los archivos confidenciales y ​mantener la seguridad general de un sistema.
+      - ​Por ejemplo, los departamentos de nóminas ​manejan información sensible.
+      - ​Si alguien ajeno ​al grupo de nóminas pudiera leer este archivo, ​esto supondría un problema de privacidad.
+      - ​Otro ejemplo es cuando el usuario, ​el grupo y otros pueden todos escribir en un archivo.
+- ​Este tipo de archivo se considera un archivo escribible por todos.
+- ​Los archivos escribibles por todos pueden plantear importantes Riesgos de Seguridad.
+- Entonces, ¿cómo comprobamos los permisos?
+   - ​Primero, necesitamos entender qué son las opciones.
+      - ​Las opciones modifican el comportamiento del comando.
+      - ​Las opciones de un comando ​pueden ser una sola letra o una palabra completa.
+      - ​Comprobar los permisos implica añadir ​opciones al comando ls.
+      - ​En primer lugar, `ls -l` muestra ​permisos de archivos y directorios.
+   - También es posible que desee mostrar ​archivos ocultos e identificar sus permisos.
+      - ​Los archivos ocultos, que empiezan por ​un punto antes de su nombre, no ​aparecen normalmente cuando utiliza ls para mostrar el contenido de los archivos.
+      - Introduciendo `ls -a` muestra los archivos ocultos.
+      - ​Entonces puede combinar estas dos opciones para hacer ambas cosas.
+- ​Introduciendo `ls -la` muestra los permisos ​para archivos y directorios, incluyendo los archivos ocultos.
+- ​Vamos a entrar en Bash y probar estas opciones.
+- ​En este momento, estamos en el subdirectorio del proyecto.
+- ​Primero, vamos a utilizar el comando `ls` para mostrar su contenido.
+- ​La salida muestra los archivos en este directorio, ​pero no sabemos nada acerca de sus permisos.
+- ​Al utilizar `ls -l` en su lugar, ​obtenemos información ampliada sobre ​estos archivos.
+- ​Los nombres de los ficheros están ahora a la derecha de cada fila.
+- ​La primera pieza de información en cada fila ​muestra los permisos en ​el formato que discutimos antes.
+- ​Dado que todos estos son ficheros y no directorios, ​fíjese cómo el primer carácter es un guión.
+- ​Centrémonos en un archivo concreto: proyecto1.txt.
+- ​Los caracteres segundo a cuarto de sus ​permisos nos muestran que el usuario ​tiene permisos de lectura y escritura ​pero carece de permisos de ejecución.
+- ​Tanto en los caracteres quinto a ​séptimo como en los caracteres octavo a décimo, ​la secuencia es r--.
+- Esto significa que el grupo y otros sólo tienen privilegios de lectura.
+- Después de los permisos, `ls -l` muestra primero el nombre de usuario.
+- ​Aquí, somos nosotros, analista.
+- Luego viene el nombre del grupo; ​en nuestro caso, el grupo de Seguridad.
+- ​Ahora utilicemos `ls -a` ​La salida incluye dos archivos más-archivos ocultos ​con los nombres: .hidden1.txt ​y .hidden2.txt
+- ​Por último, también podemos utilizar `​ls -la` para mostrar los permisos de todos los archivos, ​incluidos estos archivos ocultos.
