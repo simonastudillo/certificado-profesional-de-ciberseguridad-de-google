@@ -182,3 +182,96 @@
          - Down arrow: Avanzar una línea
          - Up arrow: Retroceder una línea
          - q: Salir y volver a la ventana de terminal anterior
+
+---
+
+## Actividad: Encontrar archivos con los comandos de Linux
+- Introducción
+   - En este laboratorio, aprenderá a navegar por una estructura de archivos de Linux, localizar archivos y leer su contenido.
+   - Utilizará comandos de Linux en el shell Bash para completar estos pasos.
+
+- Lo que hará
+   - Encontrar su directorio de trabajo actual y mostrar su contenido
+   - Navegar a un Directorio y listar subdirectorios
+   - Visualizar el contenido de un archivo
+   - Visualizar las 10 primeras líneas de un archivo
+
+- Resumen de la actividad
+   - Anteriormente, aprendiste sobre Linux y cómo comunicarte con el SO mediante la shell.
+   - También aprendiste a usar algunos de los comandos principales para navegar por el sistema de archivos de Linux y leer contenido de los archivos que incluye.
+   - Estas son habilidades fundamentales.
+   - Por ejemplo, cuando investigas un acceso no autorizado, es posible que navegues hasta un informe sobre accesos de los usuarios y lo leas.
+   - En este lab, navegarás por una estructura de archivos de Linux, ubicarás archivos y leerás su contenido.
+   - También deberás responder algunas preguntas de opción múltiple en función de la información incluida en esos archivos.
+   - Como analista de seguridad, es esencial que sepas cómo navegar por archivos, administrarlos y analizarlos mediante una shell de Linux sin una Interfaz gráfica de usuario.
+
+- Situación
+   - En este caso, debes ubicar y analizar la información de ciertos archivos ubicados en el directorio /home/analyst.
+   - Estos son los pasos que seguirás:
+      1. Obtendrás la información del directorio de trabajo actual en el que te encuentras y mostrarás su contenido.
+      2. Navegarás hasta el directorio reports y obtendrás una lista de los subdirectorios que contiene.
+      3. Navegarás hasta el subdirectorio users y mostrarás los contenidos del archivo Q1_added_users.txt.
+      4. Navegarás hasta el directorio logs y mostrarás las primeras 10 líneas de un archivo que contiene.
+
+- Comienza el lab
+
+1. Obtén información del directorio actual
+- ¿Cuál es tu directorio de trabajo actual?
+   - [ ] /home
+   - [x] /home/analyst
+   - [ ] /var/logs
+   - [ ] /home/analyst/logs
+- ¿Cuántos directorios tiene el directorio de trabajo actual?
+   - [ ] 2
+   - [ ] 1
+   - [ ] 5
+   - [x] 4
+
+2. Cambia el directorio y obtén una lista de los subdirectorios
+- ¿Cómo se llama el subdirectorio en el directorio /home/analyst/reports?
+   - [ ] analyst
+   - [ ] projects
+   - [x] users
+   - [ ] logs
+
+3. Ubica y lee el contenido de un archivo
+- Navega hasta el directorio /home/analyst/reports/users.
+- Obtén una lista de los archivos del directorio actual.
+- Muestra el contenido del archivo Q1_added_users.txt.
+- ¿En qué departamento trabaja el empleado con el nombre de usuario aezra?
+   - [x] Human Resources
+   - [ ] Finance
+   - [ ] Information Technology
+   - [ ] Sales
+- ¿Cuál es el employee_id del usuario mreed en el departamento de Information Technology?
+   - [ ] 1177
+   - [ ] 1001
+   - [ ] 1188
+   - [x] 1104
+
+4. Navega hasta un directorio y ubica un archivo
+- Navega hasta el directorio /home/analyst/logs.
+- Muestra el nombre del archivo que contiene.
+- Muestra las 10 primeras líneas de este archivo.
+- ¿Cuántos mensajes de advertencia hay en las primeras 10 líneas del archivo server_logs.txt?
+   - [ ] 6
+   - [x] 3
+   - [ ] 2
+   - [ ] 1
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+pwd
+ls -l
+cd reports
+ls -l
+cd users
+ls -l
+cat Q1_added_users.txt
+cat Q1_added_users.txt | grep aezra
+cat Q1_added_users.txt | grep mreed
+cd ~/logs
+ls -l
+head server_logs.txt
+head server_logs.txt | grep warning
+```
