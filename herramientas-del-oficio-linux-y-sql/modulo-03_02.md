@@ -1,0 +1,48 @@
+# Gestionar el contenido de los archivos en Bash
+
+## Encuentre lo que necesita con Linux
+- ​​Como analista de seguridad, ​su trabajo probablemente implique ​filtrar en busca de la información que necesita.
+- ​Filtrado significa buscar en su sistema ​información específica que pueda ​ayudarle a resolver problemas complejos.
+- ​Por ejemplo, imagine que su Equipo ​determina que una pieza de ​software malicioso contiene una cadena de caracteres.
+- ​Podría tener la tarea de encontrar otros archivos con ​la misma cadena para determinar si ​esos archivos contienen el mismo software malicioso.
+- ​Más adelante, aprenderemos más sobre cómo ​puede utilizar SQL para filtrar una Base de datos, ​pero Linux es un buen lugar para empezar con el filtrado básico.
+- ​Primero, empezaremos con grep.
+   - El comando grep busca en un archivo especificado y ​devuelve todas las líneas en ​el archivo que contengan una cadena especificada.
+   - ​Aquí hay un ejemplo de esto.
+   - ​Digamos que tenemos un archivo llamado updates.txt, ​y actualmente estamos buscando líneas que ​contengan la palabra: OS.
+   - ​Si el archivo es grande, ​nos llevaría mucho tiempo escanearlo visualmente.
+   - ​En su lugar, después de navegar hasta ​el directorio que contiene updates.txt, ​escribiremos el comando: ​grep OS updates.txt en el shell.
+   - ​Note cómo el comando grep va seguido de dos argumentos.
+   - ​El primer argumento es la cadena que estamos buscando; ​en este caso, OS.
+   - ​El segundo argumento es el nombre del archivo ​que estamos buscando, updates.txt.
+   - ​Cuando pulsamos intro, ​Bash nos devuelve todas las líneas que contienen la palabra OS.
+- Ahora hablemos de piping.
+   - ​Piping es un comando de Linux que ​puede utilizarse para una gran variedad de propósitos.
+   - ​En un momento, nos centraremos en ​cómo puede utilizarse para el filtrado.
+   - ​Pero primero, hablemos de la idea general de piping.
+   - El comando piping envía una salida estándar de ​un comando como entrada estándar ​a otro comando para su posterior procesamiento.
+   - ​Se representa mediante el carácter de barra vertical.
+   - ​En nuestro Contexto, ​podemos referirnos a esto como el carácter de tubería.
+   - ​Tómese un momento e imagine una tubería física.
+   - ​Las tuberías físicas tienen dos extremos.
+   - ​En un extremo, por ejemplo, ​el agua puede entrar en la tubería desde un depósito de agua caliente.
+   - ​Luego, viaja a través de la tubería y ​sale por el otro extremo en un fregadero.
+   - ​De forma similar, en Linux, ​la tubería también implica redirección.
+   - ​La salida de un comando se envía a través ​de la tubería y luego se utiliza en el otro lado de la tubería.
+- ​Grep también se puede incorporar después de una tubería.
+   - ​El primer comando, ls, ​indica al sistema operativo que muestre el contenido del archivo ​y directorio de su subdirectorio de informes.
+   - ​Pero como el comando va seguido de la tubería, ​la salida no se devuelve a la pantalla.
+   - ​En su lugar, se envía al siguiente comando.
+   - ​Como acabamos de aprender, ​grep busca una cadena de caracteres especificada; ​en este caso, son los usuarios.
+   - ​¿Pero dónde busca?
+   - ​Dado que grep sigue una tubería, ​la salida del comando anterior ​indica dónde buscar.
+   - ​En este caso, esa salida es una lista de ​archivos y directorios dentro del subdirectorio reports.
+   - ​Devolverá todos los archivos y ​directorios que contengan la palabra: users.
+- ​Exploremos esto en Bash.
+   - ​Para que podamos entender mejor cómo funciona el filtro, ​primero saquemos todo lo que hay en el directorio reports.
+   - ​Si ya estuviéramos en el directorio, ​sólo tendríamos que introducir ls.
+   - ​Pero como no lo estamos, también ​especificaremos la ruta a este directorio.
+   - ​Cuando pulsemos intro, ​la salida indica que hay ​siete archivos en el directorio de informes.
+   - ​Como queremos devolver ​sólo los archivos que contengan la palabra usuarios, ​combinaremos este comando ls ​con piping y el comando grep. 
+   - Como demuestra la salida, ​Linux ha recibido instrucciones para devolver ​sólo los archivos que contienen la palabra usuarios.
+   - ​Los dos archivos que no contienen ​esta cadena ya no aparecen.
