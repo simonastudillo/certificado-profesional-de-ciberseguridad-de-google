@@ -420,3 +420,10 @@ WHERE title = 'IT Staff';
    ```
    - Esta consulta devuelve todos los registros con valores en la columna title que empiecen por el patrón 'IT'.
    - Esto significa que se devuelven tanto 'IT Staff' como 'IT Manager'.
+   - Como otro ejemplo, si desea buscar en la tabla de facturas para encontrar todos los clientes ubicados en estados con una abreviatura de 'NY', 'NV', 'NS' o 'NT', puede utilizar el patrón 'N_' en la columna state:
+   ```sql
+   SELECT firstname,lastname, state, country
+   FROM customers
+   WHERE state LIKE 'N_';
+   ```
+   - Esto devuelve todos los registros con abreviaturas de estados que siguen este patrón.
