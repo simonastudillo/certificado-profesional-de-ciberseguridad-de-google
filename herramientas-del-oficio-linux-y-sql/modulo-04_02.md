@@ -592,3 +592,45 @@ WHERE office LIKE 'South%';
 
 ## Ejemplar opcional: Filtrar una consulta SQL
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ponga a prueba sus Conocimientos: Consultas SQL
+
+1. ¿Qué es el filtrado en SQL?
+- [x] Seleccionar datos que coinciden con una determinada condición
+- [ ] Eliminación de registros no válidos
+- [ ] Eliminación de datos innecesarios de la base de datos
+- [ ] Cambio de una tabla para que coincida con una condición
+> Filtrar en SQL es seleccionar datos que coinciden con una determinada condición. Los analistas utilizan filtros en SQL para obtener los datos que necesitan.
+
+2. Está trabajando con la base de datos Chinook y desea obtener los datos firstname, lastname y phone de todos los empleados. Sustituya --??? por la información que falta para completar la consulta
+```sql
+--???
+FROM employees;
+```
+```sql
+SELECT firstname, lastname, phone
+FROM employees
+WHERE firstname = 'Andrew';
+```
+- ¿Cuál es el número de teléfono de Andrew Adams?
+- [ ] +1 (403) 262-3443
+- [ ] +1 (403) 467-3351
+- [x] +1 (780) 428-9482
+- [ ] +1 (780) 836-9987
+> El teléfono de Andrew Adams es +1 (780) 428-9482. Sustituyendo --??? por SELECT firstname, lastname, phone, puede completar la consulta y obtener este resultado.
+
+3. Un analista de Seguridad quiere filtrar la tabla log_in_attempts en busca de registros en los que el valor de la columna país sea 'Canada'. ¿Cuál es una consulta válida para ello?
+- [x] SELECT * FROM log_in_attempts WHERE country = 'Canada';
+- [ ] SELECT WHERE country = 'Canada' FROM log_in_attempts;
+- [ ] WHERE country = 'Canada' SELECT * FROM log_in_attempts;
+- [ ] SELECT * FROM log_in_attempts WHERE country = Canada;
+> El analista de seguridad puede utilizar la siguiente consulta para filtrar la tabla log_in_attempts en busca de registros en los que el valor de la columna del país sea 'Canada': SELECT * FROM log_in_attempts WHERE country = 'Canada';
+
+4. ¿Qué patrón coincide con cualquier cadena que empiece por el carácter 'A'?
+- [ ] 'A'
+- [ ] '%A%'
+- [ ] '%A'
+- [x] 'A%'
+> El signo de porcentaje (%) es un comodín que sustituye a cualquier otro número de caracteres. El Patrón 'A%' coincide con cualquier cadena que empiece por el carácter 'A'.
