@@ -259,3 +259,51 @@ LIMIT 1 OFFSET 6;
 
 ## Ejemplo opcional: Aplicar más filtros en SQL
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Aplicar más filtros en SQL
+- Resumen de la actividad
+   - Este ejemplo proporciona un recorrido detallado y soluciones para la actividad de laboratorio "Aplicar más filtros en SQL".
+   - Como analista de seguridad, a menudo necesitará refinar la recuperación de datos mediante el filtrado basado en fechas, horas y rangos específicos.
+   - Este ejemplo lo guiará a través del uso de operadores SQL como >, >=, <, <=, BETWEEN y el filtrado por ID específicos.
+
+- Listado de queries de ejemplo para el lab
+```sql
+SELECT *
+FROM log_in_attempts
+WHERE login_date > 'YYYY-MM-DD';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_date > '2023-01-15';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_date BETWEEN '2023-02-01' AND '2023-02-07';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time = 'HH:MM:SS';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time = '09:30:00';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_id = ID_Value;
+
+SELECT *
+FROM log_in_attempts
+WHERE login_id = 503;
+```
+
+- Conclusión
+   - Ahora ha practicado la aplicación de filtros más específicos en SQL utilizando operadores de comparación (>, >=, <, <=, =) y el operador BETWEEN para recuperar datos basados en fechas, horas e identificadores únicos.
+   - Estas habilidades son esenciales para llevar a cabo investigaciones exhaustivas y extraer información específica de registros de seguridad y bases de datos.
+   - Se está volviendo más experto en el uso de SQL para analizar y comprender los datos relacionados con la seguridad.
