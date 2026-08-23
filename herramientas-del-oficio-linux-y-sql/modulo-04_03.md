@@ -556,3 +556,63 @@ WHERE NOT department = 'Information Technology';
 
 ## Ejemplo opcional: Filtrado con AND, OR y NOT
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Filtro con AND, OR y NOT
+- Resumen de actividades
+   - Como analista de seguridad, es probable que necesites analizar datos.
+   - Y a menudo encontrar los datos específicos que necesitas depende de más de un factor.
+   - Para recuperar información específica de la base de datos, puedes filtrar por múltiples condiciones.
+   - También puede filtrar lo que no coincide con una condición determinada.
+   - En esta actividad de laboratorio, utilizará los operadores AND, OR y NOT para crear filtros más complejos para consultas SQL.
+   - Este ejemplo es un recorrido de la actividad previa de Qwiklab, incluyendo instrucciones detalladas y soluciones.
+   - Puede utilizar este ejemplo si no pudo completar el laboratorio o si necesita orientación adicional para realizar las tareas del laboratorio.
+   - También puede consultar este ejemplo para prepararse para el cuestionario calificado de este módulo.
+
+- Listado de queries de ejemplo para el lab
+```sql
+SELECT *
+FROM log_in_attempts
+WHERE login_time > 'X' AND success = Y;
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time > '18:00' AND success = FALSE;
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date = 'X' OR login_date = 'Y';
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
+
+SELECT * 
+FROM log_in_attempts
+WHERE X country LIKE 'Y';
+
+SELECT * 
+FROM log_in_attempts 
+WHERE NOT country LIKE 'MEX%';
+
+SELECT * 
+FROM employees;
+
+SELECT * 
+FROM employees 
+WHERE department = 'Marketing' AND office LIKE 'East%';
+
+SELECT * 
+FROM employees 
+WHERE department = 'Finance' OR department = 'Sales';
+
+SELECT * 
+FROM employees 
+WHERE NOT department = 'Information Technology';
+```
+
+- Conclusión
+   - Ahora tiene experiencia práctica en el uso de SQL para
+      - ejecutar consultas SQL para recuperar información de una base de datos y
+      - aplicar los operadores AND, OR y NOT para filtrar consultas SQL.
