@@ -181,3 +181,31 @@ apropos -a create new group
 
 ## Ejemplo opcional: Obtener ayuda en la línea de comandos
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Obtener ayuda en la línea de comandos
+- Resumen de actividades
+   - Como analista de seguridad, no tendrás todas las respuestas todo el tiempo, pero puedes aprender dónde encontrarlas.
+   - Una de las mejores cosas de Linux es que puedes obtener ayuda a través de la línea de comandos.
+   - En esta actividad de laboratorio, utilizarás los comandos man y whatis para obtener información sobre otros comandos y cómo funcionan.
+   - También utilizarás el comando apropos para buscar en la página del manual un comando con una cadena especificada.
+   - Cuando trabajes como analista de seguridad, es probable que te resulte útil saber cómo descubrir qué comando usar o información sobre lo que hacen los comandos.
+   - Con eso en mente, exploremos tu escenario.
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+whatis cat
+man cat
+apropos -a first part file
+man useradd
+whatis rm
+whatis rmdir
+apropos -a create new group
+```
+
+- Conclusión
+   - Ahora tienes experiencia práctica en el uso de comandos básicos del shell Bash de Linux para
+      - obtener una breve descripción de un comando,
+      - mostrar las páginas man para un comando, y
+      - encontrar comandos basados en palabras clave sobre su función.
