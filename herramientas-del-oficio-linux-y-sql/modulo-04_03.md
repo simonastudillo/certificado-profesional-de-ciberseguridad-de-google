@@ -616,3 +616,111 @@ WHERE NOT department = 'Information Technology';
    - Ahora tiene experiencia práctica en el uso de SQL para
       - ejecutar consultas SQL para recuperar información de una base de datos y
       - aplicar los operadores AND, OR y NOT para filtrar consultas SQL.
+
+---
+
+## Actividad de Portfolio: Aplicar filtros a las consultas SQL
+- Resumen de la actividad
+   - En esta actividad, crearás un nuevo documento de portafolio para demostrar tu experiencia usando SQL.
+   - Puedes agregar este documento a tu portafolio de ciberseguridad, el cual puedes compartir con posibles empleadores o reclutadores.
+   - Para crear tu documento de portafolio, revisarás un escenario y seguirás una serie de pasos.
+   - Este escenario está relacionado con el laboratorio que acabas de completar sobre el uso de los operadores AND, OR y NOT en SQL para filtrar información.
+   - Explicarás las consultas que realizaste en ese laboratorio, y esto te ayudará a prepararte para futuras entrevistas de trabajo y otros pasos del proceso de contratación.
+
+- Escenario
+   - Usted es un profesional de seguridad en una gran organización.
+   - Parte de su trabajo es investigar problemas de seguridad para ayudar a mantener el sistema seguro.
+   - Recientemente descubrió algunos problemas potenciales de seguridad que involucran intentos de inicio de sesión y máquinas de empleados.
+   - Su tarea es examinar los datos de la organización en sus tablas employees y log_in_attempts.
+   - Deberá utilizar filtros SQL para recuperar registros de diferentes conjuntos de datos e investigar los posibles problemas de seguridad.
+   - Este escenario incluye las mismas consultas que las del laboratorio Filtro con AND, OR y NOT .
+   - Puede volver a visitar el laboratorio para obtener capturas de pantalla e incluirlas en su documento de portafolio.
+   - Si lo desea, también puede completar esta actividad sin volver a visitar el laboratorio escribiendo sus consultas en la plantilla.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Plantilla: Aplicar filtros a consultas SQL](./resources/Apply filters to SQL queries.docx)
+
+2. Acceder al material de apoyo
+- El documento Instrucciones para incluir consultas SQL proporciona instrucciones y prácticas recomendadas para incluir ejemplos de consultas SQL en su actividad de portafolio
+   - [Instrucciones para incluir consultas SQL](./resources/Instructions for including SQL queries.docx)
+- El documento Formatos de tablas describe cómo se organizan las tablas utilizadas para esta actividad de portafolio:
+   - [Formatos de tablas](./resources/Table formats.docx)
+
+3. Recuperar después de horas de intentos fallidos de inicio de sesión
+- Recientemente ha descubierto un posible incidente de seguridad ocurrido fuera del horario laboral.
+- Para investigarlo, necesita consultar la tabla log_in_attempts y revisar la actividad de inicio de sesión fuera del horario laboral.
+- Utilice filtros en SQL para crear una consulta que identifique todos los intentos de inicio de sesión fallidos que se produjeron después de las 18:00.
+- (La hora del intento de inicio de sesión se encuentra en la columna login_time. La columna success contiene un valor de 0 cuando un intento de inicio de sesión falló; puede utilizar un valor de 0 o FALSE en su consulta para identificar los intentos de inicio de sesión fallidos)
+
+4. Recuperar los intentos de inicio de sesión en fechas concretas
+- Un evento sospechoso ocurrió el 2022-05-09.
+- Para investigar este evento, desea revisar todos los intentos de inicio de sesión que se produjeron ese día y el día anterior.
+- Utilice filtros en SQL para crear una consulta que identifique todos los intentos de inicio de sesión que se produjeron el 2022-05-09 o el 2022-05-08.
+- (La fecha del intento de inicio de sesión se encuentra en la columna login_date).
+- (La fecha del intento de inicio de sesión se encuentra en la columna login_date )
+
+5. Recuperar intentos de inicio de sesión fuera de México
+- Ha habido actividad sospechosa con intentos de inicio de sesión, pero el equipo ha determinado que esta actividad no se originó en México.
+- Ahora, necesita investigar los intentos de inicio de sesión que ocurrieron fuera de México.
+- Utilice filtros en SQL para crear una consulta que identifique todos los intentos de inicio de sesión que se produjeron fuera de México.
+- (Cuando se refiere a México, la columna de país contiene valores tanto de MEX como de MEXICO, y necesita usar la palabra clave LIKE con % para asegurarse de que su consulta refleje esto)
+
+6. Recuperar empleados en Marketing
+- Su equipo desea realizar actualizaciones de seguridad en máquinas específicas de empleados en el departamento de Marketing.
+- Usted es responsable de obtener información sobre estos equipos de empleados y necesitará consultar la tabla de empleados.
+- Utilice filtros en SQL para crear una consulta que identifique a todos los empleados del departamento de Marketing de todas las oficinas del edificio Este.
+- (El departamento del empleado se encuentra en la columna departamento, que contiene valores que incluyen Marketing. La oficina se encuentra en la columna oficina. Algunos ejemplos de valores en esta columna son Este-170, Este-320 y Norte-434. Tendrá que utilizar la palabra clave LIKE con % para filtrar el edificio Este)
+
+7. Recuperar empleados en Finanzas o Ventas
+- Su equipo necesita ahora realizar una actualización de seguridad diferente en las máquinas para los empleados de los departamentos de Ventas y Finanzas.
+- Utilice filtros en SQL para crear una consulta que identifique a todos los empleados de los departamentos de Ventas o Finanzas.
+- (El departamento del empleado se encuentra en la columna departamento, que contiene valores que incluyen Ventas y Finanzas)
+
+8. Recuperar a todos los empleados que no estén en IT
+- Su equipo necesita realizar una actualización más en las máquinas de los empleados.
+- Los empleados que pertenecen al departamento de tecnología de la información ya han recibido esta actualización, pero los empleados de todos los demás departamentos la necesitan.
+- Utilice filtros en SQL para crear una consulta que identifique a todos los empleados que no pertenezcan al departamento de informática.
+- (El departamento del empleado se encuentra en la columna departamento, que contiene valores que incluyen Tecnología de la información)
+
+9. Finalice su documento
+- Para finalizar el documento y dejar claro su propósito a los posibles empleadores, asegúrate de completar las secciones Descripción del proyecto y Resumen de la plantilla Aplicar filtros a consultas SQL.
+- En la sección Descripción del proyecto, ofrece una visión general del escenario y de lo que consigues mediante SQL. Escribe de dos a cuatro frases.
+- En la sección Resumen, proporcione un breve resumen de las tareas anteriores y conéctelas con el escenario. Escribe aproximadamente de dos a cuatro frases.
+
+- Qué incluir en tu respuesta
+   - Capturas de pantalla de las consultas o versiones mecanografiadas de las mismas
+   - Explicaciones de las consultas
+   - Una descripción del proyecto al principio
+   - Un resumen al final
+   - Detalles sobre el uso de LIKE para buscar un patrón
+   - Detalles sobre el filtrado de fechas y horas
+   - Detalles sobre el uso de AND y OR para filtrar según varias condiciones
+   - Detalles sobre el uso de NOT en los filtros
+
+- Apply filters to SQL queries
+
+1. Project description
+Recientemente, se descubrió un posible incidente de seguridad relacionado con intentos de inicio de sesión y máquinas de empleados. Para investigar este incidente, se revisa registros específicos en las tablas log_in_attempts y employees utilizando consultas SQL. El objetivo es filtrar información relevante para identificar patrones sospechosos y garantizar la seguridad de los sistemas.
+
+2. Retrieve after hours failed login attempts
+Revisé la tabla log_in_attempts para identificar todos los intentos de inicio de sesión fallidos que ocurrieron después de las 18:00 (hora en que termina el horario laboral). Se utilizó la siguiente consulta SQL `SELECT * FROM log_in_attempts WHERE login_time > '18:00:00' AND success = 0;` para filtrar los registros. Esta consulta devuelve todos los intentos fallidos de inicio de sesión que se produjeron fuera del horario laboral, lo que permite investigar posibles incidentes de seguridad. En total se encontraron 19 intentos de inicio de sesión fallidos después de las 18:00.
+
+3. Retrieve login attempts on specific date
+Para investigar un evento sospechoso ocurrido el 2022-05-09, se revisaron todos los intentos de inicio de sesión que se produjeron ese día y el día anterior. Se utilizó la siguiente consulta SQL `SELECT * FROM log_in_attempts WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';` para filtrar los registros. Esta consulta devuelve todos los intentos de inicio de sesión realizados en esas fechas específicas, lo que permite analizar la actividad durante ese período. En total se encontraron 75 intentos de inicio de sesión en esos dos días.
+
+4. Retrieve login attempts outside of Mexico
+Para investigar la actividad sospechosa que no se originó en México, se revisaron todos los intentos de inicio de sesión que ocurrieron fuera de México. Se utilizó la siguiente consulta SQL `SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';` para filtrar los registros. Se utiliza "MEX" ya que existen registros con el valor "MEX" y otros con el valor de "MEXICO". Esta consulta devuelve todos los intentos de inicio de sesión realizados fuera de México, lo que permite identificar posibles amenazas externas. En total se encontraron 144 intentos de inicio de sesión fuera de México.
+
+5. Retrieve employees in Marketing
+Para obtener información sobre los empleados del departamento de Marketing en el edificio Este, se revisó la tabla employees. Se utilizó la siguiente consulta SQL `SELECT * FROM employees WHERE department = 'Marketing' AND office LIKE 'East%';` para filtrar los registros. Esta consulta devuelve todos los empleados que pertenecen al departamento de Marketing y trabajan en el edificio Este, lo que permite identificar a los empleados relevantes para las actualizaciones de seguridad.
+
+6. Retrieve employees in Finance or Sales
+Para obtener información sobre los empleados de los departamentos de Finanzas o Ventas, se revisó la tabla employees. Se utilizó la siguiente consulta SQL `SELECT * FROM employees WHERE department = 'Finance' OR department = 'Sales';` para filtrar los registros. Esta consulta devuelve todos los empleados que pertenecen a cualquiera de los dos departamentos, lo que permite identificar a los empleados relevantes para las actualizaciones de seguridad.
+
+7. Retrieve all employees not in IT
+Para obtener información sobre todos los empleados que no pertenecen al departamento de Tecnología de la Información, se revisó la tabla employees. Se utilizó la siguiente consulta SQL `SELECT * FROM employees WHERE NOT department = 'Information Technology';` para filtrar los registros. Esta consulta devuelve todos los empleados que no pertenecen al departamento de TI, lo que permite identificar a los empleados que necesitan recibir actualizaciones de seguridad. En total se encontraron 161 empleados que no pertenecen al departamento de TI.
+
+8. Summary
+En esta actividad, se utilizaron consultas SQL para filtrar información específica de las tablas log_in_attempts y employees. Se aplicaron operadores lógicos como AND, OR y NOT para recuperar registros relevantes relacionados con intentos de inicio de sesión y empleados de diferentes departamentos. Estas consultas permitieron identificar patrones sospechosos, analizar la actividad fuera del horario laboral, y garantizar que los empleados recibieran las actualizaciones de seguridad necesarias.
