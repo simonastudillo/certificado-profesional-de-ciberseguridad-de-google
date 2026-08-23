@@ -738,3 +738,44 @@ En esta actividad, se utilizaron consultas SQL para filtrar información especí
    - Detalles sobre el filtrado de fechas y horas
    - Detalles sobre el uso de AND y OR para filtrar según múltiples condiciones
    - Detalles sobre el uso de NOT en filtros
+
+---
+
+## Ponga a prueba sus Conocimientos: Más filtros SQL
+
+1. ¿Qué filtro da como resultado todos los Registros con valores en la columna date entre '01-01-2015' (1 de enero de 2015) y '01-04-2015' (1 de abril de 2015)?
+- [x] WHERE date BETWEEN '01-01-2015' AND '01-04-2015';
+- [ ] WHERE date < '01-04-2015';
+- [ ] WHERE date BETWEEN '01-01-2015', '01-04-2015';
+- [ ] WHERE date > '01-01-2015';
+> El filtro WHERE date BETWEEN '01-01-2015' AND '01-04-2015'; da salida a todos los Registros con valores en la columna de fecha entre '01-01-2015' y '01-04-2015'. 
+
+2. ¿Qué Operador es más eficaz para devolver todos los Registros con un status distinto de 'successful'?
+- [ ] OR
+- [ ] AND
+- [x] NOT
+- [ ] BETWEEN
+> NOT es más eficaz para devolver todos los registros con un estado distinto de 'successful'. El operador NOT niega una condición. En este caso, puede utilizarse en un filtro de WHERE NOT status = 'successful';.
+
+3. Está trabajando con la base de datos Chinook. Desea encontrar los nombres y apellidos de los clientes que tienen un valor en la columna country de 'Brazil' o 'Argentina'. Sustituya --??? por la información que falta para completar la consulta. (Si desea deshacer los cambios realizados en la consulta, puede hacer clic en el botón Restablecer)
+```sql
+SELECT firstname, lastname, country
+FROM customers
+--???
+```
+```sql
+WHERE country = 'Brazil' OR country = 'Argentina';
+```
+- ¿Cuántos Clientes son de Brasil o Argentina?
+- [ ] 4
+- [ ] 1
+- [ ] 5
+- [x] 6
+> 6 Clientes son de Brasil o Argentina. Sustituyendo --??? por WHERE country = 'Brazil' OR country = 'Argentina';, puede completar la consulta y devolver este resultado.
+
+4. Mientras trabaja como analista, se encuentra con una consulta que incluye el siguiente filtro: `SELECT * FROM customers WHERE country = 'USA' AND state = 'NV';` ¿Qué devolverá esta consulta?
+- [x] Información sobre los clientes que tienen un valor de 'USA' en la columna country y un valor de 'NV' en la columna state.
+- [ ] Información sobre clientes que no tienen un valor de 'USA' en la columna country o no tienen un valor de 'NV' en la columna state.
+- [ ] Información sobre los clientes que no tienen un valor de 'USA' en la columna country pero sí de 'NV' en la columna state.
+- [ ] Información sobre los clientes que tienen un valor de 'USA' en la columna country o un valor de 'NV' en la columna state.
+> La consulta devuelve información sobre los clientes que tienen un valor de 'USA' en la columna country y un valor de'NV' en la columna state. El Operador AND especifica que ambas condiciones deben cumplirse simultáneamente. 
