@@ -315,3 +315,52 @@ ORDER BY login_date, login_time;
 
 ## Ejemplo opcional: Realizar una consulta SQL
 - Mismo laboratorio que el anterior.
+
+---
+
+## Filtros básicos en consultas SQL
+- Una de las funciones más potentes de SQL es su capacidad para filtrar.
+- Filtrar es seleccionar datos que cumplan una determinada condición.
+- ​Piense en el filtrado como una forma de elegir sólo los datos que deseamos.
+- ​Digamos que queremos seleccionar manzanas de un carro de fruta.
+- El filtrado nos permite especificar qué tipo de manzanas queremos elegir.
+- ​Cuando vamos a comprar manzanas, podríamos decir explícitamente: "Elija sólo manzanas que sean frescas".
+- ​Esto elimina de la selección las manzanas que no son frescas.
+- ​Como analista de seguridad, podría filtrar una tabla de intentos de registro para encontrar todos los intentos ​de un país específico.
+- ​Podría hacerlo aplicando un filtro en la columna de país.
+- Por ejemplo, podría filtrar para que sólo devolviera los registros que contuvieran Canadá.
+- ​Antes de empezar, debemos centrarnos en una parte importante de la sintaxis de SQL.
+- ​Aprendamos qué son los operadores. 
+   - ​Un operador es un símbolo o palabra clave que representa una operación.
+   - Un ejemplo de operador sería el operador igual a.
+   - ​Por ejemplo, si quisiéramos encontrar todos los registros que ​tienen 'USA' en la columna de país, utilizaríamos country = ''USA'
+   - ​Para filtrar una consulta en SQL, simplemente añadimos una línea adicional a la sentencia SELECT y FROM ​que utilizamos antes.
+- ​Esta línea adicional utilizará una cláusula WHERE.
+- ​En SQL, WHERE indica la condición para un filtro.
+- ​Después de la palabra clave WHERE, se enumera la condición específica mediante operadores.
+- ​Así que si quisiéramos encontrar todos los intentos de inicio de sesión realizados en Estados Unidos, ​crearíamos este filtro.
+- ​En esta condición concreta, estamos indicando que se devuelvan todos los registros que ​tengan un valor en la columna de país que sea igual a 'USA' ​Intentemos juntarlo todo en SQL.
+- ​Vamos a empezar seleccionando todas las columnas de la tabla ​log_in_attempts.
+- Y, a continuación, añadiremos el filtro WHERE.
+- ​¡Ahora, ejecutemos esta consulta! Debido a nuestro filtro, sólo se devuelven las filas ​en las que el país del intento de registro fue 'USA'
+- ​En el ejemplo anterior, la condición para nuestro filtro se basaba simplemente en devolver ​registros que fueran iguales a un valor determinado.
+- ​También podemos hacer que nuestras condiciones sean más complejas buscando ​un patrón en lugar de una palabra exacta.
+- ​Por ejemplo, en la tabla de empleados, tenemos una columna para oficina.
+- Podríamos buscar registros en esta columna que coincidan con un patrón determinado.
+- ​Quizás querríamos todas las oficinas del edificio Este.
+- ​Para buscar un patrón, utilizamos el signo de porcentaje para que actúe como comodín para ​caracteres no especificados. 
+- Si ejecutamos un filtro para 'Este%', esto nos devolvería todos los registros que empiecen por Este -- ​por ejemplo, las oficinas Este-120, Este-290 y Este-435. 
+- Al buscar patrones con el signo de porcentaje, ​no podemos utilizar el operador igual.
+- ​En su lugar, utilizamos otro operador, LIKE. 
+- LIKE es un operador que se utiliza con WHERE para buscar un patrón en una columna.
+- ​Como LIKE es un operador similar al signo igual, ​lo utilizamos en lugar del signo igual.
+- ​Así, cuando nuestro objetivo es devolver todos los valores de la columna office que empiecen por la palabra ​East, LIKE aparecería en una cláusula WHERE.
+- ​Volvamos al ejemplo en el que queríamos filtrar por ​intentos de registro realizados en Estados Unidos.
+- Imagínese que nos damos cuenta de que nuestra base de datos contiene incoherencias con la forma en que se representa ​Estados Unidos.
+- ​Algunas entradas utilizan US mientras que otras utilizan USA.
+- ​Vamos a meternos en SQL y aplicar este nuevo tipo de filtro con LIKE.
+- ​Vamos a empezar con las mismas dos primeras líneas de ​código porque queremos seleccionar todas las columnas de la tabla de intentos de registro.
+- ​Y vamos a añadir un filtro con LIKE para que se devuelvan los registros si ​contienen un valor en la columna de país que empiece por los caracteres US.
+- ​Esto incluye tanto US como USA.
+- ​Ejecutemos esta consulta para comprobar si cambia la salida.
+- Esto devuelve todas ​las entradas en las que la ubicación del usuario estaba en Estados Unidos.
