@@ -652,3 +652,63 @@ Luego de una revisión exhaustiva de los permisos de archivos y directorios en `
    - Para cambiar el propietario de grupo de access.txt a security, introduzca `sudo chown :security access.txt`.
    - Debe introducir dos puntos (:) antes de security para designarlo como nombre de grupo.
    - De forma similar a useradd, usermod, y userdel, existen opciones adicionales que pueden utilizarse con chown.
+
+---
+
+## Actividad: Añadir y gestionar usuarios con comandos Linux
+- Introducción
+   - En este laboratorio, aprenderá a añadir usuarios y a gestionar el acceso de usuarios en un sistema.
+   - Estas habilidades se pueden utilizar cuando se trabaja con la tecnología de autenticación.
+   - Utilizará comandos de Linux en el shell Bash para completar este laboratorio.
+- Lo que hará
+   - Añadir un nuevo empleado
+   - Cambiar la Responsabilidad de un archivo
+   - Añadir el nuevo empleado a un nuevo grupo
+   - Eliminar al empleado del sistema
+- Resumen de la actividad
+   - Anteriormente, nos centramos en la autorización, el concepto que implica dar acceso a recursos específicos de un sistema.
+   - Otro concepto importante en la seguridad es la autenticación.
+   - Esta es el proceso mediante el cual un usuario demuestra que es quien dice ser en el sistema.
+   - Cuando administran este aspecto, los analistas de seguridad deben asegurarse de lo siguiente:
+      - No todos los usuarios tienen acceso al sistema.
+      - Los usuarios nuevos (quienes son nuevos en la organización o un grupo) se agregan al sistema.
+      - Los usuarios actuales que cambian de grupo o se van de la organización se borran del sistema.
+      - En este lab, usarás los comandos useradd, usermod, userdel y chown para administrar el acceso de los usuarios en la shell Bash de Linux.
+   - Importante: Debes usar el prefijo sudo al comienzo de todos los comandos que uses en este lab.
+   - Agregar o quitar usuarios y grupos son tareas que requieren privilegios de administrador (superusuario) y deberás usar el prefijo sudo con los comandos correspondientes a estas tareas.
+- Situación
+   - En esta situación, un nuevo empleado con el nombre de usuario researcher9 se une a una organización.
+   - Debes agregarlo al sistema y seguir administrando su acceso durante su permanencia en la organización.
+   - Estos son los pasos que seguirás:
+      1. Agregarás un nuevo empleado al sistema
+      2. Luego al grupo primario correspondiente.
+      3. Harás que este empleado sea propietario de un archivo relacionado con un proyecto en particular.
+      4. Agregarás al nuevo empleado a un grupo complementario.
+      5. Por último, borrarás al empleado del sistema.
+
+- Comienza el lab
+
+1. Agrega un usuario nuevo
+- Escribe un comando para agregar al sistema a un usuario llamado researcher9
+- Usa el comando usermod y la opción -g para agregar a researcher9 al grupo research_team y establecerlo como su grupo primario.
+
+2. Asigna la propiedad del archivo
+- Usa el comando chown para establecer a researcher9 como el propietario de /home/researcher2/projects/project_r.txt.
+
+3. Agrega al usuario a un grupo secundario
+- Usa el comando usermod con las opciones -a y -G para agregar a researcher9 al grupo sales_team y establecerlo como su grupo secundario.
+
+4. Borra un usuario
+- Ejecuta un comando para borrar a researcher9 del sistema
+- Ejecuta el siguiente comando para borrar el grupo researcher9, que ya no es necesario `sudo groupdel researcher9`
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+sudo useradd researcher9
+sudo usermod -g research_team researcher9
+sudo chown researcher9 /home/researcher2/projects/project_r.txt
+ls -la /home/researcher2/projects/project_r.txt
+sudo usermod -a -G sales_team researcher9
+sudo userdel researcher9
+sudo groupdel researcher9
+```
