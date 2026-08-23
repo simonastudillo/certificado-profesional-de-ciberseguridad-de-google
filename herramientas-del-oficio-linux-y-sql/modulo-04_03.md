@@ -352,3 +352,60 @@ WHERE login_id = 503;
 - ​Llevando esto a SQL, ​podemos escribir esta consulta.
 - ​Colocamos NOT después de ​WHERE y antes del estado del filtro.
 - ​Ejecución de estas consultas nos da la lista ​de todas las máquinas que no están ejecutando OS 3, y ​ahora sabemos qué máquinas actualizar.
+
+---
+
+## Más sobre filtros con AND, OR y NOT
+- Operadores lógicos
+   - AND, OR, y NOT le permiten filtrar sus consultas para devolver la información específica que le ayudará en su trabajo como analista de seguridad.
+   - Todos ellos se consideran operadores lógicos.
+
+- AND
+   - En primer lugar, AND se utiliza para filtrar a partir de dos condiciones.
+   - AND especifica que ambas condiciones deben cumplirse simultáneamente.
+   - Por ejemplo, un problema de ciberseguridad podría afectar sólo a aquellas cuentas de clientes que cumplan tanto la condición de ser gestionadas por un representante de soporte con un ID de 5 como la de estar ubicadas en EE.UU..
+   - Para encontrar los nombres y correos electrónicos de esos clientes concretos, debe colocar las dos condiciones a ambos lados del operador AND en la cláusula WHERE:
+   ```sql
+   SELECT firstname, lastname, email, country, supportrepid
+   FROM customers
+   WHERE supportrepid = 5 AND country = 'USA';
+   ```
+
+- OR
+   - El operador OR también conecta dos condiciones, pero OR especifica que puede cumplirse cualquiera de ellas.
+   - Devuelve resultados en los que se cumple la primera condición, la segunda o ambas.
+   - Por ejemplo, si es responsable de encontrar a todos los Clientes que se encuentran en EE.UU. o Canadá para poder comunicarles información sobre una actualización de seguridad, puede utilizar el operador OR para encontrar todos los registros necesarios.
+   - Aunque ambas condiciones se basen en la misma columna, deberá escribir las dos condiciones completas.
+   - Por ejemplo, la consulta del ejemplo contiene el filtro WHERE country = 'Canada' OR country = 'USA'. 
+   - La siguiente consulta muestra cómo colocar las dos condiciones a ambos lados del operador OR en la cláusula WHERE:
+   ```sql
+   SELECT firstname, lastname, email, country, supportrepid
+   FROM customers
+   WHERE country = 'USA' OR country = 'Canada';
+   ```
+
+- NOT
+   - A diferencia de los dos operadores anteriores, el operador NOT sólo funciona con una única condición, y no con varias.
+   - El operador NOT niega una condición.
+   - Esto significa que SQL devuelve todos los registros que no coinciden con la condición especificada en la consulta.
+   - Por ejemplo, si un Problema de ciberseguridad no afecta a los clientes de EE.UU. pero podría afectar a los de otros países, puede devolver todos los clientes que no estén en EE.UU..
+   - Esto sería más eficaz que crear condiciones individuales para todos los demás países.
+   - Para utilizar el operador NOT para esta tarea, escriba la siguiente consulta y coloque NOT directamente después de WHERE:
+   ```sql
+   SELECT firstname, lastname, email, country, supportrepid
+   FROM customers
+   WHERE NOT country = 'USA';
+   ```
+   - Otra forma de encontrar valores que no sean iguales a un determinado valor es utilizando el operador <> o el operador !=.
+   - Por ejemplo, WHERE country <> 'USA' y WHERE country != 'USA' son los mismos filtros que WHERE NOT country = 'USA'. 
+
+- Combinación de operadores lógicos
+   - Los operadores lógicos pueden combinarse en filtros.
+   - Por ejemplo, si sabe que EE.UU. y Canadá no están afectados por un problema de ciberseguridad, puede combinar los operadores para devolver los clientes de todos los países además de estos dos.
+   - En la siguiente consulta, NOT se coloca antes de la primera condición, se une a una segunda condición con AND, y luego NOT también se coloca antes de esa segunda condición.
+   - Puede ejecutarla para explorar lo que devuelve:
+   ```sql
+   SELECT firstname, lastname, email, country
+   FROM customers
+   WHERE NOT country = 'Canada' AND NOT country = 'USA';
+   ```
