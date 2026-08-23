@@ -712,3 +712,8 @@ sudo usermod -a -G sales_team researcher9
 sudo userdel researcher9
 sudo groupdel researcher9
 ```
+
+---
+
+## Ejemplo opcional: Añadir y gestionar usuarios con comandos Linux
+- Mismo laboratorio que el anterior.
