@@ -364,3 +364,59 @@ ORDER BY login_date, login_time;
 - ​Esto incluye tanto US como USA.
 - ​Ejecutemos esta consulta para comprobar si cambia la salida.
 - Esto devuelve todas ​las entradas en las que la ubicación del usuario estaba en Estados Unidos.
+
+---
+
+## La cláusula WHERE y los operadores básicos
+- Cómo ayuda el filtrado
+   - Como analista de Seguridad, a menudo será responsable de trabajar con registros de Seguridad muy grandes y complicados.
+   - Para encontrar la información que necesita, a menudo tendrá que utilizar SQL para filtrar los registros.
+   - En un contexto de Ciberseguridad, podría utilizar filtros para encontrar los intentos de inicio de sesión de un usuario específico o todos los intentos de inicio de sesión realizados en el momento de un Problema de Seguridad.
+   - Como otro ejemplo, podría filtrar para encontrar los dispositivos que están ejecutando una versión específica de una aplicación.
+- WHERE
+   - Para crear un filtro en SQL, debe utilizar la palabra clave WHERE.
+   - WHERE indica la condición para un filtro.
+   - Si necesitara enviar correos electrónicos a empleados con un título de Personal de TI, podría utilizar una consulta como la del siguiente ejemplo.
+   - En lugar de devolver todos los registros de la tabla employees, esta cláusula WHERE indica a SQL que devuelva sólo aquellos que contengan 'IT Staff' en la columna title.
+   - Utiliza el operador de signo igual (=) para establecer esta condición.
+```sql
+SELECT firstname, lastname, title, email
+FROM employees
+WHERE title = 'IT Staff';
+```
+
+- Filtrado por patrones
+   - También puede filtrar basándose en un patrón.
+   - Por ejemplo, puede identificar las entradas que empiezan o terminan con un carácter o caracteres determinados.
+   - Filtrar por un patrón requiere incorporar dos elementos más a su cláusula WHERE:
+      - un comodín
+      - el operador LIKE
+   - Comodines
+      - Un comodín es un carácter especial que puede ser sustituido por cualquier otro carácter.
+      - Dos de los comodines más útiles son el signo de porcentaje (%) y el guión bajo (_):
+         - El signo de porcentaje sustituye a cualquier otro carácter.
+         - El símbolo de subrayado sólo sustituye a otro carácter.
+      - Estos comodines pueden colocarse después de una Cadena, antes de una Cadena, o en ambas ubicaciones dependiendo del Patrón por el que esté filtrando.
+      - La siguiente tabla incluye estos comodines aplicados a la Cadena 'a' y ejemplos de lo que devolvería cada patrón.
+
+| Patrón | Resultados que podría devolver |
+| ---- | ---- |
+| 'a%' | apple123, art, a |
+| 'a_' | as, an, a7 |
+| 'a__' | ant, add, a1c |
+| '%a' | pizza, Z6ra, a |
+| '_a' | ma, 1a, Ha |
+| '%a%' | Again, back, a |
+| '_a_' | Car, ban, ea7 |
+
+- LIKE
+   - Para aplicar comodines al filtro, debe utilizar el operador LIKE en lugar del signo igual (=).
+   - LIKE se utiliza con WHERE para buscar un patrón en una columna.
+   - Por ejemplo, si desea enviar un correo electrónico a los empleados cuyo título sea 'IT Staff' o 'IT Manager', puede utilizar el operador LIKE combinado con el comodín %:
+   ```sql
+   SELECT lastname, firstname, title, email
+   FROM employees
+   WHERE title LIKE 'IT%';
+   ```
+   - Esta consulta devuelve todos los registros con valores en la columna title que empiecen por el patrón 'IT'.
+   - Esto significa que se devuelven tanto 'IT Staff' como 'IT Manager'.
