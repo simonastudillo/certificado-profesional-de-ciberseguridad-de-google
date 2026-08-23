@@ -254,3 +254,8 @@ FROM log_in_attempts
 WHERE event_id BETWEEN 100 AND 150
 LIMIT 1 OFFSET 6;
 ```
+
+---
+
+## Ejemplo opcional: Aplicar más filtros en SQL
+- Mismo laboratorio que el anterior.
