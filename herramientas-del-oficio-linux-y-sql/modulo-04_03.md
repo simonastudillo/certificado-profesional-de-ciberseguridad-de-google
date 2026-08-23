@@ -551,3 +551,8 @@ SELECT *
 FROM employees
 WHERE NOT department = 'Information Technology';
 ```
+
+---
+
+## Ejemplo opcional: Filtrado con AND, OR y NOT
+- Mismo laboratorio que el anterior.
