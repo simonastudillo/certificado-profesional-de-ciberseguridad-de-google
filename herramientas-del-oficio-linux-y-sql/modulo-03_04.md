@@ -209,3 +209,35 @@ apropos -a create new group
       - obtener una breve descripción de un comando,
       - mostrar las páginas man para un comando, y
       - encontrar comandos basados en palabras clave sobre su función.
+
+---
+
+## Ponga a prueba sus Conocimientos: Obtenga ayuda en Linux
+
+1. ¿Cuál de las siguientes afirmaciones describe con exactitud la comunidad global en línea de Linux? Seleccione tres respuestas
+- [x] La comunidad publica información en línea para ayudar a los usuarios a aprender a manejar Linux.
+- [ ] La comunidad se centra en recoger los comentarios de los usuarios avanzados de Linux.
+- [x] Los usuarios de Linux pueden encontrar apoyo de la comunidad para las tareas cotidianas.
+- [x] Como Linux es de código abierto, la comunidad puede contribuir fácilmente.
+> La comunidad global en línea de Linux permite a los usuarios encontrar ayuda para las tareas cotidianas. Se publica Información en línea para ayudar a los usuarios a aprender a manejar Linux. Además, como Linux es de código abierto, los miembros de la comunidad pueden contribuir fácilmente.
+
+2. ¿Qué hace el Comando man?
+- [x] Mostrar información sobre otros Comandos y su funcionamiento
+- [ ] Concede temporalmente permisos elevados a usuarios específicos
+- [ ] Borrar un usuario del sistema
+- [ ] Mostrar la descripción de un comando en una sola línea
+> El comando man muestra información sobre otros comandos y su funcionamiento. Para obtener más información sobre un comando específico, introduzca este otro comando después de man. 
+
+3. ¿Qué hace el Comando whatis?
+- [ ] Mostrar información sobre otros Comandos y su funcionamiento
+- [x] Mostrar la descripción de un comando en una sola línea
+- [ ] Devuelve el nombre de usuario del usuario actual
+- [ ] Concede temporalmente permisos elevados a usuarios específicos
+> El comando whatis muestra la descripción de un comando en una sola línea. Es útil si no necesita los detalles adicionales que se encuentran en toda la página del manual.
+
+4. ¿Cuál es una ventaja del Comando apropos?
+- [ ] Se puede utilizar para buscar descripciones de comandos cuando se conoce el nombre específico del comando.
+- [ ] Incorpora opciones obligatorias para la búsqueda personalizada
+- [x] Los usuarios pueden buscar un comando aunque no conozcan el nombre específico del comando.
+- [ ] Condensa la descripción de un comando específico en una sola línea.
+> Los usuarios pueden utilizar apropos para buscar un comando aunque no conozcan el nombre específico del comando. El comando apropos busca en las descripciones de las páginas del manual una cadena especificada.
