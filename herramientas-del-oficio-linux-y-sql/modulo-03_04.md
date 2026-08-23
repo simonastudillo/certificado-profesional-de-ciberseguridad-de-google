@@ -30,3 +30,31 @@
 - ​Muchas preguntas están relacionadas con ​usuarios más avanzados y ​están orientadas a la solución de problemas.
 - ​Bueno, ahora ya sabe dónde obtener algo de soporte extra ​siempre que tenga dudas sobre temas en Linux.
 - ​Hay mucho soporte a sólo un clic de distancia.
+
+---
+
+## Páginas man dentro del shell
+- ​El primer comando que puede ayudarle de esta manera es: `man`.
+- ​man muestra información sobre ​otros comandos y cómo funcionan.
+- El nombre de este comando proviene de la palabra manual.
+- ​Examinemos esto más de cerca utilizando ​man para obtener información sobre el comando usermod.
+- ​Después de man, escribimos el nombre de este comando.
+- ​La información que devuelve man ​incluye una descripción general.
+- ​También contiene información ​sobre cada una de las opciones de usermod.
+- ​Por ejemplo, la opción -d puede ​añadirse a usermod para cambiar el directorio personal de un usuario.
+- ​man proporciona mucha información, ​pero a veces sólo necesitamos ​una referencia rápida sobre lo que hace un comando.
+- ​En ese caso, se utiliza `whatis`.
+- ​whatis muestra una descripción ​de un comando en una sola línea.
+- ​Digamos que ha oído a un compañero de trabajo ​mencionar un comando como tail.
+- ​Nunca había oído hablar de este comando, ​pero puede averiguar lo que hace.
+- ​Simplemente utilice el comando, ​whatis tail, y aprenda que ​expresa la última parte de los archivos.
+- ​A veces puede que ni siquiera sepamos qué comando buscar.
+- ​Aquí es donde `apropos` puede ayudarnos.
+- ​`apropos` busca en las descripciones de las páginas del manual ​una cadena especificada.
+- ​Digamos que tiene una tarea que ​requiere que cambie una contraseña, ​pero no está muy seguro de cómo hacerlo.
+- ​Si utilizamos el comando `apropos` con la cadena contraseña, ​se mostrará un gran número ​de comandos con esa palabra.
+- ​Esto ayuda un poco, ​pero aún puede ser difícil encontrar lo que necesitamos.
+- ​Pero podemos filtrar esto añadiendo ​la opción -a y una cadena adicional.
+- ​Esta opción devolverá ​sólo los comandos que contengan ambas cadenas.
+- ​En nuestro caso, ya que queremos cambiar la contraseña, ​busquemos comandos con ambas: cambio y contraseña.
+- ​Ahora, la salida se ha ​limitado a los comandos más relevantes.
