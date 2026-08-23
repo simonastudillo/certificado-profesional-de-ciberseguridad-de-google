@@ -724,3 +724,17 @@ Para obtener información sobre todos los empleados que no pertenecen al departa
 
 8. Summary
 En esta actividad, se utilizaron consultas SQL para filtrar información específica de las tablas log_in_attempts y employees. Se aplicaron operadores lógicos como AND, OR y NOT para recuperar registros relevantes relacionados con intentos de inicio de sesión y empleados de diferentes departamentos. Estas consultas permitieron identificar patrones sospechosos, analizar la actividad fuera del horario laboral, y garantizar que los empleados recibieran las actualizaciones de seguridad necesarias.
+
+---
+
+## Ejemplo de actividad de Portfolio: Aplicar filtros a las consultas SQL
+- [Ejemplo de actividad de Portfolio: Aplicar filtros a las consultas SQL](./resources/Apply-filters-to-SQL-queries-exemplar.docx)
+- El ejemplar utiliza detalles del escenario dado e incluye lo siguiente:
+   - Capturas de pantalla de las consultas o versiones mecanografiadas de las consultas
+   - Explicaciones de las consultas
+   - Una descripción del Proyecto al principio
+   - Un resumen al final
+   - Detalles sobre el uso de LIKE para buscar un patrón
+   - Detalles sobre el filtrado de fechas y horas
+   - Detalles sobre el uso de AND y OR para filtrar según múltiples condiciones
+   - Detalles sobre el uso de NOT en filtros
