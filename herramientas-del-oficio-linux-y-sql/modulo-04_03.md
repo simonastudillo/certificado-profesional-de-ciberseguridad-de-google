@@ -409,3 +409,145 @@ WHERE login_id = 503;
    FROM customers
    WHERE NOT country = 'Canada' AND NOT country = 'USA';
    ```
+
+---
+
+## Actividad: Filtrado con AND, OR y NOT
+- Introducción
+   - En este laboratorio, utilizará los operadores AND, OR y NOT en SQL para filtrar información.
+   - Utilizará SQL para obtener información específica sobre los empleados, sus máquinas y los departamentos a los que pertenecen.
+   - Utilizará el shell MariaDB para ejecutar consultas SQL.
+
+- Lo que hará
+   - Filtrar los intentos de inicio de sesión que se produjeron fuera de horario
+   - Filtrar los intentos de inicio de sesión en fechas específicas
+   - Filtrar los intentos de inicio de sesión desde ubicaciones específicas
+   - Filtrar información sobre empleados de departamentos específicos
+   - Filtrar información sobre empleados que no pertenezcan a un departamento específico
+
+- Resumen de la actividad
+   - Como analista de seguridad, es probable que debas analizar datos.
+   - A menudo, encontrar los datos específicos que necesitas depende de más de un factor.
+   - Para recuperar información específica de la base de datos, puedes filtrar según múltiples condiciones.
+   - También puedes filtrar según lo que no coincide con una condición en particular.
+   - En este lab, crearás filtros más complejos con los operadores AND, OR y NOT para consultas en SQL.
+   - Prepárate para ejecutar algunas consultas complejas en SQL.
+
+- Situación
+   - En este caso, debes obtener de la base de datos información específica sobre los empleados, sus máquinas y los departamentos a los que pertenecen.
+   - Tu equipo necesita los datos para investigar posibles problemas de seguridad y actualizar las computadoras.
+   - Tu objetivo es filtrar la información necesaria a partir de la base de datos.
+   - Estos son los pasos que seguirás en esta tarea:
+      1. Recuperarás todos los intentos de acceso fallidos después del horario de atención.
+      2. Recuperarás todos los intentos de acceso que ocurrieron en fechas específicas.
+      3. Recuperarás accesos que no se hayan originado en México.
+      4. Recuperarás información sobre ciertos empleados del departamento de Marketing.
+      5. Recuperarás información sobre empleados del departamento de Finanzas o Ventas.
+      6. Obtendrás información sobre empleados que no pertenecen al departamento de Tecnología de la Información.
+
+- Comienza el lab
+
+1. Recupera intentos de acceso fallidos después del horario de atención
+- Usa el operador AND para recuperar todos los intentos de acceso fallidos ocurridos después del horario de atención.
+- How many failed login attempts occurred after 18:00?
+   - [x] 19
+   - [ ] 20
+   - [ ] 44
+   - [ ] 39
+
+2. Recupera intentos de acceso en fechas específicas
+- Usa el operador OR para recuperar los intentos de acceso fallidos durante esos días específicos
+- How many login attempts were made on these two days?
+   - [x] 75
+   - [ ] 89
+   - [ ] 67
+   - [ ] 44
+
+3. Recupera intentos de acceso realizados fuera de México
+- Ejecuta la siguiente consulta en SQL para recuperar información sobre los intentos de acceso que no se originaron en México
+- How many login attempts were made outside of Mexico?
+   - [ ] 73
+   - [ ] 194
+   - [ ] 122
+   - [x] 144
+
+4. Recupera información de los empleados de Marketing
+- Escribe una consulta en SQL para recuperar esta información de la tabla employees. Selecciona todas las columnas y, luego, incluye filtros en las columnas department y office para mostrar solo los registros necesarios.
+- What is the username of the first employee in the Marketing department in the East building?
+   - [x] elarson
+   - [ ] jclark
+   - [ ] alevitsk
+   - [ ] fbautist
+
+5. Recupera información de los empleados de Finanzas o Ventas
+- Escribe una consulta en SQL para recuperar los registros de los empleados del departamento 'Finance' o 'Sales'.
+- What is the username of the first employee in the Sales department returned by the query?
+   - [ ] bisles
+   - [ ] tbarnes
+   - [x] lrodriqu
+   - [ ] sgilmore
+
+6. Recupera información de los empleados que no pertenecen al departamento de TI
+- Escribe una consulta en SQL para recuperar los registros de los empleados que no pertenecen al departamento 'Information Technology'.
+- How many employees are not in the Information Technology department?
+   - [ ] 122
+   - [ ] 188
+   - [x] 161
+   - [ ] 170
+
+
+- Listado de queries utilizadas en el lab
+```sql
+-- PART 1
+SELECT *
+FROM log_in_attempts
+WHERE login_time > '18:00:00' AND success = 0;
+
+SELECT count(*) quantity
+FROM log_in_attempts
+WHERE login_time > '18:00:00' AND success = 0;
+
+-- PART 2
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
+
+SELECT count(*) quantity
+FROM log_in_attempts 
+WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
+
+-- PART 3
+SELECT * 
+FROM log_in_attempts
+WHERE NOT country LIKE 'MEX%';
+
+SELECT * 
+FROM log_in_attempts
+WHERE country NOT LIKE 'MEX%';
+
+SELECT count(*) quantity
+FROM log_in_attempts
+WHERE NOT country LIKE 'MEX%';
+
+-- PART 4
+SELECT *
+FROM employees
+WHERE department = 'Marketing'
+AND office LIKE 'East%';
+
+-- PART 5
+SELECT *
+FROM employees
+WHERE department = 'Finance'
+OR department = 'Sales';
+
+-- PART 6
+
+SELECT *
+FROM employees
+WHERE department != 'Information Technology';
+
+SELECT *
+FROM employees
+WHERE NOT department = 'Information Technology';
+```
