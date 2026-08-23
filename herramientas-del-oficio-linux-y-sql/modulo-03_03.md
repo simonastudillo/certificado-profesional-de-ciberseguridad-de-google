@@ -338,3 +338,164 @@ chmod g-x drafts
       - examinar permisos de archivo y directorio,
       - cambiar permisos de archivos, y
       - cambiar permisos en directorios.
+
+---
+
+## Actividad del Portfolio: Utilizar los comandos de Linux para gestionar los permisos de archivo
+- Escenario
+- Usted es un profesional de la seguridad en una gran organización.
+- Usted trabaja principalmente con su equipo de investigación.
+- Parte de su trabajo consiste en garantizar que los usuarios de este equipo estén autorizados con los permisos adecuados.
+- Esto ayuda a mantener el sistema seguro.
+- Su tarea es examinar los permisos existentes en el sistema de archivos.
+- Tendrá que determinar si los permisos coinciden con la autorización que debería darse.
+- Si no coinciden, tendrá que modificar los permisos para autorizar a los usuarios apropiados y eliminar cualquier acceso no autorizado.
+- Este escenario implica investigar y actualizar los mismos permisos de archivo que los del laboratorio Gestionar autorización.
+- Puede volver a visitar el laboratorio para obtener capturas de pantalla e incluirlas en su documento de portafolio.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Plantilla Permisos de archivo en Linux](./resources/File permissions in Linux .docx)
+
+2. Acceder al material de apoyo
+- El documento Instrucciones para incluir comandos de Linux proporciona instrucciones y mejores prácticas para incluir ejemplos de comandos de Linux en su actividad del portafolio.
+   - [Instrucciones para incluir comandos Linux](./resources/Instructions for including Linux commands .docx)
+- El documento Permisos de archivo actuales muestra cómo se construye la estructura de archivos para esta actividad del portafolio. También se proporcionan los permisos de archivo para cada archivo o directorio.
+   - [Permisos de archivo actuales](./resources/Current file permissions .docx)
+- Se recomienda que utilices el laboratorio Gestionar autorización para completar esta actividad del portafolio.
+- Si estás revisando el laboratorio, usar el documento Permisos de archivo actuales es opcional porque esta estructura de archivos ya ha sido creada para ti.
+
+3. Comprobar los detalles de archivos y directorios
+- En el laboratorio Gestionar autorizaciones, compruebe los permisos establecidos para los archivos y subdirectorios del directorio de proyectos.
+- Asegúrese de que muestra todos los permisos, incluidos los archivos ocultos.
+- O bien, utilice el contenido del documento Permisos de archivo actuales para determinar los permisos actuales.
+- Describa el comando que puede utilizar para comprobar los permisos en la sección
+- Comprobar los detalles de archivos y directorios de la plantilla Permisos de archivo en Linux.
+- Desde el laboratorio, tome una captura de pantalla del comando Linux que utilizó.
+- O bien, escriba este comando directamente en la plantilla.
+- Luego, utilice la salida de este comando en el laboratorio o el contenido del documento Permisos de archivo actuales para indicar los permisos actuales.
+- Si utiliza el documento Permisos de archivo actuales, escríbalos en la cadena de 10 caracteres que formaría parte de la salida del comando.
+
+4. Describir la cadena de permisos
+- Elija un ejemplo del resultado del paso anterior.
+- En la sección Describa la cadena de permisos de la plantilla Permisos de archivos en Linux, escriba una breve descripción que explique la cadena de 10 caracteres del ejemplo.
+- Debe describir para qué sirve la cadena de 10 caracteres y qué representa cada carácter.
+
+5. Cambiar permisos de archivos
+- La organización no permite que otras personas tengan acceso de escritura a ningún archivo.
+- Basándose en los permisos establecidos en el Paso 3, identifique qué archivo necesita que se modifiquen sus permisos.
+- Utilice un comando de Linux para modificar estos permisos.
+- Describa el comando que utilizó y su resultado en la sección Cambiar permisos de archivo de la plantilla Permisos de archivo en Linux.
+- En el laboratorio Gestionar autorización, toma una captura de pantalla del comando Linux que utilizaste.
+- O bien, escriba este comando directamente en la plantilla.
+
+6. Cambiar los permisos de archivo de un archivo oculto
+- El equipo de investigación ha archivado .project_x.txt, por eso es un archivo oculto.
+- Este archivo no debería tener permisos de escritura para nadie, pero el usuario y el grupo deberían poder leer el archivo.
+- Utiliza un comando de Linux para asignar a .project_x.txt la autorización adecuada.
+- Describa el comando que utilizó y su resultado en la sección Cambiar permisos de archivo en un archivo oculto de la plantilla Permisos de archivo en Linux.
+- En el laboratorio Gestionar autorización, tome una captura de pantalla del comando Linux que utilizó.
+- O bien, escriba este comando directamente en la plantilla.
+
+7. Cambiar los permisos de directorio
+- Los archivos y directorios del directorio projects pertenecen al usuario researcher2.
+- Sólo researcher2 debe poder acceder al directorio drafts y a su contenido.
+- Utiliza un comando de Linux para modificar los permisos en consecuencia.
+- Describa el comando que utilizó y su resultado en la sección Cambiar permisos de directorio de la plantilla Permisos de archivos en Linux .
+- En el laboratorio Gestionar autorización, toma una captura de pantalla del comando Linux que utilizaste.
+- O bien, escriba este comando directamente en la plantilla.
+
+8. Finalice su documento
+- Para finalizar el documento y dejar claro su propósito a los posibles empleadores, asegúrese de completar las secciones Descripción del proyecto y Resumen de la plantilla Permisos de archivo en Linux .
+- En la sección Descripción del proyecto, ofrezca una visión general del escenario y de lo que usted logra a través de Linux.
+- Escriba de dos a cuatro frases.
+- En la sección Resumen, proporcione un breve resumen de las tareas anteriores y conéctelas con el escenario.
+- Escriba aproximadamente de dos a cuatro frases.
+- Qué incluir en su respuesta
+- Asegúrate de incluir lo siguiente en tu actividad completada:
+   - Capturas de pantalla de los comandos o versiones mecanografiadas de los comandos
+   - Explicaciones de los comandos
+   - Una descripción del proyecto al principio
+   - Un resumen al final
+   - Detalles sobre el uso de chmod para actualizar los permisos de archivo
+   - Detalles sobre la comprobación de permisos de archivo con ls -la
+   - Detalles sobre la interpretación de la cadena de 10 caracteres que representa los permisos de archivo
+   - Detalles sobre archivos ocultos y directorios
+
+9. Evalúe su actividad
+
+- Su documento incluye capturas de pantalla o versiones mecanografiadas de sus comandos.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye al principio una descripción del Proyecto.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye explicaciones de sus comandos y su salida.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye un resumen al final.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye detalles sobre el uso de chmod para actualizar los permisos de archivo.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye detalles sobre la comprobación de permisos de archivo con ls -la.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye detalles sobre la interpretación de la cadena de 10 caracteres que representa los permisos de archivo.
+   - [x] Sí
+   - [ ] No
+- Su documento incluye detalles sobre archivos ocultos y directorios
+   - [x] Sí
+   - [ ] No
+
+
+### File permissions in Linux
+
+- Project description
+En ese informe se revisarán los permisos de archivos y directorios dentro de `home/researcher2/projects/`. Se utilizarán comandos como `ls -la` y `chmod` para examinar y modificar los permisos de archivos y directorios según sea necesario. El objetivo es garantizar que los permisos estén configurados correctamente para proteger la información sensible y mantener la seguridad del sistema.
+
+- Check file and directory details
+![permisos de archivos en carpeta project](./resources/image-03.png)
+
+Ingresamos a la carpeta del usuario con el comando `cd /home/researcher2/projects/` y luego ejecutamos `ls -la` para listar todos los archivos y directorios, incluidos los ocultos, junto con sus permisos. La salida muestra los permisos actuales de cada archivo y directorio.
+
+- Describe the permissions string
+La cadena de permisos de 10 caracteres se interpreta de la siguiente manera:
+   - 1er carácter: tipo de archivo (d para directorio, - para archivo regular)
+   - 2do carácter: permiso de lectura para el usuario `researcher2` (r si tiene permiso, - si no)
+   - 3er carácter: permiso de escritura para el usuario `researcher2` (w si tiene permiso, - si no)
+   - 4to carácter: permiso de ejecución para el usuario `researcher2` (x si tiene permiso, - si no)
+   - 5to carácter: permiso de lectura para el grupo `research_team` (r si tiene permiso, - si no)
+   - 6to carácter: permiso de escritura para el grupo `research_team` (w si tiene permiso, - si no)
+   - 7mo carácter: permiso de ejecución para el grupo `research_team` (x si tiene permiso, - si no)
+   - 8vo carácter: permiso de lectura para otros (r si tiene permiso, - si no)
+   - 9no carácter: permiso de escritura para otros (w si tiene permiso, - si no)
+   - 10mo carácter: permiso de ejecución para otros (x si tiene permiso, - si no)
+
+- Change file permissions
+Según las políticas de la organización, ningún archivo debe tener permisos de escritura para otros usuarios. En la imagen anterior podemos ver que el archivo `project_k.txt` tiene permisos de escritura para otros. Para corregir esto, ejecutamos el comando `chmod o-w project_k.txt`.
+   - `chmod`: comando para cambiar los permisos de archivos y directorios.
+   - `o-w`: indica que se deben eliminar los permisos de escritura para otros usuarios.
+   - `project_k.txt`: el archivo al que se le aplicarán los cambios de permisos.
+Comprobamos que los cambios fueron exitosos utilizando el comando `ls -la` nuevamente, y observamos que los permisos de escritura para otros han sido eliminados.
+
+![Permisos actualizados](./resources/image-04.png)
+
+- Change file permissions on a hidden file
+Los archivos ocultos (archivados) no deberían tener permisos de escritura para nadie, en las imagenes anteriores se detecta que el archivo oculto `.project_x.txt` tiene permisos de escritura para el usuario y el grupo. Para corregir esto, ejecutamos el comando `chmod a-w .project_x.txt`.
+   - `a-w`: indica que se deben eliminar los permisos de escritura para todos (usuario, grupo y otros).
+Comprobamos que los cambios fueron exitosas utilizando el comando `ls -la` nuevamente, y observamos que los permisos de escritura para el usuario y el grupo han sido eliminados.
+
+![Permisos de archivo oculto cambiados](./resources/image-05.png)
+
+- Change directory permissions
+Según las políticas de la organización, solo el usuario dueño del directorio debe tener permisos de acceso. En el caso de revisión actual se detecta que el directorio `drafts` tiene permisos de ejecución para el grupo. Para corregir esto, ejecutamos el comando `chmod g-x drafts`.
+   - `g-x`: indica que se deben eliminar los permisos de ejecución para el grupo.
+Comprobamos que los cambios fueron exitosos utilizando el comando `ls -la` nuevamente, y observamos que los permisos de ejecución para el grupo han sido eliminados.
+
+![Permisos actualizados para la carpeta](./resources/image-06.png)
+
+- Summary
+Luego de una revisión exhaustiva de los permisos de archivos y directorios en `/home/researcher2/projects/`, se realizaron los ajustes necesarios para garantizar que los permisos cumplan con las políticas de seguridad de la organización. Se eliminaron los permisos de escritura para otros usuarios en `project_k.txt`, se ajustaron los permisos del archivo oculto `.project_x.txt` para que solo el usuario y el grupo puedan leerlo, y se eliminaron los permisos de ejecución para el grupo en el directorio `drafts`. Estos cambios aseguran que solo los usuarios autorizados tengan acceso a la información sensible, manteniendo así la seguridad del sistema.
