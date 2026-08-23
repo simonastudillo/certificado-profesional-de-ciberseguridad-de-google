@@ -97,3 +97,13 @@ SELECT customerid, city, country
 FROM customers
 ORDER BY city DESC;
 ```
+- Ordenación basada en varias columnas
+   - También puede elegir varias columnas para ordenar.
+   - Por ejemplo, puede elegir primero la columna country y después la columna city.
+   - SQL entonces ordena la salida por country, y para las filas con el mismo country, las ordena basándose en city.
+   - Puede ejecutar esto para explorar cómo SQL muestra esto:
+```sql
+SELECT customerid, city, country
+FROM customers
+ORDER BY country, city;
+```
