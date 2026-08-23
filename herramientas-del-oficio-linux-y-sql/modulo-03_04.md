@@ -93,3 +93,86 @@
    - Puede ser como recordatorio.
    - O puede ser después de descubrir un nuevo comando a través de un colega o de un recurso en línea y querer saber más.
 
+---
+
+## Actividad: Obtener ayuda en la línea de comandos
+- Introducción
+   - En este laboratorio, utilizará los comandos man, whatis y apropos para practicar la búsqueda de respuestas a preguntas sobre Linux en la línea de comandos.
+   - Estas habilidades son útiles para muchas tareas de Seguridad diferentes.
+   - Utilizará comandos de Linux en el shell Bash para completar este laboratorio.
+- Lo que hará
+   - Explorar comandos que le ayudarán a aprender más sobre otros comandos
+   - Encontrar opciones para un comando
+   - Determinar las diferencias entre dos comandos
+   - Identificar el comando necesario para crear un nuevo grupo
+- Resumen de la actividad
+   - Como analista de seguridad, no tendrás siempre todas las respuestas, pero puedes aprender a encontrarlas.
+   - Uno de los mejores aspectos sobre Linux es que puedes obtener ayuda directamente en la línea de comandos.
+   - En este lab, usarás los comandos man y whatis para obtener información sobre otros comandos y su funcionamiento.
+   - También usarás el comando apropos para buscar un comando con una cadena específica en la página del manual.
+   - Si trabajas como analista de seguridad, te resultará útil saber cómo descubrir qué comando usar o encontrar información sobre qué hace cada comando.
+- Situación
+   - En este caso, debes encontrar más información sobre comandos que necesitas usar.
+   - También debes descubrir qué comando sirve para una tarea en particular.
+   - Estos son los pasos que seguirás:
+      1. Explorarás algunos comandos de la shell que te darán información sobre otros comandos.
+      2. Buscarás una opción que debas agregar a un comando.
+      3. Usarás un comando para obtener una descripción breve de los comandos, de modo que puedas identificar sus diferencias.
+      4. Identificarás el comando que necesitas para realizar una tarea.
+
+- Comienza el lab
+
+1. Obtén más información sobre los comandos
+- Ejecuta el comando whatis para obtener una descripción breve de cat.
+- ¿Cuáles son las dos primeras palabras de la descripción breve de cat que devuelve whatis?
+   - [x] concatenate files
+   - [ ] cat is
+   - [ ] file concatenator
+   - [ ] the cat
+- Usa el comando man para obtener más detalles sobre cat.
+- ¿Qué opción puedes usar para enumerar las líneas del resultado del comando cat?
+   - [ ] ninguna; es la opción predeterminada
+   - [ ] -b, --number-nonblank
+   - [x] -n, --number
+   - [ ] -e, --enumerate
+- Presiona Q para salir de esta página del manual.
+- Usa apropos para encontrar un comando que muestre la primera parte de un archivo (part file).
+- ¿Qué comando devuelve la primera parte de un archivo?
+   - [x] head
+   - [ ] tail
+   - [ ] list
+   - [ ] cat
+
+2. Explora el comando useradd
+- Usa el comando de Linux más adecuado para obtener ayuda con el comando useradd y explora todas sus opciones.
+- ¿Qué opción se puede usar con el comando useradd para configurar la fecha de vencimiento de una cuenta de usuario temporal?
+   - [ ] -x
+   - [ ] -e
+   - [ ] -f
+   - [ ] -d
+- Presiona Q para salir de esta página del manual.
+
+3. Explora los comandos rm y rmdir
+- Usa el comando de Linux más adecuado para recordar rápidamente qué hace cada comando.
+- ¿Cuál de estos comandos quita solo los directorios vacíos?
+   - [x] rmdir
+   - [ ] rm
+
+4. Determina qué comando usar
+- Usa el comando de Linux más adecuado con estas palabras clave para identificar qué comando usar.
+- ¿Qué comando puedes usar para crear un grupo nuevo?
+   - [ ] newgroup
+   - [ ] addnewgroup
+   - [ ] setsid
+   - [x] groupadd
+
+- Listado de comandos utilizados en este laboratorio
+```bash
+whatis cat
+man cat
+apropos -a first part file
+man useradd
+whatis rm
+whatis rmdir
+apropos -a create new group
+```
