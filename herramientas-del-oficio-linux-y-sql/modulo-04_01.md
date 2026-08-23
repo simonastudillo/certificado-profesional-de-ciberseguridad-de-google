@@ -49,3 +49,26 @@
 - ​En nuestro ejemplo, podemos fijarnos en la columna employee_id de la tabla machines.
 - ​Previamente la identificamos como clave primaria en la tabla de empleados, por lo que ​podemos utilizarla para conectar cada máquina con su empleado correspondiente.
 - ​También es importante saber que una tabla sólo puede tener una clave primaria, pero ​múltiples claves foráneas.
+
+---
+
+## Consulta de bases de datos con SQL
+- ​SQL, o como también se pronuncia, S-Q-L, son las siglas en inglés de Lenguaje de Consulta Estructurado.
+- ​SQL es un lenguaje de programación utilizado para crear, interactuar y ​solicitar información a una base de datos.
+- ​Una consulta es una solicitud de datos de una tabla de una base de datos o de una combinación de tablas.
+- ​Casi todas las bases de datos relacionales se basan en alguna versión de SQL para consultar datos.
+- ​Las distintas versiones de SQL sólo presentan ligeras diferencias en su estructura, ​como dónde colocar las comillas.
+- ​Sea cual sea la variedad de SQL que utilice, ​descubrirá que es una herramienta muy importante en su trabajo como analista de seguridad.
+- ​​Un registro es un registro de los eventos que se producen en los sistemas de una organización.
+- ​Como analista de Seguridad, es posible que se le encargue revisar registros por varias razones.
+- ​Por ejemplo, algunos registros podrían contener detalles sobre las máquinas utilizadas en una empresa, ​y como analista, ​necesitaría encontrar aquellas máquinas que no estuvieran configuradas correctamente.
+- ​Otros registros podrían describir a los visitantes de su sitio web o aplicación web y ​las tareas que realizan.
+- ​En ese caso, ​podría estar buscando patrones inusuales que puedan apuntar a una actividad maliciosa.
+- ​Los registros de seguridad suelen ser muy grandes y difíciles de procesar.
+- ​Hay millones de puntos de datos y ​lleva mucho tiempo encontrar lo que necesita.
+- ​¡Pero aquí es donde entra SQL! Puede buscar entre millones de puntos de datos para ​extraer las filas de datos relevantes mediante una consulta que se ejecuta en cuestión de segundos.
+- ​SQL también es un lenguaje muy común utilizado para el análisis básico de datos, ​otro conjunto de habilidades que le diferenciarán como analista de seguridad.
+- ​Como analista de seguridad, puede utilizar el filtrado de SQL para encontrar datos que respalden ​decisiones relacionadas con la seguridad y analizar cuándo las cosas pueden ir mal.
+- Por ejemplo, ​puede identificar qué máquinas no han recibido el último parche.
+- ​Esto es importante porque los parches son actualizaciones que ayudan a protegerse contra los ataques.
+- ​Como otro ejemplo, puede utilizar SQL para determinar el mejor momento ​para actualizar una máquina en función de cuándo se utiliza menos.
