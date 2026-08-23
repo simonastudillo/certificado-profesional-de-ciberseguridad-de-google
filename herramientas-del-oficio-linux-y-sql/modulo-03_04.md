@@ -176,3 +176,8 @@ whatis rm
 whatis rmdir
 apropos -a create new group
 ```
+
+---
+
+## Ejemplo opcional: Obtener ayuda en la línea de comandos
+- Mismo laboratorio que el anterior.
