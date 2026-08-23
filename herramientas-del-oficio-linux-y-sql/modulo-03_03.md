@@ -499,3 +499,17 @@ Comprobamos que los cambios fueron exitosos utilizando el comando `ls -la` nueva
 
 - Summary
 Luego de una revisión exhaustiva de los permisos de archivos y directorios en `/home/researcher2/projects/`, se realizaron los ajustes necesarios para garantizar que los permisos cumplan con las políticas de seguridad de la organización. Se eliminaron los permisos de escritura para otros usuarios en `project_k.txt`, se ajustaron los permisos del archivo oculto `.project_x.txt` para que solo el usuario y el grupo puedan leerlo, y se eliminaron los permisos de ejecución para el grupo en el directorio `drafts`. Estos cambios aseguran que solo los usuarios autorizados tengan acceso a la información sensible, manteniendo así la seguridad del sistema.
+
+---
+
+## Ejemplo de actividad del Portfolio: Utilizar los comandos de Linux para gestionar los permisos de archivo
+- El ejemplo utiliza detalles del escenario dado e incluye lo siguiente:
+   - Capturas de pantalla de los comandos o versiones mecanografiadas de los comandos
+   - Explicaciones de los comandos
+   - Una descripción del Proyecto al principio
+   - Un resumen al final
+   - Detalles sobre el uso de chmod para actualizar los permisos de archivo
+   - Detalles sobre la comprobación de permisos de archivo con ls -la
+   - Detalles sobre la interpretación de la cadena de 10 caracteres que representa los permisos de archivo
+   - Detalles sobre archivos ocultos y directorios
+- [Ejemplo Permisos de archivo en Linux](./resources/File-permissions-in-Linux-exemplar.docx)
