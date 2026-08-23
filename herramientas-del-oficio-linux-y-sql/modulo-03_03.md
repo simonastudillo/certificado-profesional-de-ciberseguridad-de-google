@@ -513,3 +513,67 @@ Luego de una revisión exhaustiva de los permisos de archivos y directorios en `
    - Detalles sobre la interpretación de la cadena de 10 caracteres que representa los permisos de archivo
    - Detalles sobre archivos ocultos y directorios
 - [Ejemplo Permisos de archivo en Linux](./resources/File-permissions-in-Linux-exemplar.docx)
+
+---
+
+## Añadir y eliminar usuarios
+- La ​autenticación es el proceso mediante el cual un usuario ​demuestra que es quien dice ser ​en el sistema.
+- ​Al igual que en un edificio físico, ​no se debe permitir la entrada a todos los usuarios.
+- ​No todos los usuarios deben tener acceso al sistema.
+- ​Pero también queremos asegurarnos de ​que todos los que deberían tener acceso al sistema lo tengan.
+- ​Por eso necesitamos añadir usuarios.
+- ​Los usuarios nuevos pueden ser nuevos ​en la organización o en un grupo.
+- ​Esto podría estar relacionado con un cambio en la ​estructura organizacional o simplemente con una directiva ​de la gerencia para trasladar a alguien.
+- ​Además, cuando los usuarios ​abandonan la organización, deben eliminarse.
+- ​Ya no deberían tener ​acceso a ninguna parte del sistema.
+- ​O si simplemente cambiaron de grupo, ​deberían eliminarse de los grupos de ​los que ya no forman parte.
+- ​Ahora que hemos explicado por qué es ​importante añadir y eliminar usuarios, ​hablemos de otro tipo de usuario, el usuario root.
+- ​Un usuario root, o superusuario, ​es un usuario con privilegios elevados para modificar el sistema.
+- ​Los usuarios habituales tienen limitaciones, mientras ​que el usuario root no las tiene.
+- ​Las personas que necesitan realizar ​tareas específicas se pueden agregar temporalmente como usuarios root.
+- ​Los usuarios root pueden crear, modificar ​o eliminar cualquier archivo y ejecutar cualquier programa.
+- ​Solo los usuarios root o las cuentas con ​privilegios root pueden agregar nuevos usuarios.
+- ​Así que quizás te preguntes cómo te conviertes en superusuario. 
+- Bueno, una forma es iniciar sesión como usuario root, ​pero ejecutar comandos como usuario root se ​considera una mala práctica cuando se usa Linux.
+- ​¿Por qué es ​potencialmente problemático ejecutar comandos como usuario root?
+- ​El primer problema de iniciar sesión ​como root son los riesgos de Seguridad.
+- ​Los actores malintencionados intentarán violar la cuenta root.
+- ​Dado que es la cuenta más poderosa, para mantenerse a salvo, ​la cuenta root debería tener los inicios de sesión deshabilitados.
+- Otro problema es que es muy ​fácil cometer errores irreversibles.
+- ​Es muy fácil escribir un comando incorrecto en la CLI ​y, si lo ejecuta como usuario root, ​corre un mayor riesgo de cometer un error irreversible, ​como eliminar un directorio de forma permanente
+- ​Por último, está la preocupación por la rendición de cuentas.
+- ​En un entorno multiusuario como Linux, ​hay muchos usuarios.
+- ​Si un usuario se ejecuta como root, ​no hay forma de rastrear quién ejecutó exactamente un comando.
+- ​Una solución para ayudar a resolver este problema es el sudo.
+- ​sudo es un comando que otorga temporalmente ​permisos elevados a usuarios específicos.
+- ​Esto proporciona ​un enfoque más controlado en comparación con root, ​que ejecuta todos los comandos con privilegios de root.
+- ​sudo resuelve muchos ​problemas relacionados con la ejecución como root.
+- ​sudo proviene de super-user-do ​y te permite ejecutar comandos como ​usuario avanzado sin tener que ​iniciar y cerrar sesión en otra cuenta.
+- ​Al ejecutar sudo, se te pedirá que introduzcas la contraseña del usuario con el que has iniciado sesión actualmente.
+- ​No todos los usuarios de un sistema pueden convertirse en superusuarios.
+- ​Los usuarios deben tener acceso a sudo a través de ​un archivo de configuración denominado archivo sudoers.
+- ​Ahora que hemos aprendido sobre sudo, ​veamos cómo podemos usarlo con ​otro comando para agregar usuarios.
+- ​Este comando es `useradd`.
+- ​useradd añade un usuario al sistema.
+- ​Solo los usuarios root o con ​privilegios sudo pueden usar un comando useradd.
+- Veamos un ejemplo específico ​en el que necesitamos añadir un usuario.
+- ​Imaginemos que un nuevo representante se une ​al departamento de ventas y se le asignará ​el nombre de usuario salesrep7.
+- ​Tenemos la tarea de añadirlos al sistema.
+- ​Vamos a intentar añadir el nuevo usuario.
+- ​Primero, necesitamos usar el comando sudo, ​seguido del comando useradd ​y, por último, el nombre de usuario que queremos agregar, ​en este caso, salesrep7.
+- Este comando no muestra nada en la pantalla.
+- ​Pero como recibimos un nuevo cursor Bash ​y no un mensaje de error, ​podemos estar seguros de que ​el comando funcionó correctamente.
+- ​Si no lo hubiera hecho, habría aparecido un mensaje de error.
+- ​A veces, un error tiene que ver con ​algo tan simple como escribir mal useradd.
+- ​O puede ser porque no teníamos privilegios de sudo.
+- Ahora vamos a aprender a hacer lo contrario.
+- ​Aprendamos cómo eliminar un usuario con `userdel`.
+- ​userdel elimina un usuario del sistema.
+- ​Del mismo modo, necesitamos permisos de root a los que ​accederemos a través de sudo para usar userdel.
+- ​Volvamos a nuestro ejemplo del usuario que agregamos.
+- ​Imaginemos que dos meses después, ​el representante de ventas que acabamos de ​añadir al sistema deja la empresa.
+- ​Ese usuario ya no debería tener acceso al sistema.
+- ​Vamos a eliminar ese usuario del sistema.
+- ​De nuevo, primero se usa el comando sudo y ​luego agregamos el comando userdel.
+- ​Por último, añadimos el nombre del usuario que queremos eliminar.
+- ​De nuevo, sabemos que se ejecutó correctamente porque ​hay un nuevo cursor Bash y no un mensaje de error.
