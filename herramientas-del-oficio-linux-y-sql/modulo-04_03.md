@@ -97,3 +97,160 @@
    FROM employees
    WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01';
    ```
+
+---
+
+## Actividad: Aplicar más filtros en SQL
+- Introducción
+   En este laboratorio, aplicará más filtros a las consultas SQL para recuperar información de una base de datos.
+   - Utilizará operadores comunes en SQL para filtrar por fechas y horas específicas.
+   - Utilizará el shell de MariaDB para ejecutar sus consultas SQL.
+
+- Lo que hará
+   - Filtrar los intentos de inicio de sesión realizados después de una fecha determinada
+   - Filtrar los intentos de inicio de sesión realizados en un cierto Rango de fechas
+   - Filtrar los intentos de inicio de sesión realizados a una hora determinada
+   - Filtrar los intentos de inicio de sesión por ID
+
+- Resumen de la actividad
+   - Como analista de seguridad, a menudo deberás consultar números y fechas.
+   - Por ejemplo, es posible que debas filtrar fechas de parches para descubrir qué máquinas necesitan una actualización.
+   - También podrías filtrar intentos de acceso que se hayan realizado durante cierto período para investigar un incidente de seguridad.
+   - Los operadores comunes para trabajar con datos numéricos o datos de fechas y horarios te ayudarán a filtrar datos con precisión.
+   - Estos son algunos de los operadores que usarás:
+      - = (igual a)
+      - > (mayor que)
+      - < (menor que)
+      - <> (distinto de)
+      - >= (mayor que o igual a)
+      - <= (menor que o igual a)
+   - En este lab, aplicarás estos operadores para filtrar de forma precisa números y fechas específicas.
+
+- Situación
+   - En esta situación, estás investigando un incidente de seguridad reciente.
+   - Debes recopilar información sobre intentos de acceso en ciertas fechas y horarios.
+   - De esa forma, podrás resolver un incidente de seguridad.
+   - Estos son los pasos que seguirás:
+      1. Recuperarás eventos de acceso realizados después de una fecha determinada.
+      2. Restringirás el enfoque de la búsqueda para que filtre accesos en un período.
+      3. Investigarás los accesos que se realizaron en determinados horarios.
+      4. Filtrarás intentos de acceso en función del ID de los eventos.
+
+- Comienza el lab
+
+1. Recupera intentos de acceso realizados después de una fecha determinada
+- Completa la consulta en SQL para recuperar datos de intentos de acceso realizados después del '2022-05-09'.
+- ¿Cuántos intentos de acceso se realizaron después del 2022-05-09?
+   - [ ] 111
+   - [x] 125
+   - [ ] 185
+   - [ ] 134
+- Completa la consulta en SQL para recuperar datos de intentos de acceso realizados a partir del '2022-05-09'.
+- ¿Cuántos intentos de acceso se realizaron a partir del 2022-05-09?
+   - [ ] 190
+   - [ ] 186
+   - [x] 165
+   - [ ] 143
+
+2. Recupera los accesos correspondientes a un período
+- Ejecuta la consulta para recuperar los registros de acceso realizados después del 11 de mayo de 2022. Usa los operadores BETWEEN y AND para obtener resultados entre el '2022-05-09' y el '2022-05-11'.
+- ¿Cuántos intentos de acceso se realizaron entre el 2022-05-09 y el 2022-05-11?
+   - [ ] 157
+   - [ ] 134
+   - [ ] 160
+   - [x] 123
+
+3. Investiga los accesos realizados en determinados horarios
+- Escribe una consulta en SQL para recuperar datos de intentos de acceso realizados antes de las '07:00:00'.
+- ¿Cuál es el nombre de usuario en el quinto registro que se devuelve a partir de esta consulta?
+   - [ ] acook
+   - [ ] bisles
+   - [ ] jrafael
+   - [x] eraab
+- Modifica la consulta para obtener resultados entre las '06:00:00' y las '07:00:00'.
+- ¿A qué hora se realizó el primer intento de acceso entre las 06:00:00 y las 07:00:00?
+   - [ ] 06:03:41
+   - [x] 06:01:31
+   - [ ] 06:15:41
+   - [ ] 06:04:34
+
+4. Investiga los accesos según el ID de los eventos
+- Escribe una consulta para obtener los intentos de acceso con un event_id mayor que o igual a 100.
+- ¿Cuál es la fecha de acceso del tercer resultado que devuelve tu consulta?
+   - [x] 2022-05-09
+   - [ ] 2022-05-10
+   - [ ] 2022-05-11
+   - [ ] 2022-05-08
+- Modifica la consulta para obtener resultados de intentos de acceso con un event_id entre 100 y 150.
+- ¿Cuál es el nombre de usuario del séptimo resultado que devuelve tu consulta?
+   - [ ] bisles
+   - [ ] gesparza
+   - [ ] mabadi
+   - [x] tmitchel
+
+- Listado de queries utilizadas en el lab
+```sql
+-- PART 1
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date > '2022-05-09';
+
+SELECT COUNT(*) quantity
+FROM log_in_attempts
+WHERE login_date > '2022-05-09';
+
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date >= '2022-05-09';
+
+SELECT COUNT(*) quantity
+FROM log_in_attempts
+WHERE login_date >= '2022-05-09';
+
+-- PART 2
+SELECT * 
+FROM log_in_attempts 
+WHERE login_date BETWEEN '2022-05-09' AND '2022-05-11';
+
+SELECT COUNT(*) quantity
+FROM log_in_attempts 
+WHERE login_date BETWEEN '2022-05-09' AND '2022-05-11';
+
+-- PART 3
+SELECT *
+FROM log_in_attempts
+WHERE login_time < '07:00:00';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time < '07:00:00'
+LIMIT 1 OFFSET 4;
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time BETWEEN '06:00:00' AND '07:00:00';
+
+SELECT *
+FROM log_in_attempts
+WHERE login_time BETWEEN '06:00:00' AND '07:00:00'
+ORDER BY login_time ASC;
+
+-- PART 4
+SELECT event_id, username, login_date
+FROM log_in_attempts
+WHERE event_id >= 100;
+
+SELECT event_id, username, login_date
+FROM log_in_attempts
+WHERE event_id >= 100
+LIMIT 1 OFFSET 2;
+
+SELECT event_id, username, login_date
+FROM log_in_attempts
+WHERE event_id BETWEEN 100 AND 150;
+
+SELECT event_id, username, login_date
+FROM log_in_attempts
+WHERE event_id BETWEEN 100 AND 150
+LIMIT 1 OFFSET 6;
+```
