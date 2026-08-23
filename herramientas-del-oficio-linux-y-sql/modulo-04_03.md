@@ -1,0 +1,38 @@
+# Más filtros SQL
+
+## Filtrar fechas y números
+- ​En primer lugar, analicemos los tres tipos de datos comunes que encontrará en las bases de datos: ​cadenas, numéricos y de fecha y hora.
+- ​Datos de cadena son datos que consisten en una secuencia ordenada de caracteres.
+- Estos caracteres pueden ser números, letras o símbolos.
+- ​Por ejemplo, encontrará cadenas de datos en los nombres de usuario, ​como un nombre de usuario: analyst10.
+- Datos ​numéricos son datos que constan de números, ​como el recuento de intentos de inicio de sesión.
+- ​A diferencia de las cadenas, las operaciones matemáticas se pueden usar en datos numéricos, ​como la multiplicación o la suma.
+- ​Datos de fecha y hora se refieren a los datos que representan una fecha u hora.
+- ​Anteriormente, aplicábamos filtros mediante cadenas de datos, pero ​ahora vamos a trabajar con datos numéricos y de fecha y hora.
+- ​Como analista de Seguridad, con frecuencia necesitará consultar números y fechas.
+- Por ejemplo, podríamos filtrar las fechas de los parches para encontrar las máquinas que necesitan una actualización, ​o podríamos filtrar los intentos de inicio de sesión para mostrar solo ​los realizados en un período de tiempo determinado.
+- ​Aprendimos sobre los operadores en el último vídeo y ​los volveremos a usar para números y fechas.
+- ​Los operadores comunes para trabajar con ​tipos de datos numéricos o de fecha y hora incluyen: igual, mayor que, menor que, ​no igual a, mayor o igual a y menor que o igual a.
+- ​Supongamos que quieres buscar los intentos de inicio de sesión realizados después de las 18:00 horas.
+- ​Debido a que esto ha pasado el horario laboral normal, ​debes buscar patrones sospechosos.
+- Puede identificar estos intentos utilizando el operador mayor que en el filtro.
+- ​Empezaremos a escribir nuestra consulta en SQL.
+- Empezamos indicando que queremos seleccionar todas las columnas de la tabla ​log_in_attempts.
+- Luego agregaremos nuestro filtro con WHERE.
+- ​Nuestra condición indica que el valor de la columna de hora debe ser mayor o, en el caso de ​fechas y horas, posterior a «18:00», que es la forma en que se escriben las 6 p. m. en SQL.
+- ​Ejecutemos esto y examinemos el resultado.
+- Ahora tenemos una lista de los intentos de inicio de sesión realizados después de las 6 p. m.
+- ​También podemos filtrar por números y fechas usando el operador BETWEEN.
+- ​BETWEEN es un operador que filtra números o fechas dentro de un rango.
+- ​Un ejemplo de esto sería buscar ​todos los parches instalados dentro de un rango determinado.
+- ​¡Hagámoslo! Busquemos todos los parches instalados entre el 1 de marzo de ​2021 y el 1 de septiembre de 2021.
+- ​En nuestra consulta, empezamos por seleccionar todos los registros FROM de la tabla de máquinas.
+- ​Y añadimos el operador BETWEEN en la sentencia WHERE.
+- ​Analicemos la declaración.
+- ​Primero, después de WHERE, indicamos qué columna filtrar, ​en nuestro caso, OS_Patch_Date.
+- ​Luego viene nuestro operador BETWEEN.
+- ​Luego agregamos el principio de nuestro rango, escribimos AND y ​terminamos agregando el final de nuestro rango y un punto y coma.
+- ​Ahora, ejecutemos esto y exploremos el resultado.
+- ​¡Y ahora tenemos una lista de todas las máquinas parcheadas entre esas dos fechas!
+- Es importante tener en cuenta que cuando filtramos por cadenas ​, fechas y horas, utilizamos comillas para especificar lo que buscamos.
+- ​Sin embargo, para los números, no utilizamos comillas.
