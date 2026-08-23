@@ -427,3 +427,120 @@ WHERE title = 'IT Staff';
    WHERE state LIKE 'N_';
    ```
    - Esto devuelve todos los registros con abreviaturas de estados que siguen este patrón.
+
+---
+
+## Actividad: Filtrar una consulta SQL
+- Introducción
+   - En este laboratorio, aplicará filtros básicos a las consultas SQL para recuperar información de una base de datos.
+   - Utilizará SQL para obtener información específica sobre los empleados, sus máquinas y los departamentos a los que pertenecen.
+   - Utilizará el shell MariaDB para ejecutar consultas SQL.
+
+- Lo que hará
+   - Devolver información sobre las máquinas y sus sistemas operativos
+   - Filtrar por máquinas con un sistema operativo específico
+   - Filtrar por empleados en departamentos específicos
+   - Filtrar por empleados que utilizan máquinas específicas
+
+- Resumen de la actividad
+   - Como analista de seguridad, saber cómo hacer mejores consultas para recuperar datos específicos puede ayudarte a encontrar con mayor eficiencia la información relacionada con la seguridad que necesitas.
+   - En este lab, aplicarás filtros básicos a consultas en SQL para recuperar información de la base de datos MariaDB.
+   - MariaDB es una popular base de datos relacional de código abierto compatible con MySQL.
+   - Esta actividad representa una gran oportunidad para aplicar lo que aprendiste y agregar filtros en consultas en SQL.
+   - Los términos fila y registro se usan indistintamente en este lab.
+- Situación
+   - En este caso, debes obtener información específica sobre los empleados, sus máquinas y los departamentos a los que pertenecen.
+   - Tu equipo necesita estos datos para realizar varias tareas, como ejecutar actualizaciones, publicar un aviso de privacidad en ciertos departamentos y enviarle una alerta a un empleado sobre un problema en una máquina.
+   - Tu objetivo es encontrar la información solicitada haciendo consultas en una base de datos.
+   - Agregarás filtros en tus consultas para encontrar la información con más rapidez.
+   - Estos son los pasos que seguirás:
+      1. Obtendrás una lista de todas las máquinas de la organización y sus sistemas operativos.
+      2. Obtendrás una lista de todas las máquinas que tengan el sistema operativo OS/2.
+      3. Obtendrás una lista de todos los empleados de los departamentos de Finanzas y Ventas.
+      4. Obtendrás información sobre las máquinas.
+
+- Comienza el lab
+
+1. Obtén una lista de todas las máquinas de la organización
+- Ejecuta una consulta en SQL para obtener solo las columnas device_id y operating_system de la tabla machines.
+- ¿Cuántas filas se devolvieron de la tabla de máquinas? (Puedes ver la cantidad de filas en la parte inferior del resultado).
+   - [ ] 300
+   - [ ] 100
+   - [ ] 250
+   - [x] 200
+
+2. Obtén una lista de todas las máquinas con 'OS 2'
+- Selecciona todos los registros de la tabla machines que tengan un valor de 'OS 2' en la columna operating_system.
+- ¿Cuántas máquinas en la base de datos usan el sistema operativo OS 2?
+   - [ ] 88
+   - [ ] 44
+   - [ ] 200
+   - [x] 80
+
+3. Obtén una lista de los empleados de departamentos específicos
+- Filtra las filas obtenidas a partir de la columna department en la tabla employees para incluir únicamente los empleados del departamento 'Finance' (Finanzas). 
+- ¿Cuál es el employee_id de la primera fila que se devuelve?
+   - [ ] 1049
+   - [ ] 1001
+   - [x] 1003
+   - [ ] 1119
+- Modifica la consulta anterior para obtener la información de los empleados del departamento de 'Sales' (Ventas).
+- ¿Cuántos empleados trabajan en el departamento de Sales?
+   - [x] 33
+   - [ ] 10
+   - [ ] 17
+   - [ ] 42
+
+4. Identifica las máquinas de los empleados
+- Escribe una consulta para identificar qué empleado usa la oficina 'South-109'. (Los datos se deben devolver a partir de la columna office de la tabla employees).
+- ¿Cuál de los siguientes empleados usa la computadora que tiene el problema?
+   - [ ] jhill
+   - [x] jlansky
+   - [ ] tsnow
+   - [ ] nmitchell
+- Modifica la consulta que usaste en el paso anterior para obtener información sobre todos los empleados del edificio 'South'. Usa el operador LIKE con % en esta consulta.
+- ¿A qué departamento pertenece el primer empleado que aparece en el edificio South?
+   - [ ] Sales
+   - [ ] Information Technology
+   - [x] Finance
+   - [ ] Marketing
+
+- Listado de queries utilizadas en el lab
+```sql
+-- PART 1
+SELECT device_id, operating_system
+FROM machines;
+
+-- PART 2
+SELECT device_id, operating_system
+FROM machines
+WHERE operating_system = 'OS 2';
+
+-- PART 3
+SELECT *
+FROM employees
+WHERE department = 'Finance';
+
+SELECT *
+FROM employees
+WHERE department = 'Finance'
+LIMIT 1;
+
+SELECT *
+FROM employees
+WHERE department = 'Sales';
+
+-- PART 4
+SELECT *
+FROM employees
+WHERE office = 'South-109';
+
+SELECT *
+FROM employees
+WHERE office LIKE 'South%';
+
+SELECT *
+FROM employees
+WHERE office LIKE 'South%'
+LIMIT 1;
+``` 
