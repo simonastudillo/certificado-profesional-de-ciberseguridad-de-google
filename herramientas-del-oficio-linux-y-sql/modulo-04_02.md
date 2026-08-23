@@ -28,3 +28,72 @@
 - ​Podemos hacerlo colocando un asterisco después de SELECT (SELECT * FROM employees).
 - ​Esto se conoce comúnmente como select all.
 - ​Ahora, ejecutemos esta consulta a la tabla de empleados en SQL.
+
+---
+
+## Consulta de una base de datos
+- Por qué usamos una base de datos ya hecha: Crear tu propia base de datos desde cero es muy parecido a construir un coche en lugar de aprender a conducirlo.
+- Es un proceso difícil porque hay que establecer manualmente todas las reglas para almacenar la información, evitar que se pierda y asegurarse de que el ordenador pueda encontrar datos específicos rápidamente.
+- En lugar de pasar semanas construyendo ese complicado "motor", utilizamos la base de datos Chinook para que puedas ir directamente a la parte importante: aprender a hacer preguntas y obtener respuestas a partir de los datos.
+
+- Consulta SQL básica
+   - Hay dos palabras clave esenciales en cualquier consulta SQL: SELECT y FROM.
+   - Utilizará estas palabras clave cada vez que desee consultar una base de datos SQL.
+   - Utilizarlas juntas ayuda a SQL a identificar qué datos necesita de una base de datos y la tabla de la que los está devolviendo.
+   - La base de datos Chinook incluye datos que podrían ser creados en una compañía de medios digitales.
+   - Un analista de seguridad empleado por esta compañía podría necesitar consultar estos datos.
+   - Por ejemplo, la base de datos contiene once tablas, incluyendo una tabla employees, una tabla customers, y una tabla invoices.
+   - Estas tablas incluyen datos como nombres y direcciones.
+   - Como ejemplo, puede ejecutar esta consulta para obtener datos de la tabla customers de la base de datos Chinook:
+```sql
+SELECT customerid, city, country
+FROM customers;
+```
+
+- SELECT
+   - La palabra clave SELECT indica qué columnas devolver.
+   - Por ejemplo, puede devolver la columna customerid de la base de datos Chinook con:
+      - SELECT customerid
+   - También puede seleccionar varias columnas separándolas con una coma.
+   - Por ejemplo, si desea obtener las columnas customerid y city, escriba SELECT customerid, city.
+   - Si desea obtener todas las columnas de una tabla, puede acompañar la palabra clave SELECT de un asterisco (*).
+   - La primera línea de la consulta será SELECT *.
+   - Aunque las tablas que se consultan en este curso son relativamente pequeñas, el uso de SELECT * puede no ser aconsejable cuando se trabaja con bases de datos y tablas de gran tamaño; en esos casos, la salida final puede ser difícil de entender y puede ser lenta de ejecutar.
+
+- FROM
+   - La palabra clave SELECT siempre va acompañada de la palabra clave FROM.
+   - FROM indica qué tabla consultar.
+   - Para utilizar la palabra clave FROM, debe escribirla después de la palabra clave SELECT, a menudo en una nueva línea, y seguirla con el nombre de la tabla que está consultando.
+   - Si quieres devolver todas las columnas de la tabla customers, puedes escribir:
+   - SELECT * FROM customers;
+   - Si desea finalizar la consulta aquí, ponga un punto y coma (;) al final para indicar a SQL que se trata de la consulta completa.
+   - Los saltos de línea no son necesarios en las consultas SQL, pero a menudo se utilizan para que la consulta sea más fácil de entender.
+   - Si lo prefiere, también puede escribir la consulta anterior en una sola línea.
+
+- ORDER BY
+   - Las tablas de bases de datos suelen ser muy complicadas, y aquí es donde resultan útiles otras palabras clave de SQL.
+   - ORDER BY es una palabra clave importante para organizar los datos que se extraen de una tabla.
+   - ORDER BY ordena los registros devueltos por una consulta en función de una o varias columnas especificadas.
+   - Puede ser en orden ascendente o descendente.
+   - La palabra clave ORDER BY ordena los registros basándose en la columna especificada después de esta palabra clave.
+   - Por defecto, la secuencia será ascendente. Esto significa que si elige una columna que contenga datos numéricos, ordenará la salida de menor a mayor.
+   - Por ejemplo, si se ordena en customerid, los números de identificación se ordenan de menor a mayor.
+   - si la columna contiene caracteres alfabéticos, como en el ejemplo con la columna city, ordena los registros desde el principio del alfabeto hasta el final.
+- Ordenación ascendente
+   - Para utilizar la palabra clave ORDER BY, escríbala al final de la consulta y especifique una columna en la que basar la ordenación.
+   - En este ejemplo, SQL devolverá las columnas customerid, city y country de la tabla customers, y los registros se ordenarán por la columna city:
+```sql
+SELECT customerid, city, country
+FROM customers
+ORDER BY city;
+```
+- Ordenación descendente
+   - También puede utilizar ORDER BY con la palabra clave DESC para ordenar en orden descendente.
+   - La palabra clave DESC es la abreviatura de "descendente" y le indica a SQL que ordene los números de mayor a menor, o alfabéticamente de la Z a la A.
+   - Esto se puede hacer siguiendo ORDER BY con la palabra clave DESC.
+   - Por ejemplo, puede ejecutar esta consulta para examinar cómo difieren los resultados cuando se aplica DESC:
+```sql
+SELECT customerid, city, country
+FROM customers
+ORDER BY city DESC;
+```
