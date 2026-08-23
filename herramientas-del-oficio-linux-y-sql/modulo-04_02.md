@@ -120,5 +120,5 @@ ORDER BY country, city;
 - Comprobar el progreso
 - Uso de los comandos copiar/pegar
 - Bloque de código
-- Desplazamiento por
+- Desplazamiento por la página
 - Botón Finalizar Laboratorio
