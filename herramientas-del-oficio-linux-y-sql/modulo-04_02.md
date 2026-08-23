@@ -107,3 +107,18 @@ SELECT customerid, city, country
 FROM customers
 ORDER BY country, city;
 ```
+
+---
+
+## Recursos para completar los laboratorios SQL
+- Este curso incluye actividades prácticas de laboratorio en las que tendrá la oportunidad de practicar el uso de consultas SQL en el terminal
+- Lanzamiento de Qwiklabs
+- Botón Comenzar Laboratorio
+- Cuadro de diálogo de Control del laboratorio
+- El temporizador
+- Botón de Abrir Consola Linux
+- Comprobar el progreso
+- Uso de los comandos copiar/pegar
+- Bloque de código
+- Desplazamiento por
+- Botón Finalizar Laboratorio
