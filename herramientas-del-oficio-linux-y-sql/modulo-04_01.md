@@ -113,3 +113,16 @@
       - Muchos de los datos utilizados en ciberseguridad se almacenarán en un formato de base de datos que funcione con SQL.
       - Sin embargo, otros registros pueden estar en un formato que no es compatible con SQL.
       - Por ejemplo, si los datos se almacenan en un archivo de texto, no se puede buscar en ellos con SQL. En esos casos, es útil saber cómo filtrar en Linux.
+
+---
+
+## Adedayo: SQL en la ciberseguridad
+- ​Que usted tome este certificado es un primer paso para que ​se comprometa a cambiar ​su carrera hacia la ciberseguridad.
+- ​SQL es una de ​las habilidades que necesitas tener en tu caja de herramientas como ​profesional de la ciberseguridad porque puedes ​tomar decisiones muy rápidamente, ​no de buenas a primeras, ​pero tomar decisiones con datos que te respalden, ​y ser capaz de comunicarte con tu Equipo, ​con las partes interesadas acerca de por qué tomó ​una decisión, porque una cosa es poder decir, ​necesitamos hacer esto, y otra cosa es decir necesitamos hacer esto ​y aquí están los datos sobre los que escribí mis sentencias SQL.
+- ​Realmente necesitas practicar.
+- ​Creo que con cualquier otra cosa, la práctica hace al maestro. 
+- Ser capaz de, aunque sólo sean unas horas a la semana, ​de reservar tiempo para practicar escribiendo sentencias SQL.
+- ​Tener esa habilidad es algo que ​será muy aplicable a tu primer trabajo, ​y puedes utilizarla para tomar decisiones basadas en datos.
+- ​Me siento muy realizada trabajando en ciberseguridad.
+- ​Me siento con mucha energía, ​voy a trabajar todos los días.
+- ​No sólo porque tengo la oportunidad de trabajar en ​problemas realmente complejos y ​intentar encontrar soluciones para ellos, ​sino que también tengo grandes compañeros de equipo con los que ​todos nos reunimos y abordamos el problema.
