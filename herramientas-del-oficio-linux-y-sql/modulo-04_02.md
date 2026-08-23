@@ -261,3 +261,50 @@ SELECT *
 FROM log_in_attempts
 ORDER BY login_date, login_time;
 ```
+
+## Ejemplo: Realizar una consulta SQL
+
+- Resumen de la actividad
+   - Anteriormente, aprendiste a utilizar consultas SQL básicas para recuperar información de una base de datos.
+   - También aprendió a utilizar la palabra clave ORDER BY para ordenar los datos devueltos en forma ascendente o descendente.
+   - En esta actividad de laboratorio, utilizará SELECT y FROM en SQL para devolver la información que necesita de una base de datos.
+   - También utilizará la palabra clave ORDER BY para secuenciar la información devuelta por una consulta en función de una columna especificada.
+   - Es importante saber cómo consultar información de una base de datos porque ésta es una tarea común que puedes encontrar como analista de seguridad.
+   - Debes saber cómo obtener la información que necesitas para mejorar la seguridad y mantener los datos a salvo.
+   - Con esto en mente, es hora de explorar el escenario.
+   - Los términos fila y registro se utilizan indistintamente en esta actividad de laboratorio.
+
+- Listado de queries de ejemplo para el lab
+```sql
+SELECT *
+FROM machines;
+
+SELECT device_id, email_client
+FROM machines;
+
+SELECT device_id, operating_system, OS_patch_date
+FROM machines;
+
+SELECT event_id, country
+FROM log_in_attempts;
+
+SELECT username, login_date, login_time
+FROM log_in_attempts;
+
+SELECT *
+FROM log_in_attempts;
+
+SELECT *
+FROM log_in_attempts
+ORDER BY login_date;
+
+SELECT *
+FROM log_in_attempts
+ORDER BY login_date, login_time;
+```
+
+- Conclusión
+   - Ha completado esta actividad y ahora tiene experiencia práctica en la ejecución de consultas SQL básicas para
+      - seleccionar columnas específicas de una tabla,
+      - seleccionar todas las columnas de una tabla utilizando un asterisco (*), y
+      - ordenar los resultados de la consulta utilizando la palabra clave ORDER BY.
