@@ -126,3 +126,33 @@
 - ​Me siento muy realizada trabajando en ciberseguridad.
 - ​Me siento con mucha energía, ​voy a trabajar todos los días.
 - ​No sólo porque tengo la oportunidad de trabajar en ​problemas realmente complejos y ​intentar encontrar soluciones para ellos, ​sino que también tengo grandes compañeros de equipo con los que ​todos nos reunimos y abordamos el problema.
+
+---
+
+## Ponga a prueba sus Conocimientos: SQL y bases de datos
+
+1. ¿Qué afirmación describe con exactitud la organización de una base de datos relacional?
+- [x] Las bases de datos relacionales contienen tablas relacionadas entre sí mediante claves primarias y foráneas.
+- [ ] Las bases de datos relacionales contienen claves primarias con al menos dos valores duplicados.
+- [ ] Las bases de datos relacionales constan de una única tabla que contiene información relacionada.
+- [ ] Las bases de datos relacionales constan de una única tabla con una clave primaria y una clave externa.
+> Una base de datos relacional es una base de datos estructurada que contiene tablas relacionadas entre sí mediante claves primarias y externas.
+
+2. ¿Para qué se utiliza SQL? Seleccione dos respuestas
+- [ ] Permitir a los usuarios acceder a una máquina específica
+- [ ] Seguridad de los sistemas y redes de una organización
+- [x] Creación, interacción y solicitud de información a una base de datos
+- [x] Búsqueda de datos para respaldar las decisiones y los análisis relacionados con la seguridad
+> SQL es un lenguaje de programación utilizado para crear, interactuar y solicitar información a una base de datos. El filtrado de SQL puede utilizarse para encontrar datos que respalden las decisiones relacionadas con la seguridad.
+
+3. Un registro de los intentos de conexión a la red de una organización es un ejemplo de registro
+- [x] Verdadero
+- [ ] Falso
+> Un registro de los intentos de conexión a la red de una organización es un ejemplo de registro. Los registros A son registros de los eventos que se producen en los sistemas de una organización. 
+
+4. Rellene el espacio en blanco: Una solicitud de datos de una tabla de una base de datos o de una combinación de tablas se denomina _____
+- [x] Consulta
+- [ ] Registro
+- [ ] clave
+- [ ] fila
+> Una solicitud de datos de una tabla de una base de datos o de una combinación de tablas se denomina consulta.
