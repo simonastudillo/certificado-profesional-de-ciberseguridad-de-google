@@ -307,3 +307,48 @@ WHERE login_id = 503;
    - Ahora ha practicado la aplicación de filtros más específicos en SQL utilizando operadores de comparación (>, >=, <, <=, =) y el operador BETWEEN para recuperar datos basados en fechas, horas e identificadores únicos.
    - Estas habilidades son esenciales para llevar a cabo investigaciones exhaustivas y extraer información específica de registros de seguridad y bases de datos.
    - Se está volviendo más experto en el uso de SQL para analizar y comprender los datos relacionados con la seguridad.
+
+---
+
+## Filtrados con AND, OR y NOT
+- Las vulnerabilidades, por ejemplo, ​pueden depender de más de un factor.
+- ​Por ejemplo, una ​vulnerabilidad de Seguridad puede estar relacionada con ​máquinas que utilizan un cliente de correo electrónico ​específico en un sistema operativo específico.
+- ​Por lo tanto, para encontrar las posibles vulnerabilidades, ​necesitamos encontrar máquinas que utilicen ​tanto el cliente de correo electrónico como el sistema operativo.
+- ​Para hacer una consulta con ​varias condiciones que deben cumplirse, ​utilizamos el operador AND entre dos condiciones distintas.
+- ​AND es un operador que especifica que ​ambas condiciones deben cumplirse simultáneamente.
+- ​Volviendo a nuestra analogía con ​las frutas y verduras, es lo mismo que pedirle a alguien que seleccione manzanas de ​la caja grande donde las manzanas son grandes y frescas.
+- ​Esto significa que nuestros resultados no incluirán manzanas pequeñas, ​incluso si están frescas, ​ni manzanas podridas, incluso si son grandes.
+- ​Solo incluirán manzanas grandes y frescas.
+- ​Las manzanas deben cumplir ambas condiciones.
+- ​Volviendo a nuestra base de datos, ​la tabla de máquinas muestra ​todos los sistemas operativos y clientes de correo electrónico.
+- ​Queremos una lista de máquinas que ejecutan el sistema operativo ​1 y una lista de máquinas que utilizan el cliente de correo electrónico 1.
+- ​En primer lugar, vamos a empezar por ​crear las primeras líneas de la consulta y ​decirle a SQL que SELECT * FROM de la tabla de máquinas.
+- ​Luego, agregaremos la cláusula WHERE.
+- ​Primero, indicamos ​la primera condición que debe cumplir, ​que la columna del sistema operativo tenga un valor de '0S 1'.
+- ​Luego, usamos AND para unir esto a otra condición. 
+- Y por último, introducimos la otra condición, ​en este caso, que ​la columna del cliente de correo electrónico debería ​tener un valor de «Cliente de correo electrónico 1"
+- ​Vamos a ejecutar esto para obtener los resultados de la consulta.
+- ¡Todos los resultados coinciden con nuestras dos condiciones!
+- ​Sigamos y exploremos más formas de combinar ​diferentes condiciones trabajando con el operador OR.
+- ​El operador OR es un operador que ​especifica que se puede cumplir cualquiera de las condiciones.
+- ​En un diagrama de Venn, ​digamos que cada círculo representa una condición.
+- ​Cuando se unen con OR, ​SQL seleccionará todas las filas que ​cumplan una de las condiciones.
+- ​Y también está bien si cumple ambas condiciones.
+- ​Ejecutemos otra consulta y usemos el operador OR.
+- ​Supongamos que queremos que el ​filtro identifique las máquinas que tienen ​OS 1 u OS 3 porque ambos tipos necesitan un parche.
+- ​Después de WHERE, nuestra primera condición indica que queremos ​filtrar, de modo que la consulta seleccione máquinas con 'OS 1'.
+- ​Usamos el operador OR porque también queremos ​encontrar registros que coincidan con otra condición.
+- ​Esta condición adicional se coloca después de O e ​indica que también se deben seleccionar máquinas que ejecuten «OS 3».
+- Al ejecutar ​la consulta, ​nuestros resultados ahora incluyen registros que tienen un valor de ​OS 1 o OS 3 en la columna del sistema operativo.
+- ​El último operador que analizaremos ​es el operador NOT.
+- ​NOT niega una condición.
+- ​En un diagrama, ​podemos mostrar esto seleccionando ​todas las entradas que no coincidan con nuestra condición.
+- ​La condición está representada por el círculo.
+- La parte rellenada fuera ​del círculo representa lo que se devuelve.
+- ​Se trata de todos los datos que no coinciden con la condición.
+- Por ejemplo, al elegir fruta, ​puedes buscar cualquier fruta que no sea una manzana.
+- ​Eso es mucho ​más eficiente que decirle a tu amigo que quieres ​un plátano, una naranja o una lima, etc.
+- ​Supongamos que desea actualizar ​todos los dispositivos de ​su empresa, excepto los que utilizan OS 3.
+- ​Llevando esto a SQL, ​podemos escribir esta consulta.
+- ​Colocamos NOT después de ​WHERE y antes del estado del filtro.
+- ​Ejecución de estas consultas nos da la lista ​de todas las máquinas que no están ejecutando OS 3, y ​ahora sabemos qué máquinas actualizar.
