@@ -749,3 +749,42 @@ sudo groupdel researcher9
       - añadir un usuario a un grupo,
       - cambiar los permisos de archivo de un usuario, y
       - eliminar un usuario.
+
+---
+
+## Ponga a prueba sus Conocimientos: Autenticación y autorización de usuarios
+
+1. ¿Qué es la autorización?
+- [x] El concepto de concesión de acceso a recursos específicos en un sistema
+- [ ] El proceso de conceder temporalmente permisos elevados a usuarios específicos
+- [ ] El proceso por el que un usuario demuestra que es quien dice ser en el sistema
+- [ ] El concepto de conceder sólo el acceso y la autorización mínimos necesarios para completar una tarea o función
+> Autorizar es el concepto de conceder acceso a recursos específicos en un sistema
+
+2. ¿Cuál de las siguientes afirmaciones describe correctamente la Cadena de permisos de archivo -rw-rw-rw-? Seleccione dos respuestas
+- [x] El grupo tiene permisos de lectura.
+- [ ] El usuario y el grupo tienen permisos de ejecución.
+- [ ] El tipo de archivo es un Directorio.
+- [x] El usuario tiene permisos de escritura.
+> El 3er carácter de la Cadena de permisos de archivo -rw-rw-rw- indica que el usuario tiene permisos de escritura, y el 5º carácter de la Cadena de permisos de archivo -rw-rw-rw- indica que el grupo tiene permisos de lectura. 
+
+3. Un profesional de la Seguridad introduce chmod g+w access.txt en la línea de comandos. ¿Qué le dice este comando al sistema operativo que haga?
+- [ ] Añada permisos de escritura al usuario para el archivo access.txt 
+- [ ] Elimine los permisos de escritura del usuario para el archivo access.txt 
+- [ ] Elimine los permisos de escritura del grupo para el archivo access.txt 
+- [x] Añada permisos de escritura al grupo para el archivo access.txt 
+> El comando chmod g+w access.txt indica al sistema operativo que añada permisos de escritura al grupo.
+
+4. ¿Cuál de los siguientes comandos debe utilizarse normalmente con sudo? Seleccione tres respuestas
+- [x] useradd
+- [x] chown
+- [x] userdel
+- [ ] chmod
+> Los comandos useradd, userdel y chown deben utilizarse normalmente con sudo. El comando useradd añade un usuario al sistema, userdel elimina un usuario del sistema y chown cambia la propiedad de un archivo.
+
+5. Un analista de Seguridad está actualizando los permisos de un Directorio llamado projects. Los permisos actuales son drwxrw-r--. Quieren añadir permisos de ejecución para el grupo. ¿Qué introducen en la línea de comandos?
+- [ ] chmod g-x projects
+- [ ] chmod u-x projects
+- [ ] chmod x+x projects
+- [x] chmod g+x projects
+> Entran en chmod g+x projects. Este comando añade permisos de ejecución para el grupo.
