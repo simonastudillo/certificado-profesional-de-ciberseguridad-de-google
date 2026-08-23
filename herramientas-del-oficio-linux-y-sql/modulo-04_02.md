@@ -262,6 +262,8 @@ FROM log_in_attempts
 ORDER BY login_date, login_time;
 ```
 
+---
+
 ## Ejemplo: Realizar una consulta SQL
 
 - Resumen de la actividad
@@ -308,3 +310,8 @@ ORDER BY login_date, login_time;
       - seleccionar columnas específicas de una tabla,
       - seleccionar todas las columnas de una tabla utilizando un asterisco (*), y
       - ordenar los resultados de la consulta utilizando la palabra clave ORDER BY.
+
+---
+
+## Ejemplo opcional: Realizar una consulta SQL
+- Mismo laboratorio que el anterior.
