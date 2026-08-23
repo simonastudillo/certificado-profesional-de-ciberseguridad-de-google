@@ -587,3 +587,8 @@ WHERE office LIKE 'South%';
    - Ahora tiene experiencia práctica en el uso de SQL para
       - Aplicar la cláusula WHERE para filtrar lo que devuelve una consulta SQL y
       - Utilizar el operador LIKE para filtrar patrones.
+
+---
+
+## Ejemplar opcional: Filtrar una consulta SQL
+- Mismo laboratorio que el anterior.
