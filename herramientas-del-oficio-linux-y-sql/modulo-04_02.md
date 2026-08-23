@@ -544,3 +544,46 @@ FROM employees
 WHERE office LIKE 'South%'
 LIMIT 1;
 ``` 
+
+---
+
+## Ejemplo: Filtrar una consulta SQL
+- Resumen de actividades
+   - Como analista de seguridad, saber cómo hacer mejores consultas para recuperar piezas específicas de datos puede ayudarle a encontrar la información relacionada con la seguridad que necesita de manera más eficiente.
+   - En esta actividad de laboratorio, aplicará filtros básicos a consultas SQL para recuperar información de una base de datos MariaDB.
+   - MariaDB es una popular base de datos relacional de código abierto compatible con MySQL.
+   - Esta actividad te brinda una gran oportunidad para aplicar lo que has aprendido y agregar filtros a las consultas SQL.
+
+- Listado de queries de ejemplo para el lab
+```sql
+DESCRIBE machines; 
+DESCRIBE employees;
+
+SELECT device_id, operating_system 
+FROM machines;
+
+SELECT device_id, operating_system 
+FROM machines 
+WHERE operating_system = 'OS 2';
+
+SELECT * 
+FROM employees 
+WHERE department = 'Finance';
+
+SELECT * 
+FROM employees
+WHERE department = 'Sales';
+
+SELECT *
+FROM employees
+WHERE office = 'South-109';
+
+SELECT *
+FROM employees
+WHERE office LIKE 'South%';
+```
+
+- Conclusión
+   - Ahora tiene experiencia práctica en el uso de SQL para
+      - Aplicar la cláusula WHERE para filtrar lo que devuelve una consulta SQL y
+      - Utilizar el operador LIKE para filtrar patrones.
