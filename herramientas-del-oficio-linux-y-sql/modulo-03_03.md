@@ -717,3 +717,35 @@ sudo groupdel researcher9
 
 ## Ejemplo opcional: Añadir y gestionar usuarios con comandos Linux
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Añadir y gestionar usuarios con comandos Linux
+- Resumen de la actividad
+   - Anteriormente, te centraste en la autorización, el concepto de conceder acceso a recursos específicos en un sistema.
+   - Otro concepto importante en seguridad es la autenticación.
+   - La autenticación es el proceso por el que un usuario demuestra que es quien dice ser en el sistema.
+   - Al gestionar esto, los analistas de seguridad tienen que asegurarse de que
+      - no todos los usuarios tienen acceso al sistema
+      - los nuevos usuarios (los que son nuevos en la organización o en un grupo) se añaden al sistema, y
+      - los usuarios actuales que cambian de grupo o abandonan la organización sean eliminados del sistema.
+   - En esta actividad de laboratorio, utilizará los comandos `useradd`, `usermod`, `userdel`, y `chown` para administrar el acceso de usuarios en el shell Bash de Linux.
+   - Debe utilizar `sudo` al comienzo de todos los comandos que utilice en este laboratorio.
+   - Agregar o eliminar usuarios y grupos son tareas que requieren privilegios de root (superusuario), y deberás utilizar `sudo` con los comandos que se utilizan para realizar estas tareas.
+- Comandos utilizados en este laboratorio
+```bash
+sudo useradd researcher9
+sudo usermod -g research_team researcher9
+sudo useradd researcher9 -g research_team
+sudo chown researcher9 /home/researcher2/projects/project_r.txt
+sudo usermod -a -G sales_team researcher9
+sudo userdel researcher9
+sudo groupdel researcher9
+```
+
+- Conclusión
+   - Ahora tienes experiencia práctica en el uso de comandos básicos del shell Bash de Linux para
+      - añadir un nuevo usuario,
+      - añadir un usuario a un grupo,
+      - cambiar los permisos de archivo de un usuario, y
+      - eliminar un usuario.
