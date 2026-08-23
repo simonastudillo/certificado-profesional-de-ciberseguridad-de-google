@@ -21,3 +21,8 @@
    - Obtener ayuda en Linux
 - Dentro de cada categoría, los comandos están organizados alfabéticamente.
 - [Reference Guide Linux](./resources/Reference Guide Linux.pdf)
+
+---
+
+## Términos del glosario del Módulo 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
