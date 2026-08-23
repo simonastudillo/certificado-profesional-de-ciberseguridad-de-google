@@ -122,3 +122,142 @@ ORDER BY country, city;
 - Bloque de código
 - Desplazamiento por la página
 - Botón Finalizar Laboratorio
+
+---
+
+## Actividad: Realizar una consulta SQL
+- Introducción
+   - En este laboratorio, aprenderá a recuperar información de una base de datos utilizando SQL.
+   - Utilizará el shell de MariaDB para ejecutar sus consultas SQL.
+- Lo que hará
+   - Devolver información sobre los dispositivos de los empleados
+   - Examinar los intentos de inicio de sesión
+   - Ordenar los datos devueltos por una consulta
+- Resumen de la actividad
+   - Anteriormente, aprendiste a usar consultas en SQL básicas para recuperar información de una base de datos.
+   - También aprendiste a usar la palabra clave ORDER BY para ordenar los datos devueltos de manera ascendente o descendente.
+   - En este lab, usarás SELECT y FROM en SQL para que se devuelva la información que necesites de una base de datos.
+   - También usarás la palabra clave ORDER BY para ordenar la información que devuelve una consulta en función de una columna específica.
+   - Es importante que sepas cómo consultar información de una base de datos, ya que es una tarea común que podrías realizar como analista de seguridad.
+   - Debes saber cómo obtener la información que necesitas para mejorar la seguridad general y de los datos.
+- Situación
+   - En este caso, debes determinar cuáles dispositivos de los empleados deben actualizarse.
+   - También debes investigar la actividad de acceso de los usuarios para explorar si se produjo alguna actividad inusual.
+   - La información que necesitas se encuentra en las tablas machines y login_attempts de la base de datos organization.
+   - La tabla machines se enfoca en el hardware y contiene las siguientes columnas:
+      - device_id
+      - operating_system
+      - email_client
+      - OS_patch_date
+      - employee_id
+   - La tabla log_in_attempts se enfoca en la actividad del usuario y contiene estas columnas:
+      - event_id
+      - username
+      - login_date
+      - login_time
+      - country
+      - ip_address
+      - correcto
+   - Estos son los pasos que seguirás:
+      1. Obtendrás información sobre cuáles dispositivos de los empleados deben actualizarse.
+      2. Examinarás los intentos de acceso en busca de actividad inusual.
+      3. Usarás la palabra clave ORDER BY para ordenar los datos que devuelven tus consultas en SQL.
+
+- Comienza el lab
+
+1. Recupera datos de los dispositivos de los empleados
+- Ejecuta la siguiente consulta para seleccionar toda la información de dispositivos de la tabla machines:
+```sql
+SELECT *
+FROM machines;
+```
+- Ejecuta la siguiente consulta para seleccionar solo las columnas device_id y email_client de la tabla machines.
+- What email client is returned in the third row?
+   - [ ] Email Client 4
+   - [ ] Email Client 3
+   - [ ] Email Client 1
+   - [x] Email Client 2
+- Ejecuta la consulta para que devuelva solo las columnas device_id, operating_system y OS_patch_date de la tabla machines.
+- What is the patch date of the first entry?
+   - [ ] 2021-03-01
+   - [ ] 2021-12-01
+   - [ ] 2021-06-01
+   - [x] 2021-09-01
+> ¿Por qué es útil esta información? Como analista, encontrar entradas antiguas de OS_patch_date es la forma de identificar máquinas “vulnerables” que los hackers podrían explotar. Esas máquinas son las que querrías segmentar para una actualización.
+
+2. Investiga la actividad de acceso
+- Escribe una consulta en SQL para seleccionar las columnas event_id y country de la tabla log_in_attempts
+- Were any login attempts made from Australia?
+   - [ ] Yes
+   - [x] No
+> ¿Por qué sería útil saber esto? Si tu empresa solo opera en Norteamérica, un acceso desde Australia es una “señal de alerta” que indica un posible robo de credenciales.
+- Escribe una consulta en SQL que seleccione las columnas username, login_date y login_time de la tabla log_in_attempts.
+- What username is returned in the fifth row?
+   - [ ] apatel
+   - [x] jrafael
+   - [ ] mrah
+   - [ ] dkot
+> ¿Por qué estoy viendo los horarios de acceso? Los hackers suelen usar credenciales robadas para acceder a las 3:00 a.m. porque suponen que el empleado está dormido y no notará una alerta de “Nuevo acceso”. Como analista, debes buscar anomalías. Si un trabajador de oficina diurno de repente tiene un acceso exitoso a la medianoche, es una "señal de alerta" de que la cuenta podría estar comprometida o de que un usuario interno está accediendo a datos a los que no debería.
+- Escribe una consulta en SQL que seleccione todas las columnas de la tabla log_in_attempts. Para ello, usa un solo símbolo después de la palabra clave SELECT.
+
+3. Ordena los datos de intentos de acceso
+- Ejecuta la siguiente consulta, que ordena los datos log_in_attempts por login_date
+- What are the username and login date of the first record returned?
+   - [x] ivelasco on 2022-05-08
+   - [ ] daquino on 2022-05-08
+   - [ ] sbaelish on 2022-05-10
+   - [ ] mabadi on 2022-05-10
+- Modifica la consulta del paso anterior: agrega la hora de acceso a la cláusula ORDER BY.
+- What are the username and login time of the first record returned by the above query?
+   - [x] bsand at 00:19:11
+   - [ ] wjaffrey at 00:15:55
+   - [ ] pwashing at 00:36:12
+   - [ ] gesparza at 00:40:00
+
+- Listado de queries utilizadas en el lab
+```sql
+-- PART 1
+SELECT *
+FROM machines;
+
+SELECT device_id, email_client
+FROM machines;
+
+SELECT device_id, email_client
+FROM machines
+LIMIT 1 OFFSET 2;
+
+SELECT device_id, operating_system, OS_patch_date
+FROM machines;
+
+SELECT device_id, operating_system, OS_patch_date
+FROM machines
+LIMIT 1;
+
+-- PART 2
+SELECT event_id, country
+FROM log_in_attempts;
+
+SELECT event_id, country
+FROM log_in_attempts
+ORDER BY country;
+
+SELECT username, login_date, login_time
+FROM log_in_attempts;
+
+SELECT username, login_date, login_time
+FROM log_in_attempts
+LIMIT 1 OFFSET 4;
+
+SELECT *
+FROM log_in_attempts;
+
+-- PART 3
+SELECT *
+FROM log_in_attempts
+ORDER BY login_date;
+
+SELECT *
+FROM log_in_attempts
+ORDER BY login_date, login_time;
+```
