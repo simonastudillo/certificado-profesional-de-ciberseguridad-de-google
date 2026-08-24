@@ -62,3 +62,8 @@
    - Unir tablas
    - Realizar cálculos
 - [Guía de referencia SQL](./resources/Reference Guide SQL.pdf)
+
+---
+
+## Glosario de términos del módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
