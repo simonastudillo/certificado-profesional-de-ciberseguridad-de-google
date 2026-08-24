@@ -1,18 +1,62 @@
 # Herramientas del oficio: Linux y SQL
 ---
 - Módulo 1: Introducción a los sistemas operativos
+   - [Comenzar el curso](./modulo-01_01.md)
+   - [El maravilloso mundo de los sistemas operativos](./modulo-01_02.md)
+   - [El sistema operativo en funcionamiento](./modulo-01_03.md)
+   - [Interfaz de usuario](./modulo-01_04.md)
+   - [Repaso: Introducción a los sistemas operativos](./modulo-01_05.md)
 - Módulo 2: El sistema operativo Linux
+   - [Todo sobre Linux](./modulo-02_01.md)
+   - [Distribuciones Linux](./modulo-02_02.md)
+   - [El shell](./modulo-02_03.md)
+   - [Revisión: El sistema operativo Linux](./modulo-02_04.md)
 - Módulo 3: Comandos Linux en el shell Bash
+   - [Navegar por el sistema de archivos de Linux](./modulo-03_01.md)
+   - [Gestionar el contenido de los archivos en Bash](./modulo-03_02.md)
+   - [Autenticación y autorización de usuarios](./modulo-03_03.md)
+   - [Obtener ayuda en Linux](./modulo-03_04.md)
+   - [Revisión: Comandos Linux en el shell Bash](./modulo-03_05.md)
 - Módulo 4: Bases de datos y SQL
+   - [Introducción a SQL y a las bases de datos](./modulo-04_01.md)
+   - [Consultas SQL](./modulo-04_02.md)
+   - [Más filtros SQL](./modulo-04_03.md)
+   - [Uniones SQL](./modulo-04_04.md)
+   - [Revisión: Bases de datos y SQL](./modulo-04_05.md)
+   - [¡Enhorabuena por haber completado el Curso 4!](./modulo-04_06.md)
 
 ## Habilidades y conceptos a aprender
 ---
 
 ### Habilidades técnicas (hard skills)
 
+- **Linux Command Line (Bash)**: Navegación y gestión del sistema de archivos (`pwd`, `ls`, `cd`, `mkdir`, `rmdir`, `touch`, `rm`, `mv`, `cp`), lectura de archivos (`cat`, `head`, `tail`, `less`), filtrado de contenido (`grep`, `find`, piping `|`), y redirección de salida (`>`, `>>`).
+- **Gestión de usuarios y permisos en Linux**: Configuración de autorización y autenticación (`chmod`, `chown`, `useradd`, `usermod`, `userdel`), uso de `sudo` para privilegios elevados, e interpretación de la cadena de 10 caracteres de permisos (`rwx`).
+- **SQL (Structured Query Language)**: Consultas a bases de datos relacionales (`SELECT`, `FROM`, `ORDER BY`), filtrado de datos (`WHERE`, `LIKE`, comodines `%` y `_`, `BETWEEN`, operadores de comparación `=`, `>`, `<`, `>=`, `<=`, `<>`, `!=`), operadores lógicos (`AND`, `OR`, `NOT`), uniones de tablas (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN`), y funciones de agregación (`COUNT`, `AVG`, `SUM`).
+- **Gestión de paquetes de software**: Instalación y desinstalación de aplicaciones con administradores de paquetes (`APT`, `YUM`, `dpkg`, `RPM`).
+- **Editores de texto en línea de comandos**: Edición de archivos con `nano` (conocimiento básico de `Vim` y `Emacs`).
+- **Análisis de registros (logs)**: Revisión y filtrado de registros de seguridad para identificar accesos no autorizados, patrones sospechosos y vulnerabilidades.
+
 ### Conceptos clave
 
+- **Sistemas operativos (OS)**: Funciones principales, relación entre hardware, software y aplicaciones, proceso de arranque (`BIOS`, `UEFI`, `bootloader`), y gestión de recursos (CPU, RAM, disco duro).
+- **Interfaces de usuario**: Diferencias entre GUI (Graphical User Interface) y CLI (Command-Line Interface), ventajas de la CLI en ciberseguridad (eficiencia, archivo de historial).
+- **Arquitectura de Linux**: Componentes del sistema (usuario, aplicaciones, shell, `Filesystem Hierarchy Standard (FHS)`, `kernel`, hardware).
+- **Distribuciones de Linux**: `Kali Linux` (pentesting y forense digital), `Ubuntu`, `Red Hat Enterprise Linux`, `Parrot`, `CentOS`, `AlmaLinux`.
+- **Virtualización**: Máquinas virtuales (VM), hipervisores (`KVM`), entornos aislados (`sandbox`) para análisis de malware.
+- **Bases de datos relacionales**: Estructura de tablas (columnas/campos, filas/registros), claves primarias y foráneas, tipos de datos (cadenas, numéricos, fecha/hora), valores `NULL`.
+- **Autenticación y autorización**: Principio de privilegio mínimo (`Principle of least privilege`), usuario root vs. `sudo`, archivo `sudoers`, gestión de grupos primarios y suplementarios.
+- **Ciberseguridad práctica**: Pruebas de penetración (`penetration testing`), análisis forense digital (`digital forensics`), herramientas de seguridad (`Metasploit`, `Burp Suite`, `John the Ripper`, `Wireshark`, `tcpdump`, `Autopsy`, `Suricata`), gestión de vulnerabilidades y parches, sistemas operativos heredados (`legacy OS`).
+
 ### Habilidades transferibles (soft skills)
+
+- **Resolución de problemas (Troubleshooting)**: Análisis de eventos de seguridad, rastreo de flujo de procesos para identificar dónde ocurrió un incidente, y uso de recursos comunitarios (`Stack Overflow`, `Stack Exchange`) para solucionar problemas técnicos.
+- **Pensamiento analítico**: Filtrado y análisis de grandes volúmenes de datos para identificar patrones inusuales, anomalías y posibles amenazas de seguridad.
+- **Toma de decisiones basada en datos**: Uso de consultas SQL y análisis de registros para respaldar decisiones de seguridad y comunicar hallazgos a las partes interesadas.
+- **Documentación y reporte**: Creación de informes de actividades de seguridad, documentación de comandos y procedimientos para portafolios profesionales.
+- **Aprendizaje continuo y autodidacta**: Uso de recursos integrados (`man`, `whatis`, `apropos`) y búsqueda en línea para aprender nuevos comandos y herramientas de forma autónoma.
+- **Atención al detalle**: Revisión exhaustiva de permisos de archivos, verificación de configuraciones de seguridad, y análisis detallado de registros para detectar irregularidades.
+- **Comunicación efectiva**: Explicación de conceptos técnicos y hallazgos de seguridad a audiencias con distintos niveles de conocimiento técnico.
 
 
 ## Descripción del curso
@@ -218,3 +262,50 @@
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Introducción a los sistemas operativos
+- El **sistema operativo (OS)** es la interfaz entre el hardware y el usuario: hace que la computadora funcione de forma eficiente, permite ejecutar múltiples aplicaciones a la vez y salva la brecha de comunicación entre humanos y el lenguaje binario de las máquinas.
+- Sistemas operativos comunes en el sector: **Windows** y **macOS** (código cerrado/parcialmente abierto), **Linux** (completamente de código abierto y clave en seguridad), **ChromeOS** (educación) y los móviles **Android** e **iOS**.
+- La seguridad del OS implica asegurar archivos, acceso a datos y autenticación de usuarios; los analistas gestionan cortafuegos, políticas de seguridad, antivirus y auditorías.
+- **Proceso de arranque**: al encender el equipo se activa el microchip **BIOS** (sistemas antiguos) o **UEFI** (posteriores a 2007, con mejoras de seguridad), que carga el **bootloader** (cargador de arranque), y éste inicia el sistema operativo. La BIOS suele no ser explorada por antivirus, por lo que es vulnerable a infecciones.
+- **Flujo de una tarea** (4 partes): el usuario utiliza una **aplicación**, ésta envía la solicitud al **sistema operativo**, el OS la dirige al **hardware** (CPU, disco duro) y el resultado regresa por el mismo camino. Rastrear este flujo ayuda a investigar dónde ocurrió un evento de seguridad.
+- El OS **gestiona los recursos** (CPU, memoria, almacenamiento, ancho de banda) asignándolos donde más se necesitan; el administrador de tareas permite detectar anomalías, como malware consumiendo recursos.
+- **Virtualización**: las máquinas virtuales (VM) son versiones de software de computadoras físicas, gestionadas por **hipervisores** (como **KVM**, integrado en el kernel de Linux). Ofrecen entornos aislados (*sandbox*) ideales para analizar malware de forma segura y eficiencia al compartir hardware, aunque no son infalibles (un programa malicioso podría escapar al host).
+- **GUI vs CLI**: la interfaz gráfica (GUI) usa iconos y permite una petición a la vez; la línea de comandos (CLI) es basada en texto, más flexible y potente, permite múltiples tareas simultáneas y **registra un historial de comandos**, útil para verificar pasos de un manual de respuesta a incidentes o rastrear las acciones de un atacante.
+- **Sistemas operativos heredados** (legacy): obsoletos pero aún en uso por compatibilidad; ya no reciben soporte ni actualizaciones, lo que los hace vulnerables a nuevas amenazas. Mantener los sistemas actualizados es clave.
+
+### Módulo 2: El sistema operativo Linux
+- **Linux** es un sistema operativo completamente de código abierto, nacido de la unión del **kernel de Linus Torvalds** y el proyecto **GNU de Richard Stallman**, bajo la Licencia Pública GNU. Es central en ciberseguridad: se usa para examinar registros, verificar acceso y autorización, y ejecutar herramientas de seguridad.
+- **Arquitectura de Linux** (6 componentes): **usuario** → **aplicaciones** (distribuidas por administradores de paquetes; ej. el editor nano) → **shell** → **Filesystem Hierarchy Standard (FHS)** (organiza los datos) → **kernel** (gestiona procesos y memoria, comunica con el hardware mediante controladores) → **hardware** (periféricos como monitores e impresoras, e internos como CPU, RAM y disco duro). Linux es un sistema **multiusuario**.
+- **Distribuciones**: versiones derivadas del kernel abierto, creadas según necesidades del usuario:
+   - **Kali Linux™** (derivada de Debian): diseñada para **pruebas de penetración** y **análisis forense digital**; incluye Metasploit, Burp Suite, John the Ripper, tcpdump, Wireshark y Autopsy. Debe usarse en máquina virtual.
+   - **Ubuntu**: fácil de usar, con CLI y GUI, gran comunidad de soporte y muy usada en computación en la nube.
+   - **Red Hat Enterprise Linux**: por suscripción, para uso empresarial con soporte dedicado.
+   - **Parrot**: herramientas de seguridad preinstaladas y GUI amigable.
+   - **CentOS** (descontinuado) y **AlmaLinux** (su reemplazo estable): relacionadas con Red Hat.
+- **Gestión de paquetes**: los paquetes contienen archivos y dependencias; `dpkg` (archivos `.deb`, Debian) y `RPM` (archivos `.rpm`, Red Hat) son administradores de paquetes, mientras que **APT** (Debian) y **YUM** (Red Hat) son herramientas de gestión desde la CLI (ej. `sudo apt install suricata`). Mantener versiones recientes garantiza parches de seguridad actualizados.
+- **El shell**: intérprete de línea de comandos que traduce las órdenes del usuario al kernel. Tipos: **Bash** (predeterminado en la mayoría de distribuciones y el más usado en ciberseguridad), csh, ksh, tcsh y zsh.
+- **Comunicación con el shell**: **entrada estándar (stdin)** — información enviada al OS; **salida estándar (stdout)** — respuesta del OS; **error estándar (stderr)** — mensajes de error. Comandos básicos: `echo` (emitir texto), `expr` (cálculos), `clear` (limpiar pantalla).
+
+### Módulo 3: Comandos Linux en el shell Bash
+- **Sistema de archivos (FHS)**: estructura jerárquica que parte del **directorio raíz (`/`)**; directorios estándar como `/home` (directorios personales), `/bin` (ejecutables), `/etc` (configuración), `/tmp` (temporales, frecuentemente abusado por atacantes) y `/mnt` (medios montados). Se navega con **rutas absolutas** (desde la raíz) o **relativas** (desde el directorio actual, con `.`, `..` y `~`). Los comandos y nombres de archivo **distinguen mayúsculas y minúsculas**.
+- **Navegación y lectura**: `pwd` (directorio actual), `ls` (listar contenido), `cd` (cambiar directorio), `whoami` (usuario actual); `cat` (contenido completo), `head`/`tail` (primeras/últimas 10 líneas, ajustable con `-n`), `less` (paginado con avance/retroceso).
+- **Filtrado de contenido**: `grep` devuelve líneas que contienen una cadena; la **tubería (`|`)** envía la salida de un comando como entrada de otro (ej. `ls | grep users`); `find` busca archivos por criterios con opciones `-name`/`-iname` (con comodín `*`), `-mtime`/`-mmin` (por tiempo de modificación).
+- **Gestión de archivos y directorios**: `mkdir`/`rmdir` (crear/eliminar directorios), `touch`/`rm` (crear/eliminar archivos), `mv` (mover o renombrar), `cp` (copiar); edición con **nano** (`Ctrl+O` guardar, `Ctrl+X` salir); redirección con `>` (sobrescribe) y `>>` (añade al final).
+- **Permisos y autorización**: se representan con una **cadena de 10 caracteres** (tipo de archivo + permisos de lectura `r`, escritura `w` y ejecución `x` para **usuario**, **grupo** y **otros**). Se inspeccionan con `ls -l`, `ls -a` (ocultos) y `ls -la`, y se modifican con `chmod` en modo simbólico (`u`/`g`/`o` con operadores `+`, `-`, `=`). Se aplica el **principio de privilegio mínimo**: conceder solo el acceso estrictamente necesario.
+- **Autenticación y gestión de usuarios**: la autenticación verifica la identidad del usuario. Ejecutar todo como **root** es mala práctica (riesgo de compromiso, errores irreversibles y falta de trazabilidad); se recomienda **`sudo`**, que otorga privilegios elevados temporales a usuarios autorizados en el **archivo sudoers**. Comandos: `useradd` (crear usuario, con `-g` grupo primario y `-G` grupos suplementarios), `usermod` (modificar: `-a -G` añadir grupos, `-d` directorio personal, `-l` nombre, `-L` bloquear cuenta), `userdel` (eliminar, `-r` borra también su directorio personal) y `chown` (cambiar propietario de usuario o `:grupo`).
+- **Obtener ayuda**: la comunidad global de Linux (búsquedas en línea, Unix & Linux Stack Exchange) y el soporte integrado: `man` (página de manual completa), `whatis` (descripción en una línea) y `apropos` (busca comandos por palabras clave, `-a` para combinar varias).
+
+### Módulo 4: Bases de datos y SQL
+- **Bases de datos relacionales**: colecciones organizadas de datos en **tablas** relacionadas entre sí, accesibles por múltiples usuarios y capaces de almacenar volúmenes masivos de información. Las tablas tienen **columnas** (campos) y **filas** (registros); se conectan mediante **claves primarias** (valores únicos, no nulos ni duplicados) y **claves foráneas** (columna que es clave primaria en otra tabla). Los valores faltantes se representan como **NULL**.
+- **SQL (Structured Query Language)**: lenguaje para crear, interactuar y consultar bases de datos; permite buscar entre millones de registros en segundos, por lo que es esencial para analizar logs de seguridad. Tipos de datos comunes: **cadenas**, **numéricos** y **fecha/hora** (las cadenas y fechas van entre comillas; los números no).
+- **Consultas básicas**: `SELECT` (columnas a devolver, `*` para todas) y `FROM` (tabla a consultar), finalizando con `;`; `ORDER BY` ordena resultados de forma ascendente por defecto (`DESC` para descendente, y admite varias columnas).
+- **Filtrado**: la cláusula `WHERE` define condiciones con operadores de comparación (`=`, `>`, `<`, `>=`, `<=`, `<>`/`!=`); `LIKE` con los comodines `%` (cero o más caracteres) y `_` (un carácter) busca **patrones**; `BETWEEN ... AND ...` filtra rangos **inclusivos** de números o fechas.
+- **Operadores lógicos**: `AND` (ambas condiciones deben cumplirse), `OR` (basta con una) y `NOT` (niega la condición); combinables para filtros complejos (ej. intentos de acceso fallidos fuera del horario laboral).
+- **Uniones (JOIN)**: combinan tablas con una columna en común, indicando la coincidencia con `ON tabla.columna = tabla.columna`:
+   - `INNER JOIN`: solo las filas coincidentes en ambas tablas.
+   - `LEFT JOIN`: todas las filas de la tabla izquierda más las coincidencias de la derecha.
+   - `RIGHT JOIN`: todas las filas de la tabla derecha más las coincidencias de la izquierda.
+   - `FULL OUTER JOIN`: todos los registros de ambas tablas (con NULL donde no hay coincidencia).
+- **Funciones de agregación**: `COUNT` (número de filas), `AVG` (promedio) y `SUM` (suma) calculan sobre conjuntos de datos sin devolver los datos individuales.
+- **SQL vs filtrado en Linux**: SQL ofrece resultados estructurados y permite unir tablas, ideal para bases de datos; Linux (grep, find, etc.) es necesario cuando los datos están en archivos de texto no compatibles con SQL. Ambas herramientas se complementan en el análisis de seguridad.
