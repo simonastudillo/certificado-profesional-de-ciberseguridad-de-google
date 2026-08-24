@@ -1,0 +1,52 @@
+# Uniones SQL
+
+## Unir tablas en SQL
+- El último concepto que vamos a introducir en ​esta sección es la unión de tablas al consultar una base de datos.
+- ​Esto resulta útil cuando se necesita ​información de dos tablas diferentes de una base de datos.
+- ​Digamos que tenemos dos tablas: ​una que nos informa sobre las vulnerabilidades de seguridad de ​diferentes sistemas operativos, y otra ​sobre diferentes máquinas de nuestra empresa, ​incluidos sus sistemas operativos.
+- ​Tener la capacidad de combinarlas ​nos proporciona una lista de máquinas vulnerables.
+- ​Dado que ahora estamos trabajando con dos tablas, ​necesitamos una forma de decirle a SQL ​de qué tabla estamos cogiendo columnas.
+- ​En nuestra base de datos de ejemplo, ​tenemos una columna employee_id ​tanto en la tabla de empleados como en la de máquinas.
+- ​En las sentencias SQL que contienen dos columnas, ​SQL necesita saber a qué columna nos estamos refiriendo.
+- ​La forma de resolver esto es ​escribiendo primero el nombre de la tabla, ​luego un punto y después el nombre de una columna.
+- ​Así, tendríamos empleados seguido de un punto, ​seguido del nombre de la columna.
+- ​Esta es la columna employee_id de la tabla de empleados.
+- ​De forma similar, esta es la columna employee_id ​de la tabla de máquinas.
+- ​Ahora que entendemos esta sintaxis, ​apliquémosla a un JOIN
+- ​Imaginemos que queremos obtener ​un conocimiento más profundo de ​los empleados que acceden a las máquinas de nuestra empresa.
+- ​¡Podemos hacerlo uniendo las tablas de empleados y ​las de máquinas!
+- ​Primero tenemos que identificar ​la columna compartida que ​utilizaremos para conectar las dos tablas.
+- ​En este caso, utilizaremos una clave primaria y ​una tabla para conectar con ​otra tabla en la que es una clave foránea.
+- ​La clave primaria de la tabla de empleados es employee_id, ​que es una clave foránea en la tabla de máquinas.
+- ​employee_id es una clave primaria ​en la tabla de empleados porque tiene ​un valor único para cada fila de ​la tabla de empleados, y no tiene valores vacíos.
+- ​No tenemos garantía de que la columna employee_id de ​la tabla de máquinas siga ​los mismos criterios, ya que es ​una clave foránea y no una clave primaria.
+- ​A continuación, utilizaremos un tipo de unión llamado INNER JOIN.
+   - Un INNER JOIN devuelve filas que coinciden en ​una columna especificada que existe en más de una tabla.
+   - ​Las tablas suelen contener muchas más filas, ​pero para explicar mejor a qué nos referimos con INNER JOIN, ​centrémonos en sólo cuatro filas de ​la tabla de empleados y cuatro filas de la tabla de máquinas.
+   - ​También observaremos ​sólo unas pocas columnas de cada tabla para este ejemplo.
+   - ​Digamos que elegimos ​employee_id en ambas tablas para realizar un INNER JOIN.
+   - ​Veamos las dos filas en las que hay una coincidencia.
+   - ​Ambas tablas tienen 1188 y ​1189 en sus respectivas columnas employee_id, ​por lo que se consideran coincidentes.
+   - ​Los resultados de la unión son las dos filas que tienen 1188 ​y 1189 y todas las columnas de ambas tablas.
+- ​Antes de pasar a las consultas, ​tenemos que hablar de los valores NULL en las tablas.
+- ​En SQL, NULL representa un valor que falta por cualquier motivo.
+- ​En este caso, podría tratarse de ​máquinas que no están asignadas a ningún empleado.
+- ​Ahora, llevemos esto a SQL ​y hagamos un INNER JOIN en las tablas completas.
+- ​Imaginemos que queremos unir ​estas tablas para obtener una lista de usuarios y ​su ubicación en la oficina que también muestre ​qué sistema operativo utilizan en sus máquinas.
+- ​employee_id es una columna común entre estas tablas y ​podemos utilizarla para unirlas.
+- ​Pero no necesitaremos mostrar esta columna en los resultados. 
+- Primero, comencemos con una consulta básica ​que indique que queremos seleccionar las columnas username, ​office y operating_system.
+- ​Queremos que empleados sea nuestra tabla primera o izquierda, así que ​la utilizaremos en nuestra sentencia FROM.
+- ​Ahora, escribimos la parte de la consulta que le dice a SQL ​que una la tabla máquinas con la tabla empleados.
+- ​Desglosemos esta consulta.
+- ​INNER JOIN le dice a SQL que realice el INNER JOIN.
+- ​A continuación, nombramos la segunda tabla ​que queremos combinar con la primera.
+- ​A esto se le llama la tabla correcta. ​En este caso, queremos unir máquinas con ​la tabla de empleados que ya estaba ​identificada después de FROM.
+- ​Por último, le decimos a SQL en qué columna basar la unión.
+- ​En nuestro caso, estamos utilizando la columna employee_id.
+- ​Dado que estamos utilizando dos tablas, ​tenemos que identificar la tabla ​y seguirla con el nombre de la columna.
+- ​Así, tenemos employees.employee_id.
+- Y máquinas.employee_id.
+- ​Revisemos el resultado. ​¡Perfecto! Ahora hemos unido dos tablas.
+- ​Los resultados de nuestra consulta muestran ​los registros que coinciden en la columna employee_id.
+- ​Note que estos registros ​contienen columnas de ambas tablas, ​pero sólo las que hemos ​indicado mediante nuestra sentencia SELECT.
