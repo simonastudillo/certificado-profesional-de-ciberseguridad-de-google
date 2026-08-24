@@ -158,3 +158,35 @@
    - Además de estos, existen muchos otros retos.
    - A medida que más empresas adoptan los servicios basados en la nube, crece la necesidad de profesionales de la Seguridad de la nube para hacer frente a un número cada vez mayor de riesgos.
    - Burning Glass, una empresa líder en análisis del mercado laboral, clasifica la Seguridad de la nube entre las competencias más demandadas en Ciberseguridad.
+
+---
+
+## Ponga a prueba sus Conocimientos: Recursos digitales y físicos
+
+1. ¿Cuál es la práctica de mantener los datos en todos los estados alejados de usuarios no autorizados?
+- [ ] Red
+- [x] Seguridad de la información
+- [ ] Recurso
+- [ ] Ciberseguridad
+> Seguridad de la información, o InfoSec, es la práctica de mantener los datos en todos los estados alejados de usuarios no autorizados.
+
+2. Un empleado es ascendido a una nueva función, por lo que su puesto de trabajo se traslada a otra oficina. Mientras se traslada el puesto de trabajo del empleado, ¿en qué estado de datos se encuentran sus archivos?
+- [x] En reposo
+- [ ] En tránsito
+- [ ] En uso
+- [ ] En almacén
+> Los archivos están en reposo. Los Datos están en reposo cuando no se está accediendo a ellos. En este escenario, mover la estación de trabajo no cambia el estado de los Datos.
+
+3. ¿Cuál es un ejemplo de Datos en tránsito? 
+- [ ] Un directivo está editando un Informe en su computadora.
+- [ ] Un usuario se registra en su cuenta en línea para revisar sus mensajes.
+- [ ] Un archivo de hoja de cálculo se guarda en el disco duro de un empleado.
+- [x] Un correo electrónico enviado viaja por la red para llegar a su destino.
+> Un correo electrónico que viaja por una red hasta su destino es un ejemplo de Datos en tránsito.
+
+4. Rellene el espacio en blanco: Datos en uso cuando están siendo _____ por uno o varios usuarios
+- [x] accesible
+- [ ] Ignorado
+- [ ] Transportado
+- [ ] Clasificado
+> Datos en uso cuando uno o varios usuarios acceden a ellos.
