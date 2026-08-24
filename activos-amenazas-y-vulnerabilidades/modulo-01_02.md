@@ -117,3 +117,22 @@
    - Por ejemplo, una vulnerabilidad técnica puede ser un software mal configurado que podría dar a una persona no autorizada acceso a datos importantes.
    - Una vulnerabilidad humana puede ser un empleado olvidadizo que pierde su tarjeta de acceso en un aparcamiento.
    - Cualquiera de las dos puede conducir al Riesgo.
+
+---
+
+## Tri: La vida en la Seguridad de los Recursos
+- Llego a mi escritorio y abro el SIEM para ver ​qué tipo de Eventos emocionantes hay para que yo mire ​y qué amenazas podría haber ahí fuera para que yo las analice.
+- ​También trabajo en la mejora de nuestros análisis para la Detección de Amenazas Potenciales.
+- ​Así que mi pasión por la Seguridad se desarrolló a una edad temprana.
+- ​Fui víctima de un hackeo, lo creas o no.
+- Aprendí sobre la eliminación manual de software malicioso, ​y eso se convirtió en uno de mis temas favoritos.
+- ​También, por diversión, empecé a hacer algunas actividades de hacker de sombrero blanco ​contra algunos de mis amigos.
+- ​La Seguridad de los recursos es un campo muy importante, ​y hay muchas variedades de recursos que usted podría estar buscando para protegerse.
+- ​Mi parte favorita es crear las detecciones ​que realmente tienen el potencial de detectar comportamientos maliciosos.
+- ​En la seguridad de la Gestión de activos, tienes la capacidad ​de inventariar con precisión ​todos los recursos que incluyen IP, datos de usuarios, ​máquinas de empleados, y asegurarte de que tienes ​una postura de seguridad que está a la altura de lo que necesitas.
+- ​Siempre hay nueva tecnología que entra en escena, nuevo hardware, ​y somos responsables de entender qué nuevas amenazas potenciales hay ahí fuera.
+- ​La capacidad para resolver problemas y el pensamiento creativo ​son importantes en la ciberseguridad porque siempre hay problemas complejos, ​y la gente tiene que ser capaz de pensar de forma original, pensar de forma creativa, ​y pensar de forma holística cuando abordan ​sus soluciones para mitigar los riesgos.
+- ​La ciberseguridad es una ocupación noble. ​Pueden ocurrir muchas cosas.
+- ​Muchas cosas malas pueden ocurrir en Internet, ​pero podemos estar ahí para plantar cara ​y podemos estar ahí para hacer algo al respecto.
+- ​Podemos estar ahí para proteger a nuestros usuarios, o miembros de la familia, o amigos.
+- ​Esa responsabilidad es pesada. ​Pero también, por supuesto, es una misión muy importante. ​Y estoy orgulloso de formar parte del equipo de Seguridad. 
