@@ -359,3 +359,48 @@ INNER JOIN invoice_items ON invoices.invoiceid = invoice_items.invoiceid;
 - [ ] 449
 - [ ] 3
 > 2 es el valor de la columna trackid de la primera fila devuelta por esta consulta. Sustituyendo --??? por INNER JOIN invoice_items ON invoices.invoiceid = invoice_items.invoiceid;, puede completar la consulta y devolver este resultado.
+
+---
+
+## Aprendizaje continuo en SQL
+- Todavía hay más que puede hacer con SQL.
+- Esta lectura explorará un ejemplo de algo nuevo que puede añadir a su caja de herramientas SQL: las funciones de agregación.
+- A continuación, se centrará en cómo puede seguir aprendiendo sobre éste y otros temas de SQL por su cuenta.
+
+- Funciones de agregación
+   - En SQL, las funciones de agregación son funciones que realizan un cálculo sobre varios puntos de datos y devuelven el resultado del cálculo. Los datos reales no se devuelven.
+   - Existen varias funciones de agregación que realizan diferentes cálculos:
+      - COUNT devuelve un único número que representa el número de filas devueltas por la consulta.
+      - AVG devuelve un único número que representa la media de los datos numéricos de una columna.
+      - SUM devuelve un único número que representa la suma de los datos numéricos de una columna.
+
+- Sintaxis de la función de agregación
+   - Para utilizar una función de agregación, coloque la palabra clave correspondiente después de la palabra clave SELECT y, a continuación, entre paréntesis, indique la columna sobre la que desea realizar el cálculo.
+   - Por ejemplo, al trabajar con la tabla customers, puede utilizar funciones de agregación para resumir información importante sobre la tabla.
+   - Si desea averiguar cuántos clientes hay en total, puede utilizar la función COUNT en cualquier columna, y SQL le devolverá el número total de registros, excluyendo los valores de NULL.
+   - Puede ejecutar esta consulta y explorar su resultado:
+   ```sql
+   SELECT COUNT(firstname)
+   FROM customers;
+   ```
+   - El resultado es una tabla con una columna titulada COUNT(firstname) y una fila que indica el recuento. 
+   - Si desea encontrar el número de clientes de un país concreto, puede añadir un filtro a su consulta:
+   ```sql
+   SELECT COUNT(firstname)
+   FROM customers
+   WHERE country = 'USA';
+   ```
+   - Con este filtro, el recuento es menor porque sólo incluye los registros en los que la columna country contiene un valor de 'USA'.
+   - Existen muchas otras funciones de agregación en SQL.
+   - La sintaxis para colocarlas después de SELECT es exactamente la misma que la de la función COUNT.
+
+- Seguir aprendiendo SQL
+   - SQL es un lenguaje de consulta muy utilizado, con muchas más palabras clave y aplicaciones.
+   - Puede seguir aprendiendo más sobre las funciones de agregación y otros aspectos del uso de SQL por su cuenta.
+   - Y lo que es más importante, aborde las nuevas tareas con curiosidad y ganas de encontrar nuevas formas de aplicar SQL a su trabajo como analista de Seguridad.
+   - Identifique los resultados de los datos que necesita e intente utilizar SQL para obtenerlos.
+   - Afortunadamente, SQL es una de las herramientas más importantes para trabajar con bases de datos y analizar datos, por lo que encontrará mucha ayuda para intentar aprender SQL en línea.
+   - En primer lugar, intente buscar los conceptos que ya ha aprendido y practicado para encontrar recursos que tengan explicaciones precisas y fáciles de seguir.
+   - Cuando identifique estos Recursos, podrá utilizarlos para ampliar sus Conocimientos.
+   - Continuar su experiencia práctica con SQL también es importante.
+   - También puede buscar nuevas bases de datos que le permitan realizar consultas SQL utilizando lo que ha aprendido.
