@@ -170,3 +170,92 @@
 - [ ] LEFT JOIN
 - [x] FULL OUTER JOIN
 > FULL OUTER JOIN will return all records from both tables.
+
+---
+
+## Actividad: Completar un JOIN
+- Introducción
+   - En este laboratorio, utilizará INNER JOIN, LEFT JOIN y RIGHT JOIN en SQL para recuperar información de dos tablas diferentes.
+   - Utilizará estos diferentes tipos de uniones SQL para unir datos de tablas separadas de máquinas, empleados e intentos de inicio de sesión.
+   - Utilizará el shell de MariaDB para ejecutar consultas SQL.
+
+- Lo que hará
+   - Utilice un inner join para encontrar información sobre los empleados y sus máquinas
+   - Utilice una left join y una right join para encontrar información sobre los empleados y sus máquinas
+   - Utilice un inner join para encontrar información sobre los empleados y sus intentos de inicio de sesión
+
+- Resumen de actividad
+   - Como analista de seguridad, con frecuencia te darás cuenta de que necesitas datos de más de una tabla.
+   - Anteriormente, aprendiste que una base de datos relacional es una base de datos estructurada que contiene tablas relacionadas entre sí.
+   - Las uniones de SQL te permiten combinar tablas que tienen una columna en común.
+   - Esto es útil cuando debes conectar información que aparece en tablas diferentes.
+   - En este lab, usarás uniones de SQL para conectar tablas separadas y recuperar la información que necesites.
+
+- Situación
+   - En esta situación, investigarás un incidente de seguridad reciente que afectó a algunas máquinas.
+   - Tu objetivo es obtener de la base de datos la información necesaria para la investigación.
+   - Estos son los pasos que seguirás: 
+      1. Usarás una unión interna para identificar cuáles son las máquinas que usa cada empleado.
+      2. Usarás uniones derechas o izquierdas para identificar las máquinas que no pertenezcan a ningún usuario en particular, así como los usuarios que no tienen ninguna máquina específica asignada.
+      3. Usarás una unión interna para obtener una lista de todos los intentos de acceso que realizaron los empleados.
+
+- Comienza el lab
+1. Relaciona a los empleados con sus máquinas
+- Ejecuta la siguiente consulta para recuperar los registros de la tabla machines: `SELECT * FROM machines;`
+- Realiza la siguiente consulta para ejecutar la unión interna entre las tablas machines y employees según la columna device_id. Reemplaza la X y la Y con este nombre de columna: `SELECT * FROM machines INNER JOIN employees ON machines.X = employees.Y;`
+- How many rows did the inner join return?
+   - [x] 185
+   - [ ] 132
+   - [ ] 85
+   - [ ] 124
+
+2. Obtén más datos
+- Ejecuta la siguiente consulta en SQL para conectar las tablas machines y employees a través de una unión hacia la izquierda. Debes reemplazar la X con la palabra clave en la consulta: `SELECT * FROM machines X JOIN employees ON machines.device_id = employees.device_id;`
+- What is the value in the username column for the last record returned?
+   - [ ] cgriffin
+   - [ ] asundara
+   - [ ] areyes
+   - [x] NULL
+- Ejecuta la siguiente consulta en SQL para conectar las tablas machines y employees a través de una unión hacia la derecha. Debes reemplazar la X con la palabra clave en la consulta para resolver el problema: `SELECT * FROM machines X JOIN employees ON machines.device_id = employees.device_id;`
+- What is the value in the username column for the last record returned?
+   - [x] areyes
+   - [ ] cgriffin
+   - [ ] asundara
+   - [ ] NULL
+
+3. Recupera datos de intentos de acceso
+- Ejecuta la siguiente consulta en SQL para realizar una unión interna de las tablas employees y log_in_attempts. Reemplaza la X por el nombre de la tabla correcta: Luego, reemplaza la Y y la Z por el nombre de la columna que conecta las dos tablas: `SELECT * FROM employees INNER JOIN X ON Y = Z;`
+- How many records are returned by this inner join?
+   - [x] 200
+   - [ ] 175
+   - [ ] 210
+   - [ ] 145
+
+- Listado de queries utilizadas en el lab
+```sql
+-- PART 1
+SELECT * 
+FROM machines;
+
+SELECT * 
+FROM machines 
+INNER JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT COUNT(*) quantity 
+FROM machines 
+INNER JOIN employees ON machines.device_id = employees.device_id;
+
+-- PART 2
+SELECT * 
+FROM machines 
+LEFT JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT * 
+FROM machines
+RIGHT JOIN employees ON machines.device_id = employees.device_id;
+
+-- PART 3
+SELECT * 
+FROM employees 
+INNER JOIN log_in_attempts ON employees.username = log_in_attempts.username;
+```
