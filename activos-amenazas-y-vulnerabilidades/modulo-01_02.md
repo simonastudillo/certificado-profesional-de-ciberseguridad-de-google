@@ -19,3 +19,46 @@
 - ​Luego, consideraremos los desafíos de este mundo digital que cambia rápidamente.
 - ​Y, por último, comprenderá los componentes básicos de un plan de Seguridad: ​sus políticas, estándares y procedimientos.
 - ​Examinaremos el Marco de Ciberseguridad del NIST que las empresas utilizan para crear ​planes de seguridad que protejan a sus clientes y sus marcas.
+
+---
+
+## El qué, el por qué y el cómo de la Seguridad de los recursos
+- ​Los Equipos de Seguridad ayudan a las empresas centrándose en los riesgos.
+- ​En seguridad, un riesgo es cualquier cosa que pueda afectar a la confidencialidad, ​integridad o disponibilidad de un recurso.
+- ​Nuestro principal objetivo como profesionales de la seguridad es mantener ​la confidencialidad, integridad y disponibilidad, ​que son los tres componentes de la tríada CID.
+- ​El proceso de planificación de los riesgos de seguridad es el primer paso para proteger estas ​piedras angulares.
+- ​Cada organización tiene su propio plan de seguridad Único basado en el riesgo al que se enfrenta.
+- ​Afortunadamente, no es necesario estar familiarizado con todos los planes de seguridad posibles para ser ​un buen profesional de la seguridad.
+- ​Lo único que realmente necesita saber es lo básico sobre cómo se elaboran estos planes. 
+- ​Los planes de seguridad se basan en el análisis de tres elementos: recursos, ​amenazas y vulnerabilidades.
+- ​Las organizaciones miden el riesgo de seguridad analizando cómo cada uno de ellos puede tener un efecto sobre ​la confidencialidad, integridad y disponibilidad de su Información y ​sistemas.
+- ​Básicamente, cada uno de ellos representa el qué, el por qué y el cómo de la Seguridad.
+- ​Dediquemos un poco de tiempo a explorar cada uno de ellos con más detalle.
+- ​Como podrá imaginar, un recurso es un elemento percibido como poseedor de valor para ​una organización. 
+- ​Esto incluye a menudo una amplia gama de cosas.
+- Edificios, equipos, datos, ​y personas son ejemplos de activos que las empresas quieren proteger.
+- ​Examinemos esta idea más detenidamente analizando los activos de una casa.
+   - ​Dentro de una casa, hay una amplia gama de activos, como personas y ​pertenencias personales.
+   - ​La estructura exterior de una casa también está formada por activos, como las paredes, el tejado, ​las ventanas y las puertas.
+   - ​Todos estos recursos tienen valor, pero difieren en la forma de protegerlos.
+   - ​Alguien puede dar menos prioridad a proteger las paredes exteriores que ​la puerta principal, por ejemplo.
+   - ​Esto se debe a que es más probable que un ladrón entre por la puerta principal que ​por una pared.
+   - ​Por eso tenemos cerraduras.
+- ​Con tantos tipos de activos en los que pensar, ​los planes de seguridad necesitan priorizar los recursos.
+- ​Después de todo, no importa lo grande que sea un equipo de seguridad, ​sería imposible monitorizar todos y cada uno de los activos a todas las horas del día.
+- ​Los equipos de seguridad pueden priorizar sus esfuerzos basándose en las amenazas.
+- ​En seguridad, una amenaza es cualquier circunstancia o ​evento que pueda afectar negativamente a los activos.
+- ​Al igual que los activos, las amenazas incluyen una amplia gama de cosas.
+- ​Volviendo al ejemplo de una casa, ​una amenaza puede ser un ladrón que intenta acceder.
+- ​Los ladrones no son el único tipo de amenaza que afecta a la seguridad de las ventanas ​y las puertas.
+- ​¿Y si alguna de ellas se rompiera por accidente?
+- ​Los fuertes vientos pueden hacer que la puerta se abra durante una fuerte tormenta.
+- ​O bien, unos niños jugando con una pelota cerca pueden dañar accidentalmente una ventana.
+- ​Si alguno de estos pensamientos se le ha pasado por la cabeza, ¡buen trabajo!
+- ​Ya está demostrando una mentalidad de seguridad.
+- ​El último elemento de un plan de seguridad que vamos a cubrir son las vulnerabilidades.
+- ​En seguridad, una vulnerabilidad es una debilidad que puede ser explotada por una amenaza.
+- ​Una cerradura débil en una puerta principal, por ejemplo, ​es una vulnerabilidad que puede ser explotada por un ladrón.
+- ​Y la madera vieja y agrietada es una vulnerabilidad diferente en esa misma puerta principal que ​puede aumentar las posibilidades de daños por tormenta.
+- ​En otras palabras, piense en las vulnerabilidades como defectos dentro de un recurso.
+- ​Los recursos pueden tener muchos tipos diferentes de vulnerabilidades que son un blanco fácil ​para los atacantes.
