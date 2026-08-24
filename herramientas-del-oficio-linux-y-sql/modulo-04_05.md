@@ -42,3 +42,13 @@
    - Pudiste aplicar tus conocimientos de SQL para proponer soluciones prácticas en escenarios de seguridad, como la identificación de sistemas sin parches críticos y la auditoría de cambios en los sistemas.
 - Áreas de mejora:
    - Aunque tus respuestas fueron muy buenas, podrías profundizar un poco más en la sintaxis específica de SQL para cada escenario, lo que te permitiría tener un control aún mayor sobre las consultas.
+
+---
+
+## Resumen
+- Empezamos aprendiendo sobre ​la estructura de las bases de datos relacionales ​y cómo podemos acceder a ellas ​utilizando el lenguaje de consulta SQL.
+- ​Después practicamos ​con la escritura de nuestras propias consultas SQL.
+- ​Utilizamos SQL para obtener información que podría ​necesitar en el trabajo cuando trabaje como analista.
+- ​Después nos centramos en los filtros SQL.
+- ​Empezamos con condiciones sencillas con cadenas, ​y al final, aprendimos a utilizar ​múltiples filtros en una consulta.
+- ​Concluimos la unidad con SQL ​joins y aprendimos a unir múltiples tablas, ​dándonos aún más información de una vez.
