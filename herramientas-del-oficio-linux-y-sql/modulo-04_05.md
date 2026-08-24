@@ -67,3 +67,103 @@
 
 ## Glosario de términos del módulo 4
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Desafío del módulo 4
+
+1. Un analista de Seguridad consulta una tabla relacionada con los intentos de inicio de sesión. ¿Cómo puede ayudar SQL a este analista en su trabajo?
+- [ ] El analista recibirá una actualización en directo de los nuevos intentos de inicio de sesión.
+- [x] El analista puede encontrar eficazmente los datos de acceso que necesita.
+- [ ] SQL distribuirá automáticamente un informe sobre los intentos de inicio de sesión sospechosos.
+- [ ] SQL cambiará los permisos de autenticación para evitar inicios de sesión no autorizados.
+> Correcto
+
+2. Rellene el espacio en blanco: Una columna en la que cada fila tiene una entrada única y que se utiliza para identificar una tabla se denomina _____
+- [x] clave primaria
+- [ ] clave foránea
+- [ ] clave relacional
+- [ ] clave de la base de datos
+> Correcto
+
+3. ¿Cuál de estas sentencias SQL consulta la tabla log_in_attempts? Seleccione todas las que correspondan
+- [x] `SELECT * FROM log_in_attempts;`
+- [x] `SELECT event_id, username FROM log_in_attempts WHERE event_id < 150;`
+- [ ] `SELECT log_in_attempts FROM *;`
+- [ ] `SELECT log_in_attempts FROM event_id;`
+> Correcto
+
+4. Tanto una tabla employees como una tabla machines contienen una columna employee_id, y usted desea devolver sólo los registros que comparten un valor en esta columna. ¿Qué palabra clave debe formar parte de su consulta?
+- [ ] BETWEEN
+- [ ] FULL OUTER JOIN
+- [ ] WHERE
+- [x] INNER JOIN
+> Correcto
+
+5. ¿Qué indica WHERE department = 'Sales' en la siguiente consulta SQL? `SELECT * FROM employees WHERE department = 'Sales';`
+- [ ] Para cambiar todos los valores de la columna department a 'Sales'
+- [ ] Para resaltar la columna department en los resultados
+- [ ] Para devolver únicamente la columna department 
+- [x] Para devolver sólo las filas que coincidan con el filtro
+> Correcto
+
+6. ¿Qué consulta devuelve todos los registros que empiezan por el carácter 'a' de la columna name de la tabla employees?
+- [ ] `SELECT name FROM employees WHERE name LIKE ‘a’;`
+- [x] `SELECT name FROM employees WHERE name LIKE ‘a%’;`
+- [ ] `SELECT name FROM employees WHERE name = ‘a%’;`
+- [ ] `SELECT name FROM employees WHERE name LIKE ‘%a’;`
+> Correcto
+
+7. Necesita realizar un JOIN SQL. Desea devolver todas las columnas con registros que coincidan en la columna employee_id entre las tablas employees y machines. También desea devolver todos los registros de la tabla machines. ¿Cuál de las siguientes consultas utilizaría?
+- [x] `SELECT * FROM employees RIGHT JOIN machines ON employees.employee_id = machines.employee_id;`
+- [ ] `SELECT * FROM employees INNER JOIN machines ON employees.employee_id = machines.employee_id;`
+- [ ] `SELECT * FROM employees FULL OUTER JOIN machines ON employees.employee_id = machines.employee_id;`
+- [ ] `SELECT * FROM employees LEFT JOIN machines ON employees.employee_id = machines.employee_id;`
+> Correcto
+
+8. Está trabajando con la base de datos Chinook. Desea obtener las columnas employeeid y email de la tabla employees. Sustituya --??? por la información que falta para completar la consulta
+```sql
+--???
+FROM employees;
+```
+```sql
+SELECT employeeid, email
+```
+- ¿Cuál es el número de identificación del empleado con un correo electrónico de laura@chinookcorp.com?
+- [ ] 4
+- [x] 8
+- [ ] 6
+- [ ] 2
+> Correcto
+
+9. Usted está trabajando con la Base de datos Chinook y es responsable de filtrar los empleados con un birthdate que sea igual o posterior a '1973-01-01' (1 de enero de 1973). Sustituya --??? por la información que falta para completar la consulta
+```sql
+SELECT firstname,lastname, birthdate
+FROM employees
+--???
+```
+```sql
+WHERE birthdate >= '1973-01-01';
+```
+- ¿Cuántos empleados nacieron el 1 de enero de 1973 o después?
+- [x] 2
+- [ ] 4
+- [ ] 3
+- [ ] 1
+> Correcto
+
+10. Usted está trabajando con la base de datos Chinook y es responsable de filtrar los clientes que viven en el city de 'Mountain View' y trabajan para el company de 'Google Inc.' Reemplace --??? con la información que falta para completar la consulta
+```sql
+SELECT firstname, lastname, city, company
+FROM customers
+--???
+```
+```sql
+WHERE city = 'Mountain View' AND company = 'Google Inc.';
+```
+- ¿Cuántos Clientes viven en Mountain View y trabajan para Google Inc?
+- [ ] 2
+- [x] 1
+- [ ] 4
+- [ ] 3
+> Correcto
