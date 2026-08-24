@@ -43,3 +43,15 @@
    - Por último, explorará los tipos comunes de amenazas a la seguridad de los activos digitales.
    - También examinará las herramientas y técnicas utilizadas por los ciberdelincuentes para atacar los activos.
    - Además, se le introducirá en el proceso de Modelado de amenazas y aprenderá las formas en que los profesionales de la seguridad se adelantan a las brechas de seguridad.
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
