@@ -232,3 +232,35 @@
    - Por ejemplo, considere una carta que le llega por correo.
    - La carta contiene alguna información pública que está bien compartir, como su nombre.
    - También contiene datos bastante confidenciales que usted preferiría que sólo estuvieran disponibles para ciertas personas, como su dirección.
+
+---
+
+## Ponga a prueba sus Conocimientos: Introducción a los recursos
+
+1. ¿Qué es un Riesgo?
+- [ ] Una debilidad que puede ser explotada por una amenaza
+- [ ] La práctica de etiquetar los recursos en función de su sensibilidad e importancia para una organización
+- [x] Cualquier cosa que pueda afectar a la confidencialidad, integridad y disponibilidad de un recurso
+- [ ] Cualquier circunstancia o Evento que pueda impactar negativamente en los recursos
+> Un Riesgo es todo aquello que puede afectar a la confidencialidad, integridad y disponibilidad de un recurso.
+
+2. Un profesional de la seguridad descubre un punto de acceso no autorizado en el WiFi de su empresa que no está gestionado por el equipo de redes. El dispositivo deshonesto está alterando y borrando registros sensibles sin autorización. ¿Cuál es el dispositivo pícaro en este escenario?
+- [x] Amenaza
+- [ ] Riesgo
+- [ ] Recurso
+- [ ] Vulnerabilidad
+> El dispositivo fraudulento es una amenaza porque está afectando negativamente a los recursos de la empresa.
+
+3. Un Equipo de producto está almacenando datos de encuestas a clientes para un nuevo proyecto en una unidad de disco en la nube. Los datos sólo son accesibles para los miembros del equipo de producto mientras el proyecto está en desarrollo. ¿Cuál es el tipo de recurso de estos datos?
+- [x] Confidencial
+- [ ] Datos de clientes
+- [ ] Demostración interna
+- [ ] Público
+> Estos Datos son confidenciales. A los recursos confidenciales, como estos datos de la Encuesta a los clientes, sólo pueden acceder las personas que trabajan en un proyecto específico.
+
+4. ¿En qué consiste la práctica de etiquetar los recursos en función de su sensibilidad e importancia para una organización?
+- [ ] Inventario de activos
+- [ ] Restricción de recursos
+- [x] Clasificación de activos
+- [ ] Gestión de activos
+> Clasificación de activos es la práctica de etiquetar los recursos en función de su sensibilidad e importancia para una organización.
