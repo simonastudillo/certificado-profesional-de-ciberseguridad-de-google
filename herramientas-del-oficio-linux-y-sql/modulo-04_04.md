@@ -313,3 +313,8 @@ INNER JOIN log_in_attempts ON employees.username = log_in_attempts.username;
       - INNER JOIN,
       - LEFT JOIN,
       - RIGHT JOIN.
+
+---
+
+## Ejemplo opcional: Completar un JOIN
+- Mismo laboratorio que el anterior.
