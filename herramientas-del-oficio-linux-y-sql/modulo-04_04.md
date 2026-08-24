@@ -134,3 +134,39 @@
    - De forma similar a INNER JOIN, el orden de las tablas no cambia los resultados de la consulta.
 
 <img src="./resources/image-10.png" alt="Diagrama de Venn con dos círculos denominados 'mesa izquierda' y 'mesa derecha'. Ambos círculos están resaltados." width="600"/>
+
+---
+
+## Identifique: Elija el tipo de join adecuado
+- You’re working with two tables: one contains details on login attempts, and the other contains details on remote employees. These tables can be joined on the username column.
+<img src="./resources/image-11.png" alt="Tablas ejercicios" width="300"/>
+
+- Which join type is appropriate?
+
+1. You only need to view the login attempts made by remote employees, so you want to return only the records that match on the username column.
+- [x] INNER JOIN
+- [ ] RIGHT JOIN
+- [ ] LEFT JOIN
+- [ ] FULL OUTER JOIN
+> INNER JOIN will return only the records that match on username.
+
+2. You need to examine how often remote employees log in compared to other employees. Therefore, you want to return all records from the log_in_attempts table but only the records that match on the username column from the employees_remote table.
+- [ ] INNER JOIN
+- [ ] RIGHT JOIN
+- [x] LEFT JOIN
+- [ ] FULL OUTER JOIN
+> LEFT JOIN will return all records that match on username and all records from the left table (log_in_attempts).
+
+3. You need to check employee engagement for remote workers. This means you want to return all records from the employees_remote table and only the records that match on the username column from the log_in_attempts table.
+- [ ] INNER JOIN
+- [x] RIGHT JOIN
+- [ ] LEFT JOIN
+- [ ] FULL OUTER JOIN
+> RIGHT JOIN will return records that match on username and all records from the right table (employees_remote).
+
+4. You need a complete picture of login attempts. You also need to know full details about all remote employees. This means you want to return all records from both tables.
+- [ ] INNER JOIN
+- [ ] RIGHT JOIN
+- [ ] LEFT JOIN
+- [x] FULL OUTER JOIN
+> FULL OUTER JOIN will return all records from both tables.
