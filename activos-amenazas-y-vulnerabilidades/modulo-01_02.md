@@ -264,3 +264,101 @@
 - [x] Clasificación de activos
 - [ ] Gestión de activos
 > Clasificación de activos es la práctica de etiquetar los recursos en función de su sensibilidad e importancia para una organización.
+
+---
+
+## Actividad: Clasificar los recursos conectados a una red doméstica
+- Resumen de la actividad
+   - En esta actividad, clasificará los activos conectados a la red de una oficina doméstica.
+   - La gestión de activos es una parte fundamental del plan de seguridad de toda organización.
+   - Recuerde que la gestión de activos es el proceso de seguimiento de los activos y de los riesgos que les afectan.
+   - Una gestión de activos eficaz comienza con la creación de un inventario de activos, o un catálogo de activos que deben protegerse.
+   - Después, implica clasificar los activos en función de su nivel de importancia y sensibilidad al riesgo.
+   
+- Escenario
+   - Revise el siguiente escenario.
+   - Después, complete las instrucciones paso a paso.
+   - Uno de los activos más valiosos del mundo actual es la información.
+   - A la mayor parte de la información se accede a través de una red.
+   - Suele haber una gran variedad de dispositivos conectados a una red y cada uno de ellos es un punto de entrada potencial a otros activos.
+   - Un inventario de los dispositivos de red puede ser una herramienta útil de gestión de activos.
+   - Un inventario puede poner de relieve los activos sensibles que requieren una protección adicional.
+   - Usted dirige una pequeña empresa desde su casa y debe crear un inventario de sus dispositivos de red.
+   - Esto le ayudará a determinar cuáles contienen información sensible que requiere una protección extra.
+   - Para ello, empezará por identificar tres dispositivos que tengan acceso a su red doméstica.
+   - Esto podría incluir dispositivos como:
+      - Ordenadores de sobremesa o portátiles
+      - Teléfonos inteligentes
+      - Dispositivos domésticos inteligentes
+      - Consolas de videojuegos
+      - Dispositivos de almacenamiento o servidores
+      - Dispositivos de transmisión de vídeo
+   - A continuación, enumerará las características importantes de cada dispositivo, como su propietario, ubicación y tipo.
+   - Por último, asignará a cada dispositivo un nivel de sensibilidad en función de lo importante que sea protegerlo.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Inventario de bienes del hogar](./resources/Home-asset-inventory.xlsx)
+
+2. Identificar los recursos
+- En la hoja de cálculo del Inventario de activos, busque la cabecera de la columna Activos.
+- Piense en los dispositivos que pueden estar conectados a la red doméstica.
+- Examine los dispositivos en el gráfico del escenario para ayudarle en la lluvia de ideas.
+- Elija tres dispositivos que no figuren ya en la hoja de cálculo y añádalos a las filas vacías de la columna Activos.
+- Ya se han añadido algunos dispositivos, como un router de red, un escritorio y un teléfono inteligente para invitados, para su referencia.
+
+3. Rellene las características de cada activo
+- Enumere las características importantes, incluido el acceso a la red, el propietario y la ubicación de cada activo que haya identificado.
+- He aquí una explicación de cada característica:
+   - Acceso a la red describe la frecuencia con la que el dispositivo se conecta a la red.
+   - Propietario describe a la persona responsable del dispositivo.
+   - Ubicación describe dónde se encuentra el dispositivo en relación con el enrutador.
+
+4. Evalúe el acceso de los dispositivos de red
+- Revise la información que ha anotado en las columnas Acceso a la red, Propietario y Ubicación.
+- En la columna Notas, anote 1 ó 2 detalles o características de cada dispositivo.
+- Para ello, hágase preguntas sobre cada uno:
+   - ¿Qué tipo de información se almacena en el dispositivo?
+   - ¿Cómo se conecta a la red?
+   - ¿Es cuidadoso el propietario a la hora de protegerlo?
+   - Por ejemplo, el ordenador de sobremesa contiene información sensible, como fotos, a la que sólo el propietario debe tener acceso.
+   - Por el contrario, el router de la red utiliza una frecuencia para los dispositivos domésticos inteligentes y otra para el resto de dispositivos.
+   - Tenga en cuenta que puede haber alguna variación dentro de cada categoría.
+   - Intente identificar los detalles que podrían afectar a la confidencialidad, integridad o disponibilidad de la información que está conectada a la red.
+
+5. Clasifique la sensibilidad de los dispositivos de red
+- Es hora de clasificar los recursos basándose en la información que ha recopilado.
+- Para ello, piense en el impacto que podría tener un recurso en su empresa si su Seguridad se viera comprometida:
+   - ¿Qué tipo de Información sería revelada o robada?
+   - ¿Podría un atacante alterar la Información del dispositivo?
+   - ¿Qué le ocurriría a la empresa si se destruyera esta información?
+- Por ejemplo, el router de la red está clasificado como confidencial porque el propietario ha concedido un acceso limitado al dispositivo a usuarios específicos.
+- Busque la columna Sensibilidad en el Inventario de activos.
+- Escriba uno de los cuatro niveles de sensibilidad que aprendió previamente.
+- Puede utilizar la tabla Categorías como guía para elegir una clasificación adecuada.
+
+- Qué incluir en su respuesta
+   - Lista de los 3 dispositivos de la red doméstica
+   - Enumere el acceso a la red, el propietario y la ubicación de cada dispositivo
+   - 1-2 notas sobre el acceso a la red
+   - Una clasificación de sensibilidad
+
+- Home asset inventory
+
+| Categoría | Designación de acceso |
+| --- | --- |
+| Restringido | Información escencial |
+| Confidencial | Limitado a usuarios específicos |
+| Sólo interno | Usuarios en las instalaciones |
+| Público | Accesible para todos |
+
+
+| Asset | Network access | Owner | Location | Notes | Sensitivity |
+|-------|----------------|-------|----------|-------|-------------|
+| Network router | Continua | Internet service provider (ISP) | En las instalaciones |  Dispone de conexión a 2,4 GHz y 5 GHz. Todos los dispositivos de la red doméstica se conectan a la frecuencia de 5 GHz. | Confidencial |
+| Desktop computer | Ocasional | Usuario | En las instalaciones | Contiene información privada cómo fotos | Restringido |
+| Guest smartphone | Ocasional | Amigo | Dentro y fuera de las instalaciones |  Conectado a mi red doméstica | Solo interno |
+| Dispositivos de almacenamiento | Ocasional | Usuario | En las instalaciones | Contiene información sensible de la empresa y del usuario | Restringido |
+| Consolas de videojuegos | Ocasional | Usuario | En las instalaciones | Contiene información de juegos y datos de usuario | Solo interno |
+| WebCam | Ocasional | Usuario | En las instalaciones | Permite la transmisión de vídeo en tiempo real y puede ser un punto de entrada para los atacantes | Confidencial |
