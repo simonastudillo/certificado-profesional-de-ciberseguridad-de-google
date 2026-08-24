@@ -318,3 +318,44 @@ INNER JOIN log_in_attempts ON employees.username = log_in_attempts.username;
 
 ## Ejemplo opcional: Completar un JOIN
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ponga a prueba sus Conocimientos: Uniones SQL
+
+1. ¿Qué tipos de join devuelven todas las filas de una sola de las tablas que se están uniendo? Seleccione todas las que correspondan
+- [ ] FULL OUTER JOIN
+- [x] LEFT JOIN
+- [x] RIGHT JOIN
+- [ ] INNER JOIN
+> LEFT JOIN y RIGHT JOIN devuelven todas las filas de sólo una de las tablas que se están uniendo. LEFT JOIN devuelve todos los registros de la primera tabla, pero sólo devuelve filas de la segunda tabla que coincidan en una columna especificada. RIGHT JOIN devuelve todos los registros de la segunda tabla, pero sólo devuelve filas de la primera tabla que coincidan en una columna especificada. 
+
+2. Está realizando un INNER JOIN en dos tablas en la columna employee_id. La tabla izquierda es employees, y la tabla derecha es machines. ¿Cuál de las siguientes consultas tiene la sintaxis correcta INNER JOIN?
+- [ ] `SELECT * FROM employees INNER JOIN ON employees.employee_id = machines.employee_id;`
+- [ ] `SELECT * FROM employees INNER JOIN machines WHERE employees.employee_id = machines.employee_id;`
+- [ ] `INNER JOIN machines ON employees.employee_id = machines.employee_id SELECT * FROM employees;`
+- [x] `SELECT * FROM employees INNER JOIN machines ON employees.employee_id = machines.employee_id;`
+> La siguiente consulta tiene la sintaxis correcta para INNER JOIN: SELECT * FROM employees INNER JOIN machines ON employees.employee_id = machines.employee_id; Especifica la tabla izquierda después de FROM, luego especifica la tabla derecha después de INNER JOIN, y a continuación utiliza la sintaxis correcta después de ON al indicar la columna sobre la que unirse.
+
+3. En la siguiente consulta, ¿qué join devuelve todos los registros de la tabla employees, pero sólo los registros que coinciden en employee_id de la tabla machines? `SELECT * FROM employees _____ machines ON employees.employee_id = machines.employee_id;`
+- [x]  LEFT JOIN
+- [ ] RIGHT JOIN
+- [ ] INNER JOIN
+- [ ] FULL OUTER JOIN
+> LEFT JOIN devuelve todos los registros de la tabla employees, pero sólo los registros que coinciden en employee_id de la tabla machines. Como se encuentra después de FROM, la tabla employees es la tabla de la izquierda.
+
+4. Como analista de Seguridad, usted es responsable de realizar un INNER JOIN en las tablas invoices y invoice_items de la base de datos Chinook. Estas tablas pueden conectarse a través de la columna invoiceid. Sustituya --??? por la información que falta para completar la consulta
+```sql
+SELECT customerid, trackid
+FROM invoices
+--???
+```
+```sql
+INNER JOIN invoice_items ON invoices.invoiceid = invoice_items.invoiceid;
+```
+- ¿Cuál es el valor de la columna trackid de la primera fila que devuelve esta consulta?
+- [ ] 1
+- [x] 2
+- [ ] 449
+- [ ] 3
+> 2 es el valor de la columna trackid de la primera fila devuelta por esta consulta. Sustituyendo --??? por INNER JOIN invoice_items ON invoices.invoiceid = invoice_items.invoiceid;, puede completar la consulta y devolver este resultado.
