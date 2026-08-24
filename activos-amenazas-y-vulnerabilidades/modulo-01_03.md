@@ -42,3 +42,43 @@
 - ​Recuerde que la protección de los datos ​depende de dónde estén los datos y de lo que estén haciendo.
 - El ​seguimiento de la información es parte del rompecabezas ​que las empresas resuelven al ​considerar su plan de Seguridad.
 - ​La comprensión de los tres estados de los datos ​permite a los equipos de Seguridad analizar ​el riesgo y determinar ​un plan de administración de recursos para diferentes situaciones. 
+
+---
+
+## Identificar: Estados de los Datos en el lugar de trabajo
+- Apply what you know about the different states of data to identify the data state in each workplace scenario.
+
+1. Following a security meeting, you open up a document and start writing a report detailing all the security vulnerabilities your team should address.
+- [x] Data in use
+- [ ] Data in transit
+- [ ] Data at rest 
+> Data in use is data being accessed by one or more users.
+
+2. You have a presentation to give at a work conference across the country. In your bag, you carry a USB stick containing your slideshow and documents. You don’t access this USB stick during your 4-hour flight.
+- [ ] Data in use
+- [ ] Data in transit
+- [x] Data at rest 
+> Data at rest is data not currently being accessed.
+
+3. You’ve written an email to a coworker requesting the status on a recent system update. You have just clicked send, and the email is being routed to their inbox.
+- [ ] Data in use
+- [x] Data in transit
+- [ ] Data at rest 
+> Data in transit is data traveling from one point to another.
+
+4. You are looking at system logs from your antivirus software for any unusual activity on your computer.
+- [x] Data in use
+- [ ] Data in transit
+- [ ] Data at rest 
+> Data in use is data being accessed by one or more users.
+
+5. You have just sent a text message to a coworker saying there is an urgent situation at work that requires their expertise and knowledge. It is being transmitted to their phone.
+- [ ] Data in use
+- [x] Data in transit
+- [ ] Data at rest 
+> Data in transit is data traveling from one point to another.
+
+- [ ] Data in use
+- [ ] Data in transit
+- [x] Data at rest 
+> Data at rest is data not currently being accessed.
