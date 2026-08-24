@@ -55,3 +55,20 @@
 - Construye tu identidad profesional
 - Conéctate con otros estudiantes
 - Actualiza tu perfil
+
+---
+
+## Da'Queshia Mi ruta de acceso a la ciberseguridad
+- ​Como nuevo analista de ciberseguridad, ​es importante poder comunicarse, recibir comentarios ​y sentirse incómodo, no con las personas que te rodean, ​sino con los problemas que intentas ​resolver, porque a veces es ​necesario que pienses de forma ​innovadora y que te desafíen.
+- ​Describiría mi trabajo como ​guardia de seguridad de Google ​porque trabajo en el equipo de seguridad de Gmail. ​Mi trabajo es proteger Gmail.
+- ​Algunas de esas amenazas son ​personas que te envían correos electrónicos incorrectos, ​que intentan obtener tus credenciales de usuario ​o hacer que hagas clic en un enlace de suplantación de identidad.
+- ​Cuando se trata de vulnerabilidades, ​algunas de ellas pueden ser algo ​así como entradas no desinfectadas, ​lo que puede generar problemas. 
+- ​Empiezo a investigar un poco y luego ​me gusta explorar un poco más el error.
+- Me gusta averiguar si esto puede romper esto, si ​también puede hacerlo ​y, si puede, ¿qué más puedo hacer con él?
+- ​Luego, a partir de ahí, ​busco una solución para asegurarme de arreglar ​ese agujero y cualquier otro ​agujero que podamos tener en nuestra seguridad.
+- ​Algunas de las cosas que aprendió en ​este curso son el modelado de amenazas, ​y eso es algo que uso todos los días.
+- ​Siempre que recibo un error, es parte de ​mi trabajo averiguar el árbol de ataque ​y qué tipo de vectores utilizamos ​para aprovechar las vulnerabilidades.
+- ​Nadie nace sabiéndolo todo.
+- ​Sé que suena muy cliché o muy obvio, ​pero me ayuda porque ayuda a ​poner en perspectiva el tiempo y el esfuerzo que todos tienen que dedicar para aprender algo nuevo.
+- ​Así que sé paciente contigo mismo.
+- ​No dejes que nadie te desanime de la ciberseguridad.
