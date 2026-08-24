@@ -136,3 +136,47 @@
 - ​Muchas cosas malas pueden ocurrir en Internet, ​pero podemos estar ahí para plantar cara ​y podemos estar ahí para hacer algo al respecto.
 - ​Podemos estar ahí para proteger a nuestros usuarios, o miembros de la familia, o amigos.
 - ​Esa responsabilidad es pesada. ​Pero también, por supuesto, es una misión muy importante. ​Y estoy orgulloso de formar parte del equipo de Seguridad. 
+
+---
+
+## La Seguridad comienza con la Clasificación de activos
+- Tómese unos segundos para pensar en el número de ​recursos importantes que tiene cerca.
+- ​Estoy pensando en mi teléfono, ​cartera y llaves, por ejemplo.
+- ​A continuación, imagine que acaba de unirse ​a un Equipo de Seguridad para un pequeño minorista en línea.
+- ​La empresa ha ido creciendo en los últimos años, ​añadiendo cada vez más clientes.
+- ​Como resultado, están ampliando su departamento de Seguridad ​para proteger el creciente número de recursos que tienen.
+- ​Digamos que cada uno de ustedes es responsable de 10 recursos.
+- ​¡Eso son muchos activos!
+- ​Incluso en este entorno de pequeña empresa, ​eso es una cantidad increíble de ​cosas que necesitan ser protegidas.
+- ​Una verdad fundamental de la Seguridad es que ​sólo puede proteger las cosas que contabiliza.
+- ​La gestión de activos es el proceso de ​realizar un seguimiento de los activos y de los riesgos que les afectan.
+- ​Todos los planes de seguridad giran en torno a la gestión de activos.
+- ​Recordemos que los activos incluyen ​cualquier artículo que se perciba como valioso para una organización.
+- ​Equipos, datos y propiedad intelectual son sólo unos ​del amplio abanico de ​activos que las empresas quieren proteger.
+- ​Una parte fundamental del plan de seguridad de ​toda organización ​es realizar un seguimiento de sus activos.
+- ​La gestión de activos empieza por tener un Inventario de activos, ​un catálogo de activos que necesitan ser protegidos.
+- ​Es una parte central ​de la protección de los activos de la organización.
+- ​Sin este registro, las organizaciones corren ​el riesgo de perder el rastro de todo lo que es importante para ellas.
+- ​Una buena manera de pensar en ​los inventarios de activos es como un pastor que protege a las ovejas.
+- ​Tener un recuento preciso del número de ​ovejas ayuda de muchas maneras.
+- ​Por ejemplo, será más fácil ​asignar recursos, como alimentos, para cuidarlas.
+- ​Otro beneficio del inventario de recursos ​podría ser que recibiría una alerta ​si uno de ellos desapareciera.
+- ​Una vez más, piense ​en los recursos importantes que tiene cerca.
+- ​Al igual que yo, probablemente sea capaz de ​clasificarlos según el nivel de importancia.
+- ​Yo clasificaría mi cartera por delante de mis zapatos, por ejemplo.
+- ​En seguridad, esta práctica se ​conoce como Clasificación de activos.
+- ​En general, la Clasificación de activos ​es la práctica de etiquetar ​los activos en función de la sensibilidad ​y la importancia para una organización.
+- Las organizaciones etiquetan los activos de forma diferente.
+- ​Muchas de ellas siguen un esquema básico de clasificación: ​públicos, sólo internos, ​confidenciales y restringidos.
+- ​Los activos públicos pueden compartirse con cualquiera.
+- ​Los activos sólo internos pueden compartirse con cualquier persona de ​la organización pero no deben compartirse fuera de ella.
+- ​Y los activos confidenciales sólo deben ser ​accesibles para quienes trabajan en un proyecto específico.
+- ​Los recursos clasificados como restringidos son ​típicamente muy sensibles y deben ser protegidos.
+- ​Los recursos con esta etiqueta se consideran de conocimiento necesario.
+- ​Entre los ejemplos se incluyen la propiedad intelectual ​y la información sanitaria o de pago.
+- ​Por ejemplo, un minorista en línea en crecimiento ​puede marcar los correos electrónicos internos sobre ​un nuevo producto como confidenciales porque quienes ​trabajan en el nuevo producto deben conocerlo.
+- ​También pueden etiquetar las puertas de ​sus oficinas con el cartel de restringido ​para mantener fuera a todo aquel que no ​tenga una razón específica para estar allí.
+- ​Estos son sólo un par de ejemplos cotidianos con los que ​puede estar familiarizado por su experiencia previa.
+- ​En su mayor parte, la clasificación determina si ​un activo puede ser revelado, alterado o destruido.
+- ​La gestión de activos es un proceso continuo, ​que ayuda a descubrir ​fallas de seguridad inesperadas para riesgos potenciales.
+- ​Mantener un registro de todo lo que es importante para ​una organización es una parte esencial de la planificación de la seguridad. 
