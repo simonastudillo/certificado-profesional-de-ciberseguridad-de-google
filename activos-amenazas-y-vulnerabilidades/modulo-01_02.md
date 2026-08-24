@@ -362,3 +362,9 @@
 | Dispositivos de almacenamiento | Ocasional | Usuario | En las instalaciones | Contiene información sensible de la empresa y del usuario | Restringido |
 | Consolas de videojuegos | Ocasional | Usuario | En las instalaciones | Contiene información de juegos y datos de usuario | Solo interno |
 | WebCam | Ocasional | Usuario | En las instalaciones | Permite la transmisión de vídeo en tiempo real y puede ser un punto de entrada para los atacantes | Confidencial |
+
+---
+
+## Ejemplar de actividad: Clasificar los recursos conectados a una red doméstica
+- Revisa el ejemplo de la actividad anterior
+- [Ejemplo de actividad: Clasificar los recursos conectados a una red doméstica](./resources/Exemplar---Home-asset-inventory.xlsx)
