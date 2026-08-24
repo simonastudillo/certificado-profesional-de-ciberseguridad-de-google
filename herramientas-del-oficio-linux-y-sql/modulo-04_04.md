@@ -259,3 +259,49 @@ SELECT *
 FROM employees 
 INNER JOIN log_in_attempts ON employees.username = log_in_attempts.username;
 ```
+
+---
+
+## Ejemplar: Completar un JOIN
+- Resumen de actividades
+   - Como analista de seguridad, a menudo necesitarás datos de más de una tabla.
+   - Anteriormente, aprendió que una base de datos relacional es una base de datos estructurada que contiene tablas relacionadas entre sí.
+   - Las uniones SQL le permiten combinar tablas que contienen una columna compartida. Esto resulta útil cuando se necesita conectar información que aparece en tablas diferentes.
+   - En esta actividad de laboratorio, utilizará las uniones SQL para conectar tablas separadas y recuperar la información necesaria.
+
+- Listado de queries de ejemplo para el lab
+```sql
+SELECT * 
+FROM machines;
+
+SELECT * 
+FROM machines 
+INNER JOIN employees ON machines.X = employees.Y;
+
+SELECT * 
+FROM machines 
+INNER JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT * 
+FROM machines 
+X JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT * 
+FROM machines 
+LEFT JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT * 
+FROM machines
+X JOIN employees ON machines.device_id = employees.device_id;
+
+SELECT * 
+FROM machines 
+RIGHT JOIN employees ON machines.device_id = employees.device_id;
+``` 
+
+- Conclusión
+   - Ha completado esta actividad y debería ser capaz de utilizar las uniones para combinar datos de varias tablas de una base de datos.
+   - Ahora tiene experiencia práctica en el uso de
+      - INNER JOIN,
+      - LEFT JOIN,
+      - RIGHT JOIN.
