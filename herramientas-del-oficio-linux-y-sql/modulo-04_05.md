@@ -52,3 +52,13 @@
 - ​Después nos centramos en los filtros SQL.
 - ​Empezamos con condiciones sencillas con cadenas, ​y al final, aprendimos a utilizar ​múltiples filtros en una consulta.
 - ​Concluimos la unidad con SQL ​joins y aprendimos a unir múltiples tablas, ​dándonos aún más información de una vez.
+
+---
+
+## Guía de referencia: SQL
+-  La guía de referencia se divide en cuatro categorías diferentes de palabras clave SQL para tareas relacionadas con la Seguridad:
+   - Consultar una Base de datos
+   - Aplicar filtros a las consultas SQL
+   - Unir tablas
+   - Realizar cálculos
+- [Guía de referencia SQL](./resources/Reference Guide SQL.pdf)
