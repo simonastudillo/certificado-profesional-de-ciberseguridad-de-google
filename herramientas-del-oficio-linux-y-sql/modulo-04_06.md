@@ -23,3 +23,12 @@
 
 ## Glosario del curso 4
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- Enhorabuena por completar el Curso 4 del Certificado de Ciberseguridad de Google: Tools of the Trade: ¡Linux y SQL!
+- En esta parte del programa, aprendiste:
+   - En primer lugar, aprendiste sobre sistemas operativos.
+   - Luego, te comunicaste con el sistema operativo Linux a través del shell Bash para completar tareas relacionadas con la seguridad.
+   - Por último, has realizado consultas SQL que han devuelto información para respaldar decisiones relacionadas con la seguridad.
