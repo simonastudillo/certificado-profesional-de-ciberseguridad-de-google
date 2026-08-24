@@ -18,3 +18,8 @@
 - ​Por último, vimos ​otra herramienta útil y utilizamos SQL para consultar bases de datos.
 - ​Después de este curso, ​espero que comprenda mejor ​cómo estos fundamentos de la informática ayudan ​a un analista de seguridad en su trabajo diario.
 - ​También espero que continúe su ruta de acceso con este Programa.
+
+---
+
+## Glosario del curso 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
