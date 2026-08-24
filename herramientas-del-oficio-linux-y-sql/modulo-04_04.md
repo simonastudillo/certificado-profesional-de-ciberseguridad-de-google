@@ -50,3 +50,31 @@
 - ​Revisemos el resultado. ​¡Perfecto! Ahora hemos unido dos tablas.
 - ​Los resultados de nuestra consulta muestran ​los registros que coinciden en la columna employee_id.
 - ​Note que estos registros ​contienen columnas de ambas tablas, ​pero sólo las que hemos ​indicado mediante nuestra sentencia SELECT.
+
+---
+
+## Tipos de uniones
+- En algunas situaciones, es posible que necesitemos ​todas las entradas de una o ambas tablas.
+- ​Aquí es donde necesitamos utilizar las uniones externas.
+- ​Existen tres tipos de uniones externas: LEFT JOIN, ​RIGHT JOIN y FULL OUTER JOIN.
+- Similar a las uniones internas, ​las uniones externas combinan dos tablas; ​sin embargo, no necesitan necesariamente ​una coincidencia entre columnas para devolver una fila.
+- ​Qué filas se devuelven depende del tipo de unión.
+- ​LEFT JOIN devuelve todos los registros de la primera tabla, ​pero sólo devuelve filas de ​la segunda tabla que coincidan en una columna especificada.
+- ​Al igual que hicimos en el vídeo anterior, vamos a ​examinar este tipo de unión ​observando sólo cuatro filas de ​dos tablas con un número reducido de columnas.
+- ​Employees es la tabla izquierda, o la primera tabla, ​y machines es la tabla derecha, o la segunda tabla.
+- ​Unámonos en employee_id.
+- ​Hay un valor coincidente en ​esta columna para dos de los cuatro registros.
+- ​Cuando ejecutamos la unión, ​SQL devuelve estas filas con el valor coincidente, ​todas las demás filas de ​la tabla izquierda y todas las columnas de ambas tablas.
+- ​Los registros de la tabla de empleados que ​no coincidían pero que se devolvieron mediante el LEFT ​JOIN contienen valores NULOS ​en columnas que procedían de la tabla de máquinas.
+- ​A continuación, hablemos de los RIGHT JOIN.
+- ​La RIGHT JOIN devuelve todos ​los registros de la segunda tabla ​pero sólo devuelve las filas de ​la primera tabla que coincidan en una columna especificada.
+- Con una RIGHT JOIN sobre el ejemplo anterior, ​el resultado completo devuelve las filas coincidentes de ambas, ​todas las filas de ​la segunda tabla y todas las columnas de ambas tablas.
+- ​Para los valores que no existen en ninguna de las tablas, ​nos quedamos con un valor NULO.
+- ​Por último, hablaremos de las uniones externas completas.
+- ​FULL OUTER JOIN devuelve todos los registros ​de ambas tablas.
+- Utilizando nuestro mismo ejemplo, ​un FULL OUTER JOIN devuelve todas las columnas de todas las tablas.
+- ​Si una fila no tiene un valor para ​una columna concreta, devuelve NULL.
+- ​Por ejemplo, la tabla máquinas ​no tiene ninguna fila con employee_id ​1190, por lo que los valores para esa fila y las ​columnas que proceden de la tabla máquinas es NULL.
+- ​Para implementar left joins, right joins, ​y full outer joins en SQL, se utiliza ​la misma estructura sintáctica que la de INNER JOIN ​pero se utilizan estas palabras clave: ​LEFT JOIN, RIGHT JOIN, ​y FULL OUTER JOIN.
+- ​Como analista de seguridad, ​no es necesario que se las sepa todas de memoria.
+- ​Una vez que entienda el tipo de unión que necesita, ​podrá buscar y encontrar rápidamente ​toda la información que necesita para ejecutar estas consultas.
