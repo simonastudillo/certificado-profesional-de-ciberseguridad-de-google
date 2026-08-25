@@ -193,3 +193,84 @@
          - es un tipo específico de PII que se rige por unas directrices de tratamiento más estrictas.
          - La S significa sensible, lo que significa que se trata de un tipo de información de identificación personal a la que sólo debe accederse en la medida en que sea necesario, como el número de una cuenta bancaria o las credenciales de inicio de sesión.
    - En general, es importante proteger todo tipo de información personal del uso y la divulgación no autorizados.
+
+---
+
+## Privacidad de la información: Regulaciones y Cumplimiento normativo
+- La seguridad y la privacidad tienen una estrecha relación.
+- Las organizaciones también tienen la responsabilidad de proteger la información que recopilan para que no se vea comprometida o se utilice indebidamente.
+- Como profesional de la seguridad, estará muy implicado en estos esfuerzos.
+
+- Seguridad de la información frente a privacidad de la información
+   - Seguridad y privacidad son dos términos que a menudo se utilizan indistintamente fuera de este ámbito.
+   - Aunque ambos conceptos están relacionados, representan funciones específicas:
+      - La privacidad de la información se refiere a la protección frente al acceso no autorizado y la distribución de datos.
+      - La seguridad de la información (InfoSec) se refiere a la práctica de mantener los datos en todos los estados alejados de usuarios no autorizados.
+   - La diferencia clave: La privacidad consiste en proporcionar a las personas el control sobre su información personal y cómo se comparte.
+   - La seguridad consiste en proteger las decisiones de las personas y mantener su información a salvo de posibles amenazas.
+- Por ejemplo, una empresa de venta al por menor puede querer recopilar determinados tipos de información personal sobre sus clientes con fines de marketing, como su edad, sexo y ubicación.
+- La forma en que se utilizará esta información privada debe comunicarse a los clientes antes de recopilarla.
+- Además, los clientes deben tener la opción de excluirse si deciden no compartir sus datos.
+- Una vez que la empresa obtiene el consentimiento para recopilar información personal, puede implantar controles de seguridad específicos para proteger esos datos privados del acceso, uso o revelación no autorizados.
+- La empresa también debe disponer de controles de seguridad para respetar la privacidad de todas las partes interesadas y de cualquiera que haya optado por no participar.
+- Tanto la privacidad como la seguridad son esenciales para mantener la confianza de los clientes y la reputación de la marca.
+
+- Por qué es importante la privacidad en la seguridad
+   - La privacidad y la protección de datos son temas que empezaron a recibir mucha atención a finales de la década de 1990.
+   - En aquella época, las empresas tecnológicas pasaron repentinamente de procesar los datos de las personas a almacenarlos y utilizarlos con fines comerciales.
+   - Por ejemplo, si un usuario buscaba un producto en Internet, las empresas empezaron a almacenar y compartir con otras empresas el acceso a la información sobre el historial de búsqueda de ese usuario.
+   - De este modo, las empresas podían ofrecer al usuario experiencias de compra personalizadas de forma gratuita.
+   - Con el tiempo, esta práctica dio lugar a un debate mundial sobre si estas organizaciones tenían derecho a recopilar y compartir los datos privados de alguien.
+   - Además, la cuestión de la seguridad de los datos se convirtió en una preocupación cada vez mayor; cuanto más datos recopilaban las organizaciones, más vulnerables eran a abusos, usos indebidos o robos.
+   - Muchas organizaciones empezaron a preocuparse más por la privacidad de los datos.
+   - Las empresas se volvieron más transparentes sobre cómo recopilaban, almacenaban y utilizaban la información.
+   - También empezaron a aplicar más medidas de seguridad para proteger la privacidad de los datos de las personas.
+   - Sin embargo, a falta de normas claras, la protección se aplicaba de forma incoherente.
+   - Cuantos más datos se recopilan, almacenan y utilizan, más vulnerables son a las violaciones y amenazas.
+
+- Normativa destacada sobre privacidad
+   - Las empresas están obligadas a cumplir ciertas leyes para poder operar.
+   - Como recordarás, los reglamentos son normas establecidas por un gobierno u otra autoridad para controlar la forma en que se hace algo.
+   - Las normativas de privacidad, en particular, existen para proteger al usuario de la recopilación, uso o divulgación de su información sin su consentimiento.
+   - Las normativas también pueden describir las medidas de seguridad que deben aplicarse para mantener la información privada alejada de las amenazas.
+   - Tres de las normativas más influyentes del sector que todo profesional de la seguridad debe conocer son:
+      - Reglamento General de Protección de Datos (GDPR)
+      - Norma de seguridad de datos del sector de las tarjetas de pago (PCI DSS)
+      - Ley de Portabilidad y Responsabilidad de los Seguros Médicos (HIPAA)
+
+- GDPR
+   - El GDPR es un conjunto de normas y reglamentos desarrollados por la Unión Europea (UE) que otorga a los propietarios de los datos el control total de su información personal.
+   - Según el GDPR, los tipos de información personal incluyen el nombre, la dirección, el número de teléfono, la información financiera y la información médica de una persona.
+   - El RGPD se aplica a cualquier empresa que maneje datos de ciudadanos o residentes de la UE, independientemente de dónde opere.
+   - Por ejemplo, una empresa con sede en EE.UU. que maneje datos de visitantes de la UE en su sitio web está sujeta a las disposiciones del RGPD.
+
+- PCI DSS
+   - PCI DSS es un conjunto de normas de seguridad formado por las principales organizaciones del sector financiero.
+   - El objetivo de esta normativa es proteger las transacciones con tarjetas de crédito y débito contra el robo de datos y el fraude.
+
+- HIPAA
+   - HIPAA es una ley estadounidense que exige la protección de la información sanitaria sensible de los pacientes.
+   - La HIPAA prohíbe la divulgación de la información médica de una persona sin su conocimiento y consentimiento.
+   - Esta normativa influye en el tratamiento de datos en muchas organizaciones de todo el mundo, aunque haya sido elaborada por países concretos.
+
+- Existen varias otras leyes de cumplimiento en materia de seguridad y privacidad.
+- Las que deba cumplir su organización dependerán del sector y del ámbito de autoridad.
+- Independientemente de las circunstancias, el cumplimiento de la normativa es importante para todas las empresas.
+
+- Evaluaciones y auditorías de seguridad
+   - Las empresas deben cumplir las normativas importantes de su sector.
+   - Al hacerlo, validan que han alcanzado un nivel mínimo de seguridad, al tiempo que demuestran su dedicación a mantener la privacidad de los datos.
+
+El cumplimiento de las normas suele ser un proceso continuo de auditorías y evaluaciones de seguridad:
+
+Una auditoría de seguridad es una revisión de los controles, políticas y procedimientos de seguridad de una organización con respecto a un conjunto de expectativas.
+
+Una evaluación de la seguridad es una comprobación para determinar el grado de resistencia de las actuales medidas de seguridad frente a las amenazas.
+
+Por ejemplo, si una normativa establece que la autenticación multifactor (MFA) debe estar habilitada para todas las cuentas de administrador, podría realizarse una auditoría para comprobar que esas cuentas de usuario cumplen la normativa. Después de la auditoría, el equipo interno podría realizar una evaluación de seguridad que determine que muchos usuarios utilizan contraseñas débiles. Basado en su evaluación, el equipo podría decidir habilitar MFA en todas las cuentas de usuario para mejorar su postura general de seguridad.
+
+Nota: El cumplimiento de las normativas legales, como el GDPR, puede determinarse durante las auditorías.
+
+Como analista de seguridad, es probable que participe en auditorías y evaluaciones de seguridad sobre el terreno. Las empresas suelen realizar auditorías de seguridad con menos frecuencia, aproximadamente una vez al año. Las auditorías de seguridad pueden ser realizadas tanto interna como externamente por diferentes grupos de terceros.
+
+Por el contrario, las evaluaciones de seguridad suelen realizarse con mayor frecuencia, aproximadamente cada tres o seis meses. Las evaluaciones de seguridad suelen ser realizadas por empleados internos, a menudo como preparación para una auditoría de seguridad. Ambas evaluaciones son formas increíblemente importantes de garantizar que sus sistemas protegen eficazmente la privacidad de todos.
