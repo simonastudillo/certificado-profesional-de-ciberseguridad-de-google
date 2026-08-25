@@ -41,3 +41,44 @@
 - ​Compartir procedimientos claros y procesables con todo el mundo crea responsabilidad, ​coherencia y eficacia en toda la organización.
 - ​Las políticas, Estándares y Procedimientos varían mucho de una empresa a ​otra porque se adaptan a los objetivos de cada organización.
 - ​Simplemente entender la estructura de los planes de seguridad es un gran comienzo.
+
+---
+
+## El marco de ciberseguridad del NIST
+- Tener un plan es solo una parte de la protección de los activos.
+- ​Una vez que el plan esté en acción, la otra parte es asegurarse de que todos lo sigan.
+- ​En Seguridad, a esto lo llamamos cumplimiento.
+- El ​cumplimiento normativo es el proceso de adhesión a las normas internas y ​externas.
+- ​Las pequeñas empresas y las grandes organizaciones de todo el mundo sitúan el cumplimiento de ​la Seguridad en la parte superior de su lista de prioridades.
+- ​A un alto nivel, mantener la confianza, la reputación, la seguridad y ​la integridad de sus datos son solo algunos de los motivos para preocuparse por el cumplimiento.
+- ​Las multas, las sanciones y las demandas son otras razones.
+- ​Esto es particularmente cierto para ​las empresas de industrias altamente reguladas, como la atención médica, la energía y las finanzas.
+- ​El incumplimiento de una regulación puede provocar ​efectos financieros y reputacionales duraderos que pueden afectar gravemente a una empresa.
+- ​Las regulaciones son reglas establecidas por un gobierno u ​otra autoridad para controlar la forma en que se hace algo.
+- ​Al igual que las políticas, existen regulaciones para proteger a las personas y ​su información, pero a mayor escala.
+- ​El cumplimiento normativo puede ser un proceso complejo debido a las numerosas regulaciones que ​existen en todo el mundo.
+- ​Para nuestro propósito, nos centraremos en un marco de cumplimiento de seguridad, el Marco de ​Ciberseguridad del NIST, con sede en EE. UU.
+- ​Al principio del programa, aprendió el Instituto Nacional de Estándares y ​Tecnología, o NIST.
+- ​Una de las funciones principales del NIST es proporcionar abiertamente a las empresas un conjunto de ​marcos y estándares de seguridad que reflejen las normas clave relacionadas con la seguridad.
+- ​El marco de ciberseguridad del NIST es un marco voluntario que consiste en ​estándares, directrices y mejores prácticas ​para gestionar el riesgo de ciberseguridad.
+- Comúnmente conocido como CSF, ​este framework se desarrolló para ayudar a las empresas a proteger uno de sus ​activos más importantes: la información.
+- ​El CSF consta de tres componentes principales: el núcleo, sus niveles y sus perfiles.
+- ​Exploremos cada uno de estos juntos ​para comprender mejor cómo se usa el CSF del NIST.
+- ​El núcleo es básicamente una versión simplificada de las funciones o ​deberes de un plan de Seguridad.
+- ​El núcleo del CSF identifica cinco funciones generales: ​identificar, proteger, detectar, responder y recuperar.
+- ​Piense en estas categorías del núcleo como una lista de verificación de Seguridad.
+- ​Después del núcleo, el siguiente componente del NIST del que hablaremos son sus niveles.
+- ​Esto proporciona a los equipos de Seguridad una forma de medir el ​rendimiento en cada una de las cinco funciones del núcleo.
+- ​Los niveles van desde el nivel 1 hasta el nivel 4.
+- El ​nivel 1, o pasivo, indica que una función está alcanzando los estándares mínimos.
+- El ​nivel 4, o ​adaptativo, es una indicación de que una función se está realizando según un estándar ejemplar.
+- ​Es posible que haya notado que los niveles de CSF no son una propuesta de sí o no ​, sino que hay un rango de valores.
+- Esto se ​debe a que los niveles están diseñados como una forma de mostrar a las organizaciones qué funciona y qué ​no funciona con sus planes de Seguridad.
+- ​Por último, los perfiles son el componente final del CSF.
+- ​Estos proporcionan estadísticas sobre el estado actual de un plan de Seguridad.
+- ​Una forma de pensar en los perfiles es como las fotos que capturan un momento en el tiempo.
+- La ​comparación de fotos del mismo sujeto tomadas en diferentes momentos ​puede proporcionar información útil.
+- ​Por ejemplo, sin estas fotos, es posible que no te des cuenta de cómo ha cambiado este árbol.
+- ​Lo mismo ocurre con los perfiles del NIST.
+- Las ​buenas prácticas de Seguridad van más allá de evitar multas y ataques. 
+- Demuestra que te importan las personas y su información. 
