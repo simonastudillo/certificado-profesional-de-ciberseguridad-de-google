@@ -308,3 +308,9 @@
 - La fuga de registros financieros tiene una probabilidad moderada de ocurrir, ya que los servidores de respaldo pueden ser mal configurados o expuestos accidentalmente. Si esto ocurriera, podría resultar en la divulgación de información sensible y afectar la confianza de los clientes, lo que justificaría una puntuación de gravedad alta.
 - El robo tiene una baja probabilidad de ocurrir, ya que el banco tiene medidas de seguridad física y procedimientos de control de acceso, adicionalmente, el banco está ubicado en una zona con bajos índices de delincuencia. Sin embargo, si ocurriera un robo, podría tener un impacto moderado en la seguridad de los fondos del banco, lo que justificaría una puntuación de gravedad moderada.
 - La interrupción de la cadena de suministro tiene una baja probabilidad de ocurrir, ya que los desastres naturales son eventos poco frecuentes. Sin embargo, si ocurriera una interrupción, podría afectar la capacidad del banco para reponer sus fondos y cumplir con los requisitos de la Reserva Federal, lo que justificaría una puntuación de gravedad alta.
+
+---
+
+## Actividad Ejemplar: Puntuar los riesgos en función de su probabilidad y gravedad
+- Ejemplar completado
+- [Registro de riesgos completado](./resources/Risk-register-exemplar.docx)
