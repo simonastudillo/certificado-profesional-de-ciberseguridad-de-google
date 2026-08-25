@@ -297,3 +297,86 @@
 - ​Tienen que poder confiar en la infraestructura, ​los sistemas, los sitios web y los dispositivos.
 - ​Tienen que poder confiar en ​la experiencia que están teniendo.
 - ​Para mí, esa es la misión: ayudar a ​mantener a miles de millones de personas seguras en línea todos los días. 
+
+---
+
+## Actividad: Determinar las prácticas adecuadas de tratamiento de Datos
+- Resumen de la actividad
+   - En esta actividad, revisará los resultados de una evaluación del riesgo de los datos.
+   - Determinará si se están aplicando procesos eficaces de tratamiento de datos para proteger la privacidad de la información.
+   - Los datos se encuentran entre los activos más valiosos del mundo actual.
+   - Todo, desde la propiedad intelectual hasta las redes WiFi para invitados, debe protegerse con una combinación de controles técnicos, operativos y de gestión.
+   - La aplicación del principio del mínimo privilegio es esencial para proteger la privacidad de la información.
+   
+- Escenario
+   - Revise el siguiente escenario.
+   - A continuación, complete las instrucciones paso a paso.
+   - Usted trabaja para una empresa de tecnología educativa que ha desarrollado una aplicación para ayudar a los profesores a calificar automáticamente las tareas.
+   - La aplicación maneja una amplia gama de datos que recopila de instituciones académicas, instructores, padres y estudiantes.
+   - Su equipo fue alertado de una filtración de datos de planes internos de la empresa en las redes sociales.
+   - Una investigación del equipo descubrió que un empleado compartió accidentalmente esos documentos confidenciales con un socio comercial externo.
+   - Se está llevando a cabo una auditoría sobre la filtración para determinar cómo pueden evitarse incidentes similares.
+   - Un supervisor le proporcionó información sobre la filtración.
+   - Al parecer, los empleados de la empresa no respetaron el principio del menor privilegio durante una reunión de ventas.
+   - Se le ha pedido que analice la situación y encuentre la forma de evitar que vuelva a ocurrir.
+   - En primer lugar, tendrá que evaluar los detalles del incidente.
+   - Después, revisará los controles establecidos para evitar las filtraciones de datos.
+   - A continuación, identificará formas de mejorar la privacidad de la información en la empresa.
+   - Por último, justificará por qué cree que sus recomendaciones harán que el manejo de datos en la empresa sea más seguro.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Hoja de trabajo de fuga de datos](./resources/Activity-Template_-Data-leak-worksheet.docx)
+
+2. Analizar la situación
+- El principio del menor privilegio es un control de seguridad fundamental que ayuda a mantener la privacidad de la información.
+- Sin embargo, el menor privilegio empieza a perder su eficacia cuando se da acceso a la información a demasiados usuarios.
+- Las fugas de datos suelen producirse cuando la información pasa de unas personas a otras sin supervisión.
+- Para comenzar su análisis, revise el siguiente resumen del incidente proporcionado por su supervisor:
+   - Un representante de éxito de clientes recibió acceso a una carpeta de documentos internos de un gerente.
+   - Contenía archivos asociados a una nueva oferta de productos, incluidos análisis de clientes y materiales de marketing.
+   - El gerente olvidó anular el acceso a la carpeta.
+   - Más tarde, el representante copió un enlace a los materiales de marketing para compartirlo con un socio comercial durante una llamada de ventas.
+   - En su lugar, el representante compartió un enlace a toda la carpeta.
+   - Durante la llamada de ventas, el socio comercial recibió el enlace a los documentos internos y lo publicó en su página de las redes sociales.
+- Después de revisar el resumen, escriba de 20 a 60 palabras (de 2 a 3 frases) en la fila Problema(s) de la hoja de trabajo Fuga de datos describiendo los factores que condujeron a la fuga de datos.
+
+3. Revisar los controles actuales de privacidad de los datos
+- Las fugas de datos son un riesgo importante debido a la cantidad de datos que maneja la aplicación.
+- La empresa utilizó el Marco de Ciberseguridad (CSF) del NIST para desarrollar su plan para abordar sus preocupaciones sobre la privacidad de la información.
+- Revise el recurso Instantánea del plan de seguridad de la hoja de trabajo.
+- A continuación, revise el recurso NIST SP 800-53: AC-6 de la hoja de trabajo.
+- Después, escriba 20-60 palabras (2-3 frases ) en la fila Revisión de la hoja de trabajo Fuga de datos para resumir lo que ha aprendido sobre NIST SP 800-53: AC-6.
+
+4. Identificar las mejoras del control
+- La aplicación del mínimo privilegio por parte de la empresa se basa en la Publicación Especial 800-53 (SP 800-53) del NIST.
+- El NIST desarrolló la SP 800-53 para proporcionar a las empresas un plan de privacidad de la información personalizable.
+- Se trata de un recurso exhaustivo que describe una amplia gama de categorías de control, incluido el mínimo privilegio.
+- Utilice el recurso NIST SP 800-53: AC-6 para determinar dos mejoras de control que podrían haber evitado la fuga de datos.
+- Enumere las dos mejoras en la fila Recomendación(es) de la hoja de trabajo.
+
+5. Justifique sus recomendaciones
+- Al final de su análisis, es el momento de comunicar sus conclusiones a su supervisor.
+- Es importante que justifique sus recomendaciones para que el supervisor pueda transmitir esta información a otros responsables de la empresa.
+- Considere las cuestiones que ha identificado anteriormente.
+- A continuación, escriba de 20 a 60 palabras (de 2 a 3 frases ) en la fila Justificación describiendo por qué cree que las mejoras de control que recomienda reducirán la probabilidad de que se produzca otra fuga de datos.
+
+- Qué incluir en su respuesta
+   - 2-3 frases analizando los factores que condujeron al incidente
+   - 2-3 frases resumiendo el NIST SP 800-53: AC-6
+   - 2 recomendaciones de mejora del control para mejorar el mínimo privilegio
+   - 2-3 frases que justifiquen sus recomendaciones
+
+- Data leak worksheet
+
+1. Issues: El problema se origina cuando el gerente entrega acceso a documentos internos a un representante de éxito de clientes sin supervisión. La falta de revocación a tiempo del acceso aumenta la superficie de exposición, permitiendo que el representante comparta información sensible con un socio comercial o permita que otro usuario no autorizado acceda a ella. El segundo factor es que la información salió de la empresa sin un control adecuado, no se debería poder acceder a recursos internos sin una validación de credenciales y autorización.
+
+2. Review: NIST SP 800-53: AC-6 establece que el principio de privilegio mínimo debe aplicarse a todos los usuarios y sistemas. Esto significa que los usuarios solo deben tener acceso a la información necesaria para realizar sus funciones laborales, y cualquier acceso adicional debe ser aprobado y monitoreado, adicionalmente se debe de revocar el acceso tan pronto como ya no sea necesario.
+
+3. Recommendations:
+   - Implementar un sistema de gestión de acceso que permita revocar automáticamente los permisos de acceso a documentos internos cuando un empleado ya no los necesite, asegurando que solo los usuarios autorizados puedan acceder a información sensible.
+   - Establecer políticas de capacitación y concienciación para todos los empleados sobre la importancia del principio de privilegio mínimo y las consecuencias de compartir información confidencial sin autorización.
+   - Establecer un proceso de auditoría regular para revisar los permisos de acceso y garantizar que se cumpla el principio de privilegio mínimo, identificando y corrigiendo cualquier acceso indebido o innecesario.
+
+4. Justification: Estas mejoras de control reducirán la probabilidad de futuras fugas de datos al garantizar que solo los usuarios autorizados tengan acceso a información sensible y que se les recuerde constantemente la importancia de mantener la privacidad de los datos. La capacitación y concienciación fomentarán una cultura de seguridad dentro de la empresa, minimizando el riesgo de errores humanos. Las auditorías permitirán detectar conflictos de acceso y corregirlos antes de que se conviertan en incidentes de seguridad.
