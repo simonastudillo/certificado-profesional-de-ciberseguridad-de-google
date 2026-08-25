@@ -274,3 +274,26 @@
 - Por el contrario, las evaluaciones de seguridad suelen realizarse con mayor frecuencia, aproximadamente cada tres o seis meses.
 - Las evaluaciones de seguridad suelen ser realizadas por empleados internos, a menudo como preparación para una auditoría de seguridad.
 - Ambas evaluaciones son formas increíblemente importantes de garantizar que sus sistemas protegen eficazmente la privacidad de todos.
+
+---
+
+## Heather: La importancia de proteger la PII
+- ​​La PII está en todas partes.
+- ​Es una parte fundamental de la forma en ​que todos trabajamos en línea todo el tiempo.
+- ​Si utilizas recursos en línea, ​es probable que publiques tu PII en alguna parte.
+- ​Hay parte de su PII que mucha gente conoce, ​como su nombre.
+- ​Además, hay datos confidenciales que ​no quieres que mucha gente conozca, ​como tu número de cuenta bancaria ​o tu información médica privada.
+- Por eso, hacemos estas distinciones con frecuencia ​porque este tipo de ​información debe manejarse de manera diferente.
+- ​Todo lo que hacemos ahora, ​desde la escuela hasta la votación y el ​registro de nuestro automóvil, sucede en línea.
+- ​Por eso, es muy importante que tengamos la seguridad ​integrada de forma predeterminada en todos ​nuestros sistemas.
+- He aquí algunos consejos.
+- ​Siempre debes cifrar los datos tanto como ​puedas cuando estén almacenados en reposo.
+- ​Y en segundo lugar, cuando se transmite por Internet, ​siempre queremos cifrarlo mediante TLS o SSL.
+- ​En tercer lugar, dentro de su empresa, ​debe ​pensar con mucha claridad quién tiene acceso a esos datos.
+- ​No debería ser casi nadie si es muy sensible.
+- ​Y en los raros casos en los ​que alguien necesite acceder a esos datos, ​debe haber un registro de ese acceso, ​quién accedió a ellos y una justificación de por qué.
+- ​Y debe tener un programa para revisar ​los registros de auditoría de esos datos.
+- ​Lo más importante que debes recordar es que si te encuentras en ​una situación en la que tu PII se ha visto comprometida, ​recuerda que se trata de información personal de alguien y ​tu respuesta debe basarse en esa realidad.
+- ​Tienen que poder confiar en la infraestructura, ​los sistemas, los sitios web y los dispositivos.
+- ​Tienen que poder confiar en ​la experiencia que están teniendo.
+- ​Para mí, esa es la misión: ayudar a ​mantener a miles de millones de personas seguras en línea todos los días. 
