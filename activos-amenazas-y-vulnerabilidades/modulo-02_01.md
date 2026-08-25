@@ -380,3 +380,20 @@
    - Establecer un proceso de auditoría regular para revisar los permisos de acceso y garantizar que se cumpla el principio de privilegio mínimo, identificando y corrigiendo cualquier acceso indebido o innecesario.
 
 4. Justification: Estas mejoras de control reducirán la probabilidad de futuras fugas de datos al garantizar que solo los usuarios autorizados tengan acceso a información sensible y que se les recuerde constantemente la importancia de mantener la privacidad de los datos. La capacitación y concienciación fomentarán una cultura de seguridad dentro de la empresa, minimizando el riesgo de errores humanos. Las auditorías permitirán detectar conflictos de acceso y corregirlos antes de que se conviertan en incidentes de seguridad.
+
+---
+
+## Ejemplar de actividad: Determinar las prácticas adecuadas de tratamiento de datos
+- [Hoja de trabajo de fuga de datos](./resources/Activity-Exemplar_-Data-leak-worksheet.docx)
+
+- Evaluación del ejemplar
+
+- Problemas: Muchas personas descuidaron la confidencialidad de la información. El gerente debería haber hecho un mejor trabajo de seguimiento de la carpeta interna limitando el acceso al representante y a sí mismo. También podría haber hecho un mejor trabajo comunicando sus planes de compartir la información de marketing antes de publicarla en las Redes sociales.
+
+- Revisar: NIST SP 800-53 es un recurso diseñado para ayudar a las organizaciones a abordar los riesgos de la privacidad de los datos. El documento define los Controles de seguridad, describe las estrategias de Implementación y sugiere mejoras de control individuales. CA-6 es una sección sobre Controles de acceso que se relacionan con el principio de privilegio mínimo.
+
+- Recomendaciones: Basándose en la sugerencia de NIST SP 800-53: CA-6, la fuga de Datos podría haberse evitado con los siguientes controles:
+   - Revocar automáticamente el acceso a la Información tras un periodo de tiempo.
+   - Auditar periódicamente los privilegios de los usuarios.
+
+- Justificación: Automatizar las tareas de Seguridad siempre que sea posible es una buena forma de reducir las posibilidades de error humano. En este caso, la creación de una política que establezca fechas de caducidad para los enlaces de acceso podría haber evitado la filtración. Exigir a los gestores que auditen regularmente quién puede acceder a sus archivos es otra forma de mantener la privacidad de la información.
