@@ -149,3 +149,35 @@
    - Su diseño está influenciado por las normas y las mejores prácticas de algunas de las empresas más grandes del mundo.
    - Un beneficio del marco es que se alinea con las prácticas de seguridad de muchas organizaciones en toda la economía global.
    - También ayuda con el cumplimiento normativo que podrían compartir los socios comerciales.
+
+---
+
+## Ponga a prueba sus Conocimientos: Riesgo y Seguridad de los recursos
+
+1. ¿Qué tipos de riesgos abordan los planes de Seguridad? Seleccione tres respuestas.
+- [x] Daños a los recursos
+- [x] Pérdida de información
+- [x] Divulgación de datos
+- [ ] Cambio de las condiciones del mercado
+>Los planes de Seguridad abordan riesgos como los daños a los recursos, la pérdida de información y la divulgación de datos.
+
+2. ¿Cuáles son los elementos básicos de un plan de seguridad? Seleccione tres respuestas
+- [x] Procedimientos
+- [x] Políticas
+- [x] Estándares
+- [ ] Regulaciones
+> Los elementos básicos de un plan de seguridad son las políticas, los Estándares y los Procedimientos. Las políticas son normas que reducen el Riesgo y Protegen la Información. Los Estándares son referencias que informan sobre cómo establecer políticas. Y los Procedimientos son instrucciones paso a paso para realizar una tarea de Seguridad específica.
+
+3. Rellene el espacio en blanco: El NIST CSF es un framework _____ que consta de Estándares, directrices y mejores prácticas para gestionar el riesgo de la ciberseguridad
+- [x] voluntario
+- [ ] obligatorio
+- [ ] limitado
+- [ ] rígido
+> El NIST CSF es un framework voluntario que consta de estándares, directrices y mejores prácticas para gestionar el riesgo de la ciberseguridad. Se trata de un framework exhaustivo con un diseño flexible que puede utilizarse en cualquier industria.
+
+4. ¿Cuáles son algunos de los beneficios del NIST Cybersecurity Framework (CSF)? Seleccione tres respuestas
+- [ ] Es necesario para hacer negocios en línea.
+- [x] Ayuda a las organizaciones a alcanzar los Estándares Reguladores.
+- [x] Puede utilizarse para identificar y evaluar riesgos.
+- [x] Es adaptable para ajustarse a las necesidades de cualquier negocio
+> Algunos Beneficios del CSF son que es adaptable para ajustarse a las necesidades de cualquier negocio, ayuda a las organizaciones a alcanzar los Estándares regulatorios y puede ser utilizado para Identificar y Evaluar Riesgos.
