@@ -1,0 +1,43 @@
+# Riesgo y Seguridad de los recursos
+
+## Elementos de un plan de Seguridad
+- ​La protección de los recursos se extiende mucho más allá de una persona o ​un grupo de personas en un departamento de TI.
+- ​La verdad del asunto es que la seguridad es una cultura.
+- ​Es un conjunto de valores compartidos que abarca todos los niveles de una organización.
+- ​Estos valores afectan a todo el mundo, desde los empleados hasta los proveedores y los clientes.
+- ​Proteger los recursos digitales y físicos requiere la participación de todos, ​lo que puede suponer todo un reto.
+- ​¡Para eso están los planes de seguridad!
+- ​Los planes tienen muchas formas y tamaños, pero todos comparten un objetivo común: ​estar preparados para los riesgos cuando sucedan.
+- ​Poner el foco en las personas es lo que conduce a los planes de seguridad más eficaces.
+- ​Considerar los diversos orígenes y perspectivas de todos los implicados ​garantiza que nadie quede fuera cuando algo vaya mal.
+- ​Hablábamos antes del riesgo como cualquier cosa que pueda afectar ​a la confidencialidad, integridad y disponibilidad de un recurso.
+- ​La mayoría de los planes de seguridad abordan los riesgos desglosándolos ​según categorías y factores.
+- ​Algunas categorías de riesgo comunes podrían incluir, el daño, ​la divulgación o la pérdida de Información.
+- ​Cualquiera de ellos puede deberse a factores como el daño físico o ​el mal funcionamiento de un dispositivo.
+- ​También hay factores como los ataques y los errores humanos.
+- ​Por ejemplo, a un nuevo profesor de escuela se le puede pedir que firme un contrato antes de su ​primer día de clase.
+- ​El acuerdo puede advertir contra algunos riesgos comunes asociados a los errores humanos, ​como utilizar un correo electrónico personal para enviar información sensible.
+- ​Un plan de seguridad puede requerir que todas las nuevas contrataciones firmen este acuerdo, ​difundiendo eficazmente los valores que garantizan que todo el mundo está alineado.
+- ​Este es sólo un ejemplo de los tipos y causas de riesgo que puede abordar un plan.
+- ​Estas cosas varían mucho dependiendo de la empresa.
+- ​Pero la forma en que se comunican estos planes es similar en todas las industrias
+- ​Los planes de seguridad constan de tres elementos básicos: políticas, Estándares, ​y Procedimientos.
+- ​Estos tres elementos son la forma en que las empresas comparten sus planes de seguridad.
+- Estas palabras tienden a utilizarse indistintamente fuera del ámbito de la seguridad, pero ​pronto descubrirá que cada una tiene un significado y ​una función muy específicos en este contexto.
+- ​Una política de seguridad es un conjunto de normas que reducen el Riesgo y protegen la Información.
+- ​Las políticas son la base de todo plan de seguridad.
+- ​Dan orientación a todos dentro y fuera de una organización al abordar ​preguntas como, ¿qué estamos protegiendo y por qué?
+- ​Las políticas se centran en el lado estratégico de las cosas al identificar el Alcance, ​objetivos y limitaciones de un plan de seguridad.
+- ​Por ejemplo, los empleados recién contratados en muchas empresas ​deben firmar una política de uso aceptable, o AUP.
+- ​Estas disposiciones describen las formas seguras en que un empleado puede acceder a los sistemas corporativos.
+- ​Los Estándares son la siguiente parte.
+- ​Tienen una función táctica, ya que se refieren a lo bien que estamos protegiendo los recursos.
+- ​En seguridad, los Estándares son referencias que informan sobre cómo establecer políticas.
+- ​Una buena forma de pensar en los Estándares es que crean un punto de referencia.
+- ​Por ejemplo, muchas empresas utilizan la norma de gestión de contraseñas identificada ​en la publicación especial 800-63B del NIST para mejorar sus políticas de seguridad ​especificando que las contraseñas de los empleados deben tener al menos ocho caracteres.
+- ​La última parte de un plan son sus procedimientos.
+- Los procedimientos son instrucciones paso a paso para realizar una tarea de Seguridad específica.
+- ​Las organizaciones suelen conservar varios documentos de procedimientos que se utilizan ​en toda la empresa, como por ejemplo cómo pueden elegir los empleados contraseñas seguras, ​o cómo pueden restablecer de forma segura una contraseña si se ha bloqueado.
+- ​Compartir procedimientos claros y procesables con todo el mundo crea responsabilidad, ​coherencia y eficacia en toda la organización.
+- ​Las políticas, Estándares y Procedimientos varían mucho de una empresa a ​otra porque se adaptan a los objetivos de cada organización.
+- ​Simplemente entender la estructura de los planes de seguridad es un gran comienzo.
