@@ -397,3 +397,35 @@
    - Auditar periódicamente los privilegios de los usuarios.
 
 - Justificación: Automatizar las tareas de Seguridad siempre que sea posible es una buena forma de reducir las posibilidades de error humano. En este caso, la creación de una política que establezca fechas de caducidad para los enlaces de acceso podría haber evitado la filtración. Exigir a los gestores que auditen regularmente quién puede acceder a sus archivos es otra forma de mantener la privacidad de la información.
+
+---
+
+## Ponga a prueba sus Conocimientos: Salvaguardar la Información
+
+1. ¿Cuáles son las categorías de Controles de seguridad? Seleccione todas las que correspondan
+- [ ] Privacidad
+- [x] Dirección
+- [x] Operador
+- [x] Técnico
+> Las categorías de Controles de seguridad incluyen controles técnicos, operativos y de gestión. Los controles técnicos incluyen las tecnologías utilizadas para proteger los recursos. Los controles operativos se refieren al mantenimiento del entorno de Seguridad cotidiano. Y los controles de gestión se centran en cómo los controles técnicos y operativos reducen el riesgo.
+
+2. Rellene el espacio en blanco: Un _____ de datos decide quién puede acceder, editar, utilizar o destruir su Información
+- [ ] custodio
+- [ ] protector
+- [x] propietario
+- [ ] manipulador
+> El Propietario de los datos decide quién puede acceder, editar, utilizar o destruir su Información.
+
+3. Un redactor de una empresa tecnológica está redactando un artículo sobre las nuevas funciones de software que se van a lanzar al mercado. Según el principio de privilegio mínimo, ¿a qué debería tener acceso el escritor mientras redacta el artículo? Seleccione todo lo que corresponda
+- [x] Desarrolladores de software conocedores del producto
+- [ ] Otros nuevos software que están en desarrollo
+- [x] El software que están revisando
+- [ ] Credenciales de inicio de sesión de los usuarios del software
+> El escritor debe tener acceso al software que está revisando y a los desarrolladores del mismo, que pueden ayudarle a comprender qué información es apropiado compartir con los lectores.
+
+4. ¿Qué Regulaciones de Privacidad influyen en cómo las organizaciones enfocan la Seguridad de los Datos? Seleccione tres respuestas
+- [ ] Infraestructura como servicio (IaaS)
+- [x] Estándar de seguridad de los datos para la industria de tarjetas de pago (PCI DSS)
+- [x] Reglamento General de Protección de Datos (RGPD)
+- [x] Ley de Transferencia y Responsabilidad de los Seguros Médicos (HIPAA)
+> GDPR, PCI DSS e HIPAA son regulaciones de privacidad notables que influyen en la forma en que las organizaciones enfocan su Seguridad de la información.
