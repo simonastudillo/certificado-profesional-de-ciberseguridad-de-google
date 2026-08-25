@@ -260,17 +260,17 @@
 - Evaluaciones y auditorías de seguridad
    - Las empresas deben cumplir las normativas importantes de su sector.
    - Al hacerlo, validan que han alcanzado un nivel mínimo de seguridad, al tiempo que demuestran su dedicación a mantener la privacidad de los datos.
+   - El cumplimiento de las normas suele ser un proceso continuo de auditorías y evaluaciones de seguridad:
+      - Una auditoría de seguridad es una revisión de los controles, políticas y procedimientos de seguridad de una organización con respecto a un conjunto de expectativas.
+      - Una evaluación de la seguridad es una comprobación para determinar el grado de resistencia de las actuales medidas de seguridad frente a las amenazas.
+   - Por ejemplo, si una normativa establece que la autenticación multifactor (MFA) debe estar habilitada para todas las cuentas de administrador, podría realizarse una auditoría para comprobar que esas cuentas de usuario cumplen la normativa.
+   - Después de la auditoría, el equipo interno podría realizar una evaluación de seguridad que determine que muchos usuarios utilizan contraseñas débiles.
+   - Basado en su evaluación, el equipo podría decidir habilitar MFA en todas las cuentas de usuario para mejorar su postura general de seguridad.
+   - El cumplimiento de las normativas legales, como el GDPR, puede determinarse durante las auditorías.
 
-El cumplimiento de las normas suele ser un proceso continuo de auditorías y evaluaciones de seguridad:
-
-Una auditoría de seguridad es una revisión de los controles, políticas y procedimientos de seguridad de una organización con respecto a un conjunto de expectativas.
-
-Una evaluación de la seguridad es una comprobación para determinar el grado de resistencia de las actuales medidas de seguridad frente a las amenazas.
-
-Por ejemplo, si una normativa establece que la autenticación multifactor (MFA) debe estar habilitada para todas las cuentas de administrador, podría realizarse una auditoría para comprobar que esas cuentas de usuario cumplen la normativa. Después de la auditoría, el equipo interno podría realizar una evaluación de seguridad que determine que muchos usuarios utilizan contraseñas débiles. Basado en su evaluación, el equipo podría decidir habilitar MFA en todas las cuentas de usuario para mejorar su postura general de seguridad.
-
-Nota: El cumplimiento de las normativas legales, como el GDPR, puede determinarse durante las auditorías.
-
-Como analista de seguridad, es probable que participe en auditorías y evaluaciones de seguridad sobre el terreno. Las empresas suelen realizar auditorías de seguridad con menos frecuencia, aproximadamente una vez al año. Las auditorías de seguridad pueden ser realizadas tanto interna como externamente por diferentes grupos de terceros.
-
-Por el contrario, las evaluaciones de seguridad suelen realizarse con mayor frecuencia, aproximadamente cada tres o seis meses. Las evaluaciones de seguridad suelen ser realizadas por empleados internos, a menudo como preparación para una auditoría de seguridad. Ambas evaluaciones son formas increíblemente importantes de garantizar que sus sistemas protegen eficazmente la privacidad de todos.
+- Como analista de seguridad, es probable que participe en auditorías y evaluaciones de seguridad sobre el terreno.
+- Las empresas suelen realizar auditorías de seguridad con menos frecuencia, aproximadamente una vez al año.
+- Las auditorías de seguridad pueden ser realizadas tanto interna como externamente por diferentes grupos de terceros.
+- Por el contrario, las evaluaciones de seguridad suelen realizarse con mayor frecuencia, aproximadamente cada tres o seis meses.
+- Las evaluaciones de seguridad suelen ser realizadas por empleados internos, a menudo como preparación para una auditoría de seguridad.
+- Ambas evaluaciones son formas increíblemente importantes de garantizar que sus sistemas protegen eficazmente la privacidad de todos.
