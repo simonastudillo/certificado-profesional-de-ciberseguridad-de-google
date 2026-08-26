@@ -182,3 +182,17 @@
 - ​Esta es una de las razones por las que la contabilización ​y la supervisión de los registros de sesión son tan importantes.
 - ​La actividad inusual en los registros de acceso puede indicar que se ​ha accedido indebidamente a la información o que se la ha robado.
 - ​Al fin y al cabo, la contabilización es la forma en que ​obtenemos estadísticas valiosas que hacen que la información sea más segura. 
+
+---
+
+## Tim: Encontrar un propósito en la protección de los recursos
+- Trabajo en el Equipo de Detección y Respuesta de Google.
+- ​Puede pensar que somos los detectores de humo y los bomberos de Google.
+- ​Así que nuestro trabajo consiste en detectar actividades dañinas que puedan ​afectar a Google y a sus usuarios.
+- ​Lo que está en juego aquí es muy, muy importante.
+- ​Imagínese lo que tiene en Google, ya sean Docs, ​fotos, su información financiera, algunos de sus secretos.
+- ​Los profesionales de la ciberseguridad ​están ahí para proteger los recursos más valiosos de la empresa.
+- ​Estarás ahí para proteger eso, y ​esa línea directa desde lo que estás haciendo hasta lo que la empresa considera más importante, ​más valioso, y proteger eso, creo que proporciona mucho propósito a la gente.
+- ​Y proporciona mucha motivación y proporciona la base y ​los cimientos para una carrera muy, muy satisfactoria.
+- ​La ciberseguridad es una carrera profundamente gratificante.
+- ​Es una función que es crítica en muchas, muchas empresas y ​es una carrera que está muy solicitada, y ​hay una escasez absoluta de mano de obra con talento ahí fuera.
