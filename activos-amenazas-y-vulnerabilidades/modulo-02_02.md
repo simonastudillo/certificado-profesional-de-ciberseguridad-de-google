@@ -179,7 +179,9 @@
 - El cifrado está en todas partes
    - Las empresas utilizan tanto la criptografía simétrica como la asimétrica.
    - A menudo trabajan en equipo, equilibrando la seguridad con la experiencia del usuario.
-
-Por ejemplo, los sitios web tienden a utilizar la criptografía asimétrica para proteger pequeños bloques de datos que son importantes. Los nombres de usuario y las contraseñas suelen protegerse con criptografía asimétrica mientras se procesan las solicitudes de acceso. Una vez que el usuario obtiene acceso, el resto de su sesión web suele pasar a utilizar cifrado simétrico por su rapidez.
-
-La ley exige cada vez más el uso de este tipo de cifrado de datos. Reglamentos como el Federal Information Processing Standard (FIPS 140-3) y el Reglamento General de Protección de Datos (GDPR) describen cómo deben recopilarse, utilizarse y manejarse los datos. Lograr el cumplimiento de cualquiera de estas normativas es fundamental para demostrar a los socios comerciales y a los gobiernos que los datos de los clientes se manejan de forma responsable.
+   - Por ejemplo, los sitios web tienden a utilizar la criptografía asimétrica para proteger pequeños bloques de datos que son importantes.
+   - Los nombres de usuario y las contraseñas suelen protegerse con criptografía asimétrica mientras se procesan las solicitudes de acceso.
+   - Una vez que el usuario obtiene acceso, el resto de su sesión web suele pasar a utilizar cifrado simétrico por su rapidez.
+   - La ley exige cada vez más el uso de este tipo de cifrado de datos.
+   - Reglamentos como el Federal Information Processing Standard (FIPS 140-3) y el Reglamento General de Protección de Datos (GDPR) describen cómo deben recopilarse, utilizarse y manejarse los datos.
+   - Lograr el cumplimiento de cualquiera de estas normativas es fundamental para demostrar a los socios comerciales y a los gobiernos que los datos de los clientes se manejan de forma responsable.
