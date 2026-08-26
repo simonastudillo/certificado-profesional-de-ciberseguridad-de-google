@@ -201,3 +201,98 @@
 - Requisito de edad de 18+ para utilizar la plataforma
 - Compatibilidad del navegador: última versión de Google Chrome, Firefox o Microsoft Edge
 - Conexión a Internet
+
+---
+
+## Actividad: Desencriptación de un mensaje encriptado
+- Introducción
+   - En este laboratorio, completará una serie de tareas para obtener instrucciones para la desencriptación de un archivo encriptado.
+   - La encriptación de los Datos en uso, en reposo y en tránsito es fundamental para las funciones de Seguridad.
+   - Utilizará las habilidades de Linux que ha aprendido para descubrir las pistas necesarias para descifrar un cifrado clásico, restaurar un archivo y revelar un mensaje oculto.
+   
+- Lo que hará
+   - Listar el contenido de un Directorio
+   - Leer el contenido de archivos
+   - Usar comandos de Linux para revertir un cifrado clásico a texto plano
+   - Desencriptar un archivo encriptado y restaurar el archivo a su estado original
+
+- Resumen de actividad
+   - Anteriormente, aprendiste sobre criptografía y cómo se pueden usar la encriptación y desencriptación para asegurar información en línea.
+   - También conociste el algoritmo de cifrado Caesar, uno de los primeros algoritmos criptográficos utilizados para proteger la privacidad de las personas.
+   - Como analista de seguridad, es importante que entiendas el rol de la encriptación para asegurar datos en línea y que conozcas los controles de seguridad adecuados para hacerlo.
+   
+- Situación
+   - En esta situación, todos los archivos de tu directorio principal están encriptados.
+   - Deberás usar comandos de Linux para romper el algoritmo de cifrado Caesar y desencriptar los archivos, de modo que puedas leer los mensajes ocultos que contienen.
+   - Estos son los pasos que seguirás:
+      1. Explorarás el contenido del directorio principal y leerás el contenido de un archivo.
+      2. Encontrarás un archivo oculto y desencriptarás el algoritmo de cifrado Caesar que contiene.
+      3. Desencriptarás el archivo de datos encriptado para recuperar los datos y revelar el mensaje oculto.
+
+- Comienza el lab
+
+1. Lee el contenido de un archivo
+- Usa el comando ls para enumerar los archivos del directorio de trabajo actual.
+```bash
+ls -la
+# -rw-r--r-- 1 root    root     260 Aug 26 02:59 Q1.encrypted
+# -rw-r--r-- 1 root    root     165 Aug 26 02:59 README.txt
+# drwxr-xr-x 2 root    root    4096 Aug 26 02:59 caesar
+```
+- Usa el comando cat para mostrar el contenido del archivo README.txt.
+```bash
+cat README.txt
+# Hello,
+# All of your data has been encrypted. To recover your data, you will need to solve a cipher. To get started look for a hidden file in the caesar subdirectory
+```
+
+2. Encuentra un archivo oculto
+- Primero, usa el comando cd para cambiar al subdirectorio caesar de tu directorio principal.
+```bash
+cd caesar
+```
+- Usa el comando ls -a para enumerar todos los archivos, incluidos los ocultos, en tu directorio principal.
+```bash
+ls -la
+# -rw-r--r-- 1 root    root     160 Aug 26 02:59 .leftShift3
+```
+- Usa el comando cat para mostrar el contenido del archivo .leftShift3
+```bash
+cat .leftShift3
+# Lq rughu wr uhfryhu brxu ilohv brx zloo qhhg wr hqwhu wkh iroorzlqj frppdqg:
+# rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxwh
+```
+- Al parecer, el mensaje del archivo .leftShift3 está desordenado. Esto se debe a que los datos se encriptaron mediante un algoritmo de cifrado Caesar. Este algoritmo de cifrado se puede resolver moviendo cada carácter del alfabeto hacia la izquierda o la derecha una cantidad específica de espacios. En este ejemplo, el cambio consiste en tres letras hacia la izquierda. Por lo tanto, "d" significa "a" y "e" significa "b".
+- Puedes desencriptar el algoritmo de cifrado Caesar del archivo .leftshift3 usando el siguiente comando
+```bash
+cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
+# In order to recover your files you will need to enter the following command:
+# openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+```
+- En este caso, el comando tr "d-za-cD-ZA-C" "a-zA-Z" traduce todas las letras en mayúsculas y minúsculas del alfabeto a su posición original. El grupo de caracteres, indicado como "d-za-cD-ZA-C", se traduce a un segundo grupo de caracteres, que es "a-zA-Z".
+
+>[!NOTE] El comando tr traduce texto de un grupo de caracteres a otro, usando una asignación. El primer parámetro del comando tr representa el grupo de caracteres de entrada y el segundo representa el grupo de caracteres del resultado. Por lo tanto, si proporcionas parámetros "abcd" y "pqrs", y la cadena de entrada del comando tr es "ac", la cadena del resultado será "pr".
+
+- Ahora, regresa a tu directorio principal antes de completar la siguiente tarea:
+```bash
+cd ~
+```
+
+3. Desencripta un archivo
+- Usa el comando exacto que revelaste en la tarea anterior para desencriptar el archivo encriptado:
+```bash
+openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+```
+- En este caso, el comando openssl revierte la encriptación del archivo con un algoritmo de cifrado simétrico seguro, como indica AES-256-CBC.
+- La opción -pbkdf2 se usa para aumentar la seguridad a la clave y -a indica la codificación deseada para el resultado.
+- El comando -d indica la desencriptación, mientras que -in especifica el archivo de entrada y -out especifica el archivo de salida.
+- La opción -k especifica la contraseña, que en este ejemplo es ettubrute.
+- Usa el comando ls para mostrar nuevamente el contenido de tu directorio principal actual.
+```bash
+ls -la
+```
+- Usa el comando cat para mostrar el contenido del archivo Q1.recovered.
+```bash
+cat Q1.recovered
+# If you are able to read this, then you have successfully decrypted the classic cipher text. You recovered the encryption key that was used to encrypt this file. Great work!
+```
