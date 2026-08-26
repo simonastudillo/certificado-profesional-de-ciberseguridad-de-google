@@ -145,3 +145,40 @@
 - ​Hay muchos otros controles que ayudan a limitar ​el riesgo de acceso no autorizado a la información.
 - ​Además de controlar el acceso, ​también es importante supervisarlo.
 - ​En nuestro siguiente vídeo, nos centraremos en ​la tercera y última parte del ​framework de autenticación, autorización y contabilización. 
+
+---
+
+## Por qué auditamos la actividad de los usuarios
+- ​¿Alguna vez se ha preguntado si su empleador lleva ​un registro de cuándo inicia sesión en los sistemas de la empresa?
+- ​Bueno, lo son, si están implementando ​la tercera y última función del ​framework de autenticación, autorización y contabilización.
+- La ​contabilidad es la práctica de ​supervisar los registros de acceso de un sistema.
+- ​Estos registros contienen información como quién ​accedió al sistema, cuándo lo hizo ​y qué recursos utilizó.
+- ​Los analistas de seguridad utilizan mucho los registros de acceso.
+- ​Los datos que contienen son una forma útil de ​identificar tendencias, como los intentos fallidos de inicio de sesión.
+- ​También se utilizan para descubrir a ​los piratas informáticos que han accedido a ​un sistema y para ​detectar un incidente, como una violación de datos.
+- ​En este campo, los registros de acceso son esenciales.
+- ​Con frecuencia, analizarlos es ​el primer procedimiento que ​se sigue al investigar un evento de Seguridad.
+- ​Entonces, ¿cómo recopilan los registros de acceso toda esta información útil?
+- ​​Cada vez que un usuario accede a un sistema, ​inicia lo que se denomina una sesión.
+- ​Una sesión es una secuencia de ​solicitudes y ​respuestas de autenticación HTTP básica de red asociadas al mismo usuario, ​como cuando visita un sitio web.
+- ​Los registros de acceso son esencialmente registros de sesiones que ​capturan el momento en que un usuario entra en ​un sistema hasta el momento en que lo abandona.
+- ​Cuando comienza la sesión, se activan dos acciones.
+- ​La primera es la creación de un identificador de sesión.
+- ​Un identificador de sesión es un token único que identifica a ​un usuario y su dispositivo al acceder al sistema.
+- ​Los ID de sesión se adjuntan al usuario hasta ​que cierre el navegador o se agote el tiempo de espera de la sesión.
+- ​La segunda acción que tiene ​lugar al inicio de una sesión es el ​intercambio de cookies de sesión ​entre un servidor y el dispositivo del usuario.
+- ​Una cookie de sesión es un token que los sitios web utilizan para ​validar una sesión y determinar ​cuánto tiempo debe durar esa sesión.
+- ​Cuando se intercambian cookies ​entre su computadora y un servidor, ​se lee su ID de sesión para determinar ​qué información debe mostrarle el sitio web.
+- ​Las cookies hacen que las sesiones web sean más seguras y eficientes.
+- ​El intercambio de tokens significa que ​no se ​comparte información confidencial, como nombres de usuario y contraseñas.
+- ​Las cookies de sesión evitan que ​los atacantes obtengan datos confidenciales.
+- ​Sin embargo, hay otros daños que pueden causar.
+- ​Con una cookie robada, ​un atacante puede hacerse pasar por un ​usuario utilizando su token de sesión.
+- ​Este tipo de ataque se conoce como secuestro de sesión (session hijacking).
+- ​El secuestro de sesión es un evento en el que los ​atacantes obtienen el ID de sesión de un usuario legítimo.
+- ​Durante este tipo de ataques, los ​ciberdelincuentes se hacen pasar por el usuario y ​causan todo tipo de daños.
+- ​Se puede robar dinero o datos privados.
+- Si, por ejemplo, ​los secuestradores obtienen una ​credencial de inicio de sesión único a partir de cookies robadas, ​pueden incluso acceder a ​sistemas adicionales que, de otro modo, parecen seguros.
+- ​Esta es una de las razones por las que la contabilización ​y la supervisión de los registros de sesión son tan importantes.
+- ​La actividad inusual en los registros de acceso puede indicar que se ​ha accedido indebidamente a la información o que se la ha robado.
+- ​Al fin y al cabo, la contabilización es la forma en que ​obtenemos estadísticas valiosas que hacen que la información sea más segura. 
