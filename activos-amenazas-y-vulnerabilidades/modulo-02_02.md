@@ -185,3 +185,12 @@
    - La ley exige cada vez más el uso de este tipo de cifrado de datos.
    - Reglamentos como el Federal Information Processing Standard (FIPS 140-3) y el Reglamento General de Protección de Datos (GDPR) describen cómo deben recopilarse, utilizarse y manejarse los datos.
    - Lograr el cumplimiento de cualquiera de estas normativas es fundamental para demostrar a los socios comerciales y a los gobiernos que los datos de los clientes se manejan de forma responsable.
+
+---
+
+## Recursos para completar los laboratorios
+- Iniciar Qwiklabs
+- Botón Start Lab
+- El temporizador
+- Botón Abrir Consola Linux
+- Comprobar el progreso
