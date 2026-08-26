@@ -99,3 +99,49 @@
    - Exigir múltiples formas de identificación es una medida de seguridad eficaz, especialmente en los entornos de nube.
    - Puede ser difícil para las empresas en la Nube asegurarse de que los usuarios que acceden remotamente a sus sistemas no son actores de amenazas.
    - La MFA puede reducir el riesgo de autenticar a los usuarios equivocados exigiendo formas de identificación difíciles de imitar o de someter a fuerza bruta.
+
+---
+
+## Los mecanismos de autorización
+- El acceso tiene que ver tanto con la autorización ​como con la autenticación.
+- ​Una de las funciones más importantes de ​los controles de acceso es la forma en que ​asignan la responsabilidad de ciertos sistemas y procesos.
+- ​El siguiente paso en nuestra exploración de los ​sistemas de control de acceso son ​los mecanismos de autorización.
+- ​De hecho, estos protocolos funcionan en estrecha colaboración con ​las tecnologías de autenticación.
+- Mientras uno ​valida quién es el usuario, ​el otro determina lo que se le permite hacer.
+- ​Veamos la siguiente parte del ​framework de autenticación, autorización y contabilización que protege la información privada.
+- ​Anteriormente, aprendimos sobre ​el principio de privilegio mínimo.
+- ​La autorización está vinculada a la idea de que el ​acceso a la información solo dura el tiempo que sea necesario.
+- ​Los sistemas de autorización también están ​muy influenciados por esta idea​, además de otro importante principio de Seguridad, ​la separación de funciones.
+- ​La separación de funciones es ​el principio según el cual los usuarios no deben recibir ​niveles de autorización que ​les permitan hacer un mal uso de un sistema.
+- La ​separación de tareas reduce el riesgo de ​fallos del sistema y de comportamientos inapropiados por parte de los usuarios.
+- ​Por ejemplo, una persona ​responsable de prestar el servicio de atención al cliente ​tampoco debería estar autorizada a evaluar ​su propio desempeño.
+- En esta posición, ​podrían fácilmente descuidar sus deberes y ​continuar otorgándose ​altas calificaciones sin supervisión.
+- ​Del mismo modo, si una persona fue ​autorizada a desarrollar y probar un sistema de Seguridad, es ​mucho más probable ​que desconozca sus puntos débiles.
+- ​Tanto el principio de privilegio mínimo como el concepto de ​separación de funciones se aplican a algo más que a las personas.
+- ​Se aplican a todos los sistemas, incluidas las redes, las ​bases de datos, los procesos y ​cualquier otro aspecto de una organización.
+- ​En última instancia, la autorización ​depende del rol del usuario o del sistema.
+- ​Cuando se trata de proteger los datos en una red, ​hay un par de ​controles de acceso de uso frecuente con los que debería estar familiarizado: ​HTTP basic auth y OAuth.
+- ​¿Alguna vez te has preguntado qué ​significa HTTP en las direcciones web?
+- ​Son las siglas de protocolo de transferencia de hipertexto, que ​es la forma en que se establecen las comunicaciones a través de la red.
+- ​HTTP usa lo que se conoce como autenticación básica, ​la tecnología utilizada para establecer la ​solicitud de un usuario para acceder a un servidor.
+- ​La autenticación básica funciona enviando ​un identificador cada vez que ​un usuario se comunica con una página web.
+- ​Algunos sitios web siguen utilizando la autenticación básica para saber si ​alguien está autorizado o no a ​acceder a la información de ese sitio.
+- ​Sin embargo, su protocolo ​se considera vulnerable a los ataques ​porque transmite nombres de usuario y ​contraseñas abiertamente a través de la red.
+- ​La mayoría de los sitios web actuales utilizan HTTPS en su lugar, ​que significa protocolo seguro de transferencia de hipertexto.
+- Este protocolo no expone información confidencial, ​como las credenciales de acceso, cuando se ​comunica a través de la red.
+- ​Otra tecnología de autenticación segura que ​se utiliza hoy en día es OAuth.
+- ​OAuth es un ​protocolo de autorización de estándar abierto que comparte el acceso designado entre aplicaciones.
+- ​Por ejemplo, puedes decirle a Google que está ​bien que otro sitio web acceda a tu perfil ​para crear una cuenta.
+- ​En lugar de solicitar y enviar ​nombres de usuario y contraseñas confidenciales a través de la red, ​OAuth usa tokens de API ​para verificar el acceso entre tú y un proveedor de servicios.
+- ​Un Token de API es un pequeño bloque de ​código cifrado que contiene información sobre un usuario.
+- ​Estos tokens contienen datos como tu identidad, los permisos del sitio y mucho más.
+- ​OAuth envía y recibe solicitudes de acceso mediante ​tokens de API pasándolas de ​un servidor al dispositivo de un usuario.
+- ​Exploremos lo que sucede entre bastidores.
+- ​Cuando autorizas a un sitio a crear ​una cuenta con tu perfil de Google, ​todos los protocolos de inicio de sesión habituales de Google siguen activos.
+- ​Si tienes ​habilitada la autenticación multifactor en tu cuenta, y deberías hacerlo, ​seguirás disfrutando de las ventajas de Seguridad que ofrece.
+- ​Los tokens de API minimizan los riesgos de manera importante.
+- ​Estos tokens de API sirven como ​una capa adicional de encriptación que ayuda ​a mantener segura tu contraseña de Google ​en caso de que se produzca una violación en otra plataforma.
+- ​Autenticación básica y OAuth ​son solo un par de ejemplos de ​herramientas de autorización diseñadas teniendo en cuenta los principios ​de mínimo privilegio y separación de funciones.
+- ​Hay muchos otros controles que ayudan a limitar ​el riesgo de acceso no autorizado a la información.
+- ​Además de controlar el acceso, ​también es importante supervisarlo.
+- ​En nuestro siguiente vídeo, nos centraremos en ​la tercera y última parte del ​framework de autenticación, autorización y contabilización. 
