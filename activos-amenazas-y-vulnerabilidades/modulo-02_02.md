@@ -296,3 +296,8 @@ ls -la
 cat Q1.recovered
 # If you are able to read this, then you have successfully decrypted the classic cipher text. You recovered the encryption key that was used to encrypt this file. Great work!
 ```
+
+---
+
+## Ejemplo opcional: Desencriptación de un mensaje encriptado
+- Mismo laboratorio que el anterior.
