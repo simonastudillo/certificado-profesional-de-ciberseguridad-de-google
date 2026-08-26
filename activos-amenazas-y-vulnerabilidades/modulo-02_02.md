@@ -446,3 +446,70 @@ cat Q1.recovered
 - Por esta razón, el salting se ha vuelto cada vez más común cuando se almacenan contraseñas y otros tipos de datos sensibles.
 - La longitud y el carácter único de una sal son importantes.
 - Al igual que ocurre con los valores hash, cuanto más larga y compleja sea una sal, más difícil será descifrarla.
+
+
+---
+
+## Actividad: Crear valores hash
+- Introducción
+   - En este laboratorio, creará y evaluará los valores hash de dos archivos.
+   - Utilizará comandos de Linux para calcular el hash de dos archivos y observará cualquier diferencia en los hashes producidos.
+   - A continuación, determinará si los archivos son iguales o diferentes.
+
+- Lo que hará
+   - Lista el contenido del Directorio de inicio
+   - Comparar el texto sin formato de los dos archivos presentados para el hash
+   - Calcular el hash sha256sum de los dos archivos separados
+   - Comparar los hash proporcionados para identificar las diferencias
+
+- Resumen de la actividad
+   - Como analista de seguridad, deberás implementar controles de seguridad para proteger a las organizaciones contra diversas amenazas.
+   - Ahí es donde entra en juego el hashing.
+   - Anteriormente, aprendiste que una función hash es un algoritmo que produce un código que no se puede desencriptar.
+   - Las funciones de hash se usan para identificar de manera inequívoca el contenido de un archivo, de modo que puedas comprobar si ha sido modificado.
+   - Este código proporciona un identificador único conocido como valor de hash o resumen.
+   - Por ejemplo, un programa malicioso puede imitar un programa original.
+   - Si una línea de código es diferente del programa original, produce un valor de hash diferente.
+   - De este modo, los equipos de seguridad pueden identificar el programa malicioso y trabajar para mitigar el riesgo.
+   - Hay muchas herramientas disponibles para comparar hashes en distintas situaciones.
+   - Sin embargo, para un analista de seguridad es importante saber cómo comparar hashes manualmente.
+   - En este lab, crearemos valores de hash para dos archivos y usaremos comandos de Linux para examinar manualmente las diferencias.
+
+- Situación
+   - En esta situación, debemos investigar si dos archivos son idénticos o diferentes.
+   - Estos son los pasos que seguirás:
+      1. Mostrarás el contenido de dos archivos y crearás hashes para cada uno.
+      2. Luego, examinarás los hashes y los compararás.
+
+- Comienza el lab
+
+1. Genera hashes para archivos
+- Usa el comando ls para mostrar el contenido del directorio.
+```bash
+ls -la
+# -rw-r--r-- 1 root    root      69 Aug 26 22:41 file1.txt
+# -rw-r--r-- 1 root    root      79 Aug 26 22:41 file2.txt
+```
+- Usa el comando cat para mostrar el contenido del archivo file1.txt
+```bash
+cat file1.txt
+# X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+```
+- Usa el comando cat para mostrar el contenido del archivo file2.txt
+```bash
+cat file2.txt
+# X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+```
+- ¿El contenido de los dos archivos parecen idénticos cuando usas el comando cat?
+   - [x] SI
+   - [ ] NO
+- Usa el comando sha256sum para generar el hash del archivo file1.txt
+```bash
+sha256sum file1.txt
+# 131f95c51cc819465fa1797f6ccacf9d494aaaff46fa3eac73ae63ffbdfd8267  file1.txt
+```
+- Usa el comando sha256sum para generar el hash del archivo file2.txt
+```bash
+sha256sum file2.txt
+# 2558ba9a4cad1e69804ce03aa2a029526179a91a5e38cb723320e83af9ca017b  file2.txt
+```
