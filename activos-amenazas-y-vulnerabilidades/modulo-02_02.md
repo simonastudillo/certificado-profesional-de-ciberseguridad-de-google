@@ -301,3 +301,24 @@ cat Q1.recovered
 
 ## Ejemplo opcional: Desencriptación de un mensaje encriptado
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Descifrar un mensaje cifrado
+- Se solicita listar el directorio del usuario analyst y leer el contenido del archivo README.txt. 
+- El contenido de README.txt indica que todos los datos han sido encriptados y que para recuperarlos se debe resolver un cifrado dentro del subdirectorio `caesar`.
+- Entramos al directorio y vemos un archivo oculto `.leftShift3`.
+- Al leer el contenido de `.leftShift3`, se observa un mensaje encriptado con un cifrado César que indica cómo recuperar los archivos.
+- Se utiliza el comando `tr` para descifrar el mensaje, revelando el comando necesario para desencriptar el archivo `Q1.encrypted`.
+- Volvemos al home del usuario y ejecutamos el siguiente comando:
+- `openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute`
+   - `openssl`: Utiliza la herramienta OpenSSL para desencriptar el archivo.
+   - `aes-256-cbc`: Especifica el algoritmo de cifrado simétrico AES con una longitud de clave de 256 bits y el modo CBC.
+   - `-pbkdf2`: Indica que se debe usar la función de derivación de clave PBKDF2 para aumentar la seguridad.
+   - `-a`: Indica que la entrada y salida están codificadas en base64.
+   - `-d`: Indica que se debe realizar la desencriptación.
+   - `-in Q1.encrypted`: Especifica el archivo de entrada que se desea desencriptar.
+   - `-out Q1.recovered`: Especifica el archivo de salida donde se guardará el contenido desencriptado.
+   - `-k ettubrute`: Proporciona la contraseña utilizada para desencriptar el archivo.
+- Al ejecutar este comando, se desencripta el archivo `Q1.encrypted` y se guarda el contenido en `Q1.recovered`.
+- Al revisar el contenido de `Q1.recovered`, se confirma que la desencriptación fue exitosa y se recuperó la clave de encriptación utilizada para cifrar el archivo.
