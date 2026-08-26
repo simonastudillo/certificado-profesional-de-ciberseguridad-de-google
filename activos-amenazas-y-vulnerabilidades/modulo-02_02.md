@@ -1,0 +1,43 @@
+# Métodos de encriptación
+
+## Fundamentos de la criptografía
+- ​Internet es un sistema abierto y público con una gran cantidad de datos que fluyen a través de él.
+- ​Aunque todos enviamos y almacenamos información en línea, ​hay cierta información que decidimos mantener en privado.
+- ​En materia de Seguridad, este tipo de datos se conoce como información de identificación personal.
+- ​La información de identificación personal, o PII, ​es cualquier información que se puede usar para deducir la identidad de una persona.
+- ​Esto puede incluir datos como el nombre de una persona, la ​información médica y financiera, las fotos, los correos electrónicos o las huellas dactilares.
+- ​Mantener la privacidad de la PII en línea es difícil. Para ​ello se necesitan los controles de Seguridad adecuados.
+- ​Uno de los principales controles de Seguridad que se utilizan para proteger la ​información en línea es la criptografía.
+- ​La criptografía es el proceso de transformar la información en una forma que ​los lectores no deseados no puedan entender.
+- ​Datos de cualquier tipo se mantienen en secreto mediante un proceso de dos pasos: ​encriptación para ocultar la información y desencriptación para mostrarla.
+- ​Imagina enviar un correo electrónico a un amigo.
+- ​El proceso comienza tomando los datos en su ​forma original y legible, conocida como texto plano.
+- ​El cifrado toma esa información y la ​codifica en un formato ilegible, conocido como texto cifrado.
+- ​Luego utilizamos la desencriptación para descifrar el texto cifrado y convertirlo en texto plano, haciéndolo legible nuevamente.
+- ​Ocultar y mostrar información privada es una práctica que existe desde hace mucho tiempo.
+- ​Uno de los primeros métodos criptográficos se conoce como el cifrado de César.
+- ​Este método lleva el nombre de un general romano, Julio César, ​que gobernó el imperio romano cerca del final del siglo I a.C.
+- La ​usó para mantener en privado los mensajes entre él y sus generales militares.
+- ​El cifrado de César es un algoritmo bastante simple que funciona desplazando las letras ​del alfabeto romano hacia adelante en un número fijo de espacios.
+- ​Un algoritmo es un conjunto de reglas que resuelven un problema.
+- ​Específicamente en criptografía, un cifrado es un algoritmo que cifra la información.
+- ​Por ejemplo, un mensaje codificado con el sistema de cifrado de César con un desplazamiento de 3 codificaría ​una A como una D, una B como una E, una C como una F, etc.
+- ​En este ejemplo, puedes enviar a un amigo un mensaje que diga «hola» ​con un turno de 3 y que diga «khoor».
+- ​Ahora, tal vez se pregunte cómo puede saber el cambio que ​utiliza un mensaje cifrado con el sistema de cifrado de César.
+- La respuesta a eso es: ¡necesitas la clave!
+- ​Una clave criptográfica es un mecanismo que descifra el texto cifrado.
+- ​En nuestro ejemplo, la clave indicaría que mi mensaje está cifrado en 3 turnos.
+- ¡ ​Con esa información, puedes desbloquear el mensaje oculto!
+- Todas las formas de encriptación se basan tanto en un cifrado como en una ​clave para garantizar el intercambio de información.
+- ​El cifrado de César no se usa ampliamente en la actualidad debido a un par de defectos importantes.
+- ​Una se refiere al código en sí.
+- La otra se refiere a la clave.
+- ​Este sistema de cifrado en particular se basa completamente en los caracteres del alfabeto romano para ocultar la ​información.
+- ​Por ejemplo, piense en un mensaje escrito con el alfabeto inglés, que solo tiene 26 ​caracteres.
+- ​Incluso sin la clave, es bastante sencillo descifrar un mensaje protegido con el sistema de ​cifrado de César desplazando las letras de 26 maneras diferentes.
+- ​En seguridad de la información, esta táctica se conoce como ataque de fuerza bruta, ​un proceso de prueba y error para descubrir información privada.
+- ​El otro gran defecto del sistema de cifrado de César es que se basa en una sola clave.
+- ​Si esa clave se perdió o fue robada, ​no hay nada que impida que alguien acceda a la información privada.
+- ​Realizar un seguimiento adecuado de las claves criptográficas es una parte importante de la Seguridad.
+- ​Para empezar, es importante asegurarse de que estas claves no se almacenen en lugares públicos ​y compartirlas por separado de la información que van a descifrar.
+- ​El cifrado de César es solo uno de los muchos algoritmos que se utilizan para proteger la ​privacidad de las personas.
