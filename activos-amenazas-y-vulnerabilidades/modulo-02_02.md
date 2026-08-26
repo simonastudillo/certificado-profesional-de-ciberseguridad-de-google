@@ -41,3 +41,57 @@
 - ​Realizar un seguimiento adecuado de las claves criptográficas es una parte importante de la Seguridad.
 - ​Para empezar, es importante asegurarse de que estas claves no se almacenen en lugares públicos ​y compartirlas por separado de la información que van a descifrar.
 - ​El cifrado de César es solo uno de los muchos algoritmos que se utilizan para proteger la ​privacidad de las personas.
+
+---
+
+## Infraestructura de clave pública
+- ​Las computadoras usan muchos ​algoritmos de encriptación para ​enviar y almacenar información en línea.
+- ​Todas son útiles cuando se trata de ocultar ​información privada, pero solo ​mientras sus claves estén protegidas.
+- ​¿Te imaginas tener que llevar ​un registro de las claves ​de encriptación que protegen toda tu información personal en línea?
+- Yo tampoco puedo, ​y no tenemos que hacerlo, gracias a algo que se conoce ​como infraestructura de clave pública.
+- ​Infraestructura de clave pública, o PKI, ​es un marco de encriptación ​que asegura el intercambio de información en línea.
+- ​Es un sistema amplio que hace que el acceso a la ​información sea rápido, fácil y seguro.
+- ​Entonces, ¿cómo funciona todo?
+- ​La PKI es un proceso de dos pasos.
+- Todo comienza con el intercambio de información cifrada.
+- ​Esto implica la encriptación asimétrica, la ​encriptación simétrica o ambas.
+- La ​encriptación asimétrica implica el uso de ​un par de claves públicas y privadas para la encriptación ​y desencriptación de datos.
+- ​Imaginemos esto como una caja que ​se puede abrir con dos llaves.
+- ​Una clave, la clave pública, ​solo se puede usar para acceder a ​la ranura y añadir objetos a la caja.
+- ​Como la clave pública no se puede usar para eliminar elementos, ​se puede copiar y compartir con personas de ​todo el mundo para agregar elementos.
+- ​Por otro lado, la segunda clave, la clave privada, ​abre la caja por completo, de modo que ​se pueden quitar los elementos que contiene.
+- ​Solo el propietario de la caja tiene ​acceso a la clave privada que la desbloquea.
+- El ​uso de una clave pública permite que ​las personas y los servidores con los que te estás comunicando ​vean y te envíen ​información cifrada que solo tú ​puedes descifrar con tu clave privada.
+- ​Este sistema de dos claves convierte la ​criptografía asimétrica en una forma segura de ​intercambiar información en línea; ​sin embargo, también ralentiza el proceso.
+- ​El Cifrado simétrico, por otro lado, ​es un enfoque más rápido y sencillo para la administración de claves.
+- El ​cifrado simétrico implica el uso de ​una única clave secreta para intercambiar información.
+- ​Imaginemos de nuevo la caja cerrada.
+- ​En lugar de dos claves, la ​encriptación simétrica usa la misma clave.
+- ​El propietario puede usarla para abrir la caja, añadir elementos ​y volver a cerrarla.
+- Cuando quieren compartir el acceso, ​pueden dar la clave secreta a ​cualquier otra persona para que haga lo mismo.
+- ​El intercambio de una única clave secreta ​puede hacer que las comunicaciones web sean más rápidas, ​pero también las hace menos seguras.
+- ​La PKI utiliza tanto la encriptación asimétrica como la simétrica, ​a veces en conjunto.
+- ​Todo depende de si la velocidad ​o la Seguridad son la prioridad.
+- ​Por ejemplo, las aplicaciones de chat móvil ​utilizan criptografía asimétrica ​para establecer una conexión entre las personas ​al inicio de una conversación ​cuando la Seguridad es la prioridad.
+- ​Posteriormente, cuando la velocidad de ​las comunicaciones de ida y vuelta es la prioridad, la ​encriptación simétrica toma el relevo.
+- ​Si bien ambos tienen sus propias fortalezas y debilidades, ​comparten una vulnerabilidad común, que ​establece la confianza entre el remitente y el receptor.
+- ​Ambos procesos se basan en compartir claves que ​pueden usarse indebidamente, perderse o robarse. 
+- Esto no es un problema cuando ​intercambiamos información en persona porque ​podemos usar nuestros sentidos para diferenciar entre ​aquellos en quienes confiamos y aquellos en quienes no confiamos. 
+- Las computadoras, por otro lado, ​no están naturalmente equipadas para hacer esta distinción.
+- ​Ahí es donde se aplica el segundo paso de la PKI.
+- ​La PKI aborda la vulnerabilidad del ​intercambio de claves al establecer la ​confianza mediante un sistema de ​certificados digitales entre ordenadores y redes.
+- ​Un certificado digital es un archivo que ​verifica la identidad del titular de una clave pública.
+- ​La mayor parte de la información en línea se ​intercambia mediante certificados digitales.
+- ​Los usuarios, las empresas y ​las redes mantienen una y la intercambian ​cuando comunican información en línea ​como una forma de demostrar confianza.
+- ​Veamos un ejemplo de cómo ​se crean los certificados digitales.
+- ​Supongamos que una empresa en línea está a punto de lanzar ​su sitio web y quiere ​obtener un certificado digital.
+- ​Cuando registran su dominio, ​la empresa de alojamiento envía cierta información ​a una autoridad certificadora (CA) de confianza.
+- ​La información proporcionada suele ser básica, como ​el nombre de la empresa y el país ​donde se encuentra su sede.
+- ​También se proporciona una clave pública para el sitio.
+- A ​continuación, la autoridad certificadora ​utiliza estos datos para verificar la identidad de la empresa.
+- ​Cuando se confirma, la CA ​cifra los datos con su propia clave privada.
+- ​Por último, crean un certificado digital ​que contiene los datos cifrados de la empresa.
+- ​También contiene la firma digital de CA ​para demostrar que es auténtica.
+- ​Los certificados digitales se parecen mucho a una tarjeta de identificación digital ​que se usa en línea para restringir o ​conceder el acceso a la información.
+- ​Así es como PKI resuelve el problema de la confianza.
+- ​Combinado con la ​encriptación asimétrica y simétrica, ​este enfoque de dos pasos para intercambiar ​información segura entre fuentes confiables es lo ​que hace que la PKI sea un control de seguridad tan útil. 
