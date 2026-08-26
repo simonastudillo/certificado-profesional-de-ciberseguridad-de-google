@@ -565,3 +565,40 @@ cmp file1hash file2hash
    - calcular hashes utilizando `sha256sum`,
    - mostrar hashes usando el comando `cat`, y
    - comparar hashes usando el comando `cmp`.
+
+---
+
+## Ponga a prueba sus Conocimientos: Métodos de encriptación
+
+1. ¿Cuál de los siguientes elementos es necesario cuando se utiliza la encriptación? Seleccione todos los que corresponda
+- [ ] Token
+- [ ] Certificado
+- [x] Cifrado
+- [x] Clave
+> Para utilizar la encriptación se necesitan un cifrado y una clave. Esto permite un intercambio de información seguro.
+
+2. ¿Qué tecnologías se utilizan en la Infraestructura de clave pública (PKI) para intercambiar información en línea de forma segura? Seleccione dos respuestas
+- [x] Algoritmos de encriptación
+- [ ] Reglamento General de Protección de Datos (RGPD)
+- [ ] Plataforma como servicio (PaaS)
+- [x] Certificados digitales
+> La PKI utiliza algoritmos de encriptación y certificados digitales para intercambiar información en línea de forma segura. Los algoritmos asimétricos y simétricos se utilizan en primer lugar para encriptar datos de forma rápida y segura. Los certificados digitales se utilizan en segundo lugar como una forma de señalar la confianza entre el emisor y el receptor cuando se intercambian datos encriptados en línea.
+
+3. Rellene el espacio en blanco: la encriptación _____ produce un par de claves pública y privada
+- [ ] Simétrico
+- [ ] Hashing
+- [x] Asimétrico
+- [ ] Salting
+> La criptografía asimétrica produce un par de claves pública y privada que se utilizan para la encriptación y desencriptación de la información. La clave pública se comparte con otros mientras que el Propietario de los datos gestiona la clave privada.
+
+4. Un atacante accede a una Base de datos donde las contraseñas de los usuarios están aseguradas con el algoritmo hash SHA-256. ¿Puede el atacante desencriptar las contraseñas de los usuarios?
+- [ ] Sí. Los algoritmos hash producen una clave de desencriptación.
+- [x] No. Los algoritmos hash no producen claves de desencriptación.
+> El atacante no puede desencriptar las contraseñas de los usuarios porque se almacenan como un valor hash que es irreversible. Sólo los algoritmos de criptografía asimétrica y simétrica producen claves de desencriptación.
+
+5. ¿Qué término describe el hecho de no poder negar que la Información es auténtica?
+- [ ] Integridad
+- [x] No repudio
+- [ ] Disponibilidad
+- [ ] Confidencialidad
+> No repudio significa que no se puede negar la autenticidad de la Información. También confirma que el remitente de los Datos es quien dice ser.
