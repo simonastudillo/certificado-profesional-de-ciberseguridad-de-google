@@ -541,3 +541,8 @@ cmp file1hash file2hash
 - En función de los valores de hash, ¿file1.txt es diferente de file2.txt?
    - [x] SI
    - [ ] NO
+
+---
+
+## Ejemplar opcional: Crear valores hash
+- Mismo laboratorio que el anterior.
