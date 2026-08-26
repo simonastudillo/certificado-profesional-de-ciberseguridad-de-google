@@ -335,8 +335,32 @@ cat Q1.recovered
 - ​Una función hash es un algoritmo que produce un código que no se puede descifrar.
 - ​A diferencia de los algoritmos asimétricos y simétricos, ​las funciones hash son procesos unidireccionales que no generan claves de desencriptación.
 - ​En cambio, estos algoritmos producen un identificador único conocido como valor hash o ​resumen.
-- ​He aquí un ejemplo para demostrarlo. ​Imagine que una empresa tiene una aplicación interna que utilizan los empleados y que ​se almacena en una unidad compartida. ​Tras pasar por una función de hash, el programa recibe su valor hash. ​Por ejemplo, ​creamos este valor de hash relativamente corto con la función de hash MD5. ​En general, se prefieren las funciones hash estándar que producen hashes más largos por ​ser más seguras. 
-​A continuación, imaginemos que un atacante reemplaza el programa por ​una versión modificada que realiza acciones maliciosas. ​El programa malintencionado puede funcionar igual que el original. ​Sin embargo, si una línea de código es tan diferente de la original, ​generará un valor hash diferente. ​Al comparar los valores de hash, podemos validar que los programas son diferentes. ​Los atacantes utilizan este tipo de trucos con frecuencia porque es fácil pasarlos por alto. ​Afortunadamente, los valores hash nos ayudan a identificar cuándo ocurre algo así. ​En Seguridad, los hashes se utilizan principalmente como una forma de ​determinar la integridad de los archivos y las aplicaciones. 
-​La integridad de los datos se refiere a la precisión y la coherencia de la información. ​Esto se conoce como no repudio, ​el concepto de que no se puede negar la autenticidad de la información. ​Las funciones hash son controles de Seguridad importantes que permiten demostrar la integridad de los datos ​. Los analistas las utilizan con frecuencia. ​Una forma de hacerlo es encontrar el valor hash de los archivos o ​aplicaciones y compararlos con los archivos maliciosos conocidos. ​Por ejemplo, podemos usar la línea de comandos de Linux para generar el valor hash de ​cualquier archivo de su computadora. ​Simplemente lanzamos una shell y escribimos el nombre del algoritmo de hash que queremos usar. 
-​En este caso, estamos usando uno común conocido como sha256. ​A continuación, necesitamos introducir el nombre de cualquier archivo que queramos procesar. ​Vamos a analizar el contenido de newfile.txt. ​Ahora, presionaremos Entrar. ​La terminal genera este valor hash único para el archivo. ​Estas herramientas se pueden comparar con los valores de hash de los virus en línea conocidos. ​Una de esas bases de datos es VirusTotal. 
-​Esta es una herramienta popular entre los profesionales de Seguridad que es útil para analizar ​archivos, dominios, IP y URL sospechosos. ​Como hemos explorado, incluso el más mínimo cambio en la entrada da como resultado un ​valor de hash totalmente diferente. ​Las funciones hash se diseñan intencionalmente de esta manera para ayudar en cuestiones de no repudio. ​Proporcionan a los ordenadores una forma rápida y sencilla de comparar los ​valores de entrada y salida y de validar la integridad de los datos. ​Bastante guay, ¿verdad? 
+- ​He aquí un ejemplo para demostrarlo.
+- ​Imagine que una empresa tiene una aplicación interna que utilizan los empleados y que ​se almacena en una unidad compartida.
+- ​Tras pasar por una función de hash, el programa recibe su valor hash.
+- ​Por ejemplo, ​creamos este valor de hash relativamente corto con la función de hash MD5.
+- ​En general, se prefieren las funciones hash estándar que producen hashes más largos por ​ser más seguras.
+- ​A continuación, imaginemos que un atacante reemplaza el programa por ​una versión modificada que realiza acciones maliciosas. 
+- El programa malintencionado puede funcionar igual que el original.
+- ​Sin embargo, si una línea de código es tan diferente de la original, ​generará un valor hash diferente.
+- ​Al comparar los valores de hash, podemos validar que los programas son diferentes.
+- ​Los atacantes utilizan este tipo de trucos con frecuencia porque es fácil pasarlos por alto.
+- ​Afortunadamente, los valores hash nos ayudan a identificar cuándo ocurre algo así.
+- ​En Seguridad, los hashes se utilizan principalmente como una forma de ​determinar la integridad de los archivos y las aplicaciones.
+- ​La integridad de los datos se refiere a la precisión y la coherencia de la información. 
+- Esto se conoce como no repudio, ​el concepto de que no se puede negar la autenticidad de la información.
+- ​Las funciones hash son controles de Seguridad importantes que permiten demostrar la integridad de los datos ​.
+- Los analistas las utilizan con frecuencia.
+- ​Una forma de hacerlo es encontrar el valor hash de los archivos o ​aplicaciones y compararlos con los archivos maliciosos conocidos.
+- ​Por ejemplo, podemos usar la línea de comandos de Linux para generar el valor hash de ​cualquier archivo de su computadora.
+- ​Simplemente lanzamos una shell y escribimos el nombre del algoritmo de hash que queremos usar.
+- ​En este caso, estamos usando uno común conocido como sha256. ​A continuación, necesitamos introducir el nombre de cualquier archivo que queramos procesar.
+- ​Vamos a analizar el contenido de newfile.txt.
+- ​Ahora, presionaremos Entrar.
+- ​La terminal genera este valor hash único para el archivo. 
+- Estas herramientas se pueden comparar con los valores de hash de los virus en línea conocidos.
+- ​Una de esas bases de datos es VirusTotal.
+- ​Esta es una herramienta popular entre los profesionales de Seguridad que es útil para analizar ​archivos, dominios, IP y URL sospechosos. 
+- Como hemos explorado, incluso el más mínimo cambio en la entrada da como resultado un ​valor de hash totalmente diferente.
+- ​Las funciones hash se diseñan intencionalmente de esta manera para ayudar en cuestiones de no repudio.
+- ​Proporcionan a los ordenadores una forma rápida y sencilla de comparar los ​valores de entrada y salida y de validar la integridad de los datos.
