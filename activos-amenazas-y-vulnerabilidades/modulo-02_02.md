@@ -513,3 +513,31 @@ sha256sum file1.txt
 sha256sum file2.txt
 # 2558ba9a4cad1e69804ce03aa2a029526179a91a5e38cb723320e83af9ca017b  file2.txt
 ```
+- ¿Ambos archivos producen el mismo valor de hash generado?
+   - [ ] SI
+   - [x] NO
+
+2. Compara hashes
+- Usa el comando sha256sum para generar el hash del archivo file1.txt y, luego, envía el resultado a un nuevo archivo llamado file1hash
+```bash
+sha256sum file1.txt >> file1hash
+```
+- Usa el comando sha256sum para generar el hash del archivo file2.txt y envía el resultado a un nuevo archivo llamado file2hash
+```bash
+sha256sum file2.txt >> file2hash
+```
+- Usa el comando cat para mostrar los valores de hash en los archivos file1hash y file2hash
+```bash
+cat file1hash
+cat file2hash
+```
+- Analiza el resultado y observa la diferencia en los valores de hash
+- Usa el comando cmp para destacar las diferencias en los archivos file1hash y file2hash
+```bash
+cmp file1hash file2hash
+# file1hash file2hash differ: char 1, line 1
+```
+- Revisa el resultado, que informa la primera diferencia entre los dos archivos
+- En función de los valores de hash, ¿file1.txt es diferente de file2.txt?
+   - [x] SI
+   - [ ] NO
