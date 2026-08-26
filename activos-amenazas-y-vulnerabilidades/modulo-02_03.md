@@ -1,0 +1,43 @@
+# Autenticación, autorización y contabilidad
+
+## Controles de acceso y sistemas de autenticación
+- ​Proteger los datos es una característica fundamental de los controles de seguridad.
+- ​Cuando se trata de mantener la información a salvo y segura, el hash y el cifrado ​son herramientas poderosas, aunque limitadas.
+- ​Gestionar quién o ​qué tiene acceso a la información también es clave para salvaguardar la información.
+- ​La siguiente serie de controles que exploraremos son los Controles de acceso, ​los controles de seguridad que gestionan el acceso, la autorización y la ​rendición de cuentas de la información.
+- ​Cuando se hacen bien, los Controles de acceso mantienen la confidencialidad de los datos, ​integridad y disponibilidad.
+- ​También consiguen que los usuarios obtengan rápidamente la información que necesitan. 
+- Estos sistemas suelen dividirse en tres funciones ​separadas, aunque relacionadas, conocidas como el marco de autenticación, autorización y contabilidad.
+- ​Cada control tiene su propio protocolo y sistemas que los hacen funcionar.
+- ​Los sistemas de autenticación son controles de acceso que sirven a un propósito muy básico.
+- Le hacen a cualquier persona que intente acceder a la Información ​esta sencilla pregunta: ¿quién es usted?
+- ​Las organizaciones recogen las respuestas a estas preguntas de forma diferente, ​dependiendo de los objetivos de su política de Seguridad.
+- ​Algunas son más minuciosas que otras, pero en general, ​las respuestas a esta pregunta pueden basarse en tres factores de autenticación.
+- ​El primero es el conocimiento.
+   - La autenticación por conocimiento se refiere a algo que el usuario ​conoce, como una contraseña o ​la respuesta a una pregunta de seguridad que haya proporcionado previamente.
+- ​Otro factor es la propiedad, que se refiere a algo que el usuario posee.
+   - ​Un tipo de autenticación por propiedad muy utilizado es un código de acceso de un solo uso, u OTP.
+   - ​Probablemente haya experimentado esto alguna vez.
+   - ​Se trata de una secuencia de números aleatorios que una aplicación o sitio web ​le enviará por mensaje de texto o correo electrónico y le pedirá que proporcione.
+- ​El último es la característica.
+   - La autenticación mediante este factor es algo que el usuario es.
+   - ​Los datos biométricos, como el escaneado de huellas dactilares en su smartphone, son un ejemplo de este tipo de ​autenticación.
+   - ​Aunque no se utiliza en todas partes, esta forma de autenticación es cada vez más común ​porque es mucho más difícil para los delincuentes hacerse pasar por alguien ​si tienen que imitar una huella dactilar o un escaneado facial en lugar de una contraseña.
+- ​La información proporcionada durante la autenticación tiene que coincidir ​con la información archivada para que estos Controles de acceso funcionen.
+- ​Cuando las credenciales no coinciden, la autenticación falla y se deniega el acceso.
+- Cuando coinciden, se concede el acceso.
+- ​Denegar incorrectamente el acceso puede ser frustrante para cualquiera.
+- ​Para que los sistemas de acceso sean más cómodos, ​muchas organizaciones confían hoy en día en el inicio de sesión único. 
+- El inicio de sesión único, o ​SSO, es una tecnología que combina varios inicios de sesión diferentes en uno solo.
+- ​¿Se imagina tener que volver a presentarse cada vez que queda con ​un amigo?
+- ​Ese es exactamente el tipo de problema que resuelve el SSO.
+- ​En lugar de exigir a los usuarios que se autentiquen una y otra vez, el SSO establece ​su identidad una vez, lo que les permite acceder a los Recursos de la empresa más rápidamente.
+- ​Aunque los sistemas SSO son útiles cuando se trata de acelerar el proceso de autenticación, ​presentan una vulnerabilidad importante cuando se utilizan solos.
+- ​Denegar el acceso a los usuarios autorizados puede ser frustrante, ​pero ¿sabe qué es aún peor?
+- Conceder incorrectamente el acceso al usuario equivocado.
+- ​La tecnología SSO es estupenda, pero no si se basa en un único factor de ​autenticación.
+- Añadir más factores de autenticación refuerza estos sistemas.
+- ​La autenticación de múltiples factores, o MFA, es una medida de seguridad que requiere que ​un usuario verifique su identidad de dos o más formas para acceder a un sistema o red.
+- ​MFA combina dos o más credenciales independientes, como los conocimientos y la ​propiedad, para demostrar que alguien es quien dice ser.
+- ​SSO y MFA se utilizan a menudo conjuntamente ​para aumentar las capacidades de defensa de los sistemas de autenticación.
+- ​Cuando se utilizan ambos, las organizaciones pueden garantizar un acceso cómodo ​que también es seguro.
