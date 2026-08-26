@@ -546,3 +546,22 @@ cmp file1hash file2hash
 
 ## Ejemplar opcional: Crear valores hash
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplo: Crear valores hash
+- Utilizamos el comando `ls` para listar los archivos en el directorio y encontramos `file1.txt` y `file2.txt`.
+- Usamos `cat` para mostrar el contenido de ambos archivos y confirmamos que parecen idénticos.
+- Luego, generamos los valores hash de ambos archivos usando `sha256sum`:
+   - Para `file1.txt`, el hash generado fue: `131f95c51cc819465fa1797f6ccacf9d494aaaff46fa3eac73ae63ffbdfd8267`
+   - Para `file2.txt`, el hash generado fue: `2558ba9a4cad1e69804ce03aa2a029526179a91a5e38cb723320e83af9ca017b`
+- Observamos que los valores hash son diferentes, lo que indica que los archivos no son idénticos.
+- Para comparar los hashes, redirigimos los resultados a nuevos archivos `file1hash` y `file2hash` usando `>>`.
+- Finalmente, usamos `cmp` para comparar los archivos de hash y confirmamos que son diferentes, lo que demuestra que `file1.txt` y `file2.txt` no son iguales a pesar de que su contenido parecía idéntico al inspeccionarlos visualmente.
+   - `cmp file1hash file2hash` mostró que los archivos difieren desde el primer carácter de la primera línea.
+      - `cmp`: Compara dos archivos byte a byte y muestra la primera diferencia encontrada.
+
+- Conclusión
+   - calcular hashes utilizando `sha256sum`,
+   - mostrar hashes usando el comando `cat`, y
+   - comparar hashes usando el comando `cmp`.
