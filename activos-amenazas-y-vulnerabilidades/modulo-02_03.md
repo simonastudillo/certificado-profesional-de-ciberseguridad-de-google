@@ -284,3 +284,81 @@
    - Tenga en cuenta que la Seguridad es algo más que combinar un puñado de herramientas. Siempre es importante configurar estas tecnologías para que contribuyan a proporcionar un entorno seguro.
 
 - [IDPro©](https://www.idpro.org/) es una organización profesional dedicada a compartir los conocimientos esenciales del sector IAM
+
+---
+
+## Actividad: Mejorar la autenticación, autorización y contabilidad de una pequeña empresa (Business to Business)
+- Resumen de la actividad
+   - En esta actividad, evaluará los controles de acceso utilizados por una empresa.
+   - Analizará su proceso actual, identificará los problemas y hará recomendaciones para mejorar sus prácticas de seguridad.
+   - Anteriormente, aprendió que los controles de acceso son controles de seguridad que gestionan el acceso, la autorización y la responsabilidad de la información.
+   - Los controles de autenticación se utilizan para verificar quién es alguien, mientras que los controles de autorización se utilizan para conceder permisos a un usuario y establecer límites sobre las cosas que se le permite hacer.
+   - Cuando se hacen bien, los controles de acceso son la clave para disminuir la probabilidad de un riesgo para la seguridad.
+   
+- Escenario
+   - Revise el escenario que aparece a continuación.
+   - A continuación, complete las instrucciones paso a paso.
+   - Usted es el primer profesional de la ciberseguridad contratado por una empresa en expansión.
+   - Recientemente, se ha realizado un ingreso desde la empresa a una cuenta bancaria desconocida.
+   - El director financiero dice que no cometieron ningún error.
+   - Afortunadamente, pudieron detener el pago.
+   - El propietario le ha pedido que investigue lo sucedido para evitar futuros incidentes.
+   - Para ello, tendrá que hacer un poco de contabilidad sobre el incidente para comprender mejor lo sucedido.
+   - En primer lugar, revisará el registro de accesos del incidente.
+   - A continuación, tomará notas que puedan ayudarle a identificar a un posible actor de la amenaza.
+   - Después, detectará los problemas con los controles de acceso que fueron aprovechados por el usuario.
+   - Por último, recomendará mitigaciones que puedan mejorar los controles de acceso de la empresa y reducir la probabilidad de que este incidente vuelva a producirse.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Hoja de trabajo de control de acceso](./resources/Activity-Template_-Access-control-worksheet.docx)
+
+2. Acceda a los materiales de apoyo
+- Los siguientes materiales de apoyo le ayudarán a completar esta actividad. Manténgalos abiertos mientras continúa con los siguientes pasos.
+- [Ejercicio de contabilidad](./resources/Accounting-exercise.xlsx)
+
+3. Revisar el registro de incidentes de este incidente de nómina
+- Los registros de eventos contienen información relacionada con el funcionamiento y el uso de un sistema.
+- Pueden utilizarse para Identificar actividades sospechosas, Detectar vulnerabilidades y Rastrear usuarios.
+- Busque la pestaña Registro de eventos de la hoja de cálculo del ejercicio de contabilización.
+- Revise cuidadosamente el registro de eventos de este Incidente para comenzar su investigación.
+- Fíjese en el tipo de Evento, la fecha, la hora y la dirección IP del usuario en los detalles del registro.
+- Tome 1-2 notas de la información que ha aprendido sobre el usuario al revisar los detalles del registro de eventos.
+- Añada sus notas a la columna Notas de la hoja de trabajo Control de accesibilidad.
+
+4. Identificar los problemas de Control de acceso que provocaron el Incidente
+- Los detalles del registro le dicen mucho sobre un momento concreto.
+- Puede encontrar otros detalles útiles sobre un Evento cruzando esa información con otras fuentes.
+- En esta empresa trabajan diferentes empleados.
+- Actualmente, todos ellos gestionan los Recursos de la empresa mediante una unidad de disco compartida en la nube.
+- Busque la pestaña Directorio de empleados de la hoja de cálculo Ejercicio de contabilización.
+- Compare la Información encontrada en la pestaña Directorio de empleados con la Información de la pestaña Registro de eventos.
+- Observe cualquier similitud entre los detalles del registro de Eventos y los detalles del Directorio de empleados.
+- A continuación, enumere 1 ó 2 problemas que descubra con la forma en que la empresa gestiona el acceso de los empleados en la columna Problemas de la hoja de cálculo Control de acceso.
+
+5. Recomendar mitigaciones que puedan evitar una futura violación
+- Ha finalizado la contabilización del pago extraño y ha descubierto fallos en la forma en que la empresa gestiona su Información.
+- Busque la columna Recomendación(es) de la hoja de trabajo Control de acceso.
+- Haga al menos 2 recomendaciones de mitigaciones que la empresa pueda implementar para prevenir incidentes como éste en el futuro.
+- Por ejemplo, una recomendación podría ser disponer de procedimientos para revocar el acceso a los archivos cuando un empleado ya no trabaje en la empresa.
+
+- Qué incluir en su respuesta
+   - 1-2 notas sobre el usuario
+   - 1-2 problemas de control de acceso
+   - 2 recomendaciones para mitigar el control de acceso
+
+- Access controls worksheet
+   - Authorization/Authentication
+      1. Notes
+         - Según lo detectado, la transacción se hizo desde la IP 152.207.255.255, la cual corresponde con el acceso del empleado Robert Taylor.
+         - La cuenta de Robert está marcada con fecha de termino para el 27/12/2019, pero el registro de eventos muestra que la transacción se realizó el 10/03/2023.
+         - Robert es un contratista que trabaja en la empresa y tiene el rol de Administrador.
+      2. Problems
+         - El problema principal detectado es que no se detecta el principio de privilegio mínimo, ya que Robert y todos los usuarios tienen permiso de administrador, lo que les permite hacer cambios en la información de la empresa sin importar si son Part Time, Full Time o Contratistas.
+         - Otro problema es que no se detecta la separación de funciones, ya que Robert tiene acceso a la información de nómina y puede hacer cambios en ella, lo que le permite realizar transacciones sin supervisión.
+         - Un problema importante es que las cuentas no se están desactivando automáticamente cuando un empleado deja de trabajar en la empresa, lo que permite que los usuarios sigan teniendo acceso a la información de la empresa después de su fecha de terminación.
+      3. Recommendations
+         - Asignar perfiles y permisos de acceso según el principio de privilegio mínimo, asegurando que los usuarios solo tengan acceso a la información necesaria para realizar sus funciones.
+         - Implementar la separación de funciones, asegurando que los usuarios no tengan acceso a información que les permita realizar transacciones sin supervisión, especialmente en áreas críticas como la nómina.
+         - Implementar un proceso de desactivación automática de cuentas cuando un empleado deja de trabajar en la empresa, o en su defecto marcar alguna alerta en calendario para que el administrador de la empresa pueda desactivar la cuenta del empleado a tiempo.
