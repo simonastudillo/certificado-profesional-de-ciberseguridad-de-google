@@ -205,3 +205,46 @@
    - [6 pasos para tener éxito con CI/CD Securing Hardening](https://spectralops.io/blog/ci-cd-security-hardening/)
    - [GitLab CI/CD - Laboratorio práctico: Securing Scanning](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9/)
    - [¿Cómo puede mantenerse al día con las últimas técnicas de resolución de problemas en la computación en la nube como gerente](https://www.linkedin.com/advice/1/how-can-you-stay-current-latest-problem-solving-msk5e)
+
+---
+
+## Estrategia de defensa en profundidad
+- ​Una defensa en capas es difícil de penetrar.
+- ​Cuando una barrera falla, ​otra ocupa su lugar para detener un ataque. 
+- La defensa en profundidad es ​un Modelo de Seguridad que hace uso de este concepto.
+- ​Es un enfoque en capas de la ​gestión de vulnerabilidades que reduce el riesgo.
+- ​La defensa en profundidad se conoce comúnmente como ​el enfoque del castillo porque ​se asemeja a las defensas en capas de un castillo.
+- ​En la Edad Media, ​estas estructuras eran muy difíciles de penetrar.
+- ​Presentaban diferentes defensas, ​cada una única en su diseño, que ​ponían diferentes retos a los atacantes.
+- ​Por ejemplo, una barrera llena de agua ​llamada foso solía formar ​un círculo alrededor del castillo, impidiendo que amenazas como ​grandes grupos de atacantes alcanzaran los muros del castillo.
+- ​Los pocos soldados que lograban pasar la primera capa de ​defensa se enfrentaban entonces a ​un nuevo reto, unos gigantescos muros de piedra.
+- ​Una vulnerabilidad de estas estructuras ​era que se podían escalar.
+- ​Si los atacantes intentaban explotar esa debilidad, ¿adivinen qué? ​¡Se encontraban con otra capa de defensa, ​torres de vigilancia, repletas de defensores ​listos para disparar flechas e impedir que escalaran!
+- ​Cada nivel de defensa de ​estas estructuras medievales minimizaba el riesgo de ​ataques identificando vulnerabilidades e ​implementando un control de seguridad en caso de que un sistema fallara.
+- ​La defensa en profundidad funciona de forma similar. 
+- ​El concepto de defensa en profundidad ​puede utilizarse para proteger cualquier recurso.
+- ​Se utiliza principalmente en ciberseguridad para proteger ​información utilizando un diseño de cinco capas. 
+- Cada capa incluye una serie de controles de seguridad que ​protegen la información a medida que ​entra y sale del Modelo.
+- ​La primera capa de defensa en ​profundidad es la capa perimetral.
+   - ​Esta capa incluye algunas tecnologías ​que ya hemos explorado, ​como nombres de usuario y contraseñas.
+   - ​Principalmente, se trata de ​una capa de autenticación de usuarios que filtra el acceso externo.
+   - ​Su función es sólo permitir el acceso a ​socios de confianza para llegar a la siguiente capa de defensa.
+- ​En segundo lugar, la capa de red está más ​estrechamente alineada con la autorización.
+   - ​La capa de red está formada por ​otras tecnologías como los firewalls de red y otras.
+- ​A continuación, está la capa de punto final (endpoint).
+   - ​Los puntos finales se refieren a los dispositivos ​que tienen acceso en una red.
+   - ​Pueden ser dispositivos como un portátil, ​un ordenador de sobremesa o un servidor.
+   - ​Algunos ejemplos de tecnologías que protegen ​estos dispositivos son el software antivirus.
+- ​Después, llegamos a la capa de aplicación.
+   - ​Esta incluye todas las interfaces ​que se utilizan para interactuar con la tecnología.
+   - ​En esta capa, las medidas de seguridad se ​programan como parte de una aplicación.
+   - ​Un ejemplo común es la autenticación de múltiples factores.
+   - ​Puede que le resulte familiar tener que introducir ​tanto su contraseña como un código enviado por SMS.
+   - ​Esto forma parte de la capa de aplicación de defensa.
+- ​Y, por último, la quinta capa de defensa es la capa de datos.
+   - ​En esta capa, hemos llegado a ​los datos críticos que deben protegerse, ​como la información de identificación personal.
+   - ​Un control de seguridad que es importante aquí en ​esta capa final de defensa es la clasificación de los activos.
+- Como he mencionado antes, ​la información entra y sale de cada una de ​estas cinco capas siempre que se intercambia a través de una red.
+- ​Hay muchos más Controles de seguridad aparte de los pocos ​que he mencionado que forman parte ​del modelo de defensa en profundidad.
+- ​Muchas empresas diseñan ​sus sistemas de Seguridad utilizando el Modelo de defensa en profundidad.
+- ​Es de esperar que la comprensión de este framework ​le dé una mejor idea de cómo ​funcionan ​conjuntamente los Controles de seguridad de una organización para proteger los recursos importantes. 
