@@ -15,3 +15,56 @@
 - ​Analizaremos las superficies de ataque que protegen los equipos de Seguridad.
 - ​Y, por último, ampliará su mentalidad de atacante al explorar los ​vectores de ataque más comunes que los ciberdelincuentes intentan explotar.
 - ​Los analistas de seguridad desempeñan un papel importante a la hora de identificar y ​corregir las vulnerabilidades de los sistemas.
+
+---
+
+## Gestión de vulnerabilidades
+- ​Por cada recurso que hay que proteger, existen docenas de vulnerabilidades.
+- ​Encontrar esas vulnerabilidades y ​corregirlas antes de que se conviertan en un problema es la clave para mantener un recurso a salvo.
+- ​Recordemos que una vulnerabilidad es una debilidad que puede ser explotada por una amenaza.
+- ​Esa palabra, puede, es una parte importante de esta descripción. ​¿Por qué es así? ​Explorémoslo juntos para saber más. 
+- ​Imagínese que le entrego un documento importante y le pido que lo mantenga a salvo.
+- ​¿Cómo lo haría? ​Algunos de ustedes podrían pensar primero en guardarlo bajo llave en un lugar seguro.
+- ​Detrás de esto está el entendimiento de que, dado que los documentos pueden moverse con facilidad, ​son vulnerables al robo.
+- Cuando se le ocurran otras vulnerabilidades, como que el papel se quema con facilidad o ​no resiste el agua, podría añadir otras protecciones.
+- ​De forma similar a este ejemplo, los Equipos de Seguridad planifican la protección de ​recursos en función de sus vulnerabilidades y de cómo pueden ser explotadas.
+- ​En seguridad, un exploit es una forma de aprovecharse de una vulnerabilidad.
+- ​Además de encontrar vulnerabilidades, la planificación de la seguridad se basa mucho en pensar en exploits.
+- ​Por ejemplo, hay ladrones que quieren causar daño.
+- ​Las casas tienen sistemas vulnerables que pueden ser explotados por un ladrón.
+- Un ​ejemplo son las ventanas.
+- El cristal es vulnerable a la rotura.
+- ​Un ladrón puede explotar esta vulnerabilidad utilizando una piedra para romper la ventana.
+- ​Pensar en esta vulnerabilidad y explotarla con antelación nos permite planificar con antelación.
+- ​Podemos tener instalado un sistema de alarma para ahuyentar al ladrón y alertar a la policía.
+- ​Los equipos de seguridad dedican mucho tiempo a encontrar vulnerabilidades y ​pensar en cómo pueden ser explotadas.
+- ​Lo hacen con el proceso conocido como gestión de vulnerabilidades.
+- ​La gestión de vulnerabilidades es el proceso de encontrar y parchear vulnerabilidades.
+- ​La gestión de vulnerabilidades ayuda a mantener los activos a salvo.
+- ​Es un método para detener amenazas antes de que puedan convertirse en un problema.
+- La gestión de vulnerabilidades es un proceso de cuatro pasos.
+   - ​El primer paso es identificar vulnerabilidades.
+   - ​El siguiente paso es considerar potenciales exploits de esas vulnerabilidades.
+   - ​El tercero es preparar defensas contra amenazas.
+   - Y, por último, ​el cuarto paso es evaluar esas defensas.
+- ​Cuando termina el último paso, el proceso vuelve a empezar.
+- ​La gestión de vulnerabilidades se produce en un ciclo.
+- ​Es una parte habitual de lo que hacen los equipos de seguridad ​porque siempre hay nuevas vulnerabilidades de las que preocuparse.
+- ​Por eso precisamente es útil contar con un conjunto diverso de perspectivas.
+- ​Contar con una amplia gama de antecedentes y ​experiencias no hace sino reforzar los equipos de seguridad y su capacidad para encontrar exploits.
+- ​Sin embargo, ni siquiera los equipos de Seguridad grandes y diversos pueden estar al tanto de todo.
+- ​Continuamente se descubren nuevas vulnerabilidades.
+- ​Se conocen como exploits de Día cero.
+- ​Un Día cero es un exploit que antes era desconocido.
+- ​El término Día cero se refiere al hecho de que el exploit está ocurriendo en tiempo real ​con cero días para solucionarlo.
+- ​Este tipo de exploits son peligrosos.
+- ​Representan amenazas que aún no se han planificado.
+- ​Por ejemplo, podemos anticiparnos a la posibilidad de que un ladrón entre en nuestra casa.
+- ​Podemos planificar este tipo de amenaza teniendo defensas preparadas, ​como cerraduras en las puertas y ventanas.
+- ​Un exploit de Día cero sería algo totalmente inesperado, ​como que la cerradura de la puerta se caiga por el intenso calor.
+- ​Los exploits de Día cero son cosas que normalmente no se nos ocurren.
+- ​Por ejemplo, podría tratarse de una nueva forma de software espía que infecta un sitio web popular.
+- ​Cuando se producen los exploits de Día cero, ​pueden dejar los activos aún más vulnerables a las amenazas de lo que ya son.
+- ​La gestión de vulnerabilidades es el proceso de encontrar vulnerabilidades y solucionar sus exploits.
+- ​Por eso el proceso se lleva a cabo regularmente en la mayoría de las organizaciones.
+- ​Quizás el paso más importante del proceso sea identificar las vulnerabilidades.
