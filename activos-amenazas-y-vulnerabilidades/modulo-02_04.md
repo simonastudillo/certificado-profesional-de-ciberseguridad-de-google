@@ -15,3 +15,8 @@
 - ​Esto, combinado con los conceptos que estamos abordando, lo convertirá en ​un valioso colaborador para cualquier equipo de Seguridad.
 - ​Hasta ahora, hemos estado explorando el lado defensivo de la seguridad, pero la ​seguridad no consiste solo en planificar con antelación y esperar a que suceda algo.
 - ​En la siguiente parte de nuestro viaje, ​continuaremos desarrollando una mentalidad de seguridad mediante una ​visión más proactiva de la seguridad desde la perspectiva de los atacantes.
+
+---
+
+## Términos del glosario del Módulo 2
+- El glosario completo se encuentra [aquí](./README.md#glosario)
