@@ -362,3 +362,34 @@
          - Asignar perfiles y permisos de acceso según el principio de privilegio mínimo, asegurando que los usuarios solo tengan acceso a la información necesaria para realizar sus funciones.
          - Implementar la separación de funciones, asegurando que los usuarios no tengan acceso a información que les permita realizar transacciones sin supervisión, especialmente en áreas críticas como la nómina.
          - Implementar un proceso de desactivación automática de cuentas cuando un empleado deja de trabajar en la empresa, o en su defecto marcar alguna alerta en calendario para que el administrador de la empresa pueda desactivar la cuenta del empleado a tiempo.
+
+---
+
+## Ejemplo de actividad: Mejorar la autenticación y autorización de una pequeña empresa
+- Ejemplar completado
+   - Revisa el ejemplo de actividad completado a continuación para ver cómo se puede abordar la actividad.
+   - [Control de acceso de ejemplo completado](./resources/Access-control-worksheet-exemplar.docx)
+
+- Nota(s) sobre el usuario:
+   - El Evento tuvo lugar el 10/03/23.
+   - El usuario es Legal/Administrador.
+   - La dirección IP de la computadora utilizada para iniciar sesión es 152.207.255.255.
+> Los registros de eventos pueden ayudarle a menudo a identificar el quién, el qué y el porqué de un Incidente de Seguridad.
+
+- Problema(s) de Control de acceso:
+   - Robert Taylor, Jr. es un contratista con acceso de administrador.
+   - Su contrato finalizó en 2019, pero su cuenta accedió a los sistemas de nómina en 2023.
+> A menudo, este tipo de incidentes se producen porque los sistemas están mal configurados o se utilizan de forma inadecuada.
+> Ese es el caso de cómo esta empresa está compartiendo Información entre sus empleados.
+
+- Recomendaciones:
+   - Las cuentas de usuario deberían caducar a los 30 días.
+   - Los contratistas deberían tener un acceso limitado a los Recursos de la empresa.
+   - Habilite la autenticación de múltiples factores (MFA).
+
+- Parece que un antiguo empleado es potencialmente el Agente de amenaza.
+- Sin embargo, es posible que no fuera la persona responsable de este Incidente de Seguridad.
+- Es habitual que la gente reutilice las credenciales de inicio de sesión en muchos servicios.
+- Y si esas credenciales se ven comprometidas en una plataforma, un atacante puede utilizarlas para acceder a otras.
+- En este caso, Implementar Controles de acceso, como políticas de contraseñas, permisos de archivo limitados y MFA puede proteger a la empresa de incidentes como este.
+
