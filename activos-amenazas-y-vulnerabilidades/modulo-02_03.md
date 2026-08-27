@@ -393,3 +393,41 @@
 - Y si esas credenciales se ven comprometidas en una plataforma, un atacante puede utilizarlas para acceder a otras.
 - En este caso, Implementar Controles de acceso, como políticas de contraseñas, permisos de archivo limitados y MFA puede proteger a la empresa de incidentes como este.
 
+---
+
+## Ponga a prueba sus Conocimientos: Autenticación, autorización y contabilidad
+
+1. ¿Qué factores utilizan los sistemas de autenticación para verificar la identidad de un usuario? Seleccione tres respuestas
+- [x] Responsabilidad
+- [x] Característica
+- [ ] Autorización
+- [x] Conocimientos
+> Conocimientos, Responsabilidad y Características son los tres factores utilizados por los sistemas de autenticación para verificar la identidad de un usuario.
+
+2. ¿Cómo se benefician las empresas de la implementación de la tecnología de inicio de sesión único (SSO)? Seleccione dos respuestas
+- [ ] Al exigir múltiples formas de identificación
+- [x] Proporcionando una mejor experiencia del usuario
+- [x] Simplificando su gestión de usuarios
+- [ ] Al agilizar el tráfico HTTP entre servidores
+> Proporcionar una mejor experiencia del usuario y simplificar su gestión son formas en las que las empresas se benefician de implementar el SSO.
+
+3. Una empresa minorista tiene un empleado que se encarga de la compra de mercancías, otro empleado que se encarga de aprobar las nuevas compras y un tercer empleado que se encarga de pagar las facturas. ¿Qué principio de Seguridad está implementando la empresa minorista?
+- [x] Separación de funciones
+- [ ] No repudio
+- [ ] Menor privilegio
+- [ ] Autenticación, autorización y contabilidad (AAA)
+> La empresa minorista está implementando el principio de Separación de funciones. La Separación de funciones es el principio de Seguridad según el cual no se debe conceder a los usuarios niveles de autorización que les permitan hacer un uso indebido de un sistema.
+
+4. ¿Cuáles son las categorías de Controles de acceso? Seleccione tres respuestas
+- [x] Autorización
+- [x] Autenticación
+- [x] Contabilización
+- [ ] Administración
+> Las tres categorías de Controles de acceso son Autenticación, Autorización y Contabilidad.
+
+5. ¿Qué credencial utiliza OAuth para autenticar a los usuarios?
+- [ ] Un certificado digital
+- [ ] Cookie de sesión
+- [ ] Una contraseña de un solo uso (OTP)
+- [x] Token de interfaz de programación de aplicaciones (API)
+> OAuth utiliza un Token de API para autenticar a los usuarios. Un Token de API es una credencial digital que se comparte entre una plataforma y un proveedor de servicios para verificar la identidad de un usuario.
