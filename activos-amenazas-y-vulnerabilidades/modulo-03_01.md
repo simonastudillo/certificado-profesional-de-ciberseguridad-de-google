@@ -431,3 +431,35 @@
    - Existen muchas otras herramientas OSINT que pueden utilizarse para encontrar tipos específicos de Información.
    - Recuerde que la Información puede obtenerse de una gran variedad de fuentes.
    - En última instancia, es su responsabilidad investigar a fondo cualquier información disponible que sea relevante para el problema que está tratando de resolver.
+
+---
+
+## Ponga a prueba sus Conocimientos: Defectos del sistema
+
+1. ¿Cuáles de las siguientes son etapas del proceso de gestión de vulnerabilidades? Seleccione dos respuestas
+- [ ] Asigne un ID CVE
+- [x] Identificar vulnerabilidades
+- [x] Preparar las defensas contra las amenazas
+- [ ] Catalogar los recursos de la organización
+> La Gestión de vulnerabilidades es un proceso interno que incluye la identificación de vulnerabilidades y la preparación de defensas contra las amenazas. 
+
+2. Una organización es atacada por una vulnerabilidad hasta entonces desconocida. ¿De qué es un ejemplo este exploit?
+- [x] Día cero
+- [ ] Una capa perimetral
+- [ ] Un recurso
+- [ ] Un cifrado
+> Un Día cero se refiere a un exploit que era previamente desconocido.
+
+3. ¿Qué capa de la estrategia de defensa en profundidad es una capa de autenticación de usuarios que filtra principalmente el acceso externo?
+- [ ] Punto de conexión
+- [ ] Datos
+- [x] Perímetro
+- [ ] Red
+> La capa perimetral consiste en tecnologías de autenticación que permiten la entrada a usuarios verificados.
+
+4. Un investigador de Seguridad informa de una nueva vulnerabilidad a la Lista de vulnerabilidades y exposiciones comunes (CVE®). ¿Cuál de los siguientes criterios debe cumplir la vulnerabilidad antes de recibir un ID CVE®? Seleccione dos respuestas
+- [ ] Debe afectar a múltiples aplicaciones.
+- [x] La presentación debe contar con pruebas que la respalden.
+- [ ] La vulnerabilidad debe ser desconocida para el desarrollador.
+- [x] Debe poder arreglarse de forma independiente.
+> Los criterios que deben cumplirse son que las vulnerabilidades deben poder solucionarse de forma independiente y deben tener pruebas de apoyo.
