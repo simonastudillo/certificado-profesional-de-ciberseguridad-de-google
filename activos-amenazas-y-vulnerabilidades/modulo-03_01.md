@@ -248,3 +248,56 @@
 - ​Hay muchos más Controles de seguridad aparte de los pocos ​que he mencionado que forman parte ​del modelo de defensa en profundidad.
 - ​Muchas empresas diseñan ​sus sistemas de Seguridad utilizando el Modelo de defensa en profundidad.
 - ​Es de esperar que la comprensión de este framework ​le dé una mejor idea de cómo ​funcionan ​conjuntamente los Controles de seguridad de una organización para proteger los recursos importantes. 
+
+---
+
+## Vulnerabilidades y exposiciones comunes
+- ​¿Sabía que el grupo se extiende ​mucho más allá de un solo equipo de Seguridad?
+- ¡​Proteger la información es un esfuerzo global!
+- ​Cuando se trata de vulnerabilidades, ​en realidad existen bibliotecas públicas en línea.
+- ​Las personas y las organizaciones los utilizan para ​compartir y documentar las vulnerabilidades y exposiciones comunes.
+- ​Nos hemos centrado mucho en las vulnerabilidades.
+- ​Las exposiciones son similares, pero tienen una diferencia clave.
+- ​Si bien una vulnerabilidad es una debilidad de un sistema, ​una exposición es un error ​que puede ser aprovechado por una amenaza.
+- ​Por ejemplo, imagine que ​se le pide que proteja un documento importante.
+- ​Los documentos son vulnerables a extraviarse.
+- ​Si coloca el documento cerca de una ventana abierta, ​podría quedar expuesto a que se lo llevara volando.
+- ​Una de las bibliotecas de ​vulnerabilidades y exposiciones más populares es la lista CVE.
+- ​La lista de vulnerabilidades y ​exposiciones comunes, o lista CVE ​, es un ​diccionario de acceso abierto de vulnerabilidades y exposiciones conocidas.
+- ​Es un recurso popular. 
+- ​Muchas organizaciones utilizan una lista CVE ​para encontrar maneras de mejorar sus defensas.
+- ​La lista CVE fue creada originalmente por ​MITRE Corporation en 1999.
+- ​MITRE es un conjunto de centros de ​investigación y desarrollo sin fines de lucro.
+- ​Están patrocinados por el gobierno de los EE.UU.
+- ​Su objetivo es mejorar las ​tecnologías de Seguridad en todo el mundo.
+- ​El objetivo principal de la lista CVE es ​ofrecer una forma estándar de identificar ​y categorizar las vulnerabilidades y exposiciones conocidas.
+- ​La mayoría de las CVE de la lista son ​denunciadas por investigadores independientes​, proveedores de tecnología y piratas informáticos éticos, ​pero cualquiera puede denunciar una.
+- ​Antes de que un CVE pueda figurar en la lista de CVE, ​primero pasa por un estricto proceso de revisión por parte de una ​Autoridad de numeración de CVE, o CNA.
+- ​Una CNA es una organización que se ofrece como voluntaria para ​analizar y distribuir información sobre las CVEs elegibles.
+- ​Todos estos grupos tienen ​un historial establecido de investigación de vulnerabilidades ​y de demostración de capacidades de asesoramiento en materia de Seguridad.
+- ​Cuando se les informa de una vulnerabilidad o exposición, se ​lleva a cabo un riguroso proceso de pruebas.
+- ​La lista CVE pone a prueba cuatro criterios que ​debe cumplir una vulnerabilidad antes de que se le asigne un identificador.
+- ​En primer lugar, debe ser independiente de otras cuestiones.
+- ​En otras palabras, la vulnerabilidad debería poder ​repararse sin tener que arreglar otra cosa.
+- ​En segundo lugar, ​quien lo denuncie debe reconocerlo como un posible riesgo de Seguridad.
+- En tercer lugar, la vulnerabilidad debe ​presentarse con pruebas que la respalden.
+- ​Y, por último, la vulnerabilidad reportada ​solo puede afectar a una base de código ​o, en otras palabras, solo al código fuente de un programa.
+- ​Por ejemplo, la versión ​de escritorio de Chrome puede ser vulnerable, ​pero la aplicación para Android puede no serlo.
+- ​Si la falla reportada pasa todas estas pruebas, ​se le asigna un ID de CVE.
+- ​Las vulnerabilidades añadidas a la lista CVE ​suelen ser revisadas por otras bases de datos de vulnerabilidades en línea.
+- ​Estas organizaciones las someten a ​pruebas adicionales para revelar ​la importancia de las fallas ​y determinar qué tipo de amenaza representan.
+- ​Una de las más populares es ​la Base de datos nacionales de vulnerabilidades del NIST.
+- ​La Base de datos nacional de vulnerabilidades ​del NIST utiliza lo que se conoce como el sistema común de puntuación de vulnerabilidades, o ​CVSS, que es ​un sistema de medición que califica ​la gravedad de una vulnerabilidad.
+- ​Los equipos de seguridad utilizan CVSS como una forma de ​calcular el impacto que una vulnerabilidad ​podría tener en un sistema.
+- ​También los utilizan para determinar la ​rapidez con la que se debe corregir una vulnerabilidad.
+- La Base de datos nacional de vulnerabilidades del NIST proporciona ​una puntuación base de las CVE en una escala del 0 al 10.
+- ​Base: las puntuaciones reflejan el momento en que ​se evalúa una vulnerabilidad, ​por lo que no cambian con el tiempo.
+- ​En general, un CVSS con ​una puntuación inferior a 4.0 se considera de bajo riesgo ​y no requiere atención inmediata.
+- ​Sin embargo, cualquier valor superior a 9,0 se considera ​un riesgo crítico para ​los activos de la empresa que debe abordarse de inmediato.
+- ​Los equipos de seguridad suelen utilizar la lista CVE y las ​puntuaciones CVSS como parte de su estrategia de gestión de ​vulnerabilidades.
+- ​Estas referencias proporcionan recomendaciones ​para priorizar las correcciones de Seguridad, ​como instalar las actualizaciones de software antes que los parches.
+- ​Las bibliotecas, como la lista CVE, ​ayudan a las organizaciones a responder preguntas.
+- ¿Es una vulnerabilidad peligrosa para nuestro negocio?
+- ​Si es así, ¿qué tan pronto debemos abordarlo?
+- ​Estas bibliotecas en línea reúnen ​diversas perspectivas de todo el mundo.
+- ​Contribuir a este esfuerzo es una de ​mis partes favoritas de trabajar en este campo.
