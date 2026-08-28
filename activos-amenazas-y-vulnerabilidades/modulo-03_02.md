@@ -1,0 +1,35 @@
+# Identificar las vulnerabilidades del sistema
+
+## Evaluaciones de vulnerabilidades
+- ​Hemos hablado de cómo las vulnerabilidades ​influyen en el diseño de las defensas.
+- ​También hemos hablado de cómo ​se comparten las vulnerabilidades comunes.
+- ​Un tema que nos queda por cubrir es ​cómo se encuentran las vulnerabilidades en primer lugar.
+- Las debilidades y los defectos generalmente ​se encuentran durante una evaluación de vulnerabilidades.
+- ​Una evaluación de vulnerabilidades es ​el proceso de revisión interna de ​los sistemas de seguridad de una organización.
+- Estas evaluaciones funcionan de forma similar al proceso de ​identificación y categorización de vulnerabilidades ​en la Lista de CVE.
+- ​La principal diferencia es ​que el Equipo de Seguridad de la organización las realiza, ​evalúa, puntúa y corrige por su cuenta.
+- ​Los analistas de seguridad desempeñan ​una función clave en todo este proceso.
+- ​En general, el objetivo de ​una evaluación de vulnerabilidades es ​identificar puntos débiles y prevenir ataques.
+- ​También son el modo en que los equipos de seguridad determinan si ​sus controles de seguridad cumplen los Estándares normativos.
+- ​Las organizaciones realizan evaluaciones de vulnerabilidades con mucha frecuencia.
+- ​Dado que las empresas tienen tantos recursos ​que proteger, los Equipos de seguridad ​a veces tienen que seleccionar en qué área ​centrarse a través de las evaluaciones de vulnerabilidades.
+- ​Una vez que deciden en qué centrarse, ​las evaluaciones de vulnerabilidades suelen seguir ​un proceso de cuatro pasos.
+- ​El primer paso es la identificación.
+   - ​Aquí se utilizan herramientas de exploración y ​pruebas manuales para encontrar vulnerabilidades.
+   - ​Durante el paso de identificación, ​el objetivo es comprender ​el estado actual de un sistema de seguridad, ​como si se tomara una fotografía del mismo.
+   - ​Una gran cantidad de hallazgos ​suelen aparecer tras la identificación.
+- ​El siguiente paso del proceso es el Análisis de vulnerabilidades.
+   - ​Durante este paso, se comprueba cada una de ​las vulnerabilidades que se identificaron.
+   - ​Al ser un detective digital, el objetivo del ​análisis de vulnerabilidades es ​encontrar el origen del problema.
+- ​El tercer paso del proceso es la Evaluación de riesgos.
+   - ​Durante este paso del proceso, ​se asigna una puntuación a cada vulnerabilidad.
+   - ​Esta puntuación se asigna en función de dos factores: ​la gravedad del impacto que tendría si se ​explotara la vulnerabilidad y la probabilidad de que esto ocurra.
+   - ​Las vulnerabilidades descubiertas durante ​los dos primeros pasos de este proceso ​a menudo superan en número a las personas disponibles para solucionarlas.
+   - ​Las evaluaciones de riesgos son una forma de priorizar los recursos para ​manejar las vulnerabilidades que deben ​atenderse en función de su puntuación.
+- ​El cuarto y último paso de ​la evaluación de vulnerabilidades es la reparación.
+   - ​Durante este paso se abordan las vulnerabilidades ​que pueden afectar a la organización.
+   - ​La reparación se produce en función ​de la puntuación de gravedad asignada ​durante el paso de Evaluación de riesgos.
+   - ​Esta parte del proceso suele ser ​un esfuerzo conjunto entre el personal de Seguridad y los equipos de ​informática para idear el mejor enfoque para ​corregir las vulnerabilidades que se descubrieron anteriormente.
+   - ​Ejemplos de pasos de reparación pueden incluir ​cosas como hacer cumplir nuevos procedimientos de seguridad, ​actualizar sistemas operativos, ​o implementar parches del sistema.
+   - ​Las evaluaciones de vulnerabilidades son estupendas ​para identificar los fallos de un sistema.
+- ​La mayoría de las organizaciones las utilizan para ​buscar problemas antes de que se produzcan.
