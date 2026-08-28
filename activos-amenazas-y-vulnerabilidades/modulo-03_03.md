@@ -166,3 +166,36 @@
 - Cualquiera de estos vectores de ataque puede proporcionar accesibilidad a un sistema.
 - Reconocer las intenciones de un agente de amenaza puede ayudarle a determinar los puntos de acceso a los que podría dirigirse y los objetivos finales que podría tener.
 - Por ejemplo, es más probable que los trabajadores remotos presenten una amenaza a través del correo electrónico que una amenaza de acceso directo.
+
+---
+
+## Niru: Adopte una mentalidad de atacante
+- ​El equipo rojo de Google simula a atacantes que intentan hackear Google.
+- ​Funcionan como compañeros de entrenamiento para el equipo azul, es decir, los equipos que ​crean controles de Seguridad, canales de detección o responden a los incidentes.
+- ​Así que ayudamos a poner a prueba todo eso simulando a los adversarios.
+- Así que hackeamos Google para que sea más difícil hackear Google.
+- ​Así que es como: oye, hemos encontrado estos problemas en tu sistema.
+- ​Ahora, aquí tienes algunas recomendaciones que tenemos y ¿cómo podemos ayudarte a solucionarlo?
+- ​Pensar como un atacante es abordar un problema como un adversario.
+- ​Por lo general, tengo una predisposición a pensar como un agresor.
+- ​Comenzó cuando era niño y jugaba videojuegos, y ​solía preguntarme: oh, ¿tengo que ganar el juego de la manera prevista? ​¿Tengo que colocar el objetivo en la ruta de acceso estándar?
+- ​Analizo un sistema y me hago la pregunta: ¿puedo entrar en él? ​¿Cómo puedo entrar en él?
+- ​¿Qué es lo más probable que falle?
+- ​Si falla, ¿qué me da eso?
+- ​Se trata de desarmar sistemas y tratar de entenderlos.
+- ​Modelado de amenazas es parte integral de casi todo lo que hace un profesional de Seguridad. 
+- Se trata de cuestionar las suposiciones.
+- ​Se trata de abordar las cosas desde una perspectiva diferente.
+- ​En lugar de analizar el sistema desde la perspectiva de un desarrollador que está ​pensando en cómo puedo crear el sistema de una manera que funcione para las personas.
+- ​Te pones el sombrero de un agresor y dices: si mirara el sistema, ​¿cómo entraría en él?
+- ​Es importante que todos los profesionales de Seguridad piensen como los atacantes ​porque codifican de forma más defensiva, construyen cosas de forma más defensiva y ​descifran las cosas de forma más ofensiva.
+- ​Y eso significa que estás incorporando esta resiliencia al sistema y ​estás incorporando todas estas medidas de seguridad que ayudarán a proteger los datos, ​los sistemas y las personas.
+- ​Para desarrollar mi mentalidad de atacante, ​lo que hice fue ir a buscar los cerebros de las personas.
+- ​Lo que eso significa es que puedo tomarme un tiempo con ellos y decirles: ​oye, ¿cómo abordas el sistema? 
+- ¿Cuáles son las suposiciones que estás haciendo? ​¿Cómo diseñas las salvaguardas de Seguridad en las que estás pensando?
+- ​Mi consejo para las personas que están intentando construir su propia mentalidad de atacante ​es que hablen con la gente, ya sea en reuniones locales, en conferencias, ​busquen un grupo de CTF y jueguen estas competiciones con ellos.
+- ​Vea cómo cada miembro del equipo aborda ciertas cosas y las resuelve.
+- ​Hoy en día, casi todo lo que hacemos a diario está en línea, como la banca ​en línea, las compras de comestibles en línea, la cuadrícula eléctrica, el suministro de agua.
+- ​Todo esto ha ocurrido en poco tiempo, y ​ahora la gente da un paso atrás y se pregunta: ¿qué significa eso para nosotros?
+- ​Y la gente de ciberseguridad es la que ayuda a garantizar que estos sistemas estén ​bloqueados y protegidos contra estos adversarios.
+- ​Si eres curioso, si te gusta desarmar cosas, si te gusta resolver cosas, ​si quieres ayudar a que las cosas sean seguras, deberías unirte a la ciberseguridad. 
