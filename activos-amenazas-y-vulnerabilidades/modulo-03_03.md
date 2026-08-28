@@ -199,3 +199,49 @@
 - ​Todo esto ha ocurrido en poco tiempo, y ​ahora la gente da un paso atrás y se pregunta: ¿qué significa eso para nosotros?
 - ​Y la gente de ciberseguridad es la que ayuda a garantizar que estos sistemas estén ​bloqueados y protegidos contra estos adversarios.
 - ​Si eres curioso, si te gusta desarmar cosas, si te gusta resolver cosas, ​si quieres ayudar a que las cosas sean seguras, deberías unirte a la ciberseguridad. 
+
+---
+
+## Caminos a través de las defensas
+- ​Para defenderse de los ataques, ​las organizaciones necesitan tener ​algo más que la comprensión ​del creciente panorama digital que las rodea.
+- ​Posicionarse por delante de una ciberamenaza también requiere ​comprender el tipo de ​ataques que se pueden utilizar en su contra.
+- ​Vectores de ataque se refieren a las vías que ​utilizan los atacantes para penetrar las defensas de Seguridad.
+- ​Al igual que las puertas y ventanas de una casa, ​estos caminos son las características explotables ​de una superficie de ataque.
+- ​Un ejemplo de vector de ataque serían las redes sociales.
+- ​Otro sería un medio extraíble, como una unidad USB.
+- ​La mayoría de las personas ajenas a la Seguridad asumen que ​los ciberdelincuentes son los únicos ​que explotan los vectores de ataque.
+- ​Si bien los ​piratas informáticos malintencionados utilizan los vectores de ataque para robar información, ​otros grupos también los utilizan.
+- ​Por ejemplo, en ​ocasiones los empleados explotan los vectores de ataque de forma involuntaria.
+- ​Esto ocurre mucho con las plataformas de redes sociales.
+- ​A veces, los empleados publican noticias delicadas de la empresa ​que no deberían haberse compartido.
+- ​A veces, este mismo tipo de cosas ocurren a propósito.
+- ​Redes sociales también son ​vectores que los empleados descontentos ​utilizan para compartir intencionalmente ​información confidencial que puede dañar a la empresa.
+- ​Todos tratamos los vectores de ataque como ​riesgos críticos para la seguridad de los recursos.
+- ​Los atacantes suelen ​esforzarse mucho para planificar sus ataques antes de llevarlos a cabo.
+- ​Depende de nosotros, como profesionales de Seguridad, ​esforzarnos aún más para detenerlos.
+- ​Los equipos de seguridad hacen esto pensando en ​cada vector con una mentalidad de atacante.
+- Esto comienza con una pregunta sencilla ​: «¿cómo explotaríamos este vector?»
+- ​Luego pasamos por un proceso paso a paso ​para responder a nuestra pregunta.
+- ​En primer lugar, cuando practicamos la mentalidad de un atacante, ​identificamos un objetivo.
+- ​Puede tratarse de información específica, de un sistema, de ​una persona, de un grupo ​o de la propia organización.
+- ​A continuación, determinamos cómo se puede acceder al objetivo.
+- ​¿Qué información hay disponible que un atacante ​podría aprovechar para alcanzar el objetivo?
+- ​Con base en esa información, ​el tercer paso es evaluar ​los vectores de ataque que pueden explotarse para entrar.
+- ​Y, por último, encontramos las herramientas y los métodos de ataque.
+- ​¿Qué usarán los atacantes para llevar a cabo esto?
+- ​Al mismo tiempo, practicar ​una mentalidad de atacante proporciona una ​valiosa estadística sobre los mejores controles de Seguridad que se pueden implementar ​y las vulnerabilidades que deben monitorearse.
+- ​Cada organización tiene una larga lista ​de vectores de ataque que defender.
+- ​Si bien hay muchas maneras de protegerlos, ​hay algunas reglas comunes para hacerlo.
+- ​Una clave para defender los vectores de ataque es ​educar a los usuarios sobre las vulnerabilidades de Seguridad.
+- ​Estos esfuerzos suelen estar vinculados a un evento.
+- ​Por ejemplo, informarles sobre ​un nuevo exploit de suplantación de identidad ​dirigido a los usuarios de la organización.
+- ​Otra regla es aplicar ​el principio de privilegio mínimo.
+- ​Es la idea de que los derechos de acceso deben ​limitarse a lo que se requiere para realizar una tarea.
+- ​Como analizamos anteriormente, ​esta práctica cierra múltiples agujeros de Seguridad ​dentro de la superficie de ataque de una organización.
+- ​Además, el uso de los controles y ​herramientas de Seguridad adecuados puede contribuir en gran medida a la defensa de los vectores de ataque.
+- ​Incluso los empleados más expertos ​cometen errores de Seguridad, ​como hacer clic accidentalmente en ​un enlace malintencionado de un correo electrónico.
+- ​Disponer de las herramientas de Seguridad adecuadas, ​como el software antivirus, ​ayuda a defender los vectores de ataque de ​manera más eficiente y a reducir el riesgo de errores humanos.
+- ​Por último, pero no por ello menos importante, ​está la creación de un equipo de Seguridad diverso.
+- ​Esta es una de las mejores maneras de reducir el riesgo de ​vectores de ataque y prevenir futuros ataques.
+- ​Su propia perspectiva única puede ​mejorar en gran medida la capacidad del equipo de Seguridad para ​aplicar la mentalidad de un atacante y mantenerse ​un paso por delante de las posibles amenazas.
+- ​Mantenerse informado ​siempre es importante en este campo.
