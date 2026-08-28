@@ -19,3 +19,4 @@
 ---
 
 ## Términos del glosario del Módulo 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
