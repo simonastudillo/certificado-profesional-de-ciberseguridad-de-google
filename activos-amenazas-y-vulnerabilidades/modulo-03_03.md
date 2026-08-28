@@ -280,3 +280,88 @@
 
 2. Ahora, escriba de 3 a 5 frases (de 60 a 100 palabras) que expliquen cuáles son esos vectores de ataque y cómo puede aplicar las herramientas y/o estrategias que ha aprendido para proteger su hogar. Escriba su respuesta en el cuadro de texto
 > Los vectores de ataque en mi hogar incluyen el acceso físico a través de puertas y ventanas, así como el acceso digital a través de la red Wi-Fi y dispositivos conectados. Un atacante podría explotar estas vulnerabilidades mediante el uso de técnicas de ingeniería social o ataques cibernéticos. Para proteger mi hogar, puedo implementar defensas como cerraduras más seguras, cámaras de seguridad, uso de protección en ventanas y balcones. En el ambito digital, puedo fortalecer la seguridad de mi red Wi-Fi con contraseñas robustas, habilitar la autenticación de dos factores y mantener mis dispositivos actualizados con parches de seguridad. Además, educar a los miembros del hogar sobre prácticas seguras en línea puede reducir el riesgo de ataques. Mantener siempre mis dispositivos bloqueados cuando no estén en uso y evitar dejar información sensible a la vista también son medidas importantes para proteger mi hogar.
+
+---
+
+## Fortalézcase contra los ciberataques de fuerza bruta
+- Los nombres de usuario y las contraseñas son uno de los controles de seguridad más comunes e importantes que se utilizan hoy en día.
+- Son como la cerradura de la puerta que las organizaciones utilizan para restringir el acceso a sus redes, servicios y datos.
+- Pero uno de los principales problemas de confiar en las credenciales de inicio de sesión como línea crítica de defensa es que son vulnerables a ser robadas y adivinadas por los atacantes.
+- Aprendiste que los ataques de fuerza bruta son un proceso de ensayo y error para descubrir información privada.
+- En esta lectura, aprenderá acerca de las muchas tácticas y herramientas utilizadas por los actores de amenazas para realizar ataques de fuerza bruta.
+- También aprenderá estrategias de prevención que las organizaciones pueden utilizar para defenderse de ellos.
+
+- Cuestión de ensayo y error
+   - Una forma de abrir una cerradura cerrada es probar tantas combinaciones como sea posible.
+   - Los actores de amenazas a veces utilizan tácticas similares para obtener acceso a una aplicación o a una red. 
+   - Los atacantes utilizan diversas tácticas para encontrar la forma de entrar en un sistema:
+      - Los ataques de fuerza bruta simple:
+         - son un método en el que los atacantes adivinan las credenciales de inicio de sesión de un usuario.
+         - Pueden hacerlo introduciendo cualquier combinación de nombre de usuario y contraseña que se les ocurra hasta que encuentren la que funciona.
+      - Los ataques de diccionario:
+         -  son una técnica similar, salvo que en estos casos los atacantes utilizan una lista de credenciales de uso común para acceder a un sistema.
+         - Esta lista es similar a la búsqueda de una definición en un diccionario.
+      - Los ataques de fuerza bruta inversa:
+         - Son similares a los ataques de diccionario, excepto que empiezan con una única credencial y la prueban en varios sistemas hasta que encuentran una coincidencia.
+      - El relleno de credenciales:
+         - Es una táctica en la que los atacantes utilizan credenciales de inicio de sesión robadas de anteriores violaciones de datos para acceder a cuentas de usuario de otra organización.
+         - Un tipo especializado de relleno de credenciales se denomina pasar el hash.
+         - Estos ataques reutilizan credenciales robadas y sin hash para engañar a un sistema de autenticación y crear una nueva sesión de usuario autenticado en la red.
+   - Además de las credenciales de acceso, la información cifrada a veces puede ser forzada mediante una técnica conocida como búsqueda exhaustiva de claves.
+   - Cada uno de estos métodos implica mucho trabajo de adivinación.
+   - Forzar la entrada en un sistema puede ser un proceso tedioso y lento, especialmente cuando se hace manualmente.
+   - Por eso, las amenazas suelen utilizar herramientas para llevar a cabo sus ataques.
+
+- Herramientas del oficio
+   - Hay muchas combinaciones que se pueden utilizar para crear un único conjunto de credenciales de inicio de sesión.
+   - El número de caracteres, letras y números que se pueden mezclar es realmente increíble.
+   - Si se hace manualmente, alguien podría tardar años en probar todas las combinaciones posibles.
+   - En lugar de dedicar tiempo a esto, los atacantes a menudo utilizan software para hacer el trabajo de adivinación por ellos.
+   - Estas son algunas herramientas comunes de fuerza bruta:
+      - Aircrack-ng
+      - Hashcat
+      - John the Ripper
+      - Ophcrack
+      - THC Hydra
+   - A veces, los profesionales de la seguridad utilizan estas herramientas para probar y analizar sus propios sistemas.
+   - Cada una de ellas sirve para fines distintos.
+   - Por ejemplo, podría utilizar Aircrack-ng para probar una red Wi-Fi en busca de vulnerabilidades frente a ataques de fuerza bruta.
+
+- Medidas de prevención
+   - Las organizaciones se defienden de los ataques de fuerza bruta con una combinación de controles técnicos y de gestión.
+   - Cada uno de ellos hace que sea menos probable crackear los sistemas de defensa mediante fuerza bruta:
+      - Hashing y salting
+      - Autenticación multifactor (MFA)
+      - CAPTCHA
+      - Políticas de contraseñas
+   - Las tecnologías, como la autenticación multifactor (MFA), refuerzan cada intento de inicio de sesión exigiendo una segunda o tercera forma de identificación.
+   - Otras herramientas importantes son los CAPTCHA y las políticas de contraseñas eficaces.
+
+- Hashing y salting
+   - El hash convierte la información en un valor único que puede utilizarse para determinar su integridad.
+   - El salting es una salvaguarda adicional que se utiliza para reforzar las funciones hash.
+   - Funciona añadiendo caracteres aleatorios a los datos, como las contraseñas.
+   - Esto aumenta la longitud y complejidad de los valores hash, haciéndolos más difíciles de forzar y menos susceptibles a los ataques de diccionario.
+
+- Autenticación multifactor (MFA)
+   - La autenticación multifactor (MFA) es una medida de seguridad que requiere que un usuario verifique su identidad de dos o más formas para acceder a un sistema o red.
+   - La autenticación multifactor (MFA) es un enfoque por capas para proteger la información.
+   - La MFA limita las posibilidades de ataques de fuerza bruta porque es poco probable que los usuarios no autorizados cumplan cada requisito de autenticación, incluso si una credencial se ve comprometida.
+
+- CAPTCHA
+   - CAPTCHA son las siglas de Completely Automated Public Turing test to tell Computers and Humans Apart.
+   - Se conoce como sistema de autenticación desafío-respuesta.
+   - CAPTCHA pide a los usuarios que completen una sencilla prueba que demuestra que son humanos y no un software que intenta forzar una contraseña.
+   - Hay dos tipos de pruebas CAPTCHA.
+   - Una codifica y distorsiona una secuencia de letras y/o números generada aleatoriamente y pide a los usuarios que la introduzcan en un cuadro de texto.
+   - La otra prueba pide a los usuarios que relacionen imágenes con una palabra generada aleatoriamente.
+   - Es probable que alguna vez hayas tenido que pasar una prueba CAPTCHA al acceder a un servicio web que contiene información confidencial, como una cuenta bancaria en línea.
+
+- Política de contraseñas
+   - Las organizaciones utilizan estos controles de gestión para estandarizar las buenas prácticas de contraseñas en toda la empresa.
+   - Por ejemplo, una de estas políticas puede exigir a los usuarios que creen contraseñas que tengan al menos 8 caracteres y que incluyan una letra, un número y un símbolo.
+   - Otros requisitos comunes pueden incluir políticas de bloqueo de contraseñas.
+   - Por ejemplo, un bloqueo de contraseña puede limitar el número de intentos de inicio de sesión antes de que se suspenda el acceso a una cuenta y exigir a los usuarios que creen contraseñas nuevas y únicas después de un tiempo determinado.
+   - El objetivo de cada uno de estos requisitos es crear más combinaciones posibles de contraseñas.
+   - Esto alarga el tiempo que tarda un atacante en encontrar una que funcione.
+   - [La publicación especial 800-63B-4 del Instituto Nacional de Estándares y Tecnología (NIST)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b-4.pdf) ofrece una guía detallada que las organizaciones pueden consultar a la hora de crear sus propias políticas de contraseñas.
