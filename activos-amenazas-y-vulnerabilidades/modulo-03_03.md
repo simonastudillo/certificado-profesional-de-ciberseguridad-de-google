@@ -440,3 +440,15 @@
    - Considerando la información encontrada, se podría usar contra empleados específicos, como Jorge Bailey, para realizar ataques de ingeniería social, los empleados al conocer su horario de trabajo podrían ser atacados en momentos específicos, o incluso podrían ser víctimas de acoso o amenazas, por último está el nuevo contrato donde aparecen detalles privados de sus funciones, horarios, remuneración y datos personales, los cuales podrían ser utilizados para suplantar la identidad del nuevo empleado o incluso para chantajearlo. Con respecto a la información personal, las fotos familiares y de mascotas podrían ser utilizadas para crear perfiles falsos en redes sociales, lo que podría llevar a ataques de phishing dirigidos o incluso a la suplantación de identidad. Usando esas mismas fotos en cuentas falsas se podría conseguir información adicional sobre el trabajo, la familia y los amigos de Jorge.
 3. Risk analysis:
    - Algunos archivos podrían ser "imagenes falsas" que al abrirlas podrían ejecutar código malicioso en el sistema, comprometiendo la seguridad de la red del hospital. Podría haber sido encontrada por otro empleado que la conectara a su computadora, lo que podría haber resultado en la instalación de malware o ransomware en la red del hospital. La información sensible encontrada en la unidad USB podría ser utilizada para ataques de ingeniería social, suplantación de identidad o incluso chantaje. Para mitigar estos riesgos, se podrían implementar controles técnicos como el uso de software antivirus y firewalls, controles operativos como la educación y concienciación de los empleados sobre los riesgos de conectar dispositivos desconocidos, y controles de gestión como políticas estrictas sobre el uso de dispositivos externos y la gestión de información sensible.
+
+---
+
+## Ejemplar de actividad: Identificar los vectores de ataque de una unidad USB
+- [Ejercicio USB de aparcamiento](./resources/GY61ELqLTbParking-lot-USB-exercise-exemplar.docx)
+- Evaluación del ejemplar
+
+1. Contenido: El contenido de la unidad USB contiene archivos que parecen pertenecer a una persona concreta. Contiene una mezcla de información personal y relacionada con el negocio que no debería almacenarse en el mismo lugar.
+
+2. Mentalidad del atacante: Cualquier Información que obtenga un atacante puede ser utilizada contra alguien. La Información de una unidad USB debe encriptarse independientemente de si es personal o relacionada con el trabajo.
+
+3. Análisis de riesgos: No es seguro conectar una unidad USB desconocida a su computadora debido al amplio Rango de ataques que pueden esconderse en ellas. Promover la concienciación de los empleados sobre los ataques de USB baiting es un control de gestión que puede reducir los riesgos de un Evento negativo. Escanear rutinariamente en busca de virus es un ejemplo de control operativo que puede implementarse. Y desactivar la reproducción automática en todos los PC es una precaución técnica que puede tomarse.
