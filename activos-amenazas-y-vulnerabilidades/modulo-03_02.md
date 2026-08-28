@@ -378,3 +378,24 @@
 
 - Remediation Strategy
    - Se deben implementar mecanismos de autenticación, autorización, auditoría, principios de menor privilegio y separación de funciones para mitigar los riesgos de amenazas identificados. Se recomienda el uso de cuentas individuales, con contraseñas que cumplan estándares de seguridad, para todos los empleados y clientes que accedan a la base de datos. Se recomienda que las cuentas generadas tengan un rol asignado, el cúal determine sus privilegios de acceso a la base de datos. Por último se recomienda bloquear accesos remotos a la base de datos y permitir únicamente conexiones desde la red interna de la empresa.
+
+---
+
+## Ejemplar de actividad de Portfolio: Analizar un sistema vulnerable para una pequeña empresa
+- [Vulnerability Assessment Report examplar](./resources/Vulnerability-assessment-report-exemplar.docx)
+- Resumen
+   - El Informe de ejemplo contiene una sección de Propósito que es una explicación del sistema de información que se está evaluando: un servidor de base de datos de acceso público.
+   - En ella se describe la función empresarial del sistema.
+   - También deja claro el motivo por el que se realiza el Análisis.
+   - La sección de Evaluación de riesgos del ejemplo contiene una tabla completada.
+   - La Evaluación de riesgos identifica las fuentes potenciales de amenaza y los Eventos de amenaza que podrían impactar negativamente en el negocio.
+   - Ambos se determinaron formulando preguntas como las siguientes
+      - ¿Es la amenaza relevante para este sistema?
+      - ¿La amenaza es interna o externa?
+      - ¿Cuál es la intención del agente de amenaza?
+      - ¿Cuáles son las capacidades técnicas del agente de amenaza?
+   - El Riesgo de cada amenaza se cuantifica multiplicando su probabilidad de ocurrencia por la gravedad de su Impacto en el negocio.
+   - A continuación, se calcula una puntuación global del riesgo que demuestre a las partes interesadas tanto la gravedad de los riesgos para la base de datos como la forma en que deben priorizarse los recursos para hacer frente a los riesgos más críticos.
+   - El número de filas de una tabla de evaluación de riesgos puede variar en función de la complejidad y el alcance de la evaluación.
+   - La sección Enfoque del ejemplo es una declaración que sigue a la evaluación de riesgos y que explica por qué y cómo se evaluaron las amenazas específicas.
+   - Por último, en la sección Remediación del Informe se esbozó un plan para asegurar el servidor de base de datos vulnerable.
