@@ -15,3 +15,7 @@
 - ​Veremos cosas como el software malicioso y las técnicas ​que los atacantes utilizan para comprometer los sistemas de defensa.
 - Explorando cómo funcionan estas herramientas y tácticas, ​obtendrá una comprensión más clara ​de las amenazas que plantean.
 - Concluiremos investigando cómo los Equipos de Seguridad ​evitan que estas amenazas ​dañen las operaciones de nuestras organizaciones, ​su Reputación y, lo que es más importante, ​sus Clientes y Empleados.
+
+---
+
+## Términos del glosario del Módulo 3
