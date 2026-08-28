@@ -1,0 +1,42 @@
+# Mentalidad del ciberatacante
+
+## Proteger todos los puntos de entrada
+- ​Existe una amplia gama de vulnerabilidades en los sistemas que hay que encontrar.
+- ​Evaluar esas debilidades es un proceso que lleva mucho tiempo.
+- ​Para posicionarse por delante de las amenazas y ​aprovechar al máximo sus limitados recursos, las empresas empiezan por comprender ​el entorno que rodea sus operaciones.
+- ​Una parte importante de esto es hacerse una idea de su superficie de ataque.
+- ​Una superficie de ataque son todas las vulnerabilidades potenciales que un agente de amenaza ​podría explotar. 
+- Analizar la superficie de ataque suele ser lo primero que hacen los equipos de seguridad.
+- ​Por ejemplo, imagine que forma parte de un equipo de seguridad de un viejo castillo.
+- ​Su equipo tendría que decidir cómo asignar recursos a las defensas.
+- ​Murallas gigantes, torres de piedra y ​puertas de madera son algunos de los controles de seguridad comunes de estas estructuras.
+- ​Aunque todos ellos están diseñados para proteger los recursos de su interior de los ataques, ​no contabilizan exactamente todas las posibilidades.
+- ​¿Y si el castillo estuviera cerca del océano? ​Si así fuera, estas defensas serían vulnerables a los ataques a larga distancia por barco. 
+- Un conocimiento adecuado de la superficie de ataque significaría que su Equipo de Seguridad ​equiparía el castillo con catapultas que pudieran hacer frente a este tipo de amenazas.
+- ​Las organizaciones modernas deben preocuparse tanto por una superficie de ataque física como ​por una digital.
+- ​La superficie de ataque física está formada por las personas y sus dispositivos.
+- ​Esta superficie puede ser atacada tanto desde dentro como ​desde fuera de la organización, lo que la hace única.
+- ​Por ejemplo, ​consideremos un ordenador portátil desatendido en un espacio público, como una cafetería.
+- ​La persona responsable de ​se alejó mientras en la pantalla se veía información sensible de la empresa. 
+- Esta información es vulnerable a amenazas externas, ​como un competidor empresarial, que puede registrar fácilmente la información y explotarla.
+- ​Una amenaza interna de esta superficie de ataque, por otra parte, ​son a menudo los empleados enfadados.
+- ​Estos empleados podrían compartir información privada de una organización a ​propósito.
+- ​En general, la superficie de ataque física debería estar llena de obstáculos que ​disuadan de que se produzcan ataques.
+- ​Llamamos a este proceso endurecimiento de seguridad.
+- ​El endurecimiento de seguridad es el proceso de reforzar un sistema para ​reducir sus vulnerabilidades y superficie de ataque.
+- ​En otras palabras, el endurecimiento es el acto de ​minimizar la superficie de ataque limitando sus puntos de entrada. 
+- Hacemos esto mucho en seguridad porque cuanto más pequeña sea la superficie de ataque, ​más fácil será protegerla.
+- ​De hecho, algunos de los controles de seguridad que hemos explorado anteriormente, ​como las políticas de organización y los controles de acceso, son formas comunes en las que ​las organizaciones endurecen su superficie de ataque física.
+- ​La superficie de ataque digital es un poco más difícil de endurecer.
+- ​La superficie de ataque digital incluye todo lo que está más allá del firewall de nuestra ​organización.
+- ​En otras palabras, incluye cualquier cosa que se conecte a una organización en línea.
+- ​En el pasado, las organizaciones almacenaban sus datos en una única ubicación.
+- ​Estaban compuestas principalmente por servidores que se gestionaban in situ.
+- Acceder a la información almacenada en esos servidores requería conectarse a ​la red que gestionaba el lugar de trabajo.
+- ​Hoy en día, se accede a la información fuera de la red de una organización porque está ​almacenada en la nube.
+- ​Se puede acceder a la información desde cualquier parte del mundo.
+- ​Una persona puede estar en una parte del mundo, volar a otro lugar y ​seguir trabajando.
+- Todo ello mientras se encuentra fuera de la red de su organización.
+- ​La computación en la nube ha ampliado esencialmente la superficie de ataque digital.
+- ​El acceso más rápido a la información es algo de lo que todos nos beneficiamos, pero ​tiene un coste.
+- ​Las organizaciones de todos los tamaños están sometidas a una mayor presión para defenderse de las amenazas ​que provienen de diferentes puntos de entrada. ​Cuando nos reunamos la próxima vez, exploraremos por qué esto supone un desafío. 
