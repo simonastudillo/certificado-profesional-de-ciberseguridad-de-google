@@ -245,3 +245,38 @@
 - ​Esta es una de las mejores maneras de reducir el riesgo de ​vectores de ataque y prevenir futuros ataques.
 - ​Su propia perspectiva única puede ​mejorar en gran medida la capacidad del equipo de Seguridad para ​aplicar la mentalidad de un atacante y mantenerse ​un paso por delante de las posibles amenazas.
 - ​Mantenerse informado ​siempre es importante en este campo.
+
+---
+
+## Autorreflexión: Enfoque la ciberseguridad con mentalidad de atacante
+- Resumen de la actividad
+   - Ahora que se le han presentado las superficies de ataque y los vectores de ataque, puede detenerse un momento y reflexionar sobre lo que está aprendiendo.
+   - En esta autorreflexión, pensará en cómo estos factores pueden ayudarle a identificar amenazas y a responder a preguntas breves.
+   - Ha aprendido muchas habilidades y conceptos en este curso.
+   - Completar esta autorreflexión le ayudará a comprender cómo podría utilizar lo que ha aprendido para diferentes tareas y funciones en el ámbito de la seguridad.
+   - Responder y formular preguntas en esta autorreflexión le ayudará a reforzar lo que ha aprendido, por lo que le resultará más fácil recordarlo más adelante.
+
+- Repase los pasos para aplicar una mentalidad de atacante
+   - Anteriormente, aprendió que aplicar una mentalidad de atacante a cualquier situación empieza por preguntarse:
+   - "¿Cómo explotaría este vector?" Para ello deberá tener en cuenta dos elementos: la superficie de ataque y sus vectores de ataque.
+   - Recuerde, una superficie de ataque incluye todas las vulnerabilidades potenciales que un actor de amenaza podría explotar.
+   - Un vector de ataque es la vía que utiliza un atacante para penetrar las defensas de seguridad de una superficie de ataque.
+   - Después de considerar estos elementos, puede seguir un proceso paso a paso para aplicar una mentalidad de atacante:
+      - Identificar un objetivo
+      - Determine cómo se puede acceder al objetivo
+      - Evalúe los vectores de ataque que pueden explotarse
+      - Encuentre las herramientas y los métodos de ataque
+
+- Reflexión
+   - Considere lo que ha repasado sobre la aplicación de una mentalidad de atacante en relación con la seguridad de su entorno doméstico
+   - ¿Cuáles son las superficies de ataque de un hogar? ¿Son físicas o digitales? ¿Cuáles son sus vulnerabilidades? ¿Están actualmente expuestas a riesgos?
+
+1. Ahora, escriba 2-3 frases (40-60 palabras) que describan características importantes sobre las superficies de ataque de su casa. Escriba su respuesta en el cuadro de texto
+> La superficie de ataque en mi hogar incluye tanto elementos físicos como digitales. Entre las vulnerabilidades físicas se encuentran las cerraduras de las puertas y ventanas, mientras que las vulnerabilidades digitales incluyen la red Wi-Fi y los dispositivos conectados, una combinación de ambas podría ser el uso de una computadora cerca de ventanas abiertas, lo que permite a un atacante potencial observar información sensible, también confiarse en que al estar en el hogar puedo dejar mis dispositivos electrónicos desatendidos.
+
+- A continuación, considere cómo podría explotar un atacante las vulnerabilidades de esa superficie.
+- ¿Cuáles son los Vectores de ataque de esta superficie? ¿Existen múltiples puntos de entrada?
+- ¿Cómo podrían explotarse las vulnerabilidades? ¿Qué defensas existen? ¿Se pueden añadir nuevas defensas?
+
+2. Ahora, escriba de 3 a 5 frases (de 60 a 100 palabras) que expliquen cuáles son esos vectores de ataque y cómo puede aplicar las herramientas y/o estrategias que ha aprendido para proteger su hogar. Escriba su respuesta en el cuadro de texto
+> Los vectores de ataque en mi hogar incluyen el acceso físico a través de puertas y ventanas, así como el acceso digital a través de la red Wi-Fi y dispositivos conectados. Un atacante podría explotar estas vulnerabilidades mediante el uso de técnicas de ingeniería social o ataques cibernéticos. Para proteger mi hogar, puedo implementar defensas como cerraduras más seguras, cámaras de seguridad, uso de protección en ventanas y balcones. En el ambito digital, puedo fortalecer la seguridad de mi red Wi-Fi con contraseñas robustas, habilitar la autenticación de dos factores y mantener mis dispositivos actualizados con parches de seguridad. Además, educar a los miembros del hogar sobre prácticas seguras en línea puede reducir el riesgo de ataques. Mantener siempre mis dispositivos bloqueados cuando no estén en uso y evitar dejar información sensible a la vista también son medidas importantes para proteger mi hogar.
