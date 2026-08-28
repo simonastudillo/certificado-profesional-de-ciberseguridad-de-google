@@ -219,3 +219,35 @@
    - Las organizaciones suelen llevar a cabo programas de recompensas por errores que ofrecen a los pen testers autónomos recompensas económicas por encontrar y notificar vulnerabilidades en sus productos.
    - Las Recompensas por errores son grandes oportunidades para que los profesionales de la Seguridad aficionados participen y hagan crecer sus habilidades.
    - [HackerOne](https://hackerone.com/bug-bounty-programs) es una comunidad de hackers éticos en la que puede encontrar Recompensas por errores activas en las que participar.
+
+---
+
+## Ponga a prueba sus Conocimientos: Identificar las vulnerabilidades del sistema
+
+1. Rellene el espacio en blanco: Una vulnerabilidad ____ se refiere al proceso de revisión interna de los sistemas de Seguridad de una organización
+- [x] evaluación
+- [ ] escáner
+- [ ] parche
+- [ ] puntuación
+> Una evaluación de vulnerabilidades es un proceso de revisión interna de los sistemas de Seguridad de una organización.
+
+2. ¿Cuáles son los objetivos de una evaluación de vulnerabilidades? Seleccione dos respuestas
+- [x] Para reducir la exposición global a las amenazas
+- [ ] Detectar el tráfico de red
+- [ ] Auditar el cumplimiento normativo
+- [x] Identificar los puntos débiles existentes
+> Los objetivos de una evaluación de vulnerabilidades son identificar las debilidades existentes y reducir la exposición general a las amenazas.
+
+3. ¿Cuál de los siguientes ejemplos de remediación podría implementarse después de un escaneo de vulnerabilidad? Seleccione dos respuestas
+- [x] Instalación de actualizaciones de software y parches
+- [ ] Localización de vulnerabilidades en los puestos de trabajo
+- [x] Entrenamiento de los empleados para que sigan los nuevos Procedimientos de Seguridad
+- [ ] Identificar errores de configuración en una aplicación
+> Entre los ejemplos de medidas correctoras que podrían llevarse a cabo tras un escaneado de vulnerabilidades se incluyen el Entrenamiento de los empleados en nuevos procedimientos y la instalación de actualizaciones y parches de software.
+
+4. ¿Cuáles son los dos tipos de exploraciones de vulnerabilidad? Seleccione dos respuestas
+- [ ] Parche o actualización
+- [x] Limitado o completo
+- [x] Autenticado o no autenticado
+- [ ] Riesgo o Amenaza
+> Autenticado o no autenticado y limitado o exhaustivo son dos tipos de escaneado de vulnerabilidades. Interna y externa es otro tipo común de exploración de vulnerabilidades.
