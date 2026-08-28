@@ -14,3 +14,57 @@
 - ​En esta sección del curso, ​va a conocer algunas de ​las amenazas más comunes a las que se enfrentan las organizaciones en línea.
 - ​Por último, después de explorar ​las amenazas más comunes a las que se enfrentan las organizaciones, ​vamos a terminar explorando ​el proceso de modelado de amenazas.
 - ​Comprender las amenazas es esencial para ​un analista de seguridad.
+
+---
+
+## El arte criminal de la persuasión
+- ​Cuando escuchas la palabra «cibercriminal», ​¿qué te viene a la mente?
+- ​Puede imaginarse a un hacker ​encorvado sobre una computadora en una habitación oscura.
+- ​Si esto es lo que te viene a la mente, no estás solo.
+- ​De hecho, esto es lo que ​piensa la mayoría de las personas ajenas a Seguridad.
+- ​Sin embargo, los delincuentes en línea no siempre son tan ​diferentes de los que operan en el mundo real. 
+- Los piratas informáticos malintencionados son solo un tipo de delincuente en línea. 
+- Son un tipo específico que se basa en ​habilidades sofisticadas de programación de computadoras ​para llevar a cabo sus ataques. 
+- ​Hay otras formas de cometer delitos ​que no requieren conocimientos de programación.
+- ​A veces, los delincuentes se basan en ​un enfoque más tradicional, la manipulación.
+- ​La ingeniería social es ​una técnica de manipulación que aprovecha el ​error humano para obtener ​información privada, acceso o objetos de valor.
+- ​Estas tácticas engañan a las personas para que ​infrinjan los procedimientos de seguridad normales en nombre del atacante.
+- ​Esto puede provocar la exposición de datos, ​infecciones generalizadas de software malicioso o ​acceso no autorizado a sistemas restringidos.
+- ​Los ataques de ingeniería social pueden ocurrir en cualquier lugar.
+- ​Ocurren en línea, en persona ​y a través de otras interacciones.
+- ​Los actores de amenazas utilizan muchas tácticas diferentes ​para llevar a cabo sus ataques.
+- ​Algunos ataques pueden tardar unos segundos en ejecutarse.
+- ​Por ejemplo, alguien que se hace pasar por el ​soporte técnico le pide a un empleado ​su contraseña para arreglar su computadora.
+- ​Otros ataques pueden tardar meses o más, ​como los actores de amenazas que ​monitorean las redes sociales de un empleado.
+- ​El empleado puede publicar un comentario diciendo que ha conseguido ​un puesto temporal en un nuevo puesto en la empresa.
+- ​Un atacante podría aprovechar una oportunidad como esta para atacar ​al trabajador temporal, que probablemente tenga ​menos conocimientos sobre los procedimientos de Seguridad.
+- ​Independientemente del período de tiempo, ​saber qué buscar puede ayudarlo a ​identificar y detener rápidamente un ataque en marcha.
+- Los ataques de ingeniería social tienen varias etapas.
+- ​La primera suele ser la preparación.
+- ​En esta etapa, los atacantes ​recopilan información sobre su objetivo.
+- ​Usando la información, ​determinarán la mejor manera de explotarlos.
+- ​En la siguiente etapa, los atacantes establecen confianza.
+- ​Esto se conoce a menudo como pretexto.
+- ​Aquí, los atacantes utilizan la información que ​recopilaron anteriormente para abrir una línea de comunicación.
+- ​Por lo general, se disfrazan para engañar a ​su objetivo con un falso sentido de confianza.
+- ​Después de eso, los atacantes utilizan tácticas de persuasión.
+- ​En esta etapa es donde ​realmente importa la preparación temprana.
+- ​Esto ocurre cuando el atacante manipula a ​su objetivo para que entregue información de forma voluntaria.
+- ​A veces lo hacen usando ​un vocabulario específico que los hace parecer miembros de la organización. 
+- La etapa final del proceso ​consiste en desconectarse del objetivo.
+- ​Tras recopilar la información que desean, los ​atacantes interrumpen la comunicación con su objetivo.
+- ​Desaparecen para cubrir sus huellas.
+- ​Los delincuentes que utilizan la ingeniería social son sigilosos.
+- ​El mundo digital ha ampliado sus capacidades.
+- ​También ha creado más formas de que pasen desapercibidas.
+- ​Sin embargo, hay maneras en las que podemos prevenir sus ataques.
+- ​La implementación de controles gerenciales, como políticas ​, estándares y procedimientos, ​es una de las primeras líneas de defensa.
+- Por ejemplo, las empresas suelen seguir ​el estándar de administración de parches definido en la ​publicación especial 800-40 del NIST.
+- ​Estos estándares se utilizan para crear ​procedimientos para actualizar los sistemas operativos ​, las aplicaciones y el firmware que pueden explotarse.
+- ​Mantenerse informado de las tendencias también es ​una prioridad importante para cualquier profesional de Seguridad.
+- ​Una defensa aún mejor contra ​los ataques de ingeniería social es ​compartir lo que sabes con los demás.
+- ​Los atacantes aprovechan nuestra curiosidad natural ​y nuestro deseo de ayudarnos unos a otros.
+- ​Su esperanza es que los objetivos no ​piensen demasiado en lo que está sucediendo.
+- Enseñar las señales de ​un ataque a otras personas contribuye en gran medida a prevenir las amenazas.
+- ​La ingeniería social es una amenaza para los activos y la ​privacidad de las personas y las organizaciones.
+- ​Los atacantes malintencionados utilizan una variedad de ​tácticas para confundir y manipular a sus objetivos.
