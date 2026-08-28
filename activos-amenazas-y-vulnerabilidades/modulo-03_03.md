@@ -365,3 +365,78 @@
    - El objetivo de cada uno de estos requisitos es crear más combinaciones posibles de contraseñas.
    - Esto alarga el tiempo que tarda un atacante en encontrar una que funcione.
    - [La publicación especial 800-63B-4 del Instituto Nacional de Estándares y Tecnología (NIST)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b-4.pdf) ofrece una guía detallada que las organizaciones pueden consultar a la hora de crear sus propias políticas de contraseñas.
+
+---
+
+## Actividad: Identificar los vectores de ataque de una unidad USB
+- Resumen de la actividad
+   - En esta actividad, evaluará los vectores de ataque de una unidad USB.
+   - Considerará un escenario de hallazgo de una unidad USB en un aparcamiento tanto desde la perspectiva de un atacante como de un objetivo.
+   - Los USB, o unidades flash, se utilizan habitualmente para almacenar y transportar datos.
+   - Sin embargo, algunas características de estos pequeños y cómodos dispositivos también pueden introducir riesgos para la seguridad.
+   - Los actores de amenazas utilizan con frecuencia los USB para distribuir software malicioso, dañar otro hardware o incluso hacerse con el control de los dispositivos.
+   - El USB baiting es un ataque en el que un actor de amenazas deja estratégicamente una memoria USB con malware para que un empleado la encuentre e instale para infectar una red sin saberlo.
+   - Se basa en que los curiosos conecten una memoria USB desconocida que encuentren.
+
+- Escenario
+   - Repase el siguiente escenario.
+   - A continuación, complete las instrucciones paso a paso.
+   - Usted forma parte del equipo de seguridad del Hospital Retórico y llega al trabajo una mañana.
+   - En el suelo del aparcamiento, encuentra una memoria USB con el logotipo del hospital impreso en ella.
+   - No hay nadie más cerca que pueda haberlo tirado, así que decide recogerlo por curiosidad.
+   - Lleva la memoria USB a su oficina, donde el equipo tiene instalado un software de virtualización en una estación de trabajo.
+   - El software de virtualización se puede utilizar para este mismo propósito porque es una de las únicas formas de investigar con seguridad una memoria USB desconocida.
+   - El software funciona ejecutando una instancia simulada del ordenador en la misma estación de trabajo.
+   - Esta simulación no está conectada a otros archivos o redes, por lo que la unidad USB no puede afectar a otros sistemas si resulta estar infectada con software malicioso.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Parking lot USB exercise](./resources/Parking-lot-USB-exercise.docx)
+
+2. Inspección del contenido de la memoria USB
+- Usted crea un entorno virtual y conecta la unidad USB a la estación de trabajo.
+- El contenido del dispositivo parece pertenecer a Jorge Bailey, director de recursos humanos del Hospital Retórico.
+- La unidad de Jorge contiene una mezcla de archivos personales y relacionados con el trabajo.
+- Por ejemplo, contiene carpetas que parecen almacenar fotos familiares y de mascotas.
+- También hay una carta de nueva contratación y un horario de turnos de los empleados.
+- Revise los tipos de información que Jorge tiene almacenados en este dispositivo.
+- A continuación, en la fila Contenido de la plantilla de actividades, escriba de 2 a 3 frases (de 40 a 60 palabras) sobre el tipo de información que hay almacenada en la unidad USB.
+- Las unidades USB suelen contener una gran variedad de información de identificación personal (IIP).
+- Los atacantes pueden utilizar fácilmente esta información sensible para atacar al propietario de los datos o a otras personas de su entorno. 
+
+3. Aplique una mentalidad de ataque al contenido de la unidad USB
+- La unidad flash parece contener una mezcla de archivos personales y relacionados con el trabajo.
+- Considere cómo podría utilizar esta información un atacante si la obtuviera.
+- Además, considere si todo este suceso fue una puesta en escena.
+- Por ejemplo, un atacante podría haber colocado estos archivos en la unidad USB como distracción.
+- Podrían haber apuntado a Jorge o a alguien que él conoce, esperando que encontraran el dispositivo y lo conectaran a su estación de trabajo.
+- Al hacerlo, el atacante podría establecer una puerta trasera en los sistemas de la empresa mientras el objetivo desprevenido hojeaba los archivos.
+- En la fila "Mentalidad del atacante " de la plantilla de actividades, escriba de 2 a 3 frases (de 40 a 60 palabras) sobre cómo podría utilizarse esta información contra Jorge o el hospital.
+- La Agencia de Ciberseguridad y Seguridad de las Infraestructuras (CISA) ofrece algunos [consejos de seguridad sobre cómo actuar con precaución con las unidades USB](https://www.cisa.gov/news-events/news/using-caution-usb-drives), como mantener separadas las unidades personales de las de la empresa.
+
+4. Analizar los riesgos de encontrar un aparcamiento USB
+- No ha abierto ninguno de los archivos del dispositivo, lo cual es la mejor práctica.
+- Los atacantes a veces realizan ataques de cebo USB para entregar código malicioso que han elaborado.
+- Sin embargo, esta unidad USB seguía siendo un riesgo para la seguridad aunque no contuviera código malicioso.
+- Podría haber sido encontrada fácilmente por un atacante que podría haber utilizado su contenido para planear diversos ataques.
+- Considere algunos de los riesgos asociados a los ataques de cebo USB:
+   - ¿Qué tipos de software malicioso podrían esconderse en estos dispositivos? ¿Qué podría haber ocurrido si el dispositivo estuviera infectado y fuera descubierto por otro empleado?
+   - ¿Qué información sensible podría encontrar un actor de amenazas en un dispositivo de este tipo?
+   - ¿Cómo podría utilizarse esa información contra un individuo o una organización?
+- En la fila Análisis de riesgos de la plantilla de actividades, escriba 3 ó 4 frases (de 60 a 80 palabras) que describan los controles técnicos, operativos o de gestión que podrían mitigar los ataques de cebo USB.
+
+- Qué incluir en su respuesta
+   - 2-3 frases sobre los tipos de información almacenada en la unidad USB
+   - 2-3 frases sobre cómo podría utilizarse la información contra el propietario y/o la organización
+   - 3-4 frases que analicen los riesgos de los ataques de cebo USB
+
+
+- Parking lot USB exercise
+
+1. Contents:
+   - La unidad USB contiene una mezcla de archivos personales y relacionados con el trabajo, dentro de ellos se puede encontrar información sensible PII y SPII. Alguno de ellos son la carta de nueva contratación, la cual puede contener información sensible del nuevo empleado, como su nombre completo, dirección y número de teléfono. También hay un horario de turnos de los empleados, que podría revelar información sobre la estructura del personal y sus horarios de trabajo. Adicionalmente, hay fotos familiares y de mascotas, las cuales podrían ser o no sensibles dependiendo del contenido, pero que podrían ser utilizadas para ataques de ingeniería social si se combinan con otra información personal. No se recomienda guardar información personal y profesional en la misma unidad USB, ya que esto aumenta el riesgo de exposición de datos sensibles, por ejemplo si comparto la unidad USB y olvido que tambien tengo información sensible de la empresa, podría poner en riesgo la seguridad de la organización o viceversa, si comparto la unidad USB y olvido que tambien tengo información personal sensible, podría poner en riesgo mi seguridad personal.
+2. Attacker's mindset:
+   - Considerando la información encontrada, se podría usar contra empleados específicos, como Jorge Bailey, para realizar ataques de ingeniería social, los empleados al conocer su horario de trabajo podrían ser atacados en momentos específicos, o incluso podrían ser víctimas de acoso o amenazas, por último está el nuevo contrato donde aparecen detalles privados de sus funciones, horarios, remuneración y datos personales, los cuales podrían ser utilizados para suplantar la identidad del nuevo empleado o incluso para chantajearlo. Con respecto a la información personal, las fotos familiares y de mascotas podrían ser utilizadas para crear perfiles falsos en redes sociales, lo que podría llevar a ataques de phishing dirigidos o incluso a la suplantación de identidad. Usando esas mismas fotos en cuentas falsas se podría conseguir información adicional sobre el trabajo, la familia y los amigos de Jorge.
+3. Risk analysis:
+   - Algunos archivos podrían ser "imagenes falsas" que al abrirlas podrían ejecutar código malicioso en el sistema, comprometiendo la seguridad de la red del hospital. Podría haber sido encontrada por otro empleado que la conectara a su computadora, lo que podría haber resultado en la instalación de malware o ransomware en la red del hospital. La información sensible encontrada en la unidad USB podría ser utilizada para ataques de ingeniería social, suplantación de identidad o incluso chantaje. Para mitigar estos riesgos, se podrían implementar controles técnicos como el uso de software antivirus y firewalls, controles operativos como la educación y concienciación de los empleados sobre los riesgos de conectar dispositivos desconocidos, y controles de gestión como políticas estrictas sobre el uso de dispositivos externos y la gestión de información sensible.
