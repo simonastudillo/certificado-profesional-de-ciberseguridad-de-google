@@ -152,3 +152,21 @@
 - Los riesgos que presenta el software EOL siguen creciendo a medida que más dispositivos conectados entran en el mercado.
 - Por ejemplo, hay miles de millones de dispositivos de Internet de las cosas (IoT), como bombillas inteligentes, conectados a redes domésticas y de trabajo.
 - En algunos entornos empresariales, todo lo que necesita un atacante es un único dispositivo sin parchear para acceder a la red y causar problemas.
+
+---
+
+## Omad: Mi viaje de aprendizaje en la ciberseguridad
+- Lo único que hago es resolver problemas.
+- ​Los usuarios de Google tienen problemas, necesitan a alguien con quien hablar, por lo general hablan con nosotros.
+- A ​todos los entrevistadores les gustó mi formación, les gustó que fuera autodidacta.
+- ​Muchos entrevistadores pudieron identificarse conmigo. ​Dijeron: «Oye, yo hice lo mismo».
+- ​Para quienes cambian de carrera, ​lo que tienen que otras personas no tienen es una mentalidad diferente.
+- ​Viene de una experiencia fuera del espacio técnico que puede transferir ​al espacio técnico.
+- ​No olvides que todos tenemos habilidades que pueden ayudarte en el campo.
+- ​Eso es lo que buscan los empleadores, ​eso es lo que buscan los gerentes de contratación.
+- ​Una cosa que aprendí como oficial de prisiones es cómo evaluar el riesgo.
+- ​Cada situación es diferente, al igual que el espacio de Seguridad.
+- Cada riesgo es ​diferente.
+- Cada vulnerabilidad es diferente.
+- Cada amenaza es diferente. 
+- ​Puedes enseñarle tecnología a alguien, pero ​no puedes enseñarle una vida de habilidades fuera de la tecnología.
