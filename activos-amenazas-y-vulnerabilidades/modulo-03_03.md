@@ -452,3 +452,35 @@
 2. Mentalidad del atacante: Cualquier Información que obtenga un atacante puede ser utilizada contra alguien. La Información de una unidad USB debe encriptarse independientemente de si es personal o relacionada con el trabajo.
 
 3. Análisis de riesgos: No es seguro conectar una unidad USB desconocida a su computadora debido al amplio Rango de ataques que pueden esconderse en ellas. Promover la concienciación de los empleados sobre los ataques de USB baiting es un control de gestión que puede reducir los riesgos de un Evento negativo. Escanear rutinariamente en busca de virus es un ejemplo de control operativo que puede implementarse. Y desactivar la reproducción automática en todos los PC es una precaución técnica que puede tomarse.
+
+---
+
+## Ponga a prueba sus Conocimientos: Mentalidad del ciberatacante
+
+1. ¿Cuál es la diferencia entre un vector de ataque y una superficie de ataque?
+- [ ] Una superficie de ataque se refiere a la vía específica de explotar un punto débil; un vector de ataque se refiere a todos los puntos débiles de un recurso que pueden explotarse.
+- [ ] Una superficie de ataque se refiere al método específico de ataque; un vector de ataque se refiere a una red anticuada y vulnerable.
+- [x] Un Vector de ataque se refiere a las vías que utilizan los atacantes para penetrar las defensas de Seguridad; una superficie de ataque se refiere a todas las vulnerabilidades de un recurso que pueden ser explotadas. 
+- [ ] Una superficie de ataque se refiere a todos los puntos débiles de un recurso que pueden ser atacados; un vector de ataque se refiere a una red anticuada y vulnerable.
+> Vectores de ataque son las vías que los agentes de amenazas utilizan para penetrar en las defensas de Seguridad. Las superficies de ataque son todas las vulnerabilidades potenciales que un agente de amenaza podría explotar.
+
+2. ¿Cuáles son ejemplos de Endurecimiento de seguridad? Seleccione tres respuestas
+- [x] Desactivación de los puertos de red no utilizados
+- [x] Mantener los sistemas parcheados y actualizados
+- [x] Hash de todas las contraseñas de los usuarios
+- [ ] Reiniciar una aplicación bloqueada
+> Deshabilitar los puertos de red no utilizados, hacer hash de todas las contraseñas de los usuarios y mantener los sistemas parcheados y actualizados son ejemplos de Endurecimiento de seguridad.
+
+3. ¿Qué pasos se aplican cuando se utiliza una mentalidad de ataque? Seleccione tres respuestas
+- [x] Determinar cómo se puede acceder a un objetivo
+- [x] Identificar un objetivo
+- [x] Evaluación de los vectores de ataque de un objetivo
+- [ ] Mantenerse en comunicación con un objetivo
+> Identificar un objetivo, determinar cómo se puede acceder a él y evaluar sus vectores de ataque son pasos que se aplican cuando se utiliza una mentalidad de atacante.
+
+4. ¿Cómo pueden las empresas reducir el número de vectores de ataque que deben defender? Seleccione tres respuestas
+- [x] Controlando el acceso y la autorización a los recursos
+- [ ] Restringiendo totalmente el intercambio de Información
+- [x] Educando a los usuarios para que puedan participar en la prevención de ataques
+- [x] Implementando controles de seguridad que protejan la Información
+> Las empresas pueden reducir el número de vectores de ataque que tienen controlando el acceso y la autorización a los recursos, implementando controles de seguridad que protejan la información y educando a los usuarios para que puedan participar en la prevención de los ataques.
