@@ -1,0 +1,56 @@
+# Explotaciones basadas en web
+
+## Secuencias de comandos en sitios cruzados (XSS)
+- ​Anteriormente, exploramos algunos tipos de software malicioso.
+- ​Ya sea que esté instalado en una ​computadora individual o en un servidor de red, todo el software malintencionado debe ​entregarse al objetivo antes de que pueda funcionar.
+- ​El Phishing y otras ​técnicas de ingeniería social son formas habituales de distribución de software malicioso.
+- ​Otra forma de propagación es mediante el uso de una amplia ​clase de amenazas conocidas como exploits basados en la web.
+- ​Explotaciones basadas en web son códigos o comportamientos malintencionados que ​se utilizan para aprovechar las fallas de programación en una aplicación web.
+- ​Los ciberdelincuentes se centran en las vulnerabilidades basadas en la web para obtener información personal confidencial.
+- ​Los ataques se producen porque las aplicaciones web ​interactúan con varios usuarios en varias redes.
+- ​Los piratas informáticos malintencionados suelen explotar este ​alto nivel de interacción mediante ataques de inyección.
+- ​Un ataque de inyección es un código malintencionado que se inserta en una aplicación vulnerable.
+- La aplicación infectada a menudo parece funcionar con normalidad.
+- Esto se ​debe a que el código inyectado se ejecuta en segundo plano, sin que el usuario lo sepa.
+- ​Las aplicaciones son vulnerables a ​los ataques de inyección porque están programadas para recibir entradas de datos.
+- ​Puede ser algo que el usuario escribe​, hace clic o algo que un programa comparte con otro.
+- ​Cuando se codifican correctamente, ​las aplicaciones deben poder interpretar y gestionar las entradas de los usuarios.
+- ​Por ejemplo, supongamos que una aplicación ​espera que el usuario introduzca un número de teléfono.
+- ​Esta aplicación debe validar la entrada ​del usuario para asegurarse de que todos los datos son números y no más de diez dígitos.
+- ​Si la entrada del usuario no cumple con ​estos requisitos, la aplicación debe saber cómo manejarla.
+- ​Las aplicaciones web interactúan con varios usuarios en muchas plataformas.
+- ​También tienen muchos objetos interactivos como imágenes y botones.
+- ​Esto hace que ​a los desarrolladores les resulte difícil pensar en todas las formas en las que deberían desinfectar sus entradas.
+- ​Un tipo de ​ataque por inyección común y peligroso que representa una amenaza para las aplicaciones web es la secuencia de comandos entre sitios.
+- ​La escritura de secuencias de comandos entre sitios, o XSS, es un ataque de inyección que ​inserta código en un sitio web o una aplicación web vulnerable.
+- ​Estos ataques suelen lanzarse ​mediante la explotación de los dos lenguajes utilizados por la mayoría de los sitios web, HTML y JavaScript.
+- ​Ambos pueden dar acceso a los ciberdelincuentes ​a todo lo que se carga en la página web infectada.
+- ​Esto puede incluir cookies de sesión, ​geolocalización e incluso cámaras web y micrófonos.
+- ​Hay tres tipos principales de ​ataques de secuencia de comandos entre sitios reflejados, almacenados y basados en DOM.
+- ​Un ataque XSS reflejado es una instancia en la que se envía una secuencia de comandos ​malintencionada al servidor y se activa durante la respuesta del servidor.
+- ​Un ejemplo común de esto es la barra de búsqueda de un sitio web.
+- ​En un ataque XSS reflejado, ​los delincuentes envían a su objetivo un enlace web que parece ir a un sitio confiable.
+- ​Cuando hacen clic en el enlace, envía una solicitud HTTP al servidor del sitio vulnerable.
+- A ​continuación, la secuencia de comandos del atacante se devuelve o ​se refleja en el navegador del usuario inocente.
+- ​Aquí, el navegador carga la secuencia de ​comandos maliciosa porque confía en la respuesta del servidor.
+- ​Con la secuencia de comandos cargada, ​la información, como las cookies de sesión, se devuelve al atacante. 
+- En un ataque XSS almacenado, ​la secuencia de comandos maliciosa no está oculta en un enlace que deba enviarse al servidor.
+- ​En cambio, un ataque XSS almacenado es una instancia en la que ​se inyecta una secuencia de comandos maliciosa directamente en el servidor.
+- ​Aquí, los atacantes atacan los elementos de un sitio que se ofrecen al usuario.
+- ​Pueden ser cosas como imágenes ​y botones que se cargan cuando se visita el sitio.
+- Los elementos infectados activan el código malicioso cuando un usuario simplemente visita el sitio.
+- ​Los ataques XSS almacenados pueden ser perjudiciales porque el ​usuario no tiene forma de saber de antemano que el sitio está infectado.
+- ​Por último, está el XSS basado en DOM.
+- DOM son ​las siglas de Modelo de objetos de documentos, que es básicamente el código fuente de un sitio web.
+- ​Un Ataque XSS basado en DOM es una ​instancia en la que existe una secuencia de comandos maliciosa en la página web que carga ​un navegador.
+- A diferencia del XSS reflejado, ​no es necesario enviar estos ataques al servidor para activarse.
+- ​En un ataque basado en DOM, se puede ver una secuencia de comandos maliciosa en la URL.
+- ​En este ejemplo, la URL del sitio web contiene valores de parámetros.
+- ​Los valores de los parámetros reflejan la entrada del usuario.
+- ​Aquí, el sitio permite a los usuarios seleccionar temas de color.
+- ​Cuando el usuario hace una selección, aparece como parte de la URL.
+- ​En un ataque basado en DOM, los delincuentes cambian el parámetro que espera una entrada.
+- ​Por ejemplo, podrían ocultar JavaScript malintencionado en las etiquetas HTML.
+- ​El navegador procesaría el HTML y ejecutaría el JavaScript.
+- ​Los piratas informáticos utilizan estos métodos de secuencia de comandos entre sitios para robar información confidencial.
+- ​Los analistas de seguridad deben estar familiarizados con este grupo de ataques por inyección.
