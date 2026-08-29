@@ -54,3 +54,46 @@
 - ​El navegador procesaría el HTML y ejecutaría el JavaScript.
 - ​Los piratas informáticos utilizan estos métodos de secuencia de comandos entre sitios para robar información confidencial.
 - ​Los analistas de seguridad deben estar familiarizados con este grupo de ataques por inyección.
+
+---
+
+## Lagunas explotables en las bases de datos
+- ​Sigamos explorando la inyección y los ​ataques investigando otro tipo común de exploit basado en web.
+- ​El siguiente que vamos a discutir explota la forma en que los sitios web acceden a la ​información de las bases de datos.
+- Al principio del Programa, puede que haya aprendido sobre SQL.
+- ​Puede que recuerde, SQL es un lenguaje de programación utilizado para crear, ​interactuar con, y solicitar información de una base de datos.
+- ​SQL es utilizado por la mayoría de las aplicaciones web.
+- Por ejemplo, los sitios web de compras lo utilizan mucho.
+- ​Imagínese las bases de datos de una tienda de ropa en línea
+- Es probable que contenga un inventario completo de todos los artículos que vende la empresa.
+- ​Los sitios web no suelen hacer que los usuarios introduzcan las consultas SQL manualmente.
+- ​En su lugar, utilizan elementos como menús, imágenes y ​botones para mostrar a los usuarios información de forma significativa.
+- ​Por ejemplo, cuando un comprador en línea hace clic en un botón para añadir un jersey a su cesta, ​se desencadena una consulta SQL.
+- La consulta se ejecuta en segundo plano, donde nadie puede verla.
+- ​Nunca lo sabría al utilizar los menús y botones de un sitio web, pero ​a veces esas consultas de backend son vulnerables a ataques de inyección.
+- ​Una inyección de SQL es un ataque que ejecuta consultas inesperadas en una base de datos.
+- ​Al igual que la secuencia de comandos entre sitios, la inyección de SQL se produce debido a una falta de entrada desinfectada.
+- ​Las inyecciones tienen lugar en el área del sitio web que están diseñadas para ​aceptar la entrada del usuario.
+- Un ejemplo común es el formulario de inicio de sesión para acceder a un sitio.
+- ​Uno de estos formularios puede activar una sentencia SQL backend ​como ésta cuando un usuario introduce sus credenciales.
+- ​Los formularios web, como éste, están diseñados para copiar la entrada del usuario en la sentencia ​exactamente como están escritos.
+- ​La sentencia envía entonces una petición al servidor, que ejecuta la consulta.
+- ​Los sitios web vulnerables a la inyección de SQL insertan la entrada del usuario exactamente ​como se introduce antes de ejecutar el código.
+- ​Desgraciadamente, se trata de un grave fallo de diseño.
+- ​Sucede habitualmente porque los desarrolladores web esperan que la gente utilice estas entradas ​correctamente.
+- ​No prevén que los atacantes las exploten.
+- Por ejemplo, ​un atacante podría insertar código SQL adicional.
+- ​Esto podría hacer que el servidor ejecute una consulta de código dañino que no ​esperaba.
+- ​Los hackers maliciosos pueden apuntar a estos vectores de ataque para obtener información sensible, ​modificar tablas e incluso obtener derechos administrativos sobre la base de datos.
+- ​La mejor forma de defenderse contra la inyección de SQL es un código que sanee ​la entrada.
+- ​Los desarrolladores pueden escribir código para buscar caracteres SQL específicos.
+- ​Esto da al servidor una idea más clara de qué entradas esperar.
+- ​Una forma de hacerlo es con sentencias preparadas.
+- ​Una sentencia preparada es una técnica de programación que ejecuta ​sentencias SQL antes de pasarlas a la base de datos.
+- ​Cuando se desconoce la entrada del usuario, ​la mejor práctica es utilizar estas sentencias preparadas.
+- ​Con sólo unas pocas líneas de código adicionales, ​una sentencia preparada ejecuta el código antes de pasarlo al servidor.
+- ​Esto significa que el código puede validarse antes de realizar la consulta.
+- ​Tener un código bien escrito es una de las claves para prevenir la inyección de SQL.
+- ​Los equipos de seguridad trabajan con los desarrolladores de programas para probar las aplicaciones en busca de ​este tipo de vulnerabilidades.
+- ​Al igual que muchas tareas de seguridad, se trata de un trabajo en equipo.
+- ​Los ataques de inyección son sólo uno de los muchos tipos de exploits basados en web a los que se enfrentan los equipos de ​seguridad.
