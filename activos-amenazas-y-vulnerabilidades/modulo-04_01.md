@@ -187,3 +187,61 @@
 - ​Los analistas de seguridad usan herramientas de monitoreo como esta para detectar correos electrónicos sospechosos, ​ponerlos en cuarentena y generar un registro de eventos.
 - ​Las campañas de Phishing son formas populares y peligrosas de ingeniería social a ​las que deben hacer frente las organizaciones de todos los tamaños.
 - ​Una sola contraseña comprometida que un atacante pueda tener en sus manos puede ​provocar una costosa violación de datos.
+
+---
+
+## Tipos de phishing
+- El phishing es uno de los tipos más comunes de ingeniería social, que son técnicas de manipulación que explotan el error humano para obtener información privada, acceso u objetos de valor.
+- A veces, los ataques de phishing parecen proceder de una persona o empresa de confianza.
+- Esto puede inducir a los destinatarios desprevenidos a actuar en contra de su buen juicio, haciendo que incumplan los procedimientos de seguridad.
+- En esta lectura, aprenderá sobre las tácticas de phishing más comunes utilizadas por los atacantes hoy en día.
+
+- Los orígenes del phishing
+   - El phishing existe desde los primeros días de Internet.
+   - Se remonta a la década de 1990.
+   - En aquella época, la gente de todo el mundo se conectaba a Internet por primera vez.
+   - A medida que Internet se hacía más accesible, empezó a atraer la atención de los actores maliciosos.
+   - Estos actores maliciosos se dieron cuenta de que Internet les proporcionaba un nivel de anonimato para cometer sus delitos.
+
+- Primeras tácticas de persuasión
+   - Uno de los primeros casos de phishing iba dirigido a un popular servicio de chat llamado AOL Instant Messenger (AIM).
+   - Los usuarios del servicio empezaron a recibir mensajes de correo electrónico en los que se les pedía que verificaran sus cuentas o facilitaran información personal de facturación.
+   - Los usuarios no eran conscientes de que estos mensajes eran enviados por actores maliciosos que se hacían pasar por proveedores de servicios.
+   - Este fue uno de los primeros ejemplos de phishing masivo, que describe los ataques de que envían correos electrónicos maliciosos a un gran número de personas, aumentando la probabilidad de hacer caer a alguien en la trampa.
+   - Durante los ataques a AIM, los ciberdelincuentes elaboraron cuidadosamente mensajes de correo electrónico que parecían proceder directamente de AOL.
+   - Los mensajes utilizaban logotipos, colores y tipos de letra oficiales para engañar a los usuarios desprevenidos y hacerles compartir sus datos y detalles de cuenta.
+   - Los atacantes utilizaban la información robada para crear cuentas fraudulentas de AOL que podían utilizar para cometer otros delitos de forma anónima.
+   - AOL se vio obligada a adaptar sus políticas de seguridad para hacer frente a estas amenazas.
+   - El servicio de chat comenzó a incluir mensajes en sus plataformas para advertir a los usuarios sobre los ataques de phishing.
+
+- Cómo ha evolucionado el phishing
+   - El phishing siguió evolucionando con el cambio de siglo, a medida que las empresas y las nuevas tecnologías empezaban a introducirse en el panorama digital.
+   - A principios de la década de 2000, el comercio electrónico y los sistemas de pago en línea empezaron a convertirse en alternativas populares a los mercados tradicionales.
+   - La introducción de las transacciones en línea presentó nuevas oportunidades para que los atacantes cometieran delitos.
+   - En esta época empezaron a aparecer una serie de técnicas, muchas de las cuales se siguen utilizando hoy en día.
+   - Existen cinco tipos comunes de phishing que todo analista de seguridad debería conocer:
+      - El phishing por correo electrónico es un tipo de ataque enviado a través del correo electrónico en el que los actores de la amenaza envían mensajes haciéndose pasar por una persona o entidad de confianza.
+      - El smishing es un tipo de phishing que utiliza el servicio de mensajes cortos (SMS), una tecnología que permite enviar mensajes de texto. El smishing abarca todas las formas de servicios de mensajería de texto, incluidos iMessages de Apple, WhatsApp y otros medios de chat en los teléfonos.
+      - El vishing se refiere al uso de llamadas o mensajes de voz para engañar a los objetivos con el fin de que proporcionen información personal por teléfono.
+      - El spear phishing es un subconjunto del phishing por correo electrónico en el que se ataca deliberadamente a personas concretas, como los contables de una pequeña empresa.
+      - Whaling se refiere a una categoría de intentos de spear phishing dirigidos a altos ejecutivos de una organización.
+   - Desde los primeros días del phishing, los ataques por correo electrónico siguen siendo los tipos más comunes que se utilizan.
+   - Aunque en un principio se utilizaban para engañar a la gente para que compartiera credenciales de acceso e información de tarjetas de crédito, el phishing por correo electrónico se convirtió en un método popular para infectar sistemas informáticos y redes con software malicioso.
+   - A finales de 2003, atacantes de todo el mundo crearon sitios web fraudulentos que parecían empresas como eBay y PayPal™.
+   - También se lanzaron campañas masivas de phishing para distribuir programas maliciosos contra sitios de comercio electrónico y bancarios.
+
+- Tendencias recientes
+   - A partir de la década de 2010, los atacantes comenzaron a alejarse de los intentos de phishing masivo que se basaban en hacer caer en una trampa a personas desprevenidas.
+   - Aprovechando las nuevas tecnologías, los delincuentes comenzaron a llevar a cabo lo que se conoce como intentos de phishing dirigidos.
+   - El phishing dirigido describe los ataques que se envían a objetivos específicos utilizando métodos muy personalizados para crear una fuerte sensación de familiaridad.
+   - Un tipo de phishing dirigido que evolucionó en la década de 2010 es el angler phishing.
+   - Se trata de una técnica en la que los atacantes se hacen pasar por representantes de atención al cliente en las redes sociales. 
+   - Esta táctica evolucionó a partir de la tendencia de la gente a quejarse de las empresas en Internet. 
+   - Los actores de la amenaza interceptan las quejas de lugares como tablones de mensajes o secciones de comentarios y se ponen en contacto con el cliente enfadado a través de las redes sociales. 
+   - Al igual que en los ataques AIM de los años 90, utilizan cuentas fraudulentas que parecen similares a las de empresas reales. 
+   - A continuación, engañan a los clientes enfadados para que compartan información confidencial con la promesa de solucionar su problema.
+
+- Recursos
+   - [El cuestionario sobre phishing de Google](https://phishingquiz.withgoogle.com/)
+   - [Recursos sobre phishing de KnowBe4](https://www.knowbe4.com/resource-center/phishing)
+   - [Anti-phishing Working Group](https://apwg.org/)
