@@ -175,3 +175,35 @@
 - ​El tipo de código malicioso que ​difunden los ciberdelincuentes está en constante evolución.
 - ​Se necesitan muchos años de experiencia ​para analizar nuevas formas de software malicioso.
 - ​Sin embargo, estás en el buen ​camino para ayudar a defenderte de estas amenazas. 
+
+---
+
+## Ponga a prueba sus conocimientos: Malware
+
+1. ¿Cuáles de los siguientes son tipos de software malicioso? Seleccione dos respuestas
+- [x] Virus
+- [ ] Ataques de diccionario
+- [x] Software espía
+- [ ] Relleno de credenciales
+> Los virus y el software espía son un tipo de software malicioso. Un virus está diseñado para interferir en el funcionamiento de una computadora y causar daños en los datos y el software. El software espía recopila información de los usuarios sin su consentimiento.
+
+2. Rellene el espacio en blanco: ____ son programas maliciosos que se duplican automáticamente y se propagan por los sistemas.
+- [ ] Troyanos
+- [x] Gusanos
+- [ ] Rootkits
+- [ ] Botnets
+> Los gusanos son software malicioso que se duplica automáticamente y se propaga por los sistemas.
+
+3. ¿Cómo se denomina el secuestro ilegal de los recursos informáticos de alguien para minar criptomonedas?
+- [ ] Rootkit
+- [ ] Software espía
+- [x] Criptojacking
+- [ ] Caballo de Troya
+> El Criptojacking es un ciberdelito que se utiliza para minar criptomonedas.
+
+4. ¿Cuáles de los siguientes son signos comunes de una infección por software malicioso? Seleccione tres respuestas.
+- [x] Disminución del rendimiento
+- [ ] Mayor duración de la batería
+- [x] Aumento del uso de la CPU
+- [x] Caídas inusuales del sistema
+> Los signos más comunes de una infección por software malicioso incluyen un mayor uso de la CPU, ralentizaciones en el rendimiento y caídas inusuales del sistema.
