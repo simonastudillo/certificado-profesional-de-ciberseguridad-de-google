@@ -150,8 +150,28 @@
 - ​La extracción de algo como el oro implica maquinaria, ​como camiones y excavadoras, que puede excavar en la Tierra.
 - ​Las criptomonedas, por otro lado, ​usan computadoras en su lugar.
 - En ​lugar de excavar en la Tierra, ​las computadoras ejecutan software que busca en ​miles de millones de líneas de código encriptado.
-- ​Cuando se procesa suficiente código, se puede encontrar una moneda criptográfica. ​En general, más ordenadores extrayendo ​monedas significan que se pueden descubrir más criptomonedas. ​Lamentablemente, los delincuentes se dieron cuenta de esto. 
-​A partir de 2017, el software ​malicioso de criptojacking comenzó a utilizarse para obtener el control no autorizado ​de ordenadores personales con el fin de extraer criptomonedas. ​Desde entonces, las ​técnicas de criptojacking se han vuelto más sofisticadas. ​Los delincuentes ahora atacan regularmente ​los servidores vulnerables para difundir su software de minería. ​Los dispositivos que se comunican con ​el servidor infectado se infectan ellos mismos. ​A continuación, el código malicioso se ejecuta en segundo plano, ​extrayendo monedas desconocidas para cualquiera. El ​software de Criptojacking es difícil de detectar. ​Afortunadamente, los profesionales de Seguridad ​cuentan con herramientas sofisticadas que pueden ayudar. 
-​Un sistema de detección de intrusos, o IDS, es una aplicación ​que monitorea la actividad del sistema ​y alerta sobre posibles intrusiones. ​Cuando se detecta una actividad anormal, como la ​extracción de monedas por parte de un software malicioso, el IDS alerta al personal de Seguridad. ​A pesar de su utilidad, ​los sistemas de detección tienen un inconveniente importante. ​Las nuevas formas de software malicioso pueden pasar desapercibidas. ​Afortunadamente, hay ​señales sutiles que indican que un dispositivo está ​infectado con software de criptojacking ​u otras formas de software malicioso. ​Con mucho, la señal más reveladora de ​una infección de criptojacking es la desaceleración. ​Otras señales incluyen el aumento del uso de la CPU, los ​bloqueos repentinos del sistema y el rápido agotamiento de las baterías. 
-​Otra señal son los costos de electricidad inusualmente altos ​relacionados con el proceso intensivo de recursos ​de la criptominería. ​También es bueno saber que hay ​ciertas medidas que puedes tomar para ​reducir la probabilidad de sufrir ​un ataque de software malicioso como el cryptojacking. ​Estas defensas incluyen cosas como el uso de ​extensiones de navegador diseñadas para bloquear el software malicioso, el ​uso de bloqueadores de anuncios, la desactivación de ​JavaScript y mantenerse alerta sobre las últimas tendencias. ​Los analistas de seguridad también pueden educar a otros miembros de ​sus organizaciones sobre los ataques de software malicioso. ​Si bien el criptojacking es todavía relativamente nuevo, ​los ataques son cada vez más comunes. ​El tipo de código malicioso que ​difunden los ciberdelincuentes está en constante evolución. ​Se necesitan muchos años de experiencia ​para analizar nuevas formas de software malicioso. 
-​Sin embargo, estás en el buen ​camino para ayudar a defenderte de estas amenazas. 
+- ​Cuando se procesa suficiente código, se puede encontrar una moneda criptográfica.
+- ​En general, más ordenadores extrayendo ​monedas significan que se pueden descubrir más criptomonedas.
+- ​Lamentablemente, los delincuentes se dieron cuenta de esto.
+- ​A partir de 2017, el software ​malicioso de criptojacking comenzó a utilizarse para obtener el control no autorizado ​de ordenadores personales con el fin de extraer criptomonedas.
+- ​Desde entonces, las ​técnicas de criptojacking se han vuelto más sofisticadas.
+- ​Los delincuentes ahora atacan regularmente ​los servidores vulnerables para difundir su software de minería.
+- ​Los dispositivos que se comunican con ​el servidor infectado se infectan ellos mismos.
+- ​A continuación, el código malicioso se ejecuta en segundo plano, ​extrayendo monedas desconocidas para cualquiera.
+- El ​software de Criptojacking es difícil de detectar.
+- ​Afortunadamente, los profesionales de Seguridad ​cuentan con herramientas sofisticadas que pueden ayudar.
+- ​Un sistema de detección de intrusos, o IDS, es una aplicación ​que monitorea la actividad del sistema ​y alerta sobre posibles intrusiones.
+- ​Cuando se detecta una actividad anormal, como la ​extracción de monedas por parte de un software malicioso, el IDS alerta al personal de Seguridad.
+- ​A pesar de su utilidad, ​los sistemas de detección tienen un inconveniente importante.
+- ​Las nuevas formas de software malicioso pueden pasar desapercibidas.
+- ​Afortunadamente, hay ​señales sutiles que indican que un dispositivo está ​infectado con software de criptojacking ​u otras formas de software malicioso.
+- ​Con mucho, la señal más reveladora de ​una infección de criptojacking es la desaceleración.
+- ​Otras señales incluyen el aumento del uso de la CPU, los ​bloqueos repentinos del sistema y el rápido agotamiento de las baterías.
+- ​Otra señal son los costos de electricidad inusualmente altos ​relacionados con el proceso intensivo de recursos ​de la criptominería.
+- ​También es bueno saber que hay ​ciertas medidas que puedes tomar para ​reducir la probabilidad de sufrir ​un ataque de software malicioso como el cryptojacking. 
+- Estas defensas incluyen cosas como el uso de ​extensiones de navegador diseñadas para bloquear el software malicioso, el ​uso de bloqueadores de anuncios, la desactivación de ​JavaScript y mantenerse alerta sobre las últimas tendencias.
+- ​Los analistas de seguridad también pueden educar a otros miembros de ​sus organizaciones sobre los ataques de software malicioso.
+- ​Si bien el criptojacking es todavía relativamente nuevo, ​los ataques son cada vez más comunes.
+- ​El tipo de código malicioso que ​difunden los ciberdelincuentes está en constante evolución.
+- ​Se necesitan muchos años de experiencia ​para analizar nuevas formas de software malicioso.
+- ​Sin embargo, estás en el buen ​camino para ayudar a defenderte de estas amenazas. 
