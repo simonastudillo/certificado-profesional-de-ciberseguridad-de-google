@@ -134,3 +134,56 @@
 - Recursos 
    - [OUCH!](https://www.sans.org/newsletters/ouch/) es un boletín mensual gratuito del SANS Institute que informa sobre las tendencias de la ingeniería social y otros temas de Seguridad.
    - [Scamwatch](https://www.scamwatch.gov.au/) es un recurso de noticias y herramientas para reconocer, evitar y denunciar las estafas de ingeniería social.
+
+---
+
+## Suplantación de identidad
+- ​Los ciberdelincuentes prefieren los ataques que causan la mayor cantidad de daño con el menor ​esfuerzo.
+- ​Una de las formas más populares de ingeniería social que cumple con esta descripción es la suplantación de identidad.
+- El ​Phishing es el uso de comunicaciones digitales para engañar a las personas para que ​revelen datos confidenciales o desplieguen software malintencionado.
+- ​El Phishing aprovecha muchas tecnologías de comunicación, pero ​el término se usa principalmente para describir los ataques que llegan por correo electrónico.
+- ​Los ataques de Phishing no solo afectan a las personas.
+- ​También son perjudiciales para las organizaciones.
+- ​Un solo empleado que caiga en uno de estos trucos puede dar ​acceso a los sistemas a los atacantes malintencionados.
+- ​Una vez dentro, los atacantes pueden explotar datos confidenciales como los nombres de los clientes y los ​secretos de los productos.
+- ​Los atacantes que llevan a cabo estos ataques suelen utilizar kits de suplantación de identidad. 
+- ​Un kit de suplantación de identidad es un conjunto de herramientas de software necesarias para lanzar ​una campaña de suplantación de identidad.
+- ​Las personas con pocos conocimientos técnicos pueden utilizar uno de estos kits. ​Cada una de las herramientas del interior está diseñada para evitar ser detectada.
+- ​Como profesional de la seguridad, ​debe conocer las tres herramientas principales que contiene un kit de suplantación de identidad, de modo ​que pueda identificar rápidamente cuándo se están utilizando y ponerle fin.
+- ​El primero son los archivos adjuntos maliciosos.
+- ​Se trata de archivos que están infectados y pueden dañar los sistemas de la organización.
+- ​Los kits de Phishing también incluyen formularios de recopilación de datos falsos.
+- ​Estos formularios parecen formularios legítimos, como una encuesta.
+- ​A diferencia de una encuesta real, ​solicitan información confidencial que normalmente no se solicita en un correo electrónico.
+- El tercer recurso que incluyen son los enlaces web fraudulentos.
+- ​Se abren a páginas web maliciosas que están diseñadas para parecerse a marcas confiables.
+- ​A diferencia de los sitios web reales, ​estos sitios fraudulentos están diseñados para robar información, como las credenciales de inicio de sesión.
+- ​Los ciberdelincuentes pueden utilizar estas herramientas para lanzar un ataque de phishing de muchas formas.
+- ​La más común es a través de correos electrónicos maliciosos.
+- ​Sin embargo, también pueden usarlos en otras formas de comunicación.
+- ​Más recientemente, los ciberdelincuentes utilizan el smishing y el ​vishing para engañar a las personas para que revelen información privada.
+- El ​smishing es el uso de mensajes de texto para obtener información confidencial o ​hacerse pasar por una fuente conocida.
+- ​Probablemente hayas recibido este tipo de mensajes anteriormente.
+- Los ​mensajes fraudulentos no solo son molestos de recibir, sino que ​también son difíciles de prevenir.
+- Por eso los envían algunos atacantes.
+- ​Algunos mensajes fraudulentos son fáciles de detectar.
+- ​Pueden mostrar señales de ser malintencionadas, como prometer una recompensa en efectivo por ​hacer clic en un enlace adjunto en el que no se debe hacer clic.
+- ​Otras veces, el smishing es difícil de detectar.
+- ​Los atacantes a veces usan códigos de área locales para parecer legítimos.
+- ​Algunos piratas informáticos pueden incluso enviar mensajes disfrazados de amigos y ​familiares de su objetivo para engañarlos y hacer que revelen información confidencial.
+- El ​vishing es la explotación de la comunicación electrónica de voz para obtener ​información confidencial o hacerse pasar por una fuente conocida.
+- ​Durante los ataques de pesca, los delincuentes fingen ser alguien que no son.
+- ​Por ejemplo, los atacantes pueden llamar haciéndose pasar por un representante de la empresa.
+- ​Es posible que digan que hay un problema con tu cuenta.
+- ​Y pueden ofrecerse a solucionarlo si les proporcionas información confidencial.
+- ​La mayoría de las organizaciones utilizan algunas medidas de Seguridad básicas para evitar que estos y ​otros tipos de ataques de suplantación de identidad se conviertan en un problema.
+- ​Por ejemplo, las políticas contra la suplantación de identidad crean conciencia y ​alientan a los usuarios a seguir correctamente los procedimientos de Seguridad de los datos.
+- Los ​recursos de capacitación para empleados también ayudan a informar a los empleados sobre lo que deben buscar ​cuando un correo electrónico parece sospechoso.
+- ​Otra línea de defensa contra la suplantación de identidad es proteger las bandejas de entrada de correo electrónico.
+- ​Los filtros de correo electrónico se utilizan habitualmente para evitar que los usuarios reciban mensajes dañinos.
+- ​Por ejemplo, se pueden bloquear direcciones de correo electrónico específicas mediante una lista de bloqueo.
+- ​Las organizaciones suelen utilizar otros filtros, como las listas de permitidos, para especificar las direcciones IP que ​están aprobadas para enviar correo dentro de la empresa.
+- ​Las organizaciones también utilizan sistemas de prevención de intrusiones para buscar ​patrones inusuales en el tráfico de correo electrónico.
+- ​Los analistas de seguridad usan herramientas de monitoreo como esta para detectar correos electrónicos sospechosos, ​ponerlos en cuarentena y generar un registro de eventos.
+- ​Las campañas de Phishing son formas populares y peligrosas de ingeniería social a ​las que deben hacer frente las organizaciones de todos los tamaños.
+- ​Una sola contraseña comprometida que un atacante pueda tener en sus manos puede ​provocar una costosa violación de datos.
