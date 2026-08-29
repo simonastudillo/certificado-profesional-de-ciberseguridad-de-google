@@ -245,3 +245,35 @@
    - [El cuestionario sobre phishing de Google](https://phishingquiz.withgoogle.com/)
    - [Recursos sobre phishing de KnowBe4](https://www.knowbe4.com/resource-center/phishing)
    - [Anti-phishing Working Group](https://apwg.org/)
+
+---
+
+## Ponga a prueba sus conocimientos: Ingeniería social
+
+1. Rellene el espacio en blanco: _____ es el uso de las comunicaciones digitales para engañar a la gente para que revele Datos sensibles o implemente software malicioso
+- [ ] Cebo
+- [ ] Whaling
+- [ ] Quid pro quo
+- [x] Phishing
+> El Phishing es el uso de las comunicaciones digitales para engañar a las personas con el fin de que revelen Datos sensibles o implementen software malicioso.
+
+2. ¿Qué tipo de Phishing utiliza las comunicaciones electrónicas de voz para obtener información confidencial o hacerse pasar por una fuente conocida?
+- [x] Vishing
+- [ ] Smishing
+- [ ] Angler phishing
+- [ ] Tailgating
+> El Vishing se refiere al uso de comunicaciones electrónicas de voz para obtener información sensible o hacerse pasar por una fuente conocida.
+
+3. Rellene el espacio en blanco: Las etapas de un ataque de ingeniería social incluyen prepararse, establecer la confianza, utilizar tácticas de persuasión y ____
+- [ ] manténgase informado de las tendencias en materia de Seguridad
+- [ ] sensibilizar a los demás
+- [x] desconectarse del objetivo
+- [ ] evaluar las defensas
+> Las etapas de un ataque de ingeniería social incluyen prepararse, establecer la confianza, utilizar tácticas de persuasión y desconectarse del objetivo. Los atacantes suelen romper la comunicación con su objetivo después de recopilar la Información que desean. Hacen esto para cubrir sus huellas si deciden atacar a otros en una organización.
+
+4. Los kits de phishing suelen contener ¿cuál de las siguientes herramientas ayuda a los atacantes a evitar ser detectados? Seleccione tres respuestas
+- [x] Enlaces web fraudulentos
+- [ ] Filtros de correo electrónico
+- [x] Archivos adjuntos maliciosos
+- [x] Formularios falsos de recogida de datos
+> Los kits de phishing suelen contener herramientas como archivos adjuntos maliciosos, formularios falsos de recogida de datos y enlaces web fraudulentos con el fin de ayudar a los atacantes a evitar ser detectados.
