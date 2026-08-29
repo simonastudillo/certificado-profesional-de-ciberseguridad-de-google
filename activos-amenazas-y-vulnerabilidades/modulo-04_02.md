@@ -1,0 +1,54 @@
+# Software malicioso
+
+## Software malicioso
+- ​Las personas y las computadoras son muy diferentes entre sí.
+- ​Hay una forma en la que nos parecemos.
+- ​¿Sabes cómo? Ambos somos ​vulnerables a contraer una infección.
+- ​Si bien los seres humanos pueden infectarse con un virus ​que provoca un resfriado o una gripe, ​los ordenadores pueden infectarse con software malicioso.
+- ​El malware es un software diseñado para dañar dispositivos o redes.
+- ​El malware, que es la abreviatura de software malintencionado, ​se puede propagar de muchas maneras.
+- ​Por ejemplo, se puede ​propagar a través de una unidad USB infectada.
+- ​O también se propaga comúnmente entre ordenadores en línea.
+- ​Los dispositivos y sistemas que están conectados a ​Internet son especialmente vulnerables a las infecciones.
+- ​Cuando un dispositivo se infecta, el ​software malicioso interfiere con sus operaciones normales.
+- ​Los atacantes utilizan software malicioso para tomar ​el control del sistema infectado sin ​el conocimiento o el permiso del usuario.
+- ​El malware ha sido una amenaza para las personas y ​las organizaciones durante mucho tiempo.
+- ​Los atacantes han creado muchos tipos diferentes de software malicioso.
+- ​Todos varían en la forma en que se propagan.
+- ​Los cinco tipos de software malicioso más comunes son virus, ​gusano, troyano, ransomware y software espía.
+- ​Veamos cómo funciona cada uno de ellos.
+- ​Un virus es un código malicioso escrito para interferir con ​las operaciones de la computadora y ​dañar los datos y el software.
+- ​Los virus suelen esconderse dentro de las aplicaciones de confianza.
+- ​Cuando se lanza el programa infectado, ​el virus se clona y se ​propaga a otros archivos del dispositivo.
+- ​Una característica importante de ​los virus es que ​el usuario debe activarlos para iniciar la infección.
+- ​El siguiente tipo de software malicioso no tiene esta limitación.
+- ​Un gusano es un software malicioso que ​puede duplicarse y propagarse por los sistemas por sí solo.
+- ​Si bien los virus requieren que los usuarios realicen ​una acción como abrir un archivo para duplicarlo, ​los gusanos utilizan un dispositivo infectado como anfitrión.
+- ​Escanean la red conectada en busca de otros dispositivos.
+- ​A continuación, los gusanos infectan todo lo que hay en la red ​sin necesidad de realizar ninguna acción para provocar la propagación.
+- ​Los virus y los gusanos se transmiten a través de ​correos electrónicos de suplantación de identidad y otros métodos ​antes de que infecten un dispositivo.
+- ​Una forma de ​evitar este tipo de infecciones es asegurarse de hacer clic en los enlaces únicamente de fuentes confiables.
+- ​Sin embargo, los atacantes han diseñado ​otra forma de software malicioso que ​puede superar esta precaución.
+- ​Un troyano, o caballo de Troya, ​es un software malicioso que parece un archivo o programa legítimo.
+- ​El nombre hace referencia a ​una leyenda griega antigua que se desarrolla en la ciudad de Troya.
+- ​En Troya, un grupo de soldados se escondió dentro de ​un caballo gigante de madera que fue ​obsequiado a sus enemigos.
+- ​Fue aceptado y llevado al interior de las murallas de la ciudad.
+- ​Más tarde, esa misma noche, los soldados que estaban dentro ​del caballo salieron y atacaron la ciudad.
+- ​Como en este cuento antiguo, los ​atacantes diseñan troyanos para que parezcan inofensivos.
+- ​Este tipo de software malicioso suele disfrazarse de archivos o ​aplicaciones útiles para engañar a ​su objetivo para que los instale.
+- ​Los atacantes suelen utilizar troyanos para acceder e ​instalar otro tipo de software malicioso llamado ransomware.
+- ​El ransomware es un tipo de ataque malicioso en el que los atacantes ​cifran los datos de una organización y ​exigen un pago para restablecer el acceso.
+- ​Este tipo de ataques se han vuelto muy comunes en estos días.
+- ​Una característica única de ​los ataques de ransomware es que ​se dan a conocer a sus objetivos.
+- ​Sin hacer esto, ​no podrían recaudar el dinero que exigen.
+- ​Normalmente, descifran los datos ocultos ​tan pronto como se paga la suma de dinero.
+- ​Desafortunadamente, no hay garantía de ​que no vuelvan a exigir más.
+- ​El último tipo de software malicioso que quiero mencionar es el software espía.
+- ​El spyware es un software malicioso que se utiliza para ​recopilar y vender información sin consentimiento.
+- ​Consentimiento es una palabra clave en este caso.
+- ​Las organizaciones también ​recopilan información sobre sus clientes, ​como sus hábitos de navegación y su historial de compras.
+- ​Sin embargo, siempre ofrecen a ​sus clientes la posibilidad de excluirse.
+- ​Los ciberdelincuentes, por otro lado, ​utilizan software espía para robar información.
+- ​Utilizan ataques de software espía para ​recopilar datos como credenciales de inicio de sesión, PIN de cuentas y otros tipos de ​información confidencial para su propio beneficio personal.
+- ​Además de ​estos, existen muchos otros tipos de software malicioso y siempre están evolucionando nuevas formas.
+- ​Todos representan un grave riesgo ​para las personas y las organizaciones.
