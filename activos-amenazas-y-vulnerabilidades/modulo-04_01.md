@@ -277,3 +277,120 @@
 - [x] Archivos adjuntos maliciosos
 - [x] Formularios falsos de recogida de datos
 > Los kits de phishing suelen contener herramientas como archivos adjuntos maliciosos, formularios falsos de recogida de datos y enlaces web fraudulentos con el fin de ayudar a los atacantes a evitar ser detectados.
+
+---
+
+## Actividad: Filtrar correos maliciosos
+- Resumen de la actividad
+   - En esta actividad, analizará un correo electrónico sospechoso e identificará los signos de un ataque de phishing.
+   - A continuación, determinará si el correo electrónico debe permitirse o ponerse en cuarentena.
+   - El phishing es una de las formas más comunes y peligrosas de ingeniería social que encontrará sobre el terreno.
+   - Identificar los intentos de phishing le ayudará a prevenir las amenazas y a encontrar formas de mejorar los procedimientos de seguridad.
+
+- Escenario
+   - Revise el escenario que aparece a continuación.
+   - A continuación, complete las instrucciones paso a paso.
+   - Usted es analista de seguridad en una empresa de inversiones llamada Banco Imaginario.
+   - Un ejecutivo de la firma ha recibido recientemente un correo electrónico de spear phishing que parece proceder de la junta directiva del Banco Imaginario.
+   - El spear phishing es un ataque malicioso por correo electrónico dirigido a un usuario o grupo de usuarios específico, que aparenta proceder de una fuente de confianza.
+   - En este caso, se pide al ejecutivo que instale un nuevo software de colaboración, ExecuTalk.
+   - El ejecutivo sospecha que este correo electrónico puede ser un intento de phishing porque nunca se mencionó ExecuTalk durante la última reunión de la junta directiva.
+   - Han reenviado el mensaje a su equipo para verificar si es legítimo.
+   - Su supervisor le ha encargado que investigue el mensaje y determine si debe ponerse en cuarentena.
+
+- Instrucciones paso a paso
+
+1. Analice el correo electrónico sospechoso
+- Anteriormente, aprendió que el phishing es un tipo de ingeniería social.
+- Los actores de amenazas que envían correos electrónicos maliciosos se basan en técnicas de engaño y manipulación para engañar a sus objetivos.
+- Cuando investigue correos electrónicos sospechosos como éste, es una buena idea anotar las tácticas del actor de la amenaza.
+- Puede utilizar esa información para alertar a otras personas de su organización sobre mensajes similares que podrían recibir y sobre lo que deben tener en cuenta.
+- Comience su investigación analizando el mensaje sospechoso.
+- Intente identificar indicios de que se trata de un ataque de phishing contra este ejecutivo del Banco Imaginario:
+```plain
+De: imaginarybank@gmail.org
+
+Enviado :Sábado, 21 de diciembre de 2019 15:05:05
+
+Para :cfo@imaginarybank.com
+
+Asunto :RE: Se le ha añadido a los grupos de un ecsecutiv
+
+¡Conglaturaciones! Usted ha sido añadido a un grupo de colaboración 'Execs'
+
+Descargue ExecuTalk en su ordenador.
+
+Mac®  |Windows® | Android™
+
+¡Su equipo le necesita! Esta invitación caducará en 48 horas, así que actúe con rapidez.
+
+Atentamente,
+
+ExecuTalk©
+
+Todos los derechos reservados.
+```
+
+2. Examinar la información del remitente
+- A continuación, examine con más detalle las partes principales de este mensaje, empezando por el encabezamiento del correo electrónico.
+- A menudo puede encontrar pistas en el encabezado del mensaje que le indiquen que está ante un ataque de phishing.
+- Examine el encabezamiento del correo electrónico de este mensaje sospechoso:
+```plain
+De: imaginarybank@gmail.org
+
+Enviado :Sábado, 21 de diciembre de 2019 15:05:05
+
+Para :cfo@imaginarybank.com
+
+Asunto : RE: Le han añadido a los grupos de un ecsecutiv
+```
+- Compruebe siempre el nombre de dominio que aparece después del símbolo @.
+- Las solicitudes de información sensible o que le pidan que descargue archivos no deben proceder de cuentas personales, como @gmail.com, @icloud, @yahoo.com u otras
+- ¿Qué dos pistas del encabezado del mensaje le indican que se trata de un intento de Phishing? Seleccione dos respuestas
+   - [ ] La marca de tiempo va más allá de las 12 PM.
+   - [ ] El sujeto parece ser una respuesta.
+   - [x] Hay un error ortográfico en el sujeto.
+   - [x] El remitente utiliza un dominio diferente.
+
+3. Revise el cuerpo del mensaje en busca de pistas
+- A continuación, revise el cuerpo del mensaje recibido por el ejecutivo del Banco Imaginario.
+- Intente identificar tres formas en las que este actor de amenazas intentó disfrazar su mensaje como un correo electrónico legítimo.
+- Este mensaje sólo pretende ilustrar un ejemplo de correo electrónico que contiene opciones de descarga maliciosas. 
+```plain
+¡Conglomeraciones! Se le ha añadido al grupo de colaboración 'Execs'
+
+Descargue ExecuTalk en su ordenador.
+
+Mac®  |Windows® | Android™
+
+¡Su equipo le necesita! Esta invitación caducará en 48 horas, así que actúe con rapidez.
+
+Atentamente,
+
+ExecuTalk©
+
+Todos los derechos reservados. 
+```
+- ¿Qué detalles hacen que este mensaje parezca legítimo? Seleccione tres respuestas.
+   - [x] Las opciones de descarga para los principales sistemas operativos
+   - [x] La etiqueta de marca
+   - [ ] El límite de tiempo de la invitación
+   - [x] El título del grupo
+
+4. Investigar las opciones de descarga
+- Los correos electrónicos de phishing suelen contener enlaces que redirigen a sitios maliciosos o provocan descargas de malware.
+- Cuando investigue correos electrónicos sospechosos, si pasa el cursor del ratón por encima de los botones revelará la URL a la que redirigen sin tener que hacer clic en ellos.
+- Esta es la forma más segura de comprobar si le llevará a un dominio sospechoso o si enlaza con una URL de http:// que no es segura.
+- En este caso, el mensaje contiene tres opciones de descarga, Cada una de ellas abre este formulario de acceso:
+
+<img src="./resources/image-10.png" alt="Una pantalla de inicio de sesión desde el dominio my.site.net/pwnexecs/. La pantalla de inicio de sesión parece una pantalla de inicio de sesión oficial de ExecuTalk" width="600"/>
+
+- Las opciones de descarga abren una página web que contiene un formulario de acceso en el que alguien puede introducir un nombre de usuario y una contraseña. Revise detenidamente la página web. ¿Cuál es la pista principal que indica que este formulario es malicioso?
+   - [ ] Marketing de marca (branding)
+   - [x] La URL
+   - [ ] Opciones de registro
+   - [ ] Tipo de fuente
+
+- Tras completar su investigación, ¿debe ponerse este correo electrónico en cuarentena?
+   - [x] Sí
+   - [ ] No
