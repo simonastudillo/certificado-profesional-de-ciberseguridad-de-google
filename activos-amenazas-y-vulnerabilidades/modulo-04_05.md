@@ -44,3 +44,25 @@
    - No solo identificaste las amenazas, sino que también proporcionaste información adicional valiosa sobre sus características, métodos de mitigación y relevancia en el panorama actual de la ciberseguridad.
 - Áreas de mejora:
    - Continúa explorando cómo estas amenazas se interconectan y cómo un ataque puede combinar múltiples técnicas para lograr sus objetivos. Esto te ayudará a desarrollar una visión aún más holística de la ciberseguridad.
+
+---
+
+## Resumen
+- ​Gestionar las amenazas es una parte importante ​de lo que hacen los profesionales de Seguridad.
+- ​En esta parte del curso, ​hemos explorado algunos tipos comunes ​de ciberamenazas que ​probablemente encontrará sobre el terreno.
+- ​Empezamos hablando de ingeniería social.
+- Descubriste que los atacantes tienen diversas formas de ​engañar a sus objetivos para que compartan información privada.
+- ​Las técnicas de ingeniería social se basan en ​explotar la confianza de las personas y su disposición a ayudar.
+- ​Los ataques de Phishing son una de las formas más comunes en las ​que los atacantes manipulan a sus objetivos.
+- ​A continuación, exploramos el software malicioso.
+- ​Aquí analizamos las principales clases de software malicioso, ​como virus, troyanos y gusanos.
+- ​Aprendió a detectar los signos de una infección.
+- ​También aprendió cómo el software malicioso ha ​evolucionado y se ha vuelto más sofisticado a lo largo de los años.
+- ​Después de eso, centramos nuestra atención en los ​exploits basados en la web, específicamente en los ataques por inyección.
+- ​Aprendió sobre la secuencia de comandos entre ​sitios y la inyección de SQL​, dos de los tipos de ​ataques más comunes a los que se enfrentan las organizaciones en línea.
+- ​Hablamos sobre cómo se lleva a cabo cada uno de estos ataques.
+- ​También aprendió cómo se ​pueden proteger las aplicaciones web contra el código malintencionado.
+- ​Por último, exploramos el proceso de modelado de amenazas.
+- ​Aprendió el proceso que ​utilizan los equipos de Seguridad para realizar estos ejercicios.
+- Desafortunadamente, los ciberataques y ​las brechas de Seguridad son una realidad a ​la que nos enfrentamos con regularidad.
+- ​Sin embargo, conocer ​el tipo de amenazas que existen y ​el proceso de modelado de amenazas proporciona ​una base importante para ​su trabajo como analista de Seguridad. 
