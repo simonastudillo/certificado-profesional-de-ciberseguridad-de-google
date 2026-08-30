@@ -161,3 +161,42 @@
    - El uso de una combinación de estas técnicas puede ayudar a prevenir los ataques de inyección de SQL.
    - En el campo de la Seguridad, es posible que tenga que colaborar estrechamente con los desarrolladores de aplicaciones para abordar las vulnerabilidades que pueden dar lugar a inyecciones de SQL.
    - [Las técnicas de detección de inyección de SQL de OWASP](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection) son un recurso útil si está interesado en investigar por su cuenta las vulnerabilidades de inyección de SQL.
+
+---
+
+## Pon a prueba tus conocimientos: Exploits basados en la Web
+
+1. Rellene el espacio en blanco: _____ son códigos o comportamientos maliciosos que se utilizan para aprovecharse de los fallos de programación de una aplicación web
+- [ ] Ataque de phishing dirigido
+- [ ] Ingeniería social
+- [x] Explotaciones basadas en web
+- [ ] Interfaz de línea de comandos
+> Las explotaciones basadas en web son códigos o comportamientos maliciosos que se utilizan para aprovecharse de fallos de programación en una aplicación web.
+
+2. Los ataques de secuencia de comandos entre sitios (XSS) se realizan a menudo explotando ¿cuál de los siguientes lenguajes? Seleccione dos respuestas
+- [x] HTML
+- [x] JavaScript
+- [ ] SQL
+- [ ] Python
+> Los ataques XSS se realizan explotando los dos lenguajes utilizados por la mayoría de los sitios web, HTML y JavaScript.
+
+3. Rellene el espacio en blanco: Un _____ es una técnica de programación que ejecuta sentencias SQL antes de pasarlas a la base de datos
+- [ ] botnet
+- [x] sentencia preparada
+- [ ] inyección de SQL
+- [ ] kit de phishing
+> Una sentencia preparada es una técnica de programación que ejecuta sentencias SQL antes de pasarlas a la base de datos. Las sentencias preparadas se utilizan para defenderse de los ataques de inyección de SQL mediante la validación del código antes de realizar una consulta.
+
+4. ¿Cuáles son dos ejemplos de cuándo pueden producirse inyecciones de SQL?
+- [x] Al utilizar el formulario de inicio de sesión para acceder a un sitio
+- [ ] Cuando existe una secuencia de comandos maliciosa en la página web que carga un navegador
+- [x] Cuando un usuario introduce sus credenciales
+- [ ] Cuando se inyecta una secuencia de comandos maliciosa directamente en el servidor
+> Dos ejemplos de cuándo pueden producirse inyecciones de SQL son cuando se utiliza el formulario de inicio de sesión para acceder a un sitio y cuando un usuario introduce sus credenciales. La inyección de SQL puede tener lugar en áreas del sitio web que están diseñadas para aceptar la entrada del usuario. 
+
+5. En un ataque de inyección de SQL, los hackers malintencionados intentan obtener ¿cuál de las siguientes cosas? Seleccione dos respuestas
+- [x] Información sensible
+- [ ] Contraseñas almacenadas de forma segura
+- [x] Derechos administrativos
+- [ ] Sistema operativo
+> En un ataque de inyección de SQL, los hackers malintencionados intentan obtener información confidencial y obtener derechos administrativos.
