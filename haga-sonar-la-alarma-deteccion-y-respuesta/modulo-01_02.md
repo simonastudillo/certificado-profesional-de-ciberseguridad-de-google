@@ -184,3 +184,18 @@
    - Where: En la red de la clínica sanitaria estadounidense.
    - Why: El ataque se originó a través de un correo electrónico de phishing dirigidos a varios empleados, que contenía un archivo adjunto malicioso que permitió a los atacantes desplegar el ransomware. Esto encriptó los archivos críticos de la clínica, obligandolos a interrumpir sus operaciones. Se deduce que el motivo del ataque fue obtener un rescate a cambio de la clave de descifrado, ya que los atacantes dejaron una nota de rescate solicitando dinero a cambio de restaurar el acceso a los archivos cifrados.
 5. Additional notes: ¿Debería la compañía pagar el rescate solicitado por los atacantes? Supongo que depende del nivel de los respaldos de datos y de la capacidad de recuperación de la clínica. Además, ¿qué medidas preventivas se pueden implementar para evitar futuros ataques de phishing y ransomware? Posiblemente no exista una capacitación adecuada para los empleados sobre cómo identificar correos electrónicos de phishing, lo que podría haber prevenido el incidente. Además, ¿Cómo pasaron esos correos los filtros? ¿Existen filtros antiphishing y antimalware adecuados? Posiblemente la respuesta sea que no, y que la compañía debería revisar sus políticas de seguridad y mejorar sus sistemas de filtrado de correos electrónicos para evitar que este tipo de incidentes ocurran en el futuro.
+
+---
+
+## Ejemplar de actividad del Portfolio: Documentar un incidente con el Diario del gestor de incidentes
+- [Diario del gestor de incidentes - Ejemplo](./resources/Incident-handler-s-journal-entry-exemplar.docx)
+
+- Evaluación del ejemplar
+   - Compare el ejemplar con su actividad finalizada.
+   - Revise su trabajo utilizando cada uno de los criterios del ejemplar.
+   - ¿Qué ha hecho bien? ¿En qué puede mejorar?
+   - Utilice sus respuestas a estas preguntas como guía para seguir avanzando en el curso.
+   - El ejemplar representa una de las muchas formas posibles de completar esta actividad.
+   - Es probable que la suya difiera en ciertos aspectos.
+   - Lo importante es que su Diario del gestor de incidentes registre los detalles del escenario.
+   - Saber cómo utilizar el Diario del gestor de incidentes para registrar notas y detalles adicionales durante la investigación de un incidente es importante porque puede utilizarse como referencia para futuros esfuerzos de respuesta a incidentes.
