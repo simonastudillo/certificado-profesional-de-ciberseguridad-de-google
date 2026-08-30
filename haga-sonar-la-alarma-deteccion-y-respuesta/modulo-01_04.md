@@ -139,3 +139,35 @@
    - Por ejemplo, si un EDR detecta el inicio de un proceso inusual en la estación de trabajo de un usuario que normalmente no se utiliza, puede bloquear automáticamente la ejecución del proceso.
    - Herramientas como Open EDR®, Bitdefender™ Detección y respuesta en el punto de conexión y FortiEDR™ son ejemplos de herramientas EDR.
    - Las herramientas de administración de información y eventos de seguridad (SIEM) también tienen capacidades de detección.
+
+---
+
+## Ponga a prueba sus Conocimientos: Herramientas de Detección y Documentación
+
+1. ¿Cuáles son algunos ejemplos de tipos de Documentación? Seleccione tres respuestas.
+- [x] Políticas
+- [ ] Notificaciones de alerta
+- [x] Informes finales  
+- [x] Manuales de estrategias
+> Manuales de estrategias, informes finales y políticas son ejemplos de distintos tipos de documentación. 
+
+2. Rellene el espacio en blanco: Los sistemas de tickets como _____ pueden utilizarse para documentar y hacer un seguimiento de los incidentes
+- [ ] Cámaras
+- [x] Jira
+- [ ] Excel
+- [ ] Evernote
+> Los sistemas de tickets como Jira pueden utilizarse para documentar y hacer un seguimiento de los incidentes.
+
+3. ¿Qué aplicación monitorea la actividad del sistema y luego produce alertas sobre posibles intrusiones?
+- [ ] Manual del producto
+- [ ] Manual de estrategias
+- [x] Sistema de detección de intrusiones
+- [ ] Procesador de textos
+> Un Sistema de detección de intrusiones (IDS) es una aplicación que monitoriza la actividad del sistema y, a continuación, emite alertas sobre posibles intrusiones.
+
+4. ¿Qué acciones realiza un Sistema de prevención de intrusiones (IPS)? Seleccione tres respuestas
+- [x] Detectar actividad anormal
+- [ ] Gestionar los incidentes de Seguridad
+- [x] Detener la actividad intrusiva
+- [x] Monitorear la actividad
+> un IPS monitorea, detecta y detiene la actividad anormal o intrusiva.
