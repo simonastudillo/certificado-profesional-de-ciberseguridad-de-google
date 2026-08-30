@@ -301,25 +301,25 @@
 - [ ] Manual de estrategias
 - [ ] Herramienta del Sistema de prevención de intrusiones (IPS) 
 - [x] Herramienta de administración de información y eventos de seguridad (SIEM)
-> 
+> Las herramientas SIEM recopilan y analizan los datos de registro para monitorizar las actividades críticas de una organización.
 
 2. Rellene el espacio en blanco: Orquestación, automatización y respuesta de seguridad (SOAR) es un conjunto de aplicaciones, Herramientas y Flujos de trabajo que utiliza la automatización para _____ eventos de seguridad
 - [x] responder a
 - [ ] interactuar con
 - [ ] recoja
 - [ ] remediar
-> 
+> sOAR es una colección de aplicaciones, herramientas y flujos de trabajo que utiliza la automatización para responder a los eventos de Seguridad.
 
 3. ¿Qué paso del proceso SIEM transforma los datos brutos para crear registros A coherentes?
 - [x] Normalización de datos
 - [ ] Recogida y agregación de Datos
 - [ ] Analizar datos
 - [ ] Centralizar datos
-> 
+> Durante el paso de normalización de datos en el proceso SIEM, los datos brutos se transforman para crear registros coherentes. El proceso de normalización implica la limpieza de los Datos y la eliminación de atributos no esenciales.
 
 4. ¿En qué consiste el proceso de recopilar Datos de distintas fuentes y ponerlos en un lugar centralizado?
 - [x] Agregación
 - [ ] Notificación
 - [ ] Análisis
 - [ ] Normalización
-> 
+> La Agregación es el proceso de reunir Datos de diferentes fuentes y ponerlos en un lugar centralizado.
