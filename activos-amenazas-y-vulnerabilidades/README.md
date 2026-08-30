@@ -1,17 +1,73 @@
 # Activos, amenazas y vulnerabilidades
 
 - Módulo 1: Introducción a la seguridad de los recursos
+   - [Comenzar el curso](modulo-01_01.md)
+   - [Introducción a los recursos](modulo-01_02.md)
+   - [Recursos digitales y físicos](modulo-01_03.md)
+   - [Riesgo y Seguridad de los recursos](modulo-01_04.md)
+   - [Revisión: Introducción a la Seguridad de los Recursos](modulo-01_05.md)
 - Módulo 2: Proteger los recursos de la organización
+   - [Información de salvaguardia](modulo-02_01.md)
+   - [Métodos de encriptación](modulo-02_02.md)
+   - [Autenticación, autorización y contabilidad](modulo-02_03.md)
+   - [Revisar: Proteger los recursos de la organización](modulo-02_04.md)
 - Módulo 3: Vulnerabilidades en los sistemas
+   - [Fallos en el sistema](modulo-03_01.md)
+   - [Identificar las vulnerabilidades del sistema](modulo-03_02.md)
+   - [Mentalidad del ciberatacante](modulo-03_03.md)
+   - [Revisión: Vulnerabilidades en los sistemas](modulo-03_04.md)
 - Módulo 4: Amenaza a la seguridad de los recursos
+   - [Ingeniería social](modulo-04_01.md)
+   - [Software malicioso](modulo-04_02.md)
+   - [Explotaciones basadas en web](modulo-04_03.md)
+   - [Modelado de amenazas](modulo-04_04.md)
+   - [Revisión: Amenaza en la ciberseguridad](modulo-04_05.md)
+   - [Enhorabuena por completar el curso 5](modulo-04_06.md)
 
 ## Habilidades y conceptos a aprender
 
 ### Habilidades técnicas (hard skills)
 
+- **Gestión de activos (Asset Management)**: creación y mantenimiento de inventarios de activos digitales y físicos.
+- **Clasificación de activos y datos (Asset & Data Classification)**: etiquetado de activos según su sensibilidad e importancia (PII, PHI, datos confidenciales).
+- **Gestión de riesgos (Risk Management)**: evaluación y puntuación de riesgos en función de su probabilidad y gravedad.
+- **Criptografía aplicada**: cifrado simétrico y asimétrico, funciones hash (MD5, SHA), salting y uso de herramientas como OpenSSL para cifrar/descifrar información.
+- **Infraestructura de clave pública (PKI)**: certificados digitales e intercambio seguro de información.
+- **Gestión de identidad y acceso (IAM)**: implementación de autenticación, autorización y contabilidad (AAA), incluyendo SSO, MFA y OAuth.
+- **Gestión de vulnerabilidades (Vulnerability Management)**: evaluación de vulnerabilidades, uso de escáneres de vulnerabilidad, pruebas de penetración y aplicación de parches/actualizaciones.
+- **Análisis de superficies y vectores de ataque**: identificación de brechas de seguridad en superficies físicas, digitales y en la nube.
+- **Detección de amenazas**: identificación de phishing, malware (virus, troyanos, gusanos, ransomware, cryptojacking) y ataques de fuerza bruta.
+- **Seguridad de aplicaciones web**: prevención de ataques de inyección SQL y cross-site scripting (XSS) mediante validación de entradas y sentencias preparadas.
+- **Modelado de amenazas (Threat Modeling)**: aplicación de marcos como PASTA y uso de árboles de ataque para anticipar amenazas.
+
 ### Conceptos clave
 
+- **Tríada CID (CIA Triad)**: confidencialidad, integridad y disponibilidad de la información.
+- **Activos, amenazas, vulnerabilidades y riesgos**: componentes básicos de la gestión de riesgos organizacionales.
+- **Estados de los datos**: datos en reposo, en tránsito y en uso.
+- **Marco de Ciberseguridad del NIST (NIST CSF)**: estándares, directrices y mejores prácticas para gestionar el riesgo.
+- **Controles de seguridad y directrices**: políticas, estándares y procedimientos de seguridad.
+- **Principio de privilegio mínimo (Least Privilege)** y separación de funciones.
+- **Ciclo de vida de los datos** y privacidad de la información.
+- **Cumplimiento normativo y regulaciones**: GDPR, HIPAA, PCI DSS, FERPA.
+- **Defensa en profundidad (Defense in Depth)**: enfoque por capas para la gestión de vulnerabilidades.
+- **CVE, CVSS y OWASP Top 10**: catálogo de vulnerabilidades comunes y sistemas de puntuación de severidad.
+- **Seguridad en la nube (Cloud Security)**: modelo de responsabilidad compartida.
+- **Inteligencia de fuentes abiertas (OSINT)**: recopilación de información a partir de fuentes públicas.
+- **Actores de amenaza (Threat Actors)**: hackers, APTs, amenazas internas y estados-nación.
+- **Ingeniería social**: técnicas de manipulación como phishing, spear phishing, whaling, vishing, smishing, baiting y tailgating.
+- **Explotaciones basadas en web**: XSS reflejado, almacenado y basado en DOM, e inyección SQL.
+- **Mentalidad de atacante (Attacker Mindset)**: enfoque proactivo de la seguridad desde la perspectiva del adversario.
+
 ### Habilidades transferibles (soft skills)
+
+- **Pensamiento crítico y analítico**: análisis de riesgos, evaluación de superficies de ataque y toma de decisiones de seguridad.
+- **Resolución de problemas**: respuesta a incidentes y búsqueda de soluciones ante brechas de seguridad.
+- **Atención al detalle**: detección de correos maliciosos, señales de infección por malware y vulnerabilidades del sistema.
+- **Mentalidad de aprendizaje continuo**: mantenerse al día con las mejores prácticas y tendencias emergentes en ciberseguridad.
+- **Comunicación efectiva**: documentación de hallazgos de seguridad y colaboración con equipos y partes interesadas.
+- **Pensamiento proactivo**: anticipación de amenazas mediante el modelado de amenazas y la mentalidad de atacante.
+- **Ética profesional y responsabilidad**: protección de la privacidad y el manejo adecuado de información sensible.
 
 ## Descripción del curso
 ---
@@ -323,3 +379,48 @@
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Introducción a la seguridad de los recursos
+
+Este módulo establece los fundamentos de la seguridad de los recursos. Los puntos clave son:
+
+- Todo plan de seguridad se basa en el análisis de tres elementos: **activos** (todo lo que tiene valor para una organización), **amenazas** (circunstancias o eventos que pueden dañar los activos, intencionadas o no intencionadas) y **vulnerabilidades** (debilidades técnicas o humanas que pueden ser explotadas).
+- El objetivo central de la seguridad es proteger la **tríada CID**: confidencialidad, integridad y disponibilidad. El riesgo se calcula como *Probabilidad × Impacto*.
+- La **gestión de activos** comienza con un inventario y sigue con la **clasificación de activos** según su sensibilidad e importancia, usando los niveles: restringido, confidencial, sólo interno y público. Solo se puede proteger lo que se sabe que se tiene.
+- Los datos existen en **tres estados** (en uso, en tránsito y en reposo), y la seguridad de la información (InfoSec) consiste en protegerlos en todos ellos.
+- La **computación en la nube** (SaaS, PaaS, IaaS) introdujo el **modelo de responsabilidad compartida** y nuevos retos como la desconfiguración de servicios.
+- Todo plan de seguridad consta de **políticas** (qué y por qué protegemos), **estándares** (puntos de referencia para las políticas) y **procedimientos** (instrucciones paso a paso).
+- El **Marco de Ciberseguridad del NIST (CSF)** es un marco voluntario compuesto por núcleo (seis funciones: gobernar, identificar, proteger, detectar, responder y recuperar), niveles (1-4) y perfiles, que ayuda a las organizaciones a gestionar el riesgo y lograr el cumplimiento normativo.
+
+### Módulo 2: Proteger los recursos de la organización
+
+Este módulo cubre los controles de seguridad que protegen los activos de forma proactiva. Los puntos clave son:
+
+- Los **controles de seguridad** se clasifican en tres tipos: técnicos (encriptación, autenticación), operativos (formación, respuesta ante incidentes) y de gestión (políticas, normas y procedimientos).
+- El **principio de privilegio mínimo (PoLP)** concede a los usuarios solo el acceso necesario para completar sus tareas, diferenciando entre **propietarios de datos** (deciden quién accede) y **custodios de datos** (manejan, transportan y almacenan la información). Se complementa con la **separación de funciones** y auditorías periódicas (de uso, de privilegios y de cambios de cuenta).
+- El **ciclo de vida de los datos** consta de cinco etapas: recopilar, almacenar, utilizar, archivar y destruir; cada una requiere controles específicos.
+- La **criptografía** protege la información mediante cifrado y descifrado. Existen dos tipos: **simétrico** (una sola clave, más rápido) y **asimétrico** (par de claves pública/privada, más seguro). La **infraestructura de clave pública (PKI)** combina ambos y resuelve el problema de confianza mediante **certificados digitales** emitidos por autoridades certificadoras (CA).
+- Las **funciones hash** (MD5, SHA) producen códigos que no pueden descifrarse y garantizan la **no repudiación**; el **salting** las fortalece frente a ataques con tablas rainbow.
+- El marco **AAA (autenticación, autorización y contabilidad)** gestiona el acceso: la autenticación verifica la identidad mediante tres factores (conocimiento, propiedad, característica), reforzada con **SSO** (protocolos LDAP y SAML) y **MFA**; la autorización determina qué puede hacer el usuario (por ejemplo, mediante **OAuth**); y la contabilidad audita la actividad de los usuarios.
+
+### Módulo 3: Vulnerabilidades en los sistemas
+
+Este módulo aborda cómo se encuentran y gestionan las vulnerabilidades. Los puntos clave son:
+
+- La **gestión de vulnerabilidades** es un proceso cíclico de cuatro pasos: identificar vulnerabilidades, considerar sus posibles exploits, preparar defensas y evaluarlas. Los **exploits de día cero** son amenazas previamente desconocidas para las que no existe defensa preparada.
+- Las **canalizaciones CI/CD** (integración, entrega y despliegue continuos) automatizan la publicación de software, pero introducen riesgos que requieren gestión rigurosa de vulnerabilidades.
+- La estrategia de **defensa en profundidad** utiliza múltiples capas de seguridad que trabajan juntas para construir una defensa más fuerte.
+- Las vulnerabilidades conocidas se documentan en la **lista CVE** y se puntúan con el sistema **CVSS**; el **OWASP Top 10** cataloga los riesgos más críticos en aplicaciones web, y el **OSINT** permite recopilar inteligencia de fuentes abiertas.
+- Las **evaluaciones de vulnerabilidades** siguen un proceso de cuatro pasos (identificación, análisis, evaluación de riesgos y reparación) y se apoyan en **escáneres de vulnerabilidades** que analizan las cinco capas de la superficie de ataque (perímetro, red, punto final, aplicación y datos) mediante escaneos externos/internos, autenticados/no autenticados.
+- Las **actualizaciones y parches** son esenciales para mantener los sistemas protegidos; las **pruebas de penetración** complementan las evaluaciones.
+- El **endurecimiento de seguridad (security hardening)** reduce la superficie de ataque física y digital limitando los puntos de entrada. Adoptar una **mentalidad de atacante** (ejercicios de equipo rojo/azul) permite simular amenazas y descubrir brechas antes que los ciberdelincuentes, considerando los distintos **tipos de actores de amenaza** (internos, externos, APTs, estados-nación) y los **vectores de ataque** comunes, incluidos los ataques de **fuerza bruta**.
+
+### Módulo 4: Amenaza a la seguridad de los recursos
+
+Este módulo explora las amenazas más comunes y cómo anticiparse a ellas. Los puntos clave son:
+
+- La **ingeniería social** es una técnica de manipulación que explota el error humano; sus ataques siguen etapas (preparación, establecimiento de confianza o pretexto, persuasión y desconexión) e incluyen tácticas como **phishing** (y sus variantes: spear phishing, whaling, vishing, smishing, angler phishing), baiting, quid pro quo y tailgating.
+- El **malware** es software diseñado para dañar dispositivos o redes. Los tipos principales son: **virus** (requieren activación del usuario), **gusanos** (se autopropagan), **troyanos** (se disfrazan de programas legítimos), **ransomware** (cifra datos y exige pago), **spyware** (recopila información sin consentimiento), además de adware, scareware, rootkits, droppers, loaders, botnets, malware sin archivos y **cryptojacking**.
+- Las **explotaciones basadas en web** aprovechan fallos de programación en aplicaciones. Las más comunes son los **ataques de inyección**: **cross-site scripting (XSS)** —reflejado, almacenado y basado en DOM— y la **inyección SQL**, que se previenen con **validación de entradas** y **sentencias preparadas**.
+- El **modelado de amenazas** es un proceso proactivo de seis pasos: definir el alcance, identificar amenazas (mediante **árboles de ataque**), caracterizar el entorno, analizar amenazas, mitigar riesgos (evitar, transferir, reducir o aceptar) y evaluar los hallazgos. Debe integrarse en cada etapa del ciclo de vida de desarrollo de software (SDLC), típicamente con equipos **DevSecOps**.
+- El marco **PASTA** (Proceso de Simulación de Ataques y Análisis de Amenazas) estructura el modelado en siete etapas: definir objetivos empresariales, definir el alcance técnico, descomponer la aplicación (diagramas de flujo de datos), análisis de amenazas, análisis de vulnerabilidades, modelado de ataques y análisis de riesgo e impacto.
