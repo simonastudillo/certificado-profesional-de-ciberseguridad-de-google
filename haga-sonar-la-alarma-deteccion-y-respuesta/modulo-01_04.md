@@ -18,3 +18,35 @@
 - ​Es posible que recuerde el diario del responsable de la gestión de incidentes ​que compartimos con usted en la sección anterior.
 - ​Utilizará este diario como su propia forma de ​documentación a medida que ​avance en el resto de este curso.
 - ​Considera que esta es la ​primera herramienta de Seguridad que añades a tu caja de herramientas. 
+
+---
+
+## El valor de la documentación
+- ​Hola. ​Anteriormente, aprendió cómo se usa el diario de un controlador de incidentes para documentar las 5 W de ​un incidente: quién, qué, dónde, cuándo y por qué ocurrió un incidente.
+- ​En esta sección, continuaremos nuestra discusión sobre la documentación explorando los diferentes ​tipos de documentación, la importancia de una documentación eficaz y terminaremos ​con la discusión sobre las herramientas de documentación.
+- ​Documentación es cualquier forma de contenido grabado que se utiliza para ​un propósito específico.
+- ​Pueden ser instrucciones de audio, digitales o escritas a mano, e incluso vídeos.
+- ​No existe un estándar industrial establecido para la documentación, por lo que ​muchas organizaciones establecen sus propias prácticas de documentación.
+- ​En cualquier caso, la documentación está destinada a proporcionar instrucciones y orientación ​sobre un tema específico.
+- ​También hay muchos tipos de documentación ​y es posible que ya esté familiarizado con algunos de ellos de las lecciones anteriores.
+- ​Estos incluyen libros de estrategias, diarios de gestores de incidentes, políticas, planes ​e informes finales.
+- ​Recuerde que no existe un estándar industrial para la documentación, lo que significa que ​las prácticas de documentación de una organización pueden ser completamente diferentes a las de otra.
+- Con frecuencia, las organizaciones adaptan sus prácticas de documentación de acuerdo con sus necesidades ​y requisitos legales.
+- Pueden agregar, eliminar o incluso combinar tipos de documentación.
+- ​¿Alguna vez ha comprado un producto y no sabía cómo usarlo y consultó ​el manual del producto para obtener instrucciones sobre cómo hacer algo como encenderlo?
+- ​Enhorabuena, ha utilizado la documentación para resolver un problema.
+- ​Anteriormente, aprendió cómo los manuales de estrategias mantienen seguras las operaciones empresariales ​y, en la respuesta a incidentes, los manuales de estrategias funcionan de manera similar a un manual de producto.
+- ​A modo de repaso, ​un manual de estrategias es un manual que proporciona detalles sobre cualquier acción operativa.
+- ​Aprenderás más sobre los libros de jugadas más adelante.
+- ​Repasemos el ejemplo del manual del producto.
+- ​¿Alguna vez consultó el manual de un producto para obtener ayuda y se encontró confundido con ​las instrucciones y no pudo obtener la ayuda que necesitaba?
+- ​Ya sea que tuviera que ver con imágenes e instrucciones poco claras o con ​un diseño confuso, no pudo usar la documentación para resolver su problema.
+- ​Este es un ejemplo de documentación ineficaz.
+- ​La documentación eficaz reduce la incertidumbre y la confusión.
+- ​Esto es fundamental durante un incidente de Seguridad cuando las tensiones son altas y ​se requiere una respuesta urgente.
+- ​Como profesional de Seguridad, utilizarás y ​crearás documentación con regularidad.
+- ​Es fundamental que la documentación que utilice y produzca sea clara, coherente ​y precisa, para que usted y su equipo puedan responder con rapidez y decisión.
+- ​Los procesadores de texto son una forma habitual de documentar.
+- ​Algunas herramientas populares para usar son Google Docs, OneNote, Evernote y Notepad++.
+- ​Los sistemas de venta de entradas, como Jira, también se pueden usar para documentar y rastrear los incidentes. 
+​Por último, las hojas de cálculo de Google, las grabadoras de audio, las cámaras y las ​notas manuscritas también son herramientas que puedes utilizar para documentar. ​Nuestro debate sobre la documentación no ha hecho más que empezar. ​Pronto, utilizarás el diario de tu gestor de incidentes para poner en práctica tus ​habilidades de documentación. 
