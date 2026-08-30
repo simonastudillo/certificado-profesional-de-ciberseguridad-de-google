@@ -370,3 +370,56 @@
    - Principio de privilegio mínimo
    - Cifrado de datos en tránsito y en reposo
    - Monitoreo y registro de actividades sospechosas
+
+---
+
+## Actividad ejemplar: Aplicar el marco del modelo de amenazas PASTA
+- [Ejemplo de Hoja de trabajo PASTA](./resources/PASTA-worksheet-exemplar.docx)
+
+- Evaluación del ejemplar
+
+- Compare el ejemplar con su actividad terminada.
+- Revise su trabajo utilizando cada uno de los criterios del ejemplar.
+- ¿Qué ha hecho bien? ¿En qué puede mejorar? Utilice sus respuestas a estas preguntas como guía para seguir avanzando en el curso.
+- El ejemplar representa una forma posible de completar la actividad.
+- Es probable que la suya difiera en ciertos aspectos.
+- Lo importante es que su actividad incluya información en cada etapa del proceso.
+- El Modelado de amenazas es una práctica avanzada en ciberseguridad.
+- Normalmente requiere experiencia en el campo, un profundo conocimiento de la tecnología informática y la participación de muchas personas diferentes.
+
+- Repasemos cada una de las etapas de este ejercicio de Modelado de amenazas PASTA:
+
+- Etapa I: Definir los objetivos empresariales y de Seguridad
+- Resumen: Estos objetivos se definen al principio formulando preguntas generales sobre la finalidad de la aplicación. Por ejemplo, ¿cómo hace ganar dinero la aplicación al negocio? Comprender la respuesta a estas preguntas ayuda a guiar el trabajo detallado que vendrá a continuación.
+
+- Recomendaciones: Una aplicación de compras como ésta necesitará procesar pagos. Basándonos en esta descripción, sabemos que se necesitan ciertas tecnologías para mantener la información privada y segura y que todo tendrá que cumplir la norma PCI-DSS.
+
+- Etapa II: Definir el alcance técnico
+- Resumen: El objetivo aquí es comprender la superficie de ataque identificando las tecnologías que utiliza la aplicación y comprendiendo sus dependencias.
+
+- Recomendaciones: Las API facilitan el intercambio de datos entre clientes, socios y empleados, por lo que deben ser prioritarias. Manejan muchos datos sensibles mientras conectan a varios usuarios y sistemas entre sí. Sin embargo, hay que tener en cuenta detalles como qué API se están utilizando antes de priorizar una tecnología sobre otra. Así, pueden ser más propensas a las vulnerabilidades de seguridad porque hay una mayor superficie de ataque.
+
+- Etapa III: Descomponer la aplicación
+- Resumen: La tercera etapa se basa en la anterior al investigar cómo se comunican entre sí los componentes de la aplicación. El objetivo aquí es revisar cómo funciona la aplicación y cómo se implementan actualmente los controles de seguridad.
+
+- Recomendaciones: El diagrama de flujo de datos de muestra muestra cómo una solicitud de búsqueda típica pasa a través de múltiples capas. Algo que podría revisar aquí sería asegurarse de que la base de datos MySQL está utilizando sentencias preparadas cuando se introducen las consultas.
+
+- Etapa IV: Análisis de amenazas
+- Resumen: El objetivo principal de la cuarta etapa es considerar los tipos de amenazas que podrían afectar a su aplicación. Esto está relacionado con las tecnologías que ya ha analizado. Otra cosa a tener en cuenta son los tipos de datos que procesará su aplicación.
+
+- Recomendaciones: Los ataques de inyección son habituales en las bases de datos SQL. El secuestro de sesión es posible porque la aplicación comunica las cookies entre varias capas. Es importante tener en cuenta la superficie de ataque tecnológico y cualquier amenaza relevante para su producto para implementar eficazmente sus responsabilidades en materia de seguridad de la información.
+
+- Etapa V: Análisis de vulnerabilidad
+- Resumen: La quinta etapa consiste en asociar las vulnerabilidades de los recursos con las amenazas potenciales. El objetivo aquí es identificar qué falla en el diseño de la aplicación o en su código base basándose en sus pruebas de seguridad.
+
+- Recomendaciones: La falta de sentencias preparadas puede hacer que nuestra base de datos SQL sea vulnerable a ataques de inyección. Y el secuestro de sesión es posible si las cookies se manejan mal entre las fuentes de entrada y salida.
+
+- Etapa VI: Modelo de ataque
+- Resumen: En esta etapa, el objetivo es vincular las amenazas y vulnerabilidades identificadas en los pasos anteriores utilizando árboles de ataque. El propósito de utilizar árboles de ataque aquí es demostrar que las amenazas potenciales que ha identificado son realmente viables. Recursos como MITRE ATT&CK y la Lista de CVE® son referencias útiles para encontrar pruebas que validen la información que ha modelado en su árbol de ataque.
+
+- Recomendaciones: Este árbol de ataque de muestra modela cómo los datos del usuario son vulnerables a los ataques que se identificaron anteriormente. Al igual que el diagrama de flujo de datos de muestra, un árbol de ataque real para una aplicación para dispositivos móviles sería mucho más complejo que éste.
+
+- Etapa VII: Análisis de riesgos e impacto
+- Resumen: El objetivo de la etapa final de PASTA es identificar formas de mitigar los riesgos que se identificaron de las etapas IV - VI y planificar los riesgos restantes que no se puedan remediar.
+
+- Recomendaciones: SHA-256, los Procedimientos de respuesta ante incidentes, la política de contraseñas y el principio de privilegio mínimo son algunos ejemplos de controles técnicos, operativos y de gestión que pueden implementarse antes del Lanzamiento para reducir el Riesgo.
