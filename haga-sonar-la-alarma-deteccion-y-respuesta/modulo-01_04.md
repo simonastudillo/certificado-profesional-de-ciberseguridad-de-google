@@ -72,4 +72,4 @@
 - ​Algunas herramientas populares son Snort, ​Zeek, Kismet, Sagan y Suricata.
 - ​Exploraremos Suricata en las próximas lecciones.
 - ​Quizás se pregunte, ​¿a dónde van estas notificaciones de alerta?
-- ​Bueno, próximamente, analizaremos cómo administrar las alertas ​mediante herramientas de administración de información y eventos de seguridad. 
+- ​Bueno, próximamente, analizaremos cómo administrar las alertas ​mediante herramientas de administración de información y eventos de seguridad.
