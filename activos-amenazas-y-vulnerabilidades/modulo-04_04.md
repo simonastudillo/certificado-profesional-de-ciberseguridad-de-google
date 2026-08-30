@@ -209,3 +209,20 @@
 - Lleva tiempo y práctica aprender a trabajar con cosas como diagramas de flujo de datos y árboles de ataque.
 - Sin embargo, cualquiera puede aprender a ser un modelador de amenazas eficaz.
 - Independientemente de su nivel de experiencia, participar en uno de estos ejercicios siempre empieza simplemente por hacerse las preguntas adecuadas.
+
+---
+
+## Explorar: Aplicar PASTA al modelo de amenazas de una aplicación
+- A designer clothing store has a new shopping app to drive sales. Improve the security of the app by performing a threat analysis using the PASTA framework.
+
+- Remaining: 7 - The team creates an attack tree and maps vulnerabilities to attack vectors.
+> Stage 6: Conduct attack modeling. The team creates an attack tree and maps vulnerabilities to attack vectors.
+
+- Remaining: 6 - The team more deeply investigates potential vulnerabilities related to the app.
+> Stage 5: Perform a vulnerability analysis. The team more deeply investigates potential vulnerabilities related to the app.
+
+- Remaining: 5 - The team determines the retailer wants their app to protect customer data.
+> Stage 1: Define business and security objectives. The team determines the retailer wants their app to protect customer data.
+
+- Remaining: 4 - The team analyzes all collected data and makes risk management recommendations.
+> Stage 7: Analyze risk and impact. The team analyzes all collected data and makes risk management recommendations.
