@@ -38,3 +38,15 @@
    - Explorarás los registros y su función en las herramientas IDS y SIEM.
    - Aprenderás cómo funcionan estos sistemas para ayudar a los equipos de ciberseguridad a supervisar los sistemas y detectar actividades maliciosas.
    - También te presentaremos algunos productos IDS y SIEM, y practicarás el uso de herramientas para realizar consultas.
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
