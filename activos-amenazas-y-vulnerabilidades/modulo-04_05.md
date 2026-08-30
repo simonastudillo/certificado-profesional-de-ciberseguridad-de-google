@@ -71,3 +71,119 @@
 
 ## Términos del glosario del Módulo 4
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Módulo 4 desafío
+
+1. Un agente de amenaza engañó a un nuevo empleado para que compartiera información sobre un alto ejecutivo por teléfono. ¿Este es un ejemplo de qué tipo de ataque?
+- [ ] Relleno de credenciales
+- [x] Ingeniería social
+- [ ] Software malicioso
+- [ ] Inyección de SQL
+> Correcto
+
+1. Rellene el espacio en blanco: Las cuatro etapas de un ataque de ingeniería social son: preparar, _____, utilizar tácticas de persuasión y desconectarse del objetivo
+- [ ] realizar pruebas de caja abierta
+- [ ] distribuir correo electrónico malicioso
+- [ ] obtener credenciales de acceso
+- [x] establecer la confianza
+> Correcto
+
+2. ¿Cuál es la principal diferencia entre un ataque de Vishing y un ataque de Smishing?
+- [ ] El Vishing explota los posts de las Redes sociales para identificar objetivos.
+- [x] El Vishing utiliza las llamadas de voz para engañar a los objetivos.
+- [ ] El Vishing consiste en una campaña generalizada por correo electrónico para robar información.
+- [ ] El Vishing se utiliza para dirigirse a los ejecutivos de una organización.
+> Correcto
+
+2. ¿Cuál es la forma más común de ingeniería social utilizada por los atacantes?
+- [ ] Ransomware
+- [x] Phishing
+- [ ] Software con anuncios
+- [ ] Software malicioso
+> Correcto
+
+3. Un artista digital recibe en línea una versión gratuita de un software de edición profesional que ha sido infectada con software malicioso. Tras instalar el programa, su computadora comienza a congelarse y a bloquearse repetidamente. El software malicioso oculto en este software de edición es un ejemplo de ¿qué tipo de software malicioso?
+- [x] Troyano
+- [ ] Scareware
+- [ ] Software con anuncios
+- [ ] Software espía
+> Correcto
+
+4. ¿Qué tipo de software malicioso requiere que el usuario realice un pago al atacante para recuperar la accesibilidad a su dispositivo?
+- [ ] Criptojacking
+- [ ] Botnets
+- [x] Ransomware
+- [ ] Ataques de fuerza bruta
+> Correcto
+
+4. Un contratista del gobierno es engañado para que instale un virus en su estación de trabajo que encripta todos sus archivos. El virus muestra un mensaje en la estación de trabajo diciéndole al contratista que puede conseguir la desencriptación de los archivos si realiza un pago de 31.337 dólares a una dirección de correo electrónico. ¿De qué tipo de ataque es éste un ejemplo?
+- [ ] Escritura de secuencias de comandos entre sitios
+- [x] Ransomware
+- [ ] Scareware
+- [ ] Ataque de fuerza bruta
+> Correcto
+
+5. ¿Cuáles de los siguientes son signos comunes de que una computadora está infectada con software de Criptojacking? Seleccione tres respuestas
+- [x] Aumento del uso de la CPU
+- [ ] Archivos modificados o borrados
+- [x] Caídas repentinas del sistema
+- [x] Costos de electricidad inusualmente altos
+> Correcto
+
+5. Rellene el espacio en blanco: Una(s) herramienta(s) _____ puede(n) ser utilizada(s) por los profesionales de la Seguridad para detectar actividades anómalas, como la minería de software malicioso para criptomonedas
+- [ ] Árbol de ataque
+- [x] Sistema de detección de intrusiones (IDS)
+- [ ] Software espía
+- [ ] Malware sin archivos
+> Correcto
+
+6. Investigadores de Seguridad insertaron código malicioso en las aplicaciones web de varias organizaciones. Esto les permitió obtener la información de identificación personal (PII) de varios usuarios a través de múltiples bases de datos. ¿Qué tipo de ataque realizaron los investigadores?
+- [ ] Ransomware
+- [ ] Ingeniería social
+- [x] Inyección
+- [ ] Saneamiento de entradas
+> Correcto
+
+6. ¿Cómo se denomina el código malicioso que se inserta en una aplicación vulnerable?
+- [ ] Criptojacking
+- [x] Ataque de inyección
+- [ ] Ingeniería social
+- [ ] Validación de entrada
+> Correcto
+
+7. Un atacante inyecta código malicioso en el almacenamiento de Datos de un sitio web. Cuando un usuario visita un sitio web, el código malicioso se recupera y se ejecuta en su navegador, su dispositivo se infecta con el código malicioso. ¿Este es un ejemplo de qué tipo de ataque de inyección?
+- [ ] Reflejado (Incorrecto)
+- [ ] Basado en DOM
+- [ ] Fuerza bruta
+- [x] Almacenado
+> Correcto
+
+8. ¿Cuáles de las siguientes son áreas de un sitio web vulnerables a la inyección de SQL? Seleccione dos respuestas
+- [x] Páginas de inicio de sesión de usuario
+- [ ] Anuncios emergentes
+- [ ] Redes sociales
+- [x] Formularios de pago con tarjeta de crédito
+> Correcto
+
+9. Un Equipo de Seguridad está llevando a cabo un Modelo de Amenazas en un nuevo sistema de software. El Equipo está creando su plan de defensa contra las amenazas. Sus opciones son evitar el riesgo, transferirlo, reducirlo o aceptarlo. ¿Qué paso clave de un Modelo de amenazas representa este escenario?
+- [x] Mitigar riesgos
+- [ ] Definir el alcance
+- [ ] Evaluar los resultados
+- [ ] Analizar las amenazas
+> Correcto
+
+10. ¿Qué etapa del framework PASTA está relacionada con la identificación de los componentes de la aplicación que deben ser evaluados?
+- [x] Definir el alcance técnico
+- [ ] Realizar un análisis de vulnerabilidad
+- [ ] Caracterizar el entorno
+- [ ] Implementar declaraciones preparadas
+> Correcto
+
+10. ¿En qué fase del framework PASTA se crea un Árbol de ataque?
+- [ ] Análisis de vulnerabilidad
+- [ ] Descomponer una aplicación
+- [ ] Análisis de amenazas
+- [x] Modelo de ataque
+> Correcto
