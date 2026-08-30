@@ -66,3 +66,8 @@
 - ​Aprendió el proceso que ​utilizan los equipos de Seguridad para realizar estos ejercicios.
 - Desafortunadamente, los ciberataques y ​las brechas de Seguridad son una realidad a ​la que nos enfrentamos con regularidad.
 - ​Sin embargo, conocer ​el tipo de amenazas que existen y ​el proceso de modelado de amenazas proporciona ​una base importante para ​su trabajo como analista de Seguridad. 
+
+---
+
+## Términos del glosario del Módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
