@@ -85,3 +85,102 @@
    - New protocols, procedures, playbooks, etc. are implemented to help reduce any similar incidents in the future.
       - Update the playbook to highlight additional red flags employees should be aware of
       - Review processes and workflows related to permissions and adjust oversight of those permissions
+
+---
+
+## Actividad de Portfolio: Documentar un incidente con el Diario del gestor de incidentes
+- Resumen de la actividad
+   - En esta actividad, revisará los detalles de un incidente de seguridad y documentará el incidente utilizando su Diario del gestor de incidentes.
+   - Anteriormente, aprendió sobre la importancia de la documentación en el proceso de respuesta ante incidentes.
+   - También ha aprendido cómo se utiliza el Diario del gestor de incidentes para registrar información sobre incidentes de seguridad a medida que se gestionan.
+   - A lo largo de este curso, puede aplicar sus habilidades de documentación utilizando su Diario del gestor de incidentes.
+   - Con este diario, puede registrar información sobre las experiencias que tendrá analizando escenarios de incidentes de seguridad a través de las actividades del curso. 
+   - Para cuando complete este curso, tendrá múltiples entradas en su Diario del gestor de incidentes que podrá utilizar como referencia útil para recordar conceptos y herramientas.
+   - Más adelante, añadirá este documento a su cartera de ciberseguridad, que podrá compartir con posibles empleadores o reclutadores.
+   - Puede utilizar su Diario del gestor de incidentes como un espacio personal en el que puede realizar un seguimiento de su viaje de aprendizaje a medida que aprende sobre los conceptos de detección y respuesta ante incidentes e interactúa con diferentes herramientas de ciberseguridad.
+   - Siéntete libre de incluir tus pensamientos, reflexiones y cualquier otro detalle o información importante.
+
+- Escenario
+   - Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+   - Una pequeña clínica sanitaria estadounidense especializada en la prestación de servicios de atención primaria experimentó un incidente de seguridad un martes por la mañana, aproximadamente a las 9:00 a.m.
+   - Varios empleados informaron de que no podían utilizar sus ordenadores para acceder a archivos como registros médicos.
+   - La empresa dejó de funcionar porque los empleados no podían acceder a los archivos y programas informáticos necesarios para realizar su trabajo.
+   - Además, los empleados también informaron de que en sus ordenadores aparecía una nota de rescate.
+   - En ella se decía que todos los archivos de la empresa habían sido cifrados por un grupo organizado de piratas informáticos poco éticos conocidos por atacar organizaciones de los sectores de la sanidad y el transporte.
+   - A cambio de restaurar el acceso a los archivos cifrados, la nota de rescate exigía una gran suma de dinero a cambio de la clave de descifrado.
+   - Los atacantes consiguieron acceder a la red de la empresa mediante correos electrónicos de phishing dirigidos, que se enviaron a varios empleados de la empresa.
+   - Los mensajes contenían un archivo adjunto malicioso que instalaba malware en el ordenador del empleado una vez descargado.
+   - Una vez que los atacantes obtuvieron acceso, desplegaron su ransomware, que cifró archivos críticos.
+   - La empresa no pudo acceder a los datos críticos de los pacientes, lo que provocó importantes interrupciones en sus operaciones comerciales.
+   - La empresa se vio obligada a apagar sus sistemas informáticos y a ponerse en contacto con varias organizaciones para informar del incidente y recibir asistencia técnica.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Diario del gestor de incidentes](./resources/Incident-handler-s-journal-.docx)
+
+2. Revisar el escenario
+- Revise los detalles del escenario. Considera los siguientes detalles clave:
+   - Una pequeña clínica sanitaria estadounidense sufrió un incidente de seguridad el martes a las 9:00 a.m. que interrumpió gravemente sus operaciones comerciales.
+   - La causa del incidente de seguridad fue un correo electrónico de phishing que contenía un archivo adjunto malicioso.
+   - Una vez descargado, se desplegó un ransomware que encriptó los archivos (informáticos) de la organización.
+   - Un grupo organizado de piratas informáticos poco éticos dejó una nota de rescate en la que se indicaba que los archivos de la empresa estaban cifrados y exigía dinero a cambio de la clave de descifrado.
+
+3. Registrar un asiento en el diario
+   - Utilice el Diario del gestor de incidentes para documentar su primera anotación en el diario sobre el escenario dado.
+   - Asegúrese de rellenar todos los campos:
+      1. En la sección Fecha, registre la fecha de su anotación en el diario. Debe ser la fecha real en la que se registra la entrada, no una fecha ficticia.
+      2. En la sección Entrada, indique un número de asiento. Por ejemplo, si es su primer asiento, introduzca 1.
+      3. En la sección Descripción , introduzca una descripción del asiento.
+      4. En la sección Herramienta(s) utilizada (s), si se utilizó alguna herramienta de ciberseguridad, enumérela(s) aquí.
+      5. En la sección Las 5 W , registre los detalles sobre el escenario dado.
+         - ¿Quién causó el incidente?
+         - ¿Qué ha ocurrido?
+         - ¿Cuándo se produjo el incidente?
+         - ¿Dónde ocurrió el incidente?
+         - ¿Por qué ocurrió el incidente?
+      6. En la fila de notas adicionales, anota cualquier idea o pregunta que tengas sobre la situación planteada.
+   - Por último, asegúrese de guardar una copia de su Diario del gestor de incidentes para poder acceder a él rápidamente a medida que avance en el curso.
+   - Puede utilizarlo para su cartera profesional para demostrar sus conocimientos y/o experiencia a posibles empleadores.
+
+- Qué incluir en su respuesta
+   - La fecha y el número de la anotación en el diario
+   - Una descripción de la anotación en el diario
+   - 1-2 frases sobre cada una de las 5 W del escenario
+   - 1-2 frases sobre cualquier pensamiento o pregunta adicional sobre el escenario.
+
+4. Evalúe su actividad
+- El proceso de autoevaluación es una parte importante de la experiencia de aprendizaje porque le permite evaluar objetivamente su primera entrada en el Diario del gestor de incidentes
+
+- El Diario del gestor de incidentes contiene un asiento fechado y numerado
+   - [x] SI
+   - [ ] NO
+
+- En la sección Descripción del Diario del gestor de incidentes ha incluido una descripción del mismo
+   - [x] SI
+   - [ ] NO
+
+- En la sección Las 5 W de su Diario del gestor de incidentes, ha esbozado los detalles de una investigación de incidentes utilizando las 5 W.
+   - [x] SI
+   - [ ] NO
+
+- En la sección Notas adicionales del Diario del gestor de incidentes, ha incluido pensamientos o preguntas adicionales
+   - [x] SI
+   - [ ] NO
+
+- El Diario del gestor de incidentes no contiene errores gramaticales, ortográficos ni de puntuación
+   - [x] SI
+   - [ ] NO
+
+- Incident handler's journal
+
+1. Date: 30/08/2026
+2. Description: Documentando un incidente de seguridad en una clínica sanitaria debido a un ataque de ransomware.
+3. Tool(s) used: Ninguna herramienta específica utilizada para esta entrada.
+4. The 5 W's:
+   - Who: Un grupo organizado de piratas informáticos poco éticos.
+   - What: Un ataque de ransomware que cifró los archivos críticos de la clínica.
+   - When: Martes a las 9:00 a.m.
+   - Where: En la red de la clínica sanitaria estadounidense.
+   - Why: El ataque se originó a través de un correo electrónico de phishing dirigidos a varios empleados, que contenía un archivo adjunto malicioso que permitió a los atacantes desplegar el ransomware. Esto encriptó los archivos críticos de la clínica, obligandolos a interrumpir sus operaciones. Se deduce que el motivo del ataque fue obtener un rescate a cambio de la clave de descifrado, ya que los atacantes dejaron una nota de rescate solicitando dinero a cambio de restaurar el acceso a los archivos cifrados.
+5. Additional notes: ¿Debería la compañía pagar el rescate solicitado por los atacantes? Supongo que depende del nivel de los respaldos de datos y de la capacidad de recuperación de la clínica. Además, ¿qué medidas preventivas se pueden implementar para evitar futuros ataques de phishing y ransomware? Posiblemente no exista una capacitación adecuada para los empleados sobre cómo identificar correos electrónicos de phishing, lo que podría haber prevenido el incidente. Además, ¿Cómo pasaron esos correos los filtros? ¿Existen filtros antiphishing y antimalware adecuados? Posiblemente la respuesta sea que no, y que la compañía debería revisar sus políticas de seguridad y mejorar sus sistemas de filtrado de correos electrónicos para evitar que este tipo de incidentes ocurran en el futuro.
