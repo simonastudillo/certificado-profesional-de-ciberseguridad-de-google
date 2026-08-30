@@ -55,3 +55,23 @@
 4. Step 4: Analyze threats
 5. Step 5: Mitigate risk
 6. Step 6: Evaluate findings
+
+---
+
+## Chantelle: El valor de la diversidad en la ciberseguridad
+- ​Protegemos y supervisamos ​los sistemas que contienen información confidencial.
+- ​Mi interés por la ciberseguridad ​proviene de un programa de televisión llamado Mr ​. Robot.
+- Se trata de un hacker vigilante ​que intenta salvar el mundo.
+- ​Y a partir de ahí, eso despertó mi interés por la Seguridad, ​y esa es una gran base.
+- ​Valorar la diversidad en Seguridad es importante ​porque estamos expuestos a una amplia gama de ideas.
+- ​Eso ayuda a inspirar muchas ideas creativas y ​diferentes perspectivas y diferentes formas ​de abordar un problema y, en ​cierto modo, nos lleva a ​convertirnos en mejores ingenieros de Seguridad.
+- ​Nuestra gerente, Laureen, siempre interviene para decirnos ​: «No se apresure a encontrar una solución. ​No se apresure a resolver los problemas por sí mismos».
+- ​Tenemos una amplia gama de ​ingenieros de Seguridad y contactos a nuestra disposición, ​y ella nos anima a salir a buscarlos y, ​luego, a volver y, luego, a hacer que nos adaptemos e ​intercambiemos ideas sobre todas estas ideas que hemos ​recopilado después de salir e intentar encontrarlas.
+- ​En última instancia, casi siempre hemos ​obtenido el mejor resultado posible ​que se nos ocurre.
+- ​Mi consejo para que las personas ingresen a ​la industria es que salgan y sean proactivas.
+- ​Definitivamente recomiendo unirse ​a la comunidad de Seguridad en Twitter.
+- ​Hay una enorme comunidad de Seguridad en Twitter ahora mismo.
+- ​Eso comparte un montón de recursos ​, oportunidades y puestos de trabajo ​y, definitivamente, está abierto a hablar con ​cualquier persona que esté interesada en entrar en el campo ​pero que no sepa cómo hacerlo.
+- Recomiendo la Seguridad como profesión.
+- ​Definitivamente, creo que, personalmente, ​pude aprovechar mucho mi bando rebelde en materia de Seguridad.
+- ​Descubrí que podía ​expresarme un poco más en Seguridad. 
