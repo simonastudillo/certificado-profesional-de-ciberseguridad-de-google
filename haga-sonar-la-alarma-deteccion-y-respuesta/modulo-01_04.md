@@ -48,5 +48,7 @@
 - ​Es fundamental que la documentación que utilice y produzca sea clara, coherente ​y precisa, para que usted y su equipo puedan responder con rapidez y decisión.
 - ​Los procesadores de texto son una forma habitual de documentar.
 - ​Algunas herramientas populares para usar son Google Docs, OneNote, Evernote y Notepad++.
-- ​Los sistemas de venta de entradas, como Jira, también se pueden usar para documentar y rastrear los incidentes. 
-​Por último, las hojas de cálculo de Google, las grabadoras de audio, las cámaras y las ​notas manuscritas también son herramientas que puedes utilizar para documentar. ​Nuestro debate sobre la documentación no ha hecho más que empezar. ​Pronto, utilizarás el diario de tu gestor de incidentes para poner en práctica tus ​habilidades de documentación. 
+- ​Los sistemas de venta de entradas, como Jira, también se pueden usar para documentar y rastrear los incidentes.
+- ​Por último, las hojas de cálculo de Google, las grabadoras de audio, las cámaras y las ​notas manuscritas también son herramientas que puedes utilizar para documentar.
+- ​Nuestro debate sobre la documentación no ha hecho más que empezar.
+- ​Pronto, utilizarás el diario de tu gestor de incidentes para poner en práctica tus ​habilidades de documentación. 
