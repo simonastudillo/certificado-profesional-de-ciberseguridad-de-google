@@ -75,3 +75,54 @@
 - Recomiendo la Seguridad como profesión.
 - ​Definitivamente, creo que, personalmente, ​pude aprovechar mucho mi bando rebelde en materia de Seguridad.
 - ​Descubrí que podía ​expresarme un poco más en Seguridad. 
+
+---
+
+## PASTA: Proceso de simulación de ataques y análisis de amenazas
+- ​Terminemos de explorar el modelado de amenazas echando un vistazo a los escenarios del mundo real.
+- ​Esta vez, utilizaremos un proceso de modelado de amenazas estándar llamado PASTA.
+- ​Imagina que una empresa de acondicionamiento físico se prepara para lanzar su primera aplicación para dispositivos móviles: aplicación para dispositivos móviles.
+- ​Antes de que podamos ponerla en marcha, ​la empresa pide a su equipo de Seguridad que se asegure de que la aplicación proteja los datos de los clientes.
+- ​El equipo decide realizar un Modelo de amenazas utilizando el marco PASTA.
+- ​PASTA es un framework popular de modelado de amenazas que se utiliza en muchos ​sectores.
+- ​PASTA es la abreviatura de Proceso para la Simulación de Ataques y el Análisis de Amenazas.
+- El ​marco PASTA framework consta de siete etapas.
+- La ​primera etapa del marco del Modelo de amenazas PASTA consiste en definir ​los objetivos empresariales y de Seguridad.
+   - ​Antes de iniciar el modelo de amenazas, el equipo debe decidir cuáles son sus objetivos.
+   - ​El objetivo principal de nuestro ejemplo con la aplicación de una empresa de acondicionamiento físico es ​proteger los datos de los clientes.
+   - ​El equipo comienza haciendo muchas preguntas en esta etapa.
+   - ​Deberán entender cosas como la forma en que ​se maneja la información de identificación personal.
+   - ​Responder a estas preguntas es clave para evaluar el impacto ​de las amenazas que encontrarán en el camino.
+- La ​segunda etapa del marco PASTA consiste en definir el alcance técnico.
+   - ​En este caso, el objetivo del equipo es identificar los componentes de la aplicación que deben ​evaluarse.
+   - ​Esto es lo que mencionamos anteriormente como la superficie de ataque.
+   - En el caso de ​una aplicación móvil: aplicación para dispositivos móviles, ​esto incluirá la tecnología que interviene mientras los datos están en reposo y en uso.
+   - ​Esto incluye protocolos de red, controles de Seguridad y otras interacciones de datos.
+- ​En la tercera fase de PASTA, el trabajo del equipo consiste en descomponer la aplicación. 
+   - En otras palabras, ​necesitamos identificar los controles existentes que protegerán los datos de los usuarios de las amenazas.
+   - ​Esto normalmente significa trabajar con los desarrolladores de la aplicación para producir un ​diagrama de flujo de datos.
+   - ​Un diagrama como este mostrará cómo los datos pasan del dispositivo de un usuario a la ​base de datos de la empresa.
+   - ​También identificaría los controles establecidos para proteger estos datos a lo largo del camino.
+- ​La cuarta etapa de PASTA es Next.
+   - ​El objetivo aquí es realizar un análisis de amenazas.
+   - ​Aquí es donde el equipo adquiere su mentalidad de atacante.
+   - ​Aquí, se realizan investigaciones para recopilar la información más actualizada sobre el tipo de ​ataques que se utilizan.
+   - ​Al igual que otras tecnologías, las aplicaciones móviles tienen muchos vectores de ataque.
+   - ​Estos cambian con regularidad, por lo que el equipo consultaría los recursos para mantenerse actualizado.
+- ​La quinta etapa de PASTA consiste en realizar un análisis de vulnerabilidad.
+   - ​En esta etapa, el equipo investiga más a fondo ​las posibles vulnerabilidades teniendo en cuenta la raíz del problema.
+- ​La siguiente es la sexta etapa de PASTA, en la que el equipo lleva a cabo modelos de ataque.
+   - Aquí es donde el equipo prueba las vulnerabilidades que se analizaron ​en la etapa cinco simulando ataques.
+   - ​Para ello, el equipo crea un árbol de ataque, que parece un diagrama de flujo.
+   - ​Por ejemplo, un árbol de ataques para nuestra app para dispositivos móviles podría tener este aspecto.
+   - ​La información de los clientes, como los nombres de usuario y las contraseñas, es un objetivo.
+   - ​Estos datos normalmente se almacenan en una base de datos.
+   - ​Hemos aprendido que las bases de datos son vulnerables a ataques como la inyección de SQL.
+   - ​Así que agregaremos este vector de ataque a nuestro árbol de ataque.
+   - ​Un actor de amenazas podría explotar las vulnerabilidades causadas por ​entradas no desinfectadas para atacar este vector.
+   - ​El equipo de Seguridad usa árboles de ataque como este para identificar los vectores de ataque ​que deben probarse para validar las amenazas.
+   - ​Esta es solo una rama de este árbol de ataque.
+   - ​Una aplicación, como una aplicación de acondicionamiento físico, suele tener muchas ramas con ​otros vectores de ataque.
+- ​La etapa siete de PASTA consiste en analizar el riesgo y el impacto.
+   - ​Aquí, el equipo reúne toda la información que ha recopilado en ​las etapas uno a seis.
+   - En ​esta etapa, el equipo está en condiciones de hacer ​recomendaciones informadas de gestión de riesgos a la parte interesada de la empresa que se alineen con sus objetivos.
