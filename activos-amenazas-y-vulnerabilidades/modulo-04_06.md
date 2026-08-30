@@ -32,3 +32,10 @@
 ## Glosario del curso 5
 - El glosario completo se encuentra [aquí](./README.md#glosario)
 
+---
+
+## Comenzar el próximo curso
+- ¡Enhorabuena por haber completado el Curso 5 del Certificado de Ciberseguridad de Google: Activos, amenazas y vulnerabilidades!
+- Has aprendido qué son los activos y cómo se protegen.
+- Además, has desarrollado una mentalidad de atacante al analizar los controles de seguridad habituales que se utilizan para mitigar las vulnerabilidades y defenderse de las amenazas.
+- Ahora que has completado este curso, estás listo para pasar al siguiente: «Da la alarma: detección y respuesta».
