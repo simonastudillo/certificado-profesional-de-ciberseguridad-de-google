@@ -169,3 +169,29 @@
    - [Herramienta de trayectorias profesionales cibernéticas](https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool)
    - [Detección y respuesta en Google: Episodio 2 de la serie de vídeos Hacking Google](https://www.youtube.com/watch?v=QZ0cpBocl3c)
       - [serie de vídeos Hacking Google](https://www.youtube.com/playlist?list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H)
+
+---
+
+## Planes de respuesta ante incidentes
+- ​Cuando se produce un incidente, los Equipos de respuesta ante incidentes deben estar preparados para responder de forma rápida, ​eficiente y eficaz.
+- ​Ya se trate de una filtración de datos, un ataque DDoS o ransomware, ​los incidentes tienen el potencial de causar daños significativos a una organización.
+- ​Como hemos mencionado anteriormente, las regulaciones pueden requerir que las organizaciones informen de ​incidentes dentro de un plazo determinado.
+- ​Por lo tanto, es crucial que las organizaciones cuenten con un plan formal de respuesta a incidentes, ​de modo que exista un proceso preparado y ​consistente para responder rápidamente a los incidentes una vez que se produzcan.
+- ​Tal vez recuerde haber aprendido que los planes de seguridad constan de tres elementos básicos: ​políticas, Estándares y Procedimientos.
+- ​Un Plan de respuesta ante incidentes es un documento que describe los procedimientos a seguir en ​cada paso de la respuesta ante incidentes.
+- ​Los planes de respuesta, al igual que los Equipos de respuesta, no son todos iguales.
+- ​Las organizaciones adaptan sus planes para satisfacer sus requisitos únicos ​como su misión, tamaño, cultura, industria y estructura.
+- ​Por ejemplo, ​las organizaciones más pequeñas pueden optar por incluir su plan de respuesta a incidentes en ​su plan de seguridad, mientras que otras pueden optar por tenerlos como documentos separados.
+- ​Aunque no todos los planes de incidentes son iguales, ​hay elementos comunes que comparten.
+   - ​Los planes de incidentes tienen:
+      - Procedimientos de respuesta ante incidentes.
+      - ​Son instrucciones paso a paso sobre cómo responder ante incidentes.
+   - ​Información sobre el sistema.
+      - Se trata de elementos como diagramas de red, ​diagramas de flujo de datos, registros e información sobre el inventario de activos.
+      - ​Y otros documentos como listas de contactos, formularios y plantillas.
+- ​Los planes no son perfectos y siempre hay margen para ajustarlos y ​mejorarlos a medida que se producen los incidentes.
+- ​Los procesos y procedimientos de incidentes deben revisarse y probarse con regularidad.
+- ​Esto puede hacerse mediante ejercicios como los de mesa o los simulacros.
+- Estos ejercicios garantizan que todos los miembros del equipo están familiarizados ​con el plan de respuesta.
+- ​También permiten a las organizaciones identificar cualquier laguna que falte en un proceso para mejorar ​su plan de respuesta ante incidentes.
+- ​Además, es posible que se exija a las organizaciones que realicen tipos específicos de ejercicios por ​razones normativas.
