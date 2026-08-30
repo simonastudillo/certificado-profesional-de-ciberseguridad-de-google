@@ -29,4 +29,6 @@
 
 ---
 
-## 
+## Glosario del curso 5
+- El glosario completo se encuentra [aquí](./README.md#glosario)
+
