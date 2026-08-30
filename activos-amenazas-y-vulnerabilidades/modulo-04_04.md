@@ -216,13 +216,22 @@
 - A designer clothing store has a new shopping app to drive sales. Improve the security of the app by performing a threat analysis using the PASTA framework.
 
 - Remaining: 7 - The team creates an attack tree and maps vulnerabilities to attack vectors.
-> Stage 6: Conduct attack modeling. The team creates an attack tree and maps vulnerabilities to attack vectors.
+> Stage 6: Conduct attack modeling.
 
 - Remaining: 6 - The team more deeply investigates potential vulnerabilities related to the app.
-> Stage 5: Perform a vulnerability analysis. The team more deeply investigates potential vulnerabilities related to the app.
+> Stage 5: Perform a vulnerability analysis.
 
 - Remaining: 5 - The team determines the retailer wants their app to protect customer data.
-> Stage 1: Define business and security objectives. The team determines the retailer wants their app to protect customer data.
+> Stage 1: Define business and security objectives.
 
 - Remaining: 4 - The team analyzes all collected data and makes risk management recommendations.
-> Stage 7: Analyze risk and impact. The team analyzes all collected data and makes risk management recommendations.
+> Stage 7: Analyze risk and impact.
+
+- Remaining: 3 - The team identifies the application components that must be evaluated.
+> Stage 2: Define the technical scope.
+
+- Remaining: 2 - The team identifies existing controls that will protect user data from attackers.
+> Stage 3: Decompose the application.
+
+- Remaining: 1 - The team gathers up-to-date intelligence on types of mobile-app attacks.
+> Stage 4: Perform threat analysis.
