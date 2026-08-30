@@ -50,3 +50,23 @@
 - Construye tu identidad profesional
 - Conéctate con otros estudiantes
 - Actualiza tu perfil
+
+---
+
+## Dave: Haga crecer su carrera en ciberseguridad con mentores
+- Me llamo Dave. ​Soy el principal estratega de seguridad de Google Cloud.
+- ​Mi trabajo consiste en trabajar directamente con ​los profesionales de Seguridad para ​ayudarlos a proteger sus organizaciones.
+- ​Lo que me encanta de mi trabajo es la variedad.
+- ​Es posible que algún día esté ​solucionando un problema técnico para un cliente.
+- ​Al día siguiente podría estar programando ​una solución a un problema determinado.
+- ​Cada día es algo nuevo y nunca me aburro.
+- ​La ciberseguridad es interesante porque realmente puedes ​aportar toda tu experiencia de vida a la ciberseguridad.
+- ​Lo que estás haciendo es tratar de proteger a una organización, ​no necesariamente de un accidente, ​sino que estás protegiendo a una organización de un ​ser humano del otro lado que ​intenta dañar a tu organización.
+- ​Una cosa que está quedando clara ​es que las personas de diversos orígenes y ​experiencias suelen aportar ​una gran mejora a la forma en que abordamos eso.
+- ​Recomiendo encarecidamente ​involucrarse con las organizaciones de Seguridad.
+- ​Es un lugar para conocer a otras personas que ​pueden ayudarte en tu carrera.
+- ​Creo que la gente se sorprende al saber ​cuánta ayuda hay disponible en nuestra industria.
+- ​Hay muchas personas con más experiencia y ​más exitosas que están dispuestas a ser mentoras.
+- ​Creo que lo mejor que puedes hacer como alguien que ​busca un mentor es ser asertivo.
+- Tenga ​un plan, tenga ​en cuenta algunas cosas en las que quiera trabajar ​y, a continuación, póngase en contacto con alguien que tal vez trabaje en ​esa área particular de la ​ciberseguridad y pídale ayuda.
+- ​Creo que se sorprenderá de ​lo útil que será la gente. 
