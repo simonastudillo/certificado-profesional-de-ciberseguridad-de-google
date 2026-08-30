@@ -1,0 +1,200 @@
+# Activos, amenazas y vulnerabilidades
+- Módulo 1: Introducción a la Detección y Respuesta ante incidentes
+- Módulo 2: Monitoreo y análisis de redes
+- Módulo 3: Investigación y respuesta a incidentes
+- Módulo 4: Tráfico de red y registros mediante herramientas IDS y SIEM
+
+## Habilidades y conceptos a aprender
+
+### Habilidades técnicas (hard skills)
+
+### Conceptos clave
+
+### Habilidades transferibles (soft skills)
+
+## Descripción del curso
+---
+- Aprenderán qué define un incidente de seguridad y explicarán el ciclo de vida de la respuesta ante incidentes, incluidas las funciones y responsabilidades de los equipos de respuesta ante incidentes.
+- Los alumnos analizarán e interpretarán las comunicaciones de red para detectar incidentes de seguridad utilizando herramientas de sniffing de paquetes para capturar el tráfico de red.
+- Mediante la evaluación y el análisis de artefactos, los alumnos explorarán los procesos y procedimientos de investigación y respuesta a incidentes.
+- Además, desarrollarán una visión conceptual de los datos de registro y su función en los sistemas de detección de intrusiones (IDS) y las herramientas de gestión de eventos de información de seguridad (SIEM).
+- Los alumnos que completen este certificado estarán preparados para solicitar puestos de ciberseguridad de nivel básico.
+- No es necesaria experiencia previa.
+- Al finalizar este curso, usted podrá:
+   - Explicar el ciclo de vida de un incidente.
+   - Describir las herramientas utilizadas en la documentación, detección y gestión de incidentes.
+   - Analizar paquetes para interpretar las comunicaciones de red.
+   - Realizar investigaciones de artefactos para analizar y verificar incidentes de seguridad.
+   - Identificar los pasos para contener, erradicar y recuperarse de un incidente.
+   - Determinar cómo leer y analizar registros durante la investigación de incidentes.
+   - Interpretar la sintaxis básica y los componentes de firmas y registros en herramientas de Sistemas de detección de intrusiones (IDS) y Sistemas de detección de intrusiones en la red (NIDS).
+   - Realizar consultas en herramientas de Gestión de información y eventos de seguridad (SIEM) para investigar un evento.
+
+## Glosario
+---
+- `Advanced persistent threat (APT)`: An instance when a threat actor maintains unauthorized access to a system for an extended period of time
+- `Analysis`: The investigation and validation of alerts
+- `Anomaly-based analysis`: A detection method that identifies abnormal behavior
+- `Array`: A data type that stores data in a comma-separated ordered list
+- `Broken chain of custody`: Inconsistencies in the collection and logging of evidence in the chain of custody
+- `Business continuity plan (BCP)`: A document that outlines the procedures to sustain business operations during and after a significant disruption
+- `Chain of custody`: The process of documenting evidence possession and control during an incident lifecycle
+- `Command and control (C2)`: The techniques used by malicious actors to maintain communications with compromised systems
+- `Command-line interface (CLI)`: A text-based user interface that uses commands to interact with the computer
+- `Common Event Format (CEF)`: A log format that uses key-value pairs to structure data and identify fields and their corresponding values
+- `Computer security incident response teams (CSIRT)`: A specialized group of security professionals that are trained in incident management and response
+- `Configuration file`: A file used to configure the settings of an application
+- `Containment`: The act of limiting and preventing additional damage caused by an incident
+- `Crowdsourcing`: The practice of gathering information using public collaboration
+- `Data exfiltration`: Unauthorized transmission of data from a system
+- `Data packet`: A basic unit of information that travels from one device to another within a network
+- `Detection`: The prompt discovery of security events
+- `Documentation`: Any form of recorded content that is used for a specific purpose
+- `Endpoint`: Any device connected on a network
+- `Endpoint detection and response (EDR)`: An application that monitors an endpoint for malicious activity
+- `Eradication`: The complete removal of the incident elements from all affected systems
+- `Event`: An observable occurrence on a network, system, or device
+- `False negative`: A state where the presence of a threat is not detected
+- `False positive`: An alert that incorrectly detects the presence of a threat
+- `Final report`: Documentation that provides a comprehensive review of an incident
+- `Honeypot`: A system or resource created as a decoy vulnerable to attacks with the purpose of attracting potential intruders
+- `Host-based intrusion detection system (HIDS)`: An application that monitors the activity of the host on which it’s installed
+- `Incident`: An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies
+- `Incident handler’s journal`: A form of documentation used in incident response
+- `Incident response plan`: A document that outlines the procedures to take in each step of incident response
+- `Indicators of attack (IoA)`: The series of observed events that indicate a real-time incident
+- `Indicators of compromise (IoC)`: Observable evidence that suggests signs of a potential security incident
+- `Internet Protocol (IP)`: A set of standards used for routing and addressing data packets as they travel between devices on a network
+- `Intrusion detection system (IDS)`: An application that monitors system activity and alerts on possible intrusions
+- `Intrusion prevention system (IPS)`: An application that monitors system activity for intrusive activity and takes action to stop the activity
+- `Key-value pair`: A set of data that represents two linked items: a key, and its corresponding value
+- `Lessons learned meeting`: A meeting that includes all involved parties after a major incident
+- `Log analysis`: The process of examining logs to identify events of interest
+- `Log management`: The process of collecting, storing, analyzing, and disposing of log data
+- `Logging`: The recording of events occurring on computer systems and networks
+- `Media Access Control (MAC) Address`: A unique alphanumeric identifier that is assigned to each physical device on a network
+- `National Institute of Standards and Technology (NIST) Incident Response Lifecycle`: A framework for incident response consisting of four phases: Preparation; Detection and Analysis; Containment, Eradication, and Recovery; and Post-incident activity
+- `Network-based intrusion detection system (NIDS)`: An application that collects and monitors network traffic and network data
+- `Network data`: The data that’s transmitted between devices on a network
+- `Network Interface Card (NIC)`: Hardware that connects computers to a network
+- `Network protocol analyzer (packet sniffer)`: A tool designed to capture and analyze data traffic within a network
+- `Network traffic`: The amount of data that moves across a network
+- `Object`: A data type that stores data in a comma-separated list of key-value pairs
+- `Open-source intelligence (OSINT)`: The collection and analysis of information from publicly available sources to generate usable intelligence
+- `Packet capture (p-cap)`: A file containing data packets intercepted from an interface or network
+- `Packet sniffing`: The practice of capturing and inspecting data packets across a network
+- `Playbook`: A manual that provides details about any operational action
+- `Post-incident activity`: The process of reviewing an incident to identify areas for improvement during incident handling
+- `Recovery`: The process of returning affected systems back to normal operations
+- `Resilience`: The ability to prepare for, respond to, and recover from disruptions
+- `Root user (or superuser)`: A user with elevated privileges to modify the system
+- `Search Processing Language (SPL)`: Splunk’s query language
+- `Security information and event management (SIEM)`: An application that collects and analyzes log data to monitor critical activities in an organization
+- `Security operations center (SOC)`: An organizational unit dedicated to monitoring networks, systems, and devices for security threats or attacks
+- `Security orchestration, automation, and response (SOAR)`: A collection of applications, tools, and workflows that uses automation to respond to security events
+- `Signature`: A pattern that is associated with malicious activity
+- `Signature analysis`: A detection method used to find events interest
+- `Standards`: References that inform how to set policies
+- `Sudo`: A command that temporarily grants elevated permissions to specific users
+- `Suricata`: An open-source intrusion detection system and intrusion prevention system
+- `tcpdump`: A command-line network protocol analyzer
+- `Telemetry`: The collection and transmission of data for analysis
+- `Threat hunting`: The proactive search for threats on a network
+- `Threat intelligence`: Evidence-based threat information that provides context about existing or emerging threats
+- `Triage`: The prioritizing of incidents according to their level of importance or urgency
+- `True negative`: A state where there is no detection of malicious activity
+- `True positive`: An alert that correctly detects the presence of an attack
+- `VirusTotal`: A service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content
+- `Wildcard`: A special character that can be substituted with any other character
+- `Wireshark`: An open-source network protocol analyzer
+- `YARA-L`: A computer language used to create rules for searching through ingested log data
+- `Zero-day`: An exploit that was previously unknown
+
+## Recursos del curso
+---
+- [MITRE ATT&CK™: Tráfico de red](https://attack.mitre.org/datasources/DS0029/)
+- [MITRE ATT&CK™: Exfiltración](https://attack.mitre.org/tactics/TA0010/)
+- [Captura de Paquetes: Un delito grave](https://resources.infosecinstitute.com/topic/packet-crafting-a-serious-crime/)
+- [Tcpdump](https://www.tcpdump.org/)
+- [Un tutorial de tcpdump con ejemplos](https://danielmiessler.com/study/tcpdump/)
+- [El proyecto ThreatHunting](https://www.threathunting.net/)
+- [Grupo de Análisis de Amenazas (TAG)](https://blog.google/threat-analysis-group/)
+- [RFC: El protocolo Syslog](https://www.rfc-editor.org/rfc/rfc5424)
+- [Generador de datos](https://generatedata.com/)
+- [RFC: Fecha y hora en Internet](https://www.rfc-editor.org/rfc/rfc3339)
+- [Nube de Google: Visión general de la ingestión de Datos a Chronicle](https://cloud.google.com/chronicle/docs/data-ingestion-flow)
+- [Splunk: La ingestión de datos](https://docs.splunk.com/Documentation/SplunkCloud/9.0.2303/Data/Howdoyouwanttoadddata)
+
+## Citas
+---
+- [Kral, P. (2021). Manual del gestor de incidentes.](https://sansorg.egnyte.com/dl/6Btqoa63at)
+- [Instituto Nacional de Estándares y Tecnología. (s.f.). Glosario. Consultado en diciembre de 2022.](https://csrc.nist.gov/glossary)
+- [Cichonski, P., Millar, T., Grance, T., Scarfone K. (2012 agosto). Guía de gestión de incidentes de seguridad informática. NIST. Consultado en diciembre de 2022.](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
+- [Ruefle, R., (2007, 24 de enero). Definición de equipos de respuesta ante incidentes de seguridad informática.](https://www.cisa.gov/uscert/bsi/articles/best-practices/incident-management/defining-computer-security-incident-response-teams)
+- [Nolen, B. (2018, 15 de noviembre). Cómo sobrevivir a su primer incidente (Purplecon 2018). GitHub.](https://github.com/bryannolen/DFIR-PUBLIC/blob/master/Reports/Bryan%20Nolen%20-%20Surviving%20Your%20First%20Incident%20(Purplecon%202018).pdf)
+- [Sullivan, K. (2022, 1 de febrero). Cómo estructurar su equipo CSIRT o SOC. InfoSec.](https://resources.infosecinstitute.com/career/how-to-structure-your-csirt-or-soc-team/)
+- [Matzelle, E. (2021, 27 de septiembre). Su próximo paso: Gestionar un SOC. CompTIA.](https://www.comptia.org/blog/your-next-move-security-operations-center-soc-manager)
+- [NICCS. (2022, 9 de junio). Cyber Career Pathways Tool. Iniciativa Nacional para Carreras y Estudios de Ciberseguridad.](https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool)
+- [Kaplan, D. (2022, 7 de mayo). [Infografía] El ecosistema SOC. Google Chronicle.](https://chronicle.security/blog/posts/soc-ecosystem-infographic/)
+- [Google. (2022, 7 de octubre). [Vídeo] Detección y respuesta. Hackeando Google.](https://www.youtube.com/watch?v=QZ0cpBocl3c)
+- [UC Berkeley. (s.f.). Guía para la planificación de la respuesta ante incidentes.](https://security.berkeley.edu/incident-response-planning-guideline)
+- [Lane, A. (2010, 27 de mayo). Comprender y seleccionar SIEM/LM: Agregación, normalización y enriquecimiento.](https://securosis.com/blog/understanding-and-selecting-siem-lm-aggregation-normalization-and-enrichmen)
+- [Exabeam. (sin fecha). Arquitectura SIEM: Tecnología, proceso y Datos.](https://www.exabeam.com/explainers/siem/siem-architecture/)
+- [Netreo. (2021, 24 de agosto). ¿Qué es el Tráfico de red y cómo se monitoriza?](https://www.netreo.com/blog/network-traffic/)
+- [Wiens, C. (2020, 25 de junio). Redefiniendo la definición de "Línea de base" en ciberseguridad. Bulevar de la Seguridad.](https://securityboulevard.com/2020/06/redefining-the-definition-of-baseline-in-cybersecurity/)
+- [n.a. (n.a). ¿Qué es un centro de operaciones de red (NOC)? Splunk.](https://www.splunk.com/en_us/data-insider/network-operations-center.html#:~:text=A%20network%20operations%20center%20(NOC)%20is%20a%20centralized%20location%20where,against%20network%20disruptions%20and%20failures)
+- [n.d. (2019, 19 de julio). Exfiltración. MITRE ATT&CK™.](https://attack.mitre.org/tactics/TA0010/)
+- [n.d. (2022, 20 de octubre). Tráfico de red. MITRE ATT&CK™.](https://attack.mitre.org/datasources/DS0029/)
+- [Solarwinds. (s.f.). ¿Qué es la captura de paquetes (PCAP)?](https://www.solarwinds.com/resources/it-glossary/pcap)
+- [Sandler, A. (2008, 18 de mayo) Tcpdump para dummies. Alex en Linux.](http://www.alexonlinux.com/tcpdump-for-dummies#introduction)
+- [Styn, V., H. (2011, 19 de diciembre). tcpdump fu. Linux Journal.](https://www.linuxjournal.com/content/tcpdump-fu)
+- [Tcpdump.org. (2023 12 de marzo). Man page.](https://www.tcpdump.org/manpages/tcpdump.1.html)
+- [N.d. (n.d.). Tcpdump. Tcpdump.](https://www.tcpdump.org/)
+- [Sharpe, R., Warnicke, E., Lamping, U. (s.f.). Guía del usuario de Wireshark. Wireshark.](https://www.wireshark.org/docs/wsug_html/)
+- [Keary, T. (2022, 6 de junio). PCAP: Captura de paquetes, qué es y qué necesita saber. ComapriTech.](https://www.comparitech.com/net-admin/pcap-guide/)
+- [Howstuffworks. (2021, 30 de marzo) ¿Qué es un Paquete?](https://computer.howstuffworks.com/question525.htm)
+- [Magers, D. (2002, 9 de mayo) Paquete Sniffing: Una parte integral de la defensa de la Red. SANS.](https://www.giac.org/paper/gsec/1925/packet-sniffing-integral-network-defense/103366)
+- [Instituto Nacional de Estándares y Tecnología. (s.f.). Cybersecurity framework. Consultado en diciembre de 2022. Accesible en diciembre de 2022.](https://csrc.nist.gov/Projects/cybersecurity-framework/nist-cybersecurity-framework-a-quick-start-guide)
+- [Instituto Nacional de Estándares y Tecnología. (s.f.). Las cinco funciones. Cybersecurity Frameworks. Consultado en diciembre de 2022.](https://www.nist.gov/cyberframework/online-learning/five-functions)
+- [Equipo Cybereason. (2019 Septiembre 17). Malware sin archivos 101: Entender los ataques sin malware. Cybereason.](https://www.cybereason.com/blog/fileless-malware)
+- [Bianco, J. D. (2014, 14 de enero).La pirámide del dolor. Blogspot.](http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
+- [VirusTotal. (s.f.) VirusTotal. VirusTotal.](https://www.virustotal.com/gui/home/upload)
+- [Jotti. (s.f.) Análisis de software malicioso de Jotti. Jotti.](https://virusscan.jotti.org/)
+- [URLscan.io. (s.f.) Escaneados recientes .](https://urlscan.io/)
+- [Cape Espacio aislado. (s.f.) Espacio aislado de Cape.](https://capesandbox.com/analysis/)
+- [MalwareBazaar. (s.f.) Base de datos de MalwareBazaar. Bazar de software malicioso.](https://bazaar.abuse.ch/browse/)
+- [Hada, H. (2021, 28 de diciembre). Flagpro: El nuevo software malicioso utilizado por BlackTech. NTT.](https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech)
+- [Agencia de Ciberseguridad y Seguridad de las Infraestructuras. (s.f.). Cadena de custodia y sistemas de infraestructuras críticas. ](https://www.cisa.gov/sites/default/files/publications/cisa-insights_chain-of-custody-and-ci-systems_508.pdf)
+- [M. Andrews. (2005, 18 de febrero). Guía del redactor técnico para la documentación en el ámbito de la Seguridad de la información. Certificación global de la seguridad de la Información.](https://www.giac.org/paper/gsec/4382/technical-writer-039-s-guide-documentation-information-security-arena/107250)
+- [Zurkus, K. (2018, 8 de octubre). ¿Tiene su SOC un manual de estrategias de Seguridad?](https://securityintelligence.com/does-your-soc-have-a-security-playbook/)
+- [The Daily Scan. (2018, 2 de noviembre). Triaje en urgencias: ¿Cómo funciona?](https://thedailyscan.providencehealthcare.org/2018/11/emergency-room-triage-how-does-it-work/)
+- [Consejo de la CE. (s.f.). Planificación de la continuidad del negocio. Consejo de la CE.](https://www.eccouncil.org/business-continuity-planning/)
+- [NIST. (s.f.). Plan de continuidad del negocio. NIST. Consultado en diciembre de 2022.](https://csrc.nist.gov/glossary/term/business_continuity_plan)
+- [Base, A. (2021, 17 de febrero). Mejora de la Respuesta ante incidentes mediante la captura simplificada de Datos de Lecciones aprendidas. Sans.](https://sansorg.egnyte.com/dl/IDEyplKFAw)
+- [Instituto Nacional de Estándares y Tecnología. (2006, septiembre). Guía para la gestión de registros de Seguridad informática (800-92). Consultado en diciembre de 2022.](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf)
+- [El Equipo Graylog. (2020, 9 de diciembre). Formatos de registro - una guía (casi) completa.](https://www.graylog.org/post/log-formats-a-complete-guide)
+- [Gerhards, R. (2009, marzo). El protocolo syslog. RFC.](https://www.rfc-editor.org/rfc/rfc5424)
+- [Learn.co. (s.f.). Introducción al Array.](https://learn.co/lessons/array-introduction)
+- [Loggly. (2022). Conceptos básicos de registro en Linux.](https://www.loggly.com/ultimate-guide/linux-logging-basics/)
+- [W3Schools. (s.f.). Introducción al XML.](https://www.w3schools.com/xml/xml_whatis.asp)
+- [Wang, K., Salvatore, J.S. (2004). Detección de intrusiones en redes basadas en cargas útiles anómalas. Universidad de Columbia.](https://web.archive.org/web/20100622182127/http://sneakers.cs.columbia.edu/ids/publications/RAID4.PDF)
+- [KirstenS, Wichers, Jkurucar, kingthorin. (2020, 19 de julio). Detección de intrusiones.OWASP. Accesible en diciembre de 2022.](https://owasp.org/www-community/controls/Intrusion_Detection#:~:text=A%20true%20negative%20is%20successfully,positive%20is%20a%20false%20alarm)
+- [Redmine. (s.f.). Formato Eve JSON. Suricata.](https://redmine.openinfosecfoundation.org/projects/suricata/wiki/EveJSONFormat)
+- [Suricata. (s.f.) Guía del usuario de Suricata. Suricata.](https://suricata.readthedocs.io/en/latest/index.html#)
+- [Suricata. (s.f.) 7.1. Gestionar reglas con Suricata. Suricata.](https://suricata.readthedocs.io/en/latest/rule-management/suricata-update.html)
+- [Suricata. (s.f.) 7.1 .  Suricata.yaml. Suricata.](https://suricata.readthedocs.io/en/latest/configuration/suricata-yaml.html#engine-analysis-and-profiling)
+- [Nube de Google. (s.f.).Documentación de Chronicle. Chronicle Seguridad.](https://cloud.google.com/chronicle)
+- [Google Chronicle. (2022, 15 de diciembre). Formato de datos de registro como UDM. Nube de Google.](https://cloud.google.com/chronicle/docs/unified-data-model/format-events-as-udm)
+- [Stoner, J. (2022, 1 de agosto). Nuevo en Chronicle: Modelo unificado de datos. Nube de Google.](https://chronicle.security/blog/posts/new-to-chronicle-unified-data-model/)
+- [Google Chronicle. (2022, 15 de diciembre). Lista de campos del Modelo de datos unificado. Google Chronicle.](https://cloud.google.com/chronicle/docs/reference/udm-field-list)
+- [Splunk. (2022, 19 de septiembre) Referencia de búsqueda. Splunk.](https://docs.splunk.com/Documentation/Splunk/9.0.2/SearchReference/UnderstandingSPLsyntax)
+- [Splunk. (s.f). Prueba de la plataforma Splunk Cloud. Splunk.](https://www.splunk.com/en_us/download/splunk-cloud.html)
+- [Splunk. (s.f.). Lo que necesita para este tutorial. Plataforma Splunk Cloud.](https://docs.splunk.com/Documentation/SplunkCloud/9.0.2209/SearchTutorial/Systemrequirements)
+- [Splunk. (s.f.). Splunk Jefe del SOC. Splunk.](https://bots.splunk.com/)
+- [Splunk. (s.f.). Modificadores de tiempo. Manual de búsqueda SPL2](https://docs.splunk.com/Documentation/SCS/current/Search/Timemodifiers)
+- [Splunk. (s.f.). Contacte con nosotros. Splunk.](https://www.splunk.com/en_us/about-splunk/contact-us.html)
+- [Splunk How-To. (2022, 30 de agosto). Tutorial de Splunk Cloud [Vídeo]. Youtube.](https://www.youtube.com/watch?v=5W7mzW8GATs)
+
+
+## Resumen de módulos
+---
