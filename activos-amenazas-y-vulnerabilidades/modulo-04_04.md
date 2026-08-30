@@ -423,3 +423,42 @@
 - Resumen: El objetivo de la etapa final de PASTA es identificar formas de mitigar los riesgos que se identificaron de las etapas IV - VI y planificar los riesgos restantes que no se puedan remediar.
 
 - Recomendaciones: SHA-256, los Procedimientos de respuesta ante incidentes, la política de contraseñas y el principio de privilegio mínimo son algunos ejemplos de controles técnicos, operativos y de gestión que pueden implementarse antes del Lanzamiento para reducir el Riesgo.
+
+---
+
+## Ponga a prueba sus conocimientos: Modelización de amenazas
+
+1. Rellene el espacio en blanco: El Modelado de amenazas es un proceso que utilizan los Equipos de Seguridad para _____ ataques
+- [ ] dirija
+- [ ] remediar
+- [ ] ingeniero
+- [x] anticipe
+> El Modelado de amenazas es un proceso que utilizan los Equipos de Seguridad para anticiparse a los ataques examinando los activos de la organización desde una perspectiva relacionada con la Seguridad.
+
+2. ¿Cuáles de las siguientes son etapas de un proceso de Modelado de amenazas? Seleccione tres respuestas
+- [ ] Clasifique los recursos.
+- [x] Mitigar riesgos.
+- [x] Caracterice el entorno.
+- [x] Identificar las amenazas.
+> identificar las amenazas, caracterizar el entorno y mitigar los riesgos son algunos pasos de un proceso típico de modelado de amenazas. Mitigar los riesgos es el quinto paso del proceso, cuando los Equipos de Seguridad deciden si evitan, transfieren, reducen o aceptan los riesgos identificados.
+
+3. Un Equipo de Modelado de Amenazas ha identificado las amenazas y vulnerabilidades potenciales que podrían ser explotadas. El Equipo crea un diagrama que mapea las amenazas a los recursos. ¿Qué tipo de diagrama es éste?
+- [ ] La mentalidad de un atacante
+- [ ] Un vector de ataque
+- [x] Un Árbol de ataque
+- [ ] Una superficie de ataque
+> El tipo de diagrama que creó el Equipo es un Árbol de ataque. Un Árbol de ataque es un diagrama que relaciona las amenazas con los recursos.
+
+4. ¿Cuál de los siguientes es un framework de Modelado de amenazas? Seleccione dos respuestas
+- [x] PASTA
+- [x] Trike
+- [ ] NIST
+- [ ] XSS
+> PASTA y Trike son marcos de modelado de amenazas. Al igual que otros marcos de modelado de amenazas, pueden utilizarse para reducir de forma proactiva los riesgos de un sistema o proceso empresarial.
+
+5. ¿Cuáles son los objetivos de PASTA o de cualquier otra actividad de Modelado de amenazas? Seleccione tres respuestas
+- [x] Preparar correctivos.
+- [x] Documente los riesgos potenciales.
+- [x] Mejorar los planes de Seguridad.
+- [ ] Elimine todos los ataques futuros.
+> El objetivo de PASTA o de cualquier otra actividad de modelado de amenazas es documentar los riesgos potenciales, preparar correctivos y mejorar los planes de Seguridad. El Modelado de amenazas ayuda a identificar planes para mitigar o remediar vulnerabilidades.
