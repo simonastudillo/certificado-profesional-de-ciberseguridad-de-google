@@ -291,3 +291,35 @@
       - Plataforma de Inteligencia de Seguridad IBM QRadar
       - LogRhythm
       - Splunk
+
+---
+
+## Ponga a prueba sus Conocimientos: Herramientas de Gestion
+
+1. ¿Qué herramienta recopila y analiza los datos de registro para monitorizar las actividades críticas de una organización?
+- [ ] Herramienta del Sistema de detección de intrusiones (IDS)
+- [ ] Manual de estrategias
+- [ ] Herramienta del Sistema de prevención de intrusiones (IPS) 
+- [x] Herramienta de administración de información y eventos de seguridad (SIEM)
+> 
+
+2. Rellene el espacio en blanco: Orquestación, automatización y respuesta de seguridad (SOAR) es un conjunto de aplicaciones, Herramientas y Flujos de trabajo que utiliza la automatización para _____ eventos de seguridad
+- [x] responder a
+- [ ] interactuar con
+- [ ] recoja
+- [ ] remediar
+> 
+
+3. ¿Qué paso del proceso SIEM transforma los datos brutos para crear registros A coherentes?
+- [x] Normalización de datos
+- [ ] Recogida y agregación de Datos
+- [ ] Analizar datos
+- [ ] Centralizar datos
+> 
+
+4. ¿En qué consiste el proceso de recopilar Datos de distintas fuentes y ponerlos en un lugar centralizado?
+- [x] Agregación
+- [ ] Notificación
+- [ ] Análisis
+- [ ] Normalización
+> 
