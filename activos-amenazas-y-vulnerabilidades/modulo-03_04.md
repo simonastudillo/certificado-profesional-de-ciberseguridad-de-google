@@ -39,6 +39,13 @@
 - [x] Una vulnerabilidad
 > Correcto
 
+1. Considere el siguiente escenario: El servidor en la nube de una empresa tiene un cortafuegos mal configurado que permite el acceso sin restricciones a su red interna. Esta configuración incorrecta es un ejemplo de ¿qué?
+- [x] Una vulnerabilidad
+- [ ] Un fallo de seguridad
+- [ ] Un vector de ataque
+- [ ] Una amenaza para la seguridad
+> Correcto
+
 2. Rellene el espacio en blanco: Las cinco capas del modelo de defensa en profundidad son: perímetro, red, punto final, aplicación y _____
 - [ ] físico
 - [ ] transporte
@@ -51,6 +58,13 @@
 - [ ] Los Equipos de Seguridad pueden determinar fácilmente el "quién, qué, cuándo y cómo" de un ataque.
 - [ ] Cada capa utiliza tecnologías únicas que se comunican entre sí.
 - [x] Las amenazas que penetran en un nivel pueden ser contenidas en otro.
+> Correcto
+
+2. ¿Qué estrategia de seguridad utiliza un enfoque por capas para impedir que los atacantes accedan a los Datos sensibles?
+- [ ] Principio de Kerchoff
+- [x] Defensa en profundidad
+- [ ] Cifrado César
+- [ ] Triple DES (3DES)
 > Correcto
 
 3. ¿Cuál es la diferencia entre las capas de aplicación y de datos del modelo de defensa en profundidad?
@@ -102,6 +116,13 @@
 - [x] La Gestión de vulnerabilidades debe considerar varias perspectivas.
 > Correcto
 
+5. Un Equipo de Seguridad está preparando las nuevas estaciones de trabajo que se instalarán en una oficina. ¿Qué pasos de Gestión de vulnerabilidades deberían dar para preparar estas estaciones de trabajo? Seleccione tres respuestas
+- [ ] Instale un conjunto de herramientas de colaboración en cada puesto de trabajo.
+- [x] Descargue los últimos parches y actualizaciones para cada sistema.
+- [x] Configure el firewall de la empresa para permitir el acceso a la red.
+- [x] Tenga en cuenta quién utilizará cada computadora.
+> Correcto
+
 6. Un Equipo de Seguridad está llevando a cabo una evaluación periódica de la vulnerabilidad de sus Procedimientos de Seguridad. Su Objetivo es revisar las lagunas en sus Procedimientos actuales que podrían conducir a una violación de datos. Tras identificar y analizar los Procedimientos actuales, el Equipo lleva a cabo una Evaluación de riesgos. ¿Cuál es el objetivo de realizar una Evaluación de riesgos?
 - [x] Para puntuar las vulnerabilidades en función de su gravedad e impacto
 - [ ] Para simular los ataques que podrían realizarse contra cada vulnerabilidad
@@ -144,6 +165,20 @@
 - [ ] superficie
 > Correcto
 
+8. Un periódico en línea sufrió una filtración de datos. Los atacantes explotaron una vulnerabilidad en el formulario de inicio de sesión de su sitio web. Los atacantes pudieron acceder a la base de datos de usuarios del periódico, que no encriptaba la información de identificación personal (PII). ¿Qué vectores de ataque utilizaron los hackers maliciosos para robar la información de los usuarios? Seleccione dos respuestas.
+- [ ] Base de datos de usuarios
+- [ ] La PII sin cifrar (Incorrecto)
+- [ ] La página web del periódico
+- [x] El formulario de acceso en línea
+> Incorrecto
+
+8. Un Gerente de proyectos de una empresa de servicios públicos recibe un correo electrónico sospechoso que contiene un archivo adjunto. Abre el archivo adjunto y éste instala software malicioso en su ordenador portátil. ¿Cuáles son los vectores de ataque utilizados en esta situación? Seleccione dos respuestas.
+- [ ] El software malicioso
+- [x] El correo electrónico sospechoso
+- [ ] La estación de trabajo infectada
+- [x] El archivo adjunto
+> Correcto
+
 9. ¿Cuáles de las siguientes son razones por las que los equipos de Seguridad practican una mentalidad de ataque? Seleccione tres respuestas
 - [x] Descubrir vulnerabilidades que deben ser monitorizadas
 - [ ] Para explotar fallos en la base de código de una aplicación (Incorrecto)
@@ -159,11 +194,11 @@
 > Correcto
 
 9. ¿Qué fase viene después de identificar un objetivo cuando se practica una mentalidad de atacante?
-- [ ] Determine cómo se puede acceder al objetivo.
+- [x] Determine cómo se puede acceder al objetivo.
 - [ ] Encuentre las herramientas y los métodos de ataque.
 - [ ] Preparar las defensas contra las amenazas.
 - [ ] Evaluación de los vectores de ataque del objetivo. (Incorrecto)
-> Incorrecto
+> Correcto
 
 10. ¿Qué no es un paso de la práctica de una mentalidad de ataque?
 - [ ] Evaluar los Vectores de ataque que pueden ser explotados.
