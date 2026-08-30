@@ -199,3 +199,35 @@
    - Es probable que la suya difiera en ciertos aspectos.
    - Lo importante es que su Diario del gestor de incidentes registre los detalles del escenario.
    - Saber cómo utilizar el Diario del gestor de incidentes para registrar notas y detalles adicionales durante la investigación de un incidente es importante porque puede utilizarse como referencia para futuros esfuerzos de respuesta a incidentes.
+
+---
+
+## Ponga a prueba sus Conocimientos: El ciclo de vida de la Respuesta ante incidentes
+
+1. La primera fase del Ciclo de vida de respuesta ante incidentes del NIST es la Preparación. ¿Cuáles son las otras fases? Seleccione tres respuestas
+- [x] Contención, Erradicación y Recuperación
+- [x] Detección y Análisis
+- [x] Actividad posterior al incidente
+- [ ] Identificar
+> Las otras tres fases del Ciclo de vida de respuesta ante incidentes del NIST son: Detección y Análisis; Contención, Erradicación y Recuperación; y Actividad posterior al incidente. 
+
+2. ¿Qué tipo de proceso es el Ciclo de vida de respuesta ante incidentes del NIST?
+- [x] Cíclico
+- [ ] Lineal
+- [ ] Sincrónico
+- [ ] Observable
+> El Ciclo de vida de respuesta ante incidentes del NIST es un proceso cíclico. Esto significa que las fases del ciclo de vida pueden revisitarse o repetirse a medida que avanzan las investigaciones de incidentes.
+
+3. Rellene el espacio en blanco: Un _____ es un suceso observable en una red, sistema o dispositivo
+- [ ] investigación
+- [ ] análisis
+- [x] evento
+- [ ] incidente
+> Un Evento es un suceso observable en una red, sistema o dispositivo.
+
+4. Un profesional de la Seguridad investiga un Incidente. Su objetivo es obtener información sobre las 5 W, que incluyen qué ocurrió y por qué. ¿Cuáles son las otras W? Seleccione tres respuestas.
+- [ ] Qué tipo de Incidente fue
+- [x] Quién provocó el incidente
+- [x] Cuándo tuvo lugar el Incidente
+- [x] Dónde se produjo el Incidente
+> Las otras W son: quién provocó el Incidente, cuándo tuvo lugar el Incidente y dónde tuvo lugar el Incidente.
