@@ -195,3 +195,35 @@
 - Estos ejercicios garantizan que todos los miembros del equipo están familiarizados ​con el plan de respuesta.
 - ​También permiten a las organizaciones identificar cualquier laguna que falte en un proceso para mejorar ​su plan de respuesta ante incidentes.
 - ​Además, es posible que se exija a las organizaciones que realicen tipos específicos de ejercicios por ​razones normativas.
+
+---
+
+## Ponga a prueba sus Conocimientos: Operaciones de respuesta ante incidentes
+
+1. ¿Cuáles son los objetivos de un Equipo de respuesta a incidentes de seguridad informática (CSIRT)? Seleccione tres respuestas
+- [x] Proporcionar servicios y recursos para la respuesta y la recuperación
+- [x] Gestionar incidentes
+- [ ] Gestionar la divulgación pública de un incidente
+- [x] Para evitar que se produzcan futuros incidentes
+> Los objetivos de los CSIRT son gestionar eficaz y eficientemente los incidentes, evitar que se produzcan en el futuro y proporcionar servicios y recursos para la respuesta y la recuperación.
+
+2. ¿Qué documento describe los Procedimientos a seguir después de que una organización sufra un ataque de ransomware?
+- [x] Plan de respuesta ante incidentes
+- [ ] Una política de Seguridad
+- [ ] Diagrama de red
+- [ ] Una lista de contactos
+> Un Plan de respuesta ante incidentes describe los Procedimientos a seguir después de que una organización sufra un ataque de ransomware.
+
+3. Rellene el espacio en blanco: El trabajo de _____ es investigar las alertas y determinar si se ha producido un incidente
+- [ ] coordinadores de incidentes
+- [ ] líderes técnicos
+- [x] analistas de seguridad
+- [ ] representante de relaciones públicas
+> Los analistas de Seguridad investigan las alertas de Seguridad y determinan si se ha producido un incidente. 
+
+4. ¿Qué miembro de un CSIRT es responsable del seguimiento y la gestión de las actividades de todos los equipos implicados en el proceso de respuesta?
+- [ ] Analista de Seguridad
+- [x] Coordinador de incidentes
+- [ ] Representante de relaciones públicas
+- [ ] Lead técnico
+> Un coordinador de incidentes es responsable del seguimiento y la gestión de las actividades de todos los equipos implicados en el proceso de respuesta.
