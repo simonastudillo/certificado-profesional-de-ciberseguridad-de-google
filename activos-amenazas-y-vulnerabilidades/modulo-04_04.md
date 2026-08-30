@@ -235,3 +235,138 @@
 
 - Remaining: 1 - The team gathers up-to-date intelligence on types of mobile-app attacks.
 > Stage 4: Perform threat analysis.
+
+---
+
+## Actividad: Aplicar el marco del modelo de amenazas PASTA
+- Resumen de la actividad
+   - En esta actividad, practicará el uso del marco del modelo de amenazas del Proceso de Simulación de Ataques y Análisis de Amenazas (PASTA).
+   - Determinará si es seguro lanzar una nueva aplicación de compras.
+   - El modelado de amenazas es una parte importante del desarrollo de software seguro.
+   - Los equipos de seguridad suelen realizar modelos de amenazas para identificar vulnerabilidades antes de que lo hagan los actores maliciosos.
+   - PASTA es un marco utilizado habitualmente para evaluar el perfil de riesgo de las nuevas aplicaciones.
+
+- Escenario
+   - Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+   - Usted forma parte del creciente equipo de seguridad de una empresa para entusiastas y coleccionistas de zapatillas.
+   - La empresa se está preparando para lanzar una aplicación móvil que facilite a sus clientes la compra y venta de zapatillas.
+   - Usted está realizando un modelo de amenazas de la aplicación utilizando el marco PASTA.
+   - Pasará por cada una de las siete etapas del marco para identificar los requisitos de seguridad de la nueva aplicación de la empresa de zapatillas.
+
+- Instrucciones paso a paso
+
+- Acceso a los Recursos
+
+1. Acceder a la plantilla
+- [Hoja de trabajo PASTA](./resources/PASTA-worksheet.docx)
+
+2. Acceso a los materiales de apoyo
+- [Diagrama de flujo de datos de PASTA](./resources/PASTA-data-flow-diagram.pptx)
+- [Árbol de ataque de PASTA](./resources/PASTA-attack-tree.pptx)
+
+- Completar las etapas PASTA
+
+1. Identificar los objetivos de negocio de la app para dispositivos móviles: aplicación para dispositivos móviles
+- El objetivo principal de la Etapa I del framework PASTA es comprender por qué se ha desarrollado la aplicación y qué se espera que haga.
+- La Etapa I suele requerir la recopilación de información de muchas personas de una empresa.
+- En primer lugar, revise la siguiente descripción de por qué la empresa de zapatillas decidió desarrollar esta nueva aplicación:
+   - Descripción: Nuestra aplicación debe conectar a la perfección a vendedores y compradores. Debe ser fácil para los usuarios registrarse, iniciar sesión y gestionar sus cuentas. La Privacidad de los datos es una gran preocupación para nosotros. Queremos que los usuarios se sientan seguros de que estamos siendo responsables con su información.
+   - Los compradores deben poder enviar mensajes directamente a los vendedores con sus preguntas. También deberían tener la posibilidad de calificar a los vendedores para fomentar un buen servicio. Las ventas deben ser claras y rápidas de procesar. Los usuarios deben disponer de varias opciones de pago para que el proceso de compra sea fluido. La gestión adecuada de los pagos es realmente importante porque queremos evitar problemas legales.
+- En la fila de la Etapa 1 de la hoja de trabajo PASTA, tome 2 ó 3 notas de los objetivos empresariales de que haya identificado a partir de la descripción.
+
+2. Evaluar los componentes de las aplicaciones
+- En la Etapa II se define el alcance tecnológico del proyecto.
+- Normalmente, el equipo de desarrollo de la aplicación participa en esta etapa porque es el que tiene más conocimientos sobre la base de código y la lógica de la aplicación.
+- Su responsabilidad como profesional de la seguridad sería evaluar la arquitectura de la aplicación en busca de riesgos de seguridad.
+- Por ejemplo, la aplicación intercambiará y almacenará muchos datos de los usuarios.
+- Estas son algunas de las tecnologías que utiliza:
+   - Interfaz de programación de aplicaciones (API): Una API es un conjunto de reglas que definen cómo interactúan entre sí los componentes de software. En el desarrollo de aplicaciones, las API de terceros se utilizan habitualmente para añadir funcionalidades sin tener que programarlas desde cero.
+   - Infraestructura de clave pública (PKI): La PKI es un marco de cifrado que asegura el intercambio de información en línea. La aplicación móvil utiliza una combinación de algoritmos de cifrado simétricos y asimétricos: AES y RSA. El cifrado AES se utiliza para cifrar datos sensibles, como la información de las tarjetas de crédito. El cifrado RSA se utiliza para intercambiar claves entre la app y el dispositivo del usuario.
+   - SHA-256: SHA-256 es una función hash de uso común que toma una entrada de cualquier longitud y produce un compendio de 256 bits. La app de zapatillas utilizará SHA-256 para proteger los datos sensibles del usuario, como contraseñas y números de tarjetas de crédito.
+   - Lenguaje de consulta estructurado (SQL): SQL es un lenguaje de programación utilizado para crear, interactuar y solicitar información a una base de datos. Por ejemplo, la aplicación móvil utiliza SQL para almacenar información sobre las zapatillas que están a la venta, así como sobre los vendedores que las venden. También utiliza SQL para acceder a esos datos durante una compra.
+- Considere lo que ha aprendido sobre estas tecnologías:
+   - ¿Cuál de estas tecnologías evaluaría primero?
+   - ¿Cómo podrían presentar riesgos desde el punto de vista de la seguridad?
+- En la fila de la Etapa II de la hoja de trabajo PASTA, escriba 2-3 frases (40-60 palabras) que describan por qué decide dar prioridad a esa tecnología sobre las demás.
+
+3. Revisar un diagrama de flujo de datos
+- Durante la Etapa III de PASTA, el objetivo es analizar cómo maneja la información la aplicación.
+- Aquí se desglosa cada proceso.
+- Por ejemplo, uno de los procesos de la aplicación podría ser permitir a los compradores buscar en la base de datos los zapatos que están a la venta.
+- Abra el recurso del diagrama de flujo de datos PASTA.
+- Revise el diagrama y considere cómo se relacionan las tecnologías que ha evaluado con la protección de los datos de los usuarios en este proceso.
+- Los desarrolladores de software suelen disponer de diagramas de flujo de datos detallados para que los equipos de seguridad puedan utilizarlos y verificar que la información se procesa de forma segura.
+
+4. Utilice una mentalidad de atacante para analizar las amenazas potenciales
+- La Etapa IV consiste en identificar las amenazas potenciales para la aplicación.
+- Esto incluye las amenazas para las tecnologías que enumeró en la Etapa II.
+- También afecta a los procesos de su diagrama de flujo de datos de la Etapa III.
+- Por ejemplo, el sistema de autenticación de la aplicación podría ser atacado con un virus.
+- La autenticación también podría ser atacada si un actor de amenaza realiza ingeniería social a un empleado.
+- En la fila de la Etapa IV de la hoja de trabajo PASTA, enumere 2 tipos de amenazas que supongan un riesgo para la información que maneja la aplicación de la empresa de zapatillas.
+- Los registros internos del sistema que utilizará como analista de seguridad son buenas fuentes de información sobre amenazas.
+
+5. Lista de vulnerabilidades que pueden ser explotadas por esas amenazas
+- La Etapa V de PASTA es el análisis de vulnerabilidad.
+- Aquí, debe tener en cuenta la superficie de ataque de las tecnologías enumeradas en la Etapa II.
+- Por ejemplo, la aplicación utilizará un sistema de pago.
+- El formulario utilizado para recoger la información de la tarjeta de crédito podría ser vulnerable si no encripta los datos.
+- En la Etapa V de la hoja de trabajo PASTA, enumere 2 tipos de vulnerabilidades que podrían explotarse.
+- Recursos como la [Lista de vulnerabilidades](https://cve.mitre.org/cve/search_cve_list.html) y  [exposiciones comunes del software (CVE®)](https://cve.mitre.org/cve/search_cve_list.html) y [OWASP](https://owasp.org/) son útiles para encontrar vulnerabilidades comunes del software.
+
+6. Mapa de recursos, amenazas y vulnerabilidades en un árbol de ataque
+- En la Etapa VI de PASTA, la información recopilada en las dos etapas anteriores se utiliza para construir un Árbol de ataque.
+- Abra el recurso Árbol de ataque de PASTA.
+- Revise el diagrama y considere cómo los agentes de amenaza pueden explotar potencialmente estos vectores de ataque.
+- Las aplicaciones de este tipo suelen tener árboles de ataque grandes y complejos con muchas ramas.
+
+7. Identificar nuevos controles de seguridad que puedan reducir el riesgo
+- El Modelo de amenazas PASTA se utiliza habitualmente para reducir la probabilidad de que se produzcan riesgos para la Seguridad.
+- En la Etapa VII, el objetivo final es Implementar defensas y salvaguardas que mitiguen las amenazas.
+- En la Etapa VII de la hoja de trabajo PASTA, enumere 4 controles de seguridad de los que se haya enterado que pueden reducir las posibilidades de que se produzca un incidente de seguridad, como una violación de los datos.
+
+- Qué incluir en su respuesta
+   - 2-3 objetivos empresariales
+   - 2-3 requisitos tecnológicos
+   - 2 amenazas potenciales
+   - 2 vulnerabilidades del sistema
+   - 4 defensas que limitan el riesgo
+
+- PASTA worksheet
+
+1. Define business and security objectives
+   - Los usuarios deben poder registrarse, iniciar sesión y gestionar sus cuentas de forma segura.
+   - La aplicación debe proteger la información de identificación personal de los usuarios.
+   - La aplicación debe permitir a los compradores enviar mensajes a los vendedores y calificar su servicio.
+   - La aplicación debe procesar las ventas de forma rápida y segura, con varias opciones de pago.
+
+2. Define the technical scope
+   - Lista de tecnologías utilizadas por la aplicación:
+      - Interfaz de programación de aplicaciones (API)
+      - Infraestructura de clave pública (PKI)
+      - Sistema de cifrado simétrico y asimétrico (AES y RSA)
+      - SHA-256
+      - Lenguaje de consulta estructurado (SQL)
+   - API tiene una prioridad alta porque es un punto de entrada para los usuarios, empleados y socios externos. Permite interconectar varios sistemas y servicios, lo que aumenta la superficie de ataque.
+
+3. Decompose the application
+   - [Diagrama de flujo de datos de PASTA](./resources/PASTA-data-flow-diagram.pptx)
+
+4. Threat analysis
+   - Amenaza 1: Un actor de amenaza externo podría explotar una vulnerabilidad en la API para acceder a la información de identificación personal de los usuarios.
+   - Amenaza 2: Un actor de amenaza interno podría realizar ingeniería social a un empleado para obtener acceso no autorizado a la base de datos de la aplicación.
+   - Amenaza 3: Campos no sanitizados en la aplicación podrían permitir ataques de inyección de SQL, lo que podría dar lugar a la divulgación de información confidencial.
+
+5. Vulnerability analysis
+   - Vulnerabilidad 1: La API podría no estar adecuadamente protegida contra ataques de fuerza bruta, lo que permitiría a un actor de amenaza externo adivinar credenciales de usuario.
+   - Vulnerabilidad 2: La base de datos podría no estar cifrada correctamente, lo que permitiría a un actor de amenaza interno acceder a información confidencial sin autorización.
+   - Vulnerabilidad 3: La aplicación podría no validar correctamente la entrada del usuario, lo que permitiría ataques de inyección de SQL.
+
+6. Attack modeling
+   - [Árbol de ataque de PASTA](./resources/PASTA-attack-tree.pptx)
+
+7. Risk analysis and impact
+   - Política de contraseñas seguras y autenticación multifactor (MFA)
+   - Principio de privilegio mínimo
+   - Cifrado de datos en tránsito y en reposo
+   - Monitoreo y registro de actividades sospechosas
