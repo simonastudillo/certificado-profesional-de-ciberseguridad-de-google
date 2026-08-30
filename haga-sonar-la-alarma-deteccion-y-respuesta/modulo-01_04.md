@@ -171,3 +171,42 @@
 - [x] Detener la actividad intrusiva
 - [x] Monitorear la actividad
 > un IPS monitorea, detecta y detiene la actividad anormal o intrusiva.
+
+---
+
+## Gestión de alertas y eventos con herramientas SIEM y SOAR
+- ​Es posible que nuestra discusión sobre las herramientas de detección le haya dejado con la duda de dónde se envían las alertas ​y cómo acceden a ellas los analistas de seguridad.
+- ​Aquí es donde se utilizan las herramientas de gestión de eventos e información de seguridad, o SIEM.
+- ​SIEM es una herramienta que recopila y ​analiza los datos de registro para monitorizar las actividades críticas de una organización.
+- SIEM proporciona a los profesionales de la seguridad una visión general de alto nivel de lo que ocurre en ​sus redes.
+- ​¿Cómo lo hace exactamente?
+- ​Utilicemos el ejemplo de un coche.
+- ​Los coches tienen muchas partes diferentes: neumáticos, luces y ​no olvidemos toda la maquinaria interna que hay bajo el capó.
+- ​Hay muchos componentes diferentes en un coche, ​pero ¿cómo sabe si uno de ellos tiene un problema?
+- ​Ajá, ¡lo ha adivinado! Las luces de advertencia del salpicadero.
+- ​El salpicadero le notifica información relacionada con ​los componentes del coche, ya sea que la presión de los neumáticos o el voltaje de la batería son bajos, ​necesita repostar combustible o una puerta no se ha cerrado correctamente.
+- ​El salpicadero de un coche le notifica el estado de los componentes del coche, de modo ​que pueda tomar medidas para solucionarlo.
+- ​Las herramientas SIEM funcionan de forma similar.
+- ​Al igual que los coches tienen muchos componentes diferentes, ​una red puede tener miles de dispositivos y ​sistemas diferentes, lo que hace que su supervisión sea todo un reto.
+- ​El salpicadero de un coche ofrece al controlador una imagen clara del estado de su vehículo, de forma que ​no tenga que preocuparse de inspeccionar cada componente por sí mismo.
+- ​De forma similar, un SIEM examina los flujos de datos entre todos los diferentes sistemas de ​la red y los analiza para proporcionar una imagen en tiempo real de cualquier amenaza potencial ​para la red.
+- ​Lo hace ingiriendo cantidades masivas de Datos y categorizando estos datos, de forma ​que sean fácilmente accesibles a través de una plataforma centralizada similar al ​salpicadero de un coche.
+- ​Así es como se ve el proceso.
+- ​En primer lugar, las herramientas SIEM recopilan y agregan datos.
+- ​Estos datos suelen estar en forma de logs, que son básicamente un registro de ​todos los eventos ocurridos en una fuente determinada.
+- ​Los datos pueden proceder de múltiples fuentes, como IDS o IPS, bases de datos, ​cortafuegos, aplicaciones y mucho más.
+- ​Una vez recopilados todos estos datos, se procede a su agregación.
+- ​La agregación simplemente significa que todos estos datos procedentes de diferentes fuentes de datos se ​centralizan en un único lugar.
+- ​Dependiendo del número de fuentes de datos de las que recopile un SIEM, ​se puede recopilar un enorme volumen de datos en bruto sin editar.
+- ​Y no todos los datos que recopila un SIEM son relevantes a efectos de ​análisis de seguridad.
+- ​A continuación, las herramientas SIEM normalizan los datos.
+- ​La normalización toma los datos en bruto que ha recopilado el SIEM y los limpia ​eliminando los atributos no esenciales para que sólo se incluya lo relevante.
+- ​La normalización de los datos también crea coherencia en los Registros, ​lo que resulta útil cuando se busca información de registro ​específica durante la investigación de incidentes.
+- ​Por último, los datos normalizados se analizan de acuerdo con las reglas configuradas.
+- ​SIEM analiza los datos normalizados en función de un conjunto de reglas para detectar cualquier posible ​incidente de seguridad, que luego se categoriza o se notifica como alertas para que ​los analistas de seguridad los revisen.
+- ​Ahora que ha explorado las capacidades de las herramientas SIEM, ​examinemos otra herramienta de gestión de la seguridad.
+- ​La Orquestación, automatización y respuesta de seguridad, o ​SOAR, es una colección de aplicaciones, herramientas y ​flujos de trabajo que utiliza la automatización para responder a los incidentes de Seguridad.
+- ​Mientras que las herramientas SIEM recopilan, analizan y elaboran informes sobre incidentes de seguridad para que los ​analistas de seguridad los revisen, SOAR automatiza el análisis y la ​respuesta a los eventos e incidentes de seguridad.
+- ​SOAR también puede utilizarse para hacer un seguimiento y gestionar casos.
+- ​Múltiples incidentes pueden formar un caso, y ​SOAR ofrece una forma de ver todos estos incidentes en un lugar centralizado.
+- Ha aprendido cómo herramientas de gestión de incidentes como SIEM y SOAR ​facilitan a los analistas de seguridad ver lo que está ocurriendo en una red y ​responder a cualquier amenaza de forma eficiente. 
