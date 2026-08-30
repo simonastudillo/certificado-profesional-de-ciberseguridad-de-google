@@ -52,3 +52,24 @@
 - ​Por último, las hojas de cálculo de Google, las grabadoras de audio, las cámaras y las ​notas manuscritas también son herramientas que puedes utilizar para documentar.
 - ​Nuestro debate sobre la documentación no ha hecho más que empezar.
 - ​Pronto, utilizarás el diario de tu gestor de incidentes para poner en práctica tus ​habilidades de documentación. 
+
+---
+
+## Sistemas de detección de intrusiones
+- Imagina que acabas de instalar ​un sistema de Seguridad contra intrusiones en el hogar.
+- ​Ha instalado sensores de intrusos ​en cada punto de entrada y salida de su hogar, ​incluidas puertas y ventanas.
+- ​Estos sensores funcionan enviando ​ondas de sonido y, cuando un objeto toca una onda de sonido, ​las ondas rebotan en el ​sensor y activan una alerta en el teléfono, ​notificándole que se ha detectado una intrusión.
+- ​Un sistema de detección de intrusos, o IDS, ​funciona de manera muy similar a los sensores de intrusión domésticos.
+- ​Un sistema de detección de intrusos ​es una aplicación que monitorea la ​actividad del sistema y de la red y ​produce alertas sobre posibles intrusiones.
+- ​Al igual que el sensor de intrusión doméstico, el IDS recopila y ​analiza la información del sistema para detectar actividades anormales.
+- ​Si se detecta algo inusual, ​el IDS envía una alerta ​a los canales y al personal apropiados.
+- ​Ahora, imagine un escaparate de joyería con un sensor de ventana.
+- ​Cuando el sensor detecta que ​el cristal de la ventana se ha roto, ​activa una puerta enrollable de acero para reemplazar automáticamente la ​ventana rota y evitar la ​entrada no autorizada a la tienda.
+- ​Esto es lo que hace un sistema de prevención de intrusiones.
+- ​Los sistemas de prevención de intrusiones, o IPS, ​tienen las mismas capacidades que un IDS, ​pero pueden hacer más. 
+- Supervisan la actividad del sistema en busca de ​intrusiones y toman medidas para detenerla.
+- ​Muchas herramientas tienen la capacidad de realizar ​la función de IDS e IPS.
+- ​Algunas herramientas populares son Snort, ​Zeek, Kismet, Sagan y Suricata.
+- ​Exploraremos Suricata en las próximas lecciones.
+- ​Quizás se pregunte, ​¿a dónde van estas notificaciones de alerta?
+- ​Bueno, próximamente, analizaremos cómo administrar las alertas ​mediante herramientas de administración de información y eventos de seguridad. 
