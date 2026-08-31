@@ -123,3 +123,52 @@
 - ​Entre los ejemplos de herramientas de análisis de red se incluyen tcpdump y Wireshark.
 - ​Se ​accede a tcpdump a través de una línea de comandos mientras Wireshark tiene una interfaz gráfica de usuario o GUI.
 - ​Ambas herramientas son útiles para los analistas de Seguridad, y ​pronto tendrá la oportunidad de explorar ambas.
+
+---
+
+## Reexaminar los campos de un Encabezado de Paquete
+- ​Si bien hay muchas herramientas diferentes disponibles, ​como analista de Seguridad es importante que ​aprenda a leer y analizar los paquetes manualmente.
+- ​Para hacerlo, examinemos ​un componente importante del paquete: los encabezados IP.
+- ​Anteriormente, aprendió acerca de ​las cuatro capas del modelo TCP/IP.
+- ​Recuerde que el modelo TCP/IP es un framework que se usa para ​visualizar cómo se ​organizan y transmiten los datos a través de una red.
+- ​La capa de Internet acepta y ​entrega paquetes para la red.
+- ​También es la capa en la que el Protocolo de Internet funciona ​como base para todas las comunicaciones en Internet.
+- ​Es responsable de ​garantizar que los paquetes lleguen a su destino.
+- ​El Protocolo de Internet funciona como ​un mensajero que entrega un sobre.
+- ​En lugar de utilizar la información de entrega ​que se encuentra en el sobre, ​el Protocolo de Internet utiliza la información ​que se encuentra en el encabezado del paquete, como las direcciones IP.
+- ​A continuación, determina la mejor ruta disponible que pueden ​tomar los paquetes, de ​modo que los datos se puedan enviar y recibir entre los hosts.
+- ​Como ya sabrá, ​los paquetes IP contienen encabezados.
+- ​Los encabezados contienen los campos de datos esenciales para ​la transferencia de datos a su destino previsto.
+- ​Los distintos protocolos utilizan encabezados diferentes.
+- ​Hay dos versiones diferentes ​del Protocolo de Internet: IPv4, ​que se considera ​la base de las comunicaciones de Internet, e ​IPv6, que es la ​versión más reciente del Protocolo de Internet.
+- ​Recuerde que los distintos protocolos utilizan encabezados diferentes.
+- ​Por lo tanto, los encabezados IPv4 e IPv6 son diferentes, ​pero contienen campos similares con nombres diferentes.
+- ​IPv4 sigue siendo el más utilizado, ​por lo que nos centraremos en examinar los campos de un encabezado IPv4.
+- ​Empecemos por el campo de versión, que ​especifica qué versión de IP se está utilizando, ​ya sea IPv4 o IPv6.
+- ​Volviendo a nuestra analogía con ​el correo, el campo de versión es como las diferentes clases de correo, ​como el correo prioritario, urgente o regular.
+- ​A continuación, IHL significa Longitud del Encabezado de Internet.
+- ​Este campo especifica la longitud ​del encabezado IP más las opciones.
+- ​El siguiente campo, ToS, significa Tipo de servicio.
+- ​Este campo nos indica si ​ciertos paquetes deben tratarse con cuidado diferente.
+- ​Por ejemplo, piense en los ToS como ​una pegatina frágil en un paquete enviado por correo.
+- El ​siguiente es el campo de longitud total, ​que identifica la longitud de todo el paquete, ​incluidos los encabezados y los datos.
+- ​Esto se puede comparar con las dimensiones ​y el peso de un sobre.
+- ​Los tres campos siguientes, ​Identificación, Indicadores ​y Desfase de fragmentos, ​tratan de la información relacionada con la fragmentación.
+- ​La fragmentación se produce cuando un paquete IP ​se divide en fragmentos, ​que luego se transmiten por cable y se vuelven a ​ensamblar cuando llegan a su destino.
+- ​Estos tres campos especifican si ​se ha utilizado la fragmentación y cómo volver a ​ensamblar los paquetes rotos en el orden correcto.
+- ​Esto es similar a la forma en que el correo puede viajar ​por múltiples rutas, como buzones, ​instalaciones de procesamiento, aviones y ​camiones de correo antes de llegar a su destino.
+- ​El campo TTL significa Time to Live.
+- ​Como sugiere su nombre, ​este campo determina cuánto tiempo ​puede durar un paquete antes de que se descarte.
+- ​Sin este campo, los paquetes podrían ​circular a través de los enrutadores sin fin.
+- El ​TTL es similar a la forma en que la información de seguimiento ​proporciona detalles sobre la fecha de ​entrega prevista de un sobre.
+- ​El campo Protocolo especifica el protocolo utilizado ​al proporcionar un valor que corresponde a un protocolo.
+- ​Por ejemplo, TCP está representado por 6.
+- ​Esto es similar a incluir el número ​de una casa en una dirección postal.
+- ​La suma de comprobación del encabezado almacena un valor denominado suma de comprobación, ​que se utiliza para determinar si se ​ha producido algún error en el encabezado.
+- ​La dirección de origen especifica la dirección IP de origen y ​la dirección de destino especifica ​la dirección IP de destino.
+- ​Es igual que la ​información de contacto del remitente y el destinatario que se encuentra en un sobre.
+- ​El campo de opciones no es obligatorio y se suele ​utilizar para la solución de problemas de red ​en lugar de para el tráfico común.
+- ​Si se usa, la longitud del encabezado aumenta.
+- ​Es como comprar un seguro postal para un sobre.
+- ​Por último, al final del encabezado del paquete ​es donde residen los datos del paquete, ​como el texto de un mensaje de correo electrónico.
+- ​¿Quién sabía que los paquetes de datos que enviamos ​a través de las redes contienen tanta información? ​Próximamente, tendrá la oportunidad de ​examinar estos campos de paquetes en detalle. 
