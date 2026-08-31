@@ -175,3 +175,35 @@
 - ​Hay muchas maneras de detener un ataque como este.
 - ​Por ejemplo, una vez identificada la actividad inusual, ​puede bloquear las direcciones IP ​asociadas al atacante mediante reglas de firewall.
 - Los ​ataques de exfiltración de datos son solo uno de ​los muchos ataques que se pueden ​detectar mediante la supervisión de la red.
+
+---
+
+## Ponga a prueba sus Conocimientos: Comprender el Tráfico de red
+
+1. ¿Cómo ayudan los Indicadores de compromiso (IoC) a los analistas de seguridad a detectar anomalías en el tráfico de redes?
+- [ ] Definen las intenciones del atacante.
+- [ ] Confirman que se ha producido un Incidente de Seguridad.
+- [x] Permiten identificar un ataque.
+- [ ] Captan la actividad de las redes.
+> Los IoC ayudan a los analistas de seguridad a detectar anomalías en el Tráfico de redes proporcionando una forma de identificar un ataque. Los IoC proporcionan a los analistas pruebas específicas asociadas a un ataque, como una dirección IP maliciosa conocida, lo que puede ayudar a identificar y responder rápidamente a un posible incidente de Seguridad.
+
+2. Rellene el espacio en blanco: Datos _____ es el término para la transmisión no autorizada de datos de un sistema
+- [x] exfiltración
+- [ ] infiltración
+- [ ] pivotante
+- [ ] tráfico de red
+> El robo de datos es la transmisión no autorizada de datos de un sistema.
+
+3. Un atacante se ha infiltrado en una red. A continuación, dedican tiempo a explorarla para ampliar y mantener su accesibilidad. Buscan recursos valiosos como código propietario y registros financieros. ¿Qué describe este escenario?
+- [ ] Transferencia de archivos internos de gran tamaño
+- [x] Movimiento lateral
+- [ ] Datos de red
+- [ ] Phishing
+> Este escenario describe el movimiento lateral. El movimiento lateral, también llamado pivotaje, describe a un atacante que explora una red con el objetivo de ampliar y mantener su accesibilidad. 
+
+4. ¿Para qué pueden utilizar los profesionales de la Seguridad el análisis del Tráfico de red? Seleccione tres respuestas
+- [x] Para monitorizar la actividad de la red
+- [x] Identificar actividades maliciosas
+- [x] Para comprender los patrones de tráfico de la red
+- [ ] Seguridad de los recursos críticos
+> El análisis del Tráfico de red proporciona a los profesionales de la Seguridad una forma de monitorizar la actividad de la red, identificar la actividad maliciosa y comprender los patrones del tráfico de red.
