@@ -103,3 +103,23 @@
 
 - Recursos
    - [Packet Crafting](https://www.infosecinstitute.com/resources/hacking/packet-crafting-a-serious-crime/)
+
+---
+
+## Interpretar las comunicaciones de red con paquetes
+- ​Si la captura de paquetes es como interceptar un sobre en el correo, el ​análisis del paquete es como leer la carta que hay dentro del sobre.
+- ​Analicemos cómo el análisis de paquetes puede ayudarnos a interpretar y ​comprender las comunicaciones de red.
+- ​Como ya sabrá, las redes son ruidosas.
+- ​Hay un enorme volumen de comunicaciones entre los dispositivos ​en un momento dado.
+- ​Por este motivo, las capturas de paquetes pueden contener grandes cantidades de ​comunicaciones de red, lo que dificulta el análisis y lleva mucho tiempo.
+- ​Como profesional de Seguridad, trabajará contrarreloj para proteger ​las redes y los sistemas informáticos de posibles ataques.
+- ​Puede analizar la evidencia de la red en forma de capturas de paquetes para identificar ​los indicadores de compromiso.
+- ​Tener la capacidad de filtrar el tráfico de la red mediante rastreadores de paquetes para recopilar ​información relevante es una habilidad esencial.
+- ​Por ejemplo, supongamos que se le asignó la tarea de analizar una captura de paquetes ​para encontrar cualquier indicio de robo de datos.
+- ​¿Cómo harías esto?
+- ​Con una herramienta de análisis de red, puede filtrar la captura de paquetes para clasificarlos.
+- ​Esto puede ayudarlo a identificar rápidamente un evento asociado con el robo de datos, ​como la salida de grandes cantidades de datos de una base de datos.
+- ​Hay muchos otros filtros que puede aplicar a las capturas de paquetes para encontrar la información ​que necesita para respaldar una investigación de manera eficiente.
+- ​Entre los ejemplos de herramientas de análisis de red se incluyen tcpdump y Wireshark.
+- ​Se ​accede a tcpdump a través de una línea de comandos mientras Wireshark tiene una interfaz gráfica de usuario o GUI.
+- ​Ambas herramientas son útiles para los analistas de Seguridad, y ​pronto tendrá la oportunidad de explorar ambas.
