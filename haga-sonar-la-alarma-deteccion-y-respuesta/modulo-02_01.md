@@ -132,3 +132,46 @@
 - Recursos
    - [Tráfico de red - MITRE ATT&CK®](https://attack.mitre.org/datasources/DS0029/)
    - [técnicas de exfiltración de datos - MITRE ATT&CK®](https://attack.mitre.org/tactics/TA0010/)
+
+---
+
+## Ataques de robo de datos
+- ​La supervisión del tráfico de la red ​ayuda a los profesionales de Seguridad a detectar ​, prevenir y responder a los ataques.
+- ​En mi experiencia como profesional de Seguridad, la ​supervisión de las desviaciones de los ​patrones de tráfico de red típicos ha dado grandes resultados.
+- ​Incluso si la información está cifrada, la ​supervisión del tráfico de la red sigue siendo ​importante por motivos de Seguridad.
+- ​Analicemos cómo ​podría funcionar el proceso de detección y respuesta en un ataque de robo de datos.
+- ​En primer lugar, describiremos la perspectiva del atacante.
+- ​Antes de que los atacantes puedan realizar un robo de datos​, deberán obtener acceso inicial ​a una red y un sistema de computadora.
+- ​Esto se puede hacer mediante un ​ataque de ingeniería social, como la suplantación de identidad, ​que engaña a las personas para que revelen datos confidenciales.
+- ​Los atacantes pueden enviar correos electrónicos de suplantación de identidad con archivos adjuntos o ​enlaces que engañan ​al objetivo para que introduzca sus credenciales.
+- ​Ahora, un atacante ha ​conseguido acceder a su dispositivo.
+- ​Tras conseguir su posición inicial en ​el sistema, el atacante no se detendrá ahí.
+- ​El objetivo de los atacantes es mantener el acceso ​al entorno y evitar que los ​detecten durante el mayor tiempo posible.
+- ​Para ello, realizarán ​una táctica conocida como movimiento lateral o giro.
+- ​Es entonces cuando dedicarán tiempo a ​explorar la red con el objetivo de ​expandir y mantener su acceso ​a otros sistemas de la red.
+- ​A medida que un atacante ​se desplaza por la red, explorará el entorno ​para identificar activos valiosos, ​como datos confidenciales como el código propietario, información de ​identificación personal, como ​nombres y direcciones, o registros financieros.
+- ​Para ello, buscarán ​ubicaciones como recursos compartidos de archivos de red, ​sitios de intranet, repositorios de código y más.
+- ​Una vez que el atacante identifique los activos valiosos, ​tendrá que recopilar, ​empaquetar y preparar los datos para su exfiltración fuera de ​la red de la organización y ponerlos en manos del atacante.
+- ​Una forma de hacerlo es reduciendo el tamaño de los datos.
+- ​Esto ayuda a los atacantes a ocultar ​los datos robados y a eludir los controles de Seguridad.
+- ​Por último, el atacante extraerá ​los datos al destino que elija.
+- ​Hay muchas maneras de hacerlo.
+- Por ejemplo, los ​atacantes pueden ​enviarse por correo electrónico los datos robados utilizando la cuenta de correo electrónico comprometida.
+- ​Ahora que ha aprovechado la perspectiva del atacante, ​analicemos cómo las organizaciones ​pueden defenderse de este tipo de ataque.
+- ​En primer lugar, los equipos de Seguridad deben impedir el acceso de los atacantes.
+- ​Hay muchos métodos que puede utilizar para ​proteger su red de los intentos de suplantación de identidad.
+- ​Por ejemplo, exigir ​a los usuarios que utilicen la autenticación multifactor.
+- ​Los atacantes que acceden a una red ​pueden pasar desapercibidos durante un tiempo.
+- ​Es importante que los equipos de Seguridad ​supervisen la actividad de la red para ​identificar cualquier actividad sospechosa ​que pueda indicar un riesgo.
+- ​Por ejemplo, se ​deben investigar los inicios de sesión de varios usuarios que provienen de direcciones IP fuera de la red.
+- ​Anteriormente, examinó cómo identificar, clasificar ​y proteger los activos mediante ​inventarios de activos y controles de Seguridad.
+- ​Como parte de la política de Seguridad de una organización, ​todos los activos deben catalogarse en un inventario de activos.
+- ​También se deben aplicar los controles de seguridad adecuados ​para proteger estos activos del acceso no autorizado.
+- ​Por último, si un ataque de robo de datos tiene éxito, ​los equipos de Seguridad deben detectar y detener la exfiltración.
+- ​Para detectar el ataque, se ​pueden ​identificar los indicadores de una recopilación de datos inusual mediante el monitoreo de la red.
+- ​Estos incluyen: transferencias de archivos internos de ​gran tamaño, cargas externas de gran tamaño ​y escrituras de archivos inesperadas.
+- ​Las herramientas SIEM pueden detectar una alerta sobre estas actividades.
+- ​Una vez que se envía una alerta, ​los equipos de Seguridad investigan y ​evitan que el ataque continúe.
+- ​Hay muchas maneras de detener un ataque como este.
+- ​Por ejemplo, una vez identificada la actividad inusual, ​puede bloquear las direcciones IP ​asociadas al atacante mediante reglas de firewall.
+- Los ​ataques de exfiltración de datos son solo uno de ​los muchos ataques que se pueden ​detectar mediante la supervisión de la red.
