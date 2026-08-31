@@ -1,0 +1,31 @@
+# Captura y visualización del tráfico de red
+
+## Paquetes y capturas de paquetes
+- ​Ya sea que se trate de un empleado que envía un correo electrónico o de ​un actor malintencionado que ​intenta filtrar datos confidenciales, ​las acciones que se realizan en una red se pueden ​identificar mediante el examen de los flujos de tráfico de la red.
+- La ​comprensión de estas comunicaciones de red proporciona ​una valiosa información estadística sobre las actividades ​que tienen lugar en una red.
+- ​De esta manera, puede comprender mejor lo que sucede en ​un entorno y defenderse de posibles amenazas.
+- ​Con esto en mente, examinemos cómo ​registrar el tráfico de red a través de capturas de paquetes.
+- ​Anteriormente, en el programa, ​aprendiste que cuando se envían datos, ​se dividen en paquetes.
+- ​Al igual que un sobre con dirección en el correo, ​los paquetes contienen información de entrega que ​se utiliza para dirigirlo a su destino.
+- ​Esta información incluye la ​dirección IP del remitente y del destinatario, ​el tipo de paquete que se envía y más.
+- ​Los paquetes pueden proporcionar mucha información sobre ​las comunicaciones que se producen entre ​los dispositivos a través de una red.
+- ​También puede recordar que ​un paquete tiene varios componentes.
+- ​Está el encabezado, que incluye información como ​el tipo de protocolo de red y el puerto que se está utilizando.
+- ​Imagínese que es el nombre y la ​dirección postal que se encuentran en un sobre.
+- ​Los Protocolos de red son un conjunto de reglas que determinan ​la transmisión de datos entre los dispositivos de una red.
+- ​Los puertos son ubicaciones no físicas de una computadora ​que organizan la transmisión de datos ​entre los dispositivos de una red.
+- ​El encabezado también contiene ​la dirección IP de origen y destino del paquete.
+- ​Exploraremos más información ​incluida en el encabezado en una sección posterior.
+- ​A continuación, está la carga útil, que ​contiene los datos reales que se están entregando.
+- ​Es como el contenido de ​una carta dentro de un sobre.
+- ​Y está el pie de página, ​que significa el final del paquete.
+- ​Entonces, ¿cómo se puede observar exactamente un paquete de red?
+- ​Al igual que los aromas son invisibles pero se pueden oler, ​los paquetes son invisibles pero se pueden ​capturar con herramientas llamadas rastreadores de paquetes.
+- ​Es posible que recuerde los rastreadores de paquetes de una sección anterior.
+- ​Un analizador de protocolos de red, o rastreador de paquetes, ​es una herramienta diseñada para capturar y ​analizar el tráfico de datos dentro de una red.
+- ​Como analista de seguridad, ​utilizará rastreadores de paquetes para inspeccionar los ​paquetes en busca de indicadores de riesgo.
+- ​Mediante el sniffing de paquetes, podemos obtener una ​instantánea detallada de los paquetes que ​viajan por una red en forma de captura de paquetes.
+- ​Una captura de paquetes, o P-cap, es un archivo ​que contiene paquetes de datos interceptados desde ​una interfaz o red.
+- ​Es como interceptar un sobre en el correo.
+- ​Las capturas de paquetes son increíblemente útiles ​durante la investigación de incidentes.
+- ​Al tener acceso a las comunicaciones ​que se producen entre los dispositivos a través de una red, ​puede observar las interacciones de la red y empezar a crear ​una historia para determinar qué sucedió exactamente.
