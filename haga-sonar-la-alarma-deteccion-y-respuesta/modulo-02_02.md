@@ -547,3 +547,19 @@ tcp contains "curl"
 
 ## Ejemplar opcional: Analice su primer paquete
 - Mismo laboratorio que el anterior
+
+---
+
+## Ejemplar: Analice su primer paquete
+- Analisis del laboratorio de Wireshark
+- Se reviso una captura de paquetes de red que contenía datos capturados de un sistema que realizó solicitudes web a un sitio.
+- Se aplican varios filtros para examinar los paquetes de red y se inspeccionan las capas de red y los protocolos contenidos en los paquetes.
+- Por cada paquete revisado se revisa el detalles de: frame, Ethernet II, Internet Protocol Version 4 y Transmission Control Protocol.
+- En ellos encontramos datos como la longitud del marco, la hora de llegada del paquete, las direcciones MAC de origen y destino, el tipo de protocolo interno, las direcciones IP de origen y destino, los puertos TCP de origen y destino, los números de secuencia de TCP y las marcas de TCP.
+- En mi opinión el último es de los más importantes ya que nos permite filtrar el contenido por peticiones de CURL, lo que nos permite ver el tráfico web que se realizó con este comando.
+- Este comando no suele ser utilizado por usuarios finales, sino que es más común en scripts y automatizaciones, lo que podría indicar actividad sospechosa si se encuentra en un entorno donde no debería estar presente.
+
+- Conclusión
+   - abrir archivos de captura de paquetes guardados,
+   - ver datos de paquetes de alto nivel, y
+   - usar filtros para inspeccionar datos detallados de paquetes.
