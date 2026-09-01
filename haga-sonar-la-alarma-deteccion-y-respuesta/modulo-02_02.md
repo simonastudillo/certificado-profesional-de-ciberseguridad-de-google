@@ -542,3 +542,8 @@ tcp contains "curl"
 ```
 - Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
 - Esta acción filtra los paquetes que contienen solicitudes web realizadas con el comando curl en este archivo de captura de paquetes de muestra.
+
+---
+
+## Ejemplar opcional: Analice su primer paquete
+- Mismo laboratorio que el anterior
