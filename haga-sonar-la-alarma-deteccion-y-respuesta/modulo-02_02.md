@@ -315,3 +315,12 @@
 
 - Recursos
    - [Guía oficial del usuario de Wireshark](https://www.wireshark.org/docs/wsug_html/)
+
+---
+
+## Recursos para completar los laboratorios
+- Iniciar Qwiklabs
+- Botón Start Lab
+- El temporizador
+- Botón Abrir Consola Linux
+- Comprobar el progreso
