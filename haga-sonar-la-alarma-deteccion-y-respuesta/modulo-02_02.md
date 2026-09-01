@@ -563,3 +563,35 @@ tcp contains "curl"
    - abrir archivos de captura de paquetes guardados,
    - ver datos de paquetes de alto nivel, y
    - usar filtros para inspeccionar datos detallados de paquetes.
+
+---
+
+## Ponga a prueba sus Conocimientos: Captura y visualización del tráfico de red
+
+1. ¿Qué componente de un paquete contiene los datos reales que se pretende enviar a su destino?
+- [ ] Encabezado
+- [ ] Protocolo
+- [ ] Pie de página
+- [x] Carga útil
+> La carga útil es el componente de un paquete que contiene los datos reales que se pretende enviar a su destino, como el cuerpo de un correo electrónico.
+
+2. Rellene el espacio en blanco: Un _____ es un archivo que contiene paquetes de datos que han sido interceptados desde una interfaz o una red
+- [ ] protocolo
+- [ ] analizador de protocolos de red
+- [x] captura de paquetes
+- [ ] estadísticas de la red
+> Una captura de paquetes es un archivo que contiene paquetes de datos que han sido interceptados desde una interfaz o una red.
+
+3. ¿Qué Campo de un Encabezado IP se utiliza para identificar si se utiliza IPv4 o IPv6?
+- [ ] Tipo de servicio
+- [ ] Opciones
+- [x] Versión
+- [ ] Banderas
+> El campo de versión de un Encabezado IPS identifica si se utiliza IPv4 o IPv6.
+
+4. ¿A qué analizador de protocolos de red se accede a través de una interfaz gráfica de usuario?
+- [x] Wireshark 
+- [ ] tcpdump
+- [ ] Libpcap
+- [ ] TShark
+> Wireshark es un analizador de protocolos de red al que se accede a través de una interfaz gráfica de usuario.
