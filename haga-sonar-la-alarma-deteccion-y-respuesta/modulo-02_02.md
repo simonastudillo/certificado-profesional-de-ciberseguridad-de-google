@@ -331,3 +331,214 @@
 - Requisito de edad de 18+ para utilizar la plataforma
 - Compatibilidad del navegador: última versión de Google Chrome, Firefox o Microsoft Edge
 - Conexión a Internet
+
+---
+
+## Actividad: Analice su primer paquete
+- Introducción
+   - En esta actividad de laboratorio, aprenderá a abrir y analizar un archivo de captura de paquetes utilizando Wireshark.
+
+- Lo que hará
+   - Abrir un archivo de captura de paquetes utilizando Wireshark
+   - Examinar la información de los paquetes
+   - Aplicar filtros de visualización
+
+- Resumen de la actividad
+   - Como analista de seguridad, deberás examinar el tráfico de red para saber qué tipo de tráfico se envía hacia y desde los sistemas de las redes con las que trabajes.
+   - Anteriormente, aprendiste sobre la captura y el análisis de paquetes.
+   - El análisis de paquetes puede ayudar a los equipos de seguridad a interpretar y comprender las comunicaciones de red.
+   - Los analizadores de protocolos de red como Wireshark, que tiene una interfaz gráfica de usuario o GUI, pueden ayudarte a examinar los datos de paquetes durante tus investigaciones.
+   - Dado que los datos de paquetes de red son complejos, los analizadores de protocolos de red (detectores de paquetes) como Wireshark están diseñados para ayudarte a encontrar patrones y filtrar los datos a fin de concentrarse en el tráfico de red más relevante para tus investigaciones de seguridad.
+   - Ahora, usarás Wireshark para inspeccionar datos de paquetes y aplicar filtros con el objetivo de ordenar la información de paquetes de manera eficiente.
+   - En este lab, usarás Wireshark para analizar un archivo de captura de paquetes de muestra y filtrar los datos de tráfico de red.
+
+- Situación
+   - En esta situación, tu trabajo es investigar el tráfico a un sitio web como analista de seguridad.
+   - Analizarás un archivo de captura de paquetes de red que contiene datos de tráfico relacionados con un usuario que se conecta a un sitio de Internet.
+   - La capacidad de filtrar el tráfico de red con detectores de paquetes para recopilar información pertinente es una habilidad esencial para un analista de seguridad.
+   - Debes filtrar los datos para hacer lo siguiente:
+      - identificar las direcciones IP de origen y de destino involucradas en esta sesión de navegación web
+      - examinar los protocolos que se utilizan cuando el usuario se conecta al sitio web
+      - analizar algunos de los paquetes de datos para identificar el tipo de información enviada y recibida por los sistemas que se conectan entre sí cuando se capturan los datos de red
+   - Estos son los pasos que seguirás: 
+      1. Abrirás el archivo de captura de paquetes y explorarás la interfaz gráfica de usuario básica de Wireshark.
+      2. Abrirás una vista detallada de un paquete individual y explorarás cómo examinar las diferentes capas de protocolos y datos dentro de un paquete de red.
+      3. Aplicarás filtros para seleccionar e inspeccionar paquetes según criterios específicos.
+      4. Filtrarás e inspeccionarás el tráfico de DNS por UDP para examinar los datos de protocolo.
+      5. Aplicarás filtros a los datos de un paquete de TCP para buscar datos de texto específicos de la carga útil.
+
+- Comienza el lab
+
+1. Explora datos con Wireshark
+- En esta tarea, debes abrir un archivo de captura de paquetes de red que contiene datos capturados de un sistema que realizó solicitudes web a un sitio.
+- Abrirás estos datos con Wireshark para obtener un panorama de cómo se muestran los datos en la aplicación.
+- Para abrir el archivo de captura de paquetes, haz doble clic en el archivo de ejemplo que se encuentra en el escritorio de Windows.
+- Esta acción iniciará Wireshark.
+- El archivo de captura de paquetes tiene el ícono de archivo de captura de paquetes de Wireshark, que muestra la aleta de un tiburón que nada sobre tres filas de dígitos binarios.
+- Este archivo tiene una extensión .pcap que está oculta de forma predeterminada en Windows Explorer y en la vista para computadoras de escritorio.
+- Haz doble clic en la barra de título de Wireshark junto al nombre de archivo sample.pcap para maximizar la ventana de la aplicación Wireshark.
+- Se mostrará una lista con una gran cantidad de tráfico de paquetes de red, por lo que aplicarás filtros para encontrar la información necesaria en un próximo paso.
+- Por ahora, te mostramos una descripción general de las columnas de propiedades clave que se muestran para cada paquete:
+   - No.: el número de índice del paquete en este archivo de captura de paquetes
+   - Time: la marca de tiempo del paquete
+   - Source: la dirección IP de origen
+   - Destination: la dirección IP de destino
+   - Protocol: el protocolo contenido en el paquete
+   - Length: la longitud total del paquete
+   - Info: cierta información sobre los datos en el paquete (la carga útil) según la interpretación de Wireshark
+- No todos los paquetes de datos tienen el mismo color.
+- Se utilizan reglas de colores para proporcionar indicaciones visuales de alto nivel que te ayudarán a clasificar rápidamente los diferentes tipos de datos.
+- Dado que los archivos de captura de paquetes de red pueden contener grandes cantidades de datos, puedes usar reglas de colores para identificar rápidamente los datos que consideras relevantes.
+- El paquete de ejemplo muestra una lista de un grupo de paquetes de color azul claro que contienen tráfico de DNS, seguido de paquetes verdes que contienen una mezcla de tráfico de protocolo TCP y HTTP.
+- Desplázate hacia abajo en la lista de paquetes hasta que aparezca un paquete donde la columna de información comience con las palabras "Echo (ping) request"
+- ¿Cuál es el protocolo del primer paquete de la lista donde la columna de información comienza con las palabras 'Echo (ping) request'?
+   - [ ] SSH
+   - [ ] HTTP
+   - [ ] TCP
+   - [x] ICMP
+
+2. Aplica un filtro de Wireshark básico e inspecciona un paquete
+- En esta tarea, abrirás un paquete en Wireshark para realizar una exploración más detallada y filtrarás los datos para inspeccionar las capas de red y los protocolos contenidos en el paquete.
+- Ingresa el siguiente filtro para el tráfico asociado con una dirección IP específica.
+- Ingresa esta información en el cuadro de texto Apply a display filter… justo encima de la lista de paquetes:
+```
+ip.addr == 142.250.1.139
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- La lista de paquetes que se muestra ahora se redujo significativamente y contiene solo aquellos paquetes en los que la dirección IP de origen o de destino coincide con la dirección que ingresaste.
+- Ahora se utilizan solo dos colores de paquetes: rosa claro para los paquetes de protocolo ICMP y verde claro para los paquetes de TCP (y HTTP, que es un subconjunto de TCP).
+- Haz doble clic en el primer paquete de la lista que tenga TCP como protocolo.
+- La sección superior de esta ventana contiene subárboles en los que Wireshark te brinda un análisis de las diferentes partes del paquete de red.
+- La sección inferior de la ventana contiene los datos del paquete sin procesar que se muestran en formato de texto hexadecimal y ASCII.
+- También verás texto de marcadores de posición en los campos donde los datos de caracteres no aplican, como se indica con el punto (".").
+- Haz doble clic en el primer subárbol de la sección superior, que comienza con la palabra Frame.
+- Esta sección te proporciona detalles sobre el paquete o marco de red general, incluida la longitud del marco y la hora de llegada del paquete.
+- En este nivel, verás información sobre todo el paquete de datos.
+- Vuelve a hacer doble clic en Frame para contraer el subárbol y haz doble clic en el subárbol Ethernet II
+- Este elemento contiene detalles sobre el paquete a nivel de Ethernet, incluidas las direcciones MAC de origen y de destino, y el tipo de protocolo interno que el paquete Ethernet contiene.
+- Vuelve a hacer doble clic en Ethernet II para contraer el subárbol y, luego, haz doble clic en el subárbol Internet Protocol Version 4.
+- Este elemento proporciona datos de paquetes relacionados con los datos del Protocolo de Internet (IP) contenidos en el paquete Ethernet.
+- Contiene información como las direcciones IP de origen y de destino, y el protocolo interno (por ejemplo, TCP o UDP), que se transporta dentro del paquete IP.
+- Las direcciones IP de origen y de destino que se muestran aquí coinciden con las direcciones IP de origen y de destino de la pantalla de resumen de este paquete en la ventana principal de Wireshark.
+- Haz doble clic en Internet Protocol Version 4 nuevamente para contraer ese subárbol y, luego, haz doble clic en el subárbol Transmission Control Protocol.
+- Este subárbol brinda información detallada sobre el paquete de TCP, incluidos los puertos TCP de origen y de destino, los números de secuencia de TCP y las marcas de TCP.
+- Los puertos de origen y destino enumerados aquí coinciden con los de la columna de información de la pantalla del resumen correspondiente a este paquete en la lista de todos los paquetes de la ventana principal de Wireshark.
+- ¿Cuál es el puerto de destino TCP de este paquete TCP?
+   - [ ] 53
+   - [ ] 66
+   - [x] 80
+   - [ ] 200
+- En el subárbol Transmission Control Protocol, desplázate hacia abajo y haz doble clic en Flags.
+- Verás una vista detallada de las marcas de TCP establecidas en este paquete.
+- Haz clic en el ícono X para cerrar la ventana de inspección de paquetes detallada.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro de direcciones IP.
+
+3. Usa filtros para seleccionar paquetes
+- En esta tarea, usarás filtros para analizar paquetes de red específicos según su origen o destino.
+- Explorarás formas de seleccionar paquetes según la dirección de control de acceso a medios (MAC) física de Ethernet o la dirección de protocolo de Internet (IP).
+- Ingresa el siguiente filtro para seleccionar el tráfico de solo una dirección IP de origen específica.
+- Ingresa esta información en el cuadro de texto Apply a display filter… justo encima de la lista de paquetes:
+```
+ip.src == 142.250.1.139
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Se devuelve una lista filtrada con menos entradas que antes.
+- Solo contiene paquetes que provienen de 142.250.1.139.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro de direcciones IP.
+- Ingresa el siguiente filtro para seleccionar el tráfico de solo una dirección IP de destino específica:
+```
+ip.dst == 142.250.1.139
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Se devuelve una lista filtrada que contiene solo los paquetes que se enviaron a 142.250.1.139.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro de direcciones IP.
+- Ingresa el siguiente filtro para seleccionar el tráfico hacia o desde una dirección MAC de Ethernet específica.
+- Se filtrará el tráfico relacionado con una dirección MAC, independientemente de los otros protocolos involucrados:
+```
+eth.addr == 42:01:ac:15:e0:02
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Haz doble clic en el primer paquete de la lista.
+- Es posible que debas desplazarte hacia atrás para ver el primer paquete de la lista filtrada.
+- Haz doble clic en el subárbol Ethernet II si aún no está abierto.
+- La dirección MAC que especificaste en el filtro aparece como la dirección de origen o de destino en el subárbol Ethernet II expandido.
+- Haz doble clic en el subárbol Ethernet II para cerrarlo.
+- Haz doble clic en el subárbol Internet Protocol Version 4 para expandirlo y desplázate hacia abajo hasta que aparezcan los campos Time to Live y Protocol.
+- El campo Protocol del subárbol Internet Protocol Version 4 indica qué protocolo interno de IP está contenido en el paquete
+- ¿Cuál es el protocolo contenido en el subárbol Internet Protocol Version 4 del primer paquete relacionado con la dirección MAC 42:01:ac:15:e0:02?
+   - [ ] UDP
+   - [ ] ESP
+   - [ ] ICMP
+   - [x] TCP
+- Haz clic en el ícono X para cerrar la ventana de inspección de paquetes detallada.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro de direcciones MAC.
+
+4.  Usa filtros para explorar paquetes de DNS
+- En esta tarea, usarás filtros para seleccionar y examinar el tráfico de DNS.
+- Una vez que hayas seleccionado el tráfico de DNS de muestra, desglosarás el protocolo para examinar cómo los datos del paquete de DNS contienen tanto consultas (nombres de sitios de Internet que se buscan) como respuestas (direcciones IP que un servidor DNS devuelve cuando un nombre se resuelve con éxito).
+- Ingresa el siguiente filtro para seleccionar el tráfico del puerto UDP 53.
+- El tráfico de DNS usa el puerto UDP 53, por lo que solo mostrará el tráfico relacionado con consultas y respuestas de DNS.
+- Ingresa esta información en el cuadro de texto Apply a display filter… justo encima de la lista de paquetes:
+```
+udp.port == 53
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Haz doble clic en el primer paquete de la lista para abrir la ventana detallada del paquete.
+- Desplázate hacia abajo y haz doble clic en el subárbol Domain Name System (query) para expandirlo.
+- Desplázate hacia abajo y haz doble clic en Queries.
+- Verás que el nombre del sitio web que se consultó es opensource.google.com.
+- Haz clic en el ícono X para cerrar la ventana de inspección de paquetes detallada.
+- Haz doble clic en el cuarto paquete de la lista para abrir la ventana detallada del paquete.
+- Desplázate hacia abajo y haz doble clic en el subárbol Domain Name System (query) para expandirlo.
+- Desplázate hacia abajo y haz doble clic en Answers, que se encuentra en el subárbol Domain Name System (query).
+- Los datos de la sección Answers incluyen el nombre que se consultó (opensource.google.com) y las direcciones asociadas con ese nombre.
+- ¿Cuál de estas direcciones IP se muestra en la sección Answers expandida de la consulta de DNS correspondiente a opensource.google.com?
+   - [ ] 169.254.169.254
+   - [ ] 172.21.224.1
+   - [x] 142.250.1.139
+   - [ ] 139.1.250.142
+- Haz clic en el ícono X para cerrar la ventana de inspección de paquetes detallada.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro.
+
+
+5. Usa filtros para explorar paquetes de TCP
+- En esta tarea, usarás filtros adicionales para seleccionar y examinar paquetes de TCP.
+- Aprenderás a buscar texto que se encuentre en los datos de carga útil de los paquetes de red.
+- De esta forma, podrás localizar los paquetes en función de aspectos como un nombre o algún otro texto que te interese.
+- Ingresa el siguiente filtro para seleccionar el tráfico del puerto TCP 80.
+- El puerto TCP 80 es el puerto predeterminado que está asociado con el tráfico web:
+```
+tcp.port == 80
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Se crearon bastantes paquetes cuando el usuario accedió a la página web http://opensource.google.com.
+- Haz doble clic en el primer paquete de la lista.
+- La dirección IP de destino de este paquete es 169.254.169.254.
+- ¿Cuál es el valor de Time to Live del paquete como se especifica en el subárbol Internet Protocol Version 4?
+   - [ ] 16
+   - [ ] 128
+   - [x] 64
+   - [ ] 32
+- ¿Cuál es el valor de Frame Length del paquete como se especifica en el subárbol Frame?
+   - [ ] 60 bytes
+   - [ ] 74 bytes
+   - [x] 54 bytes
+   - [ ] 40 bytes
+- ¿Cuál es el valor de Header Length del paquete como se especifica en el subárbol Internet Protocol Version 4?
+   - [x] 20 bytes
+   - [ ] 74 bytes
+   - [ ] 54 bytes
+   - [ ] 60 bytes
+- ¿Cuál es el valor de Destination Address como se especifica en el subárbol Internet Protocol Version 4?
+   - [ ] 172.21.224.2
+   - [ ] 142.250.1.139
+   - [ ] 239.1.250.142
+   - [x] 169.254.169.254
+- Haz clic en el ícono X para cerrar la ventana de inspección de paquetes detallada.
+- Haz clic en el ícono X Clear display filter de la barra de filtros de Wireshark para quitar el filtro.
+- Ingresa el siguiente filtro para seleccionar datos de paquetes de TCP que contengan datos de texto específicos.
+```
+tcp contains "curl"
+```
+- Presiona Intro o haz clic en el ícono Apply display filter del cuadro de texto del filtro.
+- Esta acción filtra los paquetes que contienen solicitudes web realizadas con el comando curl en este archivo de captura de paquetes de muestra.
