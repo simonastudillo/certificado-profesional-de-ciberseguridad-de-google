@@ -527,3 +527,8 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
    - [x] sudo tcpdump -D
    - [ ] sudo ls
    - [ ] sudo tcpdump
+
+---
+
+## Ejemplar opcional: Capture su primer Paquete
+- Mismo laboratorio que el anterior.
