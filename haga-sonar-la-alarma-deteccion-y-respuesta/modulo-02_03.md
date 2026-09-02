@@ -627,3 +627,4 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
 | Licencia | Código abierto | Código abierto | Similitud |
 | Filtros | Filtros avanzados y visualización de paquetes | Filtros básicos y visualización de paquetes en texto | Diferencia |
 | Enfoque | Prioriza facilidad de exploración | Prioriza la eficiencia y automatización | Diferencia |
+| Compatibilidad | Compatible con múltiples sistemas operativos | Compatible con múltiples sistemas operativos | Similitud |
