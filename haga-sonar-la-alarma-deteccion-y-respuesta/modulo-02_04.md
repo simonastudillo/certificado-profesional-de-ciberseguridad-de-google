@@ -7,3 +7,8 @@
 - ​Por último, aprendió a inspeccionar ​paquetes mediante el análisis de paquetes.
 - ​Ha diseccionado los campos de datos de los encabezados de los paquetes ​y analizado las capturas de paquetes en detalle.
 - ​Ha avanzado mucho ​en el desarrollo de las habilidades que ​necesitará para prepararse para un puesto de nivel inicial en Seguridad.
+
+---
+
+## Glosario de términos del módulo 2
+- El glosario completo se encuentra [aquí](./README.md#glosario)
