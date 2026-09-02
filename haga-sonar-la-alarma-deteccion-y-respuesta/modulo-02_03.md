@@ -542,3 +542,35 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
    - utilizar el comandotcpdump para capturar datos de red para su inspección,
    - interpretar la información quetcpdump proporciona sobre un paquete, y
    - guardar y cargar datos de paquetes para su posterior análisis.
+
+---
+
+## Ponga a prueba sus Conocimientos: Inspección de paquetes
+
+1. ¿Qué opción de tcpdump se utiliza para especificar la interfaz de red?
+- [ ] -v
+- [x] -i
+- [ ] -c
+- [ ] -n
+> La opción -i se utiliza para especificar la interfaz de red; -i significa interfaz.
+
+2. ¿Qué se necesita para acceder al analizador de protocolos de red tcpdump?
+- [ ] Captura de paquetes
+- [x] Interfaz de línea de comandos
+- [ ] Interfaz gráfica de usuario
+- [ ] Salida
+> tcpdump es un analizador de protocolos de red al que se accede a través de una interfaz de línea de comandos (CLI).
+
+3. ¿Cuál es el primer campo que se encuentra en la salida de un comando tcpdump?
+- [ ] Versión
+- [ ] IP de origen
+- [ ] Protocolo
+- [x] Marca de tiempo
+> El primer campo que se encuentra en la salida de un comando tcpdump es la marca de tiempo del paquete.
+
+4. Está utilizando tcpdump para capturar el tráfico de red en su computadora local. Le gustaría guardar el tráfico de red en un archivo de captura de paquetes para su posterior análisis. ¿Qué opción de tcpdump debería utilizar?
+- [ ] -r
+- [x] -w
+- [ ] -v
+- [ ] -c
+> Debe utilizar la opción -w. La opción -w le permite guardar los paquetes de red en un archivo de captura de paquetes para su posterior análisis.
