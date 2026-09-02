@@ -574,3 +574,56 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
 - [ ] -v
 - [ ] -c
 > Debe utilizar la opción -w. La opción -w le permite guardar los paquetes de red en un archivo de captura de paquetes para su posterior análisis.
+
+---
+
+## Actividad: Investigación de analizadores de protocolos de red
+- Resumen de la actividad
+   - En esta actividad, se centrará en los dos analizadores de protocolos de red: Wireshark y tcpdump.
+   - Su objetivo es adquirir unos conocimientos básicos sobre Wireshark y tcpdump, cómo funcionan y cuáles son sus características.
+   - Como ya ha aprendido, un analizador de protocolos de red (packet sniffer) es una herramienta diseñada para capturar y analizar el tráfico de datos dentro de una red.
+   - Los analizadores de protocolos de red ayudan a los analistas de seguridad a examinar y comprender los flujos de tráfico de la red.
+   
+- Escenario
+   - En su papel de analista de ciberseguridad, se le ha pedido que investigue las diferencias y similitudes entre Wireshark y tcpdump y que cree un gráfico que describa sus hallazgos.
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Plantilla de diagrama](./resources/Diagram-template.pptx)
+
+2. Realice una investigación en línea
+- Para empezar, realice una investigación en línea para obtener más información sobre tcpdump y Wireshark.
+- Puede empezar utilizando la documentación oficial de Wireshark y la documentación de tcpdump:
+   - [tcpdump - Recursos y documentación](https://www.tcpdump.org/index.html#documentation)
+   - [Wireshark - Guía oficial del usuario](https://www.wireshark.org/docs/wsug_html/)
+- También puede realizar una búsqueda en Internet para encontrar recursos que expliquen cómo funcionan estas herramientas.
+- Intente buscar información utilizando estos términos:
+   - Características y funcionalidades de Wireshark
+   - características y funcionalidades de tcpdump
+   - comparación entre tcpdump y Wireshark
+- Asegúrese de evaluar críticamente los resultados de la búsqueda y seleccione fuentes fiables y autorizadas, como documentación oficial, sitios web de ciberseguridad de buena reputación o foros técnicos que proporcionen información precisa y objetiva sobre las herramientas.
+- Explore estos recursos para recopilar información sobre tcpdump y Wireshark y céntrese en comprender las diferentes características y funcionalidades que tiene cada herramienta.
+- Considere estas preguntas para ayudarle a comparar las dos herramientas:
+   - ¿Qué software o equipo se necesita para acceder a la herramienta y utilizarla? ¿La herramienta es de código abierto o propietaria?
+   - ¿Qué tipo de interfaz de usuario o diseño utiliza la herramienta?
+   - ¿Cómo suelen utilizar la herramienta los analistas de seguridad? ¿Cuáles son los escenarios de uso recomendados para cada herramienta?
+   - ¿Cómo gestiona la herramienta la captura, el análisis y el filtrado del tráfico de red?
+   - ¿Existen limitaciones o consideraciones para el uso de esta herramienta?
+
+3. Rellene el diagrama
+- Una vez que haya completado su investigación sobre Wireshark y tcpdump, rellene la plantilla e incluya al menos dos características de cada herramienta.
+- Éstas podrían estar relacionadas con las capacidades de la herramienta, el tipo de análisis que realizan, características contrastadas, interfaces de usuario, escenarios de uso y cualquier otra distinción notable.
+- A continuación, incluya tres similitudes entre tcpdump y Wireshark. 
+
+- Qué incluir en su respuesta
+   - Al menos 2 diferencias entre Wireshark y tcpdump
+   - Al menos 3 similitudes entre Wireshark y tcpdump
+
+
+| Característica | Wireshark | tcpdump | Tipo |
+|----------------|-----------|---------| --- |
+| Acceso | Interfaz gráfica de usuario (GUI) | Interfaz de línea de comandos (CLI) | Diferencia |
+| Licencia | Código abierto | Código abierto | Similitud |
+| Filtros | Filtros avanzados y visualización de paquetes | Filtros básicos y visualización de paquetes en texto | Diferencia |
+| Enfoque | Prioriza facilidad de exploración | Prioriza la eficiencia y automatización | Diferencia |
