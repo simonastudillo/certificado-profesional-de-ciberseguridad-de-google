@@ -628,3 +628,8 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
 | Filtros | Filtros avanzados y visualización de paquetes | Filtros básicos y visualización de paquetes en texto | Diferencia |
 | Enfoque | Prioriza facilidad de exploración | Prioriza la eficiencia y automatización | Diferencia |
 | Compatibilidad | Compatible con múltiples sistemas operativos | Compatible con múltiples sistemas operativos | Similitud |
+
+---
+
+## Ejemplo de actividad: Investigue los analizadores de protocolos de red
+- [Diagrama de ejemplo](./resources/Diagram-exemplar.pptx)
