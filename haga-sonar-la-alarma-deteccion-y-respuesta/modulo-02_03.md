@@ -532,3 +532,13 @@ reading from file capture.pcap, link-type EN10MB (Ethernet), snapshot length 262
 
 ## Ejemplar opcional: Capture su primer Paquete
 - Mismo laboratorio que el anterior.
+
+---
+
+## Ejemplar: Capture su primer Paquete
+- Se explica lo mismo que en el laboratorio anterior.
+- Conclusión
+   - identificar interfaces de red,
+   - utilizar el comandotcpdump para capturar datos de red para su inspección,
+   - interpretar la información quetcpdump proporciona sobre un paquete, y
+   - guardar y cargar datos de paquetes para su posterior análisis.
