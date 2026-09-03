@@ -283,3 +283,18 @@
          - Las técnicas proporcionan descripciones detalladas del comportamiento relacionado con la táctica.
          - Los Procedimientos son descripciones muy detalladas de la técnica.
          - Las TTP son las más difíciles de detectar.
+
+---
+
+## Identificar: Indicadores de compromiso
+- Review each scenario and identify whether it is a normal event or an indicator of compromise.
+
+- Everyday Ocurrence
+   - You observe a user install a verified software program.
+   - You observe an authorized administrator adjust user permissions during working hours.
+   - You observe a known user successfully authenticate a new device using two-factor
+- Indicator of Compromise
+   - You observe the creation of new administrative users outside of working hours.
+   - You observe users logging in from an unknown geographical location.
+   - You find a USB drive plugged into an unsupervised , unlocked laptop.
+   - You discover a randsomware note on your screen and your files are encrypted.
