@@ -204,3 +204,29 @@
    - [Implementación de la IA en los procesos CI/CD: Una guía práctica](https://blog.axiomio.com/implementing-ai-in-ci-cd-pipelines-a-practical-guide-83466035e3c7)
    - [¿Qué es CI/CD? - Integración, entrega y despliegue continuos](https://www.threatintelligence.com/blog/continuous-integration-continuous-delivery)
    - [Canalizaciones CI/CD y DevOps: Una introducción](https://www.splunk.com/en_us/blog/learn/ci-cd-devops-pipeline.html)
+
+---
+
+## MK: Cambios en el sector de la ciberseguridad
+- Hola, soy MK, Director de la Oficina del CISO para Google Nube.
+- ​La función del Director de Seguridad de la Información es proteger Google Nube ​desde el punto de vista de la seguridad.
+- ​Pero también garantizar que estamos proporcionando todas las herramientas y productos necesarios para ​que nuestros clientes puedan lograr sus resultados de seguridad también.
+- ​Así que pasé varios años en el Gobierno de los EE.UU., 32 años de hecho, ​22 de los cuales los pasé como agente especial en la Oficina Federal de Investigación.
+- ​Aproximadamente a mitad de mi carrera, ​tuve la oportunidad de cambiar a los carriles de la ciberseguridad, lo que inició, o ​debería decir, reinició mi interés por todo lo relacionado con las computadoras y la informática.
+- ​Una de las cosas que le falta a la industria es un sentido de la agilidad, ​que el adversario tiene a raudales.
+- ​Cuando identifican algo que les funciona, ​continúan machacándolo hasta que y a menos que haya un obstáculo.
+- ​Y entonces, una vez que ese obstáculo se interpone en su camino, ​han demostrado una habilidad para pivotar fácilmente sus tácticas y técnicas de modo que ​puedan sortear el obstáculo en futuros intentos de acceder a entornos.
+- ​Así que ninguno de nosotros puede predecir el futuro.
+- ​No estamos en ningún tipo de fase final.
+- ​Esta es una industria en continua evolución.
+- ​Lo que sí se puede afirmar es que necesitamos estar preparados de diversas maneras ​para combatir lo que sin duda será un ataque persistente del adversario.
+- ​Lo que eso requiere es un cierto sentido de la agilidad, ​hay que sentirse cómodo existiendo en lo desconocido.
+- ​Pero también hay que tener la aptitud intelectual para poder digerir y ​formular nuevas soluciones sobre la marcha.
+- ​Cero Confianza es una tendencia enorme en estos momentos porque ha sido tanto un deseo de ​la industria avanzar hacia la Cero Confianza, pero ​también un requisito en algunas zonas de todo el mundo.
+- ​Confianza Cero es un movimiento que se aleja de la forma histórica en que hemos hecho la seguridad en ​el pasado.
+- ​En términos de Layman, así que usted es un viajero de negocios, viaja ​con su portátil de negocios y se registra en su hotel al otro lado del mundo, ​y necesita prepararse y estar listo para una reunión de negocios que está a punto de ocurrir.
+- ​Históricamente, usted querría ser capaz de atestiguar el hecho de que ese es ​un usuario previsto o cualificado dentro de la empresa que intenta acceder ​a esta información.
+- ​Y sí, basándose en la información que usted tiene, la identidad y ​acoplando eso con la información del dispositivo, ese usuario y ese dispositivo deberían tener acceso a ​esta información y ser capaces de tomar una determinación al respecto.
+- ​Creo que cuanto más invirtamos en el enfoque o ​arquitectura de Confianza Cero, llegaremos a un buen punto desde el que pivotar.
+- ​Pero creo que mucho de lo que está por venir es desconocido, y ​eso significa aprendizaje continuo.
+- ​Significa, exponerse continuamente a diferentes partes de la industria para ​que estemos preparados para lo que pueda ocurrir en el futuro. 
