@@ -117,6 +117,8 @@
          - Esto ayuda a la gente a identificar rápidamente el objetivo del documento.
          - Por ejemplo, los resúmenes ejecutivos resumen los principales hechos de un incidente al principio de un informe final.
          - Este resumen debe ser breve para que pueda hojearse fácilmente e identificar las conclusiones clave.
-
-Actualización periódica
-En materia de Seguridad, se descubren y explotan nuevas vulnerabilidades constantemente. La Documentación debe revisarse y actualizarse con regularidad para mantenerse al día de la evolución del panorama de las amenazas. Por ejemplo, una vez resuelto un Incidente, una revisión exhaustiva del mismo puede identificar lagunas en los procesos y procedimientos que requieran cambios y actualizaciones. Al actualizar periódicamente la documentación, los equipos de seguridad se mantienen bien informados y los planes de respuesta a incidentes permanecen al día. 
+      - Actualización periódica
+         - En materia de Seguridad, se descubren y explotan nuevas vulnerabilidades constantemente.
+         - La Documentación debe revisarse y actualizarse con regularidad para mantenerse al día de la evolución del panorama de las amenazas.
+         - Por ejemplo, una vez resuelto un Incidente, una revisión exhaustiva del mismo puede identificar lagunas en los procesos y procedimientos que requieran cambios y actualizaciones.
+         - Al actualizar periódicamente la documentación, los equipos de seguridad se mantienen bien informados y los planes de respuesta a incidentes permanecen al día.
