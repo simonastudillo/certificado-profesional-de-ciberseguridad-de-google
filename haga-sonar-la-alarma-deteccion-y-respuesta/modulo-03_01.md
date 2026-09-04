@@ -530,3 +530,33 @@ El hash del archivo ha sido identificado como malicioso por 52 proveedores de se
    - Los actores maliciosos utilizan la captura de entradas para robar datos de los usuarios, como contraseñas, números de tarjetas de crédito y otra información confidencial.
 - TTPs: Comando y control aparece como una táctica en la pestaña Comportamiento del Informe de la caja de arena Zenbox.
    - Los actores maliciosos utilizan el Comando y control para establecer canales de comunicación entre un sistema infectado y su propio sistema.
+
+---
+
+## Ponga a prueba sus conocimientos: Detección y verificación de incidentes
+
+1. ¿Tienen las herramientas de Detección limitaciones en su capacidad de detección?
+- [x] Sí
+- [ ] No
+> Las herramientas de Detección tienen limitaciones en sus capacidades de detección. Las herramientas de Detección son una parte importante de la detección y respuesta a incidentes, pero no pueden detectarlo todo. Se pueden utilizar métodos adicionales de Detección para mejorar la cobertura y la Exactitud.
+
+2. ¿Por qué los analistas de Seguridad refinan las reglas de alerta? Seleccione dos respuestas
+- [x] Mejorar la exactitud de las tecnologías de Detección
+- [x] Para reducir las alertas de falsos positivos
+- [ ] Crear Inteligencia sobre amenazas
+- [ ] Para aumentar el volumen de las alertas
+> Los analistas de Seguridad perfeccionan las reglas de alerta para mejorar la precisión de las tecnologías de Detección y reducir las alertas de falsos positivos. Las reglas se ajustan para que coincidan con la actividad que se pretende detectar.
+
+3. Rellene el espacio en blanco: _____ implica la investigación y validación de las alertas
+- [ ] Caza de amenazas
+- [ ] Honeypot
+- [x] Análisis
+- [ ] Detección
+> El Análisis implica la investigación y validación de las descripciones. 
+
+4. ¿Cuáles son algunas de las causas de los volúmenes de alerta elevados? Seleccione dos respuestas
+- [x] Ajustes de alerta mal configurados
+- [x] Amplias normas de Detección
+- [ ] Sofisticadas técnicas de evasión
+- [ ] Reglas de Detección Refinadas
+> Los ajustes de alerta mal configurados y las reglas de detección amplias son algunas de las causas de los altos volúmenes de alerta.
