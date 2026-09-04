@@ -122,3 +122,42 @@
          - La Documentación debe revisarse y actualizarse con regularidad para mantenerse al día de la evolución del panorama de las amenazas.
          - Por ejemplo, una vez resuelto un Incidente, una revisión exhaustiva del mismo puede identificar lagunas en los procesos y procedimientos que requieran cambios y actualizaciones.
          - Al actualizar periódicamente la documentación, los equipos de seguridad se mantienen bien informados y los planes de respuesta a incidentes permanecen al día.
+
+---
+
+## El valor de los manuales de ciberseguridad
+- ​¿Alguna vez has hecho un viaje a ​un lugar que no has visitado antes?
+- ​Es posible que haya utilizado un itinerario de viaje ​para planificar las actividades de su viaje.
+- Los ​itinerarios de viaje son documentos esenciales, ​especialmente para viajar a un lugar nuevo.
+- Te ​ayudan a mantenerte organizado y ​te dan una idea clara de tus planes de viaje.
+- ​Detallan las actividades que realizarás, ​los lugares que visitarás ​y el tiempo de viaje entre destinos.
+- ​Los libros de estrategias son similares a los itinerarios de viaje.
+- ​Como recordará de nuestras discusiones anteriores, ​un manual de estrategias es un manual que proporciona ​detalles sobre cualquier acción operativa.
+- ​Proporcionan a los analistas de Seguridad instrucciones ​sobre qué hacer exactamente cuando ocurre un incidente.
+- ​Los manuales proporcionan a los profesionales de Seguridad ​una visión clara de ​sus tareas durante ​todo el ciclo de vida de la respuesta a los incidentes.
+- ​Responder a un incidente puede ser ​impredecible y caótico en ocasiones.
+- ​Se espera que los equipos de seguridad ​actúen con rapidez y eficacia.
+- ​Los manuales ofrecen estructura y ​orden durante este tiempo al ​describir claramente las acciones que se deben tomar ​al responder a un incidente específico.
+- ​Al seguir un manual de estrategias, ​los equipos de Seguridad pueden reducir las conjeturas ​y la incertidumbre durante los tiempos de respuesta.
+- ​Esto permite a los equipos de Seguridad actuar ​con rapidez y sin ninguna duda.
+- ​Sin guías prácticas, ​es casi imposible dar una respuesta eficaz y rápida a un incidente.
+- ​En los manuales de estrategias, es posible que haya listas de verificación ​que también pueden ayudar a los equipos de Seguridad a desempeñarse de ​manera eficaz ​en momentos de estrés, ya que les ayudan a recordar que deben completar cada paso del ciclo de ​vida de la respuesta a los incidentes.
+- ​Los manuales describen los pasos necesarios para ​responder a un ataque como el ransomware, la ​violación de datos, el software malicioso o los DDoS.
+- ​Este es un ejemplo de un manual que ​utiliza un diagrama de flujo ​con los pasos a seguir durante ​la detección de un ataque DDoS.
+
+<img src="./resources/image-08.png" alt="Diagrama de flujo de un manual de estrategias para la detección de un ataque DDoS" width="600"/>
+
+- ​Describe el proceso de detección de un DDoS ​y comienza con la determinación de los indicadores de riesgo, ​como el tráfico entrante desconocido.
+- ​Una vez que se determinan los indicadores de compromiso, ​el siguiente paso es recopilar ​los registros y, finalmente, analizar la evidencia.
+- ​Hay tres tipos diferentes de guías: ​no automatizadas, automatizadas o semiautomatizadas.
+- ​El manual de estrategias de DDoS que acabamos de explorar es ​un ejemplo de manual no automatizado, ​que requiere que un analista lleve a cabo acciones paso a paso.
+- ​Los manuales automatizados automatizan las tareas de ​los procesos de respuesta a incidentes.
+- Por ejemplo, ​tareas como la categorización de la gravedad del ​incidente o la recopilación de pruebas ​se pueden realizar mediante un manual de estrategias automatizado.
+- ​Los manuales automatizados pueden ayudar a reducir ​el tiempo de resolución durante un incidente.
+- ​Las herramientas SOAR y SIEM se pueden ​configurar para automatizar las guías.
+- ​Por último, los manuales semiautomáticos ​combinan la acción de una persona con la automatización.
+- Las tareas ​tediosas, propensas a errores o que ​consumen mucho tiempo se pueden automatizar, ​mientras que los analistas pueden priorizar ​su tiempo con otras tareas.
+- ​Los manuales semiautomatizados pueden ayudar a ​aumentar la productividad y reducir el tiempo de resolución.
+- ​A medida que un equipo de seguridad responde a los incidentes, es ​posible que descubra que un manual ​necesita actualizaciones o cambios.
+- ​Las amenazas evolucionan constantemente ​y, para que los manuales de estrategias sean eficaces, ​deben mantenerse y actualizarse con regularidad.
+- ​Un buen momento para introducir cambios en los manuales de estrategias ​es durante la fase de actividad posterior al incidente.
