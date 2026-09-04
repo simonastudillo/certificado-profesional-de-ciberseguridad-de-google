@@ -131,3 +131,33 @@
          - El Triaje proporciona un enfoque estandarizado para la gestión de incidentes.
          - La documentación del proceso, como los manuales de estrategias, ayuda a mover las alertas a través de un proceso iterativo para garantizar que las alertas se evalúan y validan correctamente.
          - Esto garantiza que sólo las alertas válidas pasen a investigarse.
+
+---
+
+## La fase de contención, erradicación y recuperación del ciclo de vida
+- Hablaremos de ​la tercera fase del ciclo de vida de la respuesta ante incidentes.
+- ​Esta fase incluye los pasos para ​cómo los equipos de seguridad contienen, ​erradican y se recuperan de un incidente.
+- ​Es importante tener en cuenta que estos pasos se interrelacionan.
+- ​La contención ayuda a cumplir los objetivos de la erradicación, ​lo que ayuda a cumplir los objetivos de la Recuperación.
+- ​Esta fase del ciclo de vida también se integra con ​las funciones centrales del ​marco de ciberseguridad del NIST, Responder y Recuperar.
+- ​Comencemos por el primer paso, la contención.
+- ​Después de detectar un incidente, ​hay que contenerlo.
+- ​La contención es el acto de limitar y ​prevenir los daños adicionales causados por un incidente.
+- ​Las organizaciones esbozan sus estrategias de contención ​en los planes de respuesta ante incidentes.
+- ​Las estrategias de contención detallan las acciones que ​los equipos de seguridad deben llevar a cabo ​después de que se haya detectado un incidente.
+- ​Se utilizan ​diferentes estrategias de contención para varios tipos de incidentes.
+- ​Por ejemplo, una estrategia de contención común ​para un incidente de software malicioso en ​un único sistema informático consiste en aislar ​el sistema afectado desconectándolo de la red.
+- ​Esto evita la propagación de ​el software malicioso a otros sistemas de la red.
+- ​Como resultado, el incidente queda ​contenido al único sistema comprometido, ​lo que limita cualquier daño posterior.
+- ​Las acciones de contención son el primer paso ​hacia la eliminación de una amenaza de un entorno.
+- ​Una vez que se ha contenido un incidente, ​los equipos de seguridad trabajan para eliminar ​todo rastro del incidente mediante la erradicación.
+- ​La erradicación implica la eliminación completa de ​los elementos del incidente de todos los sistemas afectados.
+- ​Por ejemplo, las acciones de erradicación incluyen la realización de ​pruebas de vulnerabilidad y la aplicación de ​parches a las vulnerabilidades relacionadas con la amenaza.
+- ​Por último, el último paso de esta fase en ​el ciclo de vida de la respuesta a incidentes es la recuperación.
+- ​La recuperación es el proceso de devolver ​los sistemas afectados a su funcionamiento normal.
+- ​Un incidente puede interrumpir ​operaciones y servicios empresariales clave.
+- ​Durante la recuperación, cualquier servicio que se haya visto afectado por ​el incidente vuelve a funcionar con normalidad.
+- ​Las acciones de recuperación incluyen: volver a crear imágenes de los sistemas afectados, ​restablecer contraseñas y ajustar ​configuraciones de red como las reglas del firewall.
+- ​Recuerde que el ciclo de vida de la respuesta ante incidentes es cíclico.
+- ​Pueden ocurrir varios incidentes a lo largo de ​un tiempo y estos incidentes pueden estar relacionados.
+- ​Los equipos de seguridad pueden tener que volver a otras fases ​del ciclo de vida para llevar a cabo investigaciones adicionales.
