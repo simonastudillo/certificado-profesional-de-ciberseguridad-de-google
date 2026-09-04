@@ -501,3 +501,6 @@ El hash del archivo ha sido identificado como malicioso por 52 proveedores de se
 
 - Piramide de dolor:
 - Hash values: 287d612e29b71c90aa54947313810a25 (Encontrado en la pestaña de detalles, basic properties, MD5)
+- IP address: 114.168.146.131 (Basado en la pestaña de relaciones, 14 detecciones desde esta IP)
+- Domain name: org.misecure.com (Basado en la pestaña de relaciones, 14 detecciones desde este dominio)
+- Network artifact: Petición HTTP a org.misecure.com usando protocolo inseguro HTTP (Basado en la pestaña de comportamiento, 14 detecciones desde este dominio)
