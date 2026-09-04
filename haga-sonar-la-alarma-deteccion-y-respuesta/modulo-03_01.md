@@ -504,3 +504,29 @@ El hash del archivo ha sido identificado como malicioso por 52 proveedores de se
 - IP address: 114.168.146.131 (Basado en la pestaña de relaciones, 14 detecciones desde esta IP)
 - Domain name: org.misecure.com (Basado en la pestaña de relaciones, 14 detecciones desde este dominio)
 - Network artifact: Petición HTTP a org.misecure.com usando protocolo inseguro HTTP (Basado en la pestaña de comportamiento, 14 detecciones desde este dominio)
+
+---
+
+## Ejemplo de actividad: Investigar el hash de un archivo sospechoso
+- [Resultados de la investigación](./resources/Investigation-findings.pptx)
+
+- Paso 1:
+   - El ejemplo proporciona un resumen claro y breve del hash del archivo utilizando la información que se encuentra en la pestaña Detección.
+   - La puntuación de la comunidad y el análisis de los Proveedores de Seguridad que figuran en el Informe de VirusTotal proporcionan una visión general del archivo.
+   - Más de cincuenta Proveedores de Seguridad han marcado este archivo como malicioso.
+   - Además, varios proveedores han categorizado el archivo como software malicioso Flagpro, un conocido software malicioso utilizado por agentes de amenazas avanzadas.
+
+- Paso 2:
+   - El ejemplar también identifica diferentes tipos de IoC utilizando el Informe de VirusTotal.
+   - Aunque el exemplar proporciona un ejemplo para cada campo de la pirámide, su actividad sólo tiene que incluir tres ejemplos de IoC.
+   - Utilizando la información que se encuentra en las pestañas Detalles, Relaciones, y Comportamiento, podrá encontrar otros IoC relacionados con el archivo como: nombres de dominio, direcciones IP, valores hash, artefactos de red o host, herramientas y tácticas, técnicas y procedimientos (TTP).
+- Nombres de dominio: org.misecure.com se reporta como un dominio malicioso contactado en la pestaña Relaciones del Informe de VirusTotal.
+- Dirección IP: 207.148.109.242 aparece como una de las muchas direcciones IP en la pestaña Relaciones del informe de VirusTotal.
+   - Esta dirección IP también está asociada con el dominio org.misecure.com tal y como aparece en la sección Resoluciones DNS bajo la pestaña Comportamiento del informe del sandbox Zenbox.
+- Valor hash: 287d612e29b71c90aa54947313810a25 es un hash MD5 que aparece en la pestaña Detalles del informe de VirusTotal.
+- Artefactos de red/host: Los artefactos relacionados con la red que se han observado en este software malicioso son peticiones HTTP realizadas al dominio org.misecure.com.
+   - Esto aparece en la sección de Comunicaciones de red en la pestaña de Comportamiento de los informes de Venus Eye Espacio aislado y Rising MOVES sandbox.
+- Herramientas: La captura de entradas aparece en la sección Recopilación de la pestaña Comportamiento del informe de la caja de arena Zenbox.
+   - Los actores maliciosos utilizan la captura de entradas para robar datos de los usuarios, como contraseñas, números de tarjetas de crédito y otra información confidencial.
+- TTPs: Comando y control aparece como una táctica en la pestaña Comportamiento del Informe de la caja de arena Zenbox.
+   - Los actores maliciosos utilizan el Comando y control para establecer canales de comunicación entre un sistema infectado y su propio sistema.
