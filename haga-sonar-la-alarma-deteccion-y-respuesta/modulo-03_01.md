@@ -369,3 +369,135 @@
    - MalwareBazaar
       - [MalwareBazaar](https://bazaar.abuse.ch/) es un repositorio gratuito de muestras de software malicioso.
       - Las muestras de software malicioso son una gran fuente de Inteligencia sobre amenazas que puede utilizarse con fines de investigación.
+
+---
+
+## Actividad: Investigar el hash de un archivo sospechoso
+- Resumen de la actividad
+   - En esta actividad, analizará un artefacto utilizando VirusTotal y capturará detalles sobre sus indicadores de compromiso relacionados utilizando la Pirámide del Dolor.
+   - Anteriormente, se le presentó el concepto de la Pirámide del Dolor, que se utiliza para comprender los diferentes tipos de indicadores de compromiso (IoC).
+   - Recuerde, un IoC es una prueba observable que sugiere indicios de un posible incidente de seguridad.
+   - La Pirámide del Dolor describe la relación entre los IoC y el nivel de dificultad que experimentan los actores maliciosos cuando los IoC son bloqueados por los equipos de seguridad.
+   - VirusTotal es una de las muchas herramientas que los analistas de seguridad utilizan para identificar y responder a los incidentes de seguridad.
+   - VirusTotal es un servicio que permite a cualquiera analizar archivos, dominios, URL y direcciones IP sospechosos en busca de contenido malicioso.
+   - A través del crowdsourcing, VirusTotal recopila e informa sobre la inteligencia de amenazas de la comunidad global de ciberseguridad.
+   - Esto ayuda a los analistas de seguridad a determinar qué IoC han sido reportados como maliciosos.
+   - Como analista de seguridad, puede aprovechar la inteligencia sobre amenazas compartida para aprender más sobre las amenazas y ayudar a mejorar las capacidades de detección.
+
+- Escenario
+   - Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+   - Usted es un analista del centro de operaciones de seguridad (SOC) de nivel uno en una empresa de servicios financieros.
+   - Ha recibido una alerta sobre la descarga de un archivo sospechoso en el ordenador de un empleado.
+   - Usted investiga esta alerta y descubre que el empleado recibió un correo electrónico que contenía un archivo adjunto.
+   - El archivo adjunto era una hoja de cálculo protegida por contraseña.
+   - La contraseña de la hoja de cálculo se facilitaba en el correo electrónico.
+   - El empleado descargó el archivo e introdujo la contraseña para abrirlo.
+   - Cuando el empleado abrió el archivo, se ejecutó una carga maliciosa en su ordenador. 
+   - Usted recupera el archivo malicioso y crea un hash SHA256 del archivo.
+   - Quizá recuerde de un curso anterior que una función hash es un algoritmo que produce un código que no puede descifrarse.
+   - El hash es un método criptográfico utilizado para identificar de forma única el malware, actuando como la huella dactilar única del archivo.
+   - Ahora que tiene el hash del archivo, utilizará VirusTotal para descubrir otros IoC asociados al archivo
+
+- Instrucciones paso a paso
+
+1. Acceder a la plantilla
+- [Pirámide del dolor](./resources/Pyramid-of-Pain.pptx)
+
+2. Revise los detalles de la alerta
+- La siguiente información contiene detalles sobre la alerta que le ayudarán a completar esta actividad.
+- Los detalles incluyen un hash del archivo y una cronología del suceso.
+- Conserve estos detalles como referencia mientras procede con los siguientes pasos.
+- **Hash de archivo SHA256**: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+- He aquí una cronología de los acontecimientos que condujeron a esta alerta:
+   - 1:11 p.m.: Un empleado recibe un correo electrónico que contiene un archivo adjunto.
+   - 1:13 p.m.: El empleado descarga y abre correctamente el archivo.
+   - 1:15 p.m.: Se crean varios archivos ejecutables no autorizados en el ordenador del empleado.
+   - 1:20 p.m.: Un sistema de detección de intrusos detecta los archivos ejecutables y envía una alerta al SOC.
+
+3. Introduzca el hash del archivo en VirusTotal
+- Vaya al sitio web de [VirusTotal](https://www.virustotal.com/).
+- Haga clic en BUSCAR, introduzca el hash del archivo SHA256 en el cuadro de búsqueda y pulse Intro.
+- El hash del archivo SHA256 aparece en el paso 2 de esta actividad.
+- Para el propósito de esta actividad, se centrará en evaluar los resultados de VirusTotal.
+- Sin embargo, ninguna herramienta por sí sola puede detectar todos los tipos de actividad maliciosa.
+- Los analistas de seguridad utilizarán a menudo una combinación de otras herramientas para evaluar cuidadosamente los resultados de un escaneado antes de tomar una decisión sobre el archivo.
+
+4. Analizar el informe de virusTotal
+- Una vez que haya recuperado el informe de VirusTotal sobre el hash del archivo, tómese un tiempo para examinar los detalles del informe.
+- Puede empezar explorando las siguientes pestañas:
+   - Detección: Esta pestaña proporciona una lista de proveedores de seguridad de terceros y sus veredictos de detección sobre un artefacto. Los veredictos de detección incluyen: malicioso, sospechoso, inseguro y otros. Observe cuántos proveedores de seguridad han reportado este hash como malicioso y cuántos no.
+   - Detalles: Esta pestaña proporciona información adicional extraída de un análisis estático del IoC. Fíjese en los hashes adicionales asociados a este malware como MD5, SHA-1 y otros.
+   - Relaciones: Esta pestaña contiene información sobre las conexiones de red que este malware ha establecido con URL, nombres de dominio y direcciones IP. La columna Detecciones indica cuántos proveedores han marcado la URL o la dirección IP como maliciosa.
+   - Comportamiento: Esta pestaña contiene información relacionada con la actividad y los comportamientos observados de un artefacto tras ejecutarlo en un entorno controlado, como un entorno sandboxed. Un entorno sandboxed es un entorno aislado que permite que un archivo sea ejecutado y observado por analistas e investigadores. La información sobre los patrones de comportamiento del malware se proporciona a través de los informes del entorno aislado. Los informes del entorno aislado incluyen información sobre las acciones específicas que realiza el archivo cuando se ejecuta en un entorno aislado, como acciones del registro y del sistema de archivos, procesos, etc. Observe los diferentes tipos de tácticas y técnicas utilizadas por este malware y los archivos que ha creado.
+- Los informes del entorno aislado son útiles para comprender el comportamiento de un archivo, pero pueden contener información que no sea relevante para el análisis del mismo.
+- Por defecto, VirusTotal muestra todos los informes del sandbox en la pestaña Comportamiento.
+- Puede seleccionar informes individuales del sandbox para verlos.
+- Esto es útil porque puede ver las similitudes y diferencias entre los informes, de modo que le resulte más fácil identificar qué comportamientos están probablemente asociados al archivo. 
+
+5. Determinar si el archivo es malicioso
+- Revise el informe de VirusTotal para determinar si el archivo es malicioso.
+- Le resultará útil revisar las siguientes secciones antes de tomar esta determinación:
+   - El ratio de proveedores es el widget métrico que aparece en la parte superior del informe.
+   - Este número representa cuántos proveedores de seguridad han marcado el archivo como malicioso en total.
+   - Un archivo con un elevado número de banderas de proveedores tiene más probabilidades de ser malicioso.
+
+   - La puntuación de la comunidad se basa en las aportaciones colectivas de la comunidad de VirusTotal.
+   - La puntuación de la comunidad se encuentra debajo de la proporción del proveedor y puede visualizarse pasando el cursor por encima de la X roja.
+   - Un archivo con una puntuación de la comunidad negativa tiene más probabilidades de ser malicioso.
+
+   - En la pestaña Detección, la sección Análisis de proveedores de seguridad proporciona una lista de detecciones de este archivo realizadas por proveedores de seguridad, como herramientas antivirus.
+   - Los proveedores que no han identificado el archivo como malicioso están marcados con una marca de verificación.
+   - Los proveedores que han marcado el archivo como malicioso están marcados con un signo de exclamación.
+   - Los archivos marcados como maliciosos también pueden incluir el nombre del malware detectado y otros detalles adicionales sobre el archivo.
+   - Esta sección proporciona información sobre el potencial malicioso de un archivo.
+- Revise estas tres secciones para determinar si existe una valoración coherente de la maliciosidad potencial del archivo, como por ejemplo: un ratio de proveedores elevado, una puntuación de la comunidad negativa y detecciones de malware en la sección de análisis de los proveedores de seguridad. 
+- En la primera diapositiva de su plantilla de la Pirámide del Dolor, indique si este archivo es malicioso.
+- A continuación, explique su razonamiento basándose en sus conclusiones.
+- La proporción de los proveedores se basa en las detecciones de los proveedores de seguridad y es posible que éstos no siempre detecten archivos maliciosos.
+- La puntuación de la comunidad se basa en las opiniones y puntos de vista de la comunidad de VirusTotal.
+- Si la puntuación de un archivo es baja, no significa necesariamente que el archivo sea seguro.
+- Se recomienda utilizar varias fuentes de información a la hora de evaluar los archivos.
+
+6. Rellene la plantilla con indicadores de compromiso adicionales
+- Después de haber explorado las secciones del informe de VirusTotal, descubrirá otros IoC que están asociados al archivo según el informe de VirusTotal.
+- Identifique tres indicadores de compromiso (IoC) que estén asociados a este hash de archivo utilizando las pestañas del informe de VirusTotal.
+- A continuación, introduzca los IoC en sus respectivas secciones de la plantilla Pirámide del Dolor.
+- Los indicadores de compromiso son valiosas fuentes de información para los profesionales de la seguridad porque se utilizan para identificar actividades maliciosas.
+- Puede elegir identificar tres de los seis tipos de IoC que se encuentran en la Pirámide del Dolor: 
+   - Valor hash:
+      - Los hash convierten la información en un valor único que no puede ser descifrado.
+      - Los hash se utilizan a menudo como referencias únicas a los archivos implicados en una intrusión.
+      - En esta actividad, usted utilizó un hash SHA256 como artefacto para esta investigación.
+      - Busque otro hash que se utilice para identificar este malware e introdúzcalo junto a la sección Valores hash de la plantilla Pirámide del dolor.
+      - Puede utilizar la pestaña Detalles para ayudarle a identificar otros hashes.
+   - Dirección IP:
+      - Busque una dirección IP con la que haya contactado este malware e introdúzcala junto a la sección Direcciones IP en la plantilla Pirámide del dolor.
+      - Puede localizar las direcciones IP en la pestaña Relaciones, en la sección Direcciones IP contactadas, o en la pestaña Comportamiento, en la sección Tráfico IP.
+   - Nombre dedominio:
+      - Busque un nombre de dominio con el que haya contactado este malware e introdúzcalo junto a la sección Nombres de dominio en la plantilla Pirámide del dolor.
+      - Puede encontrar información sobre nombres de dominio en la pestaña Relaciones.
+      - Puede encontrar nombres de dominio benignos.
+      - Utilice la columna Detecciones para identificar los nombres de dominio que han sido reportados como maliciosos.
+   - Artefacto dered/artefacto de host:
+      - El malware puede crear artefactos relacionados con la red o con el host en un sistema infectado.
+      - Busque un artefacto relacionado con la red o con el host que haya creado este malware e introdúzcalo junto a la sección Artefactos de red/host de la plantilla Pirámide del dolor.
+      - Puede encontrar esta información en los informes del sandbox en la pestaña Comportamiento o en la pestaña Relaciones.
+   - Herramientas:
+      - Los atacantes pueden utilizar herramientas para lograr su objetivo.
+      - Intente averiguar si este malware ha utilizado alguna herramienta.
+      - A continuación, introdúzcalo junto a la sección Herramientas en la plantilla Pirámide del dolor.
+   - Tácticas, técnicas y procedimientos (TTP):
+      - Las TTP describen el comportamiento de un atacante.
+      - Utilizando los informes del sandbox de la pestaña Comportamiento, busque la lista de tácticas y técnicas utilizadas por este malware identificadas por MITRE ATT&CK® e introdúzcala junto a la sección TTPs en la plantilla de la Pirámide del Dolor.
+- Los informes de VirusTotal pueden contener dominios y direcciones IP legítimos que no se consideran maliciosos
+- Para saber más sobre una sección de VirusTotal, pase el cursor sobre el icono de información para mostrar información sobre lo que incluye esa sección
+
+- Qué incluir en su respuesta
+   - Una declaración que explique si el hash del archivo es malicioso
+   - Tres tipos diferentes de indicadores de compromiso
+
+- Has this file been identified as malicious? Explain why or why not.
+El hash del archivo ha sido identificado como malicioso por 52 proveedores de seguridad y tiene una puntuación de la comunidad de -293, ambos indicadores sugieren que el archivo es malicioso. Según la información entregada por virustottal, el archivo es conocido como un trojano "flagpro/fragtor".
+
+- Piramide de dolor:
+- Hash values: 287d612e29b71c90aa54947313810a25 (Encontrado en la pestaña de detalles, basic properties, MD5)
