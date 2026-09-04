@@ -161,3 +161,149 @@
 - ​A medida que un equipo de seguridad responde a los incidentes, es ​posible que descubra que un manual ​necesita actualizaciones o cambios.
 - ​Las amenazas evolucionan constantemente ​y, para que los manuales de estrategias sean eficaces, ​deben mantenerse y actualizarse con regularidad.
 - ​Un buen momento para introducir cambios en los manuales de estrategias ​es durante la fase de actividad posterior al incidente.
+
+---
+
+## Actividad: Utiliza un playbook para responder a un incidente de phishing
+- Resumen de la actividad
+   - En esta actividad, responderá a un incidente de phishing que implica un hash de archivo malicioso.
+   - Se trata del mismo hash de archivo SHA256 que investigó y verificó como malicioso en una actividad anterior.
+   - Seguirá las instrucciones del playbook para investigar y resolver el ticket de alerta del incidente.
+   - Anteriormente, aprendió cómo los playbooks describen paso a paso las acciones necesarias para responder adecuadamente a un incidente de seguridad.
+   - Una acción coordinada, eficaz y rápida es fundamental durante la respuesta a un incidente.
+   - Un playbook puede ayudar a los equipos de seguridad a minimizar el impacto de un incidente y reducir el tiempo de respuesta al mismo.
+   - Como analista de seguridad, los playbooks pueden servirle de guía para apoyar eficazmente los esfuerzos de respuesta a incidentes de una organización.
+
+- Escenario
+   - Revise el escenario. A continuación, complete las instrucciones paso a paso.
+   - Usted es un analista de nivel uno del centro de operaciones de seguridad (SOC) en una empresa de servicios financieros.
+   - Anteriormente, recibió una alerta de phishing sobre la descarga de un archivo sospechoso en el ordenador de un empleado.
+   - Tras investigar el hash del archivo adjunto al correo electrónico, se ha comprobado que el archivo adjunto es malicioso.
+   - Ahora que dispone de esta información, debe seguir el proceso de su organización para completar la investigación y resolver la alerta.
+   - Las políticas y procedimientos de seguridad de su organización describen cómo responder a alertas específicas, incluyendo qué hacer cuando recibe una alerta de phishing.
+   - En el playbook, hay un diagrama de flujo e instrucciones escritas para ayudarle a completar su investigación y resolver la alerta.
+   - Al final de su investigación, actualizará el ticket de alerta con sus conclusiones sobre el incidente.
+
+- Instrucciones paso a paso
+   
+1. Acceder a la plantilla
+- [Ticket de alerta](./resources/Alert-ticket.docx)
+
+2. Acceda a los materiales de apoyo
+- [Phishing Playbook](./resources/dNitWlW7Qm-nPhishing-incident-response-playbook.docx)
+
+3. Revisar el manual de estrategias y el diagrama de flujo
+- Antes de empezar a investigar la alerta, dedique un momento a revisar el playbook y el diagrama de flujo, ya que los utilizará a lo largo de toda la investigación.
+- Las instrucciones del playbook de phishing proporcionan instrucciones detalladas por escrito sobre cada paso representado en el diagrama de flujo.
+- El diagrama de flujo del playbook de phishing proporciona una visión general de alto nivel y una representación visual de la secuencia de pasos y subpasos que deberá seguir para responder a una alerta de phishing.
+- Los pasos de este diagrama de flujo no son una guía definitiva para responder a un incidente de phishing.
+- Las organizaciones tienen sus propios conjuntos de políticas, normas y procedimientos que determinan las acciones de respuesta esperadas ante los incidentes.
+
+4. Actualizar el estado del ticket de alerta
+- En la plantilla de ticket Alerta , comience la investigación actualizando la lista desplegable Estado del ticket a Investigando.
+
+5. Evaluación de alerta
+- Para este ejercicio, comience por el segundo paso del libro de jugadas, Evaluar la alerta, porque ya ha recibido y accedido al ticket de alerta de phishing.
+- Como analista de seguridad, querrá obtener una comprensión completa de por qué se activó la alerta.
+- Cree una nueva entrada en su diario de gestor de incidentes para registrar los detalles de este incidente de seguridad y recopilar sus ideas.
+- Consultará estas notas a medida que avance por los pasos del libro de jugadas. 
+- A continuación, evalúe el contenido del ticket de alerta, incluido el contenido de la sección Información adicional.
+- He aquí algunos ejemplos de elementos que debe examinar cuando evalúe los detalles del ticket de alerta:
+   - Gravedad de la alerta:
+      - Según las instrucciones del libro de jugadas, una gravedad de alerta Media o Alta es un buen indicio de que un ticket podría requerir una escalada.
+   - Detalles del remitente:
+      - Analizar los detalles del remitente de un correo electrónico es importante porque puede revelar incoherencias que pueden indicar un intento de phishing.
+      - A menudo, los correos electrónicos de phishing intentan hacerse pasar por entidades de confianza.
+      - Por ejemplo, si hay una falta de coincidencia entre la dirección de correo electrónico del remitente y el nombre del remitente, es un buen indicio de que el correo electrónico podría ser un correo de phishing.
+   - Cuerpo del mensaje:
+      - Es importante analizar el cuerpo del mensaje (y la línea de asunto) de un correo electrónico porque los correos electrónicos de phishing suelen contener errores gramaticales, lo que puede ser un indicio de un intento de phishing.
+   - Archivos adjuntos o enlaces:
+      - Los correos electrónicos de phishing contienen enlaces o archivos adjuntos maliciosos que se utilizan para robar información confidencial o descargar software o códigos maliciosos en el dispositivo del destinatario.
+      - Compruebe si se ha adjuntado algún archivo a este correo electrónico.
+- Una vez que haya evaluado el contenido del ticket de alerta, responda a las 5 W de este incidente para reunir la información que necesita para comprender la naturaleza de la alerta.
+- Las 5 W son
+   - ¿Quién causó el incidente?
+   - ¿Qué ha ocurrido?
+   - ¿Cuándo se produjo el incidente?
+   - ¿Dónde ocurrió el incidente?
+   - ¿Por qué se produjo?
+- Al final de este paso, debería tener 2-3 razones sobre por qué cree que la alerta de phishing es o no legítima.
+
+6. Determinar si la alerta debe escalarse
+- Tras evaluar los detalles de la alerta, utilice los pasos 3.0 y 3.1 del Manual de Phishing para determinar si el correo electrónico contiene enlaces o archivos adjuntos y si estos enlaces o archivos adjuntos son maliciosos.
+- Recuerde que ya ha determinado que el correo electrónico contiene un archivo adjunto que ha sido verificado como malicioso a través de su hash de archivo.
+- Proceda al paso 3.2 del Manual de Phishing si ha determinado que la alerta debe ser escalada.
+- Si ha determinado que la alerta no debe escalarse, continúe con el Paso 4 del Manual de Phishing.
+
+7. Actualizar el estado del ticket de alerta
+- Ahora que ha examinado los detalles del correo electrónico, complete el último paso del libro de jugadas y actualice el ticket de alerta en la plantilla de actividades.
+- Dependiendo de si desea escalar o cerrar la alerta:
+   - En la columna Estado del ticket de la plantilla del ticket de alerta, actualice el estado del ticket a Cerrado o Escalado.
+   - En la columna Comentarios del ticket de la plantilla de ticket de alerta, utilice los detalles que haya encontrado para explicar los pasos dados y por qué ha decidido escalar o cerrar el ticket. Incluya 2-3 razones de por qué cree que esta alerta debe ser escalada o cerrada.
+
+- Qué incluir en su respuesta
+   - En el ticket de Alerta, actualice la columna Estado del ticket utilizando la lista desplegable.
+   - En la sección de comentarios del ticket en el ticket de Alerta, proporcione una frase describiendo brevemente la alerta y lo sucedido.
+   - En la sección de comentarios del ticket en el ticket de Alerta, proporcione 2-3 frases describiendo las razones por las que decidió escalar o cerrar el ticket. Apoye sus razones utilizando detalles específicos del ticket de alerta.
+
+- Actividad
+
+| Ticket ID | Alert Message | Severity | Details | Ticket Status |
+| --- | --- | --- | --- | --- |
+| A-2703 | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Open |
+
+Additional information
+```plain
+Known malicious file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+
+
+Email: From: Def Communications <76tguyhh6tgftrt7tg.su> <114.114.114.114>
+
+Sent: Wednesday, July 20, 2022 09:30:14 AM
+
+To: <hr@inergy.com> <176.157.125.93> Subject: Re: Infrastructure Egnieer role
+
+
+Dear HR at Ingergy, I am writing for to express my interest in the engineer role posted from the website. There is attached my resume and cover letter. For privacy, the file is password protected. Use the password paradise10789 to open. Thank you, Clyde West
+
+Attachment: filename="bfsvc.exe"
+```
+- Usando el playbook de phishing
+
+1. Receive phishing alert
+   - Se recibe ticket de alerta de phishing con el ID A-2703.
+
+2. Evaluate the alert
+   - Alert severity: Medium
+   - Receiver details: El email fue recibido por el departamento de recursos humanos de la empresa Inergy <hr@inergy.com> en la dirección IP 176.157.125.93
+   - Sender details: El correo electrónico fue enviado desde Def Communications <76tguyhh6tgftrt7tg.su> en la dirección IP 114.114.114.114. El correo electrónico del remitente no coincide con el nombre del remitente, lo que indica un posible intento de phishing.
+   - Subject line: Re: Infrastructure Egnieer role
+   - Message body: El correo electrónico contiene errores gramaticales, lo que indica un posible intento de phishing. El correo electrónico solicita al destinatario que abra un archivo adjunto protegido con contraseña, lo que indica un posible intento de phishing.
+   - Attachments or links: El correo electrónico contiene un archivo adjunto llamado bfsvc.exe, que es un archivo ejecutable. El hash del archivo adjunto es 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b, que se ha verificado como malicioso.
+
+- Incident handler's journal
+
+   1. Date: 03/09/2026
+   2. Description: Se recibe ticket de alerta de phishing con el ID A-2703. Se evalúa la alerta y se determina que el correo electrónico contiene un archivo adjunto malicioso. Se decide escalar la alerta al equipo de seguridad para su investigación.
+   3. Tool(s) used: Se utilizo virustotal.com para verificar el hash del archivo adjunto y confirmar que es malicioso. Se utilizó el playbook de phishing para guiar la investigación y determinar los pasos a seguir.
+   4. The 5 W's:
+      - Who: Equipo de recursos humanos de la empresa Inergy 
+      - What: Se recibió un correo electrónico de phishing con un archivo adjunto malicioso.
+      - When: Wednesday, July 20, 2022 09:30:14 AM
+      - Where: El correo lo recibió el email hr@inergy.com
+      - Why: Intento de pishing para engañar al destinatario y que abra un archivo adjunto malicioso.
+   5. Additional notes: El correo electrónico proviene de un destinatario desconocido, el cual no coincide con el nombre del remitente, lo que indica un posible intento de phishing. El correo electrónico contiene errores gramaticales y solicita al destinatario que abra un archivo adjunto protegido con contraseña, lo que indica un posible intento de phishing. El archivo adjunto es un archivo ejecutable, lo que es aún más raro y sospechoso, por último, el hash del archivo adjunto se ha verificado como malicioso y se comprabado utilizando virustotal.com. Se decide escalar la alerta al equipo de seguridad para su investigación.
+
+3. Does the email contain any links or attachments?
+   -  Si, contiene un archivo ejecutable llamado bfsvc.exe.
+   
+   1. Are the links or attachments malicious?
+      - Sí, el archivo adjunto bfsvc.exe es un archivo ejecutable malicioso, según su firma hash 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b, que se ha verificado como malicioso utilizando virustotal.com. 
+   2. Update the alert ticket and escalate
+      - Se actualiza estado del ticket de alerta a Escalado.
+
+4. Close the alert ticket
+- No se actualiza el estado del ticket de alerta a Cerrado, ya que se ha decidido escalar la alerta al equipo de seguridad para su investigación.
+
+- Ticket comments:
+La alerta detecto que un empleado descargo y abrió un archivo malicioso adjunto a un correo electrónico de phishing. El correo electrónico fue enviado desde un remitente desconocido y no coincide con el nombre del remitente, lo que indica un posible intento de phishing. El correo electrónico contiene errores gramaticales y solicita al destinatario que abra un archivo adjunto protegido con contraseña, lo que indica un posible intento de phishing. El archivo adjunto es un archivo ejecutable, lo que es aún más raro y sospechoso, por último, el hash del archivo adjunto se ha verificado como malicioso y se comprabado utilizando virustotal.com. Se decide escalar la alerta al equipo de seguridad para su investigación.
