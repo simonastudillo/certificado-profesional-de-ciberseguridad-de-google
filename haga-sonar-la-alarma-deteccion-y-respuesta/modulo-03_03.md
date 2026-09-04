@@ -207,3 +207,35 @@
       - Sitios fríos:
          - Una instalación de reserva equipada con parte de la infraestructura necesaria para hacer funcionar el sitio de una organización.
          - Cuando se produce una interrupción o un fallo, es posible que los sitios fríos no estén listos para su uso inmediato y necesiten trabajos adicionales para estar operativos.
+
+---
+
+## Ponga a prueba sus conocimientos: Respuesta y recuperación
+
+1. Un analista de seguridad de un Centro de operaciones de seguridad (SOC) recibe una alerta. El ticket de alerta describe la detección de la descarga de un posible archivo de software malicioso en la computadora de un empleado. ¿Qué paso del proceso de Triaje describe este escenario?
+- [ ] Recoger y analizar
+- [ ] Asignar prioridad
+- [x] Recibir y evaluar
+- [ ] Añadir contexto
+> Este escenario describe recibir y evaluar, el primer paso del proceso de triaje. En este paso, el analista de Seguridad recibe una alerta y determina si la alerta es válida.
+
+2. ¿Qué es el triaje?
+- [ ] La capacidad de prepararse, responder y recuperarse de las perturbaciones
+- [ ] El proceso de devolver los sistemas afectados a su funcionamiento normal
+- [x] La priorización de los incidentes según su nivel de importancia o urgencia
+- [ ] Documento que describe los Procedimientos para mantener las operaciones comerciales durante y después de una interrupción significativa
+> El Triaje es la priorización de los incidentes según su nivel de importancia o urgencia.
+
+3. Rellene el espacio en blanco: _____ es el acto de limitar y prevenir los daños adicionales causados por un Incidente
+- [x] Contención
+- [ ] Recuperación
+- [ ] Resiliencia
+- [ ] Erradicación
+> La contención es el acto de limitar y prevenir los daños adicionales causados por un Incidente.
+
+4. ¿Qué ejemplos describen acciones relacionadas con la erradicación de un Incidente? Seleccione dos respuestas
+- [ ] Desarrollar un Plan de continuidad del negocio (Business-to-Business)
+- [ ] Investigue los registros para verificar el Incidente
+- [x] Aplique un parche
+- [x] Completar una exploración de vulnerabilidad
+> Completar un escaneado de vulnerabilidades y aplicar parches son ejemplos de acciones de erradicación.
