@@ -35,3 +35,27 @@
 - ​¿El inicio de sesión ocurrió fuera de la red?
 - ​Estas preguntas dibujan un panorama en torno al incidente.
 - ​Al agregar contexto, ​evita hacer suposiciones, lo que puede resultar ​en conclusiones incompletas o incorrectas. 
+
+---
+
+## Robin: Fomentar la colaboración entre equipos
+- Mi nombre es Robin, ​y soy el Lead de Gestión de Programas para el Equipo Rojo en Google.
+- ​Diría que el trabajo en equipo podría ser la habilidad más importante para ​las personas que trabajan en ciberseguridad.
+- ​La cultura de colaboración es entender que todo el mundo aporta una perspectiva única ​y una perspectiva útil y habilidades útiles.
+- ​Lo que tiene que ver con el trabajo en equipo es que estos problemas son difíciles.
+- ​Estos problemas son complejos.
+- Los malos actores que hay ahí fuera son inteligentes, ​tienen buenos recursos y están muy motivados.
+- ​Así que constantemente están ideando nuevas formas de realizar las actividades que ​quieren hacer.
+- ​Se necesita gente con todo tipo de perspectivas, ​todo tipo de habilidades para resolver problemas, todo tipo de conocimientos para unirse para ​entender lo que ha ocurrido y cómo podemos defendernos de ello.
+- ​Cuando trabaje en equipo, una de las cosas que debe esperar es ​compartir información libremente con sus colegas y ​que ellos compartan información libremente con usted.
+- ​Al principio y en la parte confusa de la respuesta a incidentes, ​toda la información es útil.
+- ​Así que espere meterse de lleno, compartir todo lo que sabe y ​escuchar lo que dice la gente a su alrededor, para ​que salgamos con las mejores soluciones lo antes posible.
+- ​Muy poco después de incorporarme a la función que desempeño ahora, ​experimentamos un incidente muy significativo.
+- ​Se descubrió una vulnerabilidad en una biblioteca que se utilizaba en muchos, ​muchos lugares diferentes de Internet y la vulnerabilidad era importante.
+- ​Formé parte del equipo que se reunió para responder a eso, y ​ese equipo que se reunió, establecimos un proceso de respuesta que implicaba ​una cobertura de 24 horas al día, 7 días a la semana utilizando a nuestros colegas de todo el mundo.
+- ​El resultado final del increíble trabajo en equipo que experimentamos fue, en primer lugar, que ​pudimos gestionar la vulnerabilidad.
+- ​Pero lo más importante, es la forma en que el equipo se unió después.
+- ​Y es la forma en que la gente sigue hablando de cómo nuestro gran trabajo en equipo nos acercó ​a nuestros colegas, ​significó que nuestro equipo trabaja mejor junto que antes, ​significó que estos aspectos del trabajo en equipo, son todas cosas que hacemos tan bien ahora.
+- ​Todos sentimos que hemos pasado por algo juntos y ​que salimos más fuertes por el otro lado.
+- ​A medida que avanzas en el certificado, ​puedes aprender que la ciberseguridad es complicada o que es difícil, pero no te rindas.
+- ​Cuanto más aprendas, más vas a disfrutar. ​Así que sigue con ello, aprende todo lo que puedas y vas a tener una gran carrera. 
