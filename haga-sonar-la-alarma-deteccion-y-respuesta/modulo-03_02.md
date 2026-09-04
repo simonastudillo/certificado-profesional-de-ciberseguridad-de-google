@@ -21,4 +21,50 @@
 - ​Como profesional de la seguridad, es probable que compagine las responsabilidades de documentación ​con sus otras tareas.
 - ​Al tomarse el tiempo de anotar sus acciones, recordará hechos e ​información.
 - ​Incluso puede que note algunas lagunas en las acciones anteriores que llevó a cabo.
-- ​El tiempo que dedica a documentar es valioso no sólo para usted, sino ​para toda su organización. 
+- ​El tiempo que dedica a documentar es valioso no sólo para usted, sino ​para toda su organización.
+
+---
+
+## Documentar las pruebas con formularios de cadena de custodia
+- ​Continuemos nuestro debate sobre cómo la documentación proporciona transparencia ​a través de documentos como la cadena de custodia.
+- ​Durante la respuesta a incidentes, las pruebas deben contabilizarse ​durante todo el ciclo de vida del incidente.
+- ​El seguimiento de las pruebas es importante si éstas se solicitan como parte de cualquier procedimiento ​legal.
+- ​¿Cómo pueden los equipos de seguridad asegurarse de que esto se hace?
+- ​Utilizan un formulario llamado cadena de custodia.
+- ​La cadena de custodia es el proceso de documentar la posesión y ​el control de las pruebas durante el ciclo de vida de un incidente.
+- ​Tan pronto como se recogen las pruebas, se introducen los formularios de cadena de custodia.
+- ​Los formularios deben rellenarse con detalles a medida que se manejan las pruebas.
+- ​Examinemos un ejemplo muy sencillo de cómo se utiliza la cadena de custodia durante ​el análisis forense digital.
+- ​Previamente, usted aprendió que el análisis forense digital es la práctica de recopilar ​y analizar datos para determinar lo que ha ocurrido tras un ataque.
+- ​Durante la respuesta a un incidente, Aisha verificó que un disco duro ​comprometido requiere ser examinado por el equipo forense.
+- ​En primer lugar, se asegura de que el disco duro está protegido contra escritura, de modo que ​los datos del disco no puedan ser editados ni borrados.
+- ​A continuación, calcula y ​registra una función hash criptográfica de una imagen del disco duro.
+- ​Recuerda que una función hash es un algoritmo que produce un código que ​no puede desencriptarse.
+- ​Aisha recibe entonces instrucciones de transferirlo a Colin, en el departamento forense.
+- ​Colin lo examina y lo envía a Nav, otra analista.
+- ​Nav recibe el disco duro comprometido y lo envía a su responsable, Arman.
+- ​Cada vez que el disco duro se transfiere a otra persona, ésta debe registrarlo en ​el formulario de la cadena de custodia, ​para que el movimiento de las pruebas sea transparente.
+- ​La manipulación de los datos del disco duro puede detectarse utilizando el hash original ​que Aisha documentó al principio del proceso.
+- ​Esto garantiza que haya un rastro de papel que describa quién manipuló las pruebas y ​por qué, cuándo y dónde las manipuló.
+- ​Al igual que otros tipos de documentación, ​no existe una plantilla estándar de cómo debe ser el formulario de la cadena de custodia, pero ​sí contienen elementos comunes.
+- ​Esto es lo que podría examinar en un formulario de registro de la cadena de custodia.
+- ​En primer lugar, debe haber una descripción de las pruebas, que incluya cualquier ​información identificativa, como la ubicación, el nombre de host, la dirección MAC o la dirección IP.
+
+| Item # | Quantity | Description of item | 
+| --- | --- | --- |
+
+- ​Luego está el registro de custodia, que detalla el nombre de las personas que transfirieron y ​recibieron las pruebas.
+- ​También incluye la fecha y la hora en que se recogieron o transfirieron las pruebas y ​el propósito de la transferencia.
+
+| Item # | Date/Time | Release by (Name & signature) | Purpose of transfer | 
+| --- | --- | --- | --- |
+
+- ​Tal vez se pregunte: ¿qué ocurre si las pruebas se registran incorrectamente?
+- ​¿O si falta una entrada?
+- ​Esto es lo que se conoce como ruptura de la cadena de custodia, que se produce cuando ​hay incoherencias en la recogida y ​registro de las pruebas en la cadena de custodia.
+- En los tribunales, los documentos de la cadena de custodia ​ayudan a establecer la prueba de la integridad, fiabilidad y exactitud de las pruebas.
+- ​Para las pruebas relacionadas con incidentes de Seguridad, los formularios de la cadena de custodia se utilizan para ayudar ​a cumplir los Estándares legales ​para que estas pruebas puedan utilizarse en los procedimientos legales.
+- Si un actor malintencionado ​comprometió un sistema, las pruebas deben estar disponibles para determinar sus acciones ​de modo que puedan emprenderse las acciones legales oportunas.
+- ​Sin embargo, en algunos casos, las rupturas importantes en la cadena de custodia pueden ​impactar en la integridad, Confiabilidad y exactitud de las pruebas.
+- ​Esto afecta a si las pruebas pueden o no ser una fuente fiable de información y ​utilizarse ante un tribunal.
+- ​Los formularios de la cadena de custodia nos proporcionan un método para mantener las pruebas, de modo ​que los actores malintencionados puedan ser considerados responsables de sus acciones. 
