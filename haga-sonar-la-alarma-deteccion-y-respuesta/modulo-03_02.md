@@ -307,3 +307,12 @@ Attachment: filename="bfsvc.exe"
 
 - Ticket comments:
 La alerta detecto que un empleado descargo y abrió un archivo malicioso adjunto a un correo electrónico de phishing. El correo electrónico fue enviado desde un remitente desconocido y no coincide con el nombre del remitente, lo que indica un posible intento de phishing. El correo electrónico contiene errores gramaticales y solicita al destinatario que abra un archivo adjunto protegido con contraseña, lo que indica un posible intento de phishing. El archivo adjunto es un archivo ejecutable, lo que es aún más raro y sospechoso, por último, el hash del archivo adjunto se ha verificado como malicioso y se comprabado utilizando virustotal.com. Se decide escalar la alerta al equipo de seguridad para su investigación.
+
+---
+
+## Ejemplo de actividad: Utilizar un libro de jugadas para responder a un incidente de phishing
+- [Completed alert ticket](./resources/Completed-alert-ticket.docx)
+- El ejemplo utiliza detalles del escenario dado e incluye lo siguiente:
+   - Un estado actualizado del ticket de alerta
+   - En la sección Comentarios del ticket, una frase que resuma la alerta
+   - En la sección Comentarios del ticket, 5 razones que describan por qué se tomó la decisión de escalar el ticket. Las razones se apoyan haciendo referencia a detalles específicos del ticket de alerta.
