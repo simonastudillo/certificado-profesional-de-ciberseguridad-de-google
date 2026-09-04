@@ -1,0 +1,37 @@
+# Respuesta y recuperación
+
+## El papel del triaje en la respuesta a incidentes
+- ​¿Cómo gestiona un analista todas estas alertas?
+- ​Los servicios de urgencias de los hospitales reciben ​una gran cantidad de pacientes todos los días.
+- ​Cada paciente necesita atención médica por un motivo diferente, ​pero no todos los pacientes ​recibirán atención médica de inmediato.
+- ​Esto se debe a ​que los hospitales tienen una cantidad limitada de recursos ​disponibles y deben administrar ​su tiempo y energía de manera eficiente.
+- ​Lo hacen mediante un proceso conocido como clasificación.
+- ​En medicina, la clasificación se usa para clasificar a ​los pacientes según la urgencia de sus afecciones.
+- ​Por ejemplo, los pacientes con una afección potencialmente mortal, ​como un ataque cardíaco, ​recibirán atención médica inmediata, ​pero un paciente con una afección que no pone en peligro la vida, como ​un dedo roto, puede tener ​que esperar antes de ver a un médico.
+- ​El triaje ayuda a gestionar ​los recursos limitados para que el personal del hospital pueda ​prestar atención inmediata a ​los pacientes con las afecciones más urgentes.
+- ​El Triaje también se usa en Seguridad.
+- ​Antes de que una alerta se intensifique, ​pasa por un proceso de clasificación, que prioriza los ​incidentes según su nivel ​de importancia o urgencia.
+- ​Al igual que los departamentos de emergencia de los hospitales, ​los equipos de Seguridad tienen recursos limitados ​disponibles para dedicarlos a la respuesta a los incidentes.
+- ​No todos los incidentes son iguales ​y algunos pueden implicar una respuesta urgente.
+- ​Los incidentes se clasifican según ​la amenaza que representan para la confidencialidad, la ​integridad y la disponibilidad de los sistemas.
+- ​Por ejemplo, un incidente relacionado con un ​ransomware requiere una respuesta inmediata.
+- ​Esto se debe a que el ransomware puede causar daños financieros, de ​reputación y operativos.
+- ​El ransomware es más prioritario que un ​incidente como el que un empleado reciba un correo electrónico de suplantación de identidad.
+- ​¿Cuándo se realiza el triaje?
+- ​Una vez que se detecta un incidente y se ​envía una alerta, comienza la clasificación.
+- ​Como analista de seguridad, ​identificará los diferentes tipos de alertas ​y, a continuación, las priorizará según la urgencia.
+- ​El proceso de clasificación generalmente tiene este aspecto.
+- ​En primer lugar, recibirá y ​evaluará la alerta para determinar si se trata de un ​falso positivo y si está ​relacionada con un incidente existente.
+- ​Si es realmente positivo, ​asignarás prioridad a la alerta ​según la política y las directrices de la organización.
+- ​El nivel de prioridad define cómo ​el equipo de Seguridad de la organización ​responderá al incidente.
+- ​Por último, investigará la alerta ​y recopilará y analizará cualquier evidencia ​asociada a la alerta, como los registros del sistema.
+- ​Como analista, querrá asegurarse de completar ​un análisis exhaustivo para tener ​suficiente información para tomar una ​decisión informada sobre sus hallazgos.
+- ​Por ejemplo, supongamos que ha recibido ​una alerta por un intento fallido de inicio de sesión de un usuario.
+- ​Tendrás que añadir contexto a la ​investigación para determinar si es malintencionada.
+- ​Puede hacerlo haciendo preguntas.
+- ​¿Hay algo fuera de ​lo común asociado a esta alerta?
+- ​¿Hay varios intentos fallidos de inicio de sesión?
+- ​¿El inicio de sesión se realizó fuera del horario laboral normal?
+- ​¿El inicio de sesión ocurrió fuera de la red?
+- ​Estas preguntas dibujan un panorama en torno al incidente.
+- ​Al agregar contexto, ​evita hacer suposiciones, lo que puede resultar ​en conclusiones incompletas o incorrectas. 
