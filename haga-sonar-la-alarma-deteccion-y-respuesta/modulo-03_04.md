@@ -148,3 +148,35 @@
 5. 11:24 a.m. = Downloader downloads malicious software
 6. 11:26 a.m. = Malware is installed on the system
 7. 11:29 a.m. = Downloader re-enables virus protection
+
+---
+
+## Ponga a prueba sus conocimientos: Acciones posteriores al incidente
+
+1. ¿Qué sección de un Informe final contiene una descripción general de alto nivel del incidente de Seguridad?
+- [ ] Cronología
+- [x] Resumen ejecutivo
+- [ ] Agenda
+- [ ] Recomendaciones
+> La sección de resumen ejecutivo de un Informe final contiene una visión general de alto nivel del Incidente de Seguridad.
+
+2. ¿Cuáles son los objetivos de una Reunión sobre lecciones aprendidas? Seleccione dos respuestas
+- [x] Revisar y reflexionar sobre un incidente de Seguridad
+- [x] Identificar las áreas de mejora
+- [ ] Identificar a un empleado culpable
+- [ ] Elaborar un Informe final
+> Los objetivos de las reuniones sobre lecciones aprendidas son que los Equipos de Seguridad revisen y reflexionen sobre un Incidente de Seguridad e identifiquen áreas de mejora.
+
+3. Rellene el espacio en blanco: En el Ciclo de vida de respuesta a incidentes del NIST, la revisión de un incidente para identificar áreas de mejora durante su gestión se conoce como _____
+- [ ] Fase de preparación
+- [ ] Fase de Detección y Análisis
+- [x] Fase de Actividad posterior al incidente
+- [ ] Fase de contención, Erradicación y Recuperación
+> En el Ciclo de vida de respuesta a incidentes del NIST, la revisión de un incidente para identificar áreas de mejora durante la gestión del incidente se conoce como fase de Actividad posterior al incidente.
+
+4. Una organización se ha recuperado de un ataque de ransomware que provocó una importante interrupción de sus operaciones comerciales. Para revisar el incidente, el Equipo de Seguridad organiza una Reunión sobre lecciones aprendidas. El Equipo se da cuenta de que podrían haber restaurado los sistemas afectados más rápidamente si hubieran contado con un plan de copias de seguridad y recuperación. ¿Qué pregunta habría ayudado más probablemente al equipo de Seguridad a llegar a esta conclusión?
+- [x] ¿Qué se podría haber hecho de otra manera?
+- [ ] ¿Cuándo ocurrió el Incidente?
+- [ ] ¿Cómo se detectó el Incidente?
+- [ ] ¿Quién descubrió el incidente?
+> Al preguntarse qué se podría haber hecho de otra manera, el Equipo de Seguridad puede identificar los puntos débiles de su proceso de respuesta ante incidentes, como la falta de un plan de copias de seguridad y recuperación.
