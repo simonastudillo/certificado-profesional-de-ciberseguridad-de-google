@@ -80,3 +80,58 @@
    - Cuando redacte el Informe final, tenga en cuenta el público al que va dirigido.
    - A menudo, los ejecutivos de empresas y otros profesionales que no se dedican a la seguridad y que no tienen los conocimientos necesarios para comprender los detalles técnicos leerán los informes finales posteriores a los incidentes.
    - Tener en cuenta el público al redactar un informe final le ayudará a comunicar eficazmente los detalles más importantes.
+
+---
+
+## Actividad: Revisar un informe final
+- Resumen de la actividad
+   - En esta actividad, revisará un ejemplo de informe final y responderá a una serie de preguntas tipo test.
+   - Hasta ahora, usted ha aprendido acerca de las acciones involucradas en la fase de la Actividad Post-Incidente del Ciclo de Vida de Respuesta a Incidentes del NIST.
+   - Esto incluye la elaboración del informe final, que es la documentación que proporciona una revisión exhaustiva de un incidente.
+   - Incluye detalles esenciales de todos los acontecimientos relacionados con el incidente y recomendaciones para su prevención en el futuro.
+
+- Escenario
+   - Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+   - Usted se ha incorporado recientemente al equipo de seguridad como analista de nivel uno del centro de operaciones de seguridad (SOC) en una empresa minorista de tamaño medio.
+   - Además de sus tiendas físicas, su empresa también realiza operaciones de comercio electrónico, que representan el 80% de sus ventas.
+   - Usted está pasando su primera semana de formación familiarizándose con los procesos y procedimientos de seguridad de la empresa.
+   - Recientemente, la empresa experimentó un importante incidente de seguridad relacionado con una violación de datos de más de un millón de usuarios.
+   - Dado que se trató de un incidente de seguridad reciente y de gran envergadura, su equipo está trabajando para evitar que incidentes como éste vuelvan a producirse.
+   - Esta violación se produjo antes de que usted empezara a trabajar en la empresa.
+   - Se le ha pedido que revise el informe final.
+   - Para comprender el ciclo de vida del incidente, los objetivos de su revisión son los siguientes:
+      - Objetivo 1: Identificar exactamente qué ocurrió.
+      - Objetivo 2: Identificar cuándo ocurrió.
+      - Objetivo 3: Identificar las acciones de respuesta que tomó la empresa.
+      - Objetivo 4: Identificar las recomendaciones futuras.
+
+- Instrucciones paso a paso
+
+1. Acceda a los materiales de apoyo
+- [Informe final](./resources/Final-report.docx)
+
+2. Responder a las preguntas sobre el informe final
+
+- ¿A qué tipo de Incidente de Seguridad se vio afectada la organización?
+   - [ ] Vishing
+   - [ ] Phishing
+   - [x] Robo de datos
+   - [ ] Software malicioso
+
+- ¿Qué sección del Informe incluye una explicación de la causa raíz del Incidente?
+   - [x] Resumen ejecutivo
+   - [ ] Recomendaciones
+   - [ ] Cronología
+   - [ ] Investigación
+
+- ¿Qué utilizó el atacante para explotar la vulnerabilidad de la aplicación web de Comercio electrónico?
+   - [x] Navegación forzada
+   - [ ] Filtración de datos
+   - [ ] Error del usuario
+   - [ ] Registros del servidor web
+
+- ¿Qué recomendaciones implementó la organización para prevenir futuras repeticiones? Seleccione dos respuestas
+   - [ ] Prestó servicios de protección de la identidad a los clientes afectados
+   - [x] Implementación de mecanismos de Control de acceso
+   - [x] Implementado escaneos rutinarios de vulnerabilidad 
+   - [ ] Pagó la solicitud de pago de 50.000 dólares
