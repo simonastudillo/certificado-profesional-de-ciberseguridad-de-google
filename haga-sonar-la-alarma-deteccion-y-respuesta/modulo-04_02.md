@@ -184,3 +184,51 @@ tcp 10.120.170.17 any -> 133.113.202.181 80
 - ​La opción rev significa revisión.
 - ​Cada vez que se actualiza o cambia una Firma, ​el número de revisión cambia.
 - ​Aquí, el número 1 significa ​que es la primera versión de la Firma.
+
+---
+
+## Examinar firmas con Suricata
+- ​​Muchas tecnologías NIDS vienen con firmas pre-escritas.
+- ​Puede pensar en estas firmas como plantillas personalizables.
+- ​Es algo así como las diferentes plantillas disponibles en un procesador de textos.
+- ​Estas plantillas de firmas le proporcionan un punto de partida para escribir y ​definir sus reglas.
+- También puede escribir y añadir sus propias reglas.
+- ​Examinemos una firma preescrita a través de Suricata.
+- ​En este equipo Linux con Ubuntu, Suricata ya está instalado.
+- ​Examinemos algunos de sus archivos cambiando de directorio al directorio etc ​y al directorio suricata.
+- ​Aquí es donde se encuentran todos los archivos de configuración de Suricata.
+- ​A continuación, utilizaremos el comando ls para listar el contenido del directorio suricata.
+- ​Aquí hay un par de archivos diferentes, pero nos centraremos en la carpeta rules.
+- ​Aquí es donde están las firmas preescritas.
+- ​También puede añadir firmas personalizadas aquí.
+- ​Utilizaremos el comando cd seguido del nombre de la carpeta para navegar hasta esa ​carpeta.
+- ​Usando el comando ls, podemos observar que la carpeta contiene algunas plantillas de reglas ​para diferentes protocolos y servicios.
+- ​Examinemos las personalizadas.rules utilizando el comando less.
+- ​A modo de recordatorio rápido, el comando less devuelve el contenido de un archivo ​una página cada vez, lo que facilita avanzar y retroceder por el contenido.
+- ​Utilizaremos la clave de flecha para desplazarnos hacia arriba.
+- ​Las líneas que comienzan con un signo de almohadilla (#) son comentarios destinados a proporcionar contexto a ​quienes los lean y son ignorados por Suricata.
+- ​La primera línea dice Ejemplo de reglas personalizadas para conexión HTTP.
+- ​Esto nos indica que este archivo contiene reglas personalizadas para conexiones HTTP.
+- ​Podemos observar que hay una firma.
+- ​La primera palabra especifica la ACCIÓN de la firma.
+- ​Para esta firma, la acción es alerta.
+- ​Esto significa que la firma genera una alerta cuando se cumplen todas las condiciones.
+- ​La siguiente parte de la firma es el ENCABEZADO.
+- ​Especifica el protocolo http. La dirección IP de origen es HOME_NET y ​el puerto de origen se define como ANY.
+- ​La flecha indica la dirección del tráfico que procede de la red doméstica y ​se dirige a la dirección IP de destino EXTERNAL_NET y al puerto de destino ANY.
+- ​Hasta ahora, sabemos que esta firma activa una alerta cuando detecta cualquier tráfico HTTP ​que salga de la red doméstica y se dirija a la red externa.
+- ​Examinemos el resto de la firma para identificar si hay alguna ​condición adicional que la firma busque.
+- ​La última parte de la firma incluye las OPCIONES DE LA REGLA.
+- ​Están encerradas entre paréntesis y separadas por punto y coma.
+- ​Hay muchas opciones enumeradas aquí, pero nos centraremos en las opciones de mensaje, flujo y ​contenido.
+- ​La opción de mensaje mostrará el mensaje "GET on wire" una vez que se active la alerta.
+- ​La opción de flujo se utiliza para coincidir en la dirección del flujo de tráfico de red.
+- ​Aquí se establece.
+- ​Esto significa que se ha establecido con éxito una conexión.
+- ​La opción de contenido inspecciona el contenido de un paquete.
+- ​Aquí, entre las comillas, se especifica el texto GET.
+- ​GET es una petición HTTP que se utiliza para recuperar y solicitar datos a un servidor.
+- ​Esto significa que la Firma coincidirá si un paquete de red contiene el texto GET, ​indicando una petición.
+- ​En resumen, esta Firma alerta cada vez que Suricata observa el texto GET en ​una conexión HTTP desde la red doméstica, que va a la red externa.
+- ​Cada entorno es diferente y para que ​un IDS sea eficaz, las firmas deben probarse y adaptarse.
+- ​Como analista de Seguridad, puede probar, modificar o ​crear firmas IDS para mejorar la detección de amenazas en un entorno y ​reducir la probabilidad de falsos positivos.
