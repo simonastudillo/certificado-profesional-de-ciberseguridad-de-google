@@ -409,3 +409,95 @@
    - Para saber más sobre el protocolo syslog, incluidos los niveles de prioridad, consulte [El protocolo syslog](https://www.rfc-editor.org/rfc/rfc5424).
    - Si desea explorar la generación de formatos de registro, consulte esta [herramienta generadora de datos de prueba de código abierto.](https://generatedata.com/)
    - Para saber más sobre los formatos de marcas de tiempo, consulte [Fecha y hora en Internet: Timestamps](https://www.rfc-editor.org/rfc/rfc3339).
+
+---
+
+## Identificar: Relacionar los archivos de registro con su formato de archivo
+- Review examples of log files and identify the name of the log file format.
+- What’s the log file format?
+```JSON
+{"Logs": [
+  {
+    "Login": {
+        "Event_number": 100,
+        "Date": "01-12-2022",
+        "Time": "08-30-24",
+        "IP_Address": "198.168.24.2",
+        "Username": "Sarah"
+    },
+  }, {
+    "Login": {
+        "Event_number": 101,
+        "Date": "01-12-2022",
+        "Time": "09-45-24",
+        "IP_Address": "127.168.16.2",
+        "Username": "Bob"
+    },
+  }, {
+    "Login":{
+        "Event_number": 102,
+        "Date": "01-12-2022",
+        "Time": "13-45-24",
+        "IP_Address": "127.65.1.2",
+        "Username": "Jan"
+    }
+  }
+]}
+```
+- [x] JSON 
+- [ ] XML
+- [ ] CSV
+- [ ] Syslog
+> JSON uses brackets.
+
+```xml
+<Logs>
+  <Login>
+    <EventNum>100</EventNum>
+    <Date>01-12-2022</Date>
+    <Time>08-30-24</Time>
+    <IP>198.168.24.2</IP>
+    <Username>Sarah</Username>
+  </Login>
+  <Login>
+    <EventNum>101</EventNum>
+    <Date>01-12-2022</Date>
+    <Time>09-45-24</Time>
+    <IP>127.168.16.2</IP>
+    <Username>Bob</Username>
+  </Login>
+  <Login>
+    <EventNum>102</EventNum>
+    <Date>01-12-2022</Date>
+    <Time>13-45-24</Time>
+    <IP>127.65.1.2</IP>
+    <Username>Jan</Username>
+  </Login>
+</Logs>
+```
+- [ ] JSON 
+- [x] XML
+- [ ] CSV
+- [ ] Syslog
+> XML uses tags.
+
+```csv
+Event num, Date, Time, IP Address, Username
+100,01-12-2022,08-30-24,08-30-24,198.168.24.2,Sarah
+101,01-12-2022,09-45-24,127.168.16.2,Bob
+102,01-12-2022,13-45-24,127.65.1.2,Jan
+```
+- [ ] JSON 
+- [ ] XML
+- [x] CSV
+- [ ] Syslog
+> CSV uses commas.
+
+```log
+<100>2 2020-07-10T20:30:40.001Z mystoreserver.com evntslog - ID47 [Sarah@32473 iut=”3” eventSource=”Application” eventID=”1011”] This is a log entry.
+```
+- [ ] JSON 
+- [ ] XML
+- [ ] CSV
+- [x] Syslog
+> Syslog uses various characters.
