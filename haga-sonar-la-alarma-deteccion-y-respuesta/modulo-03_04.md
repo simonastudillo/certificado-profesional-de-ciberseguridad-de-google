@@ -119,10 +119,10 @@
    - [ ] Software malicioso
 
 - ¿Qué sección del Informe incluye una explicación de la causa raíz del Incidente?
-   - [x] Resumen ejecutivo
+   - [ ] Resumen ejecutivo
    - [ ] Recomendaciones
    - [ ] Cronología
-   - [ ] Investigación
+   - [x] Investigación
 
 - ¿Qué utilizó el atacante para explotar la vulnerabilidad de la aplicación web de Comercio electrónico?
    - [x] Navegación forzada
