@@ -731,3 +731,35 @@ jq "select(.flow_id==1189463615764629)" /var/log/suricata/eve.json
    - crear reglas personalizadas y ejecutarlas en Suricata,
    - supervisar el tráfico capturado en un archivo de captura de paquetes, y
    - examinar la salida defast.log yeve.json.
+
+---
+
+## Ponga a prueba sus conocimientos: Visión general de los sistemas de detección de intrusos (IDS)
+
+1. Un analista de seguridad utiliza un analizador de protocolos de red para capturar el tráfico HTTP y analizar patrones. ¿Qué tipo de Datos están utilizando?
+- [ ] Basado en firmas
+- [ ] Falso positivo
+- [x] Telemetría de redes
+- [ ] Basado en el host
+> Utilizan datos de telemetría de red. La Telemetría de red se refiere a la recogida y transmisión de datos de red para su análisis, como el tráfico HTTP. 
+
+2. ¿Qué afirmación describe con exactitud la diferencia entre un Sistema de detección de intrusiones basado en la red (NIDS) y un Sistema de detección de intrusiones basado en el anfitrión (HIDS)?
+- [x] Un NIDS se instala en una red; un HIDS se instala en dispositivos individuales.
+- [ ] Un NIDS se instala en dispositivos individuales; un HIDS se instala en una red.
+- [ ] Un NIDS sólo detecta las amenazas conocidas; un HIDS detecta las desconocidas.
+- [ ] Un NIDS utiliza el análisis de firmas para detectar amenazas; un HIDS utiliza agentes.
+> Un NIDS se instala en una red y se utiliza para recopilar y supervisar el tráfico y los datos de red. Un HIDS se instala en un host y se utiliza para monitorizar la actividad del mismo.
+
+3. Rellene el espacio en blanco: El componente _____ de una firma IDS incluye información sobre el tráfico de red
+- [x] encabezado
+- [ ] firma ID
+- [ ] acción
+- [ ] opciones de reglas
+> El componente de encabezado de una firma IDS incluye información sobre el tráfico de red. Esto incluye las direcciones IP de origen y destino, los puertos de origen y destino, los protocolos y la dirección del tráfico.
+
+4. Un analista de seguridad crea una Firma Suricata para identificar y detectar amenazas a la seguridad basándose en la dirección del Tráfico de red. ¿Cuál de las siguientes opciones de regla debería utilizar?
+- [ ] Rev
+- [ ] Mensaje
+- [ ] Contenido
+- [x] Fluir
+> Deben utilizar Flujo. La opción de flujo coincide con la dirección del flujo de tráfico de la red. 
