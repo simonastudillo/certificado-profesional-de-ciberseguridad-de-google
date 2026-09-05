@@ -501,3 +501,36 @@ Event num, Date, Time, IP Address, Username
 - [ ] CSV
 - [x] Syslog
 > Syslog uses various characters.
+
+---
+
+## Compruebe sus conocimientos: Componentes y formatos de los registros
+
+1. Examine el siguiente registro de autenticación: `[2022/12/20 08:20:38.921286] User nuhara logged in successfully`
+- ¿Qué tipo de información contiene este registro? Seleccione dos respuestas
+- [ ] Syslog
+- [x] Marca de tiempo
+- [x] Descripción del Evento
+- [ ] ID del mensaje
+> Este registro contiene una marca de tiempo 2022/12/20 08:20:38.921286 y una descripción del evento User nuhara logged in successfully.
+
+2. ¿Para cuál de las siguientes funciones puede utilizarse syslog? Seleccione tres respuestas.
+- [x] Protocolo
+- [x] Formato del registro
+- [ ] Extensión
+- [x] Servicio
+> Syslog es un estándar para el registro y la transmisión de Datos y puede utilizarse como protocolo, servicio o formato de registro.
+
+3. ¿Cuáles son ejemplos de formatos de registro? Seleccione tres respuestas
+- [x] Notación de objetos de JavaScript (JSON)
+- [ ] Ley Gramm-Leach-Bliley (GLBA)
+- [x] Formato de evento común (CEF)  
+- [x] eXtensible Markup Language (XML)
+> Formato de evento común (CEF), JavaScript Object Notation (JSON) y eXtensible Markup Language (XML) son ejemplos de diferentes formatos de registro.
+ 
+4. ¿Qué formato de registro utiliza etiquetas para estructurar los datos?
+- [ ] Verbose
+- [x] eXtensible Markup Language (XML)
+- [ ] Syslog
+- [ ] Valores separados por comas (CSV)
+> XML es un formato de registro que utiliza etiquetas y otras claves para estructurar los datos.
