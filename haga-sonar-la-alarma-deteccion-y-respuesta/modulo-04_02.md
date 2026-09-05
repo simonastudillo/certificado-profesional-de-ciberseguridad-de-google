@@ -1,0 +1,36 @@
+# Visión general de los sistemas de detección de intrusos (IDS)
+
+## Vigilancia de la seguridad con herramientas de detección
+- ​La detección requiere datos, y ​estos datos pueden provenir de varias fuentes de datos.
+- ​Ya ha explorado cómo ​diferentes dispositivos producen registros.
+- ​Ahora examinaremos cómo diferentes tecnologías de detección ​vigilan dispositivos y ​registran diferentes tipos de actividad del sistema, ​como la telemetría de red y de punto final.
+- ​La telemetría es la recopilación y ​transmisión de datos para su análisis.
+- ​Mientras que los registros registran los eventos que ocurren en los sistemas, ​la telemetría describe los datos en sí.
+- ​Por ejemplo, las capturas de paquetes ​se consideran telemetría de red.
+- ​Para los profesionales de la Seguridad, ​los registros y la telemetría son fuentes de ​evidencias que pueden utilizarse para ​responder preguntas durante las investigaciones.
+- ​Previamente, usted aprendió sobre ​un sistema de detección de intrusiones, o IDS.
+- ​Recuerde que IDS es una aplicación que ​monitorea la actividad y alerta sobre posibles intrusiones.
+- ​Esto incluye monitorear diferentes partes de ​un sistema o red como un punto final.
+- ​Un punto final es cualquier dispositivo ​conectado a una red, como un ordenador portátil, ​una tableta, un ordenador de sobremesa o un smartphone.
+- ​Los puntos finales son puntos de entrada a ​una red, lo que los convierte en objetivos ​clave para los actores maliciosos que buscan obtener ​acceso no autorizado a un sistema.
+- ​Para monitorizar los puntos finales en busca de amenazas o ataques, ​se puede utilizar un sistema de detección de intrusiones basado en el anfitrión.
+- ​Se trata de una aplicación que monitoriza ​la actividad del anfitrión en el que está instalada.
+- ​Para aclarar, un host es cualquier dispositivo que ​se comunica con otros dispositivos de una red, ​similar a un punto final.
+- ​Los sistemas de detección de intrusiones basados en host ​se instalan como un agente en un único host, ​como un ordenador portátil o un servidor.
+- ​Dependiendo de su configuración, ​los sistemas de detección de intrusiones basados en host ​monitorearán el host ​en el que está instalado para detectar actividades sospechosas.
+- ​Una vez que se ha detectado algo, ​registra la salida en forma de registros y se genera una alerta.
+- ​¿Y si quisiéramos supervisar una red?
+- ​Un sistema de detección de intrusiones basado en red recopila ​y analiza el tráfico y los datos de red.
+- ​Los sistemas de detección de intrusiones basados en red ​funcionan de forma similar a los rastreadores de paquetes ​porque analizan el tráfico de red y ​los datos de red en un punto específico de la red.
+- ​Es habitual implementar varios sensores IDS en ​diferentes puntos de la red ​para lograr una visibilidad adecuada.
+- ​Cuando se detecta actividad sospechosa o inusual en la red, ​el Sistema de detección de intrusiones basado en la red ​la registra y genera una alerta.
+- ​En este ejemplo, el ​sistema de detección de intrusiones basado en redes está ​vigilando el tráfico que proviene ​de Internet y que se dirige a Internet.
+- ​Los sistemas de detección de intrusiones utilizan ​diferentes tipos de métodos de detección.
+- ​Uno de los métodos más comunes es el Análisis de firmas.
+- ​El Análisis de firmas es un Método de detección ​utilizado para encontrar Eventos de Interés.
+- ​Una firma especifica un conjunto de reglas a las que un ​IDS hace referencia cuando monitorea la actividad.
+- ​Si la actividad coincide con las reglas de la firma, ​el IDS la registra y envía una alerta.
+- ​Por ejemplo, una firma puede ​escribirse para generar una alerta si ​un inicio de sesión fallido en un sistema se produce tres veces seguidas, ​lo que sugiere un posible ataque de descifrado de contraseña.
+- ​Antes de que se generen las alertas, ​la actividad debe registrarse.
+- ​Las tecnologías IDS registran la información de los dispositivos, ​sistemas y redes que monitorizan como registros IDS.
+- ​Los registros IDS pueden enviarse, almacenarse, ​y analizarse en un repositorio de registros centralizado como un SIEM.
