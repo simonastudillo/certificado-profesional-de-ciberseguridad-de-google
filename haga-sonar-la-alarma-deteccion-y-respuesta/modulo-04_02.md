@@ -111,3 +111,31 @@
          - Compromiso pre existente:
             - La existencia de un atacante durante la fase de Entrenamiento incluirá comportamientos maliciosos en la línea de base.
             - Esto puede llevar a pasar por alto a un atacante preexistente.
+
+---
+
+## Gracia: Mentalidad de seguridad en la detección y respuesta
+- Hola, soy Grace, y trabajo en Detección y Respuesta en Google.
+- ​Cuando le cuento a la gente lo que hago, piensan que es increíble, ​Me encanta poder decir, mi trabajo es detectar hackers que intentan hackear Google.
+- ​Hay gente que nos confía sus datos y que desempeña funciones críticas en la sociedad, ​como periodistas y activistas, por ejemplo.
+- ​Así que necesitan poder tener sus datos con nosotros y ​confiar en que van a estar seguros.
+- ​La mentalidad de seguridad tiene que ver con la curiosidad.
+- ​Hay un solapamiento realmente agradable entre la ciberseguridad y la informática y ​tener esa salida creativa y lógica y un interés por los grandes asuntos del mundo.
+- ​Lo que piensan los hackers, lo que piensan los defensores.
+- ​Siento empatía por la gente que busca cómo se puede ​obtener información, quizás a veces de fuentes inusuales.
+- ​Un ejemplo de una de las cosas más locas de las que me he enterado sería cómo ​la gente puede obtener información de una CPU.
+- ​Algunas tareas para una CPU son más difíciles que otras, ​requieren más energía para hacer multiplicar números como ejemplo de ello, ​lo que significa que la CPU va a trabajar más, ​se va a calentar más, va a estar ejecutando más funciones.
+- ​Así que puedes usar esa información para saber cosas sobre lo que está haciendo esa CPU.
+- ​A partir de ahí, puedes empezar a deducir lo que está pasando en un momento dado.
+- ​Lo que recomiendo a la gente que esté interesada en desarrollar una ​mentalidad de seguridad es escuchar historias.
+- ​Hay Pódcast que tienen grandes entrevistas con hackers.
+- ​Recomiendo seguir las noticias y leer artículos sobre las distintas ​amenazas cibernéticas que están sucediendo en el mundo.
+- ​Recomiendo ir a conferencias, ir a meetups, ​encontrar gente con la que puedas estudiar y practicar.
+- ​Incluso los hackers se enseñan unos a otros cómo hackear cosas en foros y salas de chat.
+- ​No es hacer trampas pedir ayuda.
+- ​Otro consejo que tengo para ​la gente sería que no se rindan cuando se encuentren con obstáculos.
+- ​Estudiar el certificado es una muy buena idea, y ​realmente merece la pena perseverar hasta el final.
+- ​Incluso cuando se ponga difícil y empiece a sentirse abrumado, no pasa nada, ​son términos nuevos.
+- ​Puedo garantizarle que si vuelve a retomarlo más adelante, le resultará más familiar.
+- ​Le resultará más fácil.
+- ​Ser realmente amable consigo mismo y comprensivo y ​paciente le ayudará mucho cuando se enfrente a estos retos.
