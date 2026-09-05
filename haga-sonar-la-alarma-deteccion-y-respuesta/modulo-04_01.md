@@ -404,3 +404,8 @@
    - Esta entrada de registro contiene detalles sobre una aplicación Security llamada threatmanager que successfully stopped a worm de propagando desde la red interna en 10.0.0.2 a la red externa 2.1.2.2 a través del puerto 1232.
    - Se informa de un nivel de gravedad alto de 10.
    - Las extensiones y el prefijo syslog son opcionales para añadir a un registro CEF.
+
+- Recursos
+   - Para saber más sobre el protocolo syslog, incluidos los niveles de prioridad, consulte [El protocolo syslog](https://www.rfc-editor.org/rfc/rfc5424).
+   - Si desea explorar la generación de formatos de registro, consulte esta [herramienta generadora de datos de prueba de código abierto.](https://generatedata.com/)
+   - Para saber más sobre los formatos de marcas de tiempo, consulte [Fecha y hora en Internet: Timestamps](https://www.rfc-editor.org/rfc/rfc3339).
