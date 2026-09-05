@@ -189,3 +189,51 @@
 - ​Y sabes que cuando llegues a la cima, ​vas a tener una vista increíble del mundo.
 - ​Y lo mismo ocurre cuando terminas estos cursos.
 - ​Tu estado de ánimo y tu forma de ver las cosas y tus capacidades, ​tu potencial para encontrar nuevos trabajos, o cambiar de carrera es mucho mejor. 
+
+---
+
+## Variaciones de troncos
+- Cuando compra un artículo en una tienda, ​suele recibir un recibo como registro de la compra.
+- ​El recibo desglosa ​la información de la transacción con ​detalles como la fecha y la hora, ​el nombre del cajero, el nombre del artículo, ​el coste y el Método de pago.
+- ​Pero no todos los recibos de las tiendas tienen el mismo aspecto.
+- ​Por ejemplo, los recibos como las facturas de automóviles utilizan ​muchos detalles al enumerar ​los artículos o servicios que se vendieron.
+- ​Lo más probable es que no encuentre ​tanto detalle en un recibo de restaurante.
+- ​A pesar de las diferencias entre los recibos de las tiendas, ​todos los recibos contienen detalles importantes ​que son relevantes para la transacción.
+- ​Los registros son similares a los recibos.
+- ​Mientras que los recibos registran las compras, ​los registros registran los eventos o ​actividades que ocurren en una red o sistema.
+- ​Como analista de seguridad, ​será responsable de interpretar los registros.
+- ​Los registros tienen distintos formatos, ​por lo que no todos tienen el mismo aspecto.
+- ​Pero, por lo general, contienen información como marcas de tiempo, ​características del sistema, como direcciones IP, ​y una descripción del Evento, incluyendo ​la acción llevada a cabo y quién realizó la acción.
+- ​Sabemos que los registros pueden generarse a partir de ​muchas fuentes de datos diferentes, como dispositivos de red, ​sistemas operativos y mucho más.
+- ​Estas fuentes de registro generan registros en diferentes formatos.
+- ​Algunos formatos de registro están diseñados para ser ​legibles por humanos mientras que otros son legibles por máquinas.
+- ​Algunos registros pueden ser verbose, ​lo que significa que contienen mucha información, ​mientras que algunos son cortos y simples.
+- ​Exploremos algunos de los formatos de registro más utilizados. ​Uno de los formatos de registro más utilizados es Syslog.
+```log
+<236>1 2022-03-21T01:11:11-003Z virtual.machine.com evntslog - ID01 [user@32473 iut="1" eventSource="Application" eventID="9999"] ¡Esta es una entrada de registro!
+```
+- ​Syslog es tanto un protocolo como un formato de registro.
+- ​Como protocolo, transporta y escribe registros.
+- ​Como formato de registro, contiene un encabezado, ​seguido de datos estructurados y un mensaje.
+- ​La entrada Syslog incluye tres secciones: un encabezado, ​datos estructurados y un mensaje.
+- ​El encabezado contiene campos de datos como la marca de tiempo, ​el nombre de host, el nombre de la aplicación, ​y el ID del mensaje.
+- ​La parte de datos estructurados contiene ​información adicional en pares clave-valor.
+- ​Aquí, eventSource es una clave que ​especifica la fuente de datos del registro, ​que es el valor Application.
+- ​Por último, el componente de mensaje contiene ​el mensaje de registro detallado sobre el evento.
+- ​En este ejemplo, "¡Esta es una entrada de registro!" es el mensaje.
+- ​Exploremos otro formato de registro común que ​podría encontrar como analista de seguridad.
+- ​La notación de objetos de JavaScript, más popularmente conocida como JSON, ​es un formato basado en texto ​diseñado para ser fácil de leer y escribir.
+- ​También utiliza pares clave-valor para estructurar los datos.
+- ​Aquí tiene un ejemplo de un registro JSON.
+- ​Los corchetes rizados representan ​el principio y el final de un objeto.
+- ​El objeto son los datos que están ​entre los corchetes.
+- ​Se organiza utilizando pares clave-valor donde ​cada clave tiene un valor correspondiente separado por dos puntos.
+- ​Por ejemplo, para la primera línea, ​la clave es Alerta y el valor es Software malicioso.
+- ​JSON es conocido por su simplicidad y fácil lectura.
+- ​Como analista de seguridad, ​utilizará JSON para leer y escribir datos como registros.
+- ​eXtensible Markup Language, o XML, ​es un lenguaje y un formato ​utilizado para almacenar y transmitir datos.
+- ​En lugar de pares clave-valor, ​utiliza etiquetas y otras claves para estructurar los datos.
+- ​Aquí tenemos un ejemplo de ​una entrada de registro XML con cuatro campos: ​firstName, lastName, ​employeeID y dateJoined, ​que están separados por flechas.
+- ​Por último, Valores Separados por Comas, o CSV, ​es un formato que utiliza separadores como ​comas para separar valores de datos.
+- ​En este ejemplo, hay ​muchos campos de datos diferentes que ​están separados con comas.
+- ​Ahora que conoce la diversidad de formatos de registro, ​puede centrarse en la evaluación de registros ​para crear un contexto en torno a una detección.
