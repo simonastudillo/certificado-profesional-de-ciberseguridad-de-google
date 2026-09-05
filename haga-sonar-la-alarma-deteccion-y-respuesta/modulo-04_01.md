@@ -164,3 +164,28 @@
 - [x] Análisis de registros
 - [ ] Registro de datos
 > El análisis de registros es el proceso de examinar los registros para identificar los eventos de interés.
+
+---
+
+## Rebeca: Aprender nuevas herramientas y tecnologías
+- Soy Rebecca, soy ingeniera de Seguridad en Google, y ​me centro en la gestión de identidades.
+- ​La mejor parte del trabajo es probablemente pensar como un atacante.
+- ​Me encanta esa parte de ver cómo puedo romper cosas, ver un sistema y ​figurar cómo puedo entrar en él.
+- ​Si yo fuera un tipo malo, ¿qué estaría deseando? ​¿Qué estaría buscando? ​¿Cómo encontraría las credenciales? ​¿Cómo encontraría la máquina útil y entraría en ella?
+- ​Mi primer día en seguridad, estábamos aprendiendo una nueva herramienta.
+- ​Toda la organización estaba en un Entrenamiento, y ellos estaban como, ​vamos a lanzarte.
+- ​Es un entrenamiento de una semana para aprender un analizador de redes.
+- ​Yo no sabía nada de redes, ​y mucho menos de Seguridad de redes, o para qué se iba a utilizar esta cosa.
+- ​Y por eso estaba muy abrumado, porque me sentía como un impostor sentado ​en el asiento de alguien que debería pertenecer allí.
+- ​Y aprendiendo cosas muy por encima de mi cabeza.
+- ​Lo superé haciendo muchas preguntas y dejando de lado esa sensación ​de que debería saber cosas, porque nunca había estado expuesta a ello en ese momento.
+- ​La única forma de saberlo es preguntando.
+- ​Así que este curso tiene muchas Herramientas y abarca mucha Información.
+- ​Y puede ser muy fácil sentirse abrumado, de hecho, yo probablemente también lo estaría.
+- ​Hay mucha información que se puede asimilar.
+- ​Pienso en el aprendizaje en un curso como éste, donde hay una serie de cursos para ​aprender, que es como escalar una montaña.
+- ​Has llegado tan lejos en la montaña, y el aire se vuelve fino, y, sí, ​es difícil.
+- ​Te sientes abrumado, pero ya casi estás en la cima.
+- ​Y sabes que cuando llegues a la cima, ​vas a tener una vista increíble del mundo.
+- ​Y lo mismo ocurre cuando terminas estos cursos.
+- ​Tu estado de ánimo y tu forma de ver las cosas y tus capacidades, ​tu potencial para encontrar nuevos trabajos, o cambiar de carrera es mucho mejor. 
