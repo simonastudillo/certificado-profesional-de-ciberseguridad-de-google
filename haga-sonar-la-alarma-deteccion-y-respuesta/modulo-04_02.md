@@ -232,3 +232,29 @@ tcp 10.120.170.17 any -> 133.113.202.181 80
 - ​En resumen, esta Firma alerta cada vez que Suricata observa el texto GET en ​una conexión HTTP desde la red doméstica, que va a la red externa.
 - ​Cada entorno es diferente y para que ​un IDS sea eficaz, las firmas deben probarse y adaptarse.
 - ​Como analista de Seguridad, puede probar, modificar o ​crear firmas IDS para mejorar la detección de amenazas en un entorno y ​reducir la probabilidad de falsos positivos.
+
+---
+
+## Examinar los registros de Suricata
+- ​Examinemos ahora algunos registros generados por Suricata.
+- ​En Suricata, las alertas y los eventos se generan en un formato conocido como EVE JSON.
+- ​EVE son las siglas de Extensible Event Format (Formato de Evento Extensible) y JSON es la abreviatura de ​JavaScript Object Notation.
+- ​Como ha aprendido anteriormente, JSON utiliza vinculaciones clave-valor, lo que simplifica tanto ​la búsqueda como la extracción de texto de los archivos de registro.
+- ​Suricata genera dos tipos de datos de registro: registros de alerta y registros de telemetría de red.
+- ​Los registros de alerta contienen información relevante para las investigaciones de seguridad.
+- ​Por lo general, se trata de la salida de firmas que han activado una alerta.
+- ​Por ejemplo, una firma que detecta tráfico sospechoso a través de la red ​genera un registro de alerta que captura los detalles de ese tráfico.
+- ​Mientras que los registros de Telemetría de red contienen información sobre los flujos de tráfico de red, ​la telemetría de red no siempre es relevante para la seguridad, simplemente registra lo que ​está ocurriendo en una red, como una conexión que se está realizando a un puerto específico.
+- ​Ambos tipos de registro proporcionan información para construir una historia durante ​una investigación.
+- ​Examinemos un ejemplo de ambos tipos de registro.
+- ​Este es un ejemplo de un registro de eventos.
+- ​Podemos decir que este evento es una alerta porque el campo de tipo de evento dice alerta.
+- ​También hay detalles sobre la actividad que se registró, incluyendo direcciones IP y ​el protocolo.
+- ​También hay detalles sobre la propia firma, como el mensaje y el id. ​Del mensaje de la firma, ​parece que esta alerta está relacionada con la detección de software malicioso.
+- ​A continuación, tenemos un ejemplo de un registro de telemetría de redes, que nos muestra ​los detalles de una solicitud http a un sitio web.
+- ​El campo de tipo de evento nos dice que es un registro http.
+- ​Hay detalles sobre la solicitud. ​Debajo de nombre de host, está el sitio web al que se accedió.
+- ​El agente de usuario es el nombre de software que le conecta al sitio web.
+- ​En este caso, es el navegador web Mozilla 5.0.
+- ​Y el tipo de contenido, que son los datos que devolvió la solicitud http.
+- ​Aquí se especifica como texto HTML.
