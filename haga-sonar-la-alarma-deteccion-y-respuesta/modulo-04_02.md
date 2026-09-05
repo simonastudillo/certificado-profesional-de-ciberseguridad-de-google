@@ -139,3 +139,48 @@
 - ​Puedo garantizarle que si vuelve a retomarlo más adelante, le resultará más familiar.
 - ​Le resultará más fácil.
 - ​Ser realmente amable consigo mismo y comprensivo y ​paciente le ayudará mucho cuando se enfrente a estos retos.
+
+---
+
+## Componentes de una firma de detección
+- Como analista de Seguridad, ​puede que se le encargue escribir, ​personalizar o probar firmas.
+- ​Para ello, utilizará herramientas de IDS.
+- ​Una firma especifica las reglas de detección.
+- ​Estas reglas describen los tipos de ​intrusiones en la red que desea que detecte un IDS.
+- ​Por ejemplo, una firma puede ​escribirse para detectar y alertar ​sobre el tráfico sospechoso que intenta conectarse a un puerto.
+- ​El lenguaje de las reglas difiere según los ​diferentes sistemas de detección de intrusiones en la red.
+- ​El término Sistema de detección de intrusiones en la red ​se abrevia a menudo ​como el acrónimo N-I-D-S y se pronuncia NIDS.
+- ​Generalmente, las reglas NIDS constan de tres componentes: ​una acción, un encabezado y las opciones de la regla.
+- ​Ahora, examinemos cada uno de ​estos tres componentes con más detalle.
+- ​Típicamente, la acción es ​el primer elemento especificado en una Firma.
+- ​Determina la acción que se llevará a cabo si se cumplen ​los criterios de la regla.
+- ​Las acciones difieren según el lenguaje de las reglas NIDS, ​pero algunas acciones comunes son: alertar, pasar o rechazar.
+- ​Usando nuestro ejemplo, si una regla especifica alertar sobre ​tráfico de red sospechoso que ​establece una conexión inusual a un puerto, ​el IDS inspeccionará ​los paquetes de tráfico y enviará una alerta.
+- ​El Encabezado define el Tráfico de red de la firma.
+- ​Incluye información como ​direcciones IP de origen y destino, ​puertos de origen y destino, ​protocolos y dirección del tráfico.
+- ​Si queremos detectar una alerta sobre ​tráfico sospechoso que se conecta a un puerto, ​tenemos que definir primero el origen ​del tráfico sospechoso en la cabecera.
+- ​El tráfico sospechoso puede originarse desde ​direcciones IP externas a la red local.
+- ​También puede utilizar protocolos específicos o inusuales.
+- ​Podemos especificar direcciones IP externas ​y estos protocolos en la cabecera.
+- ​Aquí tiene un ejemplo de cómo ​puede aparecer la información de la cabecera en una regla básica.
+```snort
+tcp 10.120.170.17 any -> 133.113.202.181 80
+```
+- ​En primer lugar, podemos observar que el protocolo, ​TCP, es el primer elemento de la lista de la Firma.
+- ​A continuación, se especifica que la dirección IP de origen ​10.120.170.17 y el número de puerto de origen ​son cualquiera.
+- ​La flecha en el centro de la firma ​indica la dirección del Tráfico de red.
+- ​Así que sabemos que se origina en la IP de origen ​10.120.170.17 desde cualquier puerto ​y va al siguiente destino ​Dirección IP 133.113.202.181 y puerto de destino 80.
+- ​Las opciones de la regla le permiten personalizar ​las firmas con parámetros adicionales.
+- ​Hay muchas opciones diferentes disponibles para utilizar.
+- ​Por ejemplo, puede establecer opciones para que coincidan ​con el contenido de un paquete de red ​para detectar cargas útiles maliciosas.
+- ​Las cargas útiles maliciosas residen en los datos de un paquete y realizan ​actividades maliciosas como borrar o encriptar datos.
+- ​Configurar las opciones de las reglas ayuda ​a delimitar el tráfico de red, ​para que pueda encontrar exactamente lo que busca.
+- ​Típicamente, las opciones de regla están separadas por ​semicolones y encerradas entre paréntesis.
+- ​En este ejemplo, podemos examinar ​que las opciones de regla están encerradas entre ​un par de paréntesis y están ​también separadas con semicolones.
+- ​La primera opción de regla, msg, ​que significa mensaje, ​proporciona el texto de la alerta.
+- ​En este caso, la alerta imprimirá el texto: ​"Esto es un mensaje."
+- ​También está la opción sid, ​que significa ID de firma.
+- ​Así se asigna un identificador único a cada Firma.
+- ​La opción rev significa revisión.
+- ​Cada vez que se actualiza o cambia una Firma, ​el número de revisión cambia.
+- ​Aquí, el número 1 significa ​que es la primera versión de la Firma.
