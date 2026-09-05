@@ -723,3 +723,11 @@ jq "select(.flow_id==1189463615764629)" /var/log/suricata/eve.json
 - Suricata asigna un flow_id único para cada flujo de red.
 - Todos los registros de un flujo de red comparten el mismo flow_id.
 - Por ello, el campo flow_id es útil para relacionar tráfico de red que pertenezca a los mismos flujos de red.
+
+---
+
+## Ejemplar: Explorar las firmas con Suricata
+- Conclusión
+   - crear reglas personalizadas y ejecutarlas en Suricata,
+   - supervisar el tráfico capturado en un archivo de captura de paquetes, y
+   - examinar la salida defast.log yeve.json.
