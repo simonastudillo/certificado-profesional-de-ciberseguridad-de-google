@@ -135,3 +135,16 @@
    - [x] Implementación de mecanismos de Control de acceso
    - [x] Implementado escaneos rutinarios de vulnerabilidad 
    - [ ] Pagó la solicitud de pago de 50.000 dólares
+
+---
+
+## Identificar: Explorar la cronología de un incidente
+- Assemble the timeline for a recent malicious email attack on your company.
+
+1. 10:55 a.m. = Email sent/received
+2. 11:15 a.m. = Email opened
+3. 11:18 a.m. = Email attachment opened and macros enabled
+4. 11:20 a.m. = Downloader runs and turns off virus protection
+5. 11:24 a.m. = Downloader downloads malicious software
+6. 11:26 a.m. = Malware is installed on the system
+7. 11:29 a.m. = Downloader re-enables virus protection
