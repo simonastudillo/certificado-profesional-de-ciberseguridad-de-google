@@ -9,3 +9,8 @@
 - ​Por último, examinamos la última fase del ciclo de vida del incidente, las acciones posteriores al incidente.
 - ​Hablamos sobre los informes finales, los plazos y ​el valor de programar las revisiones posteriores a los incidentes mediante reuniones sobre las lecciones aprendidas.
 - ​Como analista de Seguridad, será responsable de ​completar algunos procesos involucrados en cada fase del ciclo de vida de respuesta a los incidentes.
+
+---
+
+## Glosario de términos del módulo 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
