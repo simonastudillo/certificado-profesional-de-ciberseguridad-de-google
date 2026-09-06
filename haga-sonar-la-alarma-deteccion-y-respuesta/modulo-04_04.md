@@ -285,3 +285,9 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 
 - ¿Ha habido alguna herramienta o concepto específico que le haya gustado más? ¿Por qué?
 > Me gustó mucho aprender sobre las herramientas SIEM, trabajo mucho con logs y registros de eventos en mi trabajo diario, y aprender a utilizar herramientas como Splunk y Chronicle me ha proporcionado una comprensión más profunda de cómo analizar y correlacionar eventos de seguridad. Estas herramientas me permiten identificar patrones y tendencias en los datos de registro, lo que es crucial para la detección temprana de incidentes de seguridad.
+
+---
+
+## Ejemplo de actividad del portafolio: Finaliza tu diario de gestión de incidentes
+- Ejemplar completado
+   - [Ejemplar completado del diario del gestor de incidentes](./resources/Completed-incident-handler-s-journal-exemplar-.docx)
