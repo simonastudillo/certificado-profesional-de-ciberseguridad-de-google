@@ -126,3 +126,48 @@
 - ​Como analista de seguridad, ​utilizará diferentes comandos para optimizar ​el rendimiento de la búsqueda y obtener resultados de búsqueda más rápidos.
 - ​Con esto finaliza la consulta en Splunk.
 - ​Ha aprendido la importancia de las consultas efectivas ​y cómo realizar una búsqueda básica en Splunk.
+
+---
+
+## Consulta de eventos con Google SecOps
+- ​Chronicle permite buscar y filtrar los datos de registro.
+- ​Chronicle usa el ​lenguaje YARA-L para definir las reglas de detección.
+- ​Es un lenguaje informático que se utiliza para crear ​reglas para buscar en los datos de registro ingeridos.
+- ​Por ejemplo, puedes usar YARA-L para escribir una regla que ​detecte actividades específicas relacionadas con ​la exfiltración de datos valiosos.
+- ​Con el campo de búsqueda de ​Chronicle, puedes buscar campos como nombre de host, dominio, ​IP, URL, correo electrónico ​, nombre de usuario o hash de archivo.
+- ​En el campo de búsqueda, puede ​introducir diferentes tipos de búsquedas.
+- ​El método de búsqueda predeterminado es usar la búsqueda UDM, ​que significa Modelo de datos unificado.
+- ​Busca en datos normalizados.
+- ​Si no puede encontrar los datos que busca ​buscando en los datos normalizados, ​tiene la opción de buscar en los registros sin procesar.
+- La ​búsqueda de registros sin procesar busca ​en los registros que no se han normalizado.
+- ​De nuestro análisis anterior sobre el proceso de SIEM, ​tal vez recuerde que los registros sin procesar se ​procesan durante la etapa de normalización.
+- ​Durante la normalización, toda la información relevante de los ​registros sin procesar se extrae y formatea, ​lo que facilita la búsqueda de los datos.
+- ​Una razón por la que podríamos necesitar buscar registros sin procesar es para encontrar ​datos que pueden no haberse ​incluido en los registros normalizados, ​como campos específicos que no se han ​normalizado, o para solucionar problemas de ingestión de datos.
+- ​Examinemos una búsqueda de UDM ​para detectar un inicio de sesión fallido con Chronicle.
+- ​En primer lugar, hagamos clic en ​el icono del generador de consultas estructuradas para ​poder realizar una búsqueda de UDM.
+- ​Escribiré la búsqueda: ​metadata.event_type = «USER_LOGIN» ​Y security_result.action = «BLOCK»
+- Analicemos esta búsqueda de UDM. ​Como estamos buscando datos normalizados, ​necesitamos especificar una búsqueda que utilice el formato UDM.
+- ​Los eventos UDM tienen un conjunto de campos comunes.
+- ​El campo metadata.event_type ​detalla el tipo de evento.
+- ​En este caso, le pedimos a Chronicle que busque ​un evento de actividad de autenticación, un inicio de sesión de usuario.
+- ​Luego está AND, ​que es un operador lógico que le dice ​al motor de búsqueda que contenga ambos términos.
+- ​Por último, el campo security_result.action ​especifica una acción de seguridad, como permitir o bloquear.
+- ​Aquí, la acción es BLOQUEAR.
+- ​Esto significa que el inicio de sesión del usuario se bloqueó o falló.
+- ​Ahora, presionaremos el botón de consulta.
+- ​Nos centraremos en buscar datos normalizados.
+- ​Se nos presenta una pantalla con los resultados de la búsqueda.
+- ​Hay mucha información aquí.
+- ​En UDM Search, ​podemos observar nuestros términos de búsqueda.
+- ​También hay un cronograma de gráficos de barras que ​muestra los eventos de inicio de sesión fallidos durante un período.
+- De ​un vistazo rápido, esto nos da ​una instantánea de la actividad de inicio de sesión fallida a lo largo del tiempo, ​lo que nos permite detectar posibles patrones.
+- ​En la cronología, hay una lista de eventos con ​marcas de tiempo asociadas a esta búsqueda.
+- ​Debajo de cada evento, hay un activo, ​que es el nombre de un dispositivo.
+- ​Por ejemplo, este evento muestra ​un inicio de sesión fallido para un usuario llamado alice.
+- ​Si hacemos clic en el evento, podemos abrir ​el registro sin procesar asociado al evento.
+- ​Podemos interpretar estos registros sin procesar para obtener más detalles ​sobre la actividad del evento durante la investigación.
+- ​A la izquierda, están los filtros rápidos.
+- ​Se trata de campos o valores adicionales que ​podemos usar para filtrar los resultados de la búsqueda.
+- ​Por ejemplo, si hacemos clic en: target.ip, ​se nos da una lista de direcciones IP.
+- ​Si hacemos clic en una de estas direcciones IP, ​podemos filtrar los resultados de la búsqueda para que contengan ​solo esta dirección IP de destino.
+- ​Esto nos ayuda a encontrar los datos específicos ​que buscamos y ​nos ayuda a ahorrar tiempo en el proceso.
