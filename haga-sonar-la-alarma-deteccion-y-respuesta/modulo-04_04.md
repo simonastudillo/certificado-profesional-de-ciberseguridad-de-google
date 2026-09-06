@@ -1,6 +1,6 @@
 # Revisión: Tráfico de red y registros mediante herramientas IDS y SIEM
 
-## Diálogo de entrenadores: Explore las tecnologías de seguridad de redEstado: Traducido automáticamente del Inglés
+## Diálogo de entrenadores: Explore las tecnologías de seguridad de redEstado
 
 - Esto es lo que cubriremos:
    - Describir tecnologías fundamentales de seguridad de red: Identificaremos y explicaremos las herramientas clave que protegen el perímetro de una red.
@@ -39,5 +39,5 @@
 - ​Examinó cómo se escriben las firmas y también cómo detectan, registran y ​alertan sobre intrusiones. ​Interactuó con Suricata en la línea de comandos para examinar e interpretar firmas y ​alertas.
 - ​Por último, aprendió a buscar en herramientas SIEM como Splunk y Chronicle.
 - ​Aprendió la importancia de elaborar consultas a medida para localizar eventos.
-- ​En la vanguardia de la respuesta a incidentes, la supervisión y el ​análisis del tráfico de red en busca de indicadores de compromiso es uno de los objetivos principales. 
-​Ser capaz de realizar un análisis en profundidad de los registros y saber leer y ​escribir firmas y ​cómo acceder a los datos de registro son habilidades que utilizará como analista de seguridad. 
+- ​En la vanguardia de la respuesta a incidentes, la supervisión y el ​análisis del tráfico de red en busca de indicadores de compromiso es uno de los objetivos principales.
+- ​Ser capaz de realizar un análisis en profundidad de los registros y saber leer y ​escribir firmas y ​cómo acceder a los datos de registro son habilidades que utilizará como analista de seguridad. 
