@@ -231,3 +231,57 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 - [ ] Proceso
 - [ ] Índice
 > Correcto
+
+---
+
+## Actividad de Portfolio: Finalice su Diario del gestor de incidentes
+- Resumen de la actividad
+   - En esta actividad, finalizarás el Diario del gestor de incidentes en el que has estado trabajando a lo largo de este curso
+   - Luego, agregarás este documento a tu portafolio de ciberseguridad, el cual puedes compartir con posibles empleadores o reclutadores
+
+- Instrucciones paso a paso
+
+1. Acceder al Diario del gestor de incidentes
+- [Diario del gestor de incidentes](./resources/Incident-handler-s-journal-.docx)
+
+2. Revisar las entradas del diario
+- Es posible que tenga varias entradas en su Diario del gestor de incidentes
+- Si en tu diario faltan entradas o están incompletas, vuelve atrás y revisa las secciones anteriores de este curso para añadir entradas adicionales a tu diario
+- Esta es una lista de las actividades del curso que puede volver a revisar para completar su diario:
+   - [Actividad: Documentar un incidente con un Diario del gestor de incidentes](https://www.coursera.org/learn/detection-and-response/exam/ghRgc/portfolio-activity-document-an-incident-with-an-incident-handlers-journal)
+   - [Actividad: Analiza tu primer paquete](https://www.coursera.org/learn/detection-and-response/ungradedLti/TEDBX/activity-analyze-your-first-packet)
+   - [Actividad: Captura de paquetes](https://www.coursera.org/learn/detection-and-response/ungradedLti/VeAkC/activity-capture-your-first-packet)
+   - [Actividad: Investigar el hash de un archivo sospechoso](https://www.coursera.org/learn/detection-and-response/quiz/wXUdm/activity-investigate-a-suspicious-file-hash)
+   - [Actividad: Utilizar un libro de jugadas para responder a un ataque](https://www.coursera.org/learn/detection-and-response/quiz/niNli/activity-use-a-playbook-to-respond-to-a-phishing-incident)
+   - [Actividad: Revisar un Informe final](https://www.coursera.org/learn/detection-and-response/quiz/WbBPx/activity-review-a-final-incident-report)
+   - [Actividad: Explorar firmas y registros con Suricata](https://www.coursera.org/learn/detection-and-response/ungradedLti/BkP1I/activity-explore-signatures-and-logs-with-suricata)
+   - [Actividad: Realizar una consulta con Splunk](https://www.coursera.org/learn/detection-and-response/quiz/QGT1e/activity-perform-a-query-with-splunk)
+   - [Actividad: Realizar una consulta con Chronicle](https://www.coursera.org/learn/detection-and-response/quiz/iSlcH/activity-perform-a-query-with-chronicle)
+
+3. Actualice las entradas de su diario
+- Actualice las entradas del diario que registran una investigación de incidentes.
+
+4. Completar el Diario del gestor de incidentes
+
+5. Escribir una entrada de reflexión
+- Tómate un momento para reflexionar sobre lo que has aprendido hasta ahora en este curso.
+- Copia y pega las siguientes preguntas en la sección Reflexiones/Notas de tu Diario del gestor de incidentes.
+- A continuación, escribe una respuesta de dos o tres frases (40-60 palabras) a cada pregunta.
+   - ¿Hubo alguna actividad específica que supusiera un reto para ti? ¿Por qué sí o por qué no?
+   - ¿Ha cambiado su comprensión de la detección y respuesta ante incidentes desde que realizó este curso?
+   - ¿Ha habido alguna herramienta o concepto específico que le haya gustado más? ¿Por qué?
+
+- Qué incluir en tu respuesta
+   -  4 entradas del diario cumplimentadas, con la sección Fecha, Entrada y Descripción (50-80 palabras)
+   - 2 de las 4 entradas documentan una investigación de un incidente en la sección Las 5 W (4-6 frases o viñetas)
+   - 2 de las 4 entradas describen el uso de una herramienta de ciberseguridad en la sección Herramienta(s) utilizada (s) (3-5 frases o viñetas)
+   - La sección Reflexiones/Notas aborda el tema de reflexión (6-9 frases o viñetas)
+
+- ¿Hubo alguna actividad específica que supusiera un reto para ti? ¿Por qué sí o por qué no?
+> No recuerdo alguna actividad específica que supusiera un reto para mí, quizás solo en el sentido de cómo realizar algún reporte o cómo documentar un hallazgo, pero en general, el curso me proporcionó una comprensión más profunda de la detección y respuesta ante incidentes.
+
+- ¿Ha cambiado su comprensión de la detección y respuesta ante incidentes desde que realizó este curso?
+> Sí, definitivamente. Antes de este curso, tenía una comprensión básica de la detección y respuesta ante incidentes, pero ahora tengo un conocimiento más profundo de las herramientas y técnicas utilizadas en la industria para identificar y mitigar amenazas de seguridad. Dado mi trabajo actual como desarrollador de software, he aprendido a comprender mejor cómo los incidentes de seguridad, la gravedad de los mismos y la respuesta a los incidentes pueden afectar a las aplicaciones y sistemas que desarrollo, lo que me permite diseñar y desarrollar software más seguro.
+
+- ¿Ha habido alguna herramienta o concepto específico que le haya gustado más? ¿Por qué?
+> Me gustó mucho aprender sobre las herramientas SIEM, trabajo mucho con logs y registros de eventos en mi trabajo diario, y aprender a utilizar herramientas como Splunk y Chronicle me ha proporcionado una comprensión más profunda de cómo analizar y correlacionar eventos de seguridad. Estas herramientas me permiten identificar patrones y tendencias en los datos de registro, lo que es crucial para la detección temprana de incidentes de seguridad.
