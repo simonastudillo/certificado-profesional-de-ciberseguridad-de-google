@@ -283,3 +283,35 @@
 - Recursos
    - [Manual de Búsqueda de Splunk](https://docs.splunk.com/Documentation/Splunk/9.0.1/Search/GetstartedwithSearch) sobre cómo utilizar el Lenguaje de Procesamiento de Búsqueda de Splunk (SPL)
    - [Guía rápida de Google Security Operations](https://cloud.google.com/chronicle/docs/review-security-alert) sobre los distintos tipos de búsqueda
+
+---
+
+## Ponga a prueba sus conocimientos: Visión general de las herramientas SIEM
+
+1. En el Lenguaje de Procesamiento de Búsqueda (SPL), ¿qué carácter especial es un comodín que puede utilizarse para sustituir por cualquier otro carácter?
+- [ ] !=
+- [x] *
+- [ ] =
+- [ ] |
+> En el Lenguaje de Procesamiento de Búsqueda (SPL), el carácter * es un comodín que es un carácter especial que puede sustituirse por cualquier otro carácter.
+
+2. ¿Cuáles de los siguientes pasos forman parte del proceso de administración de información y eventos de seguridad (SIEM)? Seleccione tres respuestas
+- [x] Indexación de Datos para mejorar el rendimiento de las búsquedas
+- [x] Recoger y procesar Datos
+- [x] Normalización de datos para que estén listos para su lectura y análisis
+- [ ] Monitoree la actividad y las alertas relacionadas con intrusiones
+> El proceso SIEM implica los siguientes pasos: recopilar y procesar datos, normalizar datos e indexar datos. La Indexación de los Datos mejora el rendimiento de las búsquedas mediante la creación de un índice de datos que permite realizar búsquedas.
+
+3. Rellena el espacio en blanco: Google SecOps (Chronicle) utiliza _____ para buscar en registros no estructurados.
+- [ ] búsqueda de entidades
+- [x] búsqueda de registros en bruto
+- [ ] modelo unificado de datos
+- [ ] metadatos
+> Google SecOps (Chronicle) utiliza la búsqueda de registros sin procesar para buscar en registros no estructurados.
+
+4. ¿Cuál de los siguientes es el Lenguaje de consulta de Splunk?
+- [ ] IDS
+- [ ] UDM
+- [x] SPL
+- [ ] SQL
+> Splunk utiliza su propio lenguaje de consulta conocido como Lenguaje de Procesamiento de Búsqueda (SPL).
