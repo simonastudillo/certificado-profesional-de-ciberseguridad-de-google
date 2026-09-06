@@ -31,3 +31,14 @@
 
 ## Glosario del curso 6
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- Hax completado el Curso 6 del Certificado de Ciberseguridad de Google: Haz sonar la alarma: ¡ Detección y Respuesta!
+- En esta parte del programa, se le presentó el ciclo de vida de respuesta ante incidentes, las operaciones y las herramientas asociadas
+- Aprendiste sobre Monitoreo de red, análisis de red, y practicaste capturando tráfico de red usando analizadores de protocolo de red
+- Profundizó en los procesos y procedimientos de las fases de respuesta ante incidentes
+- Por último, concluyó aprendiendo más sobre registros, firmas y alertas. También has practicado el uso de herramientas IDS y SIEM
+
+- Próximo curso: Automatice tareas de ciberseguridad con Python - Explore el lenguaje de programación Python y escriba código para automatizar tareas de ciberseguridad.
