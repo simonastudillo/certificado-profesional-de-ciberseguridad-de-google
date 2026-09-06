@@ -1,4 +1,4 @@
-# Activos, amenazas y vulnerabilidades
+# Haga sonar la alarma: Detección y respuesta
 - Módulo 1: Introducción a la Detección y Respuesta ante incidentes
   - [Empezar el curso](./modulo-01_01.md)
   - [El ciclo de vida de la Respuesta ante incidentes](./modulo-01_02.md)
