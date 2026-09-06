@@ -41,3 +41,8 @@
 - ​Aprendió la importancia de elaborar consultas a medida para localizar eventos.
 - ​En la vanguardia de la respuesta a incidentes, la supervisión y el ​análisis del tráfico de red en busca de indicadores de compromiso es uno de los objetivos principales.
 - ​Ser capaz de realizar un análisis en profundidad de los registros y saber leer y ​escribir firmas y ​cómo acceder a los datos de registro son habilidades que utilizará como analista de seguridad. 
+
+---
+
+## Glosario: Tráfico de red y registros mediante ID y herramientas SIEM
+- El glosario completo se encuentra [aquí](./README.md#glosario)
