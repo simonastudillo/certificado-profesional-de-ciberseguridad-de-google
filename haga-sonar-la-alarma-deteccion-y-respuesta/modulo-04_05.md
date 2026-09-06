@@ -26,3 +26,8 @@
 - ​Ha hecho un trabajo fantástico al ​ampliar sus conocimientos y ​aprender nuevas herramientas para añadirlas a su caja de herramientas de Seguridad.
 - ​Una de las cosas que me encantan ​del campo de la Seguridad es que ​siempre hay algo nuevo que aprender.
 - ​Próximamente, continuarás tu viaje de aprendizaje ​explorando un lenguaje de programación llamado Python, ​que se puede usar para automatizar las tareas de Seguridad.
+
+---
+
+## Glosario del curso 6
+- El glosario completo se encuentra [aquí](./README.md#glosario)
