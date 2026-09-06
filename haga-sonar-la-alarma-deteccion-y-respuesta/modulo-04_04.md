@@ -1,6 +1,6 @@
 # Revisión: Tráfico de red y registros mediante herramientas IDS y SIEM
 
-## Diálogo de entrenadores: Explore las tecnologías de seguridad de redEstado
+## Diálogo de entrenadores: Explore las tecnologías de seguridad de red
 
 - Esto es lo que cubriremos:
    - Describir tecnologías fundamentales de seguridad de red: Identificaremos y explicaremos las herramientas clave que protegen el perímetro de una red.
@@ -46,3 +46,188 @@
 
 ## Glosario: Tráfico de red y registros mediante ID y herramientas SIEM
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Desafío del módulo 4
+
+1. ¿Cuál de los siguientes se refiere a un registro log de los eventos que se producen en los sistemas de una organización?
+- [x] Fuentes de registro
+- [ ] Ocurrencias
+- [ ] Registros
+- [ ] Expedidor de registros (Incorrecto)
+> Incorrecto
+
+1. ¿Qué detalles contienen los registros? Seleccione todo lo que corresponda
+- [x] Ubicación
+- [ ] Remitente (Incorrecto)
+- [x] Tiempo
+- [x] Fecha
+> Correcto
+
+2. ¿Cuál es la diferencia entre un registro y un análisis de registros?
+- [ ] Tanto un registro log como un análisis de registros contienen detalles de los eventos, pero registran detalles de fuentes distintas.
+- [ ] Un registro contiene detalles del archivo de registro. El análisis de registros implica la recopilación y el almacenamiento de registros.
+- [x] Un registro log es un registro de los eventos que se producen en los sistemas de una organización. El análisis de registros es el proceso de examinar los registros para identificar los eventos de interés.
+- [ ] Un registro log registra los detalles en archivos de registro. El análisis de registros implica una visión general de alto nivel de todos los eventos que se producen en la red.
+> Correcto
+
+2. Examine el siguiente registro:
+```syslog
+LoginEvent[2021/10/13 10:32:08.958711] auth_session_authenticator.cc:304 Regular user login 1
+```
+- ¿Qué tipo de registro es este?
+- [ ] Ubicación
+- [ ] Aplicación
+- [x] Autenticación
+- [ ] Red
+> Correcto
+
+2. Examine el siguiente registro:
+```
+[2022/12/21 17:46:35.232748] NOTIFY: NetworkPropertiesUpdated: wifi_psk_13
+```
+- ¿Qué tipo de registro es este?
+- [x] Red
+- [ ] Aplicación
+- [ ] Ubicación
+- [ ] Autenticación
+> Correcto
+
+3. Examine el siguiente registro
+```json
+{
+	“name”: “System test”,
+	“host”: "167.155.183.139",
+	“id”: 11111,
+	“Message”: [error] test,
+}
+```
+- ¿En qué formato de registro se encuentra esta entrada?
+- [ ] CSV
+- [ ] XML
+- [x] JSON
+- [ ] Syslog
+> Correcto
+
+3. Examine el siguiente registro:
+```
+<111>1 2020-04-12T23:20:50.52Z my.machine.com evntslog - ID01 [user@98274 iut="2" eventSource="Mobile" eventID="24"][Priority@98274 class="low"] Computer A
+```
+- ¿Qué valor de campo indica el tipo de dispositivo del que procede este Evento?
+- [ ] Mobile
+- [x] my.machine.com
+- [ ] low
+- [ ] Computer A (Incorrecto)
+> Incorrecto
+
+4. Considere el siguiente escenario:
+- Un analista de seguridad de una empresa mediana recibe el encargo de instalar y configurar un Sistema de detección de intrusiones basado en el anfitrión (HIDS) en un ordenador portátil. El analista de Seguridad instala el HIDS y quiere probar si funciona correctamente simulando una actividad maliciosa. El analista de Seguridad ejecuta programas no autorizados en el portátil, que el HIDS detecta con éxito y sobre los que alerta.
+- ¿De qué es un ejemplo el portátil?
+- [x] Un punto de conexión
+- [ ] Un reenviador de registros
+- [ ] Un agente (Incorrecto)
+- [ ] Una Firma
+> Incorrecto
+
+4. ¿Cuál es la diferencia entre un Sistema de detección de intrusiones basado en la red (NIDS) y un Sistema de detección de intrusiones basado en el anfitrión (HIDS)?
+- [ ] Un NIDS registra y genera alertas. Un sistema HIDS monitoriza la actividad de los puntos finales.
+- [ ] Un NIDS monitorea la actividad del host en el que está instalado. Un HIDS utiliza el análisis de firmas para analizar la actividad de la red.
+- [ ] Tanto los NIDS como los HIDS monitorizan los sistemas y generan alertas, pero un NIDS utiliza agentes.
+- [x] Un NIDS recoge y monitorea el Tráfico de red y los Datos de red. Un HIDS monitoriza la actividad del host en el que está instalado.
+> Correcto
+
+5. ¿Qué información se incluye en el Encabezado de una Firma? Seleccione todo lo que corresponda
+- [x] Número de puerto
+- [x] Dirección IP
+- [ ] Acción
+- [x] Protocolo
+> Correcto
+
+5. ¿Qué opción de regla se utiliza para indicar el número de veces que se actualiza una firma?
+- [x] rev
+- [ ] sid
+- [ ] msg
+- [ ] tcp
+> Correcto
+
+6. ¿Qué símbolo se utiliza para indicar un Comentario y se ignora en un fichero de Firma Suricata?
+- [x] #
+- [ ] >
+- [ ] $
+- [ ] :
+> Correcto
+
+6. Examine esta Firma Suricata:
+```suricata
+alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:established,to_server; content:"GET"; sid:12345; rev:2;)
+```
+- ¿Cuál es el puerto de destino?
+- [ ] 2
+- [x] 80
+- [ ] 12345
+- [ ] 141
+> Correcto
+
+7. Rellene el espacio en blanco: Suricata utiliza el formato _____ para la salida de eventos y alertas
+- [ ] HTTP
+- [ ] CEF
+- [ ] HTML
+- [x] EVE JSON
+> Correcto
+
+7. ¿Qué tipo de datos de registro genera Suricata? Seleccione todo lo que corresponda
+- [x] Alerta
+- [ ] Firma
+- [ ] Protocolo
+- [x] Telemetría de redes
+> Correcto
+
+8. Rellene el espacio en blanco: El símbolo del asterisco también se conoce como a(n) _____
+- [ ] opción
+- [x] comodín
+- [ ] Operador booleano
+- [ ] etiqueta
+> Correcto
+
+8. ¿Qué lenguaje de consulta utiliza Splunk?
+- [ ] Lenguaje de Consulta Estructurada
+- [ ] Lenguaje de proceso SIEM
+- [x] Lenguaje de Procesamiento de Búsqueda
+- [ ] Lenguaje de procesamiento estructurado
+> Correcto
+
+9. ¿Cuál es el Método para buscar Datos normalizados en Chronicle?
+- [x] Búsqueda UDM
+- [ ] YARA-L
+- [ ] Búsqueda de registros en bruto
+- [ ] Unificado
+> Correcto
+
+9. ¿Qué búsqueda de campo del Modelo Unificado de Datos (UDM) especifica una acción de seguridad?
+- [ ] action
+- [ ] block
+- [ ] metadata.event_type
+- [x] security_result.action
+> Correcto
+
+10. ¿Cuáles son los pasos del proceso SIEM para la recopilación de datos? Seleccione tres respuestas.
+- [x] Recoja
+- [x] Índice
+- [ ] Unificar
+- [x] Normalización
+> Correcto
+
+10. Rellene el espacio en blanco: Herramientas SIEM _____ datos en bruto para que su formato sea coherente
+- [ ] recoja
+- [ ] proceso
+- [x] normalización
+- [ ] ingerir
+> Correcto
+
+10. ¿Qué paso del proceso SIEM implica el procesamiento de datos brutos en un formato estandarizado y estructurado?
+- [ ] Recoja
+- [x] Normalización
+- [ ] Proceso
+- [ ] Índice
+> Correcto
