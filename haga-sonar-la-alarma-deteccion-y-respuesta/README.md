@@ -1,16 +1,89 @@
 # Activos, amenazas y vulnerabilidades
 - Módulo 1: Introducción a la Detección y Respuesta ante incidentes
+  - [Empezar el curso](./modulo-01_01.md)
+  - [El ciclo de vida de la Respuesta ante incidentes](./modulo-01_02.md)
+  - [Operaciones de respuesta ante incidentes](./modulo-01_03.md)
+  - [Herramientas de respuesta ante incidentes](./modulo-01_04.md)
+  - [Repaso: Introducción a la Detección y Respuesta ante incidentes](./modulo-01_05.md)
 - Módulo 2: Monitoreo y análisis de redes
+  - [Comprender el Tráfico de red](./modulo-02_01.md)
+  - [Captura y visualización del tráfico de red](./modulo-02_02.md)
+  - [Inspección de paquetes](./modulo-02_03.md)
+  - [Revisión: Monitoreo y análisis de redes](./modulo-02_04.md)
 - Módulo 3: Investigación y respuesta a incidentes
+  - [Detección y verificación de incidentes](./modulo-03_01.md)
+  - [Crear y utilizar documentación](./modulo-03_02.md)
+  - [Respuesta y recuperación](./modulo-03_03.md)
+  - [Acciones posteriores al incidente](./modulo-03_04.md)
+  - [Revisión: Investigación y respuesta ante incidentes](./modulo-03_05.md)
 - Módulo 4: Tráfico de red y registros mediante herramientas IDS y SIEM
+  - [Visión general de los registros](./modulo-04_01.md)
+  - [Visión general de los sistemas de detección de intrusos (IDS)](./modulo-04_02.md)
+  - [Visión general de las herramientas de gestión de eventos de información de seguridad (SIEM)](./modulo-04_03.md)
+  - [Revisión: Tráfico de red y registros mediante herramientas IDS y SIEM](./modulo-04_04.md)
+  - [¡Enhorabuena por haber completado el Curso 6!](./modulo-04_05.md)
 
 ## Habilidades y conceptos a aprender
 
 ### Habilidades técnicas (hard skills)
+- Respuesta a incidentes de seguridad
+- Análisis y triaje de alertas de seguridad
+- Análisis de tráfico de red
+- Captura e inspección de paquetes (PCAP)
+- Análisis de protocolos de red
+- Uso de tcpdump
+- Uso de Wireshark
+- Monitoreo de redes
+- Análisis de registros (log analysis)
+- Gestión de registros (log management)
+- Sistemas de detección de intrusiones (IDS)
+- Análisis de firmas de detección
+- Uso de Suricata
+- Gestión de eventos e información de seguridad (SIEM)
+- Consultas SPL en Splunk
+- Google Security Operations (Google SecOps)
+- Investigación de indicadores de compromiso (IoC)
+- Análisis de hashes de archivos
+- Documentación de incidentes
+- Cadena de custodia digital
 
 ### Conceptos clave
+- Ciclo de vida de respuesta a incidentes del NIST
+- Equipo de respuesta ante incidentes (CSIRT)
+- Centro de operaciones de seguridad (SOC)
+- Detección basada en firmas
+- Detección basada en anomalías
+- Indicadores de compromiso (IoC)
+- Indicadores de ataque (IoA)
+- Inteligencia de amenazas (Threat Intelligence)
+- Exfiltración de datos
+- Análisis de paquetes
+- Protocolos TCP/IP
+- Encabezados y cargas útiles de paquetes
+- Captura de paquetes (PCAP)
+- Fuentes e ingestión de registros
+- Formatos de registro: Syslog, JSON y CEF
+- Falsos positivos y falsos negativos
+- Contención, erradicación y recuperación
+- Plan de continuidad de negocio (BCP)
+- Playbooks de respuesta a incidentes
+- Revisión posterior al incidente (Post-Incident Review)
 
 ### Habilidades transferibles (soft skills)
+- Pensamiento analítico
+- Resolución de problemas
+- Atención al detalle
+- Comunicación técnica
+- Documentación clara y precisa
+- Priorización y gestión del tiempo
+- Toma de decisiones basada en evidencia
+- Gestión de incidentes bajo presión
+- Colaboración interdisciplinaria
+- Coordinación de equipos
+- Investigación y pensamiento crítico
+- Aprendizaje continuo
+- Concienciación de seguridad
+- Ética y manejo responsable de información
 
 ## Descripción del curso
 ---
@@ -198,3 +271,23 @@
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Introducción a la Detección y Respuesta ante incidentes
+- Presenta el ciclo de vida de respuesta a incidentes del NIST como marco para preparar, detectar, analizar, contener, erradicar, recuperar y aprender de los incidentes.
+- Explica cómo se organizan los equipos CSIRT, sus funciones y la coordinación con otras áreas de la organización mediante planes de respuesta.
+- Introduce las herramientas de documentación, detección y gestión de eventos, incluido el uso de un diario de gestión de incidentes para conservar evidencias y decisiones.
+
+### Módulo 2: Monitoreo y análisis de redes
+- Explica cómo los flujos de tráfico permiten establecer comportamientos normales e identificar actividad anómala, incluido el robo o la exfiltración de datos.
+- Desarrolla la captura y visualización de tráfico mediante archivos PCAP y analizadores de protocolos como Wireshark y tcpdump.
+- Profundiza en la inspección de paquetes, interpretando encabezados, cargas útiles, direcciones IP, puertos y protocolos para reconstruir comunicaciones de red.
+
+### Módulo 3: Investigación y respuesta a incidentes
+- Aborda la detección, validación y priorización de incidentes mediante indicadores de compromiso, investigación de hashes y otras fuentes de inteligencia de amenazas.
+- Establece prácticas de documentación de evidencias, cadena de custodia y playbooks para ejecutar respuestas repetibles, especialmente ante phishing.
+- Cubre el triaje, la contención, la erradicación, la recuperación y la actividad posterior al incidente, incluidos informes finales y lecciones aprendidas.
+
+### Módulo 4: Tráfico de red y registros mediante herramientas IDS y SIEM
+- Explica la recopilación, gestión e interpretación de registros, sus fuentes y formatos habituales, como Syslog, JSON y CEF.
+- Diferencia los IDS de red y de host, y muestra cómo las firmas de Suricata generan alertas y registros para detectar actividad maliciosa.
+- Enseña a investigar eventos mediante consultas en plataformas SIEM, como Splunk y Google Security Operations, para correlacionar datos y localizar evidencia relevante.
