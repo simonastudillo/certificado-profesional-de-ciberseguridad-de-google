@@ -24,4 +24,20 @@
    - Demostraste una comprensión clara de las tecnologías de seguridad de red, como firewalls, IDS/IPS, VPN, segmentación de red, RBAC, privilegio mínimo y SIEM.
    - Pudiste conectar eficazmente las amenazas de seguridad con las tecnologías defensivas relevantes, explicando su papel práctico en la protección de la red.
 - Áreas de mejora:
-   - ontinúa explorando cómo estas tecnologías interactúan en un entorno de red complejo para formar una estrategia de defensa en profundidad.
+   - Continúa explorando cómo estas tecnologías interactúan en un entorno de red complejo para formar una estrategia de defensa en profundidad.
+
+--- 
+
+## Resumen
+- ​Ha progresado mucho en su viaje por la Seguridad.
+- ​Vamos a repasar lo que hemos aprendido.
+- ​Ha aprendido todo sobre cómo leer y analizar registros.
+- ​Ha examinado cómo se crean y utilizan los archivos de registro para el análisis.
+- ​También ha comparado diferentes tipos de formatos de registro comunes y ​ha aprendido a leerlos.
+- ​Amplió sus conocimientos sobre sistemas de detección de intrusiones comparando ​los sistemas basados en redes y los basados en hosts.
+- ​Aprendió también a interpretar firmas.
+- ​Examinó cómo se escriben las firmas y también cómo detectan, registran y ​alertan sobre intrusiones. ​Interactuó con Suricata en la línea de comandos para examinar e interpretar firmas y ​alertas.
+- ​Por último, aprendió a buscar en herramientas SIEM como Splunk y Chronicle.
+- ​Aprendió la importancia de elaborar consultas a medida para localizar eventos.
+- ​En la vanguardia de la respuesta a incidentes, la supervisión y el ​análisis del tráfico de red en busca de indicadores de compromiso es uno de los objetivos principales. 
+​Ser capaz de realizar un análisis en profundidad de los registros y saber leer y ​escribir firmas y ​cómo acceder a los datos de registro son habilidades que utilizará como analista de seguridad. 
