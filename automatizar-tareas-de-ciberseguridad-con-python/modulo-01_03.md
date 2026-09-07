@@ -63,3 +63,131 @@
 - [File example](./resources/code/modulo-01_03-004.py)
 - Este ​fue un breve resumen de los ​cinco tipos de datos principales en Python: ​cadena, entero, flotante, ​booleana y lista.
 - ​Estos tipos de datos son algunos de ​los más comunes ​con los que trabajarás a medida que avancemos en nuestras lecciones. 
+
+---
+
+## Más información sobre los tipos de datos
+- Un tipo de datos es una categoría para un tipo particular de elemento de datos.
+- Usted se centró en Cadena, Lista, Flotante, Entero y Datos booleanos.
+- Estos son los tipos de datos con los que trabajará en este curso.
+- Esta lectura ampliará estos tipos de datos.
+- También introducirá tres tipos adicionales.
+   
+- Cadena
+   - En Python, los Datos de cadena son datos formados por una secuencia ordenada de caracteres.
+   - Los caracteres de una Cadena pueden incluir letras, números, símbolos y espacios.
+   - Estos caracteres deben ir entre comillas. Todas estas son cadenas válidas:
+      - "updates needed"
+      - "20%"
+      - "5.0"
+      - "35"
+      - "**/**/**" 
+      - ""
+   - El último elemento (""), que no contiene nada entre comillas, se denomina cadena vacía.
+   - Puede utilizar la función print() para mostrar una cadena. Puede explorar esto ejecutando este código:
+   - [File example](./resources/code/modulo-01_03-005.py)
+   - El Código imprime "updates needed". 
+   - Puede colocar cadenas entre comillas dobles ("") o simples ('').
+   - El siguiente código demuestra que se imprime el mismo mensaje cuando la cadena está entre comillas simples:
+   - [File example](./resources/code/modulo-01_03-006.py)
+   - Elegir un tipo de comillas y utilizarlo de forma coherente facilita la lectura de su código.
+   - Este curso utiliza comillas dobles.
+
+- Lista
+   - En Python, los datos de una lista son una estructura de datos que consiste en una colección de datos en forma secuencial.
+   - Los elementos de una lista pueden ser de cualquier tipo de datos, como cadenas, enteros, booleanos o incluso otras listas.
+   - Los elementos de una Lista se colocan entre corchetes, y cada elemento se separa por una coma.
+   - Las listas siguientes contienen elementos de varios tipos de datos:
+      - [12, 36, 54, 1, 7]
+      - ["eraab", "arusso", "drosas"]
+      - [True, False, True, True]
+      - [15, "approved", True, 45.5, False]
+      - []
+   - El último elemento[], que no contiene nada entre corchetes, se denomina lista vacía.
+   - También puede utilizar la función print() para mostrar una lista:
+   - [File example](./resources/code/modulo-01_03-007.py)
+   - Esto muestra una lista que contiene los enteros 12, 36, 54, 1, y 7.
+
+- Entero
+   - En Python, los datos enteros son datos formados por un número que no incluye punto decimal.
+   - Todos estos son ejemplos de datos enteros:
+      - -100 
+      - -12
+      - -1
+      - 0
+      - 1
+      - 20
+      - 500
+   - Los enteros no se entrecomillan.
+   - Puede utilizar la función print() para mostrar un número entero.
+   - Cuando ejecute este código, aparecerá 5:
+   - [File example](./resources/code/modulo-01_03-008.py)
+   - También puede utilizar la función print() para realizar operaciones matemáticas con números enteros.
+   - Por ejemplo, este código suma dos números enteros:
+   - [File example](./resources/code/modulo-01_03-009.py)
+   - El resultado es 7. También puede restar, multiplicar o dividir dos enteros.
+
+- Flotante
+   - Datos flotantes son aquellos que consisten en un número con un punto decimal.
+   - Todos los siguientes son ejemplos de datos flotantes:
+      - -2.2
+      - -1.34
+      - 0.0
+      - 0.34
+   - Al igual que los datos enteros, los datos flotantes no se entrecomillan.
+   - Además, también puede utilizar la función print() para visualizar datos flotantes o para realizar cálculos matemáticos con datos flotantes.
+   - Puede ejecutar el siguiente código para revisar el resultado de este cálculo:
+   - [File example](./resources/code/modulo-01_03-010.py)
+   - La salida es 4.0.
+   - La división de dos valores enteros o dos valores flotantes da como resultado una salida flotante cuando se utiliza el símbolo /:
+   - [File example](./resources/code/modulo-01_03-011.py)
+   - La salida de ambos cálculos es el valor flotante de .25.
+   - Si desea devolver un número entero de un cálculo, debe utilizar el símbolo // en su lugar:
+   - [File example](./resources/code/modulo-01_03-012.py)
+   - Redondeará hacia abajo al número entero más próximo.
+   - En el caso de print(1//4), la salida es el valor entero de 0 porque el uso de este símbolo redondea hacia abajo el cálculo de .25 al número entero más cercano.
+   - En el caso de print(1.0//4.0), la salida es el valor flotante de 0.0 porque mantiene el tipo de datos flotante de los valores en el cálculo a la vez que redondea hacia abajo al número entero más cercano.
+
+- Booleana
+   - Datos booleanos son datos que sólo pueden tener uno de dos valores: o True o False.
+   - No debe entrecomillar los valores booleanos.
+   - Al ejecutar el siguiente código, se muestra el valor booleano de True:
+   - [File example](./resources/code/modulo-01_03-013.py)
+   - También puede devolver un valor booleano comparando números.
+   - Como 9 no es mayor que 10, este código evalúa a False:
+   - [File example](./resources/code/modulo-01_03-014.py)
+
+- Tipos de datos adicionales
+   - En este curso, trabajará con los tipos de datos Cadena, Lista, Enteros, Flotantes y Booleanos, pero existen otros tipos de datos.
+   - Estos tipos de datos adicionales incluyen los datos de tupla, los datos de diccionario y los Datos de conjunto.
+   - Tupla
+      - Los datos de tupla son una estructura de datos que consiste en una colección de datos que no pueden modificarse.
+      - Al igual que las listas, las tuplas pueden contener elementos de distintos tipos de datos.
+      - Una diferencia entre los datos de tupla y los datos de lista es que es posible cambiar los elementos de una lista, pero no es posible cambiar los elementos de una tupla.
+      - Esto podría ser útil en un contexto de ciberseguridad.
+      - Por ejemplo, si los identificadores de software se almacenan en una tupla para garantizar que no se alterarán, esto puede proporcionar la seguridad de que una lista de control de acceso sólo bloqueará el software previsto.
+      - La sintaxis de una tupla también es diferente de la de una lista.
+      - Una tupla se coloca entre paréntesis en lugar de entre corchetes.
+      - Todos estos son ejemplos del tipo de datos de tupla:
+         - ("wjaffrey", "arutley", "dkot")
+         - (46, 2, 13, 2, 8, 0, 0)
+         - (True, False, True, True)
+         - ("wjaffrey", 13, True)
+      - Las tuplas son más eficientes en memoria que las listas, por lo que resultan útiles cuando se trabaja con una gran cantidad de datos.
+   - Diccionario
+      - Los datos de diccionario son datos que constan de uno o más pares clave-valor.
+      - Cada clave se asigna a un valor.
+      - Entre la clave y el valor se colocan dos puntos (:).
+      - Las comas separan los pares clave-valor de otros pares clave-valor, y el diccionario se coloca entre llaves ({}).
+      - Los diccionarios son útiles cuando se desea almacenar y recuperar datos de forma predecible.
+      - Por ejemplo, el siguiente diccionario asigna el nombre de un edificio a un número.
+      - El nombre del edificio es el valor y el número es la clave.
+      - Después de la clave se colocan dos puntos.
+          - { 1: "East", 2: "West", 3: "North", 4: "South" }
+   - Conjunto
+      - En Python, los Datos de conjunto son datos que consisten en una colección desordenada de valores únicos.
+      - Esto significa que no puede haber dos valores iguales en un conjunto.
+      - Los elementos de un conjunto se colocan siempre entre llaves y se separan por una coma.
+      - Estos elementos pueden ser de cualquier Tipo de datos.
+      - Este ejemplo de conjunto contiene cadenas de nombres de usuario:
+         - {"jlanksy", "drosas", "nmason"}
