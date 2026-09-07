@@ -253,3 +253,13 @@
    - For your final task, you'll combine all the print() statements you've encountered and written in this lab up to this point, into one code cell.
    - Complete the following code with the remaining messages.
    - Be sure to replace each ### YOUR CODE HERE ### with your own code before running the following cell.
+   - [file](./resources/code/lab_01/task_7.py)
+   - What do you observe about the output after you ran the cell above?
+      > The output displays the following strings:
+      > Hello world!
+      > I am using Python.
+      > I am a security analyst.
+      > Python is useful for security!
+
+- What are your key takeaways from this lab?
+   > This lab helped me get familiar with working in a notebook environment, writing code comments in Python, and displaying strings with the print() function.
