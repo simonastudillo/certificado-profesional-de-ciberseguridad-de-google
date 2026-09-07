@@ -191,3 +191,89 @@
       - Estos elementos pueden ser de cualquier Tipo de datos.
       - Este ejemplo de conjunto contiene cadenas de nombres de usuario:
          - {"jlanksy", "drosas", "nmason"}
+
+---
+
+## Trabajar con variables en Python
+- ​Anteriormente, hemos comparado los tipos de datos con ​las categorías que tenemos para ​los distintos ingredientes que utilizamos al cocinar, ​como las verduras o la carne.
+- ​Algunas de estas categorías que utilizamos para ​los tipos de datos son la cadena, ​el flotante, el entero, ​el booleano y la lista.
+- ​Ahora, hagamos ​otra comparación.
+- Cuando trabajamos en la cocina, ​también utilizamos recipientes de almacenamiento.
+- ​Estos recipientes pueden contener muchas cosas diferentes.
+- ​Después de una comida, un recipiente podría contener arroz, ​y después de otra, podría ​contener algo diferente, como pasta.
+- ​De forma similar, en Python, tenemos variables.
+- ​Una variable es un recipiente que almacena Datos.
+- ​Para crear una variable, ​necesita un nombre para ella.
+- A continuación, se añade un signo igual ​y luego un objeto para almacenar en ella.
+- ​Crear una variable se denomina a menudo asignación.
+- ​La mejor práctica para nombrar variables es hacer que ​los nombres sean relevantes para lo que se están utilizando.
+- ​Utilicemos una variable para almacenar el ID de un dispositivo.
+- ​Nombraremos a nuestra variable ID_dispositivo, añadiremos ​el signo igual y, a continuación, le asignaremos un valor de h32rb17.
+- ​Como el tipo de datos de esta variable es una cadena, ​colocaremos ese valor entre ​comillas.
+- Vamos a ejecutar el código.
+- ​Nuestra variable está ahora guardada en Python.
+- [file example](./resources/code/modulo_01-03-015.py)
+- ​El propósito de crear variables ​es utilizarlas más adelante en el código.
+- ​Usar variables también puede denominarse "llamarlas".
+- ​Para llamar a una variable, se escribe su nombre.
+- ​Esto le dice a Python que utilice ​el objeto que contiene la variable.
+- ​Añadamos al código que acabamos de ​escribir y llamamos a una variable.
+- ​Hagamos que imprima la variable.
+- ​Para ello, utilizamos la función print y ​le pedimos que imprima el valor ​almacenado en la variable ID del dispositivo.
+- ​Cuando usamos una variable en nuestra función print, ​no usamos comillas.
+- ​Esta vez, cuando la ejecutamos, ocurre algo.
+- ​Python imprime h32rb17 en la pantalla.
+- ​Añadamos una línea más de ​código para demostrar la diferencia ​entre imprimir una variable e imprimir una cadena.
+- ​Le pediremos a Python que imprima ​una cadena que contenga otro ID de dispositivo: ​m50pi31.
+- ​Debido a que se trata de datos de cadena y no de una variable, ​lo colocamos entre comillas.
+- ​Ahora, ejecutemos el código y veamos los resultados.
+- ​Ejecuta ambas sentencias print.
+- ​La primera lee la variable e imprime ​el valor que contiene: h32rb17.
+- ​Y la segunda lee la cadena especificada e imprime m50pi31.
+- ​Pero si pudiéramos utilizar la cadena directamente, ​¿por qué necesitamos variables?
+- ​Bueno, a menudo utilizamos ​variables para simplificar nuestro código o hacerlo ​más limpio y fácil de leer.
+- ​O si necesitáramos una cadena o un número muy largos, ​almacenarlos en una variable nos permitiría utilizarlos ​en todo nuestro código sin tener que escribirlos todos.
+- ​En el ejemplo anterior, ​la variable almacenaba datos de cadena, pero ​las variables pueden almacenar una gran variedad de tipos de datos.
+- ​Las variables tienen el tipo de datos ​del objeto que las almacena en ese momento.
+- ​Si no está seguro de ​el tipo de datos almacenado dentro de una variable, ​puede utilizar la función de tipo.
+- ​La función de tipo es ​una función que devuelve el tipo de datos de su entrada.
+- ​Utilicemos la función de tipo en Python.
+- ​Empezaremos creando ​nuestra variable.
+- Después, ​añadiremos una línea de código que incluya la función type.
+- ​Esta línea pide a Python que nos diga el tipo de datos de ​la variable ID del dispositivo ​y que lo asigne a una nueva variable llamada data_type.
+- ​Después de esto, podemos ​imprimir la variable data_type en la pantalla.
+- ​¡Perfecto! Python nos dice ​que el valor que ID de dispositivo contiene una cadena.
+- ​Cuando se trabaja con variables, ​es importante no perder de vista sus tipos de datos.
+- [file example](./resources/code/modulo_01-03-016.py)
+- ​Si no lo hace, podría obtener un error de tipo.
+- ​Un error de tipo es ​un error que resulta de usar un tipo de datos incorrecto.
+- ​Por ejemplo, si intenta sumar un número y una cadena, ​obtendrá un error de tipo ​porque Python no puede combinar ​esos dos tipos de datos juntos.
+- ​Sólo puede sumar dos cadenas o dos números.
+- ​Vamos a demostrar un error de tipo.
+- ​Primero, reutilizaremos ​nuestra variable de ID de dispositivo que almacena un valor de cadena.
+- ​Después, definiremos otra variable ​llamada número y le asignaremos un valor entero.
+- ​Añadamos una sentencia print que muestre la suma de ​estas variables y, a continuación, ejecutamos esto.
+- ​Acabamos con un error ​porque no podemos sumar una cadena a un número.
+- [file example](./resources/code/modulo_01_03-017.py)
+- ​Vamos a tratar un tema más relacionado con las variables.
+- ​Antes hemos mencionado que las variables son como contenedores.
+- ​Lo que contienen puede cambiar.
+- ​Después de definir una variable, ​siempre podemos cambiar el objeto que contiene.
+- ​Esto se llama reasignación.
+- ​Reasignar una variable es muy ​similar a asignarla en primer lugar.
+- ​Probemos esto y reasignemos una variable.
+- ​Empezaremos asignando la misma cadena de ​h32rb17 a nuestra variable device_ID.
+- ​Incluiremos también una línea ​de programación para imprimir esta variable.
+- ​Ahora, probemos a reasignar la variable.
+- ​Escribimos el nombre de esta variable, añadimos un signo igual, ​y, a continuación, añadimos el nuevo objeto.
+- ​En este caso, utilizaremos la cadena ​n73ab07 como el nuevo ID del dispositivo.
+- ​También pediremos a Python que imprima la variable de nuevo.
+- ​Veamos qué ocurre cuando ejecutamos esto.
+- ​Python imprime dos líneas de salida.
+- ​La primera sentencia print vino antes de la reasignación, ​así que primero imprime la cadena de h32rb17.
+- ​Pero la segunda sentencia print vino después de que cambiara.
+- ​Por eso la segunda salida a la pantalla ​es la cadena n73ab07.
+- ​Con este código, hemos reasignado una variable ​con un valor de cadena a otro valor de cadena, ​pero también es posible reasignar ​una variable a un valor de otro tipo de datos.
+- Por ejemplo, podemos reasignar una variable ​con un valor de cadena a un valor entero.
+- ​Las variables son una parte esencial de ​Python, y a medida que avancemos en este curso, ​nos iremos familiarizando con ellas.
+- [file example](./resources/code/modulo_01_03-018.py)

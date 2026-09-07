@@ -18,3 +18,10 @@
    - [ ] Flotante
    - [ ] Cadena
 > El tipo de datos booleanos sólo puede tener un valor de True o False. Los Datos booleanos son datos que sólo pueden tener uno de dos valores: o True o False.
+
+- ¿Cuál de las siguientes líneas de programación asigna a la variable username un valor de "jrafael"?
+   - [ ] "jrafael" = username
+   - [x] username = "jrafael"
+   - [ ] print(username, "jrafael")
+   - [ ] print("jrafael", username)
+> El código username = "jrafael" asigna a la variable username un valor de "jrafael". La sintaxis para asignar una variable requiere un nombre para la variable, a continuación un signo igual (=) y, por último, el valor para la variable. 
