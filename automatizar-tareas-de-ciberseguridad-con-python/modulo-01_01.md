@@ -64,3 +64,33 @@
       - Se te introducirá en la apertura y lectura de archivos.
       - A continuación, aprenderás a analizar archivos y estructurar su contenido.
       - Por último, te centrarás en estrategias para depurar código.
+
+---
+
+## Ángel: Mi trayectoria profesional personal
+- ​Me llamo Ángel y soy ingeniero de seguridad en Google.
+- ​Hubo varias cosas en ​mi vida que me llevaron a Seguridad.
+- ​Una de ellas fue definitivamente la ​curiosidad cuando era pequeño.
+- ​Mis padres son contadores, por lo que tenían ​calculadoras de bolsillo y lápices y bolígrafos mecánicos.
+- ​Y siempre los rompía y ​separaba pedazos e ​intentaba averiguar cómo funcionaban.
+- ​Esto me llevó a la tecnología en general, ​y volví a aplicar el mismo concepto: ​tratar de averiguar cómo ​funcionan las cosas y descifrarlas.
+- ​Eso es básicamente lo que intenta hacer la seguridad: ​romper cosas para averiguar si ​alguien más puede o no romperlas antes que tú.
+- ​Empecé como ingeniero de redes.
+- ​Se trataba de configurar firewalls, ​configurar conmutadores y enrutadores para diferentes empresas.
+- ​Quería unirme a la ciberseguridad principalmente porque me sentía ​muy motivada por las cosas ​que estaban sucediendo en la industria.
+- ​Proyecto Aurora fue el ​hackeo de Google por un actor extranjero.
+- ​Estaba leyendo esto y pensaba ​: «Ojalá pudiera trabajar con ​las personas que están trabajando en esto en primera línea».
+- ​Cuando estaba empezando a ​dedicarme a la ciberseguridad y quería dar un salto en mi carrera, ​qué quería aprender, dónde tenía que estar.
+- ​Un ejemplo es la automatización del aprendizaje a través de Python.
+- ​Tomé clases en línea, ​obtuve certificaciones (certificaciones de seguridad, ​muy populares) y ​luego empecé a ​incorporar algunos de estos aspectos en mi trabajo actual.
+- ​Cuando me mudé de México a EE. UU. para trabajar aquí, ​tuve que aprender a ser flexible.
+- ​Tienes que aprender cosas nuevas ​para avanzar en tu carrera.
+- ​A veces, incluso tienes que aprender ​cosas nuevas solo para quedarte en el mismo lugar en el que estás.
+- ​En cuanto a la seguridad, creo que en toda la tecnología, ​pero especialmente en la seguridad, ​hay que reinventarse constantemente, ​seguir aprendiendo cómo funcionan las cosas ​y cómo se puede ayudar a la industria.
+- ​Una habilidad importante a lo largo de mi vida y en mi carrera ​como profesional de ciberseguridad es la resiliencia.
+- ​Aprendí mucho sobre la resiliencia cuando me mudé aquí a ​los EE. UU. y las cosas no salieron como esperaba, ​y tengo que seguir probando ​cosas nuevas y esperar lo mejor.
+- ​Y eso no es realmente diferente ​de lo que hacemos como profesionales de Seguridad.
+- ​Hacemos esto en el día a día.
+- ​Tenemos que encontrar formas de hacer que las cosas funcionen, ​tenemos que encontrar formas de hacer que ​los proyectos funcionen de la manera que necesitamos, ​o tenemos que encontrar formas de superar un problema.
+- ​Necesitamos más profesionales en ​ciberseguridad con diferentes antecedentes, ​y eso significa diferentes experiencias, ​diferentes formas de ver las cosas, ​diferentes formas de abordar y resolver los problemas.
+- ​Necesitamos más personas como usted en esta industria. 
