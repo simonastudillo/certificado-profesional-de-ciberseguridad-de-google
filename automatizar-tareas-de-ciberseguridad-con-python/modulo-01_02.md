@@ -263,3 +263,14 @@
 
 - What are your key takeaways from this lab?
    > This lab helped me get familiar with working in a notebook environment, writing code comments in Python, and displaying strings with the print() function.
+
+---
+
+## Ejemplar: Practicar la escritura de código Python
+- Mismo laboratorio que el anterior.
+- Conclusion
+   - It's helpful to use code comments to document the decisions you make as you code.
+   - Code comments are ignored by computers; they're read by you and your team to understand the intentions behind the code.
+   - You can write comments in Python using the hash symbol (#).
+   - You can use print() in Python to display information to the screen.
+      - When you use print() to display a string, the quotes around the string do not appear in the output on the screen.
