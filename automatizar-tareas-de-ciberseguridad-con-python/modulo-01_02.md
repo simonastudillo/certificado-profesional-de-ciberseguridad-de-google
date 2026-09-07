@@ -93,3 +93,37 @@
       - Detección de intrusiones
       - Cumplimiento normativo
       - Escaneado de redes
+
+---
+
+## Crear una secuencia de comandos de Python básica
+- ​​Cuando trabajamos en Python, ​nos referimos a lo que escribimos como un "script" o un "programa".
+- ​Existen sutiles diferencias entre ambos.
+- ​Comparemos un programa de ordenador ​con una representación teatral.
+- ​Casi todas las representaciones teatrales ​incluyen un script escrito.
+- ​Los actores estudian y memorizan ​un script para decirlo en voz alta al público.
+- ​Sin embargo, ése no es el único componente.
+- ​También está la representación en su conjunto.
+- ​Los directores toman decisiones sobre qué iluminación ​utilizar, o el vestuario, o el aspecto del escenario.
+- ​La representación en su conjunto ​implica muchas decisiones de diseño, ​como la escenografía, la iluminación y el vestuario.
+- ​El proceso de creación de esta producción es ​similar al proceso de programación en Python.
+- ​La programación implica muchas decisiones de diseño.
+- ​Pero el proceso de escritura de secuencias de comandos en Python es más parecido a ​escribir las palabras concretas que dirán los actores.
+- ​En Python, es una buena práctica empezar con un comentario.
+- ​Un comentario es una nota que los programadores ​hacen sobre la intención que hay detrás de su código.
+- ​Añadamos uno ahora.
+- ​Empezamos con el símbolo hash para indicar que esto es ​un comentario.
+- Y luego añadiremos detalles sobre nuestra intención.
+- ​Aquí vamos a imprimir ​"Hola Python" en la pantalla.
+- ​Bien, ahora vamos a escribir nuestra primera línea de código Python.
+- ​Este código utiliza print. ​Print da salida a un objeto especificado en la pantalla.
+- ​Después de print, ponemos lo que ​queremos dar salida entre paréntesis.
+- ​En este caso, queremos dar salida a la cadena "¡Hola Python!"
+- ​Debemos colocar los datos de la cadena entre comillas.
+- ​Estas comillas son ​sólo un ejemplo de ​sintaxis que encontrará en Python.
+- ​La Sintaxis se refiere a las reglas que determinan ​qué está correctamente estructurado en un lenguaje de programación.
+- ​Y ahora, ejecutaremos este código ​para que la computadora pueda dar salida a la cadena.
+- ​Acaba de ejecutar su primera línea de código.
+- ​Como nuestra sintaxis es correcta, ​la cadena se muestra ahora.
+- ​Ahora que ya tiene experiencia ​escribiendo y ejecutando código en Python, ​estamos listos para discutir ​sus componentes básicos.
+- [Ver código de ejemplo](./resources/code/modulo_01_02-001.py)

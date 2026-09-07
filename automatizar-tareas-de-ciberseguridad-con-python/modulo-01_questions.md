@@ -4,3 +4,10 @@
    - [ ] Python funciona más rápido que otros lenguajes de programación.
    - [x] Los programadores de Python pueden seguir las directrices estándar.
 > Un analista de Seguridad podría elegir Python para automatizar tareas porque puede encontrar mucho apoyo en línea y seguir las directrices estándar. Un analista también podría elegir Python para automatizar tareas porque se parece al lenguaje humano y es fácil de leer.
+
+- ¿Cuál de las siguientes opciones es un Comentario de Python? 
+   - [ ] % Display authorized users
+   - [x] # Print authorized usernames
+   - [ ] print("username")
+   - [ ] "username authorized"
+> `#` Print authorized usernames es un Comentario en Python. Los Comentarios son notas que los programadores hacen sobre la intención que hay detrás de su código, y comienzan con el símbolo `#`. 
