@@ -341,3 +341,109 @@
          - Ejemplos válidos: num_login_attempts, device_id, invalid_usernames
    - Se recomienda utilizar guiones bajos para separar varias palabras en las variables, pero otra convención que puede encontrarse es escribir en mayúscula la primera letra de cada palabra excepto la primera.
    - Ejemplo: loginAttempt
+   
+---
+
+## Actividad: Asignar variables Python
+- Introducción
+   - En este laboratorio, abrirá un entorno de notebook para practicar la asignación de valores a variables en Python.
+   - Se le presentará un escenario de seguridad para que lo explore a lo largo del laboratorio.
+   - Creará variables para realizar un seguimiento de la información relevante para el proceso de inicio de sesión de los usuarios aprobados para iniciar sesión en un dispositivo específico.
+
+- Lo que hará
+   - Asignar variables de varios tipos de datos
+   - Utilizar la función type() para devolver el tipo de datos de una variable
+
+- Scenario
+   - You are a security analyst who is responsible for writing code that will automate analysis of login attempts made to a specific device.
+   - As the first step, you'll need to create variables to keep track of information relevant to the login process.
+   - This information includes the device ID, list of approved usernames, maximum login attempts allowed per user, current login attempts made by a user, and login status.
+   - Throughout this lab, you'll assign these variables and check the data types of the variables.
+
+- Task 1
+   - In your work as an analyst, imagine there is a device only users specified on an allow list can access, and its device ID is "72e08x0".
+   - In the following code cell, assign this value to a variable named device_id.
+   - Then, display the contents of the variable and observe the output.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_01.py)
+
+- Task 2
+   - Now that the variable device_id is defined, you can return its data type.
+   - In this task, use a Python function to find the data type of the variable device_id.
+   - Store the data type in another variable called device_id_type.
+   - Then, display device_id_type to examine the output.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_02.py)
+   - Based on the output above, what do you observe about the data type of device_id?
+   > The data type of device_id is a string, as it contains a sequence of characters enclosed in quotes.
+
+- Task 3
+   - As you continue your work, you're provided a list of usernames of users who are allowed to access the device.
+   - The usernames with this access are "madebowa", "jnguyen", "tbecker", "nhersh", and "redwards".
+   - In this task, create a variable called username_list.
+   - Assign a list with the approved usernames to this variable.
+   - Then, display the value of the username_list variable.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_03.py)
+
+- Task 4
+   - In this task, find the data type of the username_list.
+   - Store the type in a variable called username_list_type.
+   - Then, display username_list_type to examine the output.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_04.py)
+   - Based on the output above, what do you observe about the data type of username_list?
+   > The data type of username_list is a list, as it contains a collection of values enclosed in square brackets.
+
+- Task 5
+   - Now, imagine that you've been informed that the previous list is not up-to-date and that there is another employee that now has access to the device.
+   - You're given the updated list of usernames with access, including the new employee, as follows: "madebowa", "jnguyen", "tbecker", "nhersh", "redwards", and "lpope".
+   - In this task, reassign the variable username_list to the new list. Run the code to display the list before and after it's been updated to observe the difference.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_05.py)
+   - Based on the output above, what do you observe about the contents of username_list?
+   > The contents of username_list have been updated to include the new employee "lpope", reflecting the current list of usernames with access to the device.
+
+- Task 6
+   - In this task, define a variable called max_logins that represents the maximum number of login attempts allowed per user.
+   - Store the value 3 in this variable.
+   - Then, store its data type in another variable called max_logins_type.
+   - Display max_logins_type to examine the output.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_06.py)
+   - Based on the output above, what do you observe about the data type of max_logins?
+   > The data type of max_logins is an integer, as it contains a whole number without any decimal point.
+
+- Task 7
+   - In this task, define a variable called login_attempts that represents the current number of login attempts made by a user.
+   - Store the value 2 in this variable.
+   - Then, store its data type in a variable called login_attempts_type.
+   - Display login_attempts_type to observe the output.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_07.py)
+   - Based on the output above, what do you observe about the data type of login_attempts?
+   > The data type of login_attempts is an integer, as it contains a whole number without any decimal point.
+
+- Task 8
+   - In this task, you'll determine the Boolean value that represents whether the current number of login attempts a user has made is less than or equal to the maximum number of login attempts allowed.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_08.py)
+   - What is the output? What does this mean?
+   > The output is True, which means that the current number of login attempts (2) is less than or equal to the maximum allowed login attempts (3). This indicates that the user has not exceeded the allowed number of login attempts.
+
+- Task 9
+   - This code continues to check for the Boolean value of whether max_logins is less than or equal to login_attempts.
+   - In this task, reassign other values to login_attempts.
+   - For example, you might choose a value that is higher than the maximum number of attempts allowed.
+   - Observe how the output changes.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_09.py)
+   - Based on the different values you assigned to login_attempts, what did you observe about the output?
+   > When login_attempts is assigned a value greater than max_logins, the output changes to False. This indicates that the current number of login attempts has exceeded the maximum allowed, and the user would not be permitted to attempt another login.
+
+- Task 10
+   - Finally, you can also assign a Boolean value of True or False to a variable.
+   - In this task, you'll create a variable called login_status, which is a Boolean that represents whether a user is logged in.
+   - Assign False to this variable and store its data type in a variable called login_status_type and display it.
+
+Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
