@@ -277,7 +277,7 @@
 
 ---
 
-## Akash: Python y el profesional de la ciberseguridadEstado
+## Akash: Python y el profesional de la ciberseguridad
 - Mi nombre es Akash, y trabajo como Ingeniero de Seguridad en Google.
 - ​Como ingeniero de Ciberseguridad, acabarías usando Python la mayor parte de tu carrera.
 - ​Es muy importante que aprendas Python.
