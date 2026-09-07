@@ -94,3 +94,15 @@
 - ​Tenemos que encontrar formas de hacer que las cosas funcionen, ​tenemos que encontrar formas de hacer que ​los proyectos funcionen de la manera que necesitamos, ​o tenemos que encontrar formas de superar un problema.
 - ​Necesitamos más profesionales en ​ciberseguridad con diferentes antecedentes, ​y eso significa diferentes experiencias, ​diferentes formas de ver las cosas, ​diferentes formas de abordar y resolver los problemas.
 - ​Necesitamos más personas como usted en esta industria. 
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
