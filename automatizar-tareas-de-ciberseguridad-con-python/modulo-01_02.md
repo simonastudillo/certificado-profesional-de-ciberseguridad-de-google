@@ -290,3 +290,42 @@
 - ​Mi trabajo como ingeniero de seguridad en Google Chrome consiste en proteger a nuestros Clientes ​de gobiernos extranjeros y de amenazas muy persistentes en todo el mundo.
 - ​Las amenazas son ilimitadas, no tienen límite, y ​eso es lo que hace que la Ciberseguridad sea muy emocionante.
 - ​Así que, siga con ello, es una habilidad esencial que al principio le llevará algún tiempo ​desarrollar pero que le servirá a lo largo de su carrera. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Introducción a la programación Python en ciberseguridad
+
+1. ¿Qué tareas es más probable que automatice un analista de Seguridad con Python? Seleccione tres respuestas
+   - [ ] Abordar un problema inusual de ciberseguridad
+   - [x] Gestionar una Lista de control de acceso
+   - [x] Análisis del Tráfico de red
+   - [x] Ordenación de un archivo de registro
+> Lo más probable es que un analista de seguridad automatice las siguientes tareas con Python: Ordenación de un archivo de registro, Gestionar una Lista de control de acceso y Analizar el Tráfico de red. Python se utiliza más comúnmente en ciberseguridad para automatizar tareas comunes y repetitivas.
+
+2. ¿Cuáles son algunos de los Beneficios de utilizar Python en Seguridad? Seleccione todas las que corresponda
+   - [x] Python puede combinar tareas separadas en un flujo de trabajo.
+   - [x] Python ayuda a automatizar tareas cortas y sencillas.
+   - [x] Python reduce el esfuerzo manual.
+   - [ ] Python es el único lenguaje que crea un conjunto específico de instrucciones para ejecutar tareas.
+> Python reduce el esfuerzo manual necesario para realizar tareas comunes y repetitivas. Ayuda a automatizar tareas cortas y sencillas y puede combinar tareas separadas en un flujo de trabajo. 
+
+3. ¿Cuál de los siguientes bloques de código contiene un comentario de Python válido?
+   - [x] # This prints a "Try again" message
+         print("Try again")
+   - [ ] This prints a "Try again" message
+         print("Try again")
+   - [ ] : This prints a "Try again" message
+         print("Try again")
+   - [ ] comment: This prints a "Try again" message
+         print("Try again")
+> El siguiente bloque de código contiene un Comentario de Python válido:
+> # This prints a "Try again" message
+> print("Try again")
+> Un Comentario es una nota que los programadores hacen sobre la intención detrás de su código. Los comentarios comienzan con el símbolo hash (#).
+
+4. ¿Qué línea de programación muestra en pantalla la cadena "invalid username"?
+   - [x] print("invalid username")
+   - [ ] # print("invalid username")
+   - [ ] print(#invalid username#)
+   - [ ] print(invalid username)
+> El Código print("invalid username") muestra en pantalla la cadena "invalid username". La función print() muestra en pantalla el objeto especificado entre paréntesis. Para dar salida a una cadena, ésta debe ir entre comillas. 
