@@ -274,3 +274,19 @@
    - You can write comments in Python using the hash symbol (#).
    - You can use print() in Python to display information to the screen.
       - When you use print() to display a string, the quotes around the string do not appear in the output on the screen.
+
+---
+
+## Akash: Python y el profesional de la ciberseguridadEstado
+- Mi nombre es Akash, y trabajo como Ingeniero de Seguridad en Google.
+- ​Como ingeniero de Ciberseguridad, acabarías usando Python la mayor parte de tu carrera.
+- ​Es muy importante que aprendas Python.
+- ​Cuando te dediques a la ciberseguridad, ​estarás tratando con millones de Datos y cosas por el estilo, ​lo que te resultará muy difícil de hacer manualmente.
+- ​Entonces, es cuando Python entra en juego para automatizar y escribir secuencias de comandos y ​pequeños programas que serán capaces de hacer lo mismo en una fracción de segundo.
+- ​Aprender Python es súper divertido.
+- Cuando ves cómo diez líneas de código hacen cosas ​como analizar megabytes de datos en cuestión de segundos, puede ser muy satisfactorio.
+- ​Hay un montón de recursos para Python, y un montón de comunidades de código abierto, y ​la gente es muy servicial.
+- ​Mantén la curiosidad y acepta pequeños problemas y ​luego ensúciate las manos haciéndolo y ​no tengas miedo de buscar sintaxis y aprender recursos en línea.
+- ​Mi trabajo como ingeniero de seguridad en Google Chrome consiste en proteger a nuestros Clientes ​de gobiernos extranjeros y de amenazas muy persistentes en todo el mundo.
+- ​Las amenazas son ilimitadas, no tienen límite, y ​eso es lo que hace que la Ciberseguridad sea muy emocionante.
+- ​Así que, siga con ello, es una habilidad esencial que al principio le llevará algún tiempo ​desarrollar pero que le servirá a lo largo de su carrera. 
