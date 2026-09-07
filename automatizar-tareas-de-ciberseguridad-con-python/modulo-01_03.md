@@ -445,5 +445,7 @@
    - Finally, you can also assign a Boolean value of True or False to a variable.
    - In this task, you'll create a variable called login_status, which is a Boolean that represents whether a user is logged in.
    - Assign False to this variable and store its data type in a variable called login_status_type and display it.
-
-Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [File example](./resources/code/lab_02/task_10.py)
+   - Based on the output above, what do you observe about the data type of login_status?
+   > The data type of login_status is a Boolean, as it can only hold one of two values: True or False. In this case, it is assigned the value False, indicating that the user is not logged in.
