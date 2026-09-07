@@ -170,3 +170,10 @@
    - Anteriormente, aprendió que una interfaz de línea de comandos (CLI) es una interfaz de usuario basada en texto que utiliza comandos para interactuar con la computadora.
    - Introduciendo comandos en la línea de comandos, puede acceder a todos los archivos y directorios guardados en su disco duro, incluidos los archivos que contienen el código Python que desea ejecutar.
    - También puede utilizar la línea de comandos para abrir un editor de archivos y crear un nuevo archivo Python.
+
+---
+
+## Consejos de laboratorio y pasos para la solución de problemas
+- Requisito de edad de 18+ para utilizar la plataforma
+- Compatibilidad del navegador: última versión de Google Chrome, Firefox o Microsoft Edge
+- Conexión a Internet
