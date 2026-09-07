@@ -36,3 +36,31 @@
 - ​Y, por último, ​finalizarás el curso con una exploración de cómo poner Python en práctica.
 - ​Aprenderás a abrir y analizar archivos y a depurar código.
 - ​Python es sin duda una habilidad útil para los analistas de Seguridad.
+
+---
+
+## Resumen del curso 7
+- bienvenido a «Automatización de tareas de ciberseguridad con Python», el séptimo curso del Certificado de Ciberseguridad de Google
+- Al finalizar este curso, comprenderás mejor la programación informática en Python y cómo se puede utilizar Python de forma eficaz para automatizar tareas relacionadas con la seguridad.
+- Comenzarás con conceptos fundamentales clave de Python, como los tipos de datos, las variables, las sentencias condicionales y las sentencias iterativas.
+- A continuación, desarrollarás funciones en Python y trabajarás con cadenas de caracteres y listas de datos de diversas formas.
+- Por último, explorarás algoritmos que implican la importación y el análisis de archivos.
+
+- Contenido del curso 7
+   - Módulo 1: Introducción a Python: 
+      - Recibirás una introducción al lenguaje de programación Python y a cómo se utiliza Python en ciberseguridad.
+      - También explorarás conceptos fundamentales de Python, como los tipos de datos, las variables, las sentencias condicionales y las sentencias iterativas.
+   - Módulo 2: Escribir código eficaz en Python
+      - Ampliarás tu capacidad para trabajar con Python.
+      - Aprenderás sobre las funciones de Python predefinidas y definidas por el usuario.
+      - También explorarás cómo los módulos facilitan el acceso a código reutilizable.
+      - Por último, te centrarás en la legibilidad del código.
+   - Módulo 3: Trabajar con cadenas y listas
+      - Aprenderás más opciones para trabajar con cadenas y listas en Python, y descubrirás métodos que se pueden aplicar a estos tipos de datos.
+      - Aplicarás estos conocimientos para escribir un algoritmo breve.
+      - Por último, utilizarás expresiones regulares para buscar patrones en cadenas.
+   - Módulo 4: Python en la práctica  
+      - Pondrás en práctica Python y te centrarás en la automatización de tareas relacionadas con la ciberseguridad.
+      - Se te introducirá en la apertura y lectura de archivos.
+      - A continuación, aprenderás a analizar archivos y estructurar su contenido.
+      - Por último, te centrarás en estrategias para depurar código.
