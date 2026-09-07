@@ -1,0 +1,65 @@
+# Componentes principales de Python
+
+## Tipos de datos en Python
+- ​El siguiente tema se refiere a la categorización de datos en Python.
+- ​En primer lugar, dediquemos un momento a ​considerar otro entorno en el que aplicamos categorías.
+- ​Pensaremos en trabajar en la cocina.
+- ​Al cocinar, podemos clasificar los ingredientes que ​utilizamos; por ejemplo, las zanahorias y los pimientos son verduras, y el ​pollo y la carne de res son carne.
+- ​Estas categorías son importantes ​porque afectan a la forma en que manejamos estos ingredientes.
+- ​Cuando se trabaja en Python, ​los tipos de datos tienen un propósito similar.
+- ​Un tipo de datos es una categoría ​para un tipo concreto de elemento de datos.
+- ​Python usa varios tipos de datos.
+- ​Nos centraremos en los datos de cadenas, flotantes, enteros, booleanos y de listas.
+- ​Cuando imprimimos el texto ​«¡Hola Python!» en nuestro vídeo anterior, ​este era un ejemplo de cadena.
+- ​Datos de cadena son datos que ​consisten en una secuencia ordenada de caracteres.
+- ​Estos caracteres pueden ser letras, ​símbolos, espacios e incluso números.
+- ​Los números del tipo de datos de cadena ​no se pueden usar para los cálculos.
+- ​Todos los caracteres de una cadena ​deben ir entre comillas.
+- ​Por suerte, Python te lo dirá ​enviándote un mensaje de error ​si olvidas las comillas.
+- ​Usemos nuestro código de antes y ​exploremos qué sucede cuando ​dejamos fuera de las comillas.
+- ​Observe cómo ​falta una de nuestras comillas al final de la cadena.
+- ​Cuando ejecutemos este código, ​recibiremos un mensaje de error.
+- [File example](./resources/code/modulo-01_03-001.py)
+- ​Python también admite tipos de datos numéricos.
+- ​Cuando trabajamos con datos numéricos, ​no colocamos comillas alrededor de los datos.
+- ​Datos numéricos incluyen números flotantes y enteros.
+- ​Datos flotantes son ​datos que constan de un número con un punto decimal.
+- ​Esto incluye fracciones como 2.1 o 10.5.
+- ​También incluye números enteros con un ​punto decimal, como 2.0 o 10.0.
+- ​Datos enteros son datos que constan de ​un número que no incluye un punto decimal.
+- ​Los números como 0 ​, -9 y 5000 son números enteros válidos.
+- ​Hasta ahora, hemos usado la función print para generar una cadena.
+- ​Pero también se puede usar con ​tipos flotantes y enteros para los cálculos.
+- ​Vamos a probar un ejemplo de esto.
+- ​En primer lugar, ya que es una buena práctica, ​agreguemos un comentario para explicar el propósito de nuestro código.
+- ​A continuación, le diremos a Python qué debe calcular.
+- ​El resultado nos da la respuesta. ​1 más 1 es 2.
+- ​Podemos usar la impresión con datos flotantes y enteros para ​realizar todo tipo de operaciones matemáticas como la suma, la ​resta, la multiplicación y la división.
+- [File example](./resources/code/modulo-01_03-002.py)
+- ​El tercer tipo de datos en Python se denomina Booleana.
+- ​Datos booleanos son datos que solo pueden tener uno de dos valores: verdadero ​o falso.
+- Los ​valores booleanos son útiles para la lógica de nuestros programas.
+- ​Por ejemplo, comparemos números y ​determinemos los valores Booleanos de estas comparaciones.
+- ​Primero, usaremos la función print para ​evaluar si 10 es menor que 5.
+- ​Luego, también evaluaremos si 9 ​es menor que 12.
+- Entonces, ¿qué opinas? ​10 no es menor que 5, ​pero 9 es menor que 12, ¿verdad?
+- ​Veamos cómo Python maneja esto cuando lo ejecutamos.
+- ​Python está de acuerdo. ​La primera línea de salida nos dice que es ​falso decir que 10 es menor que 5.
+- ​La segunda nos dice que es cierto ​decir que 9 es menor que 12.
+- ​Usaremos más la palabra Booleana cuando ​empecemos a incluir condiciones en nuestro código.
+- [File example](./resources/code/modulo-01_03-003.py)
+- ​Y el último tipo de datos que trataremos son las listas.
+- ​Datos de lista son una estructura de datos que ​consiste en una colección de datos en forma secuencial.
+- ​Crearemos e imprimiremos una lista que ​imprima todos los nombres de usuario de ​las tres personas que ​tienen acceso a un archivo confidencial.
+- ​En primer lugar, agregaremos nuestro comentario ​sobre la intención de imprimir esta lista.
+- ​Después de imprimir la palabra clave, ​agregaremos nuestra lista.
+- ​Tenemos que poner la lista entre corchetes.
+- ​Después de esto, colocamos los elementos individuales de ​la lista entre comillas ​y los separamos con comas.
+- ​Ahora vamos a ejecutar esto.
+- ​Como era de esperar, obtenemos la lista.
+- ​Cuando se imprime, todavía tiene los corchetes.
+- ​Esto es solo el principio de lo que puedes hacer con las listas.
+- ​A medida que vaya adquiriendo conocimientos de Python, ​aprenderá cómo puede acceder a ​los elementos individuales de la lista y editarlos.
+- [File example](./resources/code/modulo-01_03-004.py)
+- Este ​fue un breve resumen de los ​cinco tipos de datos principales en Python: ​cadena, entero, flotante, ​booleana y lista.
+- ​Estos tipos de datos son algunos de ​los más comunes ​con los que trabajarás a medida que avancemos en nuestras lecciones. 

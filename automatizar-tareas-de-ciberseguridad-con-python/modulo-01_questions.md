@@ -11,3 +11,10 @@
    - [ ] print("username")
    - [ ] "username authorized"
 > `#` Print authorized usernames es un Comentario en Python. Los Comentarios son notas que los programadores hacen sobre la intención que hay detrás de su código, y comienzan con el símbolo `#`. 
+
+- ¿Qué tipo de datos sólo puede tener un valor de True o False?
+   - [ ] [ ] Entero
+   - [x] Booleana
+   - [ ] Flotante
+   - [ ] Cadena
+> El tipo de datos booleanos sólo puede tener un valor de True o False. Los Datos booleanos son datos que sólo pueden tener uno de dos valores: o True o False.
