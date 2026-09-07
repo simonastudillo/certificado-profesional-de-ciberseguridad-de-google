@@ -449,3 +449,17 @@
    - [File example](./resources/code/lab_02/task_10.py)
    - Based on the output above, what do you observe about the data type of login_status?
    > The data type of login_status is a Boolean, as it can only hold one of two values: True or False. In this case, it is assigned the value False, indicating that the user is not logged in.
+
+---
+
+## Ejemplar: Asignar variables Python
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - There are many useful operators in Python that help you work with variables.
+      - The = assignment operator allows you to assign or reassign a specific value to a variable.
+      - The <= comparison operator allows you to compare the value of one variable to the value of another.
+   - The type() function in Python helps you to determine the data type of an object.
+      - If you pass in a variable to type(), it will output the data type of the value stored in the variable.
+   - The print() function in Python allows you to display information.
+      - It can take in a value directly, a variable that stores a value, or a comparison between variables that evaluates to a Boolean value.
