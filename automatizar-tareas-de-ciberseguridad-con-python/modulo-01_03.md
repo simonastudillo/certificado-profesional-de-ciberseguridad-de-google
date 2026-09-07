@@ -463,3 +463,52 @@
       - If you pass in a variable to type(), it will output the data type of the value stored in the variable.
    - The print() function in Python allows you to display information.
       - It can take in a value directly, a variable that stores a value, or a comparison between variables that evaluates to a Boolean value.
+
+---
+
+## Ponga a prueba sus Conocimientos: Componentes básicos de Python
+
+1. ¿Cuáles de los siguientes elementos de datos son datos flotantes? Seleccione todos los que correspondan
+   - [x] 15.0
+   - [ ] 8
+   - [x] -2.11
+   - [ ] "5.2"
+> 15.0 y -2.11 son ejemplos de Datos flotantes. Datos flotantes son datos formados por un número con un punto decimal.
+
+2. ¿Qué código muestra el tipo de datos de la variable username?
+   - [ ] username = ["elarson", "bmoreno", "tshah"]
+         data_type = type()
+         print(data_type)
+   - [x] username = ["elarson", "bmoreno", "tshah"]
+         data_type = type(username)
+         print(data_type)
+   - [ ] username = ["elarson", "bmoreno", "tshah"]
+         data_type = username
+         print(data_type)
+   - [ ] username = ["elarson", "bmoreno", "tshah"]
+         type(username) = data_type
+         print(data_type)
+> El tipo de datos de la variable username se muestra en el siguiente código:
+> username = ["elarson", "bmoreno", "tshah"]
+> data_type = type(username)
+> print(data_type)
+> La función type() devuelve el tipo de datos de su entrada. En este caso, esa entrada es la variable username, que contiene una lista. Este tipo de datos se asigna a la variable data_type y se muestra a través de la función print().
+
+3. En el código siguiente, ¿cuál es el tipo de datos de login_success? `login_success = ["success", "success", "fail", "success"]`
+   - [ ] Booleana
+   - [ ] Entero
+   - [ ] Cadena
+   - [x] Lista
+> Lista es el tipo de datos de login_success. Los Datos de lista son una estructura de datos que consiste en una colección de datos en forma secuencial. Las listas se colocan entre paréntesis. 
+
+4. ¿Cuál es el resultado del siguiente código?
+   ```python
+   failed_attempts = 3
+   failed_attempts = 4
+   print(failed_attempts)
+   ```
+   - [ ] 3
+   - [ ] 3, 4
+   - [ ] 7
+   - [x] 4
+> La salida del código es 4. Este código asigna inicialmente el valor de failed_attempts a 3, pero a continuación reasigna el valor de esta variable a 4 antes de imprimirlo. La función print() se coloca a continuación y muestra este valor reasignado de4.
