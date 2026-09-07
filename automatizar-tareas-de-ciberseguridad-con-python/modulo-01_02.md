@@ -16,3 +16,42 @@
 - ​Aprender Python me ayudó ​a tener éxito en mi carrera porque usar ​Python me permite liberar ​tiempo de tareas repetitivas y, en su lugar, ​centrarme en tareas y problemas más desafiantes.
 - ​Aplicar con éxito ​la automatización reduce mi carga de trabajo total, ​aumenta la productividad, ​y reduce el riesgo de errores humanos.
 - ​El uso de la automatización también me permite ​centrarme en mis tareas de ingeniería, ​que requieren más creatividad, ​colaboración y resolución de problemas
+
+---
+
+## Python y la ciberseguridad
+- ​Los profesionales de la Seguridad utilizan una gran variedad de herramientas.
+- ​Una de esas herramientas es la Programación informática.
+- ​La programación se utiliza para crear un conjunto específico de instrucciones para que ​una computadora ejecute tareas.
+- ​Pongamos el ejemplo de una máquina expendedora.
+- ​Piense en una máquina expendedora como una computadora que suministra alimentos o bebidas a los clientes.
+- ​Para recibir un artículo, el cliente introduce el dinero en la máquina y ​a continuación selecciona el artículo que desea.
+- ​Digamos que el cliente proporciona a la máquina un valor de 5 $.
+- ​La máquina almacena este valor mientras usted realiza su selección.
+- ​Si selecciona una chocolatina que cuesta 2 $, ​la máquina toma esta entrada, también conocida como instrucción, ​y entonces entiende que debe dar salida a su chocolatina por 2 $ ​y le proporciona el cambio de 3 $.
+- ​Existen muchos lenguajes de programación.
+- ​Aquí, nos centraremos en Python.
+- ​Python se considera un lenguaje de propósito general.
+- ​Esto significa que puede crear una gran variedad de programas diferentes, y ​no está especializado en ningún problema concreto en campos ​como el desarrollo web y la Inteligencia artificial.
+- ​Python se utiliza normalmente para crear sitios web y realizar análisis de datos.
+- ​En seguridad, la principal razón por la que utilizamos Python es para automatizar nuestras tareas.
+- ​La automatización es el uso de la tecnología para reducir el esfuerzo humano y ​manual para realizar tareas comunes y repetitivas.
+- ​Python es generalmente mejor para automatizar tareas cortas y sencillas.
+- ​Por ejemplo, un analista de seguridad que está tratando un incidente de ​seguridad puede tener un registro con la información necesaria.
+- ​Leerlos manualmente llevaría demasiado tiempo, pero ​Python puede ayudar a ordenarlos para que los analistas puedan encontrar lo que necesitan.
+- ​Como otro ejemplo, un analista podría utilizar Python para gestionar una Lista de control de acceso, ​la lista que controla quién puede acceder al sistema y a sus recursos.
+- ​Sería potencialmente menos coherente si los analistas tuvieran ​que eliminar manualmente el acceso de un empleado cada vez que abandona la empresa.
+- ​Sin embargo, un programa Python puede monitorizar periódicamente esto en su lugar.
+- O bien, ​Python también podría realizar algunas tareas automatizadas, como analizar el Tráfico de red.
+- ​Aunque estas tareas pueden realizarse a través de aplicaciones externas, ​también son posibles a través de Python.
+- ​Además de automatizar tareas individuales, ​Python puede combinar tareas separadas en un flujo de trabajo.
+- ​Por ejemplo, imagine que un Manual de estrategias indica que un analista necesita resolver ​una determinada situación mediante la entrega de un archivo y la posterior notificación a las personas adecuadas.
+- ​Python puede conectar estos procesos entre sí.
+- ​Entonces, ¿por qué exactamente podría un profesional de la Seguridad elegir Python para estas tareas?
+- ​Existen varias ventajas que Python tiene como lenguaje de programación.
+- ​Para empezar, Python es fácil de usar porque se asemeja al lenguaje humano, ​requiere menos código y es fácil de leer.
+- ​Los programadores de Python también tienen la ventaja de seguir unas directrices estándar ​para garantizar la coherencia con el diseño y la legibilidad del código.
+- ​Otra gran razón para ​aprender Python es que hay una gran cantidad de soporte en línea.
+- ​Python también tiene una amplia colección de código incorporado que podemos importar y ​utilizar para realizar muchas tareas diferentes.
+- ​Estas son sólo algunas de las razones por las que Python sigue teniendo una gran demanda ​en diferentes industrias de todo el mundo.
+- ​Es muy probable que lo utilice en su carrera de Seguridad.
