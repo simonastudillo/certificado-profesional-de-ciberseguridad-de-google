@@ -166,6 +166,7 @@
    - Los entornos de desarrollo integrados incluyen una interfaz gráfica de usuario (GUI) que proporciona a los programadores una gran variedad de opciones para personalizar y construir sus programas.
 
 - Línea de comandos
-   - La línea de comandos es otro entorno que le permite ejecutar programas Python. Anteriormente, aprendió que una interfaz de línea de comandos (CLI) es una interfaz de usuario basada en texto que utiliza comandos para interactuar con la computadora.
+   - La línea de comandos es otro entorno que le permite ejecutar programas Python.
+   - Anteriormente, aprendió que una interfaz de línea de comandos (CLI) es una interfaz de usuario basada en texto que utiliza comandos para interactuar con la computadora.
    - Introduciendo comandos en la línea de comandos, puede acceder a todos los archivos y directorios guardados en su disco duro, incluidos los archivos que contienen el código Python que desea ejecutar.
    - También puede utilizar la línea de comandos para abrir un editor de archivos y crear un nuevo archivo Python.
