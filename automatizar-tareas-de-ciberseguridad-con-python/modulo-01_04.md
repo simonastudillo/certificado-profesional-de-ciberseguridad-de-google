@@ -335,3 +335,60 @@
    - Conditional statements allow you to determine whether a specific set of conditions has been met.
    - Comparison operators allow you to compare pairs of values. Specifically, the == operator allows you to determine whether one value is equal to another.
    - Logical operators such as and and or allow you to check more than one condition at a time.
+
+---
+
+## Bucles For
+- Acabamos de aprender sobre ​las declaraciones condicionales y cómo ​se pueden desarrollar para permitir que las computadoras tomen decisiones.
+- ​Pero a veces necesitamos que nuestros programas simplemente ​cuenten o realicen una tarea una y otra vez.
+- ​Cuando se trata de tareas tediosas, ​es normal que los humanos pierdan la concentración y la energía.
+- ​Es en situaciones como estas en las que ​los ordenadores pueden resultar especialmente útiles.
+- ​Una sentencia iterativa es un código ​que ejecuta repetidamente un conjunto de instrucciones.
+- ​Los enunciados iterativos también se denominan «bucles».
+- ​La configuración de un bucle nos permite usar repetidamente ​una línea de código sin tener que escribirla varias veces.
+- ​Antes de analizar la sintaxis, ​ejecutemos un bucle para que puedas experimentar lo que sucede.
+- ​Observe cómo este código imprimió todos los números de la lista ​con una sola declaración de impresión.
+- Eso es un bucle.
+- [file example](./resources/code/modulo-01-04_010.py)
+- ​Hay dos tipos de bucles que exploraremos: ​bucles for y bucles while.
+- ​Acabamos de hacer un bucle y ​seguiremos centrándonos en ellos en este vídeo.
+- ​Más adelante, exploraremos los bucles temporales.
+- for loops, repita el código para una secuencia especificada.
+- ​Un ejemplo de esto sería usar un ​bucle for para imprimir todos los elementos de una lista.
+- ​Los bucles For comienzan con la palabra clave for.
+- ​para señales el principio de un bucle for.
+- ​Al igual que las sentencias condicionales, ​las sentencias iterativas constan de dos partes principales.
+- ​Las partes de un bucle son ​la cabecera del bucle y el cuerpo del bucle.
+- ​Examinemos el bucle for que ​acabamos de ejecutar y usémoslo para explorar estas partes.
+- ​El encabezado del bucle es la línea que contiene ​la palabra clave for y termina con dos puntos.
+- ​Le dice a Python que inicie un bucle.
+- ​Se compone de la palabra clave for, ​una variable de bucle ​y la secuencia por la que se repetirá el bucle.
+- ​La variable loop es una variable que se ​usa para controlar las iteraciones de un bucle.
+- ​La variable loop viene justo después de for. ​Un nombre común es la letra i, ​pero puedes darle cualquier otro nombre que desees.
+- ​En los bucles, esta variable temporal solo se ​usa dentro del bucle y no ​fuera de él en el resto del código.
+- ​La variable loop va seguida ​del operador in y la ​secuencia por la que se iterará el bucle.
+- ​En este ejemplo, esta secuencia es ​una lista que contiene números del uno al cuatro.
+- ​Ejecuta cada uno de estos números a través de una acción específica.
+- ​Debemos recordar poner dos puntos al ​final del encabezado del bucle para introducir este código.
+- ​El cuerpo del bucle hace referencia a ​las líneas indentadas después del encabezado del bucle.
+- ​Esto representa las acciones que ​se repiten mientras el bucle se repite.
+- ​En este caso, imprimirá cada número de la lista: ​primero uno, luego dos, y así sucesivamente.
+- ​Otro uso importante de for ​loops es repetir un proceso específico ​un número determinado de veces.
+- ​Esto se hace ​combinándolo con la función de rango.
+- ​La función de rango genera una secuencia de números.
+- ​Por ejemplo, el rango de ​cero a 10 establece una secuencia que va desde cero ​, uno, dos hasta el número nueve.
+- ​Cuando usamos el rango, ​empezamos a contar desde el número en la primera posición; ​en este caso, cero.
+- ​Luego, cuando alcancemos el número en la segunda posición ​, nos dice dónde detenernos.
+- ​Se excluye ese número.
+- ​En este caso, donde el número es 10, ​la secuencia solo sube hasta nueve.
+- ​Un detalle importante sobre la función de rango ​es que si no proporcionamos un punto de inicio ​, automáticamente comienza desde cero.
+- ​10 representa el punto de parada.
+- ​Como se excluye el punto de parada, ​los números incluidos en la secuencia comienzan en ​cero y terminan en nueve.
+- ​Una secuencia que comience en cero y termine en ​nueve se repetirá 10 veces.
+- ​Vamos a ejecutar un bucle for que ​incorpore la función range.
+- ​Usaremos el rango para pedirle a Python que ​repita una acción 10 veces.
+- ​Luego indicaremos la acción que queremos repetir.
+- ​Esta acción imprime un mensaje de error que ​indica que «no se puede conectar al destino».
+- ​Vamos a ejecutar esto.
+- El uso de un bucle for con ​la función range nos permitió repetir ​el mismo mensaje de error 10 veces, ​en lugar de escribirlo una y otra vez nosotros mismos.
+- [file example](./resources/code/modulo-01_04-011.py)
