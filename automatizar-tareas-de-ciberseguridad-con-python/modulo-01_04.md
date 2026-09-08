@@ -324,3 +324,14 @@
    - In this lab, you practiced writing conditional statements in Python.
    - You wrote code that checked whether a user's operating system required an update.
    - You also wrote code that checked whether a user was approved to log in to a device and whether they logged in during organization hours.
+
+---
+
+## Ejemplo: Crear una Sentencia condicional
+- Mismo laboratorio que el anterior.
+
+- Conclusion
+   - Conditional statements, comparison operators, and logical operators play a major role in automating important processes to maintain security, such as detecting when a user's operating system requires updates and detecting when a user is allowed to access a device.
+   - Conditional statements allow you to determine whether a specific set of conditions has been met.
+   - Comparison operators allow you to compare pairs of values. Specifically, the == operator allows you to determine whether one value is equal to another.
+   - Logical operators such as and and or allow you to check more than one condition at a time.
