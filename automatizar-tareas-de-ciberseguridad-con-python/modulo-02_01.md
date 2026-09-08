@@ -229,3 +229,16 @@
    - String concatenation allows you to combine multiple strings into one, and adding separators like commas and spaces improves readability when displaying lists of items.
    - This technique is particularly useful when dealing with lists of data that need to be presented in a human-readable format.
    - Remember to always consider readability when displaying concatenated strings, especially when dealing with lists of items.
+
+---
+
+## Ejemplo: Definir y llamar a una función
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Python allows you to define and call functions that you create.
+   - The main components of a function definition header include the function header and the function body.
+   - The function header includes the def keyword, followed by the name of the function, followed by parantheses, followed by a colon.
+   - The function body includese an indented block of code that instructs the computer on what to do when the function is called.
+   - String concatenation involves using the addition operator (+) to combine multiple strings together.
+   - One use case for string concatenation is combining the strings from a list into one large string.
