@@ -724,3 +724,62 @@ for i in name:
       - The < comparison operator allows you to check whether one value is less than another.
       - The <= comparison operator allows you to check whether one value is less than or equal to another.
       - The == comparison operator allows you to check whether one value is equal to another.
+
+---
+
+## Ponga a prueba sus Conocimientos: Sentencias condicionales e iterativas
+
+1. ¿Qué mostrará el siguiente Código?
+```python
+ip_address = "192.168.183.51"
+if ip_address == "192.168.183.51":
+   print("You're logged in.")
+else:
+   print("Login failed, try again.")
+```
+   - [x] "You're logged in."
+   - [ ] Nada
+   - [ ] Tanto "You're logged in." como "Login failed, try again."
+   - [ ] "Login failed, try again."
+> El código mostrará "You're logged in." La condición en la sentencia if requiere que la variable ip_address contenga un valor de "192.168.183.51". Dado que esta condición se evalúa a True, Python ejecutará la acción especificada en el cuerpo de la sentencia if. En este caso, mostrará el mensaje "You're logged in." La acción especificada en el cuerpo de la sentencia else sólo se ejecutará cuando la condición en la sentencia if se evalúe a False, por lo que no imprimirá "Login failed, try again."
+
+2. ¿Qué sentencia condicional imprime el mensaje "account locked" cuando el valor de failed_logins es 3 o superior? 
+   - [ ] if failed_login_count == 3:
+            print("account locked")
+   - [ ] if failed_login_count != 3:
+            print("account locked")
+   - [x] if failed_logins >= 3:
+            print("account locked")
+   - [ ] if failed_login_count > 3:
+            print("account locked")
+> La siguiente sentencia condicional imprime el mensaje "account locked" cuando el valor de failed_logins es 3 o superior:
+> if failed_logins >= 3:
+>  print("account locked") 
+> Esta condición comprueba si a failed_logins se le asigna un valor mayor o igual que 3. El Operador >= representa mayor o igual que. Cuando se cumple esta condición, el cuerpo imprime el mensaje "account locked".
+
+3. ¿Qué código imprime todos los números de 3 a 7?
+   - [ ] for i in range(3, 4, 5, 6, 7):
+            print(i)
+   - [ ] for i in range(3, 7):
+            print(i)
+   - [x] for i in range(3, 8):
+            print(i)
+   - [ ] for i in range(8):
+            print(i)
+> El siguiente código imprime todos los números desde 3 hasta 7:
+> for i in range(3, 8):
+>    print(i)
+> La función range() genera una secuencia de números. Con range(3, 8), la secuencia comenzará en 3 y terminará en 7. Esto se debe a que el número de la primera posición, 3, se incluye en la secuencia, pero el número de la segunda posición, 8, se excluye. 
+
+4. ¿Cuántas veces imprime el siguiente código el mensaje de "alerta de Seguridad"?
+```python
+count = 0
+while count < 10:
+   print("security alert")
+   count = count + 1
+```
+   - [ ] 0
+   - [ ] 9
+   - [x] 10
+   - [ ] 5
+> Este código imprimirá "security alert" diez veces. Esto se debe a que a la variable count se le asigna un valor inicial de 0. Luego se incrementa en 1 con cada iteración del Bucle hasta que la condición le ordena detenerse en 10.
