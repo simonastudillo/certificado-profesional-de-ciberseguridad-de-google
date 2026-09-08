@@ -12,3 +12,7 @@
 - ​Por último, trabajamos con sentencias iterativas y ​analizamos los dos tipos de bucles: bucles for y while.
 - ​Utilizará este conocimiento a medida que avance en este curso y ​en su carrera como analista de Seguridad.
 - ​En la siguiente sección, exploraremos otros componentes importantes de Python, ​incluidas las funciones.
+
+---
+
+## Guía de referencia: Conceptos de Python del Módulo 1
