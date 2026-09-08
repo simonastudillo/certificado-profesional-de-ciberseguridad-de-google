@@ -349,7 +349,7 @@
 - ​Antes de analizar la sintaxis, ​ejecutemos un bucle para que puedas experimentar lo que sucede.
 - ​Observe cómo este código imprimió todos los números de la lista ​con una sola declaración de impresión.
 - Eso es un bucle.
-- [file example](./resources/code/modulo-01-04_010.py)
+- [file example](./resources/code/modulo-01_04_010.py)
 - ​Hay dos tipos de bucles que exploraremos: ​bucles for y bucles while.
 - ​Acabamos de hacer un bucle y ​seguiremos centrándonos en ellos en este vídeo.
 - ​Más adelante, exploraremos los bucles temporales.
@@ -392,3 +392,62 @@
 - ​Vamos a ejecutar esto.
 - El uso de un bucle for con ​la función range nos permitió repetir ​el mismo mensaje de error 10 veces, ​en lugar de escribirlo una y otra vez nosotros mismos.
 - [file example](./resources/code/modulo-01_04-011.py)
+
+---
+
+## Bucles while
+- ​Anteriormente, introdujimos las sentencias iterativas ​en Python y nos centramos en los bucles for.
+- ​Una sentencia iterativa es código que ​ejecuta repetidamente un conjunto de instrucciones.
+- ​Cuando utilizábamos bucles for, ​el código se ejecutaba repetidamente ​basándose en una secuencia especificada.
+- ​Los bucles while siguen ejecutándose repetidamente, ​pero esta repetición se basa en una condición.
+- ​Mientras la condición sea verdadera, ​el bucle continúa ejecutándose.
+- ​Pero cuando se convierte en falsa, ​el bucle while se detiene.
+- ​Este bucle while, por ejemplo, ​establece una condición en la que la variable tiempo ​debe ser menor o igual que 10.
+- ​Esto significa que seguirá ejecutándose ​hasta que la variable tiempo sea mayor que 10.
+- ​De forma similar al bucle for, ​un bucle while tiene un encabezado.
+- ​Está formado por la palabra clave ​while, la condición y dos puntos.
+- ​El bucle while comienza con la palabra clave while.
+- ​La palabra clave while señala el comienzo de un bucle while ​y va seguida de la condición que se evalúa a ​un valor booleano de Verdadero o Falso.
+- ​La condición contiene la variable de bucle.
+- ​Esta variable se utiliza para ​controlar el número de iteraciones del bucle.
+- ​Sin embargo, existe una distinción importante en ​las variables utilizadas en los bucles for y while.
+- ​Con los bucles while, la variable no se ​crea dentro de la propia sentencia del bucle.
+- ​Antes de escribir el bucle while, ​debe asignar la variable.
+- ​Entonces podrá hacer referencia a ella en el bucle.
+- ​Cuando la condición que contiene la variable del bucle ​se evalúa a True, el bucle itera.
+- ​Si no lo hace, ​entonces el bucle se detiene.
+- ​Esta condición se evaluará a True mientras ​el tiempo de la variable sea menor o igual a 10.
+- ​Finalmente, la cabecera del bucle termina con dos puntos.
+- ​Al igual que un bucle for, ​un bucle while tiene un cuerpo indentado que ​consiste en las acciones a tomar mientras el bucle itera.
+- ​La intención de este código es ​imprimir el valor de una variable que representa ​el tiempo e incrementar su valor en ​dos, hasta que sea mayor que 10.
+- ​Esto significa que la primera acción en este bucle while ​es simplemente imprimir ​el valor actual de la variable del tiempo.
+- ​Dado que los bucles while no ​incluyen una secuencia para iterar a través de ellos, ​tenemos que definir explícitamente ​cómo cambia la variable del bucle ​en el cuerpo del bucle while.
+- ​Por ejemplo, en este bucle while, ​aumentamos la variable de bucle ​tiempo en dos en cada iteración.
+- ​Esto se debe a que sólo queremos ​imprimir el tiempo cada dos minutos, ​así que este bucle while imprime todos los ​números pares menores o iguales que 10.
+- [file example](./resources/code/modulo-01_04-012.py)
+- ​Ahora que conocemos los conceptos básicos de los bucles while, ​exploremos un ejemplo práctico.
+- ​Imaginemos que tenemos una limitación sobre ​cuántos dispositivos puede conectar un usuario.
+- ​Podemos utilizar un bucle while para imprimir un mensaje cuando el usuario ​haya alcanzado su número máximo de dispositivos conectados.
+- ​Creemos un bucle while para ello.
+- ​Antes de iniciar nuestro bucle while, ​necesitamos asignar valores a dos variables.
+- ​En primer lugar, estableceremos ​el valor máximo de dispositivos conectados en cinco.
+- ​A continuación, estableceremos nuestra variable de bucle.
+- ​Usaremos i para ello y la estableceremos en un valor de uno.
+- ​A diferencia de lo que ocurre con los bucles for, ​con los bucles while, establecemos ​esta variable fuera del bucle.
+- ​A continuación, crearemos el encabezado de nuestro bucle while.
+- ​En este caso, la condición es que ​la primera variable sea menor que la segunda.
+- ​Estas variables son la variable de bucle "i" y max_dispositivos.
+- ​Como sabemos que el valor de max_dispositivos es cinco, ​podemos entender que este bucle se ejecutará mientras ​el valor actual de "i" sea menor que cinco.
+- ​Entonces indicamos lo que queremos que haga nuestro bucle while.
+- ​Dado que este bucle se ejecuta mientras ​el usuario aún pueda conectarse a dispositivos, ​primero haremos que imprima ​un mensaje de "el usuario aún puede conectarse a dispositivos adicionales".
+- ​Después de esto, con cada iteración, incrementaremos i en uno.
+- ​Cuando el bucle se repita, ​utilizará el nuevo valor de la variable i.
+- ​Python saldrá del bucle cuando ​i ya no sea menor que cinco.
+- ​También imprimiremos un mensaje cuando esto ocurra.
+- ​Dejamos de indentar porque ​esta siguiente acción ocurre fuera del bucle.
+- ​Entonces imprimiremos "el usuario ha ​alcanzado el número máximo de dispositivos conectados."
+- ​Estamos listos para ejecutar esto.
+- ​Debido al bucle, ​el primer mensaje se imprime un total de cuatro veces.
+- ​El bucle se detiene cuando el valor de i aumenta a cinco.
+- ​En este punto, sale ​del bucle e imprime el segundo mensaje.
+- ​Cuando combina esta nueva comprensión de los bucles for y ​while con lo que ya ​sabe sobre sentencias condicionales y variables, ​tiene un montón de opciones en Python.
