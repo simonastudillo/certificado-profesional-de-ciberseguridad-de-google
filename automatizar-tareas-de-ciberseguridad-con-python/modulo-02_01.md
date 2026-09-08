@@ -222,3 +222,10 @@
    - Then, call the function and run the cell to observe the output.
    - Be sure to replace each ### YOUR CODE HERE ### with your own code before running the following cell.
    - [file](./resources/code/lab_05/task_07.py)
+   - What do you notice about the output from the function call this time?
+   > The output displays all the usernames concatenated into a single string, with each username separated by a comma and a space, making it easier to read compared to the previous task.
+
+- Conclusion
+   - String concatenation allows you to combine multiple strings into one, and adding separators like commas and spaces improves readability when displaying lists of items.
+   - This technique is particularly useful when dealing with lists of data that need to be presented in a human-readable format.
+   - Remember to always consider readability when displaying concatenated strings, especially when dealing with lists of items.
