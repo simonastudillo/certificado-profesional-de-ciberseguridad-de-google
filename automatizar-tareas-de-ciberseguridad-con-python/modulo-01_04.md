@@ -711,3 +711,16 @@ for i in name:
    - You wrote code that displayed a message multiple times using both for and while loops.
    - You also wrote code that checked whether an IP address was on an allow list and terminated the loop if it was not.
    - Finally, you wrote code that generated unique employee IDs for a Sales department and displayed a helpful alert when the number of valid IDs remaining reached a certain threshold.
+
+---
+
+## Ejemplar: Crear bucles
+- Mismo laboratorio que el anterior.
+
+- Conclusion
+   - Iterative statements play a major role in automating security-related processes that need to be repeated.
+   - You can use for loops to repeat a process a specified number of times.
+   - You can use while loops to repeat a process until a specified condition has been met. Comparison operators are often used in these conditions.
+      - The < comparison operator allows you to check whether one value is less than another.
+      - The <= comparison operator allows you to check whether one value is less than or equal to another.
+      - The == comparison operator allows you to check whether one value is equal to another.
