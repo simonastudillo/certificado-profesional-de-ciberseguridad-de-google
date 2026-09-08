@@ -1,0 +1,79 @@
+# Sentencias condicionales e iterativas
+
+## Sentencias condicionales en Python
+- La ​automatización es el uso de la tecnología para reducir el ​esfuerzo humano y manual para realizar tareas comunes y repetitivas.
+- ​Permite que las computadoras realicen estas tareas por nosotros para ​que podamos dedicar más tiempo a nuestras vidas a realizar otras actividades.
+- ​Las declaraciones condicionales son importantes para la automatización.
+- ​Una sentencia condicional es una sentencia que evalúa el código ​para determinar si cumple un conjunto específico de condiciones.
+- ​La palabra clave `if` es importante en las declaraciones condicionales.
+- `if` inicia una declaración condicional.
+- Después de esta palabra clave, ​especificamos la condición que debe cumplirse y qué pasará si se cumple.
+- ​Usamos declaraciones `if` todos los días.
+- Por ejemplo, si hace frío afuera, ​usaremos una chaqueta.
+- O si está lloviendo, llevaremos un paraguas.
+- `if` las sentencias están estructuradas con la condición que queremos evaluar y ​la acción que Python realizará si se cumple esta condición.
+- ​Python siempre evalúa si la condición es verdadera o falsa y, ​si es verdadera, realiza la acción específica.
+- ​Exploremos un ejemplo de esto.
+- Daremos instrucciones a Python para que imprima un ​mensaje de «cuenta bloqueada» siempre que los intentos fallidos de inicio de sesión superen más de cinco.
+- Nuestra palabra clave `if` le dice a Python que inicie una declaración condicional.
+- Tras esto, ​indicamos la condición que queremos comprobar.
+- ​En este caso, estamos comprobando si el usuario ha realizado más de cinco intentos fallidos de inicio de sesión.
+- ​Observe cómo utilizamos una variable llamada failed_attempts.
+- ​En nuestro código completo, ​habremos asignado un valor a failed_attempts antes de esta sentencia `if` a.
+- ​Después de esta afección, siempre colocamos un colon.
+- ​Esto indica que lo que sigue es lo que queremos que suceda cuando se cumpla la condición. 
+- ​En este caso, cuando el usuario tiene más de cinco intentos fallidos de inicio de sesión, ​imprime un mensaje que indica que la cuenta está bloqueada.
+- ​En Python, este mensaje siempre debe estar indentado ​en al menos un espacio para que se ejecute solo cuando la condición sea verdadera.
+- ​Es habitual denominar «cabecera» a esta primera línea y ​denominar «cuerpo» a las acciones que se producen cuando se cumple la condición.
+- ​Esta condición se basaba en que una variable era mayor que un número específico, ​pero podemos definir nuestra condición mediante una variedad de operadores.
+- [file example](./resources/code/modulo-01_04-001.py)
+- ​Por ejemplo, también podemos comprobar si algo es «menor que» ​un valor específico, o podemos comprobar si es «mayor que» o ​«igual a» o «menor o igual que» el valor.
+- ​También podemos comparar si algo es igual a un valor.
+- ​Cuando hacemos esto dentro de un condicional, necesitamos usar una sintaxis especial.
+- ​No es solo el signo igual, sino un doble igual.
+- ​El doble signo igual es un operador importante que se utiliza con frecuencia en ​las sentencias condicionales.
+- ​Un valor doble igual evalúa si dos objetos coinciden.
+- ​Asigna un valor Booleano de Verdadero cuando coinciden y Falso cuando no coinciden.
+- ​Hay un operador más del que deberíamos hablar.
+- Un signo de exclamación ​seguido de un signo igual representa la condición de «no igual».
+- ​Este operador de «no igual» evalúa si dos objetos son diferentes.
+- ​Asigna un valor Booleano de ​Verdadero cuando no coinciden y False cuando coinciden.
+- ​Investiguemos más de cerca un ejemplo que usa el doble signo igual.
+- ​Nos centraremos en un ejemplo que imprime un ​mensaje de «se necesitan actualizaciones» cuando se está ejecutando un sistema operativo en particular.
+- ​En este caso, hemos creado una condición que comprueba si el ​sistema operativo de un dispositivo coincide con una cadena específica que identifica este sistema operativo.
+- ​Para ello, necesitaremos usar el doble signo igual en nuestra condición.
+- ​Cuando coincida, nuestro programa imprimirá un mensaje indicando que se necesitan actualizaciones.
+- ​La variable operating_system está a la izquierda del doble signo igual.
+- ​La cadena «OS 2" está a la derecha.
+- ​Si la condición se evalúa como Verdadera, ​realiza la acción que está indentada en la siguiente línea de código.
+- ​Aquí, si el sistema_operativo es OS 2, imprimirá «actualizaciones necesarias».
+- ​Si es False, el mensaje no se imprimirá.
+- ​Observe cómo está indentada esta línea.
+- Esto le indica a Python que ​la tarea depende de que la sentencia if se evalúe como True.
+- [File example](./resources/code/modulo-01_04-002.py)
+- ​Ahora escribamos un código que incorpore este condicional y obtengamos los resultados.
+- ​Antes de escribir la sentencia condicional, ​necesitamos asignar un valor a la variable de nuestro sistema operativo.
+- ​Haremos que este valor sea el mismo que el del sistema operativo que comprobaremos ​en el condicional.
+- ​A continuación, escribiremos la condición de nuestra sentencia if y usaremos el doble ​signo igual para comprobar si la variable operating_system es equivalente a OS 2.
+- ​Ahora escribiremos la acción que ejecutaremos si la condición de la ​línea anterior se evalúa como Verdadera.
+- Le ​diremos a Python que imprima un mensaje de «se necesitan actualizaciones».
+- ​Como configuramos nuestra variable operating_system en OS 2, se ejecutará la sentencia print.
+- ​Vale, vamos a ejecutar esto.
+- ​Como era de esperar, imprimió «actualizaciones necesarias» porque el valor ​asignado a la variable operating_system era igual a OS 2.
+- [File example](./resources/code/modulo-01_04-002.py)
+- ​A veces, queremos que nuestras sentencias condicionales ejecuten otro ​conjunto de instrucciones en caso de que nuestra primera condición no sea verdadera.
+- ​En nuestro ejemplo, si no ​es True significa que el dispositivo ejecuta un sistema operativo que no es OS 2.
+- ​Aquí es cuando necesitamos incorporar ​la palabra clave else en nuestras declaraciones condicionales.
+- ​else precede a una sección de código que solo se evalúa cuando todas las condiciones que ​lo preceden en la declaración condicional se evalúan como False.
+- ​las sentencias else siempre van seguidas de una sentencia if y terminan en dos puntos.
+- ​Usemos nuestro condicional anterior y agreguemos una sentencia else.
+- ​Hemos incluido la misma sentencia if, ​pero esta vez configuramos la variable del sistema operativo ​para que contenga un sistema operativo diferente, OS 3.
+- ​Como no coincide con el valor de la condición de la ​instrucción if, el mensaje «se necesitan actualizaciones» no se imprimirá.
+- ​Pero podemos añadir una declaración diferente y decirle que haga otra cosa en su lugar.
+- ​Escribimos la palabra clave else seguida de dos puntos.
+- A continuación, hacemos una sangría en la siguiente línea ​y le pedimos que imprima el mensaje «no se necesitan actualizaciones».
+- ​Cuando ejecutamos este código, procesa la sentencia else después de la sentencia if.
+- ​Como nuestra sentencia if se evaluará como ​False, pasará a la instrucción «else».
+- ​Vamos a intentarlo.
+- ​Como era de esperar, solo imprime el mensaje «no se necesitan actualizaciones».
+- [File example](./resources/code/modulo-01_04-002.py)

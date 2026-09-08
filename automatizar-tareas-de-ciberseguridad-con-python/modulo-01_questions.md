@@ -25,3 +25,10 @@
    - [ ] print(username, "jrafael")
    - [ ] print("jrafael", username)
 > El código username = "jrafael" asigna a la variable username un valor de "jrafael". La sintaxis para asignar una variable requiere un nombre para la variable, a continuación un signo igual (=) y, por último, el valor para la variable. 
+
+- ¿Qué operador puede utilizarse en una condición para evaluar si el valor contenido en una variable login_attempts coincide con un valor de 5?
+   - [x] ==
+   - [ ] !=
+   - [ ] >=
+   - [ ] =
+> El operador == evalúa si dos objetos coinciden y puede utilizarse en una condición para evaluar si el valor contenido en una variable de login_attempts coincide con un valor de 5. Esta condición puede colocarse en la cabecera de una sentencia if como if login_attempts == 5.
