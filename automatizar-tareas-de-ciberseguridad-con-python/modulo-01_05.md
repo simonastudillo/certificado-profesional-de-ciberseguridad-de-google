@@ -16,3 +16,8 @@
 ---
 
 ## Guía de referencia: Conceptos de Python del Módulo 1
+
+---
+
+## Términos del glosario del Módulo 1
+- El glosario completo se encuentra [aquí](./README.md#glosario)
