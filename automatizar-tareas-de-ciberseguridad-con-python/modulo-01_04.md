@@ -317,3 +317,10 @@
    - Be sure to replace each ### YOUR CODE HERE ### with your own code before running the following cell.
    - Then run the cell, entering different combinations of information, and observe what happens.
    - [file example](./resources/code/lab_03/task_10.py)
+   - In this setup, what happens when the user trying to log in is an approved user and doing so during organization hours? What happens when the user either is not approved or attempts to log in outside of organization hours?
+   > When the user trying to log in is an approved user and doing so during organization hours, the message "This user has access to this device and logged in during organization hours." is displayed. When the user either is not approved or attempts to log in outside of organization hours, the message "This user does not have access to this device or logged in outside of organization hours." is displayed.
+
+- Conclusion
+   - In this lab, you practiced writing conditional statements in Python.
+   - You wrote code that checked whether a user's operating system required an update.
+   - You also wrote code that checked whether a user was approved to log in to a device and whether they logged in during organization hours.
