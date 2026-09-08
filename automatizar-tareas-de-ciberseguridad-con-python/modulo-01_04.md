@@ -573,3 +573,49 @@
    - Si crea un bucle que no sale, se denomina bucle infinito.
    - En estos casos, debe pulsar CTRL-C o CTRL-Z en su teclado para detener el bucle infinito.
    - Puede que necesite hacer esto cuando ejecute un servicio que procese datos constantemente, como un servidor web.
+
+---
+
+## Identifique: Seleccionar la Sentencia iterativa correcta
+- Identify the iterative statement that prints the desired output. Note that code examples may wrap on your screen.
+
+- You want to print 3 numbers from a list.
+```python
+for i in [8, 9, 10]:
+   print(i)
+```
+
+- You want to print the message “Access denied” 5 times.
+```python
+for i in range(5):
+   print("Access denied")
+```
+
+- You want to print out a sequence of numbers starting at 10 and ending at 30.
+```python
+for i in range(10, 31):
+   print(i)
+```
+
+- You want to print a message that tells the user to “try again” as long as the value of the attempt variable is 5 or less, and you want to increase the value of this variable by 1 each time it passes through the loop.
+```python
+attempt = 1
+while attempt <= 5:
+   print("try again")
+   attempt += 1
+```
+
+- You want to print out the numbers 20, 19, 18, 17, and 16.
+```python
+i = 20
+while i > 15:
+   print(i)
+   i -= 1
+```
+
+- You want to welcome 3 users from a list by their name (for example, “Welcome, Emerick Larson”).
+```python
+name = ["Emerick Larson", "Estrella Ortiz", "Troy Shah"]
+for i in name:
+   print("Welcome, " + i)
+```
