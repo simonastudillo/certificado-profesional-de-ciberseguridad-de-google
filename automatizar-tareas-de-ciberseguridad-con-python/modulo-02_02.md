@@ -43,3 +43,47 @@
 - ​¡Ejecutémosla y demos la bienvenida a Kiara Carter!
 - ​Como acabamos de explorar, utilizar más de un parámetro ​sólo requiere unos pocos ajustes.
 - [file](./resources/code/modulo-02_02-001.py)
+
+---
+
+## Sentencias de retorno
+- ​Anteriormente aprendimos cómo pasar argumentos a una función.
+- ​Podemos hacer más que pasar información a una función.
+- ​¡También podemos enviar información fuera de una!
+- ​Las sentencias de retorno nos permiten hacer esto.
+- ​Una sentencia de retorno es una sentencia Python que se ejecuta dentro de una función y ​envía información de vuelta a la llamada a la función.
+- ​Esta capacidad de enviar información de vuelta desde una función es útil para un ​analista de seguridad de varias maneras.
+- ​Como ejemplo, un analista podría tener una función que comprueba ​si alguien tiene permiso para acceder a un archivo en particular y ​devolverá un valor booleano de "Verdadero" o "Falso" al programa más grande.
+- ​Vamos a explorar otro ejemplo.
+- ​Creemos una función relacionada con el análisis de los intentos de inicio de sesión.
+- ​A partir de la información que toma, esta función calculará ​el porcentaje de intentos fallidos y devolverá este porcentaje.
+- ​El programa podría utilizar esta información de diversas maneras.
+- ​Por ejemplo, podría utilizarse para determinar si se debe bloquear o no una cuenta.
+- ​Así que vamos a empezar y aprender cómo devolver información desde una función.
+- ​Al igual que antes, empezamos definiendo nuestra función.
+- La llamaremos calcular_intentos() ​y estableceremos dos parámetros relacionados con los intentos de inicio de sesión: ​uno para total_intentos y otro para intentos_fallidos.
+- ​A continuación, le diremos a Python lo que queremos que haga esta función.
+- ​Queremos que esta función almacene el porcentaje de intentos fallidos en ​una variable llamada fail_percentage.
+- ​Necesitamos dividir failed_attempts entre total_attempts para obtener este porcentaje.
+- ​Hasta ahora, esto es similar a lo que hemos aprendido anteriormente.
+- Pero ahora, ​vamos a aprender cómo devolver el porcentaje de fallos.
+- ​Para ello, necesitamos utilizar la palabra clave return.
+- ​Return se utiliza para devolver información de una función.
+- ​En nuestro caso, devolveremos el porcentaje que acabamos de calcular.
+- ​Así que después de la palabra clave return, escribiremos fail_percentage.
+- ​Esta es nuestra variable que contiene esta información.
+- ​Ahora, estamos listos para llamar a esta función.
+- Calcularemos el porcentaje para ​un usuario que se ha registrado 4 veces con 2 intentos fallidos.
+- ​Entonces, nuestros argumentos son 4 y 2.
+- ​Cuando ejecutamos esto, la función devuelve el porcentaje de ​intentos fallidos.
+- Es .5, o el 50 por ciento, ​pero en algunos entornos Python, puede que esto no se imprima en pantalla.
+- ​No podemos utilizar la variable específica llamada fail_percentage ​fuera de la función.
+- ​Así que, para utilizar esta información en otra parte del Programa, ​tendríamos que devolver el valor de la función y asignarlo a una nueva variable.
+- ​Vamos a comprobarlo.
+- ​Esta vez, cuando se llama a la función, ​el valor que se devuelve se almacena en una variable llamada porcentaje.
+- ​Entonces, podemos utilizar esta variable en código adicional.
+- ​Por ejemplo, podemos escribir una condicional que compruebe si el porcentaje ​de intentos fallidos es mayor o igual al 50 por ciento.
+- ​Cuando se cumpla esta condición, podemos decirle a Python que imprima un mensaje de "Cuenta bloqueada".
+- ​Ejecutemos este código.
+- ​Y esta vez, el porcentaje no se devuelve a la pantalla.
+- ​En su lugar, obtenemos el mensaje "Cuenta bloqueada".
