@@ -242,3 +242,55 @@
    - The function body includese an indented block of code that instructs the computer on what to do when the function is called.
    - String concatenation involves using the addition operator (+) to combine multiple strings together.
    - One use case for string concatenation is combining the strings from a list into one large string.
+
+---
+
+## Ponga a prueba sus Conocimientos: Introducción a las funciones
+
+1. En Python, ¿qué es una función?
+   - [ ] Una sección de código que contiene un condicional
+   - [ ] Una sección de código que existe directamente en Python 
+   - [x] Una sección de código que puede reutilizarse en un programa
+   - [ ] Una sección de código que contiene una Sentencia iterativa
+> Una función de Python es una sección de código que puede reutilizarse en un programa.
+
+2. ¿Cuál de las siguientes palabras clave es esencial a la hora de definir una función?
+   - [x] def
+   - [ ] while
+   - [ ] for
+   - [ ] if
+> La palabra clave def es esencial a la hora de definir una función. Se coloca antes del nombre de una función para definirla.
+
+3. Desea definir una función que realice una comprobación de estado. ¿Cuál de los siguientes es un Encabezado válido para la definición de la función?
+   - [ ] def status_check
+   - [ ] def status_check()
+   - [ ] def status_check:
+   - [x] def status_check():
+> Un encabezado válido para la definición de la función es def status_check():. Los encabezados deben incluir la palabra clave def, el nombre de la función seguido de paréntesis y dos puntos (:). 
+
+4. Usted es responsable de definir una función alert() que imprima la sentencia "Security issue detected." ¿Cuál de los siguientes bloques de código representa la indentación correcta para definir y luego llamar a la función?
+   - [ ]
+   ```python
+   def alert():
+      print("Security issue detected")
+      alert()
+   ```
+   - [ ] 
+   ```python
+   def alert():
+   print("Security issue detected.")
+   alert()
+   ```
+   - [ ] 
+   ```python
+      def alert():
+   print("Security issue detected.")
+   alert()
+   ```
+   - [x] 
+   ```python
+   def alert():
+      print("Security issue detected.")
+   alert()
+   ```
+> Al definir y luego llamar a una función alert() que imprime la declaración "Security issue detected.", es importante asegurarse de que la indentación sea correcta. La única parte que debe sangrarse es el cuerpo de la definición de la función. En este caso, el cuerpo es la línea con la función print(). 
