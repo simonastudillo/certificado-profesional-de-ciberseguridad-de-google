@@ -1,0 +1,45 @@
+# Trabajar con funciones
+
+## Utilizar parámetros en las funciones
+- ​Anteriormente, definimos y llamamos a nuestra primera función.
+- ​No requería ninguna información de fuera de la función, pero ​otras funciones podrían hacerlo.
+- ​Esto significa que tenemos que hablar sobre el uso de parámetros en las funciones.
+- ​En Python, un parámetro es un objeto que se incluye en la definición de una función para ​utilizarlo en esa función.
+- ​Los parámetros se aceptan en una función a través de los paréntesis después de ​un nombre de función.
+- ​La función que creamos en el último vídeo no acepta ningún parámetro.
+- ​Ahora, volvamos a examinar otra función llamada range() que sí utiliza parámetros.
+- ​Si lo recuerda, la función range() genera una secuencia de ​números desde un punto de inicio hasta el valor anterior al punto de parada.
+- ​Por lo tanto, range() sí incluye parámetros para los índices de inicio y ​parada que aceptan cada uno un valor entero.
+- ​Por ejemplo, podría aceptar los enteros 3 y 7.
+- ​Esto significa que la secuencia que genera irá del 3 al 6.
+- ​En nuestro ejemplo anterior, ​escribimos una función que mostraba un mensaje de bienvenida cuando alguien iniciaba sesión.
+- ​Sería aún más acogedor si incluyéramos el nombre del empleado con ​el mensaje.
+- ​¡Definamos una función con un parámetro para poder saludar a los empleados por su nombre!
+- ​Cuando definamos nuestra función, ​incluiremos el nombre del parámetro del que depende nuestra función.
+- ​Colocamos este parámetro, la variable de nombre, dentro del paréntesis.
+- ​El resto de la sintaxis se mantiene igual.
+- ​Ahora, pasemos a la siguiente línea y hagamos una sangría para ​poder decirle a Python lo que queremos que haga esta función.
+- ​Queremos que imprima un mensaje que dé la bienvenida al empleado utilizando el nombre que se ​ha pasado a la función.
+- ​Incorporar esta variable a nuestra sentencia print requiere algunas consideraciones.
+- ​Al igual que antes, empezamos con el mensaje de bienvenida que queremos imprimir.
+- ​En este caso, sin embargo, ​no vamos a detener nuestro mensaje después de decirles que han iniciado sesión.
+- ​Queremos continuar y añadir el nombre del empleado al mensaje.
+- ​Por eso estamos colocando una coma después de "Ha iniciado sesión" ​y luego añadimos la variable de nombre.
+- ​Como se trata de una variable y no de una cadena específica, ​no la entrecomillamos.
+- ​Ahora que nuestra función está configurada, ​estamos listos para llamarla con el argumento específico que queremos pasar.
+- ​En Python, un argumento son los datos que se introducen en una función cuando se llama a ella.
+- ​Por ejemplo, antes, cuando pasamos 3 y ​7 a la función range(), eran argumentos.
+- ​En nuestro caso, imaginemos que queremos saludar a un empleado llamado Charley Patel.
+- ​Llamamos a nuestra función greet_employee() con este argumento.
+- ​¡Y cuando la ejecutamos, Charley Patel recibe un mensaje de bienvenida personalizado!
+- ​En este ejemplo, sólo tenemos un parámetro en nuestra función.
+- Pero ​podemos tener más.
+- ​Exploremos un ejemplo de esto. ​Tal vez, en lugar de un único parámetro para el nombre, tengamos un parámetro para ​el nombre y un segundo parámetro para el apellido.
+- ​Si es así, tendríamos que ajustar el código de la siguiente manera.
+- ​Primero, cuando definimos la función, ​incluimos ambos parámetros y los separamos con una coma.
+- ​Después, cuando la llamamos, también incluimos dos argumentos.
+- Esta vez saludamos ​a alguien con el nombre de Kiara y con el apellido de Carter.
+- ​También los separamos con una coma.
+- ​¡Ejecutémosla y demos la bienvenida a Kiara Carter!
+- ​Como acabamos de explorar, utilizar más de un parámetro ​sólo requiere unos pocos ajustes.
+- [file](./resources/code/modulo-02_02-001.py)
