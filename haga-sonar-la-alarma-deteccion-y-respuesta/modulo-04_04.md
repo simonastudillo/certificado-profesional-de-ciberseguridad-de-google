@@ -52,11 +52,11 @@
 ## Desafío del módulo 4
 
 1. ¿Cuál de los siguientes se refiere a un registro log de los eventos que se producen en los sistemas de una organización?
-- [x] Fuentes de registro
+- [ ] Fuentes de registro (Incorrecto)
 - [ ] Ocurrencias
-- [ ] Registros
+- [x] Registros
 - [ ] Expedidor de registros (Incorrecto)
-> Incorrecto
+> Correcto
 
 1. ¿Qué detalles contienen los registros? Seleccione todo lo que corresponda
 - [x] Ubicación
@@ -115,11 +115,18 @@ LoginEvent[2021/10/13 10:32:08.958711] auth_session_authenticator.cc:304 Regular
 <111>1 2020-04-12T23:20:50.52Z my.machine.com evntslog - ID01 [user@98274 iut="2" eventSource="Mobile" eventID="24"][Priority@98274 class="low"] Computer A
 ```
 - ¿Qué valor de campo indica el tipo de dispositivo del que procede este Evento?
-- [ ] Mobile
-- [x] my.machine.com
+- [x] Mobile
+- [ ] my.machine.com (Incorrecto)
 - [ ] low
 - [ ] Computer A (Incorrecto)
-> Incorrecto
+> Correcto
+
+3. Rellene el espacio en blanco: Una entrada syslog contiene un encabezado, _____ y un mensaje
+- [ ] eXtensible Markup Language
+- [ ] etiqueta
+- [ ] objeto
+- [x] datos estructurados
+> Correcto
 
 4. Considere el siguiente escenario:
 - Un analista de seguridad de una empresa mediana recibe el encargo de instalar y configurar un Sistema de detección de intrusiones basado en el anfitrión (HIDS) en un ordenador portátil. El analista de Seguridad instala el HIDS y quiere probar si funciona correctamente simulando una actividad maliciosa. El analista de Seguridad ejecuta programas no autorizados en el portátil, que el HIDS detecta con éxito y sobre los que alerta.
@@ -151,6 +158,13 @@ LoginEvent[2021/10/13 10:32:08.958711] auth_session_authenticator.cc:304 Regular
 - [ ] tcp
 > Correcto
 
+5. ¿Cuáles son ejemplos de acciones de reglas comunes que pueden encontrarse en la Firma? Seleccione tres respuestas.
+- [x] Pase
+- [ ] Fluir (Incorrecto)
+- [ ] Alerta
+- [x] Rechace
+> Medio Correcto
+
 6. ¿Qué símbolo se utiliza para indicar un Comentario y se ignora en un fichero de Firma Suricata?
 - [x] #
 - [ ] >
@@ -169,6 +183,13 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 - [ ] 141
 > Correcto
 
+6. ¿Qué opción de regla se utiliza para establecer correspondencias en función de la dirección del tráfico de red?
+- [x] flow
+- [ ] message
+- [ ] content
+- [ ] sid
+> Correcto
+
 7. Rellene el espacio en blanco: Suricata utiliza el formato _____ para la salida de eventos y alertas
 - [ ] HTTP
 - [ ] CEF
@@ -181,6 +202,13 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 - [ ] Firma
 - [ ] Protocolo
 - [x] Telemetría de redes
+> Correcto
+
+7. ¿Cuál es la diferencia entre la telemetría de red y los registros de alertas de red?
+- [ ] La Telemetría de red se emite en formato EVE JSON; los registros de alertas de red se emiten en HTML.
+- [ ] La Telemetría de red es la salida de una Firma; los registros de alerta de red contienen detalles sobre la actividad maliciosa.
+- [ ] Ambos proporcionan información relevante para los analistas de seguridad, pero los registros de alertas de red contienen detalles de las conexiones de red.
+- [x] La Telemetría de red contiene información sobre los flujos de tráfico de red; los registros de alerta de red son la salida de una firma.
 > Correcto
 
 8. Rellene el espacio en blanco: El símbolo del asterisco también se conoce como a(n) _____
@@ -197,6 +225,13 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 - [ ] Lenguaje de procesamiento estructurado
 > Correcto
 
+8. ¿Qué tipo de consulta Splunk busca a través de registros A no estructurados?
+- [ ] Búsqueda UDM
+- [x] Búsqueda de registros en bruto
+- [ ] Búsqueda en el Índice
+- [ ] Búsqueda de referencias
+> Correcto
+
 9. ¿Cuál es el Método para buscar Datos normalizados en Chronicle?
 - [x] Búsqueda UDM
 - [ ] YARA-L
@@ -209,6 +244,13 @@ alert http 167.215.72.95 any -> 156.150.71.141 80 (msg:"GET on wire"; flow:estab
 - [ ] block
 - [ ] metadata.event_type
 - [x] security_result.action
+> Correcto
+
+9. Rellene el espacio en blanco: Chronicle utiliza ______ para definir las reglas de Detección
+- [ ] UDM
+- [ ] SQL
+- [ ] SPL
+- [x] YARA-L
 > Correcto
 
 10. ¿Cuáles son los pasos del proceso SIEM para la recopilación de datos? Seleccione tres respuestas.
