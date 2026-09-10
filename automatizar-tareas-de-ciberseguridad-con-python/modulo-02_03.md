@@ -196,3 +196,21 @@
 
 - Recursos
    - PEP 8 - [Guía de estilo para código Python](https://peps.python.org/pep-0008/): La Guía de estilo PEP 8 contiene todos los Estándares del Código Python. Cuando lea esta guía, es útil utilizar la tabla de contenidos para navegar por los conceptos que aún no ha aprendido.
+
+---
+
+## Dorsa: Utilizar Python de forma eficaz en un equipo de ciberseguridad
+- ​Hola, me llamo Dorsa y soy ingeniera de seguridad.
+- ​Lo que más me gusta de mi trabajo ​es que puedo ver ​diferentes diseños de infraestructuras y sistemas ​a diario.
+- ​Un consejo para las personas que están ​empezando en su profesión de ciberseguridad es que ​es muy importante trabajar de ​forma colaborativa en Python y uno de ​los aspectos clave es ​escuchar los comentarios que proporcionan los miembros de su equipo.
+- ​Python permite muchas formas diferentes ​de acceder a información diferente.
+- ​Cuando compartes ​fragmentos de código de Python entre los miembros de tu equipo, ​el código es más uniforme ​y el proceso de codificación es más eficiente.
+- ​Hace que la base del código sea mucho más ​legible y permite que ​otros ingenieros trabajen en tu código después de ti.
+- ​He visto muchos ejemplos en los que el ​código Python escrito de forma colaborativa ​ha sido útil en la industria.
+- ​Uno de los ejemplos es cuando en Google escribimos ​una base de código escrita de forma colaborativa que permitió ​reducir el proceso de incorporación ​de seis o siete horas a un par de minutos.
+- ​La colaboración fue una parte clave de este proceso porque, de ​lo contrario, ​una sola persona habría tardado muchos años en escribirla.
+- ​Una sola persona no es capaz de ​entender todos los detalles de ​cada sistema y, si ​no tuviéramos varios ingenieros trabajando en ​él, este proceso habría sido mucho más difícil.
+- ​La comunicación es muy importante cuando trabajas en ​equipo y, especialmente ​si estás desarrollando código en Python, ​debes expresar ​si necesitas ayuda durante todo el proceso, ​ya que los miembros de tu equipo están ahí para ​garantizar que tengas éxito.
+- ​Al final del día, tu éxito ​significa que tu equipo también tiene éxito.
+- A ​medida que avances en tu carrera ​como persona que escribe código en Python, ​te darás cuenta de ​que hay un montón de funciones y métodos que siguen ​existiendo en Internet y ​podrás encontrarlos con una búsqueda rápida ​y esos métodos te ​resultarán útiles y podrás reutilizarlos para tus fragmentos de código.
+- ​Un recurso realmente bueno para que ​aprendas nuevas habilidades y amplíes ​tus habilidades de codificación en Python es ​hablar con tus colegas, asistir ​a reuniones y hablar con diferentes ​profesionales de seguridad que no trabajan en ​tu empresa, porque todos saben ​cómo ​mejorar tus habilidades de codificación, especialmente en ciberseguridad. 
