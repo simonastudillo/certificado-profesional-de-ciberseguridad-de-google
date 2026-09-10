@@ -214,3 +214,42 @@
 - ​Al final del día, tu éxito ​significa que tu equipo también tiene éxito.
 - A ​medida que avances en tu carrera ​como persona que escribe código en Python, ​te darás cuenta de ​que hay un montón de funciones y métodos que siguen ​existiendo en Internet y ​podrás encontrarlos con una búsqueda rápida ​y esos métodos te ​resultarán útiles y podrás reutilizarlos para tus fragmentos de código.
 - ​Un recurso realmente bueno para que ​aprendas nuevas habilidades y amplíes ​tus habilidades de codificación en Python es ​hablar con tus colegas, asistir ​a reuniones y hablar con diferentes ​profesionales de seguridad que no trabajan en ​tu empresa, porque todos saben ​cómo ​mejorar tus habilidades de codificación, especialmente en ciberseguridad. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Aprenda de la comunidad Python
+
+1. ¿Cuál de ellas no está incluida en la Biblioteca estándar de Python?
+   - [ ] re
+   - [ ] time
+   - [ ] csv
+   - [x] NumPy
+> La biblioteca NumPy no está incluida en la Biblioteca estándar de Python. Es una biblioteca externa que debe descargarse. 
+
+2. ¿Cuál de los siguientes Recursos proporciona recomendaciones sobre la inclusión de comentarios en su código?
+   - [x] PEP 8
+   - [ ] re
+   - [ ] csv
+   - [ ] Biblioteca estándar de Python
+> La Guía de estilo PEP 8 es un recurso que proporciona directrices de estilo para los programadores que trabajan en Python, incluidas recomendaciones sobre los comentarios. Esto incluye directrices como hacer comentarios claros y mantenerlos actualizados cuando cambie el código.
+
+3. ¿Cuál de los siguientes bloques de código tiene una sangría correcta?
+   - [ ]    if username == "elarson":
+            print("Welcome, elarson!")
+   - [ ] if username == "elarson":
+         print("Welcome, elarson!")
+   - [x] if username == "elarson":
+            print("Welcome, elarson!")
+   - [ ]    if username == "elarson":
+         print("Welcome, elarson!")
+> El siguiente bloque de código demuestra una correcta indentación:
+> if username == "elarson":
+>     print("Welcome, elarson!")
+> El cuerpo de una sentencia condicional, que en este caso es la función print(), debe sangrarse para que el código se ejecute correctamente. 
+
+4. ¿Qué es un Módulo de Python?
+   - [ ] Un recurso que proporciona directrices estilísticas para los programadores que trabajan en Python 
+   - [x] Un archivo Python que contiene funciones adicionales, variables y cualquier tipo de código ejecutable
+   - [ ] Una función de Python que existe dentro de Python y puede ser llamada directamente
+   - [ ] Un archivo de texto que contiene datos relacionados con la ciberseguridad
+> Un Módulo Python es un archivo Python que contiene funciones adicionales, variables y cualquier tipo de código ejecutable.
