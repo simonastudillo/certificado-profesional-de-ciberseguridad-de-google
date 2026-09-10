@@ -408,3 +408,19 @@
    - This lab demonstrated how to define a function that analyzes login activity, how to return values from a function, and how to use those returned values in conditional statements to trigger alerts based on unusual login behavior.
    - By completing these tasks, you have practiced defining functions, returning values, and using conditional statements to analyze and respond to login activity.
    - This lab also emphasized the importance of monitoring login activity to detect potential security issues early.
+
+---
+
+## Ejemplar: Crear más funciones
+- Mismo laboratorio que el anterior.
+
+- Conclusion
+   - There are a variety of ways a function can be written.
+   - It can be written to display information to the screen, or return information that can then be saved in a variable.
+   - Also it can be written to take in any number of parameters, use the parameters to execute a series of tasks, and then return a result.
+   - The sorted() function in Python is a built-in function that helps you sort the components of a list.
+   - For example, when you call sorted() with a list of numbers, it returns the list with the elements in numerical order.
+   - The max() function in Python is a built-in function that helps you identify the element with the maximum value in a list.
+   - For example, when you call max() with a list of numbers, it returns the largest number in the list.
+   - The print() function in Python is a built-in function that helps display information. It can also be used to directly display the output from another function call.
+   - To display the output from another function call, make sure to place it inside a print() statement.
