@@ -302,3 +302,109 @@
 
 - Recursos
    - [Documentación de la Biblioteca estándar de Python](https://docs.python.org/3/library/functions.html)
+
+---
+
+## Actividad: Crear más funciones
+- Introducción
+   - En este laboratorio, abrirá un entorno de cuaderno para seguir practicando el trabajo con funciones en Python.
+   - Se le presentará un escenario de Seguridad para que lo explore a lo largo del laboratorio.
+   - Utilizará funciones integradas para trabajar con una Lista de intentos fallidos de inicio de sesión por mes.
+   - También definirá una función que le ayudará a analizar los intentos de inicio de sesión.
+
+- Lo que hará
+   - Aplicar las funciones integradas max() y sorted() a una lista de intentos fallidos de inicio de sesión
+   - Definir una función que compare los inicios de sesión del día actual con una media
+   - Devolver información de la función que ha creado
+
+- Scenario
+   - In your work as a security analyst, you're responsible for working with a list that contains the number of failed attempts that occurred each month.
+   - You'll identify any patterns that might indicate malicious activity.
+   - You're also responsible for defining a function that compares the logins for the current day to an average and improving it by adding a return statement.
+
+- Task 1
+   - In your work as an analyst, imagine that you're provided a list of the number of failed login attempts per month, as follows:
+   - 119, 101, 99, 91, 92, 105, 108, 85, 88, 90, 264, and 223.
+   - This list is organized in chronological order of months (January, February, March, April, May, June, July, August, September, October, November, and December).
+   - This list is stored in a variable named failed_login_list.
+   - In this task, use a built-in Python function to order the list.
+   - You'll pass the call to the function that sorts the list directly into the print() function.
+   - This will allow you to display and examine the result.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_01.py)
+   - What do you observe from the output above? Do you notice any outlying numbers that indicate an increase in the failed number of login attempts?
+   > From the output, it is evident that the numbers 264 and 223 are outliers, indicating a significant increase in the failed number of login attempts compared to the other months.
+
+- Task 2
+   - Now, you'll want to isolate the highest number of failed login attempts so you can later investigate information about the month when that highest value occurred.
+   - You'll use the function that returns the largest numeric element from a list.
+   - Then, you'll pass this function into the print() function to display the result.
+   - This will allow you to determine which month to investigate further.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_02.py)
+   - What do you observe from the output above?
+   > From the output, it is evident that the highest number of failed login attempts occurred in the month corresponding to the value 264.
+
+- Task 3
+   - In your work as an analyst, you'll first define a function that displays a message about how many login attempts a user has made that day.
+   - In this task, define a function named analyze_logins() that takes in two parameters, username and current_day_logins.
+   - Every time this function is called, it should display a message about the number of login attempts the user has made that day.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - Note that the code cell will contain only a function definition, so running it will not produce an output.
+   - [file](./resources/code/lab_06/task_03.py)
+
+-  Task 4
+   - Now that you've defined the analyze_logins() function, call it to test out how it behaves.
+   - Call analyze_logins() with the arguments "ejones" and 9.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_04.py)
+   - What does this function display? Would the output vary for different users?
+   > The function displays a message indicating the current day's login total for the specified user. Yes, the output would vary for different users and different login totals.
+
+- Task 5
+   - Now, you'll need to expand this function so that it also provides the average number of login attempts made by the user on that day.
+   - Doing this will require incorporating a third parameter into the function definition.
+   - In this task, add a parameter called average_day_logins.
+   - The code will use this parameter to display an additional message.
+   - The additional message will convey the average login attemps made by the user on that day.
+   - Then, call the function with the same first and second arguments as used in Task 4 and a third argument of 3.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_05.py)
+
+- Task 6
+   - In this task, you'll further expand the function.
+   - Include a calculation to get the ratio of the logins made on the current day to the logins made on an average day.
+   - Store this in a new variable named login_ratio.
+   - The function displays an additional message that uses this variable.
+   - Note that if average_day_logins is equal to 0, then dividing current_day_logins by average_day_logins will cause an error.
+   - Due to the error, Python will display the following message: ZeroDivisionError: division by zero.
+   - For this activity, assume that all users will have logged in at least once before.
+   - This means that their average_day_logins will be greater than 0, and the function will not involve dividing by zero.
+   - After defining the function, call the function with the same arguments that you used in the previous task.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_06.py)
+   - What does this version of the analyze_logins() function display? Would the output vary for different users?
+   > The function displays a message indicating the current day's login total, the average logins per day, and the ratio of the current day's logins to the average. Yes, the output would vary for different users and different login totals.
+
+- Task 7
+   - You'll continue working with the analyze_logins() function and add a return statement to it.
+   - Return statements allow you to send information back to the function call.
+   - In this task, use the return keyword to output the login_ratio from the function, so that it can be used later in your work.
+   - You'll call the function with the same arguments used in the previous task and store the output from the function call in a variable named login_analysis.
+   - You'll then use a print() statement to display the saved information.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_07.py)
+   - How does this version of the analyze_logins() function compare to the previous versions?
+   > This version of the analyze_logins() function not only displays the login information but also returns the login ratio, allowing the calling code to use this value for further analysis or display.
+
+- Task 8
+   - In this task, you'll use the value of login_analysis in a conditional statement.
+   - When the value of login_analysis is greater than or equal to 3, then the login activity will require further investigation, and an alert will be displayed.
+   - Incorporate this condition to complete the conditional statement in the code.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_06/task_08.py)
+
+- Conclusion
+   - This lab demonstrated how to define a function that analyzes login activity, how to return values from a function, and how to use those returned values in conditional statements to trigger alerts based on unusual login behavior.
+   - By completing these tasks, you have practiced defining functions, returning values, and using conditional statements to analyze and respond to login activity.
+   - This lab also emphasized the importance of monitoring login activity to detect potential security issues early.
