@@ -9,3 +9,7 @@
 - ​Después cambiamos nuestro enfoque hacia los módulos y bibliotecas, ​que nos dieron acceso a ​muchas más funciones que las incorporadas en Python.
 - ​Por último, pasamos a aprender sobre ​la legibilidad del código y las mejores prácticas para ​escribir código limpio y comprensible.
 - ​Con estos conocimientos, ​está preparado para aprender lo potente que puede ser realmente ​Python para la Automatización de tareas y ​cómo puede ayudarle a seguir adelante como analista de Seguridad.
+
+---
+
+## Guía de referencia: Conceptos de Python del Módulo 2
