@@ -424,3 +424,54 @@
    - For example, when you call max() with a list of numbers, it returns the largest number in the list.
    - The print() function in Python is a built-in function that helps display information. It can also be used to directly display the output from another function call.
    - To display the output from another function call, make sure to place it inside a print() statement.
+
+---
+
+## Ponga a prueba sus Conocimientos: Argumentos, parámetros y sentencias de retorno
+
+1. Rellene el espacio en blanco: En el código siguiente, los enteros 5 y 12 son _____:
+```python
+for i in range(5, 12):
+   print(i)
+```
+   - [ ] sentencias de retorno
+   - [ ] parámetros
+   - [ ] funciones
+   - [x] argumentos
+> Los enteros 5 y 12 son argumentos en el siguiente código:
+> for i in range(5, 12):
+>  print(i)
+> Un argumento son los Datos que se introducen en una Función cuando es llamada. En este caso, 5 y 12 se introducen en la función range() cuando ésta es invocada.
+
+2. ¿Cuál es la forma correcta de definir la función addition() si requiere los dos parámetros num1 y num2?
+   - [x] def addition(num1, num2):
+   - [ ] def addition(num1)(num2):
+   - [ ] def addition(num1 and num2):
+   - [ ] def addition(num1 num2):
+> La forma correcta de definir la función addition() si requiere los dos parámetros num1 y num2 es def addition(num1, num2):. Si una función requiere varios parámetros, debe colocarlos entre paréntesis y separarlos con comas al definir la función.
+
+3. ¿Cuál de las siguientes líneas de código tiene la sintaxis correcta para imprimir el tipo de datos de la cadena "elarson"?
+   - [ ] print("elarson", type)
+   - [ ] print(type, "elarson")
+   - [x] print(type("elarson"))
+   - [ ] type(print("elarson"))
+> El código print(type("elarson")) tiene una sintaxis correcta para imprimir el tipo de datos de la Cadena "elarson". Primero se procesa la función interna y luego se pasa su valor devuelto a la función externa. El argumento "elarson" se pasa primero a la función type(). Ésta devuelve su tipo de datos, y éste se pasa a la función print(). 
+
+4. ¿Qué definición de función incluye la sintaxis correcta para devolver el valor de la variable result desde la función doubles()?
+   - [ ] def doubles(num):
+            result = num * 2
+            return "result"
+   - [ ] def doubles(num):
+            result = num * 2
+            result return
+   - [x] def doubles(num):
+            result = num * 2
+            return result
+   - [ ] def doubles(num):
+            result = num * 2
+            return = result
+> El siguiente bloque de código demuestra la sintaxis correcta para devolver el valor de la variable result desde la función doubles():
+> def doubles(num):
+>  result = num * 2
+>  return result
+> La palabra clave return se utiliza para devolver información de una función. Se coloca antes de la información que se desea devolver. En este caso, es la variable result. 
