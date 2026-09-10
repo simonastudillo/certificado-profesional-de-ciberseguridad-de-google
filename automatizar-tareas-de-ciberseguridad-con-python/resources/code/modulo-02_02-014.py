@@ -1,0 +1,1 @@
+print(type("This is a string"))

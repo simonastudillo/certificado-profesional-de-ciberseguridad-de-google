@@ -247,3 +247,58 @@
 - [file](./resources/code/modulo-02_02-012.py)
 - ​Estas son solo algunas de ​las funciones integradas disponibles para su uso.
 - ​A medida que trabajes más en Python, ​te familiarizarás con ​otras personas que pueden ayudarte en tus programas. 
+
+---
+
+## Trabajar con funciones integradas
+- Funciones integradas son funciones que existen dentro de Python y pueden ser llamadas directamente.
+
+- print()
+   - La función print() da salida a un objeto especificado en la pantalla.
+   - La función print() es una de las más utilizadas en Python porque le permite dar salida a cualquier detalle de su código.
+   - Para utilizar la función print(), debe pasar el objeto que desea imprimir como argumento a la función.
+   - La función print() acepta cualquier número de argumentos, separados por una coma, e imprime todos ellos.
+   - Por ejemplo, puede ejecutar el siguiente código que imprime una cadena, una variable, otra cadena y un número entero juntos:
+   - [file](./resources/code/modulo-02_02-013.py)
+
+- type()
+   - La función type() devuelve el tipo de datos de su argumento.
+   - La función type() le ayuda a realizar un seguimiento de los tipos de datos de las variables para evitar errores a lo largo de su código.
+   - Para utilizarla, se pasa el objeto como argumento, y devuelve su tipo de datos.
+   - Sólo acepta un argumento. Por ejemplo, puede especificar type("security") o type(7).
+
+- Pasar una función a otra
+   - Cuando trabaje con funciones, a menudo necesitará pasarlas a través de print() si desea que el tipo de datos aparezca en pantalla.
+   - Este es el caso cuando se utiliza una función como type().
+   - Considere el siguiente código:
+   - [file](./resources/code/modulo-02_02-014.py)
+   - Muestra str, lo que significa que el argumento pasado a la función type() es una cadena.
+   - Esto sucede porque la función type() se procesa primero y su salida se pasa como argumento a la función print(). 
+
+- max() y min()
+   - La función max() devuelve la entrada numérica más grande que se le haya pasado.
+   - La función min() devuelve la entrada numérica más pequeña que se le haya pasado.
+   - Las funciones max() y min() aceptan argumentos de múltiples valores numéricos o de un iterable como una lista, y devuelven el mayor o el menor valor respectivamente.
+   - En un contexto de ciberseguridad, podría utilizar estas funciones para identificar la Sesión más larga o más corta en la que se registró un usuario.
+   - Si un usuario concreto se conectó siete veces durante una semana, y usted almacenó sus tiempos de acceso en minutos en una lista, puede utilizar las funciones max() y min() para encontrar e imprimir sus sesiones más larga y más corta:
+   - [file](./resources/code/modulo-02_02-015.py)
+
+- sorted()
+   - La función sorted() ordena los componentes de una lista.
+   - La función sorted() también funciona sobre cualquier iterable, como una cadena, y devuelve los elementos ordenados en una lista.
+   - Por defecto, los ordena en orden ascendente.
+   - Cuando se le da un iterable que contiene números, los ordena de menor a mayor; esto incluye iterables que contienen datos numéricos, así como iterables que contienen Datos de cadena que comienzan con números.
+   - Un iterable que contenga cadenas que empiecen por caracteres alfabéticos se ordenará alfabéticamente.
+   - La función sorted() toma como entrada un iterable, como una lista o una cadena.
+   - Así, por ejemplo, puede utilizar el siguiente código para ordenar la lista de sesiones de inicio de sesión de la más corta a la más larga:
+   - [file](./resources/code/modulo-02_02-016.py)
+   - Esto muestra la lista ordenada.
+   - La función sorted() no cambia el iterable que ordena. El código siguiente lo ilustra:
+   - [file](./resources/code/modulo-02_02-017.py)
+   - La primera función print() muestra la lista ordenada.
+   - Sin embargo, la segunda función print(), que no incluye la función sorted(), muestra la lista tal y como se asignó a time_list en la primera línea de código.
+   - Otro detalle importante sobre la función sorted() es que no puede tomar listas o cadenas que tengan elementos de más de un tipo de datos.
+   - Por ejemplo, no puede utilizar la lista [1, 2, "hello"].
+
+- Recursos
+   - [Documentación de la Biblioteca estándar de Python](https://docs.python.org/3/library/functions.html)
