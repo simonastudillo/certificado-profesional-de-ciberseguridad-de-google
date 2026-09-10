@@ -173,3 +173,77 @@
    - La segunda sentencia print está dentro de la función, y devuelve el valor de la variable local username, que es "bmoreno".
    - Pero esto no cambia el valor de la variable global, y cuando username se imprime por tercera vez después de la llamada a la función, sigue siendo "elarson".
    - Debido a esta complejidad, es mejor evitar combinar variables globales y locales dentro de las funciones. 
+
+---
+
+## Explorar las funciones integradas
+- ​Ahora que sabemos cómo crear nuestras propias funciones, ​exploremos también algunas de las funciones integradas de Python.
+- ​Como comentamos anteriormente, ​las funciones integradas son funciones que existen ​en Python y se pueden llamar directamente.
+- ¡ ​Nuestro único trabajo es llamarlos por ​su nombre!
+- Y ​ya hemos descrito algunas a lo largo del curso; ​por ejemplo, las funciones print () y type () de Python.
+- ¡ ​Revisemos rápidamente esas dos funciones integradas ​antes de conocer otras nuevas!
+- ​Primero, print () envía un objeto específico a la pantalla.
+- ​Y luego, la función type () devuelve el tipo de datos de su entrada.
+- ​Anteriormente, utilizábamos ​funciones de forma independiente unas de otras.
+- ​Por ejemplo, le pedimos a Python que imprima ​algo o le pedimos ​a Python que devolviera el tipo de datos de algo.
+- A ​medida que empecemos a explorar las funciones integradas, ​a menudo necesitaremos usar varias funciones juntas.
+- ​Podemos hacerlo pasando ​una función a otra como argumento.
+- ​Por ejemplo, en esta línea de código, ​Python devuelve primero el tipo de datos «Hello» en forma de cadena.
+- ​Luego, este valor devuelto se pasa a la función print().
+- ​Esto significa que el tipo de datos de la ​cadena se imprimirá en la pantalla.
+- ​print() y type() ​no son las únicas funciones que ​verás que se usan juntas de esta manera.
+- ​En todos los casos, la sintaxis general es la misma. ​La función interna se procesa primero y, a continuación, ​su valor devuelto se pasa a la función externa.
+- ​Consideremos otro aspecto ​del trabajo con funciones integradas.
+- ​Al trabajar con funciones, ​debe comprender cuáles son ​sus entradas y salidas esperadas.
+- ​Algunas funciones solo esperan tipos de datos específicos ​y devolverán un error de tipo si utilizas uno incorrecto.
+- ​Otras funciones necesitan una cantidad específica ​de parámetros o devuelven un tipo de datos diferente.
+- ​La función print (), por ejemplo, ​puede tomar cualquier tipo de datos como entrada.
+- ​También puede aceptar cualquier cantidad de parámetros, ​incluso aquellos con diferentes tipos de datos.
+- ​Exploremos la entrada y la salida de la función print().
+- ​Introduciremos tres argumentos.
+- ​El primero contiene datos de cadenas.
+- ​Luego, se usa una coma para ​separar esto del segundo argumento.
+- ​Este segundo argumento es un número entero.
+- ​Finalmente, después de otra coma, ​nuestro tercer argumento es otra cadena.
+- ​Ahora, ejecutemos este código.
+- ​¡Perfecto! ¡Esto se imprimió tal como se esperaba!
+- [file](./resources/code/modulo-02_02-009.py)
+- ​La función type() también acepta todos los tipos de datos, ​pero solo acepta un parámetro.
+- ​Exploremos también esta entrada y salida.
+- ​Nuestra primera línea de código ​determinará primero el tipo de datos de ​la palabra «Seguridad» y ​, a continuación, pasará lo que devuelve a una función print().
+- ​Y la segunda línea de código hará ​lo mismo con el valor de 73.2.
+- ​Ahora, ejecutemos esto y veamos qué pasa.
+- ​Python primero devuelve un resultado que ​nos dice que la palabra «Seguridad» es una cadena de datos.
+- [file](./resources/code/modulo-02_02-010.py)
+- ​A continuación, devuelve otra línea de salida que ​nos dice que 73.2 son datos flotantes.
+- ​Ahora, sabemos qué ​considerar antes de usar una función integrada.
+- ​Tenemos que saber exactamente cuántos parámetros ​requiere y qué tipos de datos pueden ser.
+- ​También necesitamos saber qué tipo de producto produce.
+- ​Aprendamos un par de ​nuevas funciones integradas y pensemos en esto.
+- ​Empezaremos con max().
+- ​La función max () devuelve ​la entrada numérica más grande que se le haya pasado.
+- ​No tiene un número definido de ​parámetros que acepte.
+- ​Exploremos la función max().
+- ​Pasaremos tres argumentos ​a max () en forma de variables.
+- ​Así que primero definamos esas variables.
+- ​Estableceremos el valor de a en 3, ​b en 9 ​y c en 6.
+- ​Luego, pasaremos estas variables a ​la función max() y las imprimiremos.
+- Vamos a ejecutar esto.
+- ​Nos dice que el valor más alto entre ellos es 9.
+- [file](./resources/code/modulo-02_02-011.py)
+- Ahora, estudiemos ​otra función incorporada: la función sorted().
+- ​La función sorted() ordena los componentes de una lista.
+- ​Esta función puede resultar muy útil en un entorno de Seguridad.
+- ​Cuando trabajamos con listas, ​a menudo tenemos que ordenarlas.
+- Con las listas de números, ​los ordenamos de menor a ​mayor o viceversa.
+- ​Con las listas de cadenas de datos, ​es posible que necesitemos ordenarlas alfabéticamente.
+- ​Imagine que tiene una lista que contiene ​los nombres de usuario de su organización ​y desea ordenarlos alfabéticamente.
+- ​Usemos la función sorted() de Python para esto.
+- ​Especificaremos nuestra lista a través de una variable llamada usernames.
+- ​En esta lista, incluiremos ​todos los nombres de usuario que queremos ordenar.
+- ​Ahora, usaremos la función sorted() para ​ordenar estos nombres pasándole ​la variable usernames.
+- ​Y luego pasaremos su resultado a ​la declaración de impresión para que pueda mostrarse en la pantalla.
+- ​Cuando lo ejecutamos, ¡todo está en orden!
+- [file](./resources/code/modulo-02_02-012.py)
+- ​Estas son solo algunas de ​las funciones integradas disponibles para su uso.
+- ​A medida que trabajes más en Python, ​te familiarizarás con ​otras personas que pueden ayudarte en tus programas. 
