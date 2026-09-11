@@ -1,4 +1,4 @@
-# Trabajar con cuerdas
+# Trabajar con strings
 
 ## Bienvenido al Módulo 3
 - ​Como analista de Seguridad, ​trabajará con una gran cantidad de datos.
@@ -9,8 +9,73 @@
 - ​También abordamos las declaraciones condicionales e iterativas.
 - ​Aprendimos a crear ​funciones e incluso creamos nuestras propias funciones.
 - ​Aquí, nos basaremos en eso de diferentes maneras.
-- ​En primer lugar, obtendrá más información sobre cómo ​trabajar con cadenas y listas.
-- ​Ampliaremos las formas en las que ​puedes trabajar con estos tipos de datos, ​incluida la extracción de caracteres de ​cadenas o elementos de listas.
+- ​En primer lugar, obtendrá más información sobre cómo ​trabajar con strings y listas.
+- ​Ampliaremos las formas en las que ​puedes trabajar con estos tipos de datos, ​incluida la extracción de caracteres de ​strings o elementos de listas.
 - ​Nuestro próximo objetivo es escribir algoritmos.
 - ​Considerará un conjunto de reglas que se pueden aplicar en ​Python para resolver un problema relacionado con la seguridad.
-- ​Por último, ampliaremos aún más las formas en las que podemos ​buscar cadenas cuando exploremos el uso de expresiones regulares.
+- ​Por último, ampliaremos aún más las formas en las que podemos ​buscar strings cuando exploremos el uso de expresiones regulares.
+
+---
+
+## Operaciones con strings
+- ​Saber cómo trabajar con ​los datos de cadena en seguridad es importante.
+- ​Por ejemplo, puede que se encuentre trabajando con ​nombres de usuario para encontrar patrones en la información de inicio de sesión.
+- ​Vamos a revisar ​el tipo de datos de cadena y aprender ​cómo trabajar con él en Python.
+- ​Primero, vamos a hacer un rápido repaso a las cadenas.
+- ​Definimos los datos de cadena como ​datos que consisten en una secuencia ordenada de caracteres.
+- ​En Python, las cadenas se ​escriben entre comillas.
+- ​Puede utilizar comillas dobles o simples, ​pero en este curso, hemos ​utilizado comillas dobles.
+- ​Como ejemplos, tenemos las cadenas "Hola", ​"123", y "¡Número 1!"
+- ​También hemos tratado anteriormente las variables.
+- ​Aquí, la variable mi_cadena ​está almacenando actualmente la cadena "Seguridad".
+- ​También puede crear una cadena a partir de otro tipo de datos, ​como un entero o un flotante.
+- ​Para ello, necesitamos introducir ​una nueva función integrada, la función cadena.
+- ​La función cadena es una función que ​convierte el objeto de entrada en una cadena.
+- ​Convertir objetos en cadenas nos permite ​realizar tareas que sólo son posibles para cadenas.
+- ​Por ejemplo, podríamos convertir un entero en ​una cadena para eliminar elementos de ella o para reordenarla.
+- ​Ambas cosas son difíciles para un tipo de datos entero.
+- ​Practiquemos la conversión de un entero a una cadena.
+- ​Aplicaremos la función cadena al entero 123.
+- ​Ahora, la variable cadena_nueva ​contiene una cadena de tres caracteres: ​1, 2 y 3.
+- ​Imprimamos su tipo para comprobarlo.
+- ​Ejecutémoslo. ¡Perfecto, nos dice ​que ahora tenemos una cadena!
+- [file](./resources/code/modulo-03_01-001.py)
+- Hasta ahora, ​conocemos distintas formas de crear y almacenar una cadena.
+- ​Ahora, vamos a explorar cómo ​realizar algunas operaciones básicas con cadenas.
+- ​Nuestro primer ejemplo es la función de longitud.
+- ​La función de longitud es una función que ​devuelve el número de elementos de un objeto.
+- ​Usándola en una cadena nos dice ​cuántos caracteres tiene la cadena.
+- ​Al principio del programa, ​aprendimos que las direcciones IP tienen ​dos versiones, IPv4 o IPv6.
+- ​Las direcciones IPv4 tienen un máximo de 15 caracteres.
+- ​Así que un profesional de la seguridad podría utilizar ​la función de longitud para comprobar si una dirección IPv4 es válida.
+- ​Si su longitud es superior a 15 caracteres, ​entonces sabríamos que se trata de una dirección IPv4 no válida.
+- ​Usemos esta función para imprimir ​la longitud de la Cadena "Hola" ​Anidaremos la función longitud ​dentro de la función imprimir porque ​queremos calcular primero la longitud de ​esta cadena y luego imprimirla en la pantalla.
+- ​Muy bien, vamos a ejecutar esto y comprobar ​cuántos caracteres cuenta Python.
+- ​La salida es 5, ​uno por cada letra de la palabra Hola.
+- [file](./resources/code/modulo-03_01-002.py)
+- ​También podemos utilizar el operador de suma en las cadenas.
+- ​Esto se llama concatenación de cadenas.
+- ​La concatenación de cadenas es ​el proceso de unir dos cadenas.
+- ​Por ejemplo, podemos sumar ​las cadenas "Hola" y "mundo".
+- ​Para concatenar cadenas, podemos utilizar el símbolo +.
+- ​Después de ejecutarlo, ​obtenemos "Helloworld" con ​sin espacios entre las dos cadenas.
+- ​Es importante tener en cuenta que ​algunos operadores no funcionan con cadenas.
+- ​Por ejemplo, no se puede utilizar ​un signo menos para restar las dos cadenas.
+- ​Por último, vamos a hablar de los métodos de cadena.
+- ​Un método es una función ​que pertenece a un tipo de datos específico.
+- ​Por lo tanto, utilizar un método de cadena en otro tipo de datos, ​como un entero, provocaría un error.
+- ​A diferencia de otras funciones, los métodos aparecen después de la cadena.
+- ​Dos métodos de cadena comunes son ​los métodos superior e inferior.
+- ​El método superior devuelve una copia de ​la cadena en todas las letras mayúsculas.
+- ​Apliquemos el método superior a la cadena "Hola"
+- ​Colocaremos esto dentro de ​una función de impresión para que salga por la pantalla.
+- ​Centrémonos en la sintaxis Única de los métodos.
+- ​Después de nuestra cadena "Hola", ​colocamos un punto o una coma, ​y luego especificamos el método que queremos utilizar.
+- ​Aquí, es upper()
+- ​Bien, ahora estamos listos para ejecutar esto.
+- ​HELLO se imprime en la pantalla en todas las letras mayúsculas.
+- ​De forma similar, el método lower devuelve ​una copia de la cadena en todas las letras minúsculas.
+- ​Apliquemos el método lower a la cadena "Hola".
+- ​Recordemos que tenemos que poner la cadena y el método ​dentro de una función print para imprimir los resultados.
+- ​Y ahora, tenemos la cadena ​impresa en todas las letras minúsculas.
+- [file](./resources/code/modulo-03_01-003.py)
