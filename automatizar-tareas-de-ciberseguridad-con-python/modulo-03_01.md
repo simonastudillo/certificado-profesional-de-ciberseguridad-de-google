@@ -373,3 +373,18 @@
    - You also learned how to store important indices in variables for easier reuse and readability.
    - You practiced extracting specific parts of a URL, such as the protocol, domain name, and domain extension, using string slicing and indices.
    - You reinforced your understanding of how to manipulate and extract information from strings in Python.
+
+---
+
+## Ejemplar: Trabajar con cadenas en Python
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Strings are instrumental in storing important, security-related data, such as device IDs and URLs.
+   - String concatenation allows you to easily combine information in a string with the information stored in another string.
+   - String slicing is a powerful technique that enables you to extract any subsection of a string.
+   - Python has many functions and methods that help analysts work with string values, as well as data that they want to convert to string format.
+   - The type() function returns the data type of its input.
+   - The str() function converts the input object into a string. For example, when called on an integer, str() returns that integer value converted to a string.
+   - The len() function returns the number of elements in an object. When called on a string, len() returns the number of characters in that string.
+   - The .index() method finds the first occurrence of the input in a string and returns its location. It provides the index where the substring begins.
