@@ -262,3 +262,5 @@
 | str_var = "encryption" str_var[1] | "n" |
 | "system".index("s") | 0 |
 | "system".index("y") | 1 |
+| "system".index("t") | 3 |
+| "system".index("e") | 4 |
