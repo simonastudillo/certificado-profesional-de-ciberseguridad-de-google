@@ -267,15 +267,15 @@
 
 ---
 
-## Actividad: Trabajar con cadenas en Python
+## Actividad: Trabajar con strings en Python
 
 - Introducción
-   - En este laboratorio, abrirá un entorno de cuaderno para practicar el trabajo con datos de Cadena en Python.
+   - En este laboratorio, abrirá un entorno de cuaderno para practicar el trabajo con datos de string en Python.
    - Se le presentará un escenario de seguridad para que lo explore a lo largo del laboratorio.
-   - Practicará la creación de código Python que involucre cadenas relacionadas con IDs de empleados, IDs de dispositivos y URLs.
+   - Practicará la creación de código Python que involucre strings relacionadas con IDs de empleados, IDs de dispositivos y URLs.
 
 - Lo que hará
-   - Utilizar las funciones str() y len() y para concatenar datos de cadenas relacionados con los ID de los empleados
+   - Utilizar las funciones str() y len() y para concatenar datos de strings relacionados con los ID de los empleados
    - Utilizar la notación de corchetes para extraer los componentes de un ID de dispositivo
    - Utilizar la notación de corchetes y el método .index() para extraer componentes de una URL
 
@@ -376,7 +376,7 @@
 
 ---
 
-## Ejemplar: Trabajar con cadenas en Python
+## Ejemplar: Trabajar con strings en Python
 - Mismo laboratorio que el anterior
 
 - Conclusion
@@ -388,3 +388,48 @@
    - The str() function converts the input object into a string. For example, when called on an integer, str() returns that integer value converted to a string.
    - The len() function returns the number of elements in an object. When called on a string, len() returns the number of characters in that string.
    - The .index() method finds the first occurrence of the input in a string and returns its location. It provides the index where the substring begins.
+
+---
+
+## Ponga a prueba sus Conocimientos: Trabajar con strings
+
+1. ¿Cuál de las siguientes afirmaciones describe correctamente los strings? Seleccione todas las que correspondan
+   - [ ] Los strings no pueden contener caracteres numéricos.
+   - [ ] Los strings deben colocarse entre corchetes ([ ]).
+   - [x] Los strings son inmutables.
+   - [x] Los strings deben ir entre comillas (" ").
+> Las strings deben ir entre comillas. Las strings también son inmutables. Esto significa que no se pueden cambiar después de haberlas creado y asignado un valor.
+
+2. ¿Qué devuelve el siguiente código?
+```python
+device_id = "uu0ktt0vwugjyf2"
+print(device_id[2:5])
+```
+   - [ ] "0ktt"
+   - [x] "0kt"
+   - [ ] "u0k"
+   - [ ] "u0kt"
+> Este Código devuelve "0kt". Utiliza la notación entre corchetes para tomar una porción del valor contenido en la variable device_id.  Los índices comienzan en 0 en Python. Extrae los caracteres en los índices 2, 3, y 4. El carácter en el índice 5 se excluye de la rebanada.
+
+3. ¿Qué muestra el siguiente Código?
+```python
+device_id = "Tj1C58Dakx"
+print(device_id.lower())
+```
+   - [x] "tj1c58dakx"
+   - [ ] "TJ1C58DAKX"
+   - [ ] "Tj1C58Dakx"
+   - [ ] "tj1C58Dakx"
+> Este código muestra "tj1c58dakx". El método .lower() convierte todos los caracteres en mayúsculas a minúsculas.
+
+4. Desea encontrar el índice donde comienza la substring "192.168.243.140" dentro de la string contenida en la variable ip_addresses. Complete el código Python para encontrar y mostrar el índice de inicio. (Si desea deshacer los cambios realizados en el código, puede hacer clic en el botón Restablecer)
+```python
+ip_addresses = "192.168.140.81, 192.168.109.50, 192.168.243.140"
+print(ip_addresses.index("192.168.243.140"))
+```
+- ¿En qué índice comienza la substring "192.168.243.140"?
+   - [x] 32
+   - [ ] 31
+   - [ ] 34
+   - [ ] 33
+> La Substring "192.168.243.140" comienza en el índice 32. Puede determinarlo utilizando el código ip_addresses.index("192.168.243.140"). Tenga en cuenta que los índices de Python comienzan en 0.
