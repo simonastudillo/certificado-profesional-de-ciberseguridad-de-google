@@ -148,3 +148,99 @@
 - ​Acabas de aprender a indexar y dividir strings. ​También has visto que las strings son inmutables.
 - ​No puede reasignar caracteres ​después de que se haya definido una string.
 - [file](./resources/code/modulo-03_01-007.py)
+
+---
+
+## Strings y el analista de Seguridad
+- Datos de strings en un entorno de seguridad
+   - Como analista, los datos de string son uno de los tipos de datos más comunes que encontrará en Python.
+   - Datos de string son datos que consisten en una secuencia ordenada de caracteres.
+   - Se utiliza para almacenar cualquier tipo de información que no necesite manipular matemáticamente (como mediante una división o una resta).
+   - En un contexto de ciberseguridad, esto incluye direcciones IP, nombres de usuario, URL e identificaciones de empleados.
+   - Tendrá que trabajar con estos strings de varias maneras.
+   - Por ejemplo, podría extraer ciertas partes de una dirección IP, o podría verificar si los nombres de usuario cumplen los criterios requeridos.
+
+- Trabajar con índices en strings
+
+- Índices
+   - Un índice es un número asignado a cada elemento de una secuencia que indica su posición.
+   - En el caso de las strings, esto significa que cada carácter de la string tiene su propio índice.
+   - Los índices comienzan en 0.
+   - Por ejemplo, podría estar trabajando con esta string que contiene un identificador de dispositivo: "h32rb17".
+   - La siguiente tabla indica el índice de cada carácter de esta string:
+
+| Carácter | índice | índice negativo |
+|----------|--------|-----------------|
+| h        | 0      | -7              |
+| 3        | 1      | -6              |
+| 2        | 2      | -5              |
+| r        | 3      | -4              |
+| b        | 4      | -3              |
+| 1        | 5      | -2              |
+| 7        | 6      | -1              |
+
+- Notación entre corchetes
+   - La notación entre corchetes se refiere a los índices colocados entre corchetes.
+   - Puede utilizar la notación entre corchetes para extraer una parte de una string.
+   - Por ejemplo, el primer carácter del ID del dispositivo puede representar una determinada característica del mismo.
+   - Si desea extraerla, puede utilizar la notación entre corchetes para ello: `device_id = "h32rb17"`, `device_id[0]`
+   - En ambos casos, la notación entre corchetes da como resultado el carácter h cuando esta notación entre corchetes se coloca dentro de una función print().
+   - Puede observar esto ejecutando el siguiente código:
+   - [file](./resources/code/modulo-03_01-008.py)
+   - También puede tomar una rebanada de una string.
+   - Cuando toma un slice de una string, extrae más de un carácter de ella.
+   - Suele hacerse en contextos de ciberseguridad cuando sólo le interesa una parte específica de una string.
+   - Por ejemplo, podrían ser ciertos números de una dirección IP o ciertas partes de una URL.
+   - En el ejemplo de la identificación del dispositivo, podría necesitar los tres primeros caracteres para determinar una calidad concreta del dispositivo.
+   - Para ello, puede tomar un trozo de la string utilizando la notación entre corchetes.
+   - Puede ejecutar esta línea de código para observar que da salida a "h32":
+   - [file](./resources/code/modulo-03_01-009.py)
+
+- Funciones y métodos de string
+   - Las funciones str() y len() son útiles para trabajar con strings.
+   - También puede aplicar métodos a las strings, como los métodos .upper(), .lower() y .index().
+   - Un método es una función que pertenece a un tipo de datos específico.
+
+- str() y len()
+   - La función str() convierte su objeto de entrada en una string.
+   - Como analista, podría utilizarla en los registros de Seguridad cuando trabaje con IDs numéricos que no vayan a ser utilizados con procesos matemáticos.
+   - Convertir un número entero en una string le da la posibilidad de buscar en ella y extraer trozos de la misma.
+   - Considere el ejemplo de un ID de empleado 19329302 que necesita convertir en una string.
+   - Puede utilizar la siguiente línea de programación para convertirlo en una string y almacenarlo en una variable: `string_id = str(19329302)`
+   - La segunda función que aprendió para strings es la función len(), que devuelve el número de elementos de un objeto.
+   - Por ejemplo, si desea verificar que el ID de un determinado dispositivo cumple la norma de contener siete caracteres, puede utilizar la función len() y un condicional.
+   - Cuando ejecute el código siguiente, imprimirá un mensaje si "h32rb17" tiene siete caracteres:
+   - [file](./resources/code/modulo-03_01-010.py)
+
+- .upper() y .lower()
+   - El método .upper() devuelve una copia de la string con todos sus caracteres en mayúsculas.
+   - Por ejemplo, puede cambiar el nombre de este departamento a todo en mayúsculas ejecutando el código "Information Technology".upper().
+   - Devolvería la string "INFORMATION TECHNOLOGY".
+   - Mientras tanto, el método .lower() devuelve una copia de la string con todos sus caracteres en minúsculas.
+   - "Information Technology".lower() devolvería la string "information technology".
+
+- .index()
+   - El método .index()  encuentra la primera aparición de la entrada en una string y devuelve su ubicación.
+   - Por ejemplo, este Código utiliza el método .index() para encontrar la primera aparición del carácter "r" en el ID del dispositivo "h32rb17":
+   - [file](./resources/code/modulo-03_01-011.py)
+   - El método .index() devuelve 3 porque la primera aparición del carácter "r" se encuentra en el índice 3.
+   - En otros casos, es posible que no se encuentre la entrada.
+   - Cuando esto ocurre, Python devuelve un error.
+   - Por ejemplo, el Código print("h32rb17".index("a")) devuelve un error porque "a" no se encuentra en la string "h32rb17".
+   - Tenga en cuenta también que si una string contiene más de una instancia de un carácter, sólo se devolverá la primera.
+   - Por ejemplo, el identificador de dispositivo "r45rt46" contiene dos instancias de "r". Puede ejecutar el siguiente código para explorar su resultado:
+   - [file](./resources/code/modulo-03_01-012.py)
+   - La salida es 0 porque .index() devuelve sólo la primera instancia de "r", que se encuentra en el índice 0.
+   - La instancia de "r" en el índice 3 no se devuelve.
+
+- Encontrar substrings con .index()
+   - Una Substring es una secuencia continua de caracteres dentro de una string.
+   - Por ejemplo, "llo" es una substring de "hello".
+   - El método .index() también puede utilizarse para encontrar el índice de la primera aparición de una substring.
+   - Devuelve el índice del primer carácter de esa substring.
+   - Considere este ejemplo que encuentra la primera instancia del usuario "tshah" en una string:
+   - [file](./resources/code/modulo-03_01-013.py)
+   - El método .index() devuelve el índice 7, que es donde empieza la substring "tshah".
+   - Cuando utilice el método .index() para buscar substrings, debe tener cuidado.
+   - En el ejemplo anterior, quiere localizar la instancia de "tshah". 
+   - Si busca sólo "ts", Python le devolverá 0 en lugar de 7 porque "ts" también es una substring de "tsnow".
