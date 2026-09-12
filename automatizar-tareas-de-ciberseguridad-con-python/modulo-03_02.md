@@ -360,3 +360,17 @@
    - It also highlighted the importance of providing clear feedback to users when their login attempts fail due to unapproved usernames or incorrect device IDs.
    - Overall, it reinforced the concept of using nested conditionals to handle complex decision-making scenarios in Python programs.
    - It emphasized the practical application of nested conditionals in real-world scenarios, such as managing access control based on multiple criteria.
+
+---
+
+## Ejemplar: Desarrollar un algoritmo
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Indexing a list is similar to indexing a string. Index values start at 0.
+   - The .append() method helps you add new elements to the end of lists.
+   - The .remove() method helps you remove elements from lists.
+   - The .index() method can be used on different types of sequences. They can be used not only with strings, but also with lists.
+   - With a list, the .index() method allows you to identify the position where a specified element is located in that list.
+   - If two lists contain information that correspond to each other in a specific order, you can use indices to pair elements from the lists together.
+   - Functions can be used to develop algorithms. When defining a function, you must specify the parameters it takes in and the actions it should execute.
