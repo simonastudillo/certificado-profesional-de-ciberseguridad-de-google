@@ -244,3 +244,21 @@
    - Cuando utilice el método .index() para buscar substrings, debe tener cuidado.
    - En el ejemplo anterior, quiere localizar la instancia de "tshah". 
    - Si busca sólo "ts", Python le devolverá 0 en lugar de 7 porque "ts" también es una substring de "tsnow".
+
+---
+
+## Practique: Trabajar con valores índice
+- Review a series of code examples and match them to the right character, slice, or index. Note that code examples may wrap on your screen.
+
+|  Code example | Extracted Character |
+|---------------|--------------------|
+| "Security"[2:5] | "cur" |
+| "Security"[1] | "e" |
+| "Security"[0] | "S" |
+| "Security"[2:4] | "cu" |
+| str_var = "encryption" str_var[0] | "e" |
+| str_var = "encryption" str_var[5:7] | "pt" |
+| str_var = "encryption" str_var[3:6] | "ryp" |
+| str_var = "encryption" str_var[1] | "n" |
+| "system".index("s") | 0 |
+| "system".index("y") | 1 |
