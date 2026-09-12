@@ -1,0 +1,74 @@
+# Trabajar con listas y desarrollar algoritmos
+
+## Operaciones de Lista en Python
+- ​Otro tipo de datos del que hemos hablado anteriormente es la lista.
+- ​Las listas son útiles porque le permiten ​almacenar múltiples datos en una sola variable.
+- ​En la profesión de la seguridad, trabajará con una gran variedad de listas.
+- ​Por ejemplo, puede tener una lista de direcciones IP que han accedido a una red, y ​otra lista puede contener información sobre aplicaciones que ​tienen bloqueada su ejecución en el sistema.
+- ​Recapitulemos cómo crear una lista en Python.
+- En este caso, ​los elementos de nuestra lista son las letras de la A a la E.
+- ​Los separamos mediante comas y los rodeamos de corchetes.
+- ​También podemos asignar nuestra lista a una variable para facilitar su uso posterior.
+- ​Aquí, hemos llamado a nuestra variable mi_lista.
+- ​Cuando accedemos a elementos específicos de las listas, ​utilizamos una sintaxis similar a cuando accedemos a los elementos específicos de las cadenas.
+- ​Colocamos su valor de índice entre paréntesis después de la variable que almacena la lista.
+- ​Así accederíamos al segundo elemento de la lista.
+- ​Esto se debe a que en Python, ​empezamos a contar los elementos de la lista en cero y no en uno.
+- ​Así que el índice del primer elemento es cero y ​el índice del segundo elemento es uno.
+- ​Intentemos extraer algunos elementos de una lista.
+- ​Extraeremos el segundo elemento poniendo 1 entre paréntesis después de la variable.
+- ​Colocamos esto en una función print() para dar salida a los resultados, y ​después de ejecutarla, Python da salida a la letra "b".
+- [file](./resources/code/modulo-03_02-001.py)
+- ​Al igual que con las cadenas, también podemos concatenar listas con el signo más.
+- ​La concatenación de listas consiste en combinar dos listas en una colocando ​los elementos de la segunda lista directamente después de los elementos de la primera.
+- ​Trabajemos con esto en Python.
+- Vamos a concatenar dos listas.
+- ​Primero, definimos la misma lista que en el ejemplo anterior y ​la almacenamos en la variable mi_lista.
+- ​Ahora, vamos a definir una lista adicional con los números del 1 al 4.
+- ​Por último, vamos a concatenar las dos listas con un signo más y ​imprimimos el resultado.
+- Y cuando lo ejecutamos, tenemos una lista concatenada final.
+- [file](./resources/code/modulo-03_02-002.py)
+- ​Habiendo discutido las similitudes, ​exploremos ahora las diferencias entre las listas y las cadenas.
+- ​Hemos mencionado antes que las cadenas son inmutables, lo que significa ​que, una vez definidas, no pueden modificarse.
+- ​Las listas, por otro lado, no tienen esta propiedad, y ​podemos cambiar, añadir y eliminar libremente valores de la lista.
+- ​Así, por ejemplo, si tenemos una lista de direcciones IP maliciosas, ​entonces cada vez que se identifique una nueva dirección IP maliciosa, ​podemos añadirla fácilmente a la lista.
+- ​Intentemos primero cambiar un elemento específico de una lista en Python.
+- Empezaremos con ​la lista utilizada en el ejemplo anterior.
+- Para cambiar un elemento de una lista, ​combinamos lo que hemos aprendido sobre la notación entre corchetes ​con lo que hemos aprendido sobre la asignación de variables.
+- ​Cambiemos el segundo elemento de mi_lista, ​que es la Cadena "b", por el número 7.
+- ​Colocamos el objeto que queremos cambiar en el lado izquierdo de ​la asignación de variables.
+- ​En este caso, cambiaremos el segundo elemento de mi_lista.
+- ​A continuación, colocamos un signo igual para indicar ​que estamos reasignando este elemento de la lista.
+- ​Por último, colocamos el objeto que ocupará su lugar en el lado derecho.
+- ​Aquí, reasignaremos el segundo elemento de la lista a un valor de 7.
+- ​Ahora imprimamos la lista y ejecutemos el código para examinar el cambio.
+- La letra "b" se ha cambiado ahora por el número 7.
+- [file](./resources/code/modulo-03_02-003.py)
+- ​Ahora, echemos un vistazo a los métodos para insertar y eliminar elementos en las listas.
+- ​El primer método con el que trabajaremos en este vídeo es el método de inserción.
+- ​El método de inserción añade un elemento en una posición específica ​dentro de una lista.
+- El Método toma dos argumentos: ​el primero es la posición en la que vamos a añadir el elemento, y ​el segundo es el elemento que queremos añadir.
+- Utilicemos el método insert.
+- ​Empezaremos con la lista que hemos definido en nuestra variable my_list.
+- ​Entonces escribimos my_list.insert y le pasamos dos argumentos.
+- ​El primer argumento es la posición en la que queremos insertar ​la nueva información.
+- En este caso, queremos insertar en el índice 1.
+- ​El segundo argumento es la información que queremos añadir ​a la lista; en este caso, el número entero 7.
+- ​Ahora imprimamos mi_lista. Nuestra lista sigue empezando con "a", ​el elemento con índice 0, ​y ahora, tenemos el entero 7 en la siguiente posición, ​la posición representada con índice 1.
+- ​Note que la letra "b", que originalmente estaba en el índice 1, ​no se sustituye como cuando utilizamos la notación de corchetes.
+- ​Con el método de inserción, ​cada elemento más allá del índice 1 simplemente se desplaza ​una posición hacia abajo.
+- El índice de "b" es ahora 2.
+- [file](./resources/code/modulo-03_02-004.py)
+- ​A veces puede que queramos eliminar de una lista un elemento que ya no es ​necesario.
+- Para ello, podemos utilizar el método remove.
+- ​El método removed ​elimina la primera aparición de un elemento específico en la lista.
+- ​A diferencia de insert, el argumento de removed no es un valor de índice.
+- ​En su lugar, se escribe directamente el elemento que se desea eliminar.
+- ​El método remove elimina la primera instancia del mismo en la lista.
+- ​Utilicemos el método remove para eliminar la letra "d" de nuestra lista.
+- ​Escribiremos el nombre de nuestra variable mi_lista y, a continuación, añadiremos el método remove.
+- ​Queremos eliminar "d "de esta lista.
+- Así que, ​la pondremos entre comillas ​como nuestro argumento. Luego imprimiremos mi_lista.
+- ​Y vamos a ejecutar esto. Perfecto "d" ha sido eliminada de la lista.
+- ​Al igual que con las cadenas, ser capaz de buscar en listas ​es una habilidad necesaria para los analistas de Seguridad.
+- [file](./resources/code/modulo-03_02-005.py)
