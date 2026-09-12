@@ -72,3 +72,63 @@
 - ​Y vamos a ejecutar esto. Perfecto "d" ha sido eliminada de la lista.
 - ​Al igual que con las cadenas, ser capaz de buscar en listas ​es una habilidad necesaria para los analistas de Seguridad.
 - [file](./resources/code/modulo-03_02-005.py)
+
+---
+
+## Escriba un algoritmo sencillo
+- ​En nuestra vida cotidiana, ​con frecuencia seguimos reglas para resolver problemas.
+- ​Como ejemplo sencillo, ​imagine que quiere una taza de café.
+- ​Si ha hecho café muchas veces, ​entonces es probable que siga un proceso para prepararlo.
+- ​Primero, coge su taza favorita.
+- ​Luego, pone agua en ​la cafetera y añade los posos del café.
+- ​Pulsa el botón de inicio y espera unos minutos.
+- ​Por último, disfruta de su taza de café recién hecho.
+- ​Incluso si tiene un enfoque diferente para ​hacer café o no bebe café en absoluto, ​es probable que siga un conjunto de reglas ​para completar tareas cotidianas similares.
+- ​Cuando completa estas tareas rutinarias, ​está siguiendo un algoritmo.
+- ​Un algoritmo es un conjunto de reglas que resuelven un problema.
+- ​En más detalle, un algoritmo es un conjunto ​de pasos que toma una entrada de un problema, ​utiliza esta entrada para realizar tareas, ​y devuelve una solución como salida.
+- ​Exploremos cómo los algoritmos ​pueden utilizarse para resolver problemas en Python.
+- ​Imagine que usted, como analista de Seguridad, ​tiene una lista de direcciones IP.
+- ​Quiere extraer ​los tres primeros dígitos de cada dirección IP, ​lo que le dará información sobre ​las redes a las que pertenecen estas direcciones IP.
+- ​Para ello, vamos a escribir un algoritmo que ​involucra múltiples conceptos de Python ​que hemos cubierto hasta ahora: ​bucles, listas y cadenas.
+- ​Aquí tiene una lista con direcciones IP ​que están almacenadas como cadenas.
+- ​Por razones de privacidad, en nuestro ejemplo, ​no vamos a mostrar las direcciones IP completas.
+- ​Nuestro objetivo es extraer los tres primeros números ​de cada dirección y almacenarlos en una nueva lista.
+- ​Antes de escribir cualquier código Python, ​vamos a desglosar un enfoque para ​resolver este problema con un algoritmo.
+- ​¿Qué pasaría si tuviera una dirección IP en lugar de una lista entera?
+- ​Bueno, entonces el problema se simplifica mucho.
+- ​El primer paso para resolver ​el problema será utilizar el troceado de cadenas ​para extraer los tres primeros dígitos ​de una dirección IP.
+- ​Ahora consideremos cómo aplicarlos a una lista entera.
+- ​Como segundo paso, ​utilizaremos un bucle para aplicar ​esa solución a cada dirección IP de la lista.
+- ​Previamente, ha aprendido sobre el corte de cadenas, ​así que vamos a escribir algo de código Python ​para resolver el problema para una dirección IP.
+- ​Aquí vamos a empezar con una dirección IP ​que comienza por 198.567.
+- ​Y escribiremos unas líneas de código para ​extraer los tres primeros caracteres.
+- ​Usaremos la notación entre corchetes para trocear la cadena.
+- ​Dentro de la sentencia print, ​tenemos la variable address, ​que contiene la dirección IP que queremos trocear.
+- ​Recuerde que Python empieza a contar en 0.
+- ​Para obtener los tres primeros caracteres, ​empezamos nuestro corte en el índice 0 ​y continuamos hasta el índice 3.
+- ​Recuerde, que Python excluye el índice final.
+- ​En otras palabras, Python ​devolverá los caracteres en los índices 0, ​1 y 2.
+- ​Ahora, vamos a ejecutar esto. ​Obtenemos los tres primeros dígitos de la dirección: 198.
+- [file](resources/code/modulo-03_02-006.py)
+- ​Ahora que somos capaces de resolver ​este problema para una dirección IP, ​podemos poner este código en un bucle y ​aplicarlo a todas las direcciones IP de la lista original.
+- ​Antes de hacerlo, ​introduzcamos un método más que utilizaremos ​en este código: el método append.
+- ​El método append añade entradas al final de una lista.
+- ​Por ejemplo, digamos que mi lista contiene 1, ​2 y 3.
+- ​Con este código, podemos utilizar ​el método append para añadir 4 a esta lista.
+- ​Primero, se nos da la lista de IP.
+- ​Ahora, estamos listos para extraer ​los tres primeros caracteres de ​cada elemento de esta lista.
+- ​Creemos una lista vacía para almacenar ​los tres primeros caracteres de cada IP de la lista.
+- ​Ahora podemos empezar el bucle for.
+- ​Dividamos esto. ​La palabra "for" le dice a Python ​que estamos a punto de iniciar un bucle for.
+- ​Entonces elegimos dirección ​como variable dentro del bucle for, ​y especificamos la lista llamada IP como iterable.
+- ​A medida que el bucle se ejecuta, ​cada elemento de la lista IP será ​almacenado temporalmente en la variable dirección.
+- ​Dentro del bucle for, ​tenemos una línea de código para añadir ​el trozo de dirección a la lista de redes.
+- ​Desglosando esto, usamos el código que escribimos ​antes para obtener los tres primeros caracteres ​de una dirección IP.
+- ​Usaremos nuestro método append ​para añadir un elemento al final de una lista.
+- ​En este caso, estamos añadiendo a la lista de redes.
+- ​Por último, imprimamos la lista de redes y ejecutemos el código.
+- ​La variable networks contiene ahora una lista de ​los tres primeros dígitos de ​cada dirección IP de la lista original: IP
+- ​Eso ha sido un montón de Información. ​Diseñar algoritmos puede ser todo un reto.
+- ​Es una buena idea dividirlos en ​problemas más pequeños antes de lanzarse a escribir su código.
+- [file](resources/code/modulo-03_02-007.py)
