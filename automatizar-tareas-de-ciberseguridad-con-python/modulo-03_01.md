@@ -18,64 +18,133 @@
 ---
 
 ## Operaciones con strings
-- ​Saber cómo trabajar con ​los datos de cadena en seguridad es importante.
+- ​Saber cómo trabajar con ​los datos de string en seguridad es importante.
 - ​Por ejemplo, puede que se encuentre trabajando con ​nombres de usuario para encontrar patrones en la información de inicio de sesión.
-- ​Vamos a revisar ​el tipo de datos de cadena y aprender ​cómo trabajar con él en Python.
-- ​Primero, vamos a hacer un rápido repaso a las cadenas.
-- ​Definimos los datos de cadena como ​datos que consisten en una secuencia ordenada de caracteres.
-- ​En Python, las cadenas se ​escriben entre comillas.
+- ​Vamos a revisar ​el tipo de datos de string y aprender ​cómo trabajar con él en Python.
+- ​Primero, vamos a hacer un rápido repaso a las strings.
+- ​Definimos los datos de string como ​datos que consisten en una secuencia ordenada de caracteres.
+- ​En Python, las strings se ​escriben entre comillas.
 - ​Puede utilizar comillas dobles o simples, ​pero en este curso, hemos ​utilizado comillas dobles.
-- ​Como ejemplos, tenemos las cadenas "Hola", ​"123", y "¡Número 1!"
+- ​Como ejemplos, tenemos las strings "Hola", ​"123", y "¡Número 1!"
 - ​También hemos tratado anteriormente las variables.
-- ​Aquí, la variable mi_cadena ​está almacenando actualmente la cadena "Seguridad".
-- ​También puede crear una cadena a partir de otro tipo de datos, ​como un entero o un flotante.
-- ​Para ello, necesitamos introducir ​una nueva función integrada, la función cadena.
-- ​La función cadena es una función que ​convierte el objeto de entrada en una cadena.
-- ​Convertir objetos en cadenas nos permite ​realizar tareas que sólo son posibles para cadenas.
-- ​Por ejemplo, podríamos convertir un entero en ​una cadena para eliminar elementos de ella o para reordenarla.
+- ​Aquí, la variable mi_string ​está almacenando actualmente la string "Seguridad".
+- ​También puede crear una string a partir de otro tipo de datos, ​como un entero o un flotante.
+- ​Para ello, necesitamos introducir ​una nueva función integrada, la función string.
+- ​La función string es una función que ​convierte el objeto de entrada en una string.
+- ​Convertir objetos en strings nos permite ​realizar tareas que sólo son posibles para strings.
+- ​Por ejemplo, podríamos convertir un entero en ​una string para eliminar elementos de ella o para reordenarla.
 - ​Ambas cosas son difíciles para un tipo de datos entero.
-- ​Practiquemos la conversión de un entero a una cadena.
-- ​Aplicaremos la función cadena al entero 123.
-- ​Ahora, la variable cadena_nueva ​contiene una cadena de tres caracteres: ​1, 2 y 3.
+- ​Practiquemos la conversión de un entero a una string.
+- ​Aplicaremos la función string al entero 123.
+- ​Ahora, la variable string_nueva ​contiene una string de tres caracteres: ​1, 2 y 3.
 - ​Imprimamos su tipo para comprobarlo.
-- ​Ejecutémoslo. ¡Perfecto, nos dice ​que ahora tenemos una cadena!
+- ​Ejecutémoslo. ¡Perfecto, nos dice ​que ahora tenemos una string!
 - [file](./resources/code/modulo-03_01-001.py)
-- Hasta ahora, ​conocemos distintas formas de crear y almacenar una cadena.
-- ​Ahora, vamos a explorar cómo ​realizar algunas operaciones básicas con cadenas.
+- Hasta ahora, ​conocemos distintas formas de crear y almacenar una string.
+- ​Ahora, vamos a explorar cómo ​realizar algunas operaciones básicas con strings.
 - ​Nuestro primer ejemplo es la función de longitud.
 - ​La función de longitud es una función que ​devuelve el número de elementos de un objeto.
-- ​Usándola en una cadena nos dice ​cuántos caracteres tiene la cadena.
+- ​Usándola en una string nos dice ​cuántos caracteres tiene la string.
 - ​Al principio del programa, ​aprendimos que las direcciones IP tienen ​dos versiones, IPv4 o IPv6.
 - ​Las direcciones IPv4 tienen un máximo de 15 caracteres.
 - ​Así que un profesional de la seguridad podría utilizar ​la función de longitud para comprobar si una dirección IPv4 es válida.
 - ​Si su longitud es superior a 15 caracteres, ​entonces sabríamos que se trata de una dirección IPv4 no válida.
-- ​Usemos esta función para imprimir ​la longitud de la Cadena "Hola" ​Anidaremos la función longitud ​dentro de la función imprimir porque ​queremos calcular primero la longitud de ​esta cadena y luego imprimirla en la pantalla.
+- ​Usemos esta función para imprimir ​la longitud de la string "Hola" ​Anidaremos la función longitud ​dentro de la función imprimir porque ​queremos calcular primero la longitud de ​esta string y luego imprimirla en la pantalla.
 - ​Muy bien, vamos a ejecutar esto y comprobar ​cuántos caracteres cuenta Python.
 - ​La salida es 5, ​uno por cada letra de la palabra Hola.
 - [file](./resources/code/modulo-03_01-002.py)
-- ​También podemos utilizar el operador de suma en las cadenas.
-- ​Esto se llama concatenación de cadenas.
-- ​La concatenación de cadenas es ​el proceso de unir dos cadenas.
-- ​Por ejemplo, podemos sumar ​las cadenas "Hola" y "mundo".
-- ​Para concatenar cadenas, podemos utilizar el símbolo +.
-- ​Después de ejecutarlo, ​obtenemos "Helloworld" con ​sin espacios entre las dos cadenas.
-- ​Es importante tener en cuenta que ​algunos operadores no funcionan con cadenas.
-- ​Por ejemplo, no se puede utilizar ​un signo menos para restar las dos cadenas.
-- ​Por último, vamos a hablar de los métodos de cadena.
+- ​También podemos utilizar el operador de suma en las strings.
+- ​Esto se llama concatenación de strings.
+- ​La concatenación de strings es ​el proceso de unir dos strings.
+- ​Por ejemplo, podemos sumar ​las strings "Hola" y "mundo".
+- ​Para concatenar strings, podemos utilizar el símbolo +.
+- ​Después de ejecutarlo, ​obtenemos "Helloworld" con ​sin espacios entre las dos strings.
+- ​Es importante tener en cuenta que ​algunos operadores no funcionan con strings.
+- ​Por ejemplo, no se puede utilizar ​un signo menos para restar las dos strings.
+- ​Por último, vamos a hablar de los métodos de string.
 - ​Un método es una función ​que pertenece a un tipo de datos específico.
-- ​Por lo tanto, utilizar un método de cadena en otro tipo de datos, ​como un entero, provocaría un error.
-- ​A diferencia de otras funciones, los métodos aparecen después de la cadena.
-- ​Dos métodos de cadena comunes son ​los métodos superior e inferior.
-- ​El método superior devuelve una copia de ​la cadena en todas las letras mayúsculas.
-- ​Apliquemos el método superior a la cadena "Hola"
+- ​Por lo tanto, utilizar un método de string en otro tipo de datos, ​como un entero, provocaría un error.
+- ​A diferencia de otras funciones, los métodos aparecen después de la string.
+- ​Dos métodos de string comunes son ​los métodos superior e inferior.
+- ​El método superior devuelve una copia de ​la string en todas las letras mayúsculas.
+- ​Apliquemos el método superior a la string "Hola"
 - ​Colocaremos esto dentro de ​una función de impresión para que salga por la pantalla.
 - ​Centrémonos en la sintaxis Única de los métodos.
-- ​Después de nuestra cadena "Hola", ​colocamos un punto o una coma, ​y luego especificamos el método que queremos utilizar.
+- ​Después de nuestra string "Hola", ​colocamos un punto o una coma, ​y luego especificamos el método que queremos utilizar.
 - ​Aquí, es upper()
 - ​Bien, ahora estamos listos para ejecutar esto.
 - ​HELLO se imprime en la pantalla en todas las letras mayúsculas.
-- ​De forma similar, el método lower devuelve ​una copia de la cadena en todas las letras minúsculas.
-- ​Apliquemos el método lower a la cadena "Hola".
-- ​Recordemos que tenemos que poner la cadena y el método ​dentro de una función print para imprimir los resultados.
-- ​Y ahora, tenemos la cadena ​impresa en todas las letras minúsculas.
+- ​De forma similar, el método lower devuelve ​una copia de la string en todas las letras minúsculas.
+- ​Apliquemos el método lower a la string "Hola".
+- ​Recordemos que tenemos que poner la string y el método ​dentro de una función print para imprimir los resultados.
+- ​Y ahora, tenemos la string ​impresa en todas las letras minúsculas.
 - [file](./resources/code/modulo-03_01-003.py)
+
+---
+
+## Índices y cortes de string
+- ​En Seguridad, hay varias ​razones por las que podríamos necesitar buscar en una string.
+- ​Por ejemplo, es posible que necesitemos ​localizar un nombre de usuario en un registro de Seguridad.
+- ​O bien, si descubrimos que ​una dirección IP determinada está asociada a un software malicioso, es ​posible que busquemos esta dirección en un registro de red.
+- ​Y el primer paso para poder usar Python de ​esta manera es aprender ​sobre el índice de caracteres de una string.
+- ​El índice es un número asignado a ​cada elemento de una secuencia que indica su posición.
+- ​​Por lo tanto, el índice es ​la posición de cada carácter en una string.
+- ​Empecemos con la string «HELLO».
+- A ​cada carácter de la string se le asigna un índice.
+- ​En Python, empezamos a contar los índices desde 0.
+- ​Por lo tanto, el carácter «H» tiene un índice de 0, ​y «E» tiene un índice de 1, y así sucesivamente.
+- ​Llevemos esto a Python y practiquemos el uso de índices.
+- ​Al colocar un índice entre corchetes después de ​una string, se devuelve el carácter de ese índice.
+- ​Coloquemos el índice 1 ​entre corchetes después de «HOLA» y ejecutémoslo.
+- ​Esto devolvió el carácter «E».
+- ​Recuerde que los índices comienzan en 0, ​por lo que un índice de 1 no es el primer carácter de la palabra.
+- ​Pero, ¿y si queremos que ​devuelva más de un caracter?
+- ​Podemos extraer una mayor parte de ​una string especificando un conjunto de índices.
+- ​Esto se denomina rebanada.
+- ​Al tomar un sector de una string, ​especificamos dónde ​comienza el sector y dónde termina el sector.
+- ​Por lo tanto, proporcionamos dos índices.
+- ​El primer índice es el principio, ​que se incluye en la salida.
+- ​El segundo índice es el final, ​pero no se incluye en el resultado final.
+- ​En su lugar, Python detiene ​el segmento en el elemento anterior al segundo índice.
+- ​Por ejemplo, si quisiéramos tomar las letras E-L-L ​de «HOLA», ​comenzaríamos el intervalo desde el índice 1, ​pero terminaríamos antes del índice 4.
+- ​Probemos este ejemplo y ​extraigamos un segmento de una string en Python.
+- ​Escribamos la string y tomemos el segmento que comienza ​en el índice 1 y termina antes del índice 4.
+- ​Ahora, ejecutemos el código y examinemos el resultado. 
+- ​Ahí está la porción que queríamos.
+- [file](./resources/code/modulo-03_01-004.py)
+- ​Ahora que sabemos cómo describir ​la ubicación de un carácter en una string, ​aprendamos cómo buscar en una string.
+- ​Para hacer esto, necesitamos usar el método index.
+- ​El método index busca la primera aparición de ​la entrada en una string y devuelve su ubicación.
+- ​Practiquemos el uso del método index en Python.
+- ​Supongamos que queremos usar el método index ​para encontrar el carácter «E» en la string «HELLO».
+- ​Localizaremos la primera instancia ​del carácter «E».
+- Examinemos esta línea con más detalle.
+- ​Después de escribir la string y el método index, ​usamos el carácter que queremos ​encontrar como argumento del método index.
+- ​Recuerda que las strings en Python distinguen entre mayúsculas y minúsculas, ​por lo que ​debemos asegurarnos de usar las mayúsculas y minúsculas apropiadas con el método index.
+- ​Vamos a ejecutar este código ahora.
+- ​Esto devolvió el número 1.
+- ​Esto se debe a que «E» tiene un valor de índice de 1.
+- [file](./resources/code/modulo-03_01-005.py)
+- ​Ahora, exploremos un ejemplo en el ​que un carácter se repite varias veces en la string.
+- ​Intentemos buscar ​el carácter «L».
+- Empezamos con un código similar al anterior, ​pasando el argumento «L» en lugar de «E» al método index.
+- ​Ahora, ejecutemos este código e investiguemos el resultado.
+- ​El resultado es el índice 2.
+- ​Esto nos indica que el método solo ​identificó la primera aparición ​del carácter «L» y no la segunda.
+- ​Este es un detalle importante a tener en ​cuenta cuando se trabaja con el método index.
+- [file](./resources/code/modulo-03_01-006.py)
+- ​Como analista de Seguridad, ​aprender a trabajar con índices ​te permite encontrar ciertas partes de una string.
+- ​Por ejemplo, si necesitas encontrar ​la ubicación del símbolo @ en un correo electrónico, ​puedes usar el método index para encontrar ​lo que buscas con una línea de código.
+- ​Ahora vamos a centrar nuestra atención ​en una propiedad importante de los strings.
+- ​¿Alguna vez has escuchado la expresión ​«algunas cosas nunca cambian»?
+- ​Se podría decir acerca de ​la sensación cómoda que tienes con un buen amigo, ​incluso cuando hace mucho que no lo ves.
+- ​Bueno, en Python, también podemos decir esto acerca de las strings.
+- ​Las strings son inmutables.
+- ​En Python, «inmutable» significa que ​no se puede cambiar una vez ​creado y asignado un valor.
+- ​Vamos a desglosar esto con un ejemplo.
+- ​Vamos a asignar la string «HELLO» a la variable my_string.
+- ​Ahora, si queremos cambiar el carácter «E» por una «A» para ​que my_string tenga el valor «HALLO», ​entonces podríamos optar por usar la notación de índice.
+- ​Pero aquí tenemos un error. ​My_string es inmutable, por lo que no podemos ​hacer cambios como este.
+- ​Acabas de aprender a indexar y dividir strings. ​También has visto que las strings son inmutables.
+- ​No puede reasignar caracteres ​después de que se haya definido una string.
+- [file](./resources/code/modulo-03_01-007.py)
