@@ -374,3 +374,41 @@
    - With a list, the .index() method allows you to identify the position where a specified element is located in that list.
    - If two lists contain information that correspond to each other in a specific order, you can use indices to pair elements from the lists together.
    - Functions can be used to develop algorithms. When defining a function, you must specify the parameters it takes in and the actions it should execute.
+
+---
+
+## Ponga a prueba sus Conocimientos: Trabaje con listas y desarrolle algoritmos
+
+1. Revise el siguiente código:
+```python
+my_list = ["a", "b", "c", "d"]
+my_list[2] = 4
+print(my_list)
+```
+- ¿Qué mostrará?
+   - [x] ["a", "b", 4, "d"]
+   - [ ] Un mensaje de error
+   - [ ] ["a", "b", "4", "d"]
+   - [ ] ["a", 4, "c", "d"]
+> El Código mostrará ["a", "b", 4, "d"]. Reasigna el elemento my_list al índice 2. Se trata del tercer elemento de la lista, por lo que "c" se sustituye por el entero 4.
+
+2. Está trabajando con la lista ["cwvQSQ","QvPvX5","ISyT3a","S7vgN0"]. Sus elementos representan IDs de máquinas, y la lista se almacena en una variable llamada machine_ids. ¿Qué línea de código añadirá el ID de "yihhLL" en el índice 3?
+   - [ ] machine_ids.append("yihhLL")
+   - [x] machine_ids.insert(3,"yihhLL")
+   - [ ] machine_ids.append("yihhLL",3)
+   - [ ] machine_ids.insert("yihhLL",3)
+> El Código machine_ids.insert(3,"yihhLL") añadirá el ID de "yihhLL" en el índice 3. El método .insert() añade un elemento en una posición específica dentro de una lista. Recibe dos parámetros. El primero indica el índice en el que desea añadir un nuevo elemento, y el segundo indica el elemento que desea añadir.
+
+3. ¿Qué línea de programación eliminará el nombre de usuario "tshah" de la siguiente Lista? `access_list = ["elarson", "bmoreno", "tshah", "sgilmore"]`
+   - [x] access_list.remove("tshah")
+   - [ ] access_list["tshah"].remove()
+   - [ ] access_list.remove(2)
+   - [ ] access_list.remove(3)
+> El código access_list.remove("tshah") eliminará el nombre de usuario "tshah" de la lista. El método .remove() elimina la primera aparición de un elemento específico en una lista. Toma como argumento el elemento a eliminar, así access_list.remove("tshah") elimina el nombre de usuario "tshah".
+
+4. Como analista de Seguridad, usted es responsable de desarrollar un algoritmo que automatice la eliminación de nombres de usuario que coincidan con criterios específicos de una lista de acceso. ¿Qué componentes de Python le ayudarían a implementarlo? Seleccione tres respuestas
+   - [ ] El método .append() 
+   - [x] Una declaración if que compara un nombre de usuario con los criterios de eliminación
+   - [x] Un Bucle for que itera a través de los nombres de usuario de la Lista de acceso
+   - [x] El método .remove() 
+> El algoritmo debe iterar a través de los nombres de usuario en una Lista de accesibilidad. En cada iteración, debe comprobar si el nombre de usuario actual coincide con los criterios específicos y eliminarlo cuando así sea. La sentencia if comprueba si el nombre de usuario actual coincide con los criterios específicos.
