@@ -320,3 +320,35 @@
       - {x,y} represents anywhere between x and y number of occurrences of the previous character in the regular expression. The x and y can be replaced with any two positive integers to indicate an exact range for the number of occurrences.
    - The re module in Python contains functions that are useful when working with regular expressions.
       - One example is the re.findall() function, which takes in a regular expression pattern as well as a string, checks for all instances in the string that match with the pattern and outputs a list of the matches.
+
+---
+
+## Ponga a prueba sus Conocimientos: Expresiones regulares
+
+1. ¿Qué símbolo de expresión regular representa una o más apariciones de un carácter específico?
+   - [ ] \d
+   - [x] +
+   - [ ] *
+   - [ ] \w
+> El símbolo + representa una o varias apariciones de un carácter específico.
+
+2. Como analista de Seguridad, usted es responsable de encontrar los ID de los empleados que terminan con la secuencia de caracteres y números "a6v". Dado que los ID de los empleados constan tanto de números como de caracteres alfabéticos y tienen una longitud mínima de cuatro caracteres, ¿qué patrón de expresión regular utilizaría?
+   - [ ] "\wa6v"
+   - [x] "\w+a6v"
+   - [ ] "a6v"
+   - [ ] "\w*a6v"
+> La expresión regular "\w+a6v" coincide con cadenas que constan tanto de números como de caracteres alfabéticos, tienen al menos cuatro caracteres y terminan con la secuencia "a6v". Debe haber al menos otro carácter antes de "a6v", por lo que se necesita "\w+" para que coincida con uno o más caracteres alfanuméricos. Entonces, la secuencia final requerida es "a6v".
+
+3. Ha importado el Módulo re en Python con el Código import re. Desea utilizar la función findall() para buscar a través de una cadena. ¿Qué llamada a la función le permite buscar a través de la cadena contenida en la variable text para devolver todas las coincidencias con una expresión regular almacenada en la variable pattern?
+   - [ ] re.findall(text, pattern)
+   - [ ] findall(text, pattern)
+   - [x] re.findall(pattern, text)
+   - [ ] findall(pattern, text)
+> La llamada a la función re.findall(pattern, text) le permite hacerlo. La función re.findall() devuelve una lista de coincidencias con una expresión regular. Debe especificar que esta función procede del módulo re. El primer argumento es el patrón de expresión regular con el que desea obtener coincidencias. En este caso, se encuentra en la variable pattern. El segundo argumento indica dónde buscar este patrón. En este caso, se trata de la cadena asignada a la variable text. 
+
+4. ¿Cuál de las siguientes cadenas devolvería Python como coincidencias con el patrón de expresión regular "\w+"? Seleccione todas las que correspondan
+   - [ ] ""
+   - [x] "3"
+   - [x] "FirstName"
+   - [ ] "#name"
+> Las cadenas "3" y "FirstName" coinciden con el patrón de expresión regular "\w+". El símbolo \w coincide con cualquier carácter alfanumérico. Cuando se combina con el símbolo +, representa una o más apariciones de cualquier carácter alfanumérico. Dado que "3" es una cadena que contiene un carácter alfanumérico, coincide con la expresión regular.
