@@ -180,3 +180,126 @@
    - [file](./resources/code/modulo-03_03-009.py)
    - Trabajar con expresiones regulares puede conllevar el riesgo de devolver información innecesaria o de excluir cadenas que desea devolver.
    - Por lo tanto, es útil probar las expresiones regulares.
+
+---
+
+## Actividad: Utilizar expresiones regulares para encontrar patrones
+- Introducción
+   - En este laboratorio, abrirá un entorno de cuaderno para practicar el uso de expresiones regulares para extraer información en Python.
+   - Se le presentará un escenario de Seguridad para que lo explore a lo largo del laboratorio.
+   - Creará patrones de expresiones regulares y funciones para extraer información importante de cadenas.
+
+- Lo que hará
+   - Extraer IDs de dispositivos que contengan ciertos caracteres de un registro
+   - Extraer todas las direcciones IP de un registro y compararlas con las direcciones IP marcadas en una Lista
+
+- Scenario
+   - Extracting device IDs containing certain characters from a log; these characters correspond with a certain operating system that requires an update.
+   - Extracting all IP addresses from a log and then comparing them to those that are flagged in a list.
+
+- Task 1
+   - In order to work with regular expressions in Python, start by importing the re module.
+   - This module contains many functions that will help you work with regular expressions.
+   - By running the following code cell, the module will be available through the rest of the notebook.
+   - [file](./resources/code/lab_09/task_01.py)
+
+- Task 2
+   - Currently, you are looking for device IDs that begin with "r15".
+   - These characters indicate that the device is running an operating system that must be updated.
+   - You're given a log of device IDs, stored in a variable named devices.
+   - Your eventual goal is to extract the device IDs that start with the characters "r15".
+   - For now, display the contents of the whole string to examine what it contains.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_02.py)
+
+- Task 3
+   - In this task, you'll write a pattern to find devices that start with the character combination of "r15".
+   - Use the regular expression symbols \w and + to create the pattern, and store it as a string in a variable named target_pattern.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - Note that the code cell will contain only variable assignments, so running it will not produce an output.
+   - [file](./resources/code/lab_09/task_03.py)
+   - What regular expression pattern did you use? For each component of the pattern, what would happen if it were missing?
+   > The regular expression pattern used is "r15\w+". The "r15" part ensures that the device ID starts with "r15". The "\w" matches any alphanumeric character, and the "+" indicates that one or more of these characters should follow. If "r15" were missing, the pattern would match any device ID, not just those starting with "r15". If "\w" were missing, the pattern would only match "r15" exactly, without any additional characters. If "+" were missing, the pattern would only match "r15" followed by exactly one alphanumeric character.
+
+- Task 4
+   - Use the findall() function from the re module to find the device IDs that the target_pattern matches with.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - In order to use re.findall() in Tasks 4, 7, 8, 9 and 11, you must have previously run the code import re in Task 1.
+   - [file](./resources/code/lab_09/task_04.py)
+
+- Task 5
+   - Now, the next task you're responsible for is analyzing a network security log file and determining which IP addresses have been flagged for unusual activity.
+   - You're given the log file as a string stored in a variable named log_file.
+   - There are some invalid IP addresses in the log file due to issues in data collection.
+   - Your eventual goal is to use regular expressions to extract the valid IP addresses from the string.
+   - Start by displaying the contents of the log_file to examine the details inside.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_05.py)
+
+- Task 6
+   - In this task, you'll build a regular expression pattern that you can use later on to extract IP addresses that are in the form of xxx.xxx.xxx.xxx.
+   - In other words, you'll extract all IP addresses that contain four segments of three digits that are separated by periods.
+   - Write a regular expression pattern that will match with these IP addresses and store it in a variable named pattern.
+   - Use the regular expression symbols \d and \. in your pattern.
+   - Note that the symbol \d matches with digits, in other words, any integer between 0 and 9.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code.
+   - Since you'll just build the pattern here, there won't be any output when you run this cell.
+   - [file](./resources/code/lab_09/task_06.py)
+
+- Task 7
+   - In this task, you'll use the re.findall() function on the regular expression pattern stored in the pattern variable and the provided log_file to extract the corresponding IP addresses.
+   - Afterwards, run the cell and take note of what it outputs.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_07.py)
+   - What are some examples of IP addresses that were extracted? What are some examples of IP addresses that were not extracted? Do any that were not extracted seem to be valid IP addresses?
+   > Some examples of IP addresses that were extracted include '192.168.152.148', '192.168.190.178', '192.168.213.128', '192.168.247.153', '192.168.174.117', '192.168.148.115', '192.168.103.106', and '192.168.168.144'. Some examples of IP addresses that were not extracted include '1923.1689.3.24', '1924.1680.27.57', '1921.168.1283.75', and '19245.168.2345.49'. Among the IP addresses that were not extracted, none of them seem to be valid IP addresses as they do not follow the standard xxx.xxx.xxx.xxx format with each segment being a number between 0 and 255.
+
+- Task 8
+   - There are some valid IP addresses in the log_file that you haven't extracted yet.
+   - This is because each segment of digits in a valid IP address can have anywhere between one and three digits.
+   - Adjust the regular expression in the pattern to allow for variation in the number of digits in each segment.
+   - You can do this by using the + symbol after the \d symbol.
+   - Afterwards, use the updated pattern to extract remaining IP addresses.
+   - Then, run the cell to analyze the results.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_08.py)
+   - What gets extracted here? Do all extracted IP addresses have between one and three digits in every segment?
+   > The extracted IP addresses include '192.168.152.148', '192.168.22.115', '192.168.190.178', '192.168.213.128', '192.168.96.200', '192.168.247.153', '192.168.174.117', '192.168.148.115', '192.168.103.106', and '192.168.168.144'. All extracted IP addresses have between one and three digits in every segment.
+
+- Task 9
+   - Note that all the IP addresses are now extracted but they also include invalid IP addresses with more than three digits per segment.
+   - In this task, you'll update the pattern using curly brackets instead of the + symbol.
+   - In regular expressions, curly brackets can be used to represent an exact number of repetitions between two numbers.
+   - For example, {2,4} in a regular expression means between 2 and 4 occurrences of something.
+   - Applying this to an example, \w{2,4} would match with two, three, or four alphanumeric characters.
+   - Afterwards, you'll call the re.findall() function on the updated pattern and the log_file and store the output in a variable named valid_ip_addresses.
+   - Then, display the contents of valid_ip_addresses and run the cell to analyze the results.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_09.py)
+   - What do you notice about the extracted IP addresses here compared to those extracted in the previous two tasks?
+   > The extracted IP addresses now only include valid IP addresses with each segment having between one and three digits. Invalid IP addresses with more than three digits per segment are excluded compared to the previous task.
+
+- Task 10
+   - Now, all of the valid IP addresses have been extracted.
+   - The next step is to identify flagged IP addresses.
+   - You're given a list of IP addresses that have been previously flagged for unusual activity, stored in a variable named flagged_addresses.
+   - When these addresses are encountered, they should be investigated further.
+   - This list is just for educational purposes and contains examples of private IP addresses that are found only within internal networks.
+   - Display this list and examine what it contains by running the cell.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_10.py)
+
+- Task 11
+   - Finally, you will write an iterative statement that loops through the valid_ip_addresses list and checks if each IP address is flagged.
+   - In the following code, the address will be the loop variable.
+   - Also, include a conditional that checks if the address belongs to the flagged_addresses list.
+   - If so, it should display "The IP address ______ has been flagged for further analysis."
+   - If not, it should display "The IP address ______ does not require further analysis."
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_09/task_11.py)
+
+- Conclusion
+   - In this module, you learned how to extract valid IP addresses from a log file using regular expressions and how to identify flagged IP addresses for further analysis.
+   - You also practiced using iterative statements and conditionals to analyze and respond to specific patterns in data.
+   - This module provided hands-on experience with regular expressions, list operations, and control flow in Python, which are essential skills for automating cybersecurity tasks.
+   - By completing this module, you have built a foundation for more advanced cybersecurity automation tasks using Python.
