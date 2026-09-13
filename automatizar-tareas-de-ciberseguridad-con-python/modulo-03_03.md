@@ -303,3 +303,20 @@
    - You also practiced using iterative statements and conditionals to analyze and respond to specific patterns in data.
    - This module provided hands-on experience with regular expressions, list operations, and control flow in Python, which are essential skills for automating cybersecurity tasks.
    - By completing this module, you have built a foundation for more advanced cybersecurity automation tasks using Python.
+
+---
+
+## Ejemplo: Utilizar expresiones regulares para encontrar patrones
+- Mismo laboratorio que el anterior.
+
+- Conclusion
+   - Regular expressions in Python allow you to create patterns that you can then use to find important strings.
+   - Regular expression patterns can be built to match specific characters and character combinations.
+   - Examples of regular expression symbols practiced in this lab:
+      - \w represents any alphanumeric character.
+      - + represents one or more occurrences of the previous character in the regular expression.
+      - \d represents any digit.
+      - \. represents a period.
+      - {x,y} represents anywhere between x and y number of occurrences of the previous character in the regular expression. The x and y can be replaced with any two positive integers to indicate an exact range for the number of occurrences.
+   - The re module in Python contains functions that are useful when working with regular expressions.
+      - One example is the re.findall() function, which takes in a regular expression pattern as well as a string, checks for all instances in the string that match with the pattern and outputs a list of the matches.
