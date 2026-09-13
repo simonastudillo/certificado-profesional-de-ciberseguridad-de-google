@@ -1,0 +1,79 @@
+# Expresiones regulares
+
+## Expresiones regulares en Python
+- ​Aprenderemos a buscar patrones en cadenas mediante expresiones regulares.
+- ​Una expresión regular, abreviada como regex ​, es una secuencia de caracteres que forma un patrón.
+- ​Este patrón se puede utilizar al buscar en los archivos de registro.
+- ​Podemos usarlos para buscar cualquier tipo de patrón.
+- ​Por ejemplo, podemos encontrar todas las cadenas que comienzan con un determinado prefijo, ​o podemos encontrar todas las cadenas que tienen una longitud determinada.
+- ​Podemos aplicar esto a un contexto de seguridad de varias maneras.
+- ​Por ejemplo, supongamos que necesitamos encontrar todas las direcciones IP con un identificador ​de red de 184.
+- Las expresiones regulares nos permitirían buscar este patrón de manera eficiente.
+- ​Examinaremos otro ejemplo a lo largo de este vídeo.
+- ​Supongamos que queremos extraer todas las direcciones de correo electrónico contenidas en un registro.
+- ​Si intentamos hacerlo mediante el método de índice, ​necesitaremos las direcciones de correo electrónico exactas que estábamos buscando.
+- ​Como analistas de seguridad, rara vez tenemos ese tipo de información.
+- ​Pero si utilizamos una expresión regular que le diga a ​Python cómo está estructurada una dirección de correo electrónico, ​devolverá todas las cadenas que tienen los mismos elementos que una dirección de correo electrónico.
+- ​Incluso si nos dieran un archivo de registro con miles de líneas y ​entradas, podríamos extraer todos los correos electrónicos del archivo buscando ​la estructura de una dirección de correo electrónico mediante una expresión regular.
+- ​No necesitaríamos conocer los correos electrónicos específicos para extraerlos.
+- ​Exploremos los símbolos de expresión regular que necesitamos para hacer esto.
+- ​Para empezar, aprendamos sobre el signo más.
+- ​El signo más es un símbolo de expresión regular que representa una o ​más apariciones de un carácter específico.
+- ​Vamos a explicar esto con un patrón de ejemplo.
+- ​El patrón de expresión regular a+ ​coincide con una cadena de cualquier longitud en la que se repite «a».
+- ​Por ejemplo, solo una «a», tres «a» seguidas o ​cinco «a» seguidas.
+- Incluso podrían ser 1000 «a» seguidas.
+- ​Podemos empezar a trabajar con un ejemplo rápido para ver qué cadenas ​extraería este patrón.
+- ​Empecemos con esta cadena de identificadores de dispositivos.
+- ​Estas son todas las instancias de la letra «a» escritas una o varias veces seguidas.
+- ​La primera instancia tiene una «a», la segunda tiene dos «a», ​la tercera tiene una «a» y la cuarta tiene tres «a».
+- ​Por lo tanto, si le dijéramos a Python que busque coincidencias con la expresión regular del signo a+, ​devolvería esta lista de «a».
+- ​El otro elemento básico que necesitamos es el símbolo \w.
+- ​Coincide con cualquier carácter alfanumérico, ​pero no con los símbolos. «1", «k» e ​«i» son solo tres ejemplos de lo que coincide con «\ w».
+- ​Las expresiones regulares se pueden combinar fácilmente para incluir ​aún más patrones en una búsqueda.
+- ​Antes de aplicar esto a nuestro contexto de correo electrónico, exploremos ​los patrones que podemos buscar si combinamos la «\ w» con el signo más.
+- ​«\ w» coincide con cualquier carácter alfanumérico y ​el signo más coincide con cualquier número de veces que aparezca el carácter anterior.
+- ​Esto significa que la combinación de «\ w+» ​coincide con una cadena alfanumérica de cualquier longitud.
+- ​«\ w» proporciona flexibilidad en los caracteres alfanuméricos con los que ​coincide esta expresión regular, ​y el signo más proporciona flexibilidad en la longitud de la cadena con la que coincide.
+- ​Las cadenas «192", «abc123" y «security» son solo ​tres cadenas posibles que coinciden con «\ w+».
+- ​Ahora vamos a aplicarlos para extraer direcciones de correo electrónico de un registro.
+- ​Las direcciones de correo electrónico constan de texto separado por ciertos símbolos, ​como el símbolo @ y el punto.
+- ​Aprendamos cómo podemos representar esto como una expresión regular.
+- ​Para empezar, pensemos en el formato de una dirección de correo electrónico típica; ​por ejemplo, user1@email1.com.
+- ​El primer segmento de una dirección de correo electrónico contiene caracteres alfanuméricos ​y la longitud del número de caracteres alfanuméricos puede variar.
+- ​Podemos usar nuestra expresión regular «\ w+» para que ​esta parte coincida con una cadena alfanumérica de cualquier longitud.
+- ​El siguiente segmento de una dirección de correo electrónico es el símbolo @.
+- ​Este segmento siempre está presente.
+- ​Ingresaremos esto directamente en nuestra expresión regular.
+- Incluir esto es esencial ​para garantizar que Python distinga las direcciones de correo electrónico de otras cadenas.
+- ​Tras el símbolo @ está el nombre de dominio.
+- ​Al igual que el primer segmento, este varía según la dirección de correo electrónico, ​pero siempre contiene caracteres alfanuméricos, por lo que ​podemos volver a usar «\ w+» para permitir esta variación.
+- ​A continuación, al igual que el símbolo @, ​un punto siempre forma parte de una dirección de correo electrónico.
+- Pero a diferencia del símbolo @, ​en las expresiones regulares, el punto tiene un significado especial.
+- ​Por esta razón, necesitamos usar el punto de barra invertida aquí.
+- ​Cuando añadimos una barra invertida delante de ella, le ​hacemos saber a Python que no pretendemos usarla como operador ​y que nuestro patrón debe incluir un punto en esta ubicación.
+- ​Para el último segmento, también podemos usar «\ w+».
+- ​La parte final de una dirección de correo electrónico suele ser «com», pero ​puede incluir otras cadenas como «net».
+- ​Cuando juntamos las piezas, ​obtenemos la expresión regular que usaremos para buscar las direcciones de correo electrónico en nuestra fila.
+- ​Este patrón coincidirá con todas las direcciones de correo electrónico.
+- ​Excluirá todo lo demás de nuestra cadena.
+- ​Esto se debe a que hemos incluido el símbolo @ y ​el punto en el que aparecen en la estructura de una dirección de correo electrónico.
+- ​Llevemos esto a Python. ​Usaremos expresiones regulares para extraer las direcciones de correo electrónico de una cadena.
+- ​Las expresiones regulares se pueden usar cuando el módulo re se importa a Python, ​por lo que comenzamos con ese paso.
+- Más adelante, ​aprenderemos cómo importar y abrir archivos como registros.
+- ​Pero por ahora, hemos restaurado nuestro registro como una variable de cadena llamada email_log.
+- ​Como se trata de una cadena de varias líneas, ​utilizamos tres conjuntos de comillas en lugar de solo uno.
+- ​A continuación, aplicaremos la función findall () del módulo re a una expresión ​regular.
+- re.findall () devuelve una lista de coincidencias con una expresión regular.
+- ​Usemos esto con la expresión regular que creamos anteriormente para las direcciones de correo electrónico.
+- ​El primer argumento es el patrón que queremos igualar.
+- ​Observe que lo colocamos entre comillas.
+- ​El segundo argumento indica dónde buscar el patrón.
+- ​En este caso, estamos buscando en la cadena contenida en la ​variable de registro de correo electrónico.
+- ​Cuando ejecutamos esto, obtenemos una lista de todos los correos electrónicos de la cadena.
+- ​Imagine aplicar esto a un registro con miles de entradas.
+- Bastante útil, ​¿verdad?
+- [file](./resources/code/modulo-03_02-016.py)
+- ​Esto fue solo una introducción al poder de las expresiones regulares.
+- ​Hay muchos más símbolos que puedes usar.
+- ​Te animo a que explores las expresiones regulares por tu cuenta y aprendas más. 
