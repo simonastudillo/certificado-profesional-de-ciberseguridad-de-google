@@ -12,4 +12,6 @@
 - ​Con estos conceptos, ha dado ​un gran paso para poder ​trabajar con datos y escribir ​los algoritmos que necesitan los profesionales de la seguridad.
 - ​A lo largo del resto de este curso, ​va a adquirir más práctica con ​Python y lo que puede ofrecer a los analistas de seguridad.
 
---
+---
+
+## Guía de referencia: Conceptos de Python del Módulo 3
