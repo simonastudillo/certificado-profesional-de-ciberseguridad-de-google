@@ -118,3 +118,31 @@
    - El siguiente ejemplo utiliza el método .write() para añadir el contenido de la variable line al archivo "access_log.txt".
    - [file](./resources/code/modulo-04_02-003.py)
    - Si llama al método .write() sin utilizar la palabra clave with al importar el archivo, es posible que sus argumentos no se escriban completamente en el archivo si éste no se cierra correctamente de otra forma.
+
+---
+
+## Analizar un archivo de texto en Python
+- ​Ahora que ya sabe cómo importar archivos de texto en Python, ​vamos a ir un paso ​más allá y aprender a darles una estructura.
+- ​Esto nos permitirá analizarlos con mayor facilidad.
+- ​Este proceso suele denominarse parsing.
+- ​El parsing es el proceso de ​convertir datos en un formato más legible.
+- ​Para ello, vamos a ​juntar todo lo que hemos aprendido sobre ​listas y cadenas y aprender ​otro método para trabajar con cadenas en Python.
+- ​El método que necesitamos es el método split.
+- ​El método split convierte una cadena en una lista.
+- ​Lo hace separando ​la cadena basándose en un carácter especificado.
+- ​O, si no se pasa ningún argumento, ​cada vez que encuentra un espacio en blanco, ​separa la cadena.
+- ​Así, una división convertiría la cadena ​"¡Estamos aprendiendo sobre parsing!" en esta lista.
+- ​Estamos utilizando el método de división ​para separar las cadenas en ​trozos más pequeños que podamos analizar más ​fácilmente que un gran bloque de texto.
+- Trabajaremos con un ejemplo de ​registro de seguridad en el que ​cada línea representa un nuevo punto de datos.
+- ​Para almacenar estos puntos en una lista, ​queremos separar el texto en función de la nueva línea.
+- ​Python considera que una nueva línea es un tipo de espacio en blanco.
+- ​Podemos usar el método split sin pasar un argumento.
+- ​Recuerde, usamos este código para abrir ​un archivo y luego leerlo en una cadena.
+- ​Ahora, dividamos esa cadena en ​una lista usando el método split y luego imprimamos la salida.
+- ​Después de ejecutarlo, ​Python da como salida una lista de ​nombres de usuario en lugar de una gran cadena de ellos.
+- ​Si queremos guardar esta lista, ​tendríamos que asignarla a otra variable.
+- ​Por ejemplo, podemos llamar a la variable usernames.
+- ​Y luego lo ejecutaremos de nuevo.
+- ​Y ahora esta lista puede reutilizarse en otro código.
+- ​¡Felicidades! ​Acaba de aprender lo básico de ​parsear un archivo de texto en Python.
+- [file](./resources/code/modulo-04_02-004.py)
