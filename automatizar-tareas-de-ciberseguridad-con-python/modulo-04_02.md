@@ -506,3 +506,22 @@
 
 - Conclusion
    - In this lab, I practiced developing an algorithm in Python that parses a file containing IP addresses that are allowed to access restricted content and removes addresses that no longer have access. I learned how to use the .split() method to convert a string into a list, the .join() method to convert a list back into a string, and the .write() method to write data to a text file. I also learned how to incorporate the algorithm into a single function for reusability, modularity, and abstraction.
+
+---
+
+## Ejemplar: Crear otro algoritmo
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Python has functions and syntax that help you import and parse text files.
+      - The with statement allows you to efficiently handle files.
+      - The open() function allows you to import or open a file. It takes in the name of the file as the first parameter and a string that indicates the purpose of opening the file as the second parameter.
+         - Specify "r" as the second parameter if you're opening the file for reading purposes.
+         - Specify "w" as the second parameter if you're opening the file for writing purposes.
+      - The .read() method allows you to read in a file.
+      - The .write() method allows you to append or write to a file.
+   - You can use a for loop to iterate over a list.
+   - You can use an if statement to check if a given value is in a list and execute a specific action if so.
+   - You can use the .split() method to convert a string to a list.
+   - You can use Python to compare contents of a text file against elements of a list.
+   - Algorithms can be incorporated into functions. When defining a function, you must specify the parameters it takes in and the actions it should execute.
