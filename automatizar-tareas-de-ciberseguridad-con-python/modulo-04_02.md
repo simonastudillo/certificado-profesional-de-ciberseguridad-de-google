@@ -371,7 +371,23 @@
 - ​Directamente dentro del bucle for, iniciamos la sentencia if.
 - La sentencia if ​comprueba si nuestra variable de bucle es igual al current_user que estamos buscando.
 - ​Si esta condición es verdadera, queremos añadir 1 al contador.
-- ​Ya casi hemos terminado con nuestro algoritmo. ​Ahora, solo necesitamos la sentencia if-else final para imprimir la alerta. ​Si el contador suma 3 o más, ​debemos decirle al usuario que su cuenta está bloqueada para que no pueda iniciar sesión. 
-​También escribiremos una instrucción else para los usuarios que puedan iniciar sesión. ¡Nuestro algoritmo está completo! ​Probemos nuestra nueva función con un nombre de usuario de ejemplo. ​Podemos sacar algunos de los nombres de usuario de la lista y probar nuestra función con ellos. ​Usemos el primer nombre de la lista. ​Vamos a ejecutar el código. Según nuestro código, ​este usuario puede iniciar sesión. Tienen menos de tres intentos fallidos de inicio de sesión. 
-​Ahora volvamos a nuestro usuario «eraab». ​Recuerde que tenían dos entradas en la lista de los ocho primeros nombres en ​nuestros intentos fallidos de inicio de sesión. ​¿Crees que podrán iniciar sesión? Cuando corremos, ​recibimos un mensaje de «cuenta bloqueada». Esto significa ​que tuvieron tres o más intentos fallidos de inicio de sesión. ¡ ​Excelente trabajo! Acaba de desarrollar su primer algoritmo de Seguridad que incluye un registro. 
-​A medida que vaya adquiriendo habilidades, aprenderá cómo hacer que este algoritmo sea más eficiente, ​pero esta solución funciona bien por ahora. ​En este vídeo, resumimos todo lo que hemos aprendido hasta ahora, ​desde las operaciones de listas hasta el desarrollo de algoritmos, pasando por el análisis de archivos. ​Lo hicimos mientras creábamos un algoritmo que podemos aplicar en un contexto de Seguridad. 
+- ​Ya casi hemos terminado con nuestro algoritmo.
+- ​Ahora, solo necesitamos la sentencia if-else final para imprimir la alerta.
+- ​Si el contador suma 3 o más, ​debemos decirle al usuario que su cuenta está bloqueada para que no pueda iniciar sesión.
+- ​También escribiremos una instrucción else para los usuarios que puedan iniciar sesión.
+- ¡Nuestro algoritmo está completo!
+- ​Probemos nuestra nueva función con un nombre de usuario de ejemplo.
+- ​Podemos sacar algunos de los nombres de usuario de la lista y probar nuestra función con ellos.
+- ​Usemos el primer nombre de la lista.
+- ​Vamos a ejecutar el código.
+- Según nuestro código, ​este usuario puede iniciar sesión.
+- Tienen menos de tres intentos fallidos de inicio de sesión.
+- ​Ahora volvamos a nuestro usuario «eraab».
+- ​Recuerde que tenían dos entradas en la lista de los ocho primeros nombres en ​nuestros intentos fallidos de inicio de sesión.
+- ​¿Crees que podrán iniciar sesión? Cuando corremos, ​recibimos un mensaje de «cuenta bloqueada».
+- Esto significa ​que tuvieron tres o más intentos fallidos de inicio de sesión.
+- [file](./resources/code/modulo-04_02-012.py)
+- ¡ ​Excelente trabajo! Acaba de desarrollar su primer algoritmo de Seguridad que incluye un registro.
+- ​A medida que vaya adquiriendo habilidades, aprenderá cómo hacer que este algoritmo sea más eficiente, ​pero esta solución funciona bien por ahora.
+- ​En este vídeo, resumimos todo lo que hemos aprendido hasta ahora, ​desde las operaciones de listas hasta el desarrollo de algoritmos, pasando por el análisis de archivos.
+- ​Lo hicimos mientras creábamos un algoritmo que podemos aplicar en un contexto de Seguridad. 
