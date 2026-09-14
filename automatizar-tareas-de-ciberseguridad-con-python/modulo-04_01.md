@@ -240,3 +240,35 @@
 - ​Hágase un poco ​completo al principio y, a partir de ahí, ​podrá diversificarse y ​profundizar en los temas que le interesen.
 - ​Al empezar, puede ser muy duro ​y te sientes como si estuvieras subiendo una gran colina.
 - ​Persevera, continúa aprendiendo ​y será una experiencia muy gratificante. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Python y la automatización
+
+1. ¿Cuál de los siguientes signos potenciales de actividad sospechosa puede rastrear con programas automatizados de Python? Seleccione todas las que correspondan
+   - [x] Si se produjeron varios intentos fallidos de inicio de sesión en un breve espacio de tiempo
+   - [ ] Si los intentos de Phishing se produjeron a través de interacciones en persona
+   - [x] Si se produjeron intentos de inicio de sesión desde direcciones IP que no son zonas de trabajo establecidas
+   - [x] Si los intentos de inicio de sesión se produjeron fuera del horario normal de trabajo
+> Utilizando programas Python automatizados, puede hacer un seguimiento de si se produjeron varios intentos de inicio de sesión fallidos en un breve espacio de tiempo, si los intentos de inicio de sesión se produjeron fuera de las horas normales de trabajo y si los intentos de inicio de sesión se produjeron desde direcciones IP que no son zonas de trabajo establecidas. En todos estos casos, puede obtener los Datos necesarios para la automatización con Python.
+
+2. ¿Qué componente de Python contribuye a la automatización al permitirle realizar las mismas acciones un número determinado de veces basándose en una secuencia?
+   - [ ] Sentencias condicionales
+   - [x] for bucles
+   - [ ] while bucles
+   - [ ] Notación entre corchetes
+> Los bucles de Python for contribuyen a la automatización al permitirle realizar la misma acción un determinado número de veces basándose en una secuencia.
+
+3. ¿Por qué es importante saber trabajar con archivos para la Automatización?
+   - [ ] Para crear una función, es necesario incorporarle un archivo.
+   - [x] La información relacionada con la ciberseguridad suele encontrarse en los archivos de registro.
+   - [ ] Es necesario guardar un archivo para poder revisar lo que ha automatizado.
+   - [ ] Los métodos Cadena y Lista sólo son accesibles a través de archivos.
+> Saber trabajar con archivos es importante para la automatización, ya que la información relacionada con la ciberseguridad se encuentra a menudo en los archivos de registro.
+
+4. ¿Cuál de los siguientes es un formato de archivo común para los registros de Seguridad? Seleccione todos los que correspondan
+   - [x] .txt
+   - [x] .csv
+   - [ ] .jpeg
+   - [ ] .gif
+> Los formatos de archivo habituales para los registros de Seguridad son .txt y .csv. Ambos formatos de archivo son tipos de archivos de texto, lo que significa que sólo contienen texto sin formato. Es fácil extraer datos de los archivos .txt y .csv.
