@@ -320,3 +320,58 @@
       - The .read() method allows you to read in a file.
       - The .write() method allows you to append or write to a file.
    - The .split() method in Python allows you to convert a string to a list.
+
+---
+
+## Desarrollar un algoritmo de análisis sintáctico en Python
+- ​Ahora vamos a unir todas las piezas para importar un archivo, ​analizarlo e implementar un algoritmo simple que nos ayude a detectar intentos de inicio de sesión sospechosos.
+- Queremos crear un programa que se ejecute cada ​vez que un usuario nuevo inicie sesión y compruebe ​si ese usuario ha tenido tres o más intentos fallidos de inicio de sesión.
+- ​Primero, analicemos la estructura de nuestros insumos para construir ​una estrategia para desarrollar nuestro programa.
+- ​Tenemos un archivo de registro almacenado en formato.txt que contiene un nombre de usuario por línea.
+- ​Cada nombre de usuario representa un intento fallido de inicio de sesión.
+- ​Por lo tanto, cuando un usuario inicia sesión, queremos que nuestro programa compruebe su nombre de usuario y ​cuente cuántas veces ese nombre de usuario aparece en nuestro archivo de registro.
+- ​Si ese nombre de usuario se repite tres o más veces, el programa devuelve una alerta.
+- ​Empezaremos con el código que importa el archivo de intentos de registro​, lo divide y lo almacena en una variable denominada usernames.
+- ​Intentemos imprimir los nombres de usuario de la variable para comprobar su contenido.
+- ​Vamos a ejecutar esto.
+- ¡Perfecto! Esto es exactamente lo que esperábamos.
+- ​La variable usernames está lista para usarse en nuestro algoritmo.
+- [file](./resources/code/modulo-04_02-011.py)
+- ​Ahora desarrollemos una estrategia para contar las apariciones de nombres de usuario en la lista.
+- ​Empezaremos con los ocho primeros elementos de la lista de nombres de usuario.
+- ​Observamos que hay dos veces el nombre de usuario «eraab» ​en la lista, pero ¿cómo le diríamos a Python que lo cuente?<>
+- ​Implementaremos un bucle for que recorre en iteración cada elemento.
+- ​Vamos a representar la variable loop con una flecha.
+- ​También definiremos una variable de contador que comience en 0.
+- ​Por lo tanto, nuestro bucle for comienza con el nombre de usuario «elarson».
+- ​En cada elemento, Python pregunta: ​«¿Es este elemento igual a la cadena 'eraab'?»
+- ​Si la respuesta es sí, el contador sube uno.
+- ​Si no lo es, entonces el contador permanece igual.
+- ​Como «elarson» no es lo mismo que «eraab», ​el contador sigue siendo 0.
+- ​Luego, pasamos al siguiente elemento.
+- ​Nos encontramos con nuestra primera aparición de «eraab».
+- ​En este punto, el contador aumenta en 1.
+- Al pasar ​al siguiente elemento, encontramos otra aparición de «eraab», ​por lo que volvemos a aumentar nuestro contador en 1.
+- ​Eso significa que nuestro contador está ahora en 2.
+- ​Continuaremos con este proceso para el resto de la lista.
+- ​Ahora que conocemos la solución, hablemos de cómo implementarla en Python.
+- ​La solución del problema en Python implicará un bucle for, ​una variable de contador y una sentencia if.
+- Volvamos a nuestro código.
+- ​Crearemos una función que cuente los intentos fallidos de inicio de sesión de un usuario.
+- ​Primero, definamos nuestra función. Lo llamaremos login_check().
+- ​Se necesitan dos parámetros.
+- La primera se llama login_list.
+- ​Esto se usará para la lista de intentos fallidos de inicio de sesión.
+- ​El segundo se llama current_user.
+- Se utilizará para el usuario que inicie sesión.
+- ​Dentro de esta función, empezamos por definir ​la variable contador y establecemos su valor en 0.
+- ​Ahora iniciamos el bucle for.
+- Usaremos i como nuestra variable de bucle e iremos ​recorriendo la lista de inicio de sesión.
+- ​En otras palabras, a medida que el bucle se repita, ​recorrerá todos los intentos fallidos de inicio de sesión de la lista.
+- ​Directamente dentro del bucle for, iniciamos la sentencia if.
+- La sentencia if ​comprueba si nuestra variable de bucle es igual al current_user que estamos buscando.
+- ​Si esta condición es verdadera, queremos añadir 1 al contador.
+- ​Ya casi hemos terminado con nuestro algoritmo. ​Ahora, solo necesitamos la sentencia if-else final para imprimir la alerta. ​Si el contador suma 3 o más, ​debemos decirle al usuario que su cuenta está bloqueada para que no pueda iniciar sesión. 
+​También escribiremos una instrucción else para los usuarios que puedan iniciar sesión. ¡Nuestro algoritmo está completo! ​Probemos nuestra nueva función con un nombre de usuario de ejemplo. ​Podemos sacar algunos de los nombres de usuario de la lista y probar nuestra función con ellos. ​Usemos el primer nombre de la lista. ​Vamos a ejecutar el código. Según nuestro código, ​este usuario puede iniciar sesión. Tienen menos de tres intentos fallidos de inicio de sesión. 
+​Ahora volvamos a nuestro usuario «eraab». ​Recuerde que tenían dos entradas en la lista de los ocho primeros nombres en ​nuestros intentos fallidos de inicio de sesión. ​¿Crees que podrán iniciar sesión? Cuando corremos, ​recibimos un mensaje de «cuenta bloqueada». Esto significa ​que tuvieron tres o más intentos fallidos de inicio de sesión. ¡ ​Excelente trabajo! Acaba de desarrollar su primer algoritmo de Seguridad que incluye un registro. 
+​A medida que vaya adquiriendo habilidades, aprenderá cómo hacer que este algoritmo sea más eficiente, ​pero esta solución funciona bien por ahora. ​En este vídeo, resumimos todo lo que hemos aprendido hasta ahora, ​desde las operaciones de listas hasta el desarrollo de algoritmos, pasando por el análisis de archivos. ​Lo hicimos mientras creábamos un algoritmo que podemos aplicar en un contexto de Seguridad. 
