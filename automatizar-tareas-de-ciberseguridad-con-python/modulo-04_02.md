@@ -1,0 +1,36 @@
+# Trabajar con archivos en Python
+
+## Acceder a un archivo de texto en Python
+- Los profesionales de la Seguridad a menudo tienen la tarea de revisar archivos de registro.
+- ​Estos archivos pueden tener miles de entradas, ​por lo que puede ser útil automatizar este proceso, y ahí es donde Python entra en juego.
+- ​Vamos a empezar importando un simple archivo de texto que sólo contenga unas pocas palabras y ​luego restaurarlo como una cadena en Python.
+- ​Todo lo que necesitamos es el archivo de texto, su ubicación y las palabras clave Python adecuadas.
+- ​Vamos a empezar escribiendo una sentencia "with".
+- ​La palabra clave with maneja errores y gestiona recursos externos.
+- ​Al usar with, Python sabe que debe liberar automáticamente recursos que ​de otro modo mantendrían nuestro sistema ocupado hasta que el programa termine de ejecutarse.
+- ​Suele usarse en el manejo de archivos para ​cerrar automáticamente un archivo después de leerlo.
+- ​Para abrir archivos y luego leerlos, escribimos una sentencia que ​comienza con la palabra clave with.
+- A continuación, utilizamos la función open(). ​Open() es una función que abre un archivo en Python.
+- ​El primer parámetro es el nombre del archivo de texto en su computadora o ​un enlace a él en Internet.
+- ​Dependiendo del entorno de Python, ​puede que también necesite incluir una ruta a este archivo.
+- ​Recuerde incluir la extensión .txt en el nombre del archivo.
+- ​Ahora hablemos del segundo parámetro.
+- ​Este parámetro de la función open() indica a Python lo que queremos hacer con el archivo.
+- ​En nuestro caso, queremos leer un archivo, por lo que utilizamos la letra "r" entre comillas.
+- ​Si quisiéramos escribir en un archivo, sustituiríamos esta "r" por una "w".
+- ​Pero aquí, nos estamos centrando en la lectura.
+- ​Por último, file es una variable que contiene ​la información del archivo siempre que estemos dentro de la sentencia with.
+- ​Al igual que con otros tipos de sentencias, terminamos nuestra sentencia with con dos puntos.
+- ​El código que viene después de los dos puntos le dirá a Python qué hacer con ​el contenido del archivo.
+- ​Vayamos a Python y utilicemos lo que hemos aprendido.
+- ​Estamos listos para abrir un archivo de texto en Python.
+- ​Ahora escribiremos nuestra sentencia with.
+- ​A continuación, utilizaremos el método de lectura incorporado de Python.
+- ​El método de lectura convierte los archivos en cadenas.
+- ​Ahora volvamos a nuestra sentencia with.
+- ​Similar a un bucle for, las sentencias with comienzan una sangría en la línea siguiente.
+- ​Esto le dice a Python que este código está ocurriendo dentro de la sentencia with.
+- ​Dentro de la sentencia, vamos a usar la función read() para convertir ​nuestro archivo en una cadena y almacenarla dentro de una nueva variable.
+- ​Esta nueva variable puede usarse fuera de la sentencia with.
+- ​Así que salgamos de la sentencia with eliminando la indentación e ​imprimamos la variable.
+- ​¡Perfecto! La cadena del texto se imprime.
