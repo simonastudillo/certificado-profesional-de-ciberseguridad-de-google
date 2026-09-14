@@ -304,3 +304,19 @@
    - I also created a text file that contains a list of IP addresses that are allowed to access restricted information.
    - I learned how to use the .split() method to convert a string into a list and the .join() method to convert a list back into a string.
    - I also learned how to use the .write() method to write data to a text file.
+
+---
+
+## Ejemplar: Importar y analizar un archivo de texto
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Python has functions and syntax that help you import and parse text files.
+      - The with statement allows you to efficiently handle files.
+      - The open() function allows you to import or open a file. It takes in the name of the file as the first parameter and a string that indicates the purpose of opening the file as the second parameter.
+         - Specify "r" as the second parameter if you're opening the file for reading purposes.
+         - Specify "a" as the second parameter if you're opening the file for appending purposes.
+         - Specify "w" as the second parameter if you're opening the file for writing purposes.
+      - The .read() method allows you to read in a file.
+      - The .write() method allows you to append or write to a file.
+   - The .split() method in Python allows you to convert a string to a list.
