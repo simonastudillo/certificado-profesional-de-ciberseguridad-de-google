@@ -215,5 +215,28 @@
    - En un archivo .txt, no existe un formato específico para separar los valores, y éstos pueden separarse de diversas formas, incluidos los espacios.
    - Puede extraer fácilmente datos de los archivos .txt y .csv.
    - También puede convertir ambos a otros formatos de archivo.
+  
+---
 
-A continuación, aprenderá a importar, leer de y escribir en archivos. También explorará cómo estructurar la información contenida en los archivos.
+## Clancy: Aprendizaje continuo y Python
+- Me llamo Clancy y soy ingeniero de seguridad sénior.
+- ​Mi equipo de Google forma parte de ​un esfuerzo continuo para proteger la ​información confidencial, los datos de los clientes y la PII de Google.
+- ​Cada día es diferente en mi trabajo, ​me permite usar diferentes habilidades y ​conjuntos de conocimientos, y ningún día es igual.
+- Estar ​afectado por cualquier tipo de ​ataque de ciberseguridad definitivamente ​te da una perspectiva del lado opuesto.
+- ​Puedes ver cómo afecta esto a los usuarios, ​cómo afecta a las personas que fueron atacadas.
+- ​Si hubiera sabido cuando empecé ​lo importante que era realmente el campo de la ciberseguridad, ​me habría permitido explorar.
+- ​Python es un lenguaje de desarrollo.
+- ​Lo uso con mucha frecuencia en mi puesto en Google.
+- ​Una de mis cosas favoritas de ​Python es el poder del lenguaje.
+- ​Puedes usarlo para crear ​scripts muy potentes que ​utilizarás en tu rol diario.
+- ​Cuando aprendí Python por primera vez, ​la parte más difícil fue aprender a ​decir las cosas a la manera pitónica.
+- ​Utilicé varios recursos en línea, ​así como libros, además de elegir proyectos paralelos.
+- ​Una de las mejores cosas de Python es que es ​un lenguaje muy utilizado y puedes encontrar ​muchos recursos en línea según tus habilidades.
+- ​Python, al igual que ​cualquier otro lenguaje de desarrollo, está en constante evolución.
+- ​Continúa asumiendo proyectos, ​continúa ampliando tus conocimientos ​y seguirás creciendo.
+- ​El consejo que puedo dar a una persona que está ​empezando a aprender Python es que sea divertido.
+- ​Creo que una vez que descubres que aprender un idioma ​es divertido, te permite participar más.
+- ​Desarrolle una buena base de lo que es la ciberseguridad.
+- ​Hágase un poco ​completo al principio y, a partir de ahí, ​podrá diversificarse y ​profundizar en los temas que le interesen.
+- ​Al empezar, puede ser muy duro ​y te sientes como si estuvieras subiendo una gran colina.
+- ​Persevera, continúa aprendiendo ​y será una experiencia muy gratificante. 
