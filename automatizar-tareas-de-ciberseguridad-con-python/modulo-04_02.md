@@ -391,3 +391,118 @@
 - ​A medida que vaya adquiriendo habilidades, aprenderá cómo hacer que este algoritmo sea más eficiente, ​pero esta solución funciona bien por ahora.
 - ​En este vídeo, resumimos todo lo que hemos aprendido hasta ahora, ​desde las operaciones de listas hasta el desarrollo de algoritmos, pasando por el análisis de archivos.
 - ​Lo hicimos mientras creábamos un algoritmo que podemos aplicar en un contexto de Seguridad. 
+
+---
+
+## Actividad: Crear otro algoritmo
+- Introducción
+   - En este laboratorio, abrirá un entorno de cuaderno para practicar el desarrollo de otro algoritmo en Python.
+   - Se le presentará un escenario de seguridad para que lo explore a lo largo del laboratorio.
+   - Desarrollará un nuevo algoritmo que analiza un archivo que contiene direcciones IP que tienen permitido el acceso a contenido restringido y elimina las direcciones que ya no tienen acceso.
+
+- Lo que hará
+   - Importar un archivo de texto que contenga una lista de permitidos y almacenarla como una cadena
+   - Desarrollar un algoritmo de análisis sintáctico que elimine de la lista de permitidos las direcciones IP que ya no tienen acceso a información restringida
+
+- Scenario
+   - In this lab, you're working as a security analyst and you're responsible for developing an algorithm that parses a file containing IP addresses that are allowed to access restricted content and removes addresses that no longer have access.
+
+- Task 1
+   - Your eventual goal is to develop an algorithm that parses a series of IP addresses that can access restricted information and removes the addresses that are no longer allowed.
+   - Python can automate this process.
+   - You're given a text file called "allow_list.txt" that contains a series of IP addresses that are allowed to access restricted information.
+   - There are IP addresses that should no longer have access to this information, and their IP addresses need to be removed from the text file.
+   - You're given a variable named remove_list that contains the list of IP addresses to be removed.
+   - Display both variables to explore their contents, and run the cell.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before running the following cell.
+   - [file](./resources/code/lab_11/task_01.py)
+   - What do you observe about the output above?
+   > The output shows the contents of the import_file variable, which contains the name of the text file "allow_list.txt", and the remove_list variable, which contains a list of IP addresses that need to be removed from the allow list. The import_file variable is a string, while the remove_list variable is a list of strings.
+
+- Task 2
+   - In this task, start by opening the text file using the import_file variable, the with keyword, and the open() function with the "r" parameter.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code.
+   - For now, you'll write the first line of the with statement.
+   - Running this code will produce an error because it will only contain the first line of the with statement; you'll complete this with statement in the task after this.
+   - [file](./resources/code/lab_11/task_02.py)
+
+- Task 3
+   - Now, use the .read() method to read the imported file and store it in a variable named ip_addresses.
+   - Afterwards, display ip_addresses to examine the data in its current format.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_03.py)
+   - Do you notice any IP addresses in the allow list that are also in the remove_list?
+   > Yes, there are IP addresses in the allow list that are also in the remove_list. These are the IP addresses that need to be removed from the allow list.
+
+- Task 4
+   - After reading the file, reassign the ip_addresses variable so its data type is updated from a string to a list.
+   - Use the .split() method to achieve this.
+   - Adding this step will allow you to iterate through each of the IP addresses in the allow list instead of navigating a large string that contains all the addresses merged together.
+   - Afterwards, display the ip_addresses variable to verify that the update took place.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_04.py)
+
+- Task 5
+   - Now, you'll write code that removes the elements of remove_list from the ip_addresses list.
+   - This will require both an iterative statement and a conditional statement.
+   - First, build the iterative statement. Name the loop variable element, loop through ip_addresses, and display each element.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_05.py)
+
+- Task 6
+   - Now, build a conditional statement to remove the elements of remove_list from the ip_addresses list.
+   - The conditional statement should be placed inside the iterative statement that loops through ip_addresses.
+   - In every iteration, if the current element in the ip_addresses list is in the remove_list, the remove() method should be used to remove that element.
+   - Afterwards, display the updated ip_addresses list to verify that the elements of remove_list are no longer in the ip_addresses.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_06.py)
+
+- Task 7
+   - The next step is to update the original file that was used to create the ip_addresses list.
+   - A line of code containing the .join() method has been added to the code so that the file can be updated.
+   - This is necessary because ip_addresses must be in string format when used inside the with statement to rewrite the file.
+   - The .join() method takes in an iterable (such as a list) and concatenates every element of it into a string.
+   - The .join() method is applied to a string consisting of the character that will be used to separate every element in the iterable once its converted into a string.
+   - In the code below, the method is applied to the string " ", which contains just a space character.
+   - The argument of the .join() method is the iterable you want to convert, and in this case, that's ip_addresses.
+   - As a result, it converts ip_addresses from a list back into a string with a space between each element and the next.
+   - After this line with the .join() method, build the with statement that rewrites the original file.
+   - Use the "w" parameter when calling the open() function to delete the contents in the original file and replace it with what you want to write.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - This code cell will not produce an output.
+   - [file](./resources/code/lab_11/task_07.py)
+
+- Task 8
+   - In this task, you'll verify that the original file was rewritten using the correct list.
+   - Write another with statement, this time to read in the updated file.
+   - Start by opening the file.
+   - Then read the file and store its contents in the text variable.
+   - Afterwards, display the text variable to examine the result.
+   - Be sure to replace each ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_08.py)
+
+- Task 9
+   - The next step is to bring all of the code you've written leading up to this point and put it all into one function.
+   - Define a function named update_file() that takes in two parameters.
+   - The first parameter is the name of the text file that contains IP addresses (call this parameter import_file).
+   - The second parameter is a list that contains IP addresses to be removed (call this parameter remove_list).
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - Note that this code cell will not produce an output.
+   - [file](./resources/code/lab_11/task_09.py)
+   - What are the benefits of incorporating the algorithm into a single function?
+   > Incorporating the algorithm into a single function provides several benefits:
+   > 1. Reusability: The function can be called multiple times with different parameters
+   > 2. Modularity: The code is organized into a single block, making it easier to read and maintain
+   > 3. Abstraction: The function hides the implementation details, allowing users to focus on the input and output without worrying about the underlying logic
+
+- Task 10
+   - Finally, call the update_file() that you defined.
+   - Apply the function to "allow_list.txt" and pass in a list of IP addresses as the second argument.
+   - Use the following list of IP addresses as the second argument:
+   - ["192.168.25.60", "192.168.140.81", "192.168.203.198"]
+   - After the function call, use a with statement to read the contents of the allow list. Then display the contents of the allow list. Run it to verify that the file has been updated by the function.
+   - Be sure to replace the ### YOUR CODE HERE ### with your own code before you run the following cell.
+   - [file](./resources/code/lab_11/task_10.py)
+
+- Conclusion
+   - In this lab, I practiced developing an algorithm in Python that parses a file containing IP addresses that are allowed to access restricted content and removes addresses that no longer have access. I learned how to use the .split() method to convert a string into a list, the .join() method to convert a list back into a string, and the .write() method to write data to a text file. I also learned how to incorporate the algorithm into a single function for reusability, modularity, and abstraction.
