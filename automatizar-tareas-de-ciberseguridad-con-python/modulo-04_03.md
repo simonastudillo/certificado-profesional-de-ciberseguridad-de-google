@@ -91,3 +91,66 @@
 - ​Todos los días hay algo nuevo.
 - ​Todos los días tengo algo ​emocionante que hacer y sí, ​dedicarme a ello.
 - La ciberseguridad es el camino. 
+
+---
+
+## Aplicar estrategias de Depuración
+- ​Supongamos que nuestros compañeros de trabajo ​necesitan ayuda para que su código funcione y ​nos hemos ofrecido a depurar su código para ​asegurarnos de que funciona sin problemas.
+- ​En primer lugar, necesitamos conocer el propósito del código.
+- ​En este caso, el propósito del código es ​analizar una sola línea de un archivo de registro y devolverla.
+- ​El archivo de registro que utilizamos registra ​posibles problemas con las aplicaciones de software.
+- ​Cada línea del registro contiene ​los códigos de estado de respuesta HTTP, ​la fecha, la hora ​y el nombre de la aplicación.
+- ​Al escribir este código, ​nuestros compañeros de trabajo consideran si es ​necesario analizar todos estos códigos de estado.
+- ​Dado que 200 indica un evento exitoso, ​llegaron a la conclusión de que las líneas con ​este código de estado no deberían analizarse.
+- ​En su lugar, Python debería devolver un mensaje ​que indique que el análisis no era necesario.
+- ​Para iniciar el proceso de depuración, ​ejecutemos primero el código para identificar los errores que aparecen.
+- ​Nuestro primer error es un error de sintaxis.
+- ​El mensaje de error también nos indica que ​el error de sintaxis se produce ​en una línea que define una función.
+- ​Así que vamos a desplazarnos hasta esa parte del código.
+- ​Como recordará, ​los encabezados de estas funciones deben terminar con dos puntos.
+- ​Sigamos y agreguemos eso al código.
+- ​Ahora, el error de sintaxis debería desaparecer.
+- ​Vamos a ejecutar el código de nuevo.
+- ​Ahora nuestro error de sintaxis ha desaparecido, ​lo cual es una buena noticia, pero ​tenemos otro error, un «error de nombre».
+- ​El «error de nombre» es en realidad un tipo de excepción, ​lo que significa que hemos escrito una sintaxis válida, ​pero Python no puede procesar la sentencia.
+- ​Según el error, ​el intérprete no entiende la ​variable application_name en el ​punto en el que se agregó a la lista parsed_line.
+- ​Examinemos esa sección del código.
+- ​Este error significa que no hemos ​asignado correctamente el nombre de la variable.
+- ​Así que ahora volvamos al lugar donde se ​asignó por primera vez y determinemos qué pasó.
+- ​Descubrimos que esta variable está mal escrita.
+- ​Debe haber dos p en application_name, no una.
+- ​Vamos a corregir la ortografía.
+- ​Ahora que lo hemos arreglado, debería funcionar.
+- ​Así que ejecutemos el código.
+- ¡Genial! Hemos corregido ​un error y una excepción.
+- ​Y ya no tenemos ningún mensaje de error.
+- ​Pero esto no significa que nuestro trabajo de depuración haya terminado.
+- ​Vamos a asegurarnos de que la lógica ​del programa funciona según lo previsto examinando el resultado.
+- ​Nuestra salida es una línea analizada.
+- ​En la mayoría de los casos, esto sería lo que queríamos.
+- ​Pero como recordarás, ​si el código de estado es 200, ​nuestro código no debería analizar la línea.
+- ​En su lugar, debería imprimir ​un mensaje que indique que no es necesario analizarlo.
+- ​Y cuando lo llamamos con un código de estado 200, ​se produjo un error lógico ​porque este mensaje no se mostraba.
+- ​Así que volvamos al condicional que usamos para ​manejar el código de estado 200 e investiguemos.
+- ​Para encontrar el origen del problema, ​agreguemos declaraciones impresas.
+- ​En nuestras declaraciones impresas, ​incluiremos el número de línea ​y la descripción de la ubicación.
+- ​Agregaremos una sentencia de impresión antes de la línea de ​código que contiene «return parsed_list».
+- ​Vamos a añadir otra encima de la sentencia if que comprueba ​el código de estado 200 para ​determinar si llega a la sentencia if.
+- ​Añadiremos una sentencia print más dentro de ​la sentencia if para ​determinar si el programa la introduce siquiera.
+- ​Ahora, ejecutemos el código y revisemos lo que se imprime.
+- ​Solo la primera declaración impresa imprimió algo.
+- ​Las otras dos declaraciones impresas después de estas no se imprimieron.
+- ​Esto significa que el programa ​ni siquiera ingresó la sentencia if.
+- ​El problema se produjo en algún lugar ​antes de la línea que devuelve la variable parsed_line.
+- ​Vamos a investigar. ​Cuando Python encuentra la primera sentencia de retorno ​que devuelve la lista analizada, ​sale de la función.
+- ​En otras palabras, devuelve la lista ​incluso antes de comprobar un valor de código de estado de 200.
+- ​Para solucionar este problema, debemos mover la sentencia if y ​comprobar el código de estado ​en algún lugar antes de «devolver la línea analizada».
+- ​Primero eliminemos nuestras declaraciones impresas.
+- ​Esto hace que el programa ​sea más eficiente porque no ejecuta líneas de código innecesarias.
+- ​Ahora, movamos la sentencia if.
+- ​Lo colocaremos justo después de la línea de código ​que implica analizar el código de estado de la línea.
+- ​Ejecutemos nuestro código y confirmemos que esto solucionó nuestro problema.
+- ​¡Sí! Imprimió «Evento exitoso, no es necesario analizarlo».
+- ​¡Gran trabajo! Hemos corregido este error lógico.
+- ​He disfrutado depurando este código contigo.
+- [file](./resources/code/modulo-04_03-003.py)
