@@ -266,3 +266,79 @@
    - Esto significa que el código llama al método .append() para ambos nombres de usuario aunque uno ya esté en approved_users.
    - Esto ayuda a aislar el Error lógico a esta área.
    - Esto puede ayudarte a darte cuenta de que la línea de código approved_users.append(user) debería ser el cuerpo de una sentencia else para que sólo se ejecute cuando user no esté en approved_users.
+
+---
+
+## Actividad: Depuración de código Python
+- Introducción
+   - En este laboratorio, abrirá un entorno de cuaderno para practicar habilidades de depuración en Python.
+   - Se le presentará un escenario de seguridad para que lo explore a lo largo del laboratorio.
+   - Utilizará las habilidades de depuración para identificar errores en el código y resolverlos para que el código logre el resultado deseado.
+
+- Lo que hará
+   - Aplicar estrategias de depuración para asegurarse de que el código funciona correctamente
+   - Ajustar el código para resolver errores de sintaxis, excepciones y errores lógicos
+
+- Scenario
+   - In your work as a security analyst, you need to apply debugging strategies to ensure your code works properly.
+   - Throughout this lab, you'll work with code that is similar to what you've written before, but now it has some errors that need to be fixed.
+   - You'll need to read code cells, run them, identify the errors, and adjust the code to resolve the errors.
+
+- Task 1
+   - The following code cell contains a syntax error.
+   - In this task, you'll run the code, identify why the error is occuring, and modify the code to resolve it.
+   - (To ensure that it has been resolved, run the code again to check if it now functions properly.)
+   - [file](./resources/code/lab_12/task_01.py)
+   - What happens when you run the code before modifying it? How can you fix this?
+   > The code will not run because the for loop is missing a colon at the end of the line. To fix this, add a colon at the end of the for loop line.
+
+- Task 2
+   - In the following code cell, you're provided a list of usernames.
+   - There is an issue with the syntax.
+   - In this task, you'll run the cell, observe what happens, and modify the code to fix the issue.
+   - [file](./resources/code/lab_12/task_02.py)
+   - What happens when you run the code before modifying it? How can you fix it?
+   > The code will not run because there is a missing comma and a doble quote in the list of usernames. To fix this, add a comma and remove the double quote in the list of usernames.
+
+- Task 3
+   - In the following code cell, there is a syntax error.
+   - Your task is to run the cell, identify what is causing the error, and fix it.
+   - [file](./resources/code/lab_12/task_03.py)
+   - What happens when you run the code before modifying it? What is causing the syntax error? How can you fix it?
+   > The code will not run because there is missing a parenthesis. To fix this, add a parenthesis at the end of the print statement.
+
+- Task 4
+   - In the following code cell, you're provided a usernames_list, a username, and code that determines whether the username is approved.
+   - There are two syntax errors and one exception.
+   - Your task is to find them and fix the code.
+   - A helpful debugging strategy is to focus on one error at a time and run the code after fixing each one.
+   - [file](./resources/code/lab_12/task_04.py)
+   - What happens when you run the code before modifying it? What is causing the errors? How can you fix it?
+   > The code will not run because there is a misspelling in the username_list, the if statement was incorrect and if body need identation. To fix the code we need to correct the username_list to usernames_list, change the "=" to "==" in the if statement and add a identation in the body of if statement.
+
+- Task 5
+   - In this task, you'll examine the following code and identify the type of error that occurs.
+   - Then, you'll adjust the code to fix the error.
+   - [file](./resources/code/lab_12/task_05.py)
+   - What happens when you run the code before modifying it? What type of error is this? How can you fix it?
+   > The code will not run, there is an exception when trying to acces the 5 element of the list. We can fixed changed the 5 by -1. 
+
+- Task 6
+   - In this task, you'll examine the following code.
+   - The code imports a text file into Python, reads its contents, and stores the contents as a list in a variable named ip_addresses.
+   - It then removes elements from ip_addresses if they are in remove_list.
+   - There are two errors in the code: first a syntax error and then an exception related to a string method.
+   - Your goal is to find these errors and fix them.
+   - [file](./resources/code/lab_12/task_06.py)
+   - What happens when you run the code before modifying it? What is causing the errors? How can you fix them?
+   > The code will not run because there is missing a colon at the end of the line 11, and there is a syntax error en line 16. To fix this, we need to add the colon at the end of the line 11, then, we need to fix de syntax error when trying to split.
+
+- Task 7
+   - In this final task, there are three operating systems: OS 1, OS 2, and OS 3.
+   - Each operating system needs a security patch by a specific date.
+   - The patch date for OS 1 is "March 1st", the patch date for OS 2 is "April 1st", and the patch date for OS 3 is "May 1st".
+   - The following code stores one of these operating systems in a variable named system.
+   - Then, it uses conditionals to output the patch date for this operating system.
+   - However, this code has logic errors.
+   - Your goal is to assign the system variable to different values, run the code to examine the output, identify the error, and fix it.
+   - [file](./resources/code/lab_12/task_07.py)
