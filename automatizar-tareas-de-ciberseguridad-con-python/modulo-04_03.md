@@ -56,3 +56,38 @@
 - [file](./resources/code/modulo-04_03-002.py)
 - ​Se pueden esperar errores y excepciones al trabajar en Python.
 - ​Lo importante es saber cómo tratar con ellos.
+
+---
+
+## Matt: Aprender de los errores
+- ​Me llamo Matt.
+- ​Soy un ingeniero de software que trabaja en ciberseguridad.
+- Crecí viendo películas como La Matrix, ​y no es muy ​realista lo que realmente es el trabajo de ciberseguridad, ​pero es inspirador.
+- ​Si profundizas ​en los detalles de lo que haces y das ​un paso atrás como si fueras ​ese tío guay con gafas de sol, eres un hacker.
+- ​Cuando empecé a escribir código, ​veía los errores de programación ​como una señal de que me había ido mal.
+- ​Pero a medida que crecí, ​un poco más madura, ​me di cuenta de que todo el mundo tiene errores de programación.
+- ​Literalmente, el mejor ingeniero de software ​que conozco escribe código y tiene errores.
+- ​Los errores representan un momento en el ​que puedes dar un paso atrás y decir: ¿qué hice mal?
+- ​Es una oportunidad de aprendizaje.
+- ​Ahora, veo momentos en los que ​puedo analizar algunos problemas que no ​entiendo y pensar: ¿por qué?
+- ​Sumérjase en ello y amplíe ​mis conocimientos de informática, que es todo mi trabajo.
+- ​Lo veo como un ​proceso de aprendizaje y es un poco divertido.
+- ​Una de las áreas de programación más complicadas con las que me he topado ​durante mi estancia aquí en Google fue la toma de huellas dactilares ​cuando encontramos una vulnerabilidad.
+- ​Si encontramos la misma vulnerabilidad más adelante, ​no queremos tener dos vulnerabilidades, ​no queremos molestar a alguien dos veces y decir: ​arregla esto si es exactamente lo mismo.
+- ​Hacemos lo que se llama ​toma de huellas digitales, en la que decimos que esta vulnerabilidad tiene ​una huella digital específica y, si encontramos ​otra vulnerabilidad que tenga la misma huella digital, ​no la almacenaremos ​por separado ni la trataremos por separado.
+- En efecto, ​son lo mismo.
+- ​Me estaba encontrando con estos errores en los ​que las cosas no ​dejaban huellas dactilares de la manera que esperaba que lo hicieran.
+- ​Estuve literalmente esforzándome durante semanas, ​intentando averiguar ​qué pasa con esta cosa.
+- ​Pero cuando descubrí que era muy satisfactorio, ya está.
+- ​Cuando estás en medio de este lío, ​todas esas dudas sobre ti mismo se apoderan de tu cerebro.
+- ​Piensas que tal vez ​no soy tan bueno en esto como pensaba.
+- ​Lo que volvería y ​me diría a mí mismo:
+- A), no es interminable, ​mejora. Una vez que lo descubres, ​esa sensación de recompensa es increíble.
+- ​Pero B), además, está bien engañar a la gente ​si tienes problemas con algo, ​siempre abogo por pedir ayuda.
+- ​La mayoría de las personas están muy ​emocionadas de ayudarte con esto, ​especialmente cuando se trata de un problema complicado.
+- ​Estoy muy emocionada de haber acabado en ciberseguridad.
+- ​La ciberseguridad está teniendo su momento.
+- ​Las personas se están dando cuenta, se están dando cuenta de la cantidad de datos ​que están publicando en ​el mundo y están empezando a preocuparse por ellos.
+- ​Todos los días hay algo nuevo.
+- ​Todos los días tengo algo ​emocionante que hacer y sí, ​dedicarme a ello.
+- La ciberseguridad es el camino. 
