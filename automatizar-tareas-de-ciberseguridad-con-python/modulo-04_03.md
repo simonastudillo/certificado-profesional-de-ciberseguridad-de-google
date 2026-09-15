@@ -154,3 +154,115 @@
 - ​¡Gran trabajo! Hemos corregido este error lógico.
 - ​He disfrutado depurando este código contigo.
 - [file](./resources/code/modulo-04_03-003.py)
+
+---
+
+## Explore las técnicas de depuración
+- Tipos de errores
+   - Es una parte normal del desarrollo de código en Python recibir mensajes de error o descubrir que el código que estás ejecutando no está funcionando ASÍ.
+   - Lo importante es que sepas cómo solucionar los errores cuando se producen.
+   - Entender los tres tipos principales de errores puede ayudar.
+   - Estos tipos incluyen errores de sintaxis, errores lógicos y excepciones.
+
+- Errores de sintaxis
+   - Un error de sintaxis es un error que implica un uso no válido de un lenguaje de programación.
+   - Error de sintaxis ocurre cuando hay un error con la sintaxis de Python en sí.
+   - Ejemplos comunes de errores de sintaxis incluyen olvidar un signo de puntuación, como un corchete de cierre para una lista o dos puntos después del encabezado de una función.
+   - Cuando ejecutas código con errores de sintaxis, la salida identificará la localización del error con el número de línea y una porción del código afectado.
+   - También describe el error.
+   - Los errores de sintaxis suelen comenzar con la etiqueta"SyntaxError:".
+   - A continuación, sigue una descripción del error.
+   - La descripción puede ser simplemente "invalid syntax".
+   - O si olvida un paréntesis de cierre en una función, la descripción podría ser "unexpected EOF while parsing".
+   - "EOF" significa "fin de archivo".
+   - El siguiente código contiene un error de sintaxis. Ejecútalo y examina su salida:
+   - [file](./resources/code/modulo-04_03-004.py)
+   - Aparece el mensaje "SyntaxError: EOL while scanning string literal".
+   - "EOL" significa "fin de línea".
+   - El mensaje de error también indica que el error se produce en la primera línea.
+   - El error se produjo porque faltaba una comilla al final de la cadena de la primera línea.
+   - Puede solucionarlo añadiendo esa comilla.
+   - A veces encontrará la etiqueta de error "IndentationError" en lugar de "SyntaxError".
+   - "IndentationError" es una subclase de "SyntaxError" que se produce cuando la sangría utilizada con una línea de código no es sintácticamente correcta. 
+
+- Errores lógicos
+   - Un Error lógico es un error que se produce cuando la lógica utilizada en el código produce resultados no deseados.
+   - Los errores lógicos pueden no producir mensajes de error.
+   - En otras palabras, el código no hará lo que se espera que haga, pero sigue siendo válido para el intérprete.
+   - Por ejemplo, usar el operador lógico incorrecto, como un signo mayor o igual que (>=) en lugar del signo mayor que (>) puede resultar en un error lógico.
+   - Python no evaluará una condición como usted pretendía.
+   - Sin embargo, el código es válido, por lo que se ejecutará sin un mensaje de error.
+   - El siguiente ejemplo muestra un mensaje relacionado con si un usuario ha alcanzado o no un número máximo de cinco intentos de inicio de sesión.
+   - La condición en la sentencia if debería ser login_attempts < 5, pero está escrita como login_attempts >= 5.
+   - Se ha asignado un valor de 5 a login_attempts para que pueda explorar lo que muestra en ese caso:
+   - [file](./resources/code/modulo-04_03-005.py)
+   - La salida muestra el mensaje "User has not reached maximum number of login attempts."
+   - Sin embargo, esto no es cierto ya que el número máximo de intentos de inicio de sesión es cinco.
+   - Esto es un Error lógico.
+   - Los errores lógicos también pueden producirse cuando se asigna un valor incorrecto en una condición o cuando un error con la sangría hace que una línea de código se ejecute de una forma que no estaba prevista.
+
+- Excepciones
+   - Una excepción es un error que implica que el código no puede ejecutarse aunque sea sintácticamente correcto.
+   - Esto ocurre por varias razones.
+   - Una causa común de una excepción es cuando el código incluye una variable que no ha sido asignada o una función que no ha sido definida.
+   - En este caso, su salida incluirá "NameError" para indicar que se trata de un error de nombre.
+   - Después de ejecutar el siguiente código, utilice el mensaje de error para determinar qué variable no fue asignada:
+   - [file](./resources/code/modulo-04_03-006.py)
+   - La salida indica que hay un "NameError" que involucra la variable unusual_logins.
+   - Puede solucionarlo asignando un valor a esta variable.
+   - Además de los errores de nombre, se muestran los siguientes mensajes para otros tipos de excepciones:
+      - "IndexError":
+         - Un error de índice ocurre cuando se coloca un índice en notación entre corchetes que no existe en la secuencia referenciada.
+         - Por ejemplo, en la lista usernames = ["bmoreno", "tshah", "elarson"], los índices son 0, 1, y 2.
+         - Si se hace referencia a esta lista con la sentencia print(usernames[3]), se produciría un error de índice.
+      - "TypeError":
+         - Se produce un error de tipo al utilizar un tipo de datos incorrecto.
+         - Por ejemplo, si intentara realizar un cálculo matemático sumando un valor de cadena a un entero, obtendría un error de tipo.
+      - "FileNotFound":
+         - Un error de archivo no encontrado se produce al intentar abrir un archivo que no existe en la ubicación especificada.
+
+- Estrategias de depuración
+   - Ten en cuenta que si tienes varios errores, el intérprete de Python mostrará mensajes de error de uno en uno, empezando por el primer error que encuentre.
+   - Después de corregir ese error y ejecutar el código de nuevo, el intérprete mostrará otro mensaje para el siguiente error de sintaxis o excepción que encuentre.
+   - Cuando se trata de errores de sintaxis, los mensajes de error que recibe en la salida generalmente le ayudarán a solucionar el error.
+   - Sin embargo, en el caso de errores lógicos y excepciones, pueden ser necesarias estrategias adicionales.
+
+- Depuradores
+   - En este curso, has estado ejecutando código en un entorno de Notebook.
+   - Sin embargo, puedes escribir código Python en un Entorno de desarrollo integrado (IDE).
+   - Un IDE (entorno de desarrollo integrado) es una aplicación de software para escribir código que proporciona asistencia de edición y herramientas de corrección de errores.
+   - Muchos IDE ofrecen herramientas de detección de errores en forma de depurador.
+   - Un depurador es una herramienta de software que ayuda a localizar el origen de un error y a evaluar sus causas.
+   - En los casos en que no se puede encontrar la línea de código que está causando el problema, los depuradores ayudan a reducir el origen del error en el programa.
+   - Para ello, utilizan puntos de interrupción.
+   - Los puntos de interrupción son marcadores colocados en determinadas líneas de código ejecutable que indican qué secciones de código deben ejecutarse al depurar.
+   - Algunos depuradores también tienen una característica que le permite comprobar los valores almacenados en las variables a medida que cambian a lo largo de su código.
+   - Esto es especialmente útil en el caso de errores lógicos, ya que permite localizar dónde han cambiado involuntariamente los valores de las variables.
+   - Los recientes avances en IA han abierto muchas oportunidades para mejorar los IDE con una potente asistencia de codificación consciente del contexto.
+   - Se trata de herramientas que se integran directamente en el IDE o en el entorno de codificación para proporcionar una experiencia de codificación más fluida.
+   - Por ejemplo, Gemini Code Assist es una herramienta de IA gratuita que se integra en IDE populares como Visual Studio Code y JetBrains.
+   - Funciona como un asistente que puede ayudar a analizar el código y encontrar errores, sugerir modificaciones y también interactuar de forma conversacional para responder a muchas otras preguntas, ya sean técnicas o más conceptuales. 
+   - Estas herramientas se están convirtiendo rápidamente en indispensables para los programadores y los profesionales de la ciberseguridad, ya que facilitan y aceleran los flujos de trabajo, pero si decides utilizarlas, recuerda que esta tecnología aún está evolucionando.
+   - Las sugerencias, el código o las explicaciones proporcionadas pueden no ser siempre perfectamente precisas, óptimas o seguras.
+   - Revise y valide siempre cualquier resultado generado por IA antes de ejecutar programas o confiar en la información.
+   - Trate la ayuda de la IA como un copiloto útil, pero mantenga la supervisión y la responsabilidad de su código final.
+
+- Utilice instrucciones de impresión
+   - Otra estrategia de depuración consiste en incorporar sentencias de impresión temporales diseñadas para identificar el origen del error.
+   - Deberías incorporar estratégicamente estas sentencias de impresión para imprimir en varios puntos del código.
+   - Puede especificar números de línea así como texto descriptivo sobre la ubicación.
+   - Por ejemplo, puede tener un código destinado a añadir nuevos usuarios a una lista de aprobados y luego mostrar la lista de aprobados.
+   - El código no debería añadir usuarios que ya están en la lista de aprobados.
+   - Si analizas la salida de este código después de ejecutarlo, te darás cuenta de que hay un error lógico:
+   - [file](./resources/code/modulo-04_03-007.py)
+   - Aunque aparece el mensaje "bmoreno already in list", se añade una segunda instancia de "bmoreno" a la lista.
+   - En el código siguiente, se han añadido sentencias print al código.
+   - Al ejecutarlo, puede examinar lo que se imprime:
+   - [file](./resources/code/modulo-04_03-008.py)
+   - La sentencia print "line 5 - inside for loop" sale dos veces, indicando que Python ha entrado en el bucle for para cada nombre de usuario en new_users.
+   - Esto es lo esperado.
+   - Además, la sentencia print "line 7 - inside if statement" sólo imprime una vez, y esto también es lo esperado porque sólo uno de estos nombres de usuario ya estaba en approved_users.
+   - Sin embargo, la sentencia print "line 9 - before .append method" sale dos veces.
+   - Esto significa que el código llama al método .append() para ambos nombres de usuario aunque uno ya esté en approved_users.
+   - Esto ayuda a aislar el Error lógico a esta área.
+   - Esto puede ayudarte a darte cuenta de que la línea de código approved_users.append(user) debería ser el cuerpo de una sentencia else para que sólo se ejecute cuando user no esté en approved_users.
