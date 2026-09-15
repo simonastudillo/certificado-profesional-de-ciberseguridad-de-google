@@ -342,3 +342,5 @@
    - However, this code has logic errors.
    - Your goal is to assign the system variable to different values, run the code to examine the output, identify the error, and fix it.
    - [file](./resources/code/lab_12/task_07.py)
+   - What happens when you run the code before modifying it? What is causing the logic errors? How can you fix them?
+   > The code will run, but it doesnt show the correct value, The error is cause by the index used to obtein the message. We can fix this if we change the values of index, they need to be in order. 
