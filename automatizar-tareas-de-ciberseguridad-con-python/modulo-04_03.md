@@ -358,3 +358,43 @@
       - Logic errors could involve incorrect indices when accessing elements from a list.
       - Exceptions could involve misspelled variable names or incorrectly called string methods.
    - A key strategy for debugging is running code and examining if it produces the intended results. If the output isn't correct, or if it displays an the error message, use this to identify which line(s) of the code could be causing the issue. After fixing the code, it's important to run it again to ensure that everything works as expected.
+
+---
+
+## Ponga a prueba sus Conocimientos: Depuración de código Python
+
+1. ¿Qué tipos de errores puede encontrar mientras depura código? Seleccione tres respuestas
+   - [x] Errores de sintaxis
+   - [x] Errores lógicos
+   - [x] Excepciones
+   - [ ] Iterativos
+> Errores de sintaxis, errores lógicos y excepciones son todos los tipos de errores que puede encontrar mientras depura código. Los errores de sintaxis implican un uso no válido del lenguaje Python. Los errores lógicos pueden no causar mensajes de error, pero producen resultados no deseados. Las excepciones se producen cuando el programa no sabe cómo ejecutar el código aunque sea sintácticamente correcto.
+
+2. La finalidad de este Código es indicar si es necesario actualizar un sistema operativo concreto. Sin embargo, contiene un error de sintaxis. Ejecute este código, analice su resultado y, a continuación, depúrelo.
+```python
+operating_system = "OS 2"
+if operating_system == "OS 1":
+    print("updates needed")
+elif operating_system == "OS 2":
+    print("no updates needed")
+```
+- Basándose en lo que descubra, ¿cómo puede solucionar el error?
+   - [ ] Indentación de la declaración elsif.
+   - [ ] Utilice signos de igual simples (=) y no dobles (==).
+   - [ ] Elimine todos los dos puntos (:).
+   - [x] Cambie la palabra clave elsif por elif.
+> Cuando ejecute este código, el mensaje de error puede ayudarle a identificar el error de sintaxis y el número de línea donde se produce. Si cambia la palabra clave elsif por elif se solucionará el error. Los errores de sintaxis implican un uso no válido del lenguaje Python, como por ejemplo escribir mal una palabra clave. La ortografía correcta para la palabra clave necesaria antes de la condición operating_system == "OS 2" es elif.
+
+3. Usted ha escrito un código que asigna los tickets de incidentes de Seguridad al Equipo de Ciberseguridad apropiado en función de su nivel de prioridad. Si el nivel de prioridad es 1, debería enviarse al Equipo A. Si el nivel de prioridad es 2, debería enviarse al Equipo B. Al probar su código, observa que un incidente con nivel de prioridad 2 se envía al Equipo A en lugar de al Equipo B. ¿De qué tipo de error se trata?
+   - [ ] Excepción
+   - [x] Error lógico
+   - [ ] Error de sintaxis
+   - [ ] Error de nombre
+> Se trata de un error lógico. Los errores lógicos son errores que se producen cuando la lógica utilizada en el código produce resultados no deseados. En esta situación, debido a que el ticket de Incidente de Seguridad se reenvía al Equipo equivocado, se produce un resultado no intencionado.
+
+4. Usted ha escrito un código que utiliza un algoritmo de búsqueda para encontrar la dirección IP de un empleado. Al probar su código, un mensaje de error le indica que se está accediendo a un índice desconocido. ¿De qué tipo de error se trata?
+   - [x] Excepción
+   - [ ] Error lógico
+   - [ ] Error de sintaxis
+   - [ ] Iterativo
+> Esto es una Excepción. Las excepciones se producen cuando Python no sabe cómo ejecutar el código aunque sea sintácticamente correcto. Esto ocurre si le pide a Python que acceda a un índice que no existe. 
