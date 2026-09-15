@@ -525,3 +525,153 @@
    - You can use the .split() method to convert a string to a list.
    - You can use Python to compare contents of a text file against elements of a list.
    - Algorithms can be incorporated into functions. When defining a function, you must specify the parameters it takes in and the actions it should execute.
+
+---
+
+## Actividad de Portfolio: Actualizar un archivo mediante un algoritmo Python
+- Resumen de la actividad
+   - En esta actividad, crearás un nuevo documento de portafolio para demostrar tu experiencia usando Python para desarrollar algoritmos que involucran abrir archivos y analizar su contenido
+   - Puedes agregar este documento a tu portafolio de ciberseguridad, el cual puedes compartir con posibles empleadores o reclutadores
+   -  Explicarás el código que desarrollaste en ese laboratorio, y esto te ayudará a prepararte para futuras entrevistas de trabajo y otros pasos del proceso de contratación
+- Escenario
+   - Revise el siguiente escenario. A continuación, complete las instrucciones paso a paso.
+   - Usted es un profesional de la seguridad que trabaja en una empresa de atención sanitaria.
+   - Como parte de su trabajo, se le pide que actualice regularmente un archivo que identifica a los empleados que pueden acceder a contenido restringido.
+   - El contenido del archivo se basa en quién trabaja con registros personales de pacientes.
+   - El acceso de los empleados está restringido en función de su dirección IP.
+   - Existe una lista de direcciones IP autorizadas a acceder a la subred restringida.
+   - También hay una lista de eliminados que identifica qué empleados debes eliminar de esta lista de permitidos.
+   - Tu tarea es crear un algoritmo que utilice código Python para comprobar si la lista de permitidos contiene alguna dirección IP identificada en la lista de eliminados.
+   - Si es así, debes eliminar esas direcciones IP del archivo que contiene la lista de permitidos.
+- Instrucciones paso a paso
+   
+1. Acceder a la plantilla
+- [Plantilla](./resources/Algorithm-for-file-updates-in-Python.docx)
+
+2. Acceso a los materiales de apoyo
+- El siguiente material de apoyo le ayudará a completar esta actividad
+- El documento Instrucciones para incluir código Python proporciona instrucciones y buenas prácticas para incluir muestras de código Python en su actividad del portafolio
+- [Instrucciones para incluir código Python](./resources/Instructions-for-including-Python-code.docx)
+
+3. Abra el archivo que contiene la lista de permitidos
+- El fichero que desea abrir se llama "allow_list.txt".
+- Asigne a la variable import_file una cadena que contenga este nombre de fichero.
+- A continuación, utilice una sentencia with para abrirlo.
+- Utiliza la variable file para almacenar el archivo mientras trabajas con él dentro de la sentencia with.
+- Describe la sintaxis, funciones y palabras clave de Python que necesitas para lograr esto en la sección Abrir el archivo que contiene la lista de permitidos de la plantilla Algoritmo para actualizaciones de archivos en Python.
+- En la sección Tarea 2 de Crear otro algoritmo de laboratorio, haz una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+
+4. Leer el contenido del archivo
+- A continuación, utilice el método .read() para convertir el contenido del archivo de la lista de permisos en una cadena de caracteres para poder leerla.
+- Almacena esta cadena en una variable llamada ip_addresses.
+- Describe la sintaxis, las funciones y las palabras clave de Python que necesitas para lograr esto en la sección Leer el contenido del archivo de la plantilla Algoritmo para actualizaciones de archivos en Python.
+- En la sección Tarea 3 del laboratorio Crea otro algoritmo, haz una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+
+5. Convertir la cadena en una lista
+- Para eliminar direcciones IP individuales de la lista de permitidas, las direcciones IP deben estar en formato de lista.
+- Por lo tanto, utilice el método .split() para convertir la cadena ip_addresses en una lista.
+- Describe la sintaxis, funciones y palabras clave de Python que necesitas para lograr esto en la sección CONVERTIR la cadena en una lista de la plantilla Algoritmo para actualizaciones de archivos en Python.
+- En la sección Tarea 4 del laboratorio Crea otro algoritmo, haz una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+
+6. Recorrer la lista de eliminaciones
+- Una segunda lista llamada remove_list contiene todas las direcciones IP que deben ser eliminadas de la lista ip_addresses.
+- Establezca el encabezado de un bucle for que iterará a través de la lista remove_list.
+- Use element como la variable del bucle.
+- Describe la sintaxis, funciones y palabras clave de Python que necesitas para lograr esto en la sección Iterar a través de la lista de eliminados de la plantilla Algoritmo para actualizaciones de archivos en Python.
+- En la sección Tarea 5 del laboratorio Crea otro algoritmo, haz una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+
+7. Eliminar las direcciones IP que están en la lista de eliminación
+- En el cuerpo de tu Sentencia iterativa, añade código que elimine todas las direcciones IP de la lista de permitidas que también estén en la lista de eliminadas.
+- Primero, crea una condicional que evalúe si la variable de bucle element forma parte de la lista ip_addresses.
+- Luego, dentro de esa condicional, aplica el método .remove() a la lista ip_addresses y elimina las direcciones IP identificadas en la variable de bucle element. 
+- Describe la sintaxis, funciones y palabras clave de Python que necesitas para lograr esto en la sección Eliminar direcciones IP que están en la lista de eliminación de la plantilla Algoritmo para actualizaciones de archivos en Python.
+- En la sección Tarea 6 del laboratorio Crear otro algoritmo, toma una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+- Además, incluye una frase que explique que aplicar el método .remove() de esta manera es posible porque no hay duplicados en la lista ip_addresses.
+
+8. Actualice el archivo con la lista revisada de direcciones IP
+- Ahora que ha eliminado estas direcciones IP de la variable ip_address, puede completar el algoritmo actualizando el fichero con esta lista revisada.
+- Para ello, primero debe convertir la lista ip_addresses de nuevo en una cadena utilizando el método .join().
+- Aplique .join() a la cadena "\n" para separar los elementos del archivo colocándolos en una nueva línea.
+- A continuación, utilice otra sentencia with y el método .write() para escribir sobre el archivo asignado a la variable import_file.
+- Describe la sintaxis, funciones y palabras clave de Python que necesitas para lograr esto en la sección Actualizar el archivo con la lista revisada de direcciones IP de la plantilla Algoritmo para la actualización de archivos en Python.
+- En la sección Tarea 7 del laboratorio Crea otro algoritmo, haz una captura de pantalla de esta parte de tu código.
+- O bien, escriba este código directamente en la plantilla.
+
+9. Finalice su documento
+- Para finalizar el documento y dejar claro su propósito a los posibles empleadores, asegúrate de completar las secciones Descripción del proyecto y Resumen del proyecto de la plantilla Algoritmo para la actualización de archivos en Python.
+- En la sección Descripción del proyecto, ofrece una visión general del escenario y de lo que has logrado en Python.
+- Escribe de tres a cinco frases.
+- En la sección Resumen, proporciona un breve resumen del algoritmo destacando sus componentes principales.
+- Escribe de cuatro a seis frases.
+
+- Qué incluir en tu respuesta
+   - Capturas de pantalla de tu código Python o versiones escritas del código
+   - Explicaciones de la sintaxis, funciones y palabras clave del código
+   - Una descripción del proyecto al principio
+   - Un resumen al final
+   - Detalles sobre el uso de la sentencia with y la función open() en tu algoritmo
+   - Detalles sobre el uso de los métodos .read() y .write() en el algoritmo
+   - Utilización del método .split() en el algoritmo
+   - Cómo utilizar un bucle for en el algoritmo
+   - Utilización del método .remove() en el algoritmo
+
+- Actividad
+
+- Project description
+> En este proyecto, desarrollé un algoritmo en Python que analiza un archivo de texto que contiene direcciones IP permitidas para acceder a contenido restringido. El objetivo del algoritmo es eliminar las direcciones IP que ya no tienen acceso, basándose en una lista de eliminados. Utilicé funciones y métodos de Python para abrir, leer, modificar y actualizar el archivo de texto de manera eficiente.
+
+- Open the file that contains the allow list
+```python
+import_file = "allow_list.txt"
+with open(import_file, "r") as file:
+```
+
+- Read the file contents
+```python
+   ip_addresses = file.read()
+```
+
+- Convert the string into a list
+```python
+   ip_addresses = ip_addresses.split("\n")
+```
+
+- Iterate through the remove list
+```python
+   for element in remove_list:
+```
+
+- Remove IP addresses that are on the remove list
+```python
+      if element in ip_addresses:
+         ip_addresses.remove(element)
+```
+
+- Update the file with the revised list of IP addresses
+```python
+   with open(import_file, "w") as file:
+      file.write("\n".join(ip_addresses))
+```
+
+- Códig completo del algoritmo
+```python
+def update_file(import_file, remove_list):
+   with open(import_file, "r") as file:
+      ip_addresses = file.read()
+      ip_addresses = ip_addresses.split("\n")
+      
+   for element in remove_list:
+      if element in ip_addresses:
+         ip_addresses.remove(element)
+   
+   with open(import_file, "w") as file:
+      file.write("\n".join(ip_addresses))
+```
+
+- Summary
+> En resumen, el algoritmo desarrollado en Python permite automatizar la actualización de un archivo de texto que contiene direcciones IP permitidas. Utiliza la sentencia with para manejar archivos de manera eficiente, los métodos .read() y .write() para leer y escribir en el archivo, y el método .split() para convertir cadenas en listas. Además, emplea un bucle for para iterar sobre la lista de eliminados y el método .remove() para eliminar las direcciones IP correspondientes. Este enfoque modular y reutilizable facilita la gestión de accesos a contenido restringido en entornos de seguridad.
