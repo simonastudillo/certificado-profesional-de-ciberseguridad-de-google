@@ -1,0 +1,58 @@
+# Depuración de código Python
+
+## Estrategias de depuración
+- ​Como analista de Seguridad, ​es posible que deba leer o escribir código.
+- ​Uno de los mayores desafíos ​es lograr que funcione correctamente.
+- ​De hecho, corregir errores complejos en el ​código a veces puede llevar tanto ​tiempo, si no más, que escribir el código.
+- ​Por eso es importante desarrollar esta habilidad.
+- ​Ahora que has aprendido los conceptos básicos de la programación en Python, ​es importante que aprendas a gestionar los errores.
+- ​Por ese motivo, nos centraremos en depurar tu código.
+- ​Depuración es la práctica de ​identificar y corregir errores en el código.
+- Exploraremos algunas técnicas para ello.
+- ​Hay tres tipos de errores: errores de ​sintaxis, errores lógicos y excepciones.
+- ​Los errores de sintaxis implican ​un uso no válido del lenguaje Python, como olvidar añadir dos puntos después del encabezado de una función.
+- ​Exploremos este tipo de error.
+- ​Cuando ejecutamos este código, ​recibimos un mensaje que indica que hay un error de sintaxis.
+- ​Según el entorno de Python ​, también puede mostrar detalles adicionales.
+- ​Por lo general, obtendremos información sobre ​el error, como su ubicación.
+- ​Estos errores de sintaxis suelen ser fáciles de corregir, ​ya que puede encontrar exactamente dónde ocurrió el error.
+- ​Son similares a corregir ​errores gramaticales simples en un correo electrónico.
+- ​Como el mensaje de error nos dice que el problema está en ​la línea que define la función, vayamos allí.
+- ​En este caso, podemos añadir ​dos puntos al encabezado y resolver nuestro error.
+- ​Cuando lo ejecutamos de nuevo, ​ya no aparece ningún mensaje de error.
+- ​Este es solo un ejemplo de error de sintaxis.
+- [file](./resources/code/modulo-04_03-001.py)
+- ​Otros ejemplos incluyen omitir ​un paréntesis después de una función, escribir ​mal una palabra clave de Python ​o no cerrar correctamente las comillas de una cadena.
+- ​A continuación, centrémonos en los errores lógicos.
+- ​Es posible que los errores lógicos no provoquen mensajes de error; ​en cambio, producen resultados no deseados.
+- ​Un error lógico puede ser tan simple como escribir ​el texto incorrecto en una sentencia impresa, o ​puede implicar algo como escribir ​un símbolo menor que en lugar ​de un símbolo menor que o igual a.
+- ​Este cambio en el operador excluiría ​un valor que era necesario para que el código funcionara según lo previsto.
+- ​Por ejemplo, ​imagine que se pone en contacto con un equipo de respuesta cuando ​el nivel de prioridad de un problema es inferior a ​tres en lugar de inferior o igual a tres.
+- ​Esto significa que todos los eventos clasificados como de ​nivel de prioridad 3 podrían pasar desapercibidos y quedar sin resolver.
+- ​Para diagnosticar un error lógico difícil de encontrar, ​una estrategia consiste en utilizar sentencias impresas.
+- ​Deberás insertar ​sentencias de impresión en todo el código.
+- ​Las instrucciones de impresión deben ​describir la ubicación en el código; ​por ejemplo, «imprimir línea 20" ​o «imprimir línea 55: dentro del condicional».
+- ​La idea es utilizar estas instrucciones impresas para ​identificar qué secciones ​del código funcionan correctamente.
+- ​Cuando una sentencia de impresión ​no se imprime según lo esperado, ​esto ayuda a identificar ​las secciones del código con problemas.
+- ​Otra opción para identificar ​errores lógicos es usar un depurador.
+- ​Un depurador te permitirá ​insertar puntos de interrupción en tu código.
+- ​Los puntos de interrupción te permiten segmentar el código en ​secciones y ejecutar solo una parte a la vez.
+- ​Al igual que con las sentencias print, ​ejecutar estas secciones de forma independiente ​puede ayudar a aislar los problemas del código.
+- ​Pasemos a nuestro último tipo de error: una excepción.
+- ​Las excepciones se producen cuando el programa no sabe cómo ​ejecutar código aunque ​no haya problemas con la sintaxis.
+- ​Las excepciones se producen por diversas razones.
+- Por ejemplo, ​pueden ocurrir cuando algo es matemáticamente ​imposible, como pedirle ​al código que divida algo por 0.
+- ​También pueden producirse excepciones cuando le ​pides a Python que acceda a valores de índice que no ​existen o cuando Python ​no reconoce los nombres de variables o funciones.
+- ​También pueden producirse excepciones ​cuando se utiliza un tipo de datos incorrecto.
+- ​Vamos a demostrar una excepción. ​Supongamos que tiene una variable llamada ​my_string que contiene la palabra «Seguridad».
+- ​Como esta cadena tiene 8 caracteres, ​podemos imprimir correctamente cualquier índice inferior a 8.
+- ​El índice 0 contiene «s».
+- ​El Índice 1 contiene la letra «e».
+- ​Y el índice 2 contiene «c».
+- ​Sin embargo, si intentas acceder ​al personaje del índice 100, aparecerá un error.
+- ​Analicemos esto y exploremos lo que sucede.
+- ​Tras imprimir correctamente las tres primeras sentencias, ​aparece un mensaje de error: ​«índice de cadena fuera de rango».
+- En ​el caso de los errores ​de excepción, también puede utilizar depuradores e ​imprimir sentencias para ​averiguar la posible fuente del error.
+- [file](./resources/code/modulo-04_03-002.py)
+- ​Se pueden esperar errores y excepciones al trabajar en Python.
+- ​Lo importante es saber cómo tratar con ellos.
