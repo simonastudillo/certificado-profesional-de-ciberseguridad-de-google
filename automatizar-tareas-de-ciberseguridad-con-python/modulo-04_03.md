@@ -344,3 +344,17 @@
    - [file](./resources/code/lab_12/task_07.py)
    - What happens when you run the code before modifying it? What is causing the logic errors? How can you fix them?
    > The code will run, but it doesnt show the correct value, The error is cause by the index used to obtein the message. We can fix this if we change the values of index, they need to be in order. 
+
+---
+
+## Ejemplar: Depuración de código Python
+- Mismo laboratorio que el anterior
+
+- Conclusion
+   - Debugging is an essential practice that analysts use to identify errors in code and fix them to ensure that the code runs smoothly.
+   - Python executes code from top to bottom and stops once it encounters an error. So if there are multiple errors in a code cell, the outputted error message will typically show the first error.
+   - In Python, common types of errors include syntax errors, logic errors, and exceptions.
+      - Syntax errors often involve punctuation such as a missing : at the end of a with statement header and a missing , between elements in a list.
+      - Logic errors could involve incorrect indices when accessing elements from a list.
+      - Exceptions could involve misspelled variable names or incorrectly called string methods.
+   - A key strategy for debugging is running code and examining if it produces the intended results. If the output isn't correct, or if it displays an the error message, use this to identify which line(s) of the code could be causing the issue. After fixing the code, it's important to run it again to ensure that everything works as expected.
