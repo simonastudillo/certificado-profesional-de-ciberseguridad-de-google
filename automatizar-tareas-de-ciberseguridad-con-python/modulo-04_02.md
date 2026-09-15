@@ -675,3 +675,8 @@ def update_file(import_file, remove_list):
 
 - Summary
 > En resumen, el algoritmo desarrollado en Python permite automatizar la actualización de un archivo de texto que contiene direcciones IP permitidas. Utiliza la sentencia with para manejar archivos de manera eficiente, los métodos .read() y .write() para leer y escribir en el archivo, y el método .split() para convertir cadenas en listas. Además, emplea un bucle for para iterar sobre la lista de eliminados y el método .remove() para eliminar las direcciones IP correspondientes. Este enfoque modular y reutilizable facilita la gestión de accesos a contenido restringido en entornos de seguridad.
+
+---
+
+## Ejemplo de actividad de Portfolio: Actualizar un fichero mediante un algoritmo Python
+- [Ejemplar completado](./resources/Exemplar---Update-a-file-through-a-Python-algorithm.docx)
