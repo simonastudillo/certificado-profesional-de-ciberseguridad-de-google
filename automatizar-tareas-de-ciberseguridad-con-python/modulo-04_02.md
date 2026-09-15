@@ -680,3 +680,35 @@ def update_file(import_file, remove_list):
 
 ## Ejemplo de actividad de Portfolio: Actualizar un fichero mediante un algoritmo Python
 - [Ejemplar completado](./resources/Exemplar---Update-a-file-through-a-Python-algorithm.docx)
+
+---
+
+## Ponga a prueba sus Conocimientos: Trabajar con archivos en Python
+
+1. Desea abrir el archivo "logs.txt" y almacenarlo en la variable file con el fin de leerlo. También quiere asegurarse de que se liberan todos los Recursos y se cierra el archivo después de leerlo. ¿Cuál es la línea de código correcta para hacer esto?
+   - [ ] with file.open("logs.txt", "r"):
+   - [ ] with open("r", "logs.txt") as file:
+   - [x] with open("logs.txt", "r") as file:
+   - [ ] file = open("logs.txt", "r"):
+> El código with open("logs.txt", "r") as file: es la línea de código correcta para hacerlo. La palabra clave with asegura que todos los recursos sean liberados mientras se abre y lee el archivo. Esto incluye asegurarse de que el archivo se cierra después de salir de la sentencia with. A continuación, la llamada a la función open() con el archivo "logs.txt" y "r" como argumentos indica que se lea el archivo "logs.txt". Por último, as file especifica que se almacene el objeto archivo en la variable file.
+
+2. Después de haber abierto un archivo de registro como login_file, ¿qué línea de código puede utilizar para leer el archivo y almacenarlo en una variable llamada login_attempts?
+   - [x] login_attempts = login_file.read()
+   - [ ] login_attempts = login_file.reader()
+   - [ ] login_attempts = read(login_file)
+   - [ ] login_file.read() as login_attempts
+> El código login_attempts = login_file.read() lee el archivo de registro y lo almacena en una variable llamada login_attempts. El método .read() convierte los archivos en cadenas. El código asigna la cadena que crea a otra variable llamada login_attempts. 
+
+3. Acaba de leer un archivo de registro en una variable llamada file. La variable file contiene una cadena de múltiples direcciones IP separadas cada una por un espacio en blanco. ¿Qué línea de código separa cada dirección IP individual y la almacena como una lista en una variable llamada ip_addresses?
+   - [ ] split(file, ip_addresses)
+   - [ ] ip_addresses = split(file)
+   - [ ] ip_addresses.split(file)
+   - [x] ip_addresses = file.split()
+> El Código ip_addresses = file.split() separa las direcciones IP individuales en la variable file y luego almacena esto como una lista en una variable llamada ip_addresses. El método .split() convierte una cadena en una lista. Separa la cadena basándose en un carácter pasado a la función como argumento. Si no se introduce ningún carácter, separará la cadena siempre que encuentre un espacio en blanco.
+
+4. Necesita comprobar si hay actividad inusual de inicio de sesión. En concreto, necesita comprobar una lista de marcas de tiempo de inicio de sesión para determinar si alguno de los inicios de sesión se produjo a horas inusuales. Si desea automatizar esto a través de Python, ¿qué formaría parte de su código? Seleccione dos respuestas
+   - [x] Una sentencia if que comprueba si la marca de tiempo de inicio de sesión se produjo a horas inusuales
+   - [ ] Una variable contador que lleva la cuenta del número de intentos fallidos de inicio de sesión
+   - [x] Un bucle for que itera a través de la lista de marcas de tiempo
+   - [ ] Una sentencia if que comprueba si un usuario específico tiene varias marcas de tiempo de inicio de sesión durante horas inusuales
+> El código debe incluir un Bucle for que itere a través de la Lista de marcas de tiempo y una Sentencia iterativa if que compruebe si la marca de tiempo de inicio de sesión se produjo a horas inusuales.
