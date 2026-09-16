@@ -38,3 +38,13 @@
 
 ## Glosario del curso 7
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Comenzar el próximo curso
+- ¡Enhorabuena por completar el Curso 7 del Certificado de Ciberseguridad de Google: Automatizar tareas de ciberseguridad con Python!
+- Has comenzado con los componentes básicos del lenguaje Python, como los tipos de datos, las variables, las sentencias condicionales y las sentencias iterativas.
+- A continuación, has ampliado esos conocimientos aprendiendo a incorporar funciones en tu código y a trabajar con cadenas de caracteres y listas.
+- También has explorado módulos y bibliotecas, así como directrices para mejorar la legibilidad de tu código.
+- Por último, has utilizado tus conocimientos de Python para importar y analizar archivos, y para desarrollar algoritmos que automatizan tareas de seguridad.
+- Ahora que has completado este curso, estás listo para pasar al siguiente: Ponlo en práctica: prepárate para puestos de trabajo en ciberseguridad
