@@ -30,3 +30,7 @@
 - Le animo a ​practicar.
 - ​Cuanto más estudie estos conceptos, ​más fáciles le resultarán.
 - ​Gracias de nuevo por acompañarme mientras exploramos Python. 
+---
+
+## Guía de referencia: Conceptos de Python del Curso 7
+- El glosario completo se encuentra [aquí](./README.md#glosario)
