@@ -59,3 +59,96 @@
 
 ## Términos del glosario del Módulo 4
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Desafío del módulo 4
+
+1. ¿Cuáles son los tres tipos de errores que encontrará durante la depuración?
+   - [ ] Errores lógicos, errores de comentario y errores iterativos
+   - [ ] Excepciones, errores lógicos, errores iterativos
+   - [x] Errores de sintaxis, errores lógicos y excepciones
+   - [ ] Errores de sintaxis, excepciones y errores de comentario
+> Correcto
+
+2. El propósito del siguiente código es imprimir los caracteres de un identificador de dispositivo. Ejecute este código, analice su salida y, a continuación, depúrelo.
+```python
+device_id = "p35rv47"
+for char in device_id:
+    print(char)
+```
+- ¿A qué se debe el error?
+   - [ ] Falta un doble signo igual (==)
+   - [x] Falta una comilla (")
+   - [ ] Faltan dos puntos (:)
+   - [ ] Una variable mal escrita
+> Correcto
+
+3. El propósito de este código es imprimir "user flagged" si el nombre de usuario es "jhill", y en caso contrario imprimir "user okay". Ejecute este código, analice su salida y depúrelo.
+```python
+def check_user(name):
+    if name == "jhill":
+        print("user flagged")
+    else:
+        print("user okay")
+check_user("jhill")
+```
+- ¿Cómo puede solucionar este error?
+   - [ ] Llame a check_user() antes de la definición de la función.
+   - [ ] Utilice el operador != en lugar del operador == en la cabecera condicional.
+   - [ ] Elimine la indentación de la línea que imprime "user okay" para que no forme parte del condicional.
+   - [x] Añada una sentencia else antes de la línea que imprime "user okay".
+> Correcto
+
+4. Le pide a su código que divida algo por 0, pero se produce un error. ¿De qué tipo de error se trata?
+   - [x] Excepción
+   - [ ] Índice fuera de los límites
+   - [ ] Error lógico
+   - [ ] Error de sintaxis
+> Correcto
+
+5. Al depurar código, ¿cuáles son las formas eficaces de determinar qué secciones del código funcionan correctamente? Seleccione todas las que correspondan
+   - [ ] Añadir Comentarios en el Código
+   - [x] Añadir sentencias print
+   - [x] Utilizar un Depurador
+   - [ ] Borrar líneas en blanco del código
+> Correcto
+
+6. ¿Qué hace el siguiente Código? `with open("logs.txt", "r") as file:`
+   - [ ] Copia un archivo llamado "logs.txt" en un nuevo archivo "r".
+   - [ ] Copia un archivo llamado "r" en un nuevo archivo "logs.txt".
+   - [ ] Abre un archivo llamado "logs.txt" en modo de escritura y lo almacena en una variable llamada file.
+   - [x] Abre un archivo llamado "logs.txt" en modo lectura y lo almacena en una variable llamada file.
+> Correcto
+
+7. ¿Qué hace el siguiente Código?
+```python
+logins = "pwashing jhill tshah"
+usernames = logins.split()
+```
+   - [ ] Divide una variable de cadena llamada logins en caracteres individuales
+   - [ ] Elimina los espacios en blanco que dividen los nombres de usuario en la variable logins y almacena la cadena en la variable usernames
+   - [ ] Elimina el último nombre de usuario de la variable logins y almacena la cadena en la variable usernames 
+   - [x] Divide una variable de cadena llamada logins en una lista de cadenas y la almacena en la variable usernames
+> Correcto
+
+8. ¿Qué es el Análisis sintáctico?
+   - [ ] El proceso de escribir datos en un nuevo archivo
+   - [ ] El proceso de lectura de Datos línea por línea
+   - [ ] El proceso de copia de Datos a otros ficheros
+   - [x] El proceso de convertir Datos a un formato más legible
+> Correcto
+
+9. ¿Qué hace el siguiente Código? `new_format = old_format.read()`
+   - [ ] Inserta la cadena almacenada en la variable new_format en el archivo almacenado en la variable old_format 
+   - [ ] Detecta ciertos patrones de texto en old_format
+   - [x] Lee la variable old_format, que contiene un archivo, y la almacena como una cadena en new_format
+   - [ ] Imprime el contenido de old_format
+> Correcto
+
+10. Quiere comprobar si hay actividad inusual de inicio de sesión. En concreto, quiere comprobar si hubo más de tres intentos fallidos de inicio de sesión en los últimos 10 minutos por parte del último usuario que se registró. Si desea automatizar esto a través de Python, ¿qué formaría parte de su código? Seleccione tres respuestas.
+   - [x] Una sentencia if que comprueba si hubo más de tres intentos fallidos de inicio de sesión
+   - [x] Un bucle for que itera a través de la lista de conexiones
+   - [ ] Una línea de programación que reasigna una variable de contador a 0 si hay un intento fallido de inicio de sesión
+   - [x] Una variable contador que se incrementa cuando se detecta un inicio de sesión fallido
+> Correcto
