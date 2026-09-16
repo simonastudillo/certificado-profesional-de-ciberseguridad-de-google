@@ -21,3 +21,33 @@
 - ​Al final de este curso, habrá tenido múltiples oportunidades para ​afinar su comprensión de los conceptos clave de la seguridad, crear un Currículum, ​aumentar la confianza en sus habilidades para las entrevistas e ​incluso participar en una entrevista generada por inteligencia artificial, o IA.
 - ​La profesión de la seguridad es un campo increíble y ​¡Estoy deseando que se una a él!
 - ​Tengo una pregunta para usted: ¿Está listo para comenzar? 
+
+---
+
+## Resumen del curso 8
+- Hola y bienvenido a «Ponlo en práctica: Prepárate para trabajar en ciberseguridad», el octavo curso del Certificado de Ciberseguridad de Google.
+- Al finalizar este curso, serás capaz de comprender la importancia de la escalación de incidentes, clasificar datos y activos, y reconocer el impacto que los incidentes de seguridad pueden tener en una organización.
+- También podrás definir quiénes son las partes interesadas, describir sus funciones en materia de seguridad y aprender estrategias para comunicarte con ellas.
+- Además, descubrirás recursos que te ayudarán a mantenerte al día de lo que ocurre en el ámbito de la seguridad, así como a interactuar con la comunidad de seguridad.
+- Por último, explorarás las numerosas formas de utilizar la IA para optimizar los flujos de trabajo de ciberseguridad y completar tu recorrido hacia la obtención del certificado.
+
+- Contenido del curso 8
+
+- Módulo 1: Proteger datos y comunicar incidentes 
+   - Reconocerás la importancia de los profesionales de la seguridad en el ámbito laboral.
+   - Descubrirás cómo una detección y una escalación adecuadas pueden influir en la postura de seguridad de una organización.
+
+- Módulo 2: Escalar incidentes
+   - Explorarás la importancia de la priorización y la escalación de incidentes.
+   - Aprenderás cómo las decisiones que toman los profesionales de la seguridad ayudan a mantener la seguridad de las operaciones empresariales.
+
+- Módulo 3: Comunicarse de forma eficaz para influir en las partes interesadas
+   - Aprenderás quiénes son las partes interesadas clave en materia de ciberseguridad.
+   - Además, redactarás comunicaciones claras y concisas dirigidas a las partes interesadas.
+
+- Módulo 4: Participar en la comunidad de ciberseguridad 
+   - Aprenderás a mantenerte al día de las últimas tendencias en ciberseguridad y descubrirás cómo participar en la comunidad de seguridad.
+
+- Módulo 5: Utilizar la IA para modificar los flujos de trabajo
+   - Adquirirás conocimientos sobre IA que podrás aplicar como profesional de la ciberseguridad.
+   - Este módulo también sirve como resumen final del curso y de todo el programa del Certificado de Ciberseguridad de Google.
