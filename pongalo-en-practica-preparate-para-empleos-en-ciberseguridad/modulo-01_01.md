@@ -81,3 +81,15 @@
 - ​Creo que la parte más difícil de un puesto de principiante ​en seguridad es no saber lo que no se sabe.
 - ​Cuando empecé a trabajar en el ámbito de la Seguridad, iba sobre la marcha, pero ​lo único que hice fue acudir siempre a mi equipo en busca de apoyo.
 - ​Atascarse forma parte del proceso, siempre podíamos apoyarnos en nuestro Equipo y en ​otros para obtener apoyo adicional o para que nos ayudaran a salir del atolladero. 
+
+---
+
+## Recursos y consejos útiles
+- Planifique su tiempo
+- Trabaja a tu propio ritmo
+- Sea curioso
+- Tome notas
+- Revisar ejemplos
+- Construye tu identidad profesional
+- Conéctate con otros estudiantes
+- Actualiza tu perfil
