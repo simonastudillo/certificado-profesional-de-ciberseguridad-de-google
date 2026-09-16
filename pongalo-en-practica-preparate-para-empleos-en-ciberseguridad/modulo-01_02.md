@@ -65,3 +65,32 @@
    - [ ] Usuario: John.Doe, dirección IP: 192.168.1.5
    - [ ] Usuario: invitado, Dirección IP: 192.168.1.10
 > Correcto
+
+---
+
+## Seguridad como mentalidad
+- Dediquemos un poco de tiempo a analizar ​un concepto que lo ayudaría a lo ​largo de su carrera en Seguridad: ​tener una mentalidad de seguridad.
+- ​En cursos anteriores, analizamos diversas amenazas, riesgos ​y vulnerabilidades y cómo pueden afectar a las ​operaciones de la organización y a las personas a las que ​prestan servicio esas organizaciones.
+- ​Estos conceptos son consideraciones clave a la ​hora de pensar en tener una mentalidad de Seguridad.
+- ​Tendrás que reconocer no solo lo que defiendes, ​sino también contra qué o contra quién te defiendes.
+- ​Por ejemplo, es importante ​reconocer los tipos de activos que son ​esenciales para mantener ​las funciones empresariales de una organización, ​junto con los tipos de amenazas, riesgos y vulnerabilidades que ​pueden afectar negativamente a esos activos.
+- ​Y de eso se trata tener una mentalidad de Seguridad.
+- ​Una mentalidad de Seguridad es la ​capacidad de evaluar el riesgo y ​buscar e identificar constantemente ​la violación potencial o real de un sistema, aplicación o datos.
+- ​Anteriormente en el programa, ​analizamos las amenazas, los riesgos ​y las vulnerabilidades que plantean los ​ataques de ingeniería social, como la suplantación de identidad.
+- ​Estos ataques están diseñados para comprometer los ​activos de una organización y ayudar ​al actor o actores de la amenaza ​a acceder a información confidencial.
+- ​El uso de nuestra mentalidad de Seguridad puede ​ayudar a prevenir este tipo de ataques.
+- ​Es importante que nos mantengamos constantemente ​al día con los tipos de ataques que se están produciendo.
+- ​Para ello, es bueno desarrollar el hábito de buscar ​información sobre ​las últimas amenazas o vulnerabilidades de Seguridad.
+- ​Al hacerlo, es ​posible que se le ocurran nuevas ideas para proteger los datos de la empresa.
+- ​La seguridad es un objetivo diario ​para todos los equipos de seguridad de la industria.
+- ​Por lo tanto, tener una mentalidad de Seguridad ayuda a los analistas a ​defenderse de la presión constante de los atacantes.
+- ​Esa mentalidad puede hacerte pensar: «Cada clic del ​ratón tiene el potencial de provocar una violación de la Seguridad».
+- ​Ese nivel de escrutinio como profesional de Seguridad ​lo ayuda a prepararse para ​el peor de los casos, incluso si no sucede.
+- ​Los analistas principiantes pueden ayudar a proteger los activos de bajo nivel, ​como la red WiFi para huéspedes de una organización, y ​los activos de gran importancia, como la propiedad intelectual, los ​secretos comerciales, la PII e incluso la información financiera.
+- ​Su mentalidad de Seguridad le permite ​proteger todos los niveles de activos.
+- ​Sin embargo, si se produce un incidente, ​eso no significa que respondas a ​todos los incidentes de la misma manera.
+- ​Por lo tanto, analizaremos la priorización de los incidentes ​un poco más adelante en el curso.
+- ​Tener una mentalidad de seguridad sólida ​puede ayudarlo a diferenciarse de ​otros candidatos mientras se ​prepara para ingresar a la profesión de seguridad.
+- ​Incluso puede ser una buena idea hacer ​referencia a esa base en futuras entrevistas de trabajo.
+- ​Hablaremos ​en detalle sobre la preparación de la entrevista más adelante en el curso.
+- ​Próximamente, nos centraremos en la ​detección de incidentes con mayor detalle. 
