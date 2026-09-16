@@ -89,6 +89,7 @@
 - **Gestión del tiempo (Time Management)**: ahorro de tiempo mediante reutilización de funciones y automatización de tareas repetitivas.
 - **Mejora de procesos (Process Improvement)**: identificación de oportunidades para hacer flujos de trabajo más eficientes y confiables.
 - **Proactividad (Proactivity)**: uso de scripts y alertas para anticipar problemas y apoyar una respuesta de seguridad oportuna.
+
 ## Descripción del curso
 ---
 
