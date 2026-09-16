@@ -2,19 +2,93 @@
 ---
 
 - Módulo 1: Introducción a Python
+   - [Comenzar el curso](./modulo-01_01.md)
+   - [Introducción a la programación Python en ciberseguridad](./modulo-01_02.md)
+   - [Componentes principales de Python](./modulo-01_03.md)
+   - [Sentencias condicionales e iterativas](./modulo-01_04.md)
+   - [Revisión: Introducción a Python](./modulo-01_05.md)
 - Módulo 2: Escribir código Python eficaz
+   - [Introducción a las funciones](./modulo-02_01.md)
+   - [Trabajar con funciones](./modulo-02_02.md)
+   - [Aprenda de la comunidad Python](./modulo-02_03.md)
+   - [Revisar: Escribir código Python eficaz](./modulo-02_04.md)
 - Módulo 3: Trabajar con cadenas y listas
+   - [Trabajar con strings](./modulo-03_01.md)
+   - [Trabajar con listas y desarrollar algoritmos](./modulo-03_02.md)
+   - [Expresiones regulares](./modulo-03_03.md)
+   - [Repasar: Trabajar con cadenas y listas](./modulo-03_04.md)
 - Módulo 4: Python en la práctica
+   - [Python para la automatización](./modulo-04_01.md)
+   - [Trabajar con archivos en Python](./modulo-04_02.md)
+   - [Depuración de código Python](./modulo-04_03.md)
+   - [Revisión: Python en la práctica](./modulo-04_04.md)
+   - [¡Enhorabuena por haber completado el Curso 7!](./modulo-04_05.md)
 
 ## Habilidades y conceptos a aprender
 ---
 
 ### Habilidades técnicas (hard skills)
 
+- **Programación en Python (Python Programming)**: escritura y ejecución de programas para resolver tareas de ciberseguridad.
+- **Automatización de seguridad con Python (Security Automation)**: automatización de controles, revisiones y tareas repetitivas para reducir tiempos y errores manuales.
+- **Desarrollo de scripts (Scripting)**: creación de secuencias de comandos que integran variables, operadores y estructuras de control.
+- **Lógica condicional (Conditional Logic)**: implementación de decisiones con `if`, `elif`, `else` y operadores de comparación.
+- **Estructuras iterativas (Looping)**: procesamiento repetitivo de datos mediante bucles `for`, `while`, rangos y contadores.
+- **Desarrollo de funciones (Function Development)**: creación de funciones reutilizables con parámetros, argumentos y valores de retorno.
+- **Uso de funciones integradas de Python (Python Built-in Functions)**: aplicación de funciones como `print()`, `type()`, `len()`, `range()` y `sorted()`.
+- **Gestión de módulos y bibliotecas de Python (Python Modules and Libraries)**: importación y uso de código de la biblioteca estándar.
+- **Manipulación de cadenas (String Manipulation)**: transformación, búsqueda, división, concatenación y extracción de texto.
+- **Procesamiento de listas (List Processing)**: acceso, modificación, combinación e iteración sobre colecciones de datos.
+- **Indexación y segmentación (Indexing and Slicing)**: extracción precisa de caracteres y elementos mediante índices y segmentos.
+- **Diseño de algoritmos (Algorithm Design)**: construcción de procedimientos paso a paso para procesar datos y resolver problemas.
+- **Expresiones regulares (Regular Expressions / Regex)**: definición de patrones y extracción de indicadores desde texto y registros.
+- **Análisis de registros de seguridad (Security Log Analysis)**: identificación y procesamiento de eventos, usuarios, direcciones IP e intentos de acceso.
+- **Manejo de archivos con Python (File I/O)**: apertura, lectura, escritura y cierre seguro de archivos de texto con `with open()`.
+- **Análisis sintáctico de datos (Data Parsing)**: conversión de archivos y cadenas en estructuras más legibles y procesables.
+- **Depuración de código (Code Debugging)**: diagnóstico y corrección de errores de sintaxis, excepciones y errores lógicos.
+- **Calidad y estilo de código Python (PEP 8 / Clean Code)**: aplicación de convenciones, comentarios, sangría y prácticas de legibilidad y mantenimiento.
+
 ### Conceptos clave
+
+- **Automatización (Automation)**: uso de tecnología para reducir el esfuerzo humano en tareas comunes, repetitivas y propensas a errores.
+- **Fundamentos de programación (Programming Fundamentals)**: relación entre instrucciones, intérpretes, sintaxis y ejecución de programas.
+- **Tipos de datos (Data Types)**: representación de información mediante cadenas, enteros, flotantes, booleanos, listas, tuplas, conjuntos y diccionarios.
+- **Variables y asignación (Variables and Assignment)**: almacenamiento, actualización y reutilización de valores dentro de un programa.
+- **Ámbito de variables (Variable Scope)**: diferencia entre variables locales y globales y su disponibilidad durante la ejecución.
+- **Lógica booleana (Boolean Logic)**: evaluación de condiciones mediante valores `True` y `False` y operadores relacionales.
+- **Flujo de control (Control Flow)**: orden en que se ejecutan las instrucciones condicionales e iterativas.
+- **Funciones, parámetros y argumentos (Functions, Parameters and Arguments)**: encapsulación de lógica reutilizable y transferencia de datos entre llamadas.
+- **Reutilización y modularidad de código (Code Reusability and Modularity)**: organización de soluciones en componentes mantenibles y reutilizables.
+- **Biblioteca estándar de Python (Python Standard Library)**: conjunto de módulos incorporados, incluidos `re`, `csv`, `glob` y `time`.
+- **Mutabilidad e inmutabilidad (Mutability and Immutability)**: diferencia entre objetos que pueden modificarse y objetos que conservan su valor original.
+- **Estructuras de datos secuenciales (Sequential Data Structures)**: organización y recorrido ordenado de cadenas, listas y tuplas.
+- **Algoritmos (Algorithms)**: conjuntos finitos de reglas destinados a resolver un problema o completar una tarea.
+- **Coincidencia de patrones (Pattern Matching)**: localización de secuencias relevantes en texto mediante expresiones regulares.
+- **Registros y telemetría de seguridad (Security Logs and Telemetry)**: datos de eventos utilizados para detectar actividad inusual y apoyar investigaciones.
+- **Rutas, modos y gestores de contexto (File Paths, Modes and Context Managers)**: acceso controlado a archivos y administración segura de recursos.
+- **Transformación y estructuración de datos (Data Transformation)**: conversión de texto sin procesar en información organizada para su análisis.
+- **Errores y excepciones (Errors and Exceptions)**: distinción entre errores de sintaxis, fallos lógicos y excepciones en tiempo de ejecución.
 
 ### Habilidades transferibles (soft skills)
 
+- **Pensamiento analítico (Analytical Thinking)**: evaluación sistemática de datos, resultados y comportamientos del código.
+- **Resolución de problemas (Problem Solving)**: identificación de una necesidad y desarrollo de una solución funcional mediante programación.
+- **Pensamiento algorítmico (Algorithmic Thinking)**: conversión de objetivos complejos en secuencias claras y ejecutables.
+- **Razonamiento lógico (Logical Reasoning)**: formulación de condiciones, reglas y relaciones coherentes para tomar decisiones.
+- **Descomposición de problemas (Problem Decomposition)**: división de tareas amplias en funciones y pasos pequeños y manejables.
+- **Atención al detalle (Attention to Detail)**: detección de errores en sintaxis, sangría, nombres, rutas y límites de índices.
+- **Diagnóstico y solución de fallos (Troubleshooting)**: aislamiento de causas mediante revisión de salidas, mensajes de error y pruebas parciales.
+- **Pensamiento crítico (Critical Thinking)**: comparación de alternativas y selección del método más adecuado para cada tarea.
+- **Reconocimiento de patrones (Pattern Recognition)**: identificación de regularidades y anomalías en cadenas, registros y resultados.
+- **Comunicación técnica (Technical Communication)**: explicación clara del propósito, funcionamiento y resultados de un programa.
+- **Documentación de código (Code Documentation)**: creación y mantenimiento de comentarios útiles para facilitar la comprensión del trabajo.
+- **Colaboración y trabajo en equipo (Collaboration and Teamwork)**: escritura de código coherente y legible que otras personas puedan revisar y mantener.
+- **Aprendizaje continuo (Continuous Learning)**: consulta de documentación, bibliotecas y recursos para ampliar capacidades técnicas.
+- **Adaptabilidad (Adaptability)**: transferencia de fundamentos de Python a nuevos datos, archivos y escenarios de seguridad.
+- **Persistencia y resiliencia (Persistence and Resilience)**: iteración sobre errores y resultados inesperados hasta alcanzar una solución correcta.
+- **Gestión del tiempo (Time Management)**: ahorro de tiempo mediante reutilización de funciones y automatización de tareas repetitivas.
+- **Mejora de procesos (Process Improvement)**: identificación de oportunidades para hacer flujos de trabajo más eficientes y confiables.
+- **Proactividad (Proactivity)**: uso de scripts y alertas para anticipar problemas y apoyar una respuesta de seguridad oportuna.
 ## Descripción del curso
 ---
 
@@ -104,3 +178,43 @@
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Introducción a Python
+
+Este módulo presenta las bases necesarias para leer y construir programas sencillos orientados a situaciones de ciberseguridad. Los puntos principales son:
+
+- **Python y la automatización**: Python permite reducir el trabajo manual en actividades repetitivas, como revisar intentos de inicio de sesión, validar dispositivos o generar alertas, y puede ejecutarse desde notebooks, entornos de desarrollo integrado (IDE) o la línea de comandos.
+- **Tipos de datos y variables**: se trabaja con cadenas, enteros, números de punto flotante, valores booleanos y listas; las variables permiten almacenar, consultar y reasignar estos datos durante la ejecución de un programa.
+- **Operadores y condiciones**: los operadores de comparación y lógicos permiten evaluar reglas de seguridad. Las estructuras `if`, `elif` y `else` determinan qué acción ejecutar según se cumplan o no determinadas condiciones.
+- **Bucles y contadores**: los bucles `for` recorren secuencias o rangos conocidos, mientras que los bucles `while` continúan hasta que una condición cambia. Los contadores ayudan a registrar eventos, como el número de accesos fallidos.
+- **Sintaxis y estructura del código**: la sangría, los dos puntos, las comillas y el uso correcto de nombres son esenciales para que el intérprete comprenda las instrucciones y para evitar errores desde las primeras etapas del desarrollo.
+
+### Módulo 2: Escribir código Python eficaz
+
+Este módulo se centra en organizar programas reutilizables, comprensibles y fáciles de mantener. Los puntos principales son:
+
+- **Funciones reutilizables**: las funciones agrupan instrucciones relacionadas y evitan duplicar código. Se definen con `def`, reciben datos mediante parámetros y argumentos, y pueden entregar resultados mediante `return`.
+- **Variables locales y globales**: el ámbito determina dónde puede utilizarse una variable. Las variables locales existen dentro de una función, mientras que las globales están disponibles en distintas partes del programa.
+- **Funciones integradas**: herramientas como `type()`, `len()`, `max()`, `min()`, `sorted()` y las funciones de conversión resuelven operaciones frecuentes sin tener que implementarlas desde cero.
+- **Módulos y bibliotecas**: la importación de módulos amplía las capacidades del lenguaje. La biblioteca estándar incluye recursos como `re` para patrones de texto, `csv` para datos tabulares, `glob` para localizar archivos y `time` para operaciones relacionadas con el tiempo.
+- **Legibilidad y mantenimiento**: PEP 8 proporciona convenciones para nombres, espacios y formato. Una sangría coherente y comentarios claros, breves y actualizados facilitan el trabajo colaborativo y las futuras modificaciones.
+
+### Módulo 3: Trabajar con cadenas y listas
+
+Este módulo desarrolla técnicas para organizar, transformar y extraer información relevante de conjuntos de datos. Los puntos principales son:
+
+- **Operaciones con cadenas**: métodos como `.upper()`, `.lower()`, `.index()` y `.split()` permiten normalizar texto, localizar valores y separar información en componentes procesables.
+- **Índices y segmentación**: la notación de corchetes permite acceder a posiciones individuales o extraer intervalos de cadenas y listas. Los índices comienzan en cero y el límite final de un segmento no se incluye.
+- **Administración de listas**: las listas almacenan colecciones ordenadas y modificables; pueden combinarse, recorrerse y actualizarse mediante métodos como `.append()`, `.insert()` y `.remove()`.
+- **Construcción de algoritmos**: las estructuras aprendidas se combinan para crear procedimientos que transforman datos, por ejemplo, extraer identificadores de red desde direcciones IP o comparar usuarios y dispositivos autorizados.
+- **Expresiones regulares**: el módulo `re` y `re.findall()` permiten buscar múltiples coincidencias mediante patrones. Símbolos como `\w`, `\d`, `.`, `+`, `*` y cuantificadores ayudan a detectar direcciones IP, identificadores y otros indicadores en registros.
+
+### Módulo 4: Python en la práctica
+
+Este módulo integra los conocimientos anteriores en flujos de automatización aplicables al trabajo de un analista de seguridad. Los puntos principales son:
+
+- **Automatización de operaciones de seguridad**: los scripts pueden monitorear eventos, contar accesos fallidos, detectar actividad inusual y ejecutar verificaciones consistentes. La automatización también forma parte de canalizaciones de integración, entrega y despliegue continuos (CI/CD).
+- **Acceso seguro a archivos**: `with open()` administra la apertura y el cierre de archivos, mientras que los modos de acceso determinan si se leerá, sobrescribirá o añadirá contenido. El método `.read()` convierte el contenido en una cadena para procesarlo.
+- **Análisis de registros**: el parsing transforma texto sin procesar en datos estructurados. Métodos como `.split()` permiten separar campos y extraer nombres de usuario, marcas de tiempo, direcciones IP o niveles de eventos.
+- **Actualización automatizada de listas de acceso**: la actividad de portafolio combina lectura, conversión, filtrado y escritura para retirar direcciones IP de una lista de permitidos, demostrando un flujo completo de administración de accesos mediante código.
+- **Depuración sistemática**: los errores se clasifican en errores de sintaxis, excepciones y errores lógicos. Las sentencias `print`, los mensajes del intérprete y los depuradores permiten aislar el problema, comprobar valores y validar cada sección del programa.
