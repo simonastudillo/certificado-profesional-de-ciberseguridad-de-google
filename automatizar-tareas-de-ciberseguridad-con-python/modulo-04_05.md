@@ -33,3 +33,5 @@
 ---
 
 ## Guía de referencia: Conceptos de Python del Curso 7
+
+---
