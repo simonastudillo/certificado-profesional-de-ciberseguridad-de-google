@@ -36,3 +36,17 @@
    - Tus explicaciones y métodos muestran que has navegado la automatización de seguridad y el análisis de archivos con Python con éxito.
    - Para seguir avanzando, te sugiero practicar la escritura de scripts completos que combinen estas técnicas, por ejemplo, creando un pequeño programa que procese un archivo de log real y genere una alerta basada en condiciones específicas.
    - Esto te ayudará a consolidar la integración de estos conceptos en un flujo de trabajo real.
+
+---
+
+## Resumen
+- ​Nos centramos en unos cuantos temas nuevos que le ayudarán ​a poner en práctica Python en la profesión de la Seguridad.
+- ​Primero, exploramos la apertura y lectura de archivos en Python.
+- ​Los analistas de seguridad trabajan con muchos archivos de registro, ​por lo que la habilidad para hacer esto es esencial.
+- ​A continuación, cubrimos el análisis sintáctico de archivos.
+- ​Los archivos de registro pueden ser muy largos.
+- ​Por esta razón, una estructura ​en estos archivos para hacerlos más ​legibles le ayuda a automatizar ​sus tareas y obtener la información que necesita.
+- ​Y por último, nos centramos en la depuración de código.
+- ​Saber cómo depurar ​su código puede ahorrarle mucho tiempo, ​especialmente a medida que su código aumenta en complejidad.
+- ​En general, espero que se sienta ​orgulloso de lo que ha logrado en esta sección.
+- ​Afrontar problemas de Seguridad a través de Python es ​emocionante, y la información que ​cubrimos le permitirá hacerlo. 
