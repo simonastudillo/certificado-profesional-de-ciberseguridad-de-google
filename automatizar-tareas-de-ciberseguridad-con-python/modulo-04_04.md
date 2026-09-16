@@ -50,3 +50,9 @@
 - ​Saber cómo depurar ​su código puede ahorrarle mucho tiempo, ​especialmente a medida que su código aumenta en complejidad.
 - ​En general, espero que se sienta ​orgulloso de lo que ha logrado en esta sección.
 - ​Afrontar problemas de Seguridad a través de Python es ​emocionante, y la información que ​cubrimos le permitirá hacerlo. 
+
+---
+
+## Guía de referencia: Conceptos de Python del módulo 4
+
+---
