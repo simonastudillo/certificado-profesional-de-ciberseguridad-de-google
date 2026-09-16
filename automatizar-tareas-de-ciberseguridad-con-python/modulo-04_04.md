@@ -56,3 +56,6 @@
 ## Guía de referencia: Conceptos de Python del módulo 4
 
 ---
+
+## Términos del glosario del Módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
