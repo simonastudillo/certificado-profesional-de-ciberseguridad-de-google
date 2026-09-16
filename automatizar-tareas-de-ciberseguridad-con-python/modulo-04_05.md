@@ -33,4 +33,3 @@
 ---
 
 ## Guía de referencia: Conceptos de Python del Curso 7
-- El glosario completo se encuentra [aquí](./README.md#glosario)
