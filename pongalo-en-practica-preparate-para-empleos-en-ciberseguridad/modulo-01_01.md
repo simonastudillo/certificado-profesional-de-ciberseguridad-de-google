@@ -51,3 +51,33 @@
 - Módulo 5: Utilizar la IA para modificar los flujos de trabajo
    - Adquirirás conocimientos sobre IA que podrás aplicar como profesional de la ciberseguridad.
    - Este módulo también sirve como resumen final del curso y de todo el programa del Certificado de Ciberseguridad de Google.
+
+---
+
+## Dion Mi trayectoria profesional personal
+- ​Hola, soy Dion. Soy Gerente del Programa en Google.
+- ​Formo parte del Equipo de Detección y Respuesta que depende de la organización de Privacidad, ​Seguridad y Protección.
+- ​Mi parte favorita de mi trabajo es comprender que hay amenazas ​con las que nos encontramos día a día.
+- ​Y mi Equipo ayuda a garantizar que podemos encontrar esas amenazas y ​responder a ellas en consecuencia.
+- ​La Ciberseguridad es muy importante.
+- ​Al igual que necesitamos mantenernos físicamente seguros, ​necesitamos mantener nuestra información en línea a salvo y segura.
+- ​Así, siempre que utiliza una computadora o un dispositivo, ​esos datos viven en algún lugar en línea.
+- ​Y usted confía en Google y ​otras empresas para asegurar esos datos y mantenerlos privados, sólo para usted.
+- ​El trabajo que hago día a día garantiza que su información, sus datos y ​la información del mundo permanezcan seguros, se mantengan privados y protegidos.
+- ​He desempeñado muchos trabajos en diferentes áreas antes de dedicarme a la ciberseguridad.
+- ​Uno de esos trabajos es el de DJ de radio y ​personalidad online, que no tiene mucho que ver con la Seguridad.
+- ​Una de las cosas clave que saqué de eso fue mantener la música sonando.
+- ​Pase lo que pase, mantén la música sonando.
+- ​También soy un padre orgulloso.
+- Mis hijos son mis mayores recursos y ​tengo que protegerlos.
+- ​Hay muchas amenazas y riesgos asociados a ellos, ​incluso vulnerabilidades.
+- Como profesional de la seguridad, tengo que proteger la información ​que se me ha encomendado de las amenazas, riesgos y vulnerabilidades.
+- ​Como profesional de la seguridad, surgirán incendios.
+- ​Tienes que encontrar la manera de que las cosas sigan avanzando, ya sea escalando ​al Equipo adecuado o escalando en la cadena para encontrar una solución.
+- ​Así que, al no haber recibido una formación formal en seguridad, ​tengo la tarea de enseñarme cosas nuevas a diario.
+- ​Llegan nuevas amenazas, hay que proteger cosas nuevas y ​la seguridad cambia constantemente.
+- ​Me enseño a mí mismo a través del aprendizaje en línea.
+- ​Me suscribo y leo un montón de revistas relacionadas con los conocimientos de seguridad, ​y también estoy haciendo algunos cursos de seguridad en línea.
+- ​Creo que la parte más difícil de un puesto de principiante ​en seguridad es no saber lo que no se sabe.
+- ​Cuando empecé a trabajar en el ámbito de la Seguridad, iba sobre la marcha, pero ​lo único que hice fue acudir siempre a mi equipo en busca de apoyo.
+- ​Atascarse forma parte del proceso, siempre podíamos apoyarnos en nuestro Equipo y en ​otros para obtener apoyo adicional o para que nos ayudaran a salir del atolladero. 
