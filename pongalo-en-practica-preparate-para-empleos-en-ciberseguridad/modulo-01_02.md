@@ -157,3 +157,35 @@
 | Financial information before product release (Accessing financial information before a product release could negatively impact an organization because it has commercial value.) | Publicly published data (Accessing this data won’t negatively impact an organization because it doesn’t have commercial value and won’t damage the organization’s reputation.) |
 | Trade secrets (Accessing trade secrets could negatively impact an organization because they have commercial value.) | Published press release (Accessing a published press release won’t negatively impact an organization because it doesn’t have commercial value.) |
 | Bank account and credit information (Accessing this information could negatively impact an organization because of loss of customer trust and reputation.) | |
+
+---
+
+## Ponga a prueba sus Conocimientos: Detección de Eventos e Incidentes
+
+1. ¿Qué es lo que una mentalidad de seguridad permite hacer a un analista de seguridad a la hora de proteger a su organización? Seleccione dos respuestas
+   - [ ] Evaluar la retención de los empleados 
+   - [x] Evaluar los Riesgos e Identificar las posibles violaciones del sistema
+   - [ ] Apruebe las conexiones en Redes sociales de los profesionales de la Seguridad
+   - [x] Reconocer lo que defienden
+> Una Mentalidad de seguridad permite a un analista reconocer lo que está defendiendo. También les ayuda a evaluar los Riesgos y a identificar posibles violaciones del sistema.
+
+2. ¿Qué tipo de recurso tendría el menor impacto en una organización si se viera comprometido?
+   - [ ] Información financiera
+   - [ ] Secretos comerciales
+   - [ ] Propiedad intelectual 
+   - [x] Red Wi-Fi para invitados
+> Una red Wi-Fi para invitados es un recurso que tendría el menor impacto en una organización si se viera comprometida porque las operaciones comerciales de una organización experimentarían un impacto mínimo o nulo.
+
+3. ¿Cómo pueden los analistas de seguridad cultivar una mentalidad de seguridad? 
+   - [ ] Protegiendo los Datos públicos para que no se acceda a ellos ni se compartan
+   - [x] Investigando las últimas vulnerabilidades de Seguridad
+   - [ ] Mediante la firma de acuerdos de confidencialidad (NDA)
+   - [ ] Compartiendo información sensible con quienes lo soliciten
+> Los analistas de seguridad pueden cultivar una Mentalidad de seguridad investigando las vulnerabilidades de seguridad más recientes. Mantenerse al día sobre las amenazas y vulnerabilidades puede ayudar a los analistas a tomar las medidas necesarias para evitar que se produzcan posibles ataques.
+
+4. ¿Cuál de los siguientes ejemplos describe el uso de una mentalidad de seguridad? Seleccione dos respuestas
+   - [x] Informe sobre correos electrónicos sospechosos
+   - [x] Sospechar antes de abrir archivos adjuntos de correo electrónico
+   - [ ] Descarga de archivos adjuntos de correo electrónico de remitentes desconocidos
+   - [ ] Reutilización de contraseñas para varias cuentas
+> Sospechar antes de abrir los archivos adjuntos a los correos electrónicos y notificar los correos sospechosos son ejemplos del uso de una mentalidad de seguridad. Una mentalidad de seguridad puede ayudarle a identificar y reducir los riesgos de seguridad y los posibles incidentes.
