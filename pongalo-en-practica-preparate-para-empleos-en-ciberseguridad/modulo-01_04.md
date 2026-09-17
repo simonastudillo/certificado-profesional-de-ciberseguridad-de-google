@@ -10,3 +10,8 @@
 - ​Cada persona contribuye a que las operaciones de una empresa fluyan sin problemas.
 - ​Espero que haya disfrutado de nuestro debate tanto como yo.
 - ​¿Está preparado para continuar su viaje en el mundo de la seguridad?
+
+---
+
+## Glosario de términos del módulo 1
+- El glosario completo se encuentra [aquí](./README.md#glosario)
