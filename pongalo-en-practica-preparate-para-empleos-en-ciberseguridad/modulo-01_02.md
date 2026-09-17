@@ -144,3 +144,16 @@
    - Ese impacto negativo puede conducir a la pérdida de la ventaja competitiva de una empresa, de su reputación y de la confianza de los clientes.
    - La dirección del sitio web de una empresa es un ejemplo de activo de bajo nivel.
    - Un correo electrónico interno de esa empresa en el que se habla de secretos comerciales es un ejemplo de activo de alto nivel.
+
+---
+
+## Explore: Protección de recursos
+- It is important for organizations to keep assets secure. Identify the level of importance for each of these assets.
+
+| High-level importance | Low-level importance |
+| ----- | ----- |
+| Personally identifiable information (Accessing PII could negatively impact an organization because of regulatory fines and the loss of customer trust.) | Guest Wi-Fi in an office (Accessing guest Wi-Fi won’t negatively impact an organization because it doesn’t have commercial value and won’t damage the organization’s reputation.) |
+| Intellectual property (Accessing intellectual property could negatively impact an organization because of the loss of a competitive edge and its commercial value.) | Non-confidential training materials (Accessing non-confidential materials won’t negatively impact an organization because they don’t have commercial value.) |
+| Financial information before product release (Accessing financial information before a product release could negatively impact an organization because it has commercial value.) | Publicly published data (Accessing this data won’t negatively impact an organization because it doesn’t have commercial value and won’t damage the organization’s reputation.) |
+| Trade secrets (Accessing trade secrets could negatively impact an organization because they have commercial value.) | Published press release (Accessing a published press release won’t negatively impact an organization because it doesn’t have commercial value.) |
+| Bank account and credit information (Accessing this information could negatively impact an organization because of loss of customer trust and reputation.) | |
