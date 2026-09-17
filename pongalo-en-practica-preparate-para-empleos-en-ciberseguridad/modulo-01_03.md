@@ -91,3 +91,35 @@
       - El segundo paso consiste en evaluar las medidas de seguridad existentes para proteger los recursos identificados y revisar las políticas de Seguridad de la información de la empresa. Hay diferentes componentes en este paso, que van desde la exploración de la vulnerabilidad hasta la revisión de los procesos y procedimientos que ya están en marcha. Juliana es nueva en la empresa y puede que no esté preparada para realizar escaneos de vulnerabilidad.
       - El tercer paso del ciclo de vida de la Información es proteger los recursos identificados de la organización. Una vez más, éste es sólo el primer día de trabajo de Juliana. Le pregunta a su supervisor si puede observar a un analista de Seguridad más veterano durante un día. Esto le dará la oportunidad de aprender cómo el equipo de seguridad supervisa los sistemas y la red de la empresa.
       - El último paso del ciclo de vida de la Seguridad consiste en Monitorear los procesos de Seguridad que se han implementado para proteger los recursos de la organización. Se pone en contacto con su supervisor y le entrega un informe detallado de lo que ha aprendido en su primer día. Solicita terminar su jornada supervisando algunos de los sistemas implantados. Su supervisor queda impresionado con su iniciativa y prepara a Juliana para que monitorea los sistemas de Seguridad. ¡Qué gran primer día para Juliana!
+
+---
+
+## Ponga a prueba sus Conocimientos: Su impacto en la protección de Datos
+
+1. Un analista de Seguridad observa que un empleado ha instalado una aplicación en su dispositivo de trabajo sin obtener permiso del servicio de asistencia. El registro indica que podría haberse ejecutado código potencialmente malicioso en el host. ¿Cuál de estos Eventos de Seguridad debería el analista de seguridad escalar a un supervisor?
+   - [ ] Se debe escalar el registro que indica que se podría haber ejecutado código malicioso en el host.
+   - [ ] Ninguno de los dos Eventos debe ser escalado. 
+   - [ ] El empleado que instale una aplicación sin permiso debe ser escalado.
+   - [x] Ambos eventos deben ser escalados.
+> Ambos Eventos deben ser escalados a un supervisor. No hay problemas demasiado pequeños ni demasiado grandes. Siempre es mejor pecar de precavido e informar de los Eventos a los Miembros del Equipo apropiados.
+
+2. ¿Cuáles son los tipos de Datos y Recursos que las partes Interesadas están más interesadas en Proteger? Seleccione dos respuestas
+   - [x] Nombres de usuario y contraseñas de los Clientes 
+   - [ ] Presencia en Redes sociales 
+   - [ ] Políticas de la empresa
+   - [x] Datos financieros sensibles
+> Datos financieros sensibles y nombres de usuario y contraseñas de clientes son ejemplos de datos y recursos que las partes interesadas están más interesadas en proteger.
+
+3. Rellene el espacio en blanco: Cuando un Evento de Seguridad da lugar a una violación de Datos, se categoriza como _____
+   - [ ] recurso
+   - [ ] amenaza
+   - [ ] vulnerabilidad
+   - [x] incidente de Seguridad
+> Cuando un evento de seguridad resulta en una violación de los Datos, se categoriza como un Incidente de Seguridad. Sin embargo, si el suceso se resuelve sin dar lugar a una violación, no se considera un incidente. 
+
+4. ¿Cuáles de los siguientes son ejemplos del impacto potencial de un Incidente de Seguridad relacionado con código malicioso? Seleccione tres respuestas
+   - [x] Pérdida de recursos
+   - [x] Tiempo de inactividad operativa
+   - [ ] Protección de datos
+   - [x] Consecuencias financieras
+> 
