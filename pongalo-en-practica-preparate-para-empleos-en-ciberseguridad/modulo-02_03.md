@@ -29,3 +29,29 @@
 - ​El impacto de que un atacante obtenga ​acceso no autorizado a una aplicación de fabricación ​o PII es mucho mayor que el de ​una contraseña olvidada, ya que el atacante ​podría interferir en los procesos de fabricación ​o exponer datos privados de los clientes.
 - ​Espero que este vídeo le haya ayudado a ​entender la importancia de ​conocer la relación entre ​los activos y los incidentes de Seguridad.
 - ​Más adelante en este curso, compartiremos ​algunos conceptos nuevos relacionados con el ​tiempo de escalamiento y por qué ​es importante su papel en ese proceso.
+
+---
+
+## Cuándo y cómo escalar un incidente de Seguridad
+- ​Hemos hablado bastante sobre la importancia de su papel cuando se trata de aumentar ​los incidentes.
+- ​Incluso hemos analizado algunos tipos de incidentes con los que te puedes encontrar.
+- ​Pero, ¿cuáles son las medidas reales que debe tomar para escalar adecuadamente un incidente?
+- ​La respuesta a esa pregunta en realidad depende de la organización ​para la que trabajes.
+- ​No existe un estándar o proceso establecido para la ​escalada de incidentes que utilicen todas las organizaciones.
+- ​Cada equipo de Seguridad tiene sus propios procesos y ​procedimientos cuando se trata de gestionar los incidentes.
+- Analizaremos las pautas generales para la ​escalada de incidentes y cómo aplicarlas en el trabajo.
+- ​Cada organización tiene su propio proceso para gestionar los incidentes de Seguridad.
+- ​Ese proceso se conoce como política de escalamiento, ​que es un conjunto de acciones que describen a quién se debe notificar cuando ​se produce una alerta de incidente y cómo se debe gestionar ese incidente.
+- ​Lo ideal sería que el proceso de escalamiento se desarrollara sin problemas en todo momento.
+- ​Sin embargo, en el lugar de trabajo, los desafíos a ese proceso pueden surgir inesperadamente.
+- ​Por ejemplo, ¿qué pasa si su supervisor inmediato está fuera de la oficina?
+- ​Si se produce un incidente ese día, aún es necesario denunciarlo a alguien.
+- ​Este es un ejemplo de por qué es ​importante entender la política de escalamiento de su organización.
+- ​No es necesario que memorice la política de escalamiento de su organización, pero ​es aconsejable guardarla o marcarla como favorita en su dispositivo de trabajo.
+- ​De esta forma, siempre tendrás acceso a él cuando lo necesites.
+- ​Es fundamental seguir la política de escalamiento de una organización, porque ​las medidas que tomas ayudan a proteger a la organización y a ​las personas a las que sirve de los actores malintencionados.
+- ​La política de escalamiento de una organización puede ser un documento extenso.
+- ​Por lo tanto, depende de usted prestar atención a los pequeños detalles de ​la política de escalamiento de su organización.
+- La ​atención a los detalles puede marcar la diferencia entre derivar un incidente ​a la persona correcta o equivocada.
+- ​También puede ayudarlo a priorizar qué incidentes deben ​escalarse con más o menos urgencia.
+- ​Cada organización gestiona la escalada de incidentes de forma diferente, pero ​los analistas deben asegurarse de que los incidentes se gestionen correctamente.
