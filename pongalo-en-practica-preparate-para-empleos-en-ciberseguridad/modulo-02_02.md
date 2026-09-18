@@ -76,3 +76,35 @@
 | Attackers access private information and systems, and the organization’s reputation is compromised | Unauthorized access |
 | An employee downloads a game from the internet onto their work device, compromising critical services | Improper usage |
 | Access to sensitive company data is prevented until a ransom is paid to obtain that data | Malware infection | 
+
+---
+
+## Ponga a prueba sus Conocimientos: Escalar o no escalar
+
+1. Rellene el espacio en blanco: Una infección por software malicioso es un tipo de incidente que se produce cuando _____
+   - [x] un software malicioso diseñado para perturbar un sistema se infiltra en las computadoras o redes de una organización
+   - [ ] la velocidad y el rendimiento de una computadora mejoran
+   - [ ] un empleado de una organización viola las políticas de uso aceptable de la organización
+   - [ ] un sitio web experimenta grandes volúmenes de Tráfico
+> Una infección por software malicioso es un tipo de incidente que se produce cuando un software malicioso diseñado para perturbar un sistema se infiltra en las computadoras o la red de una organización. 
+
+2. Rellene el espacio en blanco: Uso indebido es un tipo de incidente que se produce cuando _____
+   - [ ] un software malicioso diseñado para perturbar un sistema se infiltra en las computadoras o redes de una organización.
+   - [ ] un individuo obtiene acceso digital o físico a un sistema o aplicación sin permiso 
+   - [x] un empleado de una organización viola las políticas de uso aceptable de la organización
+   - [ ] un empleado que se encarga de las relaciones públicas de una organización publica datos incorrectos en la página de la empresa en las Redes sociales 
+> Uso indebido es un tipo de incidente que se produce cuando un empleado de una organización infringe las políticas de uso aceptable de la organización. 
+
+3. ¿Cuándo debe escalar el uso indebido a un supervisor?
+   - [ ] Uso indebido no necesita ser escalado porque estos son escenarios internos que pueden ser manejados sin reportarlos al Equipo de Seguridad. 
+   - [x] Los incidentes de Uso indebido siempre deben ser escalados por precaución.
+   - [ ] Los incidentes de Uso indebido deben escalarse si hay un alto nivel de uso indebido.
+   - [ ] Los intentos de Uso indebido que afectan a recursos de alta prioridad deben ser escalados; otras instancias de Uso indebido no son tan importantes.
+> Uso indebido siempre debe ser escalado.
+
+4. Rellene el espacio en blanco: El Acceso no autorizado es un tipo de incidente que se produce cuando _____
+   - [ ] un empleado autorizado envía la descripción de un puesto de trabajo a un amigo antes de que ésta se haya hecho pública
+   - [ ] un software malicioso diseñado para perturbar un sistema se infiltra en las computadoras o redes de una organización
+   - [x] un individuo obtiene acceso digital o físico a un sistema, datos o una aplicación sin permiso
+   - [ ] un empleado de una organización viola las políticas de uso aceptable de la organización
+> El Acceso no autorizado es un tipo de incidente que se produce cuando un individuo obtiene acceso digital o físico a un sistema, datos o una aplicación sin permiso.
