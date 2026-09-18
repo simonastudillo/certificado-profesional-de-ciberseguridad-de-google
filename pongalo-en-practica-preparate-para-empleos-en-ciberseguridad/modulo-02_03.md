@@ -1,0 +1,31 @@
+# El momento oportuno lo es todo
+
+## De una simple actividad a una importante filtración de datos
+- ​Hasta ahora, hemos analizado los diferentes tipos de incidentes ​y la importancia de ​transmitirlos a la persona adecuada.
+- ​Pero, ¿qué ocurre si un incidente ​no se agrava durante demasiado tiempo?
+- Analizaremos el impacto potencial que ​incluso el incidente más pequeño puede tener en ​una organización si pasa desapercibido.
+- ​Ha sido un día tranquilo para el equipo de Seguridad.
+- ​De repente, te das cuenta de que ha habido una ​actividad de registro inusual en una aplicación ​que recientemente se prohibió en la organización.
+- ​Tome nota para mencionar ​esta actividad durante ​la próxima reunión con su supervisor.
+- ​Pero lo olvidas y nunca lo mencionas.
+- ​Siguiendo este mismo escenario, ​pasemos rápidamente a una semana más tarde.
+- ​Usted y su supervisor se van a reunir de nuevo.
+- ​Pero ahora, el supervisor ​indica que se ha producido una violación de datos.
+- ​Esta infracción ha afectado a una de ​las plantas de fabricación de la organización.
+- ​Ahora, todas las operaciones en ​la planta de fabricación han quedado en suspenso.
+- ​Esto hace que la empresa pierda dinero y un tiempo precioso.
+- ​Días después, el equipo de Seguridad ​descubre que la violación de datos ​comenzó con una actividad sospechosa en ​la aplicación que recientemente fue prohibida por la organización.
+- ​Lo que hemos aprendido de este escenario es que ​un simple incidente puede provocar ​un problema mucho mayor, si no se agrava adecuadamente.
+- ​También es importante tener en cuenta aquí la criticidad de los incidentes.
+- ​Inicialmente, un incidente se puede ​escalar con un nivel medio de criticidad si ​el analista no tiene suficiente información ​para determinar la cantidad de ​daño causado a la organización.
+- ​Una vez que un gestor de incidentes experimentado ​revise el incidente, ​el incidente puede aumentarse o ​disminuirse a un nivel de criticidad alto o bajo.
+- ​Todos los incidentes de seguridad que ​encuentre son importantes para una organización, ​pero algunos incidentes son ciertamente más urgentes que otros.
+- ​Entonces, ¿cuál es la mejor manera de determinar ​la urgencia de un incidente de Seguridad?
+- ​Realmente depende del activo ​o los activos a los que afecte el incidente.
+- ​Por ejemplo, si un empleado ​olvida la contraseña de inicio de sesión de la computadora de su trabajo, es ​posible que se produzca un incidente de Seguridad de bajo nivel ​si ha realizado varios intentos fallidos de inicio de sesión.
+- ​Este incidente debe abordarse, ​pero es probable que el impacto de este incidente sea mínimo.
+- ​En otros casos, los activos son ​fundamentales para las operaciones comerciales de una organización, ​como una planta de fabricación ​o una base de datos que almacena la PII.
+- ​Estos tipos de activos deben ​protegerse con un mayor nivel de urgencia.
+- ​El impacto de que un atacante obtenga ​acceso no autorizado a una aplicación de fabricación ​o PII es mucho mayor que el de ​una contraseña olvidada, ya que el atacante ​podría interferir en los procesos de fabricación ​o exponer datos privados de los clientes.
+- ​Espero que este vídeo le haya ayudado a ​entender la importancia de ​conocer la relación entre ​los activos y los incidentes de Seguridad.
+- ​Más adelante en este curso, compartiremos ​algunos conceptos nuevos relacionados con el ​tiempo de escalamiento y por qué ​es importante su papel en ese proceso.
