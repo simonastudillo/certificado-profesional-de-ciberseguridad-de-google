@@ -1,0 +1,35 @@
+# Escalar o no escalar
+
+## Prepárese para la escalada mediante el reconocimiento de la Seguridad
+- ​Anteriormente, definimos lo que ​significa elevar un incidente.
+- ​También hablamos de las habilidades necesarias para ​elevar adecuadamente los incidentes cuando llegue el momento.
+- Vamos a cubrir ​algunos tipos de clasificación de incidentes a tener en cuenta: ​infección por malware, ​acceso no autorizado y uso indebido.
+- ​Una infección por malware es el tipo de incidente ​que se produce cuando un software malicioso diseñado para ​perturbar un sistema se infiltra ​en las computadoras o la Red de una organización.
+- ​Como ya se comentó en un curso anterior, ​las infecciones por malware pueden presentarse de muchas formas.
+- ​Algunas son sencillas y otras son un poco más complejas.
+- ​Un ejemplo es un intento de phishing.
+- ​Son infecciones por software malicioso relativamente sencillas.
+- ​Otro ejemplo es un ataque de ransomware, ​que se considera mucho más complejo.
+- ​Las infecciones por malware pueden hacer que ​la red de un sistema funcione a una velocidad inusualmente baja.
+- ​Los atacantes pueden incluso impedir que ​una organización vea datos críticos, ​a menos que la organización pague ​al atacante un rescate para desbloquear los datos.
+- ​Este tipo de incidente es especialmente ​impactante para una organización debido a ​la cantidad de datos sensibles almacenados en ​la red y las computadoras de una organización.
+- Escalar las infecciones por software malicioso es ​un aspecto importante de ​proteger la organización para la que trabaja.
+- Pero espere, hay más.
+- ​El segundo tipo de incidente que ​discutiremos es el acceso no autorizado.
+- ​Se trata de un tipo de incidente que ​ocurre cuando un individuo obtiene ​acceso digital o físico a ​un sistema o aplicación sin permiso.
+- ​Como recordará, ​anteriormente en el Programa, hablamos de los ataques de fuerza bruta, ​que utilizan el método de ensayo y error para comprometer contraseñas, ​credenciales de inicio de sesión y claves de encriptación.
+- ​Estos ataques se utilizan a menudo para ayudar a los atacantes a obtener ​acceso no autorizado a los sistemas o aplicaciones de una ​organización.
+- ​Todos los incidentes de acceso no autorizado ​son importantes de escalar.
+- ​Sin embargo, la urgencia de esa Elevación depende de lo ​crítico que sea ese sistema para ​las operaciones de negocio de la organización.
+- ​Exploraremos esta idea con ​más detalle más adelante en este curso.
+- ​El tercer incidente que discutiremos es el Uso indebido.
+- ​Se trata de un tipo de incidente que se produce cuando un empleado de ​una organización infringe ​las políticas de uso aceptable de la organización.
+- ​Este puede ser un poco complicado.
+- ​Hay instancias en las que el uso indebido no es intencionado.
+- ​Por ejemplo, un empleado puede ​intentar acceder a licencias de software para ​uso personal o incluso utilizar ​el sistema de una empresa para acceder a los datos de un amigo o compañero de trabajo.
+- ​Quizás el empleado no era consciente de ​la política que estaba infringiendo, ​o quizás la política no se ​definió y comunicó adecuadamente a los empleados.
+- ​Pero hay otras ocasiones en las que ​el uso indebido es un acto intencionado.
+- ​Entonces, ¿cómo saber si un incidente de uso indebido ​es accidental o intencionado? ​Esa puede ser una decisión difícil de tomar.
+- ​Por eso los incidentes de uso indebido deben ​recomendarse siempre a un supervisor.
+- ​Como miembro del Equipo de Seguridad de una organización, ​es probable que se encuentre con ​una gran variedad de tipos de Incidentes durante su trabajo.
+- Por eso es importante saber cuáles son ​y cómo escalarlos.
