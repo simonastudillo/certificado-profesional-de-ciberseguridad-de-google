@@ -65,3 +65,12 @@
    - Estas personas asesoran al Equipo de Seguridad sobre las obligaciones que exigen los Estándares y Procedimientos de Protección de Datos de la organización.
    - También llevan a cabo evaluaciones para determinar si las medidas de seguridad implantadas protegen adecuadamente los Datos según sea necesario.
    - Los RPD son notificados cuando se han infringido los estándares o protocolos establecidos.
+
+---
+
+## Identificar: Analizar los incidentes de ciberseguridad y su impacto
+- As an entry-level security analyst, you may encounter a variety of security incidents. Identify the impact these incidents could have on the organization you work for.
+
+| Impact on the organization | Security incident |
+| ------------- | -------------- |
+| Attackers access private information and systems, and the organization’s reputation is compromised 
