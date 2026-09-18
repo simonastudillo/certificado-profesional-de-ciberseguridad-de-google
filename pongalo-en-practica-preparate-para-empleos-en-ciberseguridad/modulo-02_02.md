@@ -73,4 +73,6 @@
 
 | Impact on the organization | Security incident |
 | ------------- | -------------- |
-| Attackers access private information and systems, and the organization’s reputation is compromised 
+| Attackers access private information and systems, and the organization’s reputation is compromised | Unauthorized access |
+| An employee downloads a game from the internet onto their work device, compromising critical services | Improper usage |
+| Access to sensitive company data is prevented until a ransom is paid to obtain that data | Malware infection | 
