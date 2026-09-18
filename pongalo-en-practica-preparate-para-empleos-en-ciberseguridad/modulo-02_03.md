@@ -124,3 +124,33 @@
 - Una vez más, ella sigue las directrices de la empresa para escalar ese Evento.
 - El supervisor de Juliana está impresionado con su iniciativa y su capacidad para seguir las directrices de escalado.
 - Juliana empieza con buen pie su carrera en Seguridad
+
+---
+
+## Ponga a prueba sus Conocimientos: El momento oportuno lo es todo
+
+1. Todos los incidentes de Seguridad deben tener la misma prioridad
+   - [ ] Verdadero
+   - [ ] Falso
+> No todos los Incidentes de Seguridad deben tener la misma prioridad. Los incidentes que afectan a recursos esenciales para las operaciones empresariales deben tener prioridad sobre otros incidentes.
+
+2. Recientemente ha sido contratado como analista de ciberseguridad para una organización de suministros de oficina.  ¿Qué incidente puede tener un mayor impacto en las operaciones de la organización?
+   - [ ] Un empleado olvida sus credenciales de acceso
+   - [x] La red de fabricación de la organización se ve comprometida
+   - [ ] El perfil de redes sociales de un usuario tiene una fecha de cumpleaños incorrecta
+   - [ ] La red Wi-Fi de invitados de la organización no funciona
+> Una red de fabricación es una parte importante de las operaciones comerciales de una organización. Si se ve comprometida, puede dar lugar a importantes pérdidas financieras.
+
+3. Rellene el espacio en blanco: A(n) _____ es un conjunto de acciones que describe a quién se debe notificar cuando se produce una alerta de incidente y cómo se debe gestionar dicho incidente
+   - [ ] incidente de Seguridad
+   - [ ] evento
+   - [x] política de escalado
+   - [ ] manual de estrategias
+> Una política de escalado es un conjunto de acciones que describe a quién se debe notificar cuando se produce una alerta de incidente y cómo se debe gestionar dicho incidente.
+
+4. ¿Qué tipo de clasificación de incidentes se produce cuando un empleado infringe la política de uso aceptable de una organización?
+   - [ ] Infección por malware
+   - [ ] Contención
+   - [x] Uso indebido
+   - [ ] Acceso no autorizado
+> El tipo de clasificación de incidentes de Uso indebido se produce cuando un empleado infringe la política de uso aceptable de la organización.
