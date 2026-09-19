@@ -82,3 +82,31 @@
    - La Agencia de Ciberseguridad y Seguridad de las Infraestructuras (CISA) ofrece dos listas de correo sobre ciberseguridad a las que puede unirse:
       - Una lista centrada en información sobre amenazas a la seguridad, mejores prácticas para la ciberseguridad y análisis de los socios nacionales e internacionales de CISA en materia de seguridad
       - Una Lista que proporciona resúmenes semanales de las nuevas vulnerabilidades que podrían suponer un riesgo para la red de una organización
+
+---
+
+## Victoria: Continúe su viaje de aprendizaje
+- ​Soy Victoria, ingeniera de Seguridad en Google.
+- ​Cuando solicité por primera vez un trabajo de ciberseguridad, me sentí abrumado.
+- ​No fui un candidato con educación tradicional en ciencias de la computación, de ​hecho me especialicé en biología.
+- ​Así que cada vez que un reclutador veía mi currículum, tenía un poco de miedo de ​que viera esa especialización en biografía y dijera: ¿por qué te postulas? ​E ignora inmediatamente mi currículum.
+- ​Considero que el equipo en el que trabajo es muy diverso.
+- ​Tenemos muchas personas diferentes de diferentes orígenes.
+- ​Uno de los beneficios que siento de tener un equipo diverso es que puedes ​tener diferentes perspectivas sobre un problema.
+- ​Que si todos ustedes tuvieran la misma experiencia, ​es posible que no encontraran esta nueva solución.
+- ​Tener a alguien nuevo en el equipo, tal vez nuevo en la industria, y ​tener esa perspectiva realmente puede ayudar a que las cosas sean más accesibles para todos.
+- ​Es importante seguir aprendiendo en el campo de la ciberseguridad porque las cosas ​cambian todo el tiempo.
+- ​Lo que una vez fue una gran amenaza hace unos años puede que no sea lo mismo que lo es hoy.
+- ​Tratar de mantener el ritmo de cómo las cosas cambian todo el tiempo es ​algo que es una parte fundamental de mi función laboral.
+- ​Para continuar con mi formación en Seguridad, tomo cursos ​e intento obtener certificados si puedo, pero gran parte de ello se basa en mantenerme al día con las ​noticias actuales del sector, ya sea una nueva entrada de blog sobre una infracción que se ​ha producido o un análisis detallado de un nuevo software malicioso que se ha publicado.
+- ​Intente mantener al menos un conocimiento superficial de ​las diferentes tendencias de la industria.
+- ​Voy a menudo a las conferencias de BSides.
+- ​Se trata de conferencias más pequeñas y organizadas localmente.
+- ​Así tienes más posibilidades de interactuar con tu comunidad de Seguridad local, ​algo que no tendrías en una gran conferencia como, por ejemplo, DEFCON o Black Hat.
+- ​Conocer gente local es una excelente manera de ver lo que hay en tu área ​y conocer a otras personas locales con las que puedas hablar de manera más consistente y ​que también estén interesadas en la seguridad.
+- ​Antes de asumir mi papel, ​ojalá hubiera sabido que está bien que no lo sepas todo.
+- ​No tienes que saberlo todo.
+- ​Tienes compañeros de equipo y otras personas que pueden ayudarte en las áreas ​en las que eres débil, así que no te estreses si no sabes todo lo que hay sobre Seguridad, ​porque nadie lo sabe.
+- ​Trabajar en Seguridad es muy divertido.
+- ​Pueden pasar muchas cosas.
+- ​Nunca es el mismo día a día. ​Así que si te gustan las cosas dinámicas y en constante cambio, la ​Seguridad es el campo adecuado para ti. 
