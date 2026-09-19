@@ -184,3 +184,17 @@
 > Tecnoera es de la región y está muy enfocada en las redes y ciberseguridad.
 > Raef es la empresa actual y creo que podemos crecer y aumentar las responsabilidad
 > Google quizás sea la empresa donde todos queremos trabajar por lo que significa su nombre.
+
+---
+
+## Ejemplar de actividad: Explorar las organizaciones de ciberseguridad
+- Ejemplar completado
+- [Hoja de trabajo de organización de la seguridad](./resources/Security-organization-worksheet-exemplar.docx)
+
+- El ejemplo detalla áreas específicas de la ciberseguridad que pueden interesar a una persona interesada en la computación en la nube, la protección de datos y la Respuesta ante incidentes.
+- También enumera tres organizaciones de Seguridad específicas a las que puede unirse un individuo con estos intereses.
+- Tanto los tipos de interés en la Seguridad como la organización de Seguridad elegida pueden diferir de lo que usted considere apropiado para su situación.
+- Sin embargo, el concepto importante a tener en cuenta es alinear sus intereses en materia de Seguridad con los de una organización de seguridad que se centre en los mismos temas.
+- Por ejemplo, si está interesado en la respuesta ante incidentes, sería una buena idea encontrar una organización de seguridad que se centre en diversas estrategias, conceptos y objetivos de respuesta ante incidentes.
+- Hay un sinfín de organizaciones de Seguridad de las que puede formar parte.
+- ¡Encontrar la adecuada depende de sus intereses específicos dentro de la ciberseguridad!
