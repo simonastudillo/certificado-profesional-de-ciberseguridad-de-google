@@ -46,7 +46,7 @@
    - [ ] Propiedad intelectual
    - [x] Red Wi-Fi para invitados
    - [ ] Secretos comerciales de la empresa
-> 
+> Correcto
 
 3. ¿Cuál de los siguientes recursos puede protegerse adoptando una mentalidad de Seguridad? Seleccione tres respuestas
    - [x] Información financiera
@@ -130,7 +130,7 @@
    - [ ] Ignorar los pequeños eventos
    - [x] Prestar atención a los detalles
    - [x] Comprender los recursos de la organización 
-> 
+> Correcto
 
 8. ¿Cuál de las siguientes opciones define un Incidente de Seguridad?
    - [ ] Evento de seguridad que no da lugar a una filtración de datos
@@ -165,7 +165,7 @@
    - [x] Nombres de usuario y contraseñas
    - [ ] Perfiles en redes sociales
    - [ ] Ofertas de empleo
-> 
+> Correcto
 
 10. ¿Cuál de las siguientes puede hacer que una empresa experimente una pérdida de credibilidad, pérdidas financieras o multas reglamentarias?
    - [ ] La dimisión del responsable de Redes sociales de la empresa
@@ -186,4 +186,4 @@
    - [ ] Vergüenza pública
    - [ ] Campañas de marketing sin éxito
    - [x] Pérdida financiera
-> 
+> Correcto
