@@ -110,3 +110,77 @@
 - ​Trabajar en Seguridad es muy divertido.
 - ​Pueden pasar muchas cosas.
 - ​Nunca es el mismo día a día. ​Así que si te gustan las cosas dinámicas y en constante cambio, la ​Seguridad es el campo adecuado para ti. 
+
+---
+
+## Actividad: Explore las organizaciones de ciberseguridad
+- Resumen de la actividad
+   - En esta actividad, identificará las áreas de la ciberseguridad que más le interesan.
+   - A continuación, explorará varias organizaciones de ciberseguridad relacionadas con esos intereses y determinará cuáles son las que más se ajustan a sus intereses y a su conjunto de habilidades.  
+   - Como ha aprendido anteriormente, relacionarse con la comunidad de seguridad a través de diversas organizaciones y conferencias de seguridad es una excelente manera de mantenerse al día sobre las noticias de seguridad actuales.
+   - Al mantenerse informado sobre las tendencias de seguridad, puede identificar y desarrollar con mayor eficacia estrategias de corrección para abordar una amplia gama de retos de seguridad.
+   - Adoptar este enfoque puede ayudarle a avanzar en su carrera al familiarizarse con lo que ocurre en el mundo de la seguridad. 
+   - Asegúrese de completar esta actividad antes de continuar.
+   - El siguiente punto del curso le proporcionará un ejemplo completado para que lo compare con su propio trabajo.
+
+- Escenario
+   - Repase la siguiente información de fondo.
+   - A continuación, complete las instrucciones paso a paso.
+   - Es una práctica útil encontrar una organización de seguridad a la que unirse durante el proceso de búsqueda de empleo.
+   - Hacerlo le ayudará a relacionarse con la comunidad de seguridad mientras busca empleo.   
+   - El primer paso para elegir una organización de seguridad a la que le gustaría unirse es reflexionar sobre qué áreas de la ciberseguridad le interesan más.
+   - Una vez que haya identificado unos cuantos temas, el siguiente paso es buscar en Internet organizaciones relacionadas con esos temas.
+   - Una vez que haya investigado sobre unas cuantas organizaciones diferentes que sean relevantes para sus intereses, es importante que escriba lo que más le ha llamado la atención y por qué.
+   - Esto le dará la oportunidad de revisar sus notas más adelante para ayudarle a determinar qué organizaciones se alinean mejor con las áreas de la ciberseguridad que más le interesan.
+
+- Instrucciones paso a paso
+   - Siga las instrucciones y responda a la siguiente pregunta para completar la actividad.
+   - A continuación, pase al siguiente punto del curso para comparar su trabajo con un ejemplar completado.
+
+1. Acceder a la plantilla
+- [Hoja de trabajo de organización de la seguridad](./resources/Security-organization-worksheet.docx)
+
+2. Anote sus temas de interés en ciberseguridad
+- En la parte 1 de la hoja de trabajo sobre la organización de la seguridad, enumere sus áreas de interés en la profesión de la ciberseguridad.
+- Por ejemplo, éstas son algunas áreas que podría considerar:
+   - Aumentar la concienciación sobre la seguridad
+   - Protección de datos sensibles
+   - Seguridad en la nube
+- Puede incluir al menos tres temas, pero puede incluir más si lo desea.
+- Por lo general, dos o tres temas es lo ideal.
+- De ese modo, podrá mantenerse centrado en un aspecto específico del ámbito de la seguridad.
+- Piense en los diferentes temas de seguridad a lo largo de este programa de certificación, como la seguridad en la nube, la respuesta ante incidentes, la seguridad forense, etc.
+- También puede consultar un resumen de los temas tratados en cada curso en la [página principal del Certificado Profesional en Ciberseguridad de Google](https://www.coursera.org/professional-certificates/google-cybersecurity#courses)
+
+3. Identifique tres organizaciones de seguridad y destaque sus objetivos
+- Dedique algún tiempo a investigar las organizaciones de seguridad en Internet.
+- Utilice palabras clave de los intereses que haya enumerado previamente para ayudarle en su búsqueda.
+- Por ejemplo, "organizaciones de encriptación de datos" o "gestión de vulnerabilidades"
+- Preste mucha atención a los objetivos y metas de las organizaciones que investigue e intente identificar aquellas que se alineen con los intereses que identificó en la Parte 1 de la hoja de trabajo
+- Elija las tres organizaciones que más se alineen con sus intereses.
+- A continuación, añada sus nombres y breves descripciones (20-40 palabras ) de sus objetivos a la Parte 2 de la ficha de trabajo.
+- Tenga en cuenta la página "sobre nosotros" del sitio web de la organización.
+- En ella suelen figurar las declaraciones de misión y las áreas de interés de la organización.
+
+4. Explique qué organización se ajusta más a sus intereses y por qué
+- En la parte 3 de la hoja de trabajo de la organización de seguridad, escriba 1-2 frases (20-40 palabras) explicando cómo cada organización se relaciona (o no) con sus intereses.
+- A continuación, identifique claramente la organización que más se ajuste a sus intereses y objetivos en materia de ciberseguridad.
+- Tenga en cuenta que es tan importante determinar qué organización no se ajusta a sus necesidades como determinar la organización que sí lo hace.
+- Aunque una organización pueda coincidir con sus intereses profesionales, no significa necesariamente que esa organización se ajuste a lo que está buscando.
+
+- Qué incluir en su respuesta
+   - Al menos tres temas de ciberseguridad de su interés.
+   - Los nombres de tres organizaciones de seguridad y sus objetivos.
+   - Una organización que se ajuste más a sus intereses. Asegúrese de explicar por qué. 
+
+- Actividad: Security organization worksheet
+- Part 1: Describe your security interests
+> Mi interes en la seguridad está relacionada al desarrollo de sistemas, la protección de datos sensibles, entender y solucionar problemas relacionados a la confidencialidad de los datos.
+- Part 2: Identify three organizations and include their mission or objectives
+> Tecnoera: 
+> Raef
+> Google
+- Part 3: Write out which organization aligns with your interests and why
+> Tecnoera es de la región y está muy enfocada en las redes y ciberseguridad.
+> Raef es la empresa actual y creo que podemos crecer y aumentar las responsabilidad
+> Google quizás sea la empresa donde todos queremos trabajar por lo que significa su nombre.
