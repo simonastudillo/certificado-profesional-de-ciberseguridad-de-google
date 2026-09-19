@@ -82,3 +82,34 @@
    - Estas partes interesadas suelen informar a los CISO y a los directores financieros para ofrecer un relato más amplio del panorama general de la seguridad de la organización.
    - Aunque no se comunique regularmente con las partes interesadas de alto nivel, es importante reconocer que sus esfuerzos siguen llegando a los niveles más altos de las partes interesadas en la Seguridad de la organización.
    - Estos otros miembros de su Equipo mantienen informadas a esas partes interesadas de alto nivel sobre las medidas de Seguridad y los protocolos vigentes que ayudan continuamente a proteger a la organización.
+
+---
+
+## Explore: Funciones y responsabilidades de los Interesados
+- Learn about the different stakeholders within an organization and the roles they play in security.
+
+- Risk manager
+   - The risk manager helps to identify risks and manage the response to cybersecurity threats.
+   - They may also develop, implement, and enforce IT policies that employees must follow.
+
+- Chief Executive Officer (CEO)
+   - The Chief Executive Officer (CEO) is the highest ranking person in an organization.
+   - They are responsible for financial and managerial decisions and reporting to shareholders.
+   - Because of this, they are concerned with the financial and operational impacts of incidents.
+
+- Operations manager
+   - The operations manager often works with security analysts as the first line of defense in protecting the company from security incidents.
+   - They are often responsible for daily maintenance of security operations and are essential when it comes to security response.
+
+- Legal counsel
+   - The legal counsel tracks applicable litigation and provides legal advice to the organization.
+   - To track litigation, they follow new and changing security legislation and regulations.
+   - They may also help address loss of secured data, legal penalties, and regulatory fines.
+
+- Chief Financial Officer (CFO)
+   - The Chief Financial Officer (CFO) is concerned about security from a financial standpoint, including the potential costs of an incident.
+   - They are also interested in the costs of the tools and strategies necessary to combat security incidents.
+
+- Chief Information Security Officer (CISO)
+   - The Chief Information Security Officer (CISO) is a high-level executive responsible for developing an organization’s security architecture and conducting risk analysis and system audits.
+   - CISOs are also tasked with creating security and business continuity plans.
