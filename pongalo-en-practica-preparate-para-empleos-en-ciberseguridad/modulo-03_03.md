@@ -129,3 +129,35 @@
    - Dado que se trata de una comunicación más detallada, Juliana decide elaborar un documento detallado con líneas de tiempo que expliquen claramente lo sucedido.
    - El documento también incluye sus reflexiones sobre lo que el Equipo de Seguridad, los Propietarios de los Datos y los Encargados del Tratamiento podrían haber hecho de otra manera para proteger el sistema en cuestión.
    - Comparte el Informe con su gerente para que puedan revisarlo.
+
+---
+
+## Ponga a prueba sus Conocimientos: Comunicarse eficazmente con las partes interesadas
+
+1. ¿Cuál de las siguientes cosas debería hacer un analista de Seguridad antes de comunicar los resultados de una prueba de vulnerabilidad a las partes interesadas? Seleccione tres respuestas
+   - [x] Considere la naturaleza de la Información que se está comunicando
+   - [x] Elegir un medio de Comunicación adecuado
+   - [ ] Utilizar detalles muy técnicos
+   - [x] Utilizar ayudas visuales
+> Un analista de seguridad debe elegir un medio de comunicación apropiado, considerar la naturaleza de la información que se comunica y utilizar ayudas visuales antes de comunicar los resultados de una prueba de vulnerabilidad a las partes interesadas.
+
+2. Si una parte interesada no responde a un correo electrónico a tiempo, ¿qué pasos de comunicación son las siguientes mejores opciones? Seleccione dos respuestas
+   - [ ] Informe al Director de Seguridad de la Información de la organización (CISO)
+   - [ ] Quejarse a Recursos Humanos (RH)
+   - [x] Hacer una llamada telefónica
+   - [x] Enviar un mensaje instantáneo
+> A veces, un mensaje instantáneo o una llamada telefónica pueden ayudar a hacer avanzar una situación. La comunicación directa suele ser mejor que esperar demasiado tiempo a recibir una respuesta por correo electrónico a una situación que requiere atención inmediata.
+
+3. Rellene el espacio en blanco: El uso de _____ para contar una Historia de Seguridad puede ayudar a los analistas de seguridad a comunicar datos y Métricas impactantes
+   - [x] visuales
+   - [ ] mensajes instantáneos
+   - [ ] llamadas telefónicas directas
+   - [ ] secuencia de comandos entre sitios
+> El uso de elementos visuales para contar una Historia de Seguridad puede ayudar a los analistas de seguridad a comunicar datos y Métricas impactantes. Los Cuadros y Gráficos son especialmente eficaces porque pueden utilizarse para comparar puntos de datos o mostrar pequeñas partes de una cuestión más amplia.
+
+4. ¿Qué programas de software pueden utilizarse como herramientas para compartir y contar una historia visual sobre los Datos? Seleccione todos los que corresponda
+   - [x] Apache OpenOffice
+   - [ ] Bloc de notas
+   - [x] Hojas de cálculo de Google
+   - [ ] linux
+> Tanto Google Sheets como Apache OpenOffice son plataformas que pueden utilizarse para crear y compartir historias visuales de datos.
