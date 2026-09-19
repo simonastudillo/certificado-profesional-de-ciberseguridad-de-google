@@ -14,3 +14,8 @@
 - ​Las partes interesadas dependen de usted, ​como narrador de historias, para que les cuente la historia de la Seguridad, ​o los posibles problemas y ​soluciones, de una manera que tenga sentido.
 - ​Las estrategias de comunicación que ​hemos comentado le ayudarán a destacar ​como alguien que posee una combinación de ​habilidades técnicas y transferibles.
 - ​Próximamente, su instructora para ​las secciones finales de este curso, Emily, ​hablará de algunas formas de relacionarse con ​la comunidad de seguridad y de cómo ​encontrar y solicitar puestos de trabajo en el Campo de la Seguridad.
+
+---
+
+## Glosario de términos del módulo 3
+- El glosario completo se encuentra [aquí](./README.md#glosario)
