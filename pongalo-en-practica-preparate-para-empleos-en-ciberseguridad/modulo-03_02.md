@@ -22,3 +22,36 @@
 - ​Mantenerse informada sobre los problemas de Seguridad ​ayuda a la parte interesada a hacer su trabajo de manera más eficaz.
 - ​Su función en la comunicación con la ​parte interesada es ayudarla a obtener esa información.
 - ​Este es otro ejemplo de lo ​esencial que es su función dentro de un equipo de Seguridad.
+
+---
+
+## Bloques de construcción de las comunicaciones de ciberseguridad
+- ​Anteriormente, hablamos sobre la comunicación de información ​que es importante para la parte interesada.
+- ​Es esencial que las comunicaciones sean ​específicas y claras, de modo que la ​parte interesada comprenda lo que está sucediendo ​y las medidas que pueden ser necesarias.
+- Analizaremos con más detalle ​cómo crear comunicaciones precisas y claras.
+- ​Crear comunicaciones de Seguridad para compartirlas con la parte ​interesada es similar a contar una gran historia.
+- ​Las historias suelen tener un principio, un desarrollo y un final.
+- ​En algún lugar de esa historia hay algún tipo de ​conflicto y una resolución final.
+- ​Este concepto también es válido cuando se ​cuentan historias de Seguridad a la parte interesada. 
+- ​La historia de seguridad detalla en ​qué consiste el desafío de seguridad, ​cómo afecta a la organización ​y las posibles soluciones al problema.
+- ​La historia de Seguridad también incluye ​datos relacionados con el desafío, ​su impacto y las soluciones propuestas.
+- ​Estos datos pueden presentarse en forma de informes que resuman los ​hallazgos clave o de una lista de ​cuestiones que pueden necesitar atención inmediata.
+- ​Usemos el siguiente escenario como ejemplo.
+- ​Ha estado supervisando los registros del sistema y ha ​observado la posible ejecución de código malintencionado ​en los registros, lo que puede provocar ​la exposición de información confidencial de los usuarios.
+- ​Ahora, debe comunicar ​lo que está sucediendo a una parte interesada, ​en este caso, a su supervisor inmediato.
+- ​El primer paso es detallar el problema: se ​encontró una posible ejecución de código malintencionado mientras se supervisaban los registros.
+- ​El siguiente paso es consultar ​el manual de estrategias de respuesta a incidentes de la organización y ​mencionar la orientación sugerida en el ​manual sobre el código malicioso que ​se encuentra en los registros del sistema.
+- ​Esto ​le demuestra a su supervisor que ha estado prestando atención a ​los procedimientos ya establecidos por el equipo.
+- ​La parte final de su historia es ​proporcionar una posible solución al problema.
+- ​En este escenario, es posible que usted no sea ​el que tome la decisión final con respecto a las medidas ​que se toman, pero ha explicado a la parte interesada lo que ​ha sucedido y una posible solución al problema.
+- ​Puedes comunicar la historia ​que acabamos de comentar de varias maneras.
+- ​Envía un correo electrónico, comparte un documento ​o incluso comunícate mediante ​el uso de una representación visual.
+- ​También puede utilizar ​sistemas de gestión de incidentes o de venta de entradas.
+- ​Muchas organizaciones tienen ​sistemas de gestión de incidentes o de emisión de tickets que siguen ​los pasos descritos en sus guías de Seguridad.
+- ​Algunos escenarios se ​expresan mejor mediante el uso de elementos visuales.
+- ​Las imágenes se utilizan para transmitir ​detalles clave en forma de ​gráficos, tablas, vídeos u otros efectos visuales.
+- ​Esto permite a la parte interesada ver ​una representación gráfica de lo que se está explicando.
+- ​Los paneles visuales pueden ayudarlo a contar ​una historia de Seguridad completa a la parte interesada.
+- ​Más adelante en este curso, ​tendrás la oportunidad de aprender a usar ​Google Sheets para crear una historia de Seguridad visual.
+- ​​Un profesional de Seguridad que sepa cómo contar ​una historia de seguridad convincente y concisa puede ayudar a la parte ​interesada a tomar decisiones sobre ​las mejores formas de responder a un incidente.
+- ​Lo ideal es ser ​alguien que ​facilite el trabajo de las partes interesadas, y la comunicación eficaz ​sin duda le ayudará a lograrlo.
