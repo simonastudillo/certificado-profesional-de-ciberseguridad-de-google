@@ -61,3 +61,44 @@
    - La auditoría recopiló datos que mostraban en cuántos correos electrónicos de phishing hizo clic cada departamento en los últimos cinco meses.
    - Esta es una oportunidad ideal para contar esta Historia utilizando herramientas de visualización.
    - En lugar de enviar un correo electrónico que simplemente describa cuáles son los hallazgos, un gráfico o un diagrama ilustrarán claramente dichos hallazgos, lo que facilitará que la parte interesada los comprenda de forma rápida y sencilla.
+
+---
+
+## Cómo crear un cuadro de mandos visual
+- ​Vamos a crear una historia de seguridad visual.
+- ​Este es el escenario: ​El director de operaciones, una de las partes interesadas de las que hemos hablado anteriormente, ha ​sido informado de que el Director de Seguridad de la Información, también conocido como el CISO, ​quiere saber cuántos empleados hacen clic con frecuencia en los correos electrónicos de phishing.
+- ​El objetivo es identificar qué cinco departamentos hacen clic con más frecuencia en esos correos electrónicos.
+- ​Una investigación revela que los cinco departamentos que con más frecuencia ​hacen clic en los correos electrónicos de phishing son: recursos humanos, servicio al cliente, ​seguridad global, relaciones con los medios y desarrollo profesional.
+- ​A partir de esta información, el Equipo de seguridad puede crear una representación ​visual de los datos para compartirla con el director de operaciones y el CISO.
+- ​Estas partes interesadas y ​el Equipo de Seguridad pueden entonces trabajar juntos para determinar cómo abordar el problema.
+- ​Existen muchas plataformas diferentes disponibles que pueden utilizarse para crear y ​compartir historias visuales de datos.
+- ​Apache OpenOffice es una suite ofimática gratuita y de código abierto que permite a los usuarios ​crear hojas de cálculo y otras representaciones visuales.
+- ​Otra opción sin coste es Google Sheets.
+- ​Hoy, introduciremos nuestros datos en Google Sheets.
+- ​Después, crearemos una visualización de gráfico de barras para desarrollar la historia de los datos.
+- ​Si no tiene una cuenta de Google, tendrá que crear una.
+- ​Empecemos demostrando cómo crear una cuenta.
+- ​Primero, vaya a Google.com ​Y haga clic en: Iniciar sesión ​Clic: Crear cuenta ​Y seleccione: Para mi uso personal ​A continuación, complete cada uno de los pasos para crear su cuenta personal.
+- ​Ahora que ha creado su cuenta de Google, es hora de que empecemos a ​crear nuestra visualización de gráfico de barras de Google Sheets.
+- ​Clic: el menú de puntos de la esquina superior derecha
+- ​Clic: el icono de Sheets ​Clic: En blanco para comenzar una nueva hoja de cálculo
+   - ​Seleccione: Célula A1, Tipo: Departamento
+   - ​Seleccione: Célula B1, Tipo: # de correos electrónicos de phishing en los que se ha hecho clic
+   - ​Seleccione: Célula A2, Tipo: Recursos Humanos
+   - ​Seleccione: Célula B2, Tipo: 30
+   - ​Seleccione: Célula A3, Tipo: Servicio al cliente
+   - ​Seleccione: Célula B3, Tipo: 18
+   - ​Seleccionar: Célula A4, Tipo: Seguridad Global
+   - ​Seleccione: Célula B4, Tipo: 10
+   - ​Seleccionar: Célula A5, Tipo: Relaciones con los medios
+   - Seleccione: Célula B5, Tipo: 40
+   - ​Seleccionar: Célula A6, Tipo: Desarrollo profesional
+   - ​Seleccione: Célula B6, Tipo: 27
+- ​A continuación, seleccione: las filas y columnas que contienen Encabezados, Nombres de departamentos, ​y Datos.
+- ​Clic: Insertar en la parte superior de la hoja ​Seleccione: Gráfico ​En el menú del editor de Gráficos, haga clic en: Tipo de gráfico menú desplegable, ​desplácese hasta las opciones de gráfico de barras.
+- ​A continuación, seleccione: el primer gráfico de barras ​En el menú Editor de gráficos, haga clic en: Personalizar ​A continuación, haga clic en la: Sección de títulos de gráficos y ejes.
+- ​Ahora, actualice el título para que diga algo como: Correos electrónicos de phishing en los que se ha hecho clic ​por departamento, u otro título relacionado con los datos.
+- ​A continuación, haga Clic en el icono: x en la parte superior del editor de gráficos para cerrar el menú del editor.
+- ​¡Gran trabajo creando su primera historia visual de Seguridad!
+- ​La creación de historias visuales de datos permite a los miembros del equipo de seguridad transmitir ​información esencial a las partes interesadas, ​de modo que los problemas puedan comunicarse de forma significativa y comprensible.
+- ​Estas historias de datos también pueden ayudar a promover una mejor comprensión de los problemas que ​existen en una organización y permitir a los responsables de la toma de decisiones determinar cómo ​abordar los problemas de Seguridad que ponen en riesgo a la organización. 
