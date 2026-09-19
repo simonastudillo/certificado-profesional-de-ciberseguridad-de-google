@@ -11,3 +11,8 @@
 - ​Comprender cómo afecta cada incidente a los datos y ​activos de una organización es realmente importante, ​porque las decisiones que tome pueden afectar a todo el equipo de seguridad y a la organización.
 - ​¿Está preparado para continuar su viaje por la seguridad?
 - ​Próximamente hablaremos de las partes interesadas y de cómo comunicarse eficazmente con ellas. 
+
+---
+
+## Glosario de términos del módulo 2
+- El glosario completo se encuentra [aquí](./README.md#glosario)
