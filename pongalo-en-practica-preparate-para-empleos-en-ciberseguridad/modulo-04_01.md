@@ -13,3 +13,28 @@
 - ​Luego, compartiremos algunas formas de implicarse en la comunidad de la seguridad.
 - ​Terminaremos con un debate sobre cómo establecer y avanzar ​en una carrera en el sector de la Seguridad.
 - ​Próximamente, destacaremos algunos recursos estupendos que le ayudarán a mantenerse al día sobre ​lo que ocurre en el sector de la Seguridad.
+
+---
+
+## Recursos útiles sobre ciberseguridad
+- ​A medida que nos acercamos al final de nuestro Programa, ​es importante empezar a pensar en formas ​de comprometerse con la comunidad de la Seguridad.
+- ​A medida que la industria evoluciona, ​es esencial mantenerse al día sobre ​las últimas tendencias y noticias en materia de Seguridad.
+- ​Hablemos de algunos buenos recursos ​que puede consultar periódicamente.
+- ​Lo que me entusiasma de la profesión de la seguridad ​es la constante evolución de la industria.
+- ​Tomemos como ejemplo el OWASP Top 10.
+- ​Al principio del programa, ​hablamos del hecho de que se trata de ​un documento de concienciación ​estándar reconocido mundialmente que enumera ​los 10 riesgos de seguridad más críticos ​para las aplicaciones web.
+- ​Esta lista se actualiza cada tres o cuatro años, ​así que es un gran ejemplo de ​la naturaleza evolutiva del Campo.
+- ​Continuar su formación en seguridad más allá de ​este programa de certificación le ayudará a destacar ante los ​directores de contratación y podría darle ​una ventaja adicional sobre otros candidatos ​porque demuestra su voluntad de mantenerse ​al día de lo que ocurre en el sector.
+- ​Algunos sitios web y blogs de seguridad muy conocidos para ​emprender son CSO Online, ​Krebs on Security y Dark Reading.
+- ​El sitio CSO Online ofrece noticias, ​análisis e investigación sobre ​varios temas de seguridad y gestión de riesgos.
+- ​Muchos CSO consultan este sitio en busca de consejos e ideas.
+- ​Sería estupendo que revisara ​esta publicación de vez en cuando.
+- ​Krebs on Security es un blog de seguridad en profundidad ​creado por el antiguo reportero del Washington Post, Brian Krebs.
+- ​Este blog cubre noticias de seguridad e ​investigaciones sobre diversos ataques cibernéticos.
+- ​Acceder al blog de Krebs es una buena forma de mantenerse ​al día de las últimas noticias ​sobre seguridad y sucesos en todo el mundo.
+- ​Dark Reading es un popular sitio web ​para profesionales de la seguridad.
+- ​Este sitio proporciona información sobre ​varios temas de seguridad como ​analítica y seguridad de aplicaciones, ​seguridad móvil y en la nube, ​así como el Internet de las cosas, IoT.
+- ​La seguridad es una industria en constante evolución.
+- ​Como profesionales de la seguridad, ​debemos evolucionar con ella buscando nueva información.
+- ​Asegúrese de explorar algunos de ​los sitios web y blogs de los que hablamos en ​este vídeo para mantenerse ​al día de lo que ocurre en el sector.
+- ​Próximamente, hablaremos de cómo ​comprometerse con la comunidad de la seguridad y de ​formas de establecer y avanzar ​en su carrera profesional en el ámbito de la Seguridad.
