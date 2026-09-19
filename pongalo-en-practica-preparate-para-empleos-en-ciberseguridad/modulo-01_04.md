@@ -125,6 +125,13 @@
    - [ ] raramente (Incorrecto)
 > Correcto
 
+7. ¿Cuáles son algunas de las formas en que los analistas de seguridad protegen los datos? Seleccione tres respuestas.
+   - [x] Informe de pequeños eventos
+   - [ ] Ignorar los pequeños eventos
+   - [x] Prestar atención a los detalles
+   - [x] Comprender los recursos de la organización 
+> 
+
 8. ¿Cuál de las siguientes opciones define un Incidente de Seguridad?
    - [ ] Evento de seguridad que no da lugar a una filtración de datos
    - [x] Evento de seguridad que da lugar a una filtración de datos
@@ -153,6 +160,13 @@
    - [x] Datos sensibles de los clientes
 > Correcto
 
+9. ¿Cuáles de los siguientes son ejemplos de datos sensibles de clientes a los que la mayoría de las organizaciones dan prioridad? Seleccione dos respuestas
+   - [x] Números de tarjeta de crédito
+   - [x] Nombres de usuario y contraseñas
+   - [ ] Perfiles en redes sociales
+   - [ ] Ofertas de empleo
+> 
+
 10. ¿Cuál de las siguientes puede hacer que una empresa experimente una pérdida de credibilidad, pérdidas financieras o multas reglamentarias?
    - [ ] La dimisión del responsable de Redes sociales de la empresa
    - [x] Una filtración de datos
@@ -166,3 +180,10 @@
    - [x] Pérdida de credibilidad
    - [ ] Reducción significativa de la retención de empleados
 > Correcto
+
+10. Rellene el espacio en blanco: ____ puede producirse si los Datos y los recursos esenciales de una organización se ven comprometidos de forma que se interrumpan sus operaciones comerciales
+   - [ ] Cancelación de eventos laborales en vacaciones
+   - [ ] Vergüenza pública
+   - [ ] Campañas de marketing sin éxito
+   - [x] Pérdida financiera
+> 
