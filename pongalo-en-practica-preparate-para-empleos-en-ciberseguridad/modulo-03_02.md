@@ -93,3 +93,35 @@
    - Si tiene que describir una situación compleja con múltiples capas, un correo electrónico o una reunión en persona podrían ser la mejor opción.
    - Si aporta muchos datos y cifras, compartir un gráfico puede ser la mejor solución.
    - Cada situación le ayudará a determinar el mejor medio de Comunicación.
+
+---
+
+## Ponga a prueba sus Conocimientos: Comunicar para causar impacto
+
+1. ¿Cuáles de las siguientes son las mejores prácticas de Comunicación con los Interesados? Seleccione todas las que correspondan
+   - [x] Deben evitar la jerga innecesaria
+   - [x] Deben ser precisos
+   - [x] Deben tener un objetivo claro
+   - [ ] Deben ser urgentes para captar la atención de la parte interesada.
+> Las Comunicaciones con las partes interesadas deben ser precisas, evitar términos técnicos innecesarios y tener un propósito claro.
+
+2. Rellene el espacio en blanco: La Información que se comunica a las partes interesadas es _____
+   - [x] sensible
+   - [ ] trivial
+   - [ ] conocimiento público
+   - [ ] clasificado
+> La Información que se comunica a las partes interesadas es sensible. Es importante ser precavido al intercambiar correos electrónicos con las partes interesadas. Asegúrese siempre de que está enviando correos electrónicos a la dirección correcta.
+
+3. ¿Qué medidas puede tomar un analista de Seguridad para saber qué les importa a las partes interesadas con las que se comunica?
+   - [ ] Alcance al supervisor inmediato de la parte interesada para conocer mejor sus necesidades.
+   - [x] Haga preguntas a las partes interesadas sobre los Datos y Recursos que son responsables de proteger.
+   - [ ] Envíe correos electrónicos al mismo interesado a lo largo del día para saber a qué correo responde el interesado.
+   - [ ] Espere a que la parte interesada le proporcione información sobre lo que le importa.
+> Formular preguntas a las partes interesadas sobre los Datos y Recursos que son responsables de proteger es una excelente manera de saber qué es lo que más les importa. Preguntar directamente a las partes interesadas qué datos y recursos son responsables de proteger proporciona una estadística más personal de sus necesidades tecnológicas y suscita una respuesta más inmediata por su parte.
+
+4. Rellene el espacio en blanco: Gráficos, diagramas, vídeos y paneles son ejemplos de comunicaciones _____ que se crean para proporcionar y comparar datos y Métricas importantes con las partes Interesadas
+   - [ ] audio
+   - [ ] ciberseguridad
+   - [ ] técnico
+   - [ ] visual
+> Gráficos, diagramas, vídeos y cuadros de mando son ejemplos de comunicaciones visuales. Las comunicaciones visuales son útiles en situaciones en las que se están comparando o revisando varias cifras y conjuntos de datos.
