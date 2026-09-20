@@ -75,3 +75,35 @@
 - ​Son un lugar divertido para conocer gente.
 - ​Un gran consejo es que no te dejes abrumar y ​no te pongas nervioso por no saber todas las respuestas, porque sabes qué, ​nadie sabe todas las respuestas.
 - ​Está bien entrar en esto sin mucha experiencia en ciencias de la computación, ​sin mucha experiencia ​en tecnología y aun así, aportarás valor al campo. 
+
+---
+
+## Ponga a prueba sus Conocimientos: Construya su red de ciberseguridad
+
+1. ¿Cuál de los siguientes métodos puede utilizarse para construir su red de ciberseguridad? Seleccione tres respuestas
+   - [x] Únase a asociaciones de ciberseguridad.
+   - [x] Asista a conferencias sobre ciberseguridad.
+   - [ ] Investigue las últimas amenazas y vulnerabilidades.
+   - [x] Conecte con profesionales de la Seguridad a través de las Redes sociales.
+> Conectar con profesionales de la seguridad utilizando las Redes sociales, asistir a conferencias sobre ciberseguridad y unirse a asociaciones de ciberseguridad son métodos que pueden utilizarse para construir su red de ciberseguridad.
+
+2. Rellene el espacio en blanco: Un profesional de la Seguridad puede inscribirse en _____ para mantenerse al día de las tendencias y temas clave del sector.
+   - [x] listas de correo sobre Seguridad
+   - [ ] listas de correo de ingeniería 
+   - [ ] Cursos de Entrenamiento Linux
+   - [ ] revistas sanitarias
+> Un profesional de la Seguridad puede inscribirse en listas de correo sobre Seguridad para mantenerse al día de las tendencias y temas clave del sector.
+
+3. ¿Cuál de las siguientes estrategias puede utilizar un aspirante a analista de Seguridad para ponerse en contacto con profesionales de la Seguridad? Seleccione dos respuestas
+   - [ ] Cree un boletín informativo.
+   - [ ] Suscríbase a las listas de correo de Seguridad.
+   - [x] Únase a las asociaciones de Seguridad.
+   - [x] Aproveche las redes sociales profesionales como LinkedIn®.
+> Los aspirantes a analistas de seguridad pueden ponerse en contacto con otros profesionales de la seguridad aprovechando las redes sociales profesionales como LinkedIn® y uniéndose a asociaciones de seguridad.
+
+4. ¿Cómo puede el compromiso con la comunidad de seguridad ayudar a los recién llegados a establecer una carrera de seguridad? Seleccione dos respuestas
+   - [ ] Centrándose en la mejora de las Habilidades técnicas
+   - [ ] Participando en actividades de Seguridad poco éticas
+   - [x] Conectándose con otros profesionales de la Seguridad
+   - [x] Manteniéndose informado sobre las últimas noticias en materia de Seguridad
+> Comprometerse con la comunidad de seguridad ayuda a los recién llegados a establecer una carrera de seguridad manteniéndose informados sobre las últimas noticias de seguridad y conectando con otros profesionales de la seguridad.
