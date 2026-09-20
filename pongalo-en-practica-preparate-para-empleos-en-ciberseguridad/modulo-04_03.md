@@ -12,3 +12,8 @@
 - ​Ciertamente estoy orgulloso de usted.
 - ​En la sección final de este curso, nos tomaremos el tiempo para prepararle para ​la búsqueda de empleo y el proceso de entrevistas.
 - ​¿Qué emocionante es eso?
+
+---
+
+## Glosario de términos del módulo 4
+- El glosario completo se encuentra [aquí](./README.md#glosario)
