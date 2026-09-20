@@ -53,3 +53,25 @@
       - "Hola, Tim. Hace poco terminé el programa del Certificado de Ciberseguridad de Google y me gustaría conectar con otros profesionales de la Seguridad. Parece que tienes mucha experiencia en el sector de la Seguridad de la que puedo aprender. Mantengámonos en contacto".
    - Este ejemplo proporciona una razón clara de por qué quiere conectar con esta persona y se presenta en un tono conversacional.
    - Tampoco da la impresión de ser un estafador al pedir a la persona que haga algo sospechoso para conectar con usted, como descargar un archivo adjunto inusual.
+
+---
+
+## Red en la comunidad de la ciberseguridad
+- ​Hola a todos, soy Sarah y soy directora sénior de programas en el ​equipo de ingeniería de seguridad y protección de la privacidad de Google.
+- ​Una de las comunidades en las que más participo es un grupo llamado ​Women in Cybersecurity.
+- ​Por eso, esa comunidad me resultó muy útil cuando me uní por primera vez porque ​me sentía muy nueva y un poco abrumada.
+- ​He escuchado muchos de sus seminarios web, ​he echado un vistazo a su foro, ahora ​siempre asisto a sus conferencias y, de hecho, acabo de unirme a su junta, ​lo que me entusiasma mucho.
+- ​Una de las cosas que me parece más emocionante es la capacidad de ​estar dentro de la ciberseguridad sin esta larga historia.
+- ​No tengo un título en ciencias de la computación, no tengo una maestría, no tengo un doctorado.
+- ​Pero gracias a la creación de redes y al averiguar cuáles ​son mis áreas de interés, pude entrar en este campo y crecer y avanzar en este campo.
+- ​Realmente he descubierto que es una comunidad acogedora que busca y ​necesita que más personas formen parte de ella.
+- ​Hay una enorme variedad de personas que vuelven a meterse en esto con una amplia ​gama de experiencias, y creo que todos han descubierto o están ​explorando cuáles son sus pasiones y las áreas en las que quieren profundizar.
+- La creación de ​redes es muy importante para poder conocer a compañeros que podrían estar en la ​misma etapa que tú o a personas que podrían tener oportunidades de contratación.
+- ​Definitivamente recomiendo conectarse con sus compañeros en el programa de certificación, ​es una excelente forma de motivación para usted y para motivar a los demás.
+- ​Tener estos puntos en los que estás hablando sobre el contenido específico o ​simplemente haciendo un registro será muy útil para ​que puedas continuar con el programa del curso ​y también para ayudar a otros a continuar con el programa del curso.
+- ​También está la serie de conferencias que existen llamadas BSides.
+- Así que ​estas son conferencias de Seguridad súper informales que tienen lugar en ​comunidades de todo el mundo.
+- Muchos también tienen componentes virtuales.
+- ​Son un lugar divertido para conocer gente.
+- ​Un gran consejo es que no te dejes abrumar y ​no te pongas nervioso por no saber todas las respuestas, porque sabes qué, ​nadie sabe todas las respuestas.
+- ​Está bien entrar en esto sin mucha experiencia en ciencias de la computación, ​sin mucha experiencia ​en tecnología y aun así, aportarás valor al campo. 
