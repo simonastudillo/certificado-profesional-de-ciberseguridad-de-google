@@ -266,3 +266,63 @@ Gemini, ChatGPT de OpenAI y Microsoft Copilot son ejemplos de herramientas de IA
 - ​Hay muchas maneras en las que las herramientas de IA ​generacional pueden ayudar a actualizar y mejorar el código.
 - ​Por lo tanto, ya sea que trabajes con código existente ​o comiences con código desde cero, ​explora el poder de la generación de IA.
 - ​Es una herramienta valiosa para tener en su kit de herramientas de ciberseguridad, ​que le ayuda a aprender, crecer y convertirse en un analista aún mejor. 
+
+---
+
+## Comprender las vulnerabilidades del sistema con IA
+- Por cada activo que necesita nuestra protección, ​hay docenas de vulnerabilidades ​o debilidades que pueden ser explotadas por una amenaza.
+- ​Son muchas vulnerabilidades.
+- ​Y la cantidad de información ​sobre todas estas vulnerabilidades también puede ser abrumadora.
+- ​Los expertos comparten sus opiniones en las redes sociales, ​las organizaciones publican declaraciones ​y los colegas pueden hablar sobre el tema en el trabajo.
+- ​Pero, ¿y si solo queremos ​entender los conceptos básicos de una vulnerabilidad?
+- ​¿Qué es y cuál podría ser el impacto?
+- ​Admito que a veces me sentía intimidado ​cuando hacía ​preguntas básicas a otros especialistas en seguridad sobre las vulnerabilidades, ​y lo que realmente quiero es información imparcial.
+- ​Por eso, en mi puesto, utilizo herramientas de IA de última generación ​para comprender las vulnerabilidades de seguridad ​e identificar su importancia.
+- ​Estas herramientas también pueden evaluar el ​impacto potencial de una vulnerabilidad en los sistemas de una organización ​y proporcionar medidas de mitigación inmediatas, ​incluso antes de que estén disponibles los parches oficiales.
+- ​Como profesional de la seguridad, eso es enorme.
+- ​He aquí un ejemplo para ilustrar lo que quiero decir.
+- ​Podríamos escribir un mensaje como ​: Soy un analista junior de ciberseguridad, nuevo en el campo.
+- ​Recientemente me he enterado de las siguientes vulnerabilidades: ​falsificación de solicitudes del lado del servidor, inyección ​, errores criptográficos y control de acceso interrumpido.
+- ​Defina qué es cada uno de ellos, ​identifique su impacto potencial ​y brinde sugerencias para medidas de mitigación inmediatas ​en caso de que encuentre estos problemas en el futuro.
+- Se ​dará cuenta de que añadimos contexto, ​la C en nuestro marco de orientación, ​al decirle a Gemini que somos un analista junior de ciberseguridad ​que es nuevo en el campo.
+- ​Esto ayuda a Géminis a adaptar una respuesta ​que sea apropiada para usted y su nivel de habilidad.
+- ​Hemos pedido obtener más información sobre estas vulnerabilidades, ​identificar su impacto ​y recibir sugerencias sobre qué hacer a continuación.
+- ​Veamos qué ha respondido Géminis. ​Genial.
+- ​El resultado aquí ha definido claramente cada vulnerabilidad, ha ​descrito su impacto potencial en la organización ​y ha ofrecido algunas ideas iniciales sobre las estrategias de mitigación.
+- ​Esta información es esencial ​para nosotros, los profesionales de ciberseguridad, ​para ayudar a construir una base sólida de conocimiento ​y proteger eficazmente a las organizaciones.
+- ​¿Recuerdas el marco rápido ​que analizamos en el primer vídeo, T-C-R-E-I?
+- ​Aquí es donde vamos a poner la E, ​o la evaluación, en acción.
+- ​Tal vez Gemini nos dio exactamente lo que necesitábamos ​para entender las vulnerabilidades más recientes, ​pero algunos de los pasos de mitigación aquí son breves ​y queremos asegurarnos de ​que tenemos toda la información que necesitamos.
+- ​Ahí es donde entra en juego la «yo».
+- ​Es hora de empezar a repetir las instrucciones ​para obtener los resultados más precisos y útiles.
+- ​Como recordatorio, la iteración es el proceso ​de refinar y mejorar las indicaciones y resultados de la IA ​mediante ciclos repetidos de pruebas y ajustes.
+- ​Estos son algunos consejos que puedes tener en cuenta.
+- ​Al evaluar su solicitud, ¿encuentra alguna área en ​la que el resultado no se ajustó a sus expectativas?
+- ​Si es así, es posible que haya oportunidades para proporcionar a la herramienta ​de IA una orientación más específica sobre lo que necesita.
+-​Recuerda que una herramienta de IA solo puede proporcionar resultados ​en función de lo que tú le indiques que haga.
+- ​Por lo tanto, asegúrese de que su mensaje tenga suficientes detalles ​para obtener una respuesta útil.
+- ​O piense en la R ​en nuestro marco inspirador, Referencias.
+- ​¿Puedes compartir un ejemplo de lo que esperabas?
+- ​Incluir ejemplos en las instrucciones ​puede ayudar a la herramienta de IA a entender lo que quieres.
+- ​Si quieres encontrar un formato ​o tipo de análisis específico, muestra un ejemplo a la herramienta de IA.
+- ​Otra cosa que puedes hacer es revisar tu redacción.
+- ​¿Fuiste lo más claro posible?
+- ​Intente dividir las instrucciones en frases más cortas.
+- ​Esto puede ayudarle a mejorar el resultado la próxima vez.
+- ​¿Hay partes del resultado que te hayan gustado?
+- ​Por ejemplo, imagina que la herramienta de IA te dio cinco ideas ​para una lluvia de ideas y dos de ellas te gustaron.
+- ​En tu siguiente mensaje, explica por qué te gustan esas dos ​y pide a la herramienta de IA que te proporcione una nueva lista de ideas ​basada en tu razonamiento.
+- ​Incluso puedes señalar ​por qué no te gustaron las otras tres ideas ​y pedirle a la herramienta que ​también lo tenga en cuenta la próxima vez.
+- ​Entonces, ¿cómo podríamos repetir en este escenario en particular?
+- ​Bueno, podríamos pedirle ​a Gemini que explique los pasos de mitigación con más detalle ​o que reformule cualquier parte de la explicación ​que sea confusa.
+- ​A medida que la herramienta de IA generacional responde, he aquí otro consejo. 
+- ​Sigue preguntando por qué hasta que obtengas la respuesta que necesitas.
+- ​En este caso, es posible que desee seguir preguntándose por qué ​para obtener más información sobre las causas fundamentales de las vulnerabilidades ​o sus posibles impactos.
+- ​La clave es experimentar ​con las instrucciones hasta que estés satisfecho ​con la información que has recibido.
+- ​Así que ahí lo tiene, una zona libre de juicios ​para aprender sobre las vulnerabilidades.
+- ​No te olvides del enfoque humano-in-the-loop del ​que hablamos anteriormente.
+- ​Asegúrese de verificar la información ​que proporciona la herramienta gen AI comparándola con fuentes confiables, ​ya que las salidas de IA a veces pueden ser inexactas o desactualizadas.
+- ​Ahora, permítanme compartir un consejo adicional con ustedes.
+- ​Si te estás preparando para las entrevistas, ​puedes pedirle a una herramienta de IA generacional, como Gemini, ​ejemplos de preguntas de entrevista sobre vulnerabilidades.
+- ​Y una vez que hayas practicado cómo responder las preguntas por ti mismo, ​pídele a la herramienta que dé sus respuestas a las mismas preguntas ​para que puedas comparar.
+-  ​Esto realmente puede ayudarte a preparar y practicar tus respuestas.
