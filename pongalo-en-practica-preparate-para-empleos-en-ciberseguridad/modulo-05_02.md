@@ -1,0 +1,35 @@
+# Conclusión del curso
+
+## Garvey Consejos para la carta de presentación
+- ​Me llamo Garvey. ​Soy gerente de personal global en Google.
+- ​Prácticamente contrato a todos ​los ingenieros de ciberseguridad de Google.
+- ​He contratado en EE. UU., Zúrich, ​Londres, Sídney ​, Australia y prácticamente en cualquier oficina que me indiques.
+- ​Este espacio es único, ​en el sentido de que está creciendo, está evolucionando enormemente.
+- ​Hay varios candidatos que ​han cambiado de posición a lo largo de su vida, ​provienen de diferentes ámbitos de la vida.
+- ​Las cartas de presentación son una oportunidad para que cuentes esa historia.
+- ​Un currículum me cuenta los hechos, ​qué has hecho, ​pero una carta de presentación me dice quién eres.
+- ​¿Por qué la ciberseguridad? ​¿Por qué este espacio? ¿Por qué esta oportunidad? ​¿Qué te atrae hasta aquí?
+- ​La mayoría de las personas que he conocido ​que quieren entrar en este espacio tienen una razón.
+- ​O han sido víctimas de algún delito cibernético, ​o conocen a otras personas que lo han hecho, ​o han visto que algo que ​les ha afectado en sus vidas ​los ha llevado a ese momento.
+- ​Quiero saber más sobre eso.
+- ​Quiero entender cuál es tu pasión, ​cuál es tu interés en este espacio.
+- ​Creo que, especialmente en lo que respecta a la ciberseguridad, ​cuando se trata de cartas de presentación, ​es tu oportunidad de decirme qué hay ​escrito entre esas líneas de ​ese currículum que te ha traído hasta aquí.
+- ​¿Cuánto tiempo debe durar una carta de presentación? ​Quiero decir, no creo que haya ninguna ​ciencia perfecta para eso.
+- ​Primero, dime unas líneas sobre ti, ​tu familia, tus aficiones ​y, después, pasa a explicar qué es lo que te hace único, ​qué te hace diferente de este otro candidato.
+- ​¿Qué lo ha llevado a aprovechar esta oportunidad? ​¿Cómo has superado la adversidad? ​¿Cómo piensa hacerlo en este entorno laboral?
+- ​¿Qué significa este trabajo para ti? ​¿Cuáles son las habilidades sociales que puede presentar ​y aportar a sus colegas en este puesto?
+- ​Si soy un candidato que está haciendo una transición profesional, ​quiero saber en esa carta de presentación por qué.
+- ​¿Hay alguna razón en particular por la que le entusiasme la ciberseguridad?
+- ​¿Hay alguna razón en particular por la ​que estás haciendo esta transición? ​¿Qué es lo que no has encontrado en tu carrera anterior?
+- Quiero que estés aquí para siempre, ​y si te mantengo aquí para siempre, ​quiero que seas feliz, entonces, ¿qué te hace feliz?
+- ​¿Cuáles son las cosas que ves en este espacio ​que te van a entusiasmar y ​que te apasionen, ​y quiero que eso esté escrito en la carta de presentación?
+- ​No estandarice su carta de presentación ​y envíela sin ​importar la empresa a la que se refiera.
+- ​Adapta tu carta de presentación a ​esa misión. ¿Cuál es su misión?
+- ​Haz que forme parte de la tuya.
+- Conozca la misión de la empresa, ​conozca su propósito, sus productos.
+- ​Insértalo en tu carta de presentación.
+- ​Una carta de presentación está destinada a ​captar la atención de alguien rápidamente.
+- ​Puedes imaginarte captar la atención ​de alguien por la totalidad de lo que has escrito.
+- ​¿Qué es lo que me interesa de ti? ​Eso los lleva a este momento y a esta oportunidad.
+- ​Primero quieres captar la atención de alguien ​y luego captar su atención y su mente.
+- ​Sé valiente, sé ruidoso. ​Creo que mantén las palabras simples pero sé audaz. 
