@@ -213,3 +213,8 @@
    - [ ] SI
    - [ ] NO
 > Estupendo Vas por buen camino
+
+---
+
+## Glosario de términos del módulo 5
+- El glosario completo se encuentra [aquí](./README.md#glosario)
