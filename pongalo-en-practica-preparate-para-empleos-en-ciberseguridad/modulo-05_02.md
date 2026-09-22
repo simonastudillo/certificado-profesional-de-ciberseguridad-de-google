@@ -196,3 +196,10 @@
 > Hoy en día creo el uso de la IA es una muy buena herramienta y recurso para practicar, tanto para que me ponga desafios a realizar como para generar una entrevista. La parte de la entrevista buscaría hacerlo con algún conocido, ojala del sector para que me entregue detalles más precisos.
 
 - ¡Es una excelente idea! Utilizar la IA para simular escenarios y buscar retroalimentación de personas con experiencia en el sector son formas muy efectivas de ganar confianza y mejorar tu desempeño.
+
+- Tus fortalezas:
+   - Demostraste una comprensión clara y práctica de cómo alinear tu perfil profesional con las necesidades específicas de las empresas.
+   - Explicaste con precisión la metodología STAR, integrando la importancia de los resultados cuantificables y el aprendizaje continuo.
+- Áreas para mejorar:
+   - Aunque tu enfoque es sólido, te sugiero profundizar en la investigación de las "habilidades blandas" (soft skills) específicas que las empresas de ciberseguridad valoran, además de las técnicas, para enriquecer aún más tus futuras cartas de presentación.
+   - Te animo a buscar comunidades o foros de ciberseguridad donde puedas practicar el "networking" activo, lo cual complementará muy bien tus estrategias de búsqueda actuales.
