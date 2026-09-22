@@ -32,7 +32,7 @@
 > Correcto
 
 1. ¿Qué término se utiliza para definir a un individuo o a un grupo que tiene interés en las decisiones o actividades de una organización?
-   - [ ] Interesado
+   - [x] Interesado
    - [ ] Especialista en auditoría
    - [ ] Responsable de la toma de decisiones
    - [ ] Gestor de respuesta ante incidentes
@@ -53,17 +53,24 @@
 > Correcto
 
 3. Ocuparse del mantenimiento diario de las operaciones de Seguridad es responsabilidad general de ¿qué parte interesada en la Seguridad?
-   - [ ] Gestor de operaciones
+   - [x] Gestor de operaciones
    - [ ] Director de Seguridad Financiera (CFO)
    - [ ] Director de Seguridad de la Información (CISO) (Incorrecto)
    - [ ] Analista de seguridad de nivel básico (Incorrecto)
-> 
+> Correcto
 
 3. Rellene el espacio en blanco: Los gestores de operaciones de seguridad son los principales responsables de ayudar a identificar y salvaguardar una organización de _____
    - [ ] averías del equipo
    - [ ] auditorías fiscales fallidas
    - [ ] críticas negativas en las Redes sociales
    - [x] amenazas a la Seguridad 
+> Correcto
+
+3. Un gestor de operaciones de seguridad suele trabajar directamente con un analista de seguridad como primera línea de defensa para proteger a una organización ¿de qué retos? Seleccione dos respuestas
+   - [ ] El uso de las Redes sociales en los dispositivos de trabajo
+   - [x] Riesgos
+   - [ ] La falta de un consorcio de empleados
+   - [x] Vulnerabilidades
 > Correcto
 
 4. Rellene el espacio en blanco: La Información que se comunica a ____ se considera sensible
@@ -80,6 +87,13 @@
    - [ ] La Información enviada por correo electrónico puede considerarse de dominio público.
 > Correcto
 
+4. ¿Cuál de las siguientes afirmaciones describe mejor la información que se comunica a las partes interesadas?
+   - [x] Es sensible.
+   - [ ] Está a disposición del público.
+   - [ ] Está patentado.
+   - [ ] Se puede compartir con toda la organización.
+> Correcto
+
 5. Se le alerta de que un actor malicioso ha obtenido acceso no autorizado a una de las aplicaciones de fabricación de su organización. Necesita informar al director de operaciones lo antes posible. ¿Cuál es la mejor manera de comunicar esta Información?
    - [x] De forma clara, concisa y rápida
    - [ ] Con una carta a RRHH
@@ -92,6 +106,13 @@
    - [ ] incluyen numerosas preguntas de Seguridad
    - [x] tener un objetivo claro
    - [ ] cuente una historia elaborada para asegurarse de que su argumento queda claro
+> Correcto
+
+5. ¿Cuál de las siguientes directrices puede ayudar a los analistas de Seguridad a mejorar la comunicación con las partes interesadas? Seleccione dos respuestas
+   - [x] Evite términos técnicos innecesarios
+   - [ ] Incluya tantos temas como sea posible
+   - [ ] Utilice términos técnicos de Seguridad en la medida de lo posible
+   - [x] Sea preciso
 > Correcto
 
 6. ¿Cuál de los siguientes es un ejemplo de Evento de Seguridad que debe comunicarse a una parte interesada?
@@ -143,9 +164,16 @@
    - [ ] Los visuales pueden ayudar a un analista a determinar qué herramienta utilizar para resolver un problema de Seguridad.
 > 
 
+8. Usted ha sido contratado recientemente como analista de Seguridad para una organización. Una parte interesada en la seguridad le ha pedido que proporcione información sobre la frecuencia con la que los empleados de varios departamentos hacen clic en correos electrónicos simulados de phishing. ¿Qué medidas puede tomar para comunicar mejor esta información? 
+   - [x] Utilice elementos visuales, como cuadros y gráficos, para contar la Historia de la Seguridad
+   - [ ] Llame a la parte interesada y póngale al día directamente
+   - [ ] Pida a su supervisor que le informe de sus hallazgos porque usted es nuevo
+   - [ ] Enviar un correo electrónico que explique la información necesaria
+> Correcto
+
 9. Rellene el espacio en blanco: Por motivos de seguridad, es importante comunicar la información sensible a _____
-   - [ ] atención
-   - [ ] gráficos y cuadros
+   - [x] atención
+   - [ ] gráficos y cuadros (Incorrecto)
    - [ ] supervisión (Incorrecto)
    - [ ] un bajo nivel de urgencia
 > Correcto
@@ -169,4 +197,11 @@
    - [ ] un mensaje de texto al responsable del Interesado 
    - [ ] un correo electrónico a su supervisor inmediato
    - [x] una llamada telefónica o un mensaje instantáneo
+> Correcto
+
+10. ¿Cuál es la mejor manera de hacer el seguimiento de un interesado que no ha respondido inmediatamente a su correo electrónico? Seleccione dos respuestas.
+   - [x] Envíeles un mensaje instantáneo
+   - [x] Llámelos por teléfono
+   - [ ] Presentar una queja ante Recursos Humanos
+   - [ ] Informe del Problema a su supervisor
 > Correcto
