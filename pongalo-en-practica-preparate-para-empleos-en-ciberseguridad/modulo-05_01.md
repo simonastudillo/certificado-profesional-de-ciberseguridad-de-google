@@ -356,3 +356,82 @@ Gemini, ChatGPT de OpenAI y Microsoft Copilot son ejemplos de herramientas de IA
 - ​Espero que esto pueda ayudarte a empezar a utilizar la IA en tu Función. ​¿Mi reto para ti? ​Piensa en el trabajo que ya estás haciendo.
 - ​¿Hay algo que te esté llevando mucho tiempo, ​un proyecto en el que necesites algunas ideas para empezar?
 - ​Comprométete a experimentar con la IA para algo ​que marque una diferencia real para ti y tu trabajo. 
+
+---
+
+## Actividad: Utilizar IA generativa para enumerar los signos más comunes de phishing y malware
+- Resumen de la actividad
+   - Los vídeos de la lección muestran a Luis asumiendo una serie de responsabilidades en su puesto de ciberseguridad en Google.
+   - Los profesionales de la ciberseguridad también suelen proteger los dispositivos y las redes de correos electrónicos de phishing y malware, y educar a los usuarios sobre estas amenazas.
+   - La IA generativa (gen AI) puede ayudar a que esta tarea rutinaria crítica sea más rápida y eficiente.
+   - En esta actividad, utilizará una herramienta de IA generativa y el marco de sugerencias TCREI para identificar y enumerar signos comunes de phishing y malware en correos electrónicos.
+   - Esta actividad es opcional, pero se la recomendamos para ayudarle a mejorar sus habilidades de orientación.
+   - Si no puedes completar esta actividad, podrás seguir avanzando en el curso y obtener un certificado de Google.
+
+- Acceso a la herramienta de IA generativa
+   - ara completar esta actividad, puedes utilizar la herramienta de IA generativa basada en navegador que prefieras.
+   - A continuación se ofrecen instrucciones para acceder a Gemini, que requiere una cuenta de Google.
+   - Vaya a gemini.google.com.
+
+- Detalles de la actividad
+   - Imagine que trabaja como profesional de la ciberseguridad.
+   - Recientemente, los empleados de tu empresa se han quejado de haber recibido una serie de correos electrónicos de phishing que intentan engañarlos para que revelen información confidencial.
+   - Tu jefe te pide que formes al equipo para identificar mejor los correos electrónicos de phishing y los signos de malware, así que decides crear una guía de referencia.
+   - Para empezar, pides a una herramienta de IA generativa que cree un primer borrador.
+   - A modo de recordatorio, este es el marco de referencia de las instrucciones:
+      - Reflexivamente: Describe la tarea, especificando una persona y una preferencia de formato.
+      - Crear: Incluye cualquier contexto que la herramienta de IA generativa pueda necesitar para darte lo que quieres.
+      - Realmente: Añade referencias que la herramienta de IA gen pueda utilizar para informar su resultado.
+      - Excelente: A continuación, evalúe el resultado para identificar oportunidades de mejora.
+      - Entradas: A continuación, repite tu pregunta inicial para conseguir esas mejoras.
+   - En esta actividad, empezarás a dar indicaciones con una sola parte del marco y, a continuación, la irás ampliando gradualmente para identificar lo que falta o no es útil en tu indicación y hacer que el resultado sea más útil.
+
+1. Introduzca su pregunta inicial
+- Empezaremos introduciendo una instrucción sencilla en la herramienta de IA generativa, centrándonos únicamente en la tarea que nos ocupa.
+- Perfeccionaremos y ampliaremos esta solicitud utilizando el resto del marco de solicitud en pasos posteriores.
+- Por ahora, consideremos este ejemplo que describe lo que queremos que haga la herramienta:
+   - PREGUNTA: Escribir una guía de referencia sobre correos electrónicos de phishing y malware.
+- Recuerda que este mensaje inicial es un punto de partida para el aprendizaje y la experimentación.
+- Lo revisaremos más adelante para asegurarnos de que se ajusta al marco de trabajo y produce los mejores resultados posibles.
+- [actividad IA 001](./resources/actividad_ia_001.md)
+
+2. Evaluar el resultado final
+- Revise y evalúe el resultado de su consulta inicial.
+- ¿Es la guía de referencia precisa e imparcial?
+- ¿Incluye toda la información necesaria?
+- ¿Está redactada en un tono adecuado?
+- ¿Los usuarios de toda la organización entenderán la guía si decide compartirla con ellos?
+- Identifique las formas en que el resultado podría satisfacer mejor sus necesidades y utilice esta evaluación para guiar su proceso de perfeccionamiento e iteración.
+> La respuesta utiliza un lenguaje simple para todos los usuarios, sin embargo es un texto muy largo o de muchas etapas, contiene 24 pasos que posiblemente nadie llegue hasta el final, esto ocurre porque da muchos detalles, posibles tipos diferentes y no de forma más general.
+
+3. Revisar y perfeccionar el mensaje
+- Revise y perfeccione su pregunta añadiendo más elementos del marco de la pregunta:
+   - Añade más contexto a tu pregunta inicial para ayudar a la herramienta a proporcionar resultados mejores y más relevantes.
+   - Por ejemplo
+      - Pedir que la guía de referencia sea más completa.
+      - Dar su opinión sobre el tono que le gustaría mantener.
+      - Identificar su audiencia (¿son empleados técnicos o no técnicos?).
+      - Pedir que la guía incluya ejemplos de tácticas comunes utilizadas en los correos electrónicos de phishing o una lista de señales de que un ordenador puede estar infectado con malware.
+      - Haga hincapié en las consideraciones de accesibilidad.
+- Proporcione ejemplos como referencia.
+   - Por ejemplo, en su solicitud, puede proporcionar una lista de políticas o directrices empresariales existentes relacionadas con la ciberseguridad para garantizar que la guía se ajusta a estas prácticas establecidas.
+   - Especifique el formato que desea recibir.
+   - Por ejemplo, puede
+      - Establecer un límite de palabras o caracteres.
+      - Pedir que la guía sea más atractiva visualmente.
+      - Pedir que se divida en viñetas.
+      - Pedir que haya marcadores de posición para las imágenes que desee incluir.
+- A continuación, introduzca su petición revisada o continúe el diálogo con la herramienta de IA para ampliar sus peticiones anteriores.
+- [actividad IA 002](./resources/actividad_ia_002.md)
+
+4. Evaluar de nuevo el resultado
+- Revisa de nuevo el resultado y evalúa qué información puedes seguir necesitando.
+- ¿Hay otras partes del marco de actuación que puedas incluir la próxima vez, u oportunidades para añadir más detalles o matices? Si es así, continúe con el cuestionario.
+> Como guía de texto esta perfecta, posiblemente haría cambios para un cambio visual más atractivo
+
+5. Adoptar un enfoque iterativo
+- Repita los pasos 3 y 4 hasta que esté seguro de que el resultado cumple sus objetivos.
+- Por ejemplo, ¿es la guía pertinente y completa?
+- ¿Está redactada en un lenguaje que puedan entender los usuarios de toda la organización, incluidos aquellos con conocimientos técnicos limitados?
+- Este ejercicio, junto con los vídeos de la lección, ofrecen ejemplos de cómo la IA generativa puede agilizar sus tareas diarias.
+- Ahora, experimente con su herramienta de IA generativa preferida para descubrir cómo puede ayudarle en sus responsabilidades específicas como profesional de la ciberseguridad.
