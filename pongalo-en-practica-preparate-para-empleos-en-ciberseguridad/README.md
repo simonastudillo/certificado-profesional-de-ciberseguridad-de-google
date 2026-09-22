@@ -2,19 +2,95 @@
 ---
 
 - Módulo 1: Proteger los Datos y Comunicar los Incidentes
+   - [Empezar el curso](modulo-01_01.md)
+   - [Detección de Eventos e Incidentes](modulo-01_02.md)
+   - [Su impacto en la protección de Datos](modulo-01_03.md)
+   - [Revisar: Proteger los recursos y comunicar los incidentes](modulo-01_04.md)
 - Módulo 2: Elevación de incidentes
+   - [Elevación en ciberseguridad](modulo-02_01.md)
+   - [Escalar o no escalar](modulo-02_02.md)
+   - [El momento oportuno lo es todo](modulo-02_03.md)
+   - [Revisar: Elevación de incidentes](modulo-02_04.md)
+   - [Preguntas de repaso](modulo-02_questions.md)
 - Módulo 3: Comunicar con eficacia para influir en las partes interesadas
+   - [Comprenda a sus partes interesadas](modulo-03_01.md)
+   - [Comunicar para lograr un Impacto](modulo-03_02.md)
+   - [Comunicación visual mediante un cuadro de mando](modulo-03_03.md)
+   - [Repasar: Comunicar con eficacia para influir en las partes interesadas](modulo-03_04.md)
+   - [Preguntas de repaso](modulo-03_questions.md)
 - Módulo 4: Compromiso con la comunidad de la ciberseguridad
+   - [Las fuentes fiables recorren un largo camino](modulo-04_01.md)
+   - [Construya su red de ciberseguridad](modulo-04_02.md)
+   - [Revisión: Compromiso con la comunidad de ciberseguridad](modulo-04_03.md)
 - Módulo 5: Utilice la IA para optimizar los flujos de trabajo
+   - [IA en ciberseguridad](modulo-05_01.md)
+   - [Conclusión del curso](modulo-05_02.md)
+   - [Recapitulación de certificados](modulo-05_03.md)
 
 ## Habilidades y conceptos a aprender
 ---
 
 ### Habilidades técnicas (hard skills)
 
+- Clasificación de datos y activos de información (Data Classification)
+- Protección de datos sensibles (Data Protection)
+- Análisis de registros de seguridad (Log Analysis)
+- Detección de incidentes de seguridad (Incident Detection)
+- Clasificación y priorización de alertas de seguridad (Alert Triage)
+- Escalamiento de incidentes de seguridad (Incident Escalation)
+- Documentación y elaboración de informes de incidentes (Incident Reporting)
+- Identificación de correos de phishing (Phishing Detection)
+- Elaboración de materiales de concienciación en ciberseguridad (Security Awareness)
+- Visualización de datos de seguridad (Data Visualization)
+- Creación de cuadros de mando en Google Sheets (Dashboards)
+- Investigación de amenazas y vulnerabilidades en fuentes especializadas
+- Interpretación de controles de seguridad y privacidad del NIST SP 800-53
+- Uso de IA generativa en flujos de trabajo de ciberseguridad
+- Diseño y refinamiento de instrucciones para IA (Prompt Engineering)
+- Revisión y depuración de código con asistencia de IA (Code Review and Debugging)
+- Análisis de vulnerabilidades con asistencia de IA
+- Evaluación y validación de resultados generados por IA
+
 ### Conceptos clave
 
+- Mentalidad de seguridad (Security Mindset)
+- Eventos, incidentes y brechas de seguridad
+- Amenazas, riesgos y vulnerabilidades de ciberseguridad
+- Datos públicos, privados, confidenciales y sensibles
+- Información de identificación personal y datos de salud (PII, SPII y PHI)
+- Roles de protección de datos: responsable, encargado y delegado (DPO)
+- Políticas y procedimientos de escalamiento de incidentes
+- Plan de respuesta a incidentes (Incident Response Plan)
+- Continuidad del negocio (Business Continuity Planning, BCP)
+- Recuperación ante desastres (Disaster Recovery, DR)
+- Análisis de impacto en el negocio (Business Impact Analysis, BIA)
+- Partes interesadas en ciberseguridad (Stakeholders)
+- Ingeniería social y phishing
+- Malware y ransomware
+- Acceso no autorizado y uso indebido de sistemas
+- Marcos y controles de seguridad: NIST SP 800-53
+- Inteligencia artificial generativa (Generative AI)
+- Supervisión humana de sistemas de IA (Human-in-the-Loop)
+- Uso responsable de IA: privacidad, sesgos y precisión
+- Método STAR para entrevistas por competencias
+
 ### Habilidades transferibles (soft skills)
+
+- Comunicación oral y escrita
+- Comunicación de información técnica a audiencias no técnicas
+- Gestión de relaciones con las partes interesadas (Stakeholder Management)
+- Narración de historias con datos (Data Storytelling)
+- Escucha activa y formulación de preguntas
+- Pensamiento crítico
+- Resolución de problemas
+- Toma de decisiones
+- Atención al detalle
+- Colaboración interdisciplinaria
+- Gestión del tiempo y priorización de tareas
+- Ética profesional y manejo confidencial de la información
+- Aprendizaje continuo y autónomo
+- Creación de redes de contactos profesionales (Professional Networking)
+- Desarrollo de marca personal (Personal Branding)
 
 ## Descripción del curso
 ---
@@ -79,3 +155,33 @@ Este es el octavo curso del Certificado de Ciberseguridad de Google. En este cur
 
 ## Resumen de módulos
 ---
+
+### Módulo 1: Proteger los Datos y Comunicar los Incidentes
+
+La protección comienza por identificar los activos importantes para la organización y clasificar sus datos como públicos, privados, confidenciales o sensibles. Una mentalidad de seguridad permite relacionar esos activos con las amenazas y vulnerabilidades que podrían afectarlos, teniendo en cuenta las consecuencias para los clientes y las operaciones. El análisis de registros ayuda a reconocer señales de actividad sospechosa, como accesos inusuales o movimientos de información sensible.
+
+El módulo también introduce la preparación ante interrupciones: el análisis de impacto en el negocio permite reconocer las funciones críticas; el plan de continuidad establece cómo mantenerlas operativas, y el plan de recuperación ante desastres orienta la restauración de sistemas y datos. La atención al detalle y el manejo cuidadoso de la información son esenciales para aplicar estas medidas.
+
+### Módulo 2: Elevación de incidentes
+
+Escalar un incidente implica identificarlo, evaluar su prioridad y derivarlo a la persona o equipo con la experiencia y responsabilidad adecuadas. Las infecciones por malware, los accesos no autorizados y el uso indebido de sistemas requieren valorar la gravedad, los recursos afectados y el impacto potencial. Retrasar la atención puede convertir un problema limitado en una interrupción importante o una exposición de datos.
+
+La política de escalamiento de cada organización define a quién avisar, por qué canal y con qué urgencia. Para aplicarla, el analista debe conocer las funciones de los propietarios, responsables, encargados y custodios de datos, así como del delegado de protección de datos. Su tarea consiste en registrar los hallazgos y seguir el procedimiento establecido, recurriendo al supervisor cuando exista incertidumbre sobre la clasificación o el tratamiento del caso.
+
+### Módulo 3: Comunicar con eficacia para influir en las partes interesadas
+
+Comunicar un hallazgo exige adaptar el mensaje a las responsabilidades del destinatario: operaciones necesita conocer los efectos cotidianos, mientras que la dirección presta especial atención a los riesgos y consecuencias para el negocio. Una comunicación útil explica qué ocurrió, por qué importa y qué decisión o acción se necesita, con precisión y sin tecnicismos innecesarios.
+
+El canal debe responder a la urgencia y complejidad del asunto: una llamada o un mensaje directo facilita la atención inmediata, y un informe permite desarrollar los detalles. Los cuadros de mando y gráficos, practicados con Google Sheets, ayudan a comparar métricas y presentar patrones comprensibles. En todos los casos, se deben verificar los destinatarios, limitar la información sensible a quienes corresponda y hacer seguimiento cuando sea necesario.
+
+### Módulo 4: Compromiso con la comunidad de la ciberseguridad
+
+Mantenerse actualizado requiere consultar fuentes fiables sobre amenazas, vulnerabilidades y tendencias, y convertir ese seguimiento en un hábito de aprendizaje. El módulo propone explorar publicaciones especializadas, boletines, organizaciones y conferencias, seleccionando aquellos recursos que se ajusten a los intereses y objetivos profesionales.
+
+La participación en comunidades también permite intercambiar experiencias, encontrar mentores y conocer oportunidades laborales. LinkedIn, las asociaciones profesionales y los encuentros del sector ofrecen vías para establecer contactos mediante mensajes breves y pertinentes. Estas relaciones se construyen con participación constante y cuidado de la información compartida en redes sociales, donde también pueden producirse intentos de ingeniería social.
+
+### Módulo 5: Utilice la IA para optimizar los flujos de trabajo
+
+La IA generativa puede apoyar la interpretación de controles de seguridad, la revisión y depuración de código, el estudio de vulnerabilidades y la priorización de alertas. Para obtener resultados útiles se practica el marco TCREI: definir la tarea, aportar contexto y referencias, evaluar la respuesta e iterar. La elaboración de una guía sobre phishing y malware muestra cómo ajustar las instrucciones para producir contenido claro y adecuado a su audiencia.
+
+El uso responsable exige verificar la precisión de las respuestas, mantener supervisión humana y respetar las políticas de privacidad de la organización. El cierre del módulo aborda además la preparación laboral: adaptar el currículum y la carta de presentación a cada puesto, practicar entrevistas técnicas y por competencias con el método STAR, y mostrar proyectos y certificaciones en el perfil profesional.
