@@ -218,3 +218,17 @@
 
 ## Glosario de términos del módulo 5
 - El glosario completo se encuentra [aquí](./README.md#glosario)
+
+---
+
+## Resumen del curso
+- ​¡Felicitaciones por completar el último curso del programa de certificación!
+- ​Cubrimos mucha información, ​así que dediquemos un momento a revisarla.
+- ​Empezamos por analizar cómo proteger los activos y ​comunicar los incidentes mediante el desarrollo de una mentalidad de Seguridad.
+- ​Luego, explicamos cuándo y cómo escalar los incidentes a los ​miembros del equipo apropiados para asegurarnos de que los pequeños problemas no se conviertan en grandes problemas para la ​organización y las personas a las que presta servicios.
+- ​A continuación, exploramos formas de comunicarnos de manera efectiva para influir en las ​decisiones de las partes interesadas relacionadas con la Seguridad.
+- ​Esto incluyó discusiones sobre cómo usar imágenes para transmitir información importante ​y enviar correos electrónicos, hacer llamadas telefónicas o enviar mensajes instantáneos.
+- ​Después de eso, compartimos algunas formas de interactuar con la comunidad de Seguridad, incluida la ​asistencia a conferencias y la conexión con otros analistas a través de un sitio de redes.
+- ​Luego pasamos a la sección final del curso, ​que trataba sobre cómo encontrar, prepararse y solicitar empleo.
+-​Esto incluyó discusiones sobre cómo crear un currículum convincente y ​consejos para ayudarlo a navegar por el proceso de la entrevista.
+- ​Ha sido un placer absoluto guiarlos en este viaje. 
