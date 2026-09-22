@@ -84,3 +84,21 @@
             - Recientemente completó el Certificado Profesional de Ciberseguridad de Google, un programa riguroso y basado en habilidades que cubre conocimientos y competencias fundamentales en ciberseguridad.
    - Añade tu insignia
       - Consulta el siguiente punto del curso para saber cómo reclamar tu insignia de finalización del certificado de ciberseguridad de Google y añadirla a tu perfil de LinkedIn®
+
+---
+
+## ¡Reclame su insignia del Certificado de Ciberseguridad de Google!
+- Los alumnos que completen los ocho cursos del Certificado de Ciberseguridad de Google podrán obtener una insignia digital de Credly y Google.
+- Una insignia es una representación visual de una credencial verificada que has obtenido.
+- En este caso, su credencial es el Certificado de Ciberseguridad de Google.
+- Puede compartir su insignia en plataformas como LinkedIn® para llamar la atención de posibles empleadores.
+
+- Acerca de las insignias
+- ¿Qué son Credly y Acclaim?
+   - Acclaim es una plataforma de insignias que forma parte de Credly, un proveedor líder de servicios de credenciales digitales. Acclaim proporciona insignias para que puedas compartir fácilmente tus logros en destinos en línea como LinkedIn®, y los empleadores puedan verificar al instante tus habilidades.
+- Acerca de la insignia de Google
+- ¿Cómo reclamo mi insignia por haber completado el Certificado de Ciberseguridad de Google?
+   - Una vez completado el certificado, recibirá un correo electrónico para reclamar la insignia obtenida. Para asegurarse de que recibe este correo electrónico, debe completar todo el contenido obligatorio, incluida una actividad obligatoria en el curso "Acelere su búsqueda de empleo con IA" (que se encuentra al final del certificado). El correo electrónico te permitirá reclamar tu insignia optando por compartir tu información para su emisión. A continuación, Coursera solicitará a Acclaim que emita la insignia; si no tienes una cuenta de Acclaim, se te pedirá que crees una para aceptarla y verla.
+   - Cuando completes el Certificado de Ciberseguridad de Google, recibirás un correo electrónico de Credly (admin@credly.com) con instrucciones sobre cómo reclamar tu insignia y configurar tu cuenta.
+   - Reclama tu insignia en la plataforma Acclaim de Credly utilizando la dirección de correo electrónico vinculada a tu cuenta de Coursera. Tendrás que optar por compartir tu información y recibir tu insignia
+   - Por favor, espere al menos una semana desde su fecha de finalización para que el sistema se actualice. Recuerda comprobar tu carpeta de correo no deseado.
