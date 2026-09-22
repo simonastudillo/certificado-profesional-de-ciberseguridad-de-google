@@ -489,3 +489,7 @@ Gemini, ChatGPT de OpenAI y Microsoft Copilot son ejemplos de herramientas de IA
    - [Presentación del marco de IA segura de Google](https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/): Explora los elementos clave del Marco Seguro de IA de Google (SAIF) y cómo Google utiliza y apoya SAIF.
    - [Ciencia y tecnología en primer plano: IA generativa](https://www.gao.gov/products/gao-23-106782): Descubra por qué los sistemas de IA generativa son importantes en el mundo actual en este artículo de la Oficina de Rendición de Cuentas del Gobierno de Estados Unidos (GAO).
    - [El informe del NIST destaca que la IA es más tendenciosa que los datos sesgados](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights#:~:text=Bias%20in%20AI%20systems%20is,systemic%2C%20institutional%20biases%20as%20well.): Examina los riesgos que conlleva la presencia de sesgos en los datos de IA y las recomendaciones para mitigarlos, basándose en la investigación realizada por el Instituto Nacional de Normas y Tecnología (NIST) del Departamento de Comercio de Estados Unidos.
+
+---
+
+## Presentación de Google IA Essentials
