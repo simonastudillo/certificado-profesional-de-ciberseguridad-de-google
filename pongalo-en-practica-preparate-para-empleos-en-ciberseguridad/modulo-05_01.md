@@ -493,3 +493,20 @@ Gemini, ChatGPT de OpenAI y Microsoft Copilot son ejemplos de herramientas de IA
 ---
 
 ## Presentación de Google IA Essentials
+
+---
+
+## Da el siguiente paso con Google IA Essentials
+- ¡Enhorabuena por completar la lección sobre IA para la ciberseguridad!
+- Ha explorado los conceptos básicos de la IA, las herramientas de IA y las aplicaciones prácticas de la IA generativa, ¡y esto es sólo el principio!
+- Si estás listo para perfeccionar tus habilidades y llevar tu experiencia en IA al siguiente nivel, el curso Google IA Essentials es el paso perfecto.
+
+- [Fundamentos de la IA de Google](https://www.coursera.org/learn/google-ai-essentials) es un curso autodidacta diseñado para ayudar a personas de todos los puestos y sectores a adquirir las habilidades esenciales de la IA para aumentar su productividad, sin necesidad de experiencia.
+- El curso lo imparten expertos en IA de Google que trabajan para que la tecnología sea útil para todos.
+- En menos de 10 horas, harán algo más que enseñarte sobre IA: te mostrarán cómo utilizarla realmente en tu trabajo diario.
+- ¿Atascado al principio de un proyecto? Aprenderá a utilizar herramientas de IA para generar ideas y contenidos.
+- ¿Está planificando un evento? Utilizará las herramientas de IA para investigar, organizar y tomar decisiones con mayor conocimiento de causa.
+- ¿Se ahoga en una bandeja de entrada inundada? Utilizará herramientas de IA para agilizar las tareas cotidianas, como la redacción de respuestas por correo electrónico.
+- También aprenderá a escribir mensajes eficaces y a utilizar la IA de forma responsable, identificando los posibles sesgos de la IA y evitando los daños.
+- Una vez finalizado el curso, obtendrá un certificado de Google que podrá compartir con su red de contactos y su empresa.
+- Al utilizar la IA como una herramienta de colaboración útil, puedes prepararte para el éxito en el dinámico lugar de trabajo actual, y ni siquiera necesitas conocimientos de programación para utilizarla.
