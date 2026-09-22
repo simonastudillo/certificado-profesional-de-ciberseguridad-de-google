@@ -161,138 +161,50 @@ Al finalizar este curso, podrás - Identificar cómo los ataques de seguridad af
 
 ## Citas
 ---
-> Coursera. (2022, 22 de septiembre) 10 empleos en ciberseguridad: Nivel de entrada y más allá TI
-> [https://www.coursera.org/articles/cybersecurity-jobs](https://www.coursera.org/articles/cybersecurity-jobs)
-
-> Dorton, D. (2022, 12 de octubre) 6 beneficios de la ciberseguridad-Defenderse de los ciberataques Dean Dorton - Contadores públicos y asesores.
-> [https://deandorton.com/cyber-security-benefits/](https://deandorton.com/cyber-security-benefits/)
-
-> Agencia de Ciberseguridad y Seguridad de las Infraestructuras (2009, 6 de mayo) ¿Qué es la ciberseguridad?
-> [https://www.cisa.gov/uscert/ncas/tips/ST04-001](https://www.cisa.gov/uscert/ncas/tips/ST04-001)
-
-> Instituto Nacional de Normas y Tecnología (s.f.) Glosario Consultado en diciembre de 2022.
-> [https://csrc.nist.gov/glossary](https://csrc.nist.gov/glossary)
-
-> Coursera. (2022, 13 de julio) 15 habilidades esenciales para los analistas de ciberseguridad en 2022 TI.
-> [https://www.coursera.org/articles/cybersecurity-analyst-skills](https://www.coursera.org/articles/cybersecurity-analyst-skills)
-
-> CompTIA. (s.f.) Examen CompTIA Security+
-> [https://www.comptia.org/certifications/security](https://www.comptia.org/certifications/security)
-
-> Universidad Carnegie Mellon (1988) Fomento del crecimiento profesional de la Administración de incidentes cibernéticos Instituto de Ingeniería de Software. CERT® es ahora una marca de servicio registrada de la Carnegie Mellon University en el campo de la seguridad de la información almacenada en ordenadores.
-> [https://www.sei.cmu.edu/about/history-of-innovation-at-the-sei/display.cfm?customel_datapageid_40842=41019](https://www.sei.cmu.edu/about/history-of-innovation-at-the-sei/display.cfm?customel_datapageid_40842=41019)
-
-> Red de Noticias por Cable. (2020, 3 de mayo) "Te quiero": Cómo un virus informático mal codificado causó daños por valor de miles de millones y dejó al descubierto vulnerabilidades que persisten 20 años después. Empresas.
-> [https://www.cnn.com/2020/05/01/tech/iloveyou-virus-computer-security-intl-hnk/index.html](https://www.cnn.com/2020/05/01/tech/iloveyou-virus-computer-security-intl-hnk/index.html)
-
-> Comisión Federal de Comercio. (2022, septiembre). Acuerdo sobre la Filtración de datos de Equifax. Casos recientes de la FTC que han dado lugar a reembolsos.
-> [https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement)
-
-> Consorcio Internacional de Certificación en Seguridad de los Sistemas de Información. (2021, 1 de mayo). Esquema del examen de certificación CISSP
-> [https://www.isc2.org/Certifications/cissp/Certification-Exam-Outline#](https://www.isc2.org/Certifications/cissp/Certification-Exam-Outline#)
-
-> Enumeración y Clasificación de Patrones de Ataque Comunes. (s.f.). CAPEC-55: Descifrado de contraseñas con tabla arco iris . Lista CAPEC
-> [https://capec.mitre.org/data/definitions/55.html](https://capec.mitre.org/data/definitions/55.html)
-
-> Agencia de Ciberseguridad y Seguridad de las Infraestructuras. (2011, 28 de abril). Consejos de seguridad (ST08-001): Precaución con las unidades USB . Agencia de ciberseguridad y seguridad de las infraestructuras.
-> [https://www.cisa.gov/news-events/news/using-caution-usb-drives](https://www.cisa.gov/news-events/news/using-caution-usb-drives)
-
-> Commonwealth de Australia 2022. ACSC. (s.f.). Ataque de diccionario . Glosario.
-> [https://www.cyber.gov.au/learn-basics/view-resources/glossary](https://www.cyber.gov.au/learn-basics/view-resources/glossary)
-
-> Agencia de Ciberseguridad y Seguridad de las Infraestructuras. (2019, 8 de agosto). La ACSC publica un aviso sobre ataques de pulverización de contraseñas.
-> [https://www.cisa.gov/uscert/ncas/current-activity/2019/08/08/acsc-releases-advisory-password-spraying-attacks](https://www.cisa.gov/uscert/ncas/current-activity/2019/08/08/acsc-releases-advisory-password-spraying-attacks)
-
-> Agencia de ciberseguridad y seguridad de las infraestructuras. (2019, octubre). E-skimming: Skimming online customer payment data from website checkout forms. Mes nacional de concienciación sobre la ciberseguridad.
-> [https://niccs.cisa.gov/sites/default/files/documents/pdf/ncsam_eskimming_508.pdf](https://niccs.cisa.gov/sites/default/files/documents/pdf/ncsam_eskimming_508.pdf)
-
-> Instituto nacional de normas y tecnología. (2019, julio). Ciberseguridad para pequeñas empresas. Temas de ciberseguridad. Consultado en diciembre de 2022.
-> [https://www.nist.gov/system/files/documents/2019/07/17/nist_small_business_fundamentals_july_2019.pptx](https://www.nist.gov/system/files/documents/2019/07/17/nist_small_business_fundamentals_july_2019.pptx)
-
-> Instituto Nacional de Normas y Tecnología. (s.f.). Inteligencia artificial: Aprendizaje automático adversarial. Centro nacional de excelencia en ciberseguridad. Consultado en diciembre de 2022.
-> [https://www.nccoe.nist.gov/ai/adversarial-machine-learning](https://www.nccoe.nist.gov/ai/adversarial-machine-learning)
-
-> Google. (2022, 7 de octubre). Hackear Google.
-> [https://www.youtube.com/playlist?list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H](https://www.youtube.com/playlist?list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H)
-
-> Instituto Nacional de Estándares y Tecnología. (s.f.). Una introducción a los componentes del marco. Marco de ciberseguridad. Consultado en diciembre de 2022.
-> [https://www.nist.gov/cyberframework/online-learning/components-framework](https://www.nist.gov/cyberframework/online-learning/components-framework)
-
-> Instituto Nacional de Normas y Tecnología. (2020, diciembre). Integridad de datos: Identificación y protección de activos contra el Ransomware y otros eventos destructivos. Publicación especial 1800-25A del NIST. Consultado en diciembre de 2022.
-> [https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html](https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html)
-
-> Proyecto abierto de seguridad de las aplicaciones web. (2021). A04:2021 - Diseño inseguro. OWASP top ten. Consultado en diciembre de 2022.
-> [https://owasp.org/Top10/A04_2021-Insecure_Design/](https://owasp.org/Top10/A04_2021-Insecure_Design/)
-
-> Oficina del servicio fiscal. (s.f.). Normas de uso de CAS. Normas CAS y requisitos de seguridad.
-> [https://www.fiscal.treasury.gov/cas/rules-and-security-requirements.html](https://www.fiscal.treasury.gov/cas/rules-and-security-requirements.html)
-
-> Centros para el Control y la Prevención de Enfermedades. (s.f.). Ley de portabilidad y responsabilidad del seguro médico de 1996 (HIPAA). Ley de salud pública.
-> [https://www.cdc.gov/phlp/publications/topic/hipaa.html](https://www.cdc.gov/phlp/publications/topic/hipaa.html)
-
-> Departamento de Salud y Servicios Humanos. (2020, 3 de septiembre). Controles CIS y el HPH. Programa de ciberseguridad del HHS.
-> [https://www.hhs.gov/sites/default/files/cis-controls-and-the-hph.pdf](https://www.hhs.gov/sites/default/files/cis-controls-and-the-hph.pdf)
-
-> Administración Federal de Aviación. (s.f.). Organización internacional de normalización . Centro aeronáutico Mike Monroney.
-> [https://www.faa.gov/about/office_org/regions_centers/mmac/logistics/iso](https://www.faa.gov/about/office_org/regions_centers/mmac/logistics/iso)
-
-> FedRamp. (s.f.). Seguridad de los servicios en la nube para el gobierno federal. Información para nuestros socios.
-> [https://www.fedramp.gov/](https://www.fedramp.gov/)
-
-> Gov.uk. (s.f.). Protección de datos. Sus derechos y asistencia jurídica.
-> [https://www.gov.uk/data-protection](https://www.gov.uk/data-protection)
-
-> Instituto Nacional de Normas y Tecnología. (s.f.) Comenzando nuestro viaje hacia el marco de ciberseguridad (CSF) del NIST. Marco de ciberseguridad. Accedido en diciembre de 2022.
-> [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework)
-
-> NDNB. (sin fecha). SOC 1 (SSAE 16/SSAE 18) - Nuevas normas para los informes SOC 1. Libros blancos de Cumplimiento.
-> [https://socreports.com/white-papers/soc-1/why-a-new-standard](https://socreports.com/white-papers/soc-1/why-a-new-standard)
-
-> La Casa Blanca. (2021, 12 de mayo). Orden ejecutiva sobre la mejora de la ciberseguridad de la nación. Acciones presidenciales.
-> [https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
-
-> Agencia de Protección Medioambiental de Estados Unidos. (s.f.). Regiones de la red eléctrica de EE.UU.. Red eléctrica y mercados estadounidenses.
-> [https://www.epa.gov/green-power-markets/us-grid-regions](https://www.epa.gov/green-power-markets/us-grid-regions)
-
-> Vallor, S., Rewak, W.J. (s.f.). Una introducción a la ética de la ciberseguridad. Universidad de Santa Clara.
-> [https://www.scu.edu/media/ethics-center/technology-ethics/IntroToCybersecurityEthics.pdf](https://www.scu.edu/media/ethics-center/technology-ethics/IntroToCybersecurityEthics.pdf)
-
-> 113º Congreso. (2014, 10 de julio). Resumen: S.2588-113º congreso. Ley de intercambio de información sobre ciberseguridad de 2014.
-> [https://www.congress.gov/bill/113th-congress/senate-bill/2588](https://www.congress.gov/bill/113th-congress/senate-bill/2588)
-
-> Oficina de Asistencia Judicial. (s.f.). Ley de privacidad de las comunicaciones electrónicas de 1986. Intercambio de información judicial.
-> [https://bja.ojp.gov/program/it/privacy-civil-liberties/authorities/statutes/1285](https://bja.ojp.gov/program/it/privacy-civil-liberties/authorities/statutes/1285)
-
-> Servicio de Investigación del Congreso. (2020, 21 de septiembre). La ciberdelincuencia y la ley: Computer fraud and abuse act (CFAA) and the 116th congress. Servicio de investigación del Congreso.
-> [https://sgp.fas.org/crs/misc/R46536.pdf](https://sgp.fas.org/crs/misc/R46536.pdf)
-
-> Google Cloud. (sin fecha). Visión general de Chronicle. Guías.
-> [https://cloud.google.com/chronicle/docs/overview](https://cloud.google.com/chronicle/docs/overview)
-
-> Institutos Nacionales de Salud. (2021, 21 de julio). Información de seguridad y administración de eventos (SIEM): Análisis, tendencias y uso en infraestructuras críticas. Lista de revistas.
-> [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8309804/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8309804/)
-
-> Splunk. (s.f.). ¿Por qué splunk? Productos.
-> [https://www.splunk.com/en_us/about-us/why-splunk.html](https://www.splunk.com/en_us/about-us/why-splunk.html)
-
-> Asociación Internacional de Jefes de Policía. (s.f.). Comprender las pruebas digitales. Centro Cibernético de Aplicación de la Ley.
-> [https://www.iacpcybercenter.org/investigators/digital-evidence/understanding-digital-evidence/](https://www.iacpcybercenter.org/investigators/digital-evidence/understanding-digital-evidence/)
-
-> Institutos Nacionales de Salud. (2022, febrero). Cadena de custodia. PMC PubMed Central.
-> [https://www.ncbi.nlm.nih.gov/books/NBK551677/](https://www.ncbi.nlm.nih.gov/books/NBK551677/)
-
-> Auth0. (2022, marzo, 2). Codificación, cifrado y hashing. Blog.
-> [https://auth0.com/blog/encoding-encryption-hashing/](https://auth0.com/blog/encoding-encryption-hashing/)
-
-> Proyecto abierto de seguridad de las aplicaciones web. (2022). OWASP top ten. Principal. Consultado en diciembre de 2022.
-> [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
-
-> GitHub. (s.f.). Acerca de READMEs. Personalice su repositorio.
-> [https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
-> GitHub. (s.f.). 
-Registrarse para obtener una nueva cuenta de GitHub. Comenzar.
-> [https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
+- [Coursera. (2022, 22 de septiembre) 10 empleos en ciberseguridad: Nivel de entrada y más allá TI](https://www.coursera.org/articles/cybersecurity-jobs)
+- [Dorton, D. (2022, 12 de octubre) 6 beneficios de la ciberseguridad-Defenderse de los ciberataques Dean Dorton - Contadores públicos y asesores.](https://deandorton.com/cyber-security-benefits/)
+- [Agencia de Ciberseguridad y Seguridad de las Infraestructuras (2009, 6 de mayo) ¿Qué es la ciberseguridad?](https://www.cisa.gov/uscert/ncas/tips/ST04-001)
+- [Instituto Nacional de Normas y Tecnología (s.f.) Glosario Consultado en diciembre de 2022.](https://csrc.nist.gov/glossary)
+- [Coursera. (2022, 13 de julio) 15 habilidades esenciales para los analistas de ciberseguridad en 2022 TI.](https://www.coursera.org/articles/cybersecurity-analyst-skills)
+- [CompTIA. (s.f.) Examen CompTIA Security+](https://www.comptia.org/certifications/security)
+- [Universidad Carnegie Mellon (1988) Fomento del crecimiento profesional de la Administración de incidentes cibernéticos Instituto de Ingeniería de Software. CERT® es ahora una marca de servicio registrada de la Carnegie Mellon University en el campo de la seguridad de la información almacenada en ordenadores.](https://www.sei.cmu.edu/about/history-of-innovation-at-the-sei/display.cfm?customel_datapageid_40842=41019)
+- [Red de Noticias por Cable. (2020, 3 de mayo) "Te quiero": Cómo un virus informático mal codificado causó daños por valor de miles de millones y dejó al descubierto vulnerabilidades que persisten 20 años después. Empresas.](https://www.cnn.com/2020/05/01/tech/iloveyou-virus-computer-security-intl-hnk/index.html)
+- [Comisión Federal de Comercio. (2022, septiembre). Acuerdo sobre la Filtración de datos de Equifax. Casos recientes de la FTC que han dado lugar a reembolsos.](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement)
+- [Consorcio Internacional de Certificación en Seguridad de los Sistemas de Información. (2021, 1 de mayo). Esquema del examen de certificación CISSP](https://www.isc2.org/Certifications/cissp/Certification-Exam-Outline#)
+- [Enumeración y Clasificación de Patrones de Ataque Comunes. (s.f.). CAPEC-55: Descifrado de contraseñas con tabla arco iris . Lista CAPEC](https://capec.mitre.org/data/definitions/55.html)
+- [Agencia de Ciberseguridad y Seguridad de las Infraestructuras. (2011, 28 de abril). Consejos de seguridad (ST08-001): Precaución con las unidades USB . Agencia de ciberseguridad y seguridad de las infraestructuras.](https://www.cisa.gov/news-events/news/using-caution-usb-drives)
+- [Commonwealth de Australia 2022. ACSC. (s.f.). Ataque de diccionario . Glosario.](https://www.cyber.gov.au/learn-basics/view-resources/glossary)
+- [Agencia de Ciberseguridad y Seguridad de las Infraestructuras. (2019, 8 de agosto). La ACSC publica un aviso sobre ataques de pulverización de contraseñas.](https://www.cisa.gov/uscert/ncas/current-activity/2019/08/08/acsc-releases-advisory-password-spraying-attacks)
+- [Agencia de ciberseguridad y seguridad de las infraestructuras. (2019, octubre). E-skimming: Skimming online customer payment data from website checkout forms. Mes nacional de concienciación sobre la ciberseguridad.](https://niccs.cisa.gov/sites/default/files/documents/pdf/ncsam_eskimming_508.pdf)
+- [Instituto nacional de normas y tecnología. (2019, julio). Ciberseguridad para pequeñas empresas. Temas de ciberseguridad. Consultado en diciembre de 2022.](https://www.nist.gov/system/files/documents/2019/07/17/nist_small_business_fundamentals_july_2019.pptx)
+- [Instituto Nacional de Normas y Tecnología. (s.f.). Inteligencia artificial: Aprendizaje automático adversarial. Centro nacional de excelencia en ciberseguridad. Consultado en diciembre de 2022.](https://www.nccoe.nist.gov/ai/adversarial-machine-learning)
+- [Google. (2022, 7 de octubre). Hackear Google.](https://www.youtube.com/playlist?list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H)
+- [Instituto Nacional de Estándares y Tecnología. (s.f.). Una introducción a los componentes del marco. Marco de ciberseguridad. Consultado en diciembre de 2022.](https://www.nist.gov/cyberframework/online-learning/components-framework)
+- [Instituto Nacional de Normas y Tecnología. (2020, diciembre). Integridad de datos: Identificación y protección de activos contra el Ransomware y otros eventos destructivos. Publicación especial 1800-25A del NIST. Consultado en diciembre de 2022.](https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html)
+- [Proyecto abierto de seguridad de las aplicaciones web. (2021). A04:2021 - Diseño inseguro. OWASP top ten. Consultado en diciembre de 2022.](https://owasp.org/Top10/A04_2021-Insecure_Design/)
+- [Oficina del servicio fiscal. (s.f.). Normas de uso de CAS. Normas CAS y requisitos de seguridad.](https://www.fiscal.treasury.gov/cas/rules-and-security-requirements.html)
+- [Centros para el Control y la Prevención de Enfermedades. (s.f.). Ley de portabilidad y responsabilidad del seguro médico de 1996 (HIPAA). Ley de salud pública.](https://www.cdc.gov/phlp/publications/topic/hipaa.html)
+- [Departamento de Salud y Servicios Humanos. (2020, 3 de septiembre). Controles CIS y el HPH. Programa de ciberseguridad del HHS.](https://www.hhs.gov/sites/default/files/cis-controls-and-the-hph.pdf)
+- [Administración Federal de Aviación. (s.f.). Organización internacional de normalización . Centro aeronáutico Mike Monroney.](https://www.faa.gov/about/office_org/regions_centers/mmac/logistics/iso)
+- [FedRamp. (s.f.). Seguridad de los servicios en la nube para el gobierno federal. Información para nuestros socios.](https://www.fedramp.gov/)
+- [Gov.uk. (s.f.). Protección de datos. Sus derechos y asistencia jurídica.](https://www.gov.uk/data-protection)
+- [Instituto Nacional de Normas y Tecnología. (s.f.) Comenzando nuestro viaje hacia el marco de ciberseguridad (CSF) del NIST. Marco de ciberseguridad. Accedido en diciembre de 2022.](https://www.nist.gov/cyberframework)
+- [NDNB. (sin fecha). SOC 1 (SSAE 16/SSAE 18) - Nuevas normas para los informes SOC 1. Libros blancos de Cumplimiento.](https://socreports.com/white-papers/soc-1/why-a-new-standard)
+- [La Casa Blanca. (2021, 12 de mayo). Orden ejecutiva sobre la mejora de la ciberseguridad de la nación. Acciones presidenciales.](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
+- [Agencia de Protección Medioambiental de Estados Unidos. (s.f.). Regiones de la red eléctrica de EE.UU.. Red eléctrica y mercados estadounidenses.](https://www.epa.gov/green-power-markets/us-grid-regions)
+- [Vallor, S., Rewak, W.J. (s.f.). Una introducción a la ética de la ciberseguridad. Universidad de Santa Clara.](https://www.scu.edu/media/ethics-center/technology-ethics/IntroToCybersecurityEthics.pdf)
+- [113º Congreso. (2014, 10 de julio). Resumen: S.2588-113º congreso. Ley de intercambio de información sobre ciberseguridad de 2014.](https://www.congress.gov/bill/113th-congress/senate-bill/2588)
+- [Oficina de Asistencia Judicial. (s.f.). Ley de privacidad de las comunicaciones electrónicas de 1986. Intercambio de información judicial.](https://bja.ojp.gov/program/it/privacy-civil-liberties/authorities/statutes/1285)
+- [Servicio de Investigación del Congreso. (2020, 21 de septiembre). La ciberdelincuencia y la ley: Computer fraud and abuse act (CFAA) and the 116th congress. Servicio de investigación del Congreso.](https://sgp.fas.org/crs/misc/R46536.pdf)
+- [Google Cloud. (sin fecha). Visión general de Chronicle. Guías.](https://cloud.google.com/chronicle/docs/overview)
+- [Institutos Nacionales de Salud. (2021, 21 de julio). Información de seguridad y administración de eventos (SIEM): Análisis, tendencias y uso en infraestructuras críticas. Lista de revistas.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8309804/)
+- [Splunk. (s.f.). ¿Por qué splunk? Productos.](https://www.splunk.com/en_us/about-us/why-splunk.html)
+- [Asociación Internacional de Jefes de Policía. (s.f.). Comprender las pruebas digitales. Centro Cibernético de Aplicación de la Ley.](https://www.iacpcybercenter.org/investigators/digital-evidence/understanding-digital-evidence/)
+- [Institutos Nacionales de Salud. (2022, febrero). Cadena de custodia. PMC PubMed Central.](https://www.ncbi.nlm.nih.gov/books/NBK551677/)
+- [Auth0. (2022, marzo, 2). Codificación, cifrado y hashing. Blog.](https://auth0.com/blog/encoding-encryption-hashing/)
+- [Proyecto abierto de seguridad de las aplicaciones web. (2022). OWASP top ten. Principal. Consultado en diciembre de 2022.](https://owasp.org/www-project-top-ten/)
+- [GitHub. (s.f.). Acerca de READMEs. Personalice su repositorio.](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [GitHub. (s.f.). Registrarse para obtener una nueva cuenta de GitHub. Comenzar.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 
 ## Resumen de módulos
 ---

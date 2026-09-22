@@ -30,33 +30,61 @@
 
 ### Habilidades técnicas (hard skills)
 
-- **Linux Command Line (Bash)**: Navegación y gestión del sistema de archivos (`pwd`, `ls`, `cd`, `mkdir`, `rmdir`, `touch`, `rm`, `mv`, `cp`), lectura de archivos (`cat`, `head`, `tail`, `less`), filtrado de contenido (`grep`, `find`, piping `|`), y redirección de salida (`>`, `>>`).
-- **Gestión de usuarios y permisos en Linux**: Configuración de autorización y autenticación (`chmod`, `chown`, `useradd`, `usermod`, `userdel`), uso de `sudo` para privilegios elevados, e interpretación de la cadena de 10 caracteres de permisos (`rwx`).
-- **SQL (Structured Query Language)**: Consultas a bases de datos relacionales (`SELECT`, `FROM`, `ORDER BY`), filtrado de datos (`WHERE`, `LIKE`, comodines `%` y `_`, `BETWEEN`, operadores de comparación `=`, `>`, `<`, `>=`, `<=`, `<>`, `!=`), operadores lógicos (`AND`, `OR`, `NOT`), uniones de tablas (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN`), y funciones de agregación (`COUNT`, `AVG`, `SUM`).
-- **Gestión de paquetes de software**: Instalación y desinstalación de aplicaciones con administradores de paquetes (`APT`, `YUM`, `dpkg`, `RPM`).
-- **Editores de texto en línea de comandos**: Edición de archivos con `nano` (conocimiento básico de `Vim` y `Emacs`).
-- **Análisis de registros (logs)**: Revisión y filtrado de registros de seguridad para identificar accesos no autorizados, patrones sospechosos y vulnerabilidades.
+- Navegación y gestión del sistema de archivos en Linux con Bash
+- Lectura y edición de archivos desde la línea de comandos
+- Búsqueda y filtrado de archivos y contenido
+- Uso de tuberías y redirección de entrada y salida
+- Gestión de usuarios y grupos en Linux
+- Configuración e interpretación de permisos de archivos y directorios
+- Administración de privilegios con sudo
+- Consultas a bases de datos relacionales con SQL
+- Filtrado y ordenación de datos con SQL
+- Uso de operadores de comparación y operadores lógicos
+- Uniones de tablas en SQL (JOIN)
+- Uso de funciones de agregación en SQL
+- Instalación y desinstalación de paquetes de software
+- Edición de archivos con nano
+- Análisis de registros de seguridad (Log Analysis)
+- Consulta de documentación y ayuda de comandos en Linux
 
 ### Conceptos clave
 
-- **Sistemas operativos (OS)**: Funciones principales, relación entre hardware, software y aplicaciones, proceso de arranque (`BIOS`, `UEFI`, `bootloader`), y gestión de recursos (CPU, RAM, disco duro).
-- **Interfaces de usuario**: Diferencias entre GUI (Graphical User Interface) y CLI (Command-Line Interface), ventajas de la CLI en ciberseguridad (eficiencia, archivo de historial).
-- **Arquitectura de Linux**: Componentes del sistema (usuario, aplicaciones, shell, `Filesystem Hierarchy Standard (FHS)`, `kernel`, hardware).
-- **Distribuciones de Linux**: `Kali Linux` (pentesting y forense digital), `Ubuntu`, `Red Hat Enterprise Linux`, `Parrot`, `CentOS`, `AlmaLinux`.
-- **Virtualización**: Máquinas virtuales (VM), hipervisores (`KVM`), entornos aislados (`sandbox`) para análisis de malware.
-- **Bases de datos relacionales**: Estructura de tablas (columnas/campos, filas/registros), claves primarias y foráneas, tipos de datos (cadenas, numéricos, fecha/hora), valores `NULL`.
-- **Autenticación y autorización**: Principio de privilegio mínimo (`Principle of least privilege`), usuario root vs. `sudo`, archivo `sudoers`, gestión de grupos primarios y suplementarios.
-- **Ciberseguridad práctica**: Pruebas de penetración (`penetration testing`), análisis forense digital (`digital forensics`), herramientas de seguridad (`Metasploit`, `Burp Suite`, `John the Ripper`, `Wireshark`, `tcpdump`, `Autopsy`, `Suricata`), gestión de vulnerabilidades y parches, sistemas operativos heredados (`legacy OS`).
+- Sistemas operativos (Operating Systems, OS)
+- Relación entre hardware, software y aplicaciones
+- Proceso de arranque: BIOS, UEFI y gestor de arranque
+- Gestión de recursos: CPU, RAM y almacenamiento
+- Interfaces gráficas y de línea de comandos (GUI y CLI)
+- Arquitectura de Linux: usuario, aplicaciones, shell, sistema de archivos y kernel
+- Estándar de jerarquía del sistema de archivos (Filesystem Hierarchy Standard, FHS)
+- Distribuciones de Linux: Kali Linux, Ubuntu, Red Hat, Parrot, CentOS y AlmaLinux
+- Virtualización, máquinas virtuales e hipervisores
+- Entornos aislados para análisis de malware (Sandbox)
+- Bases de datos relacionales: tablas, campos y registros
+- Claves primarias y foráneas
+- Tipos de datos y valores NULL
+- Autenticación y autorización
+- Principio de privilegio mínimo (Principle of Least Privilege)
+- Usuario root, sudo y archivo sudoers
+- Grupos primarios y suplementarios
+- Pruebas de penetración (Penetration Testing)
+- Análisis forense digital (Digital Forensics)
+- Herramientas de seguridad y análisis de redes
+- Gestión de vulnerabilidades y parches
+- Sistemas operativos heredados (Legacy OS)
 
 ### Habilidades transferibles (soft skills)
 
-- **Resolución de problemas (Troubleshooting)**: Análisis de eventos de seguridad, rastreo de flujo de procesos para identificar dónde ocurrió un incidente, y uso de recursos comunitarios (`Stack Overflow`, `Stack Exchange`) para solucionar problemas técnicos.
-- **Pensamiento analítico**: Filtrado y análisis de grandes volúmenes de datos para identificar patrones inusuales, anomalías y posibles amenazas de seguridad.
-- **Toma de decisiones basada en datos**: Uso de consultas SQL y análisis de registros para respaldar decisiones de seguridad y comunicar hallazgos a las partes interesadas.
-- **Documentación y reporte**: Creación de informes de actividades de seguridad, documentación de comandos y procedimientos para portafolios profesionales.
-- **Aprendizaje continuo y autodidacta**: Uso de recursos integrados (`man`, `whatis`, `apropos`) y búsqueda en línea para aprender nuevos comandos y herramientas de forma autónoma.
-- **Atención al detalle**: Revisión exhaustiva de permisos de archivos, verificación de configuraciones de seguridad, y análisis detallado de registros para detectar irregularidades.
-- **Comunicación efectiva**: Explicación de conceptos técnicos y hallazgos de seguridad a audiencias con distintos niveles de conocimiento técnico.
+- Resolución de problemas técnicos (Troubleshooting)
+- Pensamiento analítico
+- Identificación de patrones y anomalías
+- Toma de decisiones basada en datos
+- Documentación de procedimientos y actividades de seguridad
+- Elaboración de informes de seguridad
+- Aprendizaje continuo y autónomo
+- Búsqueda de información y uso de recursos comunitarios
+- Atención al detalle
+- Comunicación de hallazgos a las partes interesadas
+- Comunicación de información técnica a audiencias no técnicas
 
 
 ## Descripción del curso
@@ -149,116 +177,43 @@
 
 ## Citas
 ---
-> Oficina de Estadísticas Laborales de EE.UU. (2022, 8 de septiembre). Analistas de seguridad de la información.
-> [https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
-
-> Krzyzanowski, P. (2015, 27 de enero). Sistemas operativos. Rutgers.
-> [https://people.cs.rutgers.edu/~pxk/416/notes/01-intro.html](https://people.cs.rutgers.edu/~pxk/416/notes/01-intro.html)
-
-> Instituto Nacional de Normas y Tecnología. (s.f.). Glosario. Consultado en diciembre de 2022.
-> [https://csrc.nist.gov/glossary](https://csrc.nist.gov/glossary)
-
-> Apple. (s.f.). Lanzamientos. Código abierto.
-> [https://opensource.apple.com/releases/](https://opensource.apple.com/releases/)
-
-> Apple, Darwin XNU. (s.f.). Repositorio GitHub. Apple.
-> [https://github.com/apple/darwin-xnu](https://github.com/apple/darwin-xnu)
-
-> Apple. (s.f.). Aplicar actualizaciones de seguridad.
-> [https://support.apple.com/en-us/HT201222](https://support.apple.com/en-us/HT201222)
-
-> Belding, G. (2020, 1 de septiembre). Por qué su programa de gestión de riesgos de seguridad debe incluir los sistemas heredados. Gestión, cumplimiento y auditoría.
-> [https://resources.infosecinstitute.com/topic/why-your-security-risk-management-program-should-include-legacy-systems/](https://resources.infosecinstitute.com/topic/why-your-security-risk-management-program-should-include-legacy-systems/)
-
-> Google. (s.f.). Chromium. Código abierto.
-> [https://opensource.google/projects/chromiumos](https://opensource.google/projects/chromiumos)
-
-> Google. (s.f.). Boletines de seguridad. Atención al cliente de Google Cloud.
-> [https://cloud.google.com/support/bulletins](https://cloud.google.com/support/bulletins)
-
-> Microsoft. (s.f.). Guía de actualizaciones de seguridad.
-> [https://msrc.microsoft.com/update-guide/vulnerability](https://msrc.microsoft.com/update-guide/vulnerability)
-
-> Singer, N. (2017, 13 de mayo). Cómo Google se apoderó de las aulas. The New York Times.
-> [https://www.nytimes.com/2017/05/13/technology/google-education-chromebooks-schools.html](https://www.nytimes.com/2017/05/13/technology/google-education-chromebooks-schools.html)
-
-> Stallman, R. (s.f.). Sistema operativo GNU.
-> [https://www.gnu.org/gnu/thegnuproject.html](https://www.gnu.org/gnu/thegnuproject.html)
-
-> StatCounter. (s.f.). Cuota de mercado mundial de sistemas operativos de escritorio: Sept 2022.
-> [https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202209-202209-bar](https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202209-202209-bar)
-
-> Los proyectos Chromium. (sin fecha). Preguntas frecuentes sobre Chromium OS.
-> [https://www.chromium.org/chromium-os/chromium-os-faq/](https://www.chromium.org/chromium-os/chromium-os-faq/)
-
-> Los editores de la Enciclopedia Británica. (2009, 30 de diciembre). Android. Enciclopedia Británica.
-> [https://www.britannica.com/technology/Android-operating-system](https://www.britannica.com/technology/Android-operating-system)
-
-> Los Editores de la Enciclopedia Británica. (s.f.). Chrome .  Enciclopedia Británica.
-> [https://www.britannica.com/technology/Chrome](https://www.britannica.com/technology/Chrome)
-
-> Los Editores de la Enciclopedia Británica. (s.f.). iOS. Enciclopedia Británica.
-> [https://www.britannica.com/technology/iOS](https://www.britannica.com/technology/iOS)
-
-> Los Editores de la Enciclopedia Británica. (s.f.). Linux. Enciclopedia Británica.
-> [https://www.britannica.com/technology/Linux](https://www.britannica.com/technology/Linux)
-
-> Los Editores de la Enciclopedia Británica. (s.f.). Mac OS. Enciclopedia Británica.
-> [https://www.britannica.com/technology/Mac-OS](https://www.britannica.com/technology/Mac-OS)
-
-> Los Editores de la Enciclopedia Británica. (s.f.). Microsoft Windows. Enciclopedia Británica.
-> [https://www.britannica.com/technology/Windows-OS](https://www.britannica.com/technology/Windows-OS)
-
-> Ubuntu. (s.f.). Informes CVE.
-> [https://ubuntu.com/security/cves](https://ubuntu.com/security/cves)
-
-> Proyecto de documentación de Linux. (s.f.). 3. ¿Qué ocurre cuando se enciende un ordenador? The Unix and Internet Fundamentals HOWTO.
-> [https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/bootup.html](https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/bootup.html)
-
-> Zetter, K. (2015, 20 de marzo). Hackear los chips de la BIOS ya no es sólo cosa de la NSA. WIRED.
-> [https://www.wired.com/2015/03/researchers-uncover-way-hack-bios-undermine-secure-operating-systems/](https://www.wired.com/2015/03/researchers-uncover-way-hack-bios-undermine-secure-operating-systems/)
-
-> Franklin, C., & Pollette, C. (2022, 7 de julio). Cómo funcionan los sistemas operativos. Cómo funcionan las cosas.
-> [https://computer.howstuffworks.com/operating-system2.htm](https://computer.howstuffworks.com/operating-system2.htm)
-
-> Universidad de Helsinki. (s.f.). Sistema operativo e interfaz de usuario. Habilidades digitales del estudiante.
-> [https://blogs.helsinki.fi/students-digital-skills/1-introduction-to-the-use-of-computers/1-1-computer-functionality/operating-system-and-user-interface/#:~:text=A%20user%20interface%20(UI)%20refers,command%20line%20using%20a%20keyboard.](https://blogs.helsinki.fi/students-digital-skills/1-introduction-to-the-use-of-computers/1-1-computer-functionality/operating-system-and-user-interface/#:~:text=A%20user%20interface%20(UI)%20refers,command%20line%20using%20a%20keyboard.)
-
-> Red Hat. (2023, 3 de enero). ¿Qué es Linux? Understanding Linux.
-> [https://www.redhat.com/en/topics/linux/what-is-linux](https://www.redhat.com/en/topics/linux/what-is-linux)
-
-> Siever, E., Figgins, S., Weber, A., Love, R., & Robbins, A. (2005). Linux en pocas palabras. O'Reilly Media, Inc. Libros electrónicos.
-> [https://repo.zenk-security.com/Linux%20et%20systemes%20d.exploitations/Linux-in-a-Nutshell-6th-Edition.pdf](https://repo.zenk-security.com/Linux%20et%20systemes%20d.exploitations/Linux-in-a-Nutshell-6th-Edition.pdf)
-
-> SUSE. (s.f.). ¿Qué es una distribución Linux?
-> [https://www.suse.com/suse-defines/definition/linux-distribution/](https://www.suse.com/suse-defines/definition/linux-distribution/)
-
-> Kali. (s.f.). ¿Debería utilizar Kali Linux?
-> [https://www.kali.org/docs/introduction/should-i-use-kali-linux/](https://www.kali.org/docs/introduction/should-i-use-kali-linux/)
-
-> Red Hat. (2021, 23 de marzo). ¿Qué es CentOS?
-> [https://www.redhat.com/en/topics/linux/what-is-centos](https://www.redhat.com/en/topics/linux/what-is-centos)
-
-> Gedris, V. (2003, 15 de junio). Una introducción al shell de comandos de Linux para principiantes.
-> [https://www2.karlin.mff.cuni.cz/~hron/NMNV532/ShellIntro.pdf](https://www2.karlin.mff.cuni.cz/~hron/NMNV532/ShellIntro.pdf)
-
-> Instituto Tecnológico de Massachusetts. (s.f.). Permisos de archivos y directorios en UFS y NFS.
-> [http://web.mit.edu/sipb/doc/working/afs/html/subsection3.1.html](http://web.mit.edu/sipb/doc/working/afs/html/subsection3.1.html)
-
-> Linuxize. (2020, 30 de mayo). Cómo crear usuarios en Linux.
-> [https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/#how-to-create-a-new-user-in-linux](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/#how-to-create-a-new-user-in-linux)
-
-> Prakash, A. (2022, 1 de febrero). Permisos y propiedad de archivos en Linux explicados con ejemplos. Manual de Linux.
-> [https://linuxhandbook.com/linux-file-permissions/](https://linuxhandbook.com/linux-file-permissions/)
-
-> Stack Exchange. (s.f.). Unix y Linux.
-> [https://unix.stackexchange.com/](https://unix.stackexchange.com/)
-
->Oracle. (2022, 2 de junio). ¿Qué es una base de datos?
-> [https://www.oracle.com/database/what-is-database/](https://www.oracle.com/database/what-is-database/)
-
-> Oracle. (2022, 2 de junio). ¿Qué es una base de datos relacional?
-> [https://www.oracle.com/database/what-is-a-relational-database/](https://www.oracle.com/database/what-is-a-relational-database/)
+- [Oficina de Estadísticas Laborales de EE.UU. (2022, 8 de septiembre). Analistas de seguridad de la información.](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+- [Krzyzanowski, P. (2015, 27 de enero). Sistemas operativos. Rutgers.](https://people.cs.rutgers.edu/~pxk/416/notes/01-intro.html)
+- [Instituto Nacional de Normas y Tecnología. (s.f.). Glosario. Consultado en diciembre de 2022.](https://csrc.nist.gov/glossary)
+- [Apple. (s.f.). Lanzamientos. Código abierto.](https://opensource.apple.com/releases/)
+- [Apple, Darwin XNU. (s.f.). Repositorio GitHub. Apple.](https://github.com/apple/darwin-xnu)
+- [Apple. (s.f.). Aplicar actualizaciones de seguridad.](https://support.apple.com/en-us/HT201222)
+- [Belding, G. (2020, 1 de septiembre). Por qué su programa de gestión de riesgos de seguridad debe incluir los sistemas heredados. Gestión, cumplimiento y auditoría.](https://resources.infosecinstitute.com/topic/why-your-security-risk-management-program-should-include-legacy-systems/)
+- [Google. (s.f.). Chromium. Código abierto.](https://opensource.google/projects/chromiumos)
+- [Google. (s.f.). Boletines de seguridad. Atención al cliente de Google Cloud.](https://cloud.google.com/support/bulletins)
+- [Microsoft. (s.f.). Guía de actualizaciones de seguridad.](https://msrc.microsoft.com/update-guide/vulnerability)
+- [Singer, N. (2017, 13 de mayo). Cómo Google se apoderó de las aulas. The New York Times.](https://www.nytimes.com/2017/05/13/technology/google-education-chromebooks-schools.html)
+- [Stallman, R. (s.f.). Sistema operativo GNU.](https://www.gnu.org/gnu/thegnuproject.html)
+- [StatCounter. (s.f.). Cuota de mercado mundial de sistemas operativos de escritorio: Sept 2022.](https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202209-202209-bar)
+- [Los proyectos Chromium. (sin fecha). Preguntas frecuentes sobre Chromium OS.](https://www.chromium.org/chromium-os/chromium-os-faq/)
+- [Los editores de la Enciclopedia Británica. (2009, 30 de diciembre). Android. Enciclopedia Británica.](https://www.britannica.com/technology/Android-operating-system)
+- [Los Editores de la Enciclopedia Británica. (s.f.). Chrome .  Enciclopedia Británica.](https://www.britannica.com/technology/Chrome)
+- [Los Editores de la Enciclopedia Británica. (s.f.). iOS. Enciclopedia Británica.](https://www.britannica.com/technology/iOS)
+- [Los Editores de la Enciclopedia Británica. (s.f.). Linux. Enciclopedia Británica.](https://www.britannica.com/technology/Linux)
+- [Los Editores de la Enciclopedia Británica. (s.f.). Mac OS. Enciclopedia Británica.](https://www.britannica.com/technology/Mac-OS)
+- [Los Editores de la Enciclopedia Británica. (s.f.). Microsoft Windows. Enciclopedia Británica.](https://www.britannica.com/technology/Windows-OS)
+- [Ubuntu. (s.f.). Informes CVE.](https://ubuntu.com/security/cves)
+- [Proyecto de documentación de Linux. (s.f.). 3. ¿Qué ocurre cuando se enciende un ordenador? The Unix and Internet Fundamentals HOWTO.](https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/bootup.html)
+- [Zetter, K. (2015, 20 de marzo). Hackear los chips de la BIOS ya no es sólo cosa de la NSA. WIRED.](https://www.wired.com/2015/03/researchers-uncover-way-hack-bios-undermine-secure-operating-systems/)
+- [Franklin, C., & Pollette, C. (2022, 7 de julio). Cómo funcionan los sistemas operativos. Cómo funcionan las cosas.](https://computer.howstuffworks.com/operating-system2.htm)
+- [Universidad de Helsinki. (s.f.). Sistema operativo e interfaz de usuario. Habilidades digitales del estudiante.](https://blogs.helsinki.fi/students-digital-skills/1-introduction-to-the-use-of-computers/1-1-computer-functionality/operating-system-and-user-interface/#:~:text=A%20user%20interface%20(UI)%20refers,command%20line%20using%20a%20keyboard.)
+- [Red Hat. (2023, 3 de enero). ¿Qué es Linux? Understanding Linux.](https://www.redhat.com/en/topics/linux/what-is-linux)
+- [Siever, E., Figgins, S., Weber, A., Love, R., & Robbins, A. (2005). Linux en pocas palabras. O'Reilly Media, Inc. Libros electrónicos.](https://repo.zenk-security.com/Linux%20et%20systemes%20d.exploitations/Linux-in-a-Nutshell-6th-Edition.pdf)
+- [SUSE. (s.f.). ¿Qué es una distribución Linux?](https://www.suse.com/suse-defines/definition/linux-distribution/)
+- [Kali. (s.f.). ¿Debería utilizar Kali Linux?](https://www.kali.org/docs/introduction/should-i-use-kali-linux/)
+- [Red Hat. (2021, 23 de marzo). ¿Qué es CentOS?](https://www.redhat.com/en/topics/linux/what-is-centos)
+- [Gedris, V. (2003, 15 de junio). Una introducción al shell de comandos de Linux para principiantes.](https://www2.karlin.mff.cuni.cz/~hron/NMNV532/ShellIntro.pdf)
+- [Instituto Tecnológico de Massachusetts. (s.f.). Permisos de archivos y directorios en UFS y NFS.](http://web.mit.edu/sipb/doc/working/afs/html/subsection3.1.html)
+- [Linuxize. (2020, 30 de mayo). Cómo crear usuarios en Linux.](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/#how-to-create-a-new-user-in-linux)
+- [Prakash, A. (2022, 1 de febrero). Permisos y propiedad de archivos en Linux explicados con ejemplos. Manual de Linux.](https://linuxhandbook.com/linux-file-permissions/)
+- [Stack Exchange. (s.f.). Unix y Linux.](https://unix.stackexchange.com/)
+- [Oracle. (2022, 2 de junio). ¿Qué es una base de datos?](https://www.oracle.com/database/what-is-database/)
+- [Oracle. (2022, 2 de junio). ¿Qué es una base de datos relacional?](https://www.oracle.com/database/what-is-a-relational-database/)
 
 ## Resumen de módulos
 ---
