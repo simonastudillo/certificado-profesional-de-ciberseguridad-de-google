@@ -102,3 +102,18 @@
    - Cuando completes el Certificado de Ciberseguridad de Google, recibirás un correo electrónico de Credly (admin@credly.com) con instrucciones sobre cómo reclamar tu insignia y configurar tu cuenta.
    - Reclama tu insignia en la plataforma Acclaim de Credly utilizando la dirección de correo electrónico vinculada a tu cuenta de Coursera. Tendrás que optar por compartir tu información y recibir tu insignia
    - Por favor, espere al menos una semana desde su fecha de finalización para que el sistema se actualice. Recuerda comprobar tu carpeta de correo no deseado.
+
+---
+
+## Recursos para los graduados del Certificado en Ciberseguridad de Google
+- ¡Enhorabuena por haber completado el Certificado de Ciberseguridad de Google! Tu dedicación te ha permitido acceder a recursos y ventajas exclusivos que te ayudarán a impulsar tu carrera profesional. Accede y comparte tu insignia de finalización, recibe orientación profesional personalizada y prácticas para entrevistas, y aprovecha un descuento exclusivo en tu examen de certificación CompTIA Security+.
+- Para acceder a estos recursos de forma gratuita, solo tienes que iniciar sesión con la misma dirección de correo electrónico que utilizaste al inscribirte en el certificado en Coursera. Ten en cuenta que estas ventajas solo están disponibles para los titulados que hayan completado los ocho cursos del programa del Certificado de ciberseguridad de Google.
+- Completa el Certificado de Ciberseguridad de Google (¡Hecho!)
+- Reclama tu insignia del Certificado de Ciberseguridad de Google y compártela con tu red profesional
+- Muestra tus nuevas habilidades y amplía tu red profesional
+- Conéctate con una comunidad de estudiantes y descubre nuevas oportunidades
+- Aprovecha tu descuento del 30 % en el examen de certificación CompTIA Security+
+- Consigue preparación para entrevistas, asesoramiento y ayuda con el currículum sin coste alguno (solo para titulados de EE. UU.)
+- Explora posibilidades profesionales con Career Dreamer
+- Aprender a gestionar tu búsqueda de empleo de forma eficiente y con confianza utilizando la IA.
+- Inspira a otros compartiendo tu historia
