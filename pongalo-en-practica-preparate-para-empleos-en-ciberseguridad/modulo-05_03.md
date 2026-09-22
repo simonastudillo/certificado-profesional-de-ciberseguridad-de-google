@@ -57,3 +57,30 @@
 - ​Aún queda mucho por ​explorar en la seguridad mundial, ​pero ha tenido un buen comienzo.
 - ​Ha sido un placer ​guiarlos en la parte final de este programa.
 - ​Sé que está bien preparado para comenzar o ​continuar una notable carrera en Seguridad. ​Enhorabuena y mucha suerte en su viaje. 
+
+---
+
+## Muestre su trabajo
+- Enhorabuena por haber obtenido el Certificado de Ciberseguridad de Google
+- Ahora es el momento de dar a conocer al mundo las habilidades que has adquirido para ayudarte a avanzar en tu carrera profesional.
+- Te recomendamos que añadas la finalización de este programa de certificación a tu currículum y a tu perfil de LinkedIn®.
+- Sigue leyendo y sigue estos consejos para empezar.
+
+- Añade el certificado de ciberseguridad de Google a tu currículum y a tu perfil de LinkedIn
+   - Es posible que ya hayas empezado a elaborar un currículum sobre ciberseguridad al principio del programa
+   - En esta lección de Google Applied Digital Skills encontrarás más información sobre cómo crear un currículum: Crear un currículum
+   - Actualiza tu sección de Educación o Licencias y Certificaciones
+      - Para añadir la realización de este certificado a tu currículum, actualiza tu sección de Educación o Licencias y certificaciones.
+   - Actualiza tu sección de habilidades
+      - Si procede, actualiza la sección Habilidades de tu currículum.
+      - A continuación encontrarás una lista completa de las habilidades que este certificado fue diseñado para ayudarte a desarrollar y que potencialmente podrías añadir.
+   - Actualiza tu sección Resumen o Acerca de
+      - Si tu currículum tiene una sección de Resumen, puedes incluir esta certificación como cualificación.
+      - Aquí tienes un ejemplo de resumen profesional:
+         - Resumen profesional
+            - Profesional de ciberseguridad orientado a los detalles, dedicado a proteger a las organizaciones y a las personas a las que prestan servicio. Con conocimientos sobre los marcos de trabajo de NIST y capacidad para implementar controles de seguridad que garanticen el cumplimiento de normativas internacionales relacionadas con la protección de datos.
+            - Experiencia en la identificación de amenazas, riesgos y vulnerabilidades; fortalecimiento de la seguridad de sistemas (hardening); modelado de amenazas; y escalamiento y respuesta ante incidentes.
+            - Dominio del uso de la línea de comandos de Linux, SQL y Python. Sólidas habilidades de comunicación y resolución de problemas.
+            - Recientemente completó el Certificado Profesional de Ciberseguridad de Google, un programa riguroso y basado en habilidades que cubre conocimientos y competencias fundamentales en ciberseguridad.
+   - Añade tu insignia
+      - Consulta el siguiente punto del curso para saber cómo reclamar tu insignia de finalización del certificado de ciberseguridad de Google y añadirla a tu perfil de LinkedIn®
