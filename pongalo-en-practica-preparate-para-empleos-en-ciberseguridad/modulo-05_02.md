@@ -123,3 +123,36 @@
          - Es un concepto estandarizado que describe las siete capas que utilizan los ordenadores para comunicarse y enviar datos a través de la red.
       - ¿Qué son las herramientas SIEM y para qué sirven?
          - Las herramientas SIEM son herramientas de administración de información y eventos de seguridad que utilizan los profesionales de la seguridad para identificar y analizar amenazas, riesgos y vulnerabilidades de seguridad.
+
+---
+
+## Karan Consejos para la entrevista de un gestor de contratación
+- ​Hola, soy Karan. ​Soy gerente de ingeniería de seguridad en Google.
+- ​Como parte de mi trabajo, sí participo en la contratación de candidatos.
+- ​Y hasta ahora he hablado con cientos de posibles candidatos, ​personas que realmente se han metido en Google.
+- ​Casi cada vez que me encuentro con alguien, veo un nuevo camino y ​siempre es fascinante para mí aprender sobre alguien más.
+- ​Una cosa que estoy viendo de manera muy interesante es el aumento del número de personas que ​provienen de entornos no técnicos.
+- ​Así que eso puede ser reclutamiento, ventas, como lo que sea.
+- ​Estamos viendo a un montón de personas.
+- ​Así que para preparar las entrevistas, creo que se puede dividir esa pregunta en ​preparación técnica y preparación no técnica.
+- ​Por lo tanto, para la preparación técnica, ​aconsejo a las personas que se basen en los fundamentos de las redes y los fundamentos de la ​seguridad de la información y que entiendan todos esos conceptos, ¿verdad?
+- ​Así que entiendes cómo funcionan las cosas, cómo se relacionan y todo eso.
+- ​Asegúrese de hacer preguntas aclaratorias para llegar a la raíz del problema y a ​lo que el entrevistador quiere de usted.
+- ​Mucha gente simplemente se sumerge en el problema sin aclararlo realmente.
+- ​Si no sabes algo, no dudes en decir que no sé y decir, pero ​así es como abordaría el problema.
+- ​Para las piezas no técnicas, creo que es practicar con un amigo, ¿verdad?
+- ​Tenga un compañero de entrevista y vea cómo responde, vea dónde pierde el tiempo y ​sea amable consigo mismo mientras lo hace.
+- ​Concéntrese en llevar todo su ser a la entrevista.
+- ​Eso significa mostrar cómo trabajarás con un equipo.
+- ​Menciona ejemplos de proyectos que hayas realizado con otras personas, ​cómo has dirigido esos proyectos, ¿has realizado colaboraciones de código abierto?
+- ​Muchas de estas habilidades sociales, si se me permite decirlo, ​son muy importantes incluso cuando se está resolviendo un problema de seguridad.
+- ​Estos son algunos de los aspectos clave que buscamos ​cuando entrevistamos para puestos.
+- ​Para la gente nueva en la industria, lo principal que buscaríamos ​es curiosidad.
+- ​Personalmente, busco personas que tengan ganas, ​que estén muy motivadas por aprender más sobre el campo.
+- ​Puede que no lo sepan todo y nosotros lo sabemos, pero queremos asegurarnos de que ​formulan las preguntas correctas y abordan el problema trabajando con otros.
+- ​Así que si obtenemos una respuesta como «no lo sé», pero lo averiguaré y así es cómo, ​es increíble.
+- ​También diré que no tengas miedo al rechazo, ¿verdad?
+- ​Porque lleva tiempo encontrar tu primer papel.
+- ​Me llevó cientos de solicitudes encontrar mi primer trabajo.
+- ​Y luego no dude en postularse, incluso si no cumple con todos los ​requisitos requeridos o preferidos, ¿verdad?
+- ​Basta con mirar las calificaciones mínimas. ​Y si lo apruebas, no está de más postularte. ​Así que, por favor, sigue solicitando. 
