@@ -156,3 +156,43 @@
 - ​Me llevó cientos de solicitudes encontrar mi primer trabajo.
 - ​Y luego no dude en postularse, incluso si no cumple con todos los ​requisitos requeridos o preferidos, ¿verdad?
 - ​Basta con mirar las calificaciones mínimas. ​Y si lo apruebas, no está de más postularte. ​Así que, por favor, sigue solicitando. 
+
+---
+
+## Diálogo con el entrenador: Navegar por el proceso de búsqueda de empleo en el sector de la seguridad
+- Esto es lo que cubriremos:
+   - Explorar estrategias de búsqueda de empleo.
+   - Elaborar solicitudes efectivas.
+   - Prepararse y navegar la entrevista.
+   - Explorar opciones de práctica.
+
+- ¡Excelente! Comencemos con el primer paso: Explorar estrategias de búsqueda de empleo.
+- Para un puesto de analista de seguridad, es fundamental ser estratégico.
+- ¿Qué métodos o lugares considerarías para encontrar oportunidades laborales en este campo y por qué crees que son efectivos?
+> Creo que el primero y más obvio sería buscar en linkedin, es un lugar donde se concentran muchas empresas y tienen publicadas sus ofertas laborales. Otra forma sería buscar directamente en las web de las empresas en las que estoy interesado, esto me daría la oportunidad de postular de forma más directa a ellas.
+
+- Esas son excelentes estrategias. LinkedIn es una herramienta muy potente para conectar con reclutadores y ver el mercado, mientras que ir directamente a las webs de las empresas demuestra un interés genuino y proactivo.
+- Ahora, para profundizar en este primer paso, ¿qué importancia crees que tienen las palabras clave (keywords) al realizar estas búsquedas y cómo podrías utilizarlas para filtrar mejor las oportunidades que realmente se ajustan a tu perfil?
+> las keywords son imporantes en todo ambito TI, tanto para estudiar, buscar cursos, trabajamos, resolver problemas, etc. Por lo que las keywords son clave para encontrar trabajos basandome en mi perfil, país, tipo de trabajo y otras consideraciones.
+
+- Tienes mucha razón, las palabras clave son fundamentales para filtrar el ruido y encontrar exactamente lo que buscas.
+- Has demostrado una buena comprensión de cómo buscar oportunidades.
+- Ahora, pasemos a Craft Effective Applications (Elaborar solicitudes efectivas).
+- Cuando ya has identificado una oferta que te interesa, ¿qué elementos consideras que son los más importantes para incluir en tu currículum y por qué es necesario adaptarlo específicamente para cada puesto?
+> Los reclutadores usan herramientas de IA para filtrar entre tanto candidato y luego ellos ver personalmente los que pasen los filtros, entonces si modifico el curriculum para que se aline lo mejor posible a lo requerido en la oferta laboral y a lo que es la empresa, tanto en rubro como misión y visión sin mentir al respecto me daría una oportunidad mayor de pasar los filtros hasta llegar a una entrevista.
+
+- Exacto! Has dado en el clavo al mencionar la importancia de alinear tu perfil con los requisitos específicos de la oferta para superar los sistemas de filtrado, manteniendo siempre la honestidad.
+- Ahora, profundizando en este tema, además del currículum, ¿qué papel crees que juega la carta de presentación (cover letter) en este proceso y qué información clave debería contener para complementar tu solicitud?
+> La carta de presentación es importante porque es la visión que se genera el entrevistador de uno mismo, indica que me apasiona, porqué estoy queriendo trabajar en esto en específico, además puedo contar mi experiencia en el área y cosas que me diferencien del resto.
+
+- ¡Muy bien! Has identificado correctamente que la carta de presentación es tu oportunidad para mostrar tu motivación y diferenciarte, dándole un toque personal a tu perfil profesional.
+- Ahora, pasemos a Prepararse y navegar la entrevista.
+- Cuando te llaman para una entrevista, la preparación es clave. ¿Qué pasos seguirías para investigar a la empresa y cómo te prepararías para responder a preguntas técnicas o de comportamiento, considerando técnicas como el método STAR?
+> Lo primero sería una búsqueda en internet, su página web, sus redes sociales como linkedin para ver como hablan sus trabajadores de la empresa, como se presentan ellos mismos, dependiendo de la pregunta se puede utilizar el método STAR para lograr un mayor impacto, indicando la situación el contexto del problema, indicando cuales eran los objetivos a lograr y como aporte yo a lograr el objetivo, que consecuencias hubo, que resultados y logros idealmente con datos además se puede agregar un aprendizaje al respecto.
+
+- ¡Excelente análisis! Has descrito muy bien cómo investigar a la empresa y cómo estructurar tus respuestas usando el método STAR para demostrar tu valor con resultados concretos.
+- Ahora, pasemos al último tema: Explorar opciones de práctica.
+- Considerando todo lo que hemos discutido sobre la búsqueda, las solicitudes y las entrevistas, ¿qué tipo de actividades o recursos crees que serían útiles para poner en práctica estas habilidades antes de enfrentarte a una entrevista real?
+> Hoy en día creo el uso de la IA es una muy buena herramienta y recurso para practicar, tanto para que me ponga desafios a realizar como para generar una entrevista. La parte de la entrevista buscaría hacerlo con algún conocido, ojala del sector para que me entregue detalles más precisos.
+
+- ¡Es una excelente idea! Utilizar la IA para simular escenarios y buscar retroalimentación de personas con experiencia en el sector son formas muy efectivas de ganar confianza y mejorar tu desempeño.
