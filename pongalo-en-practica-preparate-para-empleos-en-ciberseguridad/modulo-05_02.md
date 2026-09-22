@@ -33,3 +33,48 @@
 - ​¿Qué es lo que me interesa de ti? ​Eso los lleva a este momento y a esta oportunidad.
 - ​Primero quieres captar la atención de alguien ​y luego captar su atención y su mente.
 - ​Sé valiente, sé ruidoso. ​Creo que mantén las palabras simples pero sé audaz. 
+
+---
+
+## Garvey Consejos para una entrevista técnica
+- ​Me llamo Garvey.
+- ​Soy gerente de personal global en Google.
+- ​He contratado, diría yo, a ​varios cientos de ingenieros de seguridad ​aquí en Google durante los últimos siete años.
+- ​Daría un consejo a quienes se están ​preparando para sus entrevistas técnicas: ​no esperen que la entrevista sea ​un examen trivial de ​cuántas preguntas pueden responder en este período de tiempo.
+- ​Como entrevistador, quiero saber si ​el candidato entiende ​los fundamentos y si puede explicármelos.
+- ​Yo recomendaría prepararse ​para programas y aplicaciones cuando haga una entrevista de nivel inicial, ​por ejemplo, Splunk o Wireshark, que ​comprenda sus funciones y su propósito.
+- ​Si puedes llegar al punto de entender ​sus aspectos internos, por qué existen.
+- ​Si no existieran, ¿cómo resolverías un problema?
+- ​Aparte de eso, basta con comprender los fundamentos de los ​temas que existen en este espacio, la seguridad de la red, las ​aplicaciones web, los conocimientos de seguridad, los aspectos ​internos del sistema operativo, la ​comprensión y el dominio de los protocolos de seguridad.
+- ​Creo que es un punto de partida importante.
+- ​Practica responder a las preguntas abiertas. ​Suelen ser muy difíciles.
+- ​Son ambiguos por diseño. ​Tienen un diseño complejo.
+- ​Siempre querrás empezar primero ​por hacer preguntas aclaratorias.
+- ​Pídele a tu entrevistador información que te ayude a ​delimitar el enfoque de la pregunta en sí, ​pero también a reducir el alcance ​del problema a ​algo que puedas responder por ti mismo, ​que sepas, con lo que te sientas cómodo.
+- ​Organice su respuesta mediante el Método STAR.
+- ​Es una excelente manera de organizarse cuando se ​enfrenta a una pregunta grande y abierta.
+- ​Ayudará a tu entrevistador a ​entender tu línea de pensamiento.
+- ​Pensar en voz alta también ​ayudará a tu entrevistador a entender, ​vale, aquí es a donde va Garvey con esta respuesta.
+- ​Si necesito ayudarlo, puedo ayudarlo.
+- ​Si tal vez no obtiene la respuesta completa, ​sé que iba por buen camino ​porque pensaba en voz alta.
+- ​Comprendí a dónde iba.
+- ​No sabes la respuesta, está bien.
+- ​Una vez más, nadie espera que camines sobre el agua, ​pero no esperamos que mientas, por así decirlo.
+- ​Mi candidato ideal es alguien a quien le encante aprender.
+- ​Alguien que es humilde, es honesto.
+- ​Alguien que pueda arreglárselas a través de la ambigüedad y ​la complejidad de su propia vida.
+- ​No tiene por qué estar ​directamente relacionado con la ciberseguridad, ​sino alguien que, cuando se enfrenta a ​un problema, corre hacia él.
+- ​Siempre hay un estudiante.
+- ​Siempre están ahí para aprender.
+- ​Son para guiar o guiar a otros.
+- ​Demuestran ​esas características a lo largo de su vida.
+- ​Nervioso durante las entrevistas técnicas, ​creo que es bastante normal.
+- ​Está bien estar nervioso.
+- ​Creo que significa que te importa.
+- ​Hay una razón por la que estás ahí.
+- ​Hay una razón por la que te encuentras en ese momento.
+- ​Alguien ya ha contado contigo.
+- ​Creen en ti.
+- ​El espacio te necesita.
+- Yo diría que confíe en usted mismo.
+- ​Confía en tu instinto. No tengas miedo de fallar. 
