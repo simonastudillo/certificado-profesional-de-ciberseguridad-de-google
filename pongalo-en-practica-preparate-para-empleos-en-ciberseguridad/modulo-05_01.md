@@ -510,3 +510,12 @@ Gemini, ChatGPT de OpenAI y Microsoft Copilot son ejemplos de herramientas de IA
 - También aprenderá a escribir mensajes eficaces y a utilizar la IA de forma responsable, identificando los posibles sesgos de la IA y evitando los daños.
 - Una vez finalizado el curso, obtendrá un certificado de Google que podrá compartir con su red de contactos y su empresa.
 - Al utilizar la IA como una herramienta de colaboración útil, puedes prepararte para el éxito en el dinámico lugar de trabajo actual, y ni siquiera necesitas conocimientos de programación para utilizarla.
+
+---
+
+## Refleje
+
+1. Reflexionando sobre el contenido de este módulo, ¿ves ahora formas específicas en las que podrías aprovechar la IA para facilitar tareas como la identificación de errores, el perfeccionamiento del código y una mejor comprensión de las posibles vulnerabilidades en tu trabajo de ciberseguridad? ¿Se te ocurren otras formas de utilizar la IA para facilitar las tareas de ciberseguridad?
+   - [x] Sí, comprendo mejor cómo utilizar la IA para ayudar con los flujos de trabajo de ciberseguridad.
+   - [ ] No, no entiendo cómo la IA puede ayudar con los flujos de trabajo de ciberseguridad.
+> ¡Genial! Saber cuándo y cómo utilizar la IA puede aumentar enormemente su eficacia como profesional de la ciberseguridad.
