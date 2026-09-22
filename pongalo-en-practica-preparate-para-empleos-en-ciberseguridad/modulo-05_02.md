@@ -236,4 +236,4 @@
 ---
 
 ## Glosario del curso 8
-- El glosario completo se encuentra [aquí](../README.md#glosario)
+- El glosario completo se encuentra [aquí](./README.md#glosario)

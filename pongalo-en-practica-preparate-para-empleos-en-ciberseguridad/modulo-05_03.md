@@ -117,3 +117,8 @@
 - Explora posibilidades profesionales con Career Dreamer
 - Aprender a gestionar tu búsqueda de empleo de forma eficiente y con confianza utilizando la IA.
 - Inspira a otros compartiendo tu historia
+
+---
+
+## Glosario del Certificado de Ciberseguridad de Google
+- El glosario completo se encuentra [aquí](../README.md#glosario)
