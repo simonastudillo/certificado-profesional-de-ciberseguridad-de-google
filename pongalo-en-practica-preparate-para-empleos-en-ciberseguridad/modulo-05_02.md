@@ -203,3 +203,13 @@
 - Áreas para mejorar:
    - Aunque tu enfoque es sólido, te sugiero profundizar en la investigación de las "habilidades blandas" (soft skills) específicas que las empresas de ciberseguridad valoran, además de las técnicas, para enriquecer aún más tus futuras cartas de presentación.
    - Te animo a buscar comunidades o foros de ciberseguridad donde puedas practicar el "networking" activo, lo cual complementará muy bien tus estrategias de búsqueda actuales.
+
+---
+
+## ¡Qué lejos has llegado!
+
+1. Ha recorrido un largo camino en su viaje por la ciberseguridad, desde la evaluación de amenazas, vulnerabilidades y riesgos de seguridad hasta el aprendizaje sobre redes, SQL y automatización de tareas con Python.
+- Piense en las razones que le han llevado a inscribirse en este programa de certificación y en el objetivo que se marcó al comenzar esta empresa. ¿Ha progresado hacia este objetivo? ¿Se le ocurren los próximos pasos que podría dar para alcanzarlo? 
+   - [ ] SI
+   - [ ] NO
+> Estupendo Vas por buen camino
