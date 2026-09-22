@@ -122,3 +122,7 @@
 
 ## Glosario del Certificado de Ciberseguridad de Google
 - El glosario completo se encuentra [aquí](../README.md#glosario)
+
+---
+
+## Encuesta de fin de curso
