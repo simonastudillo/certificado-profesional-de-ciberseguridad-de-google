@@ -230,5 +230,10 @@
 - ​Esto incluyó discusiones sobre cómo usar imágenes para transmitir información importante ​y enviar correos electrónicos, hacer llamadas telefónicas o enviar mensajes instantáneos.
 - ​Después de eso, compartimos algunas formas de interactuar con la comunidad de Seguridad, incluida la ​asistencia a conferencias y la conexión con otros analistas a través de un sitio de redes.
 - ​Luego pasamos a la sección final del curso, ​que trataba sobre cómo encontrar, prepararse y solicitar empleo.
--​Esto incluyó discusiones sobre cómo crear un currículum convincente y ​consejos para ayudarlo a navegar por el proceso de la entrevista.
+- Esto incluyó discusiones sobre cómo crear un currículum convincente y ​consejos para ayudarlo a navegar por el proceso de la entrevista.
 - ​Ha sido un placer absoluto guiarlos en este viaje. 
+
+---
+
+## Glosario del curso 8
+- El glosario completo se encuentra [aquí](../README.md#glosario)
